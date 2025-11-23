@@ -67,7 +67,7 @@ def parse_vmess(uri):
         "cipher": "auto",
         "tls": js.get("tls", "") == "tls",
         "network": "ws",
-        "udp": "true",
+        "udp": True,
         "ws-opts": {
             "path": js.get("path", "/"),
             "headers": {"Host": js.get("host", "")}
@@ -99,7 +99,7 @@ def parse_vless(uri):
         "uuid": u.username,
         "network": "ws",
         "tls": q.get("security", ["none"])[0] == "tls",
-        "udp": "true",
+        "udp": True,
     }
 
     if "sni" in q:
@@ -127,7 +127,7 @@ def parse_trojan(uri):
     proxy = {
         "name": clean_name(u.fragment or "trojan-node"),
         "type": "trojan",
-        "udp": "true",
+        "udp": True,
         "server": "bug.xcp",
         "port": 443,
         "password": u.username
