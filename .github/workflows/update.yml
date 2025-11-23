@@ -31,7 +31,11 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add dialer-proxy.yaml
-          git add jomblo.yaml
+
+          git add dialer-proxy.yaml jomblo.yaml
+
+          # kalau tidak ada perubahan → keluar tanpa error
+          git diff --cached --quiet && echo "No changes detected" && exit 0
+
           git commit -m "Auto-update $(date)"
           git push
