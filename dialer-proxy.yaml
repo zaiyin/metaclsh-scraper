@@ -8,6 +8,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  udp: 'true'
   network: tcp
 - name: 🇸🇬 trojan-SG-11841398
   dialer-proxy: LBKuota
@@ -15,6 +16,7 @@ proxies:
   server: 116.49.237.130
   port: 1691
   password: BxceQaOe
+  udp: 'true'
   sni: t.me/ripaojiedian
 - name: 🇸🇬 ss-SG-11818509
   dialer-proxy: LBKuota
@@ -22,6 +24,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
+  udp: 'true'
   port: 443
 - name: 🇸🇬 trojan-SG-11781945
   dialer-proxy: LBKuota
@@ -29,6 +32,7 @@ proxies:
   server: 206.206.77.237
   port: 51469
   password: LxJCPOP40a
+  udp: 'true'
 - name: 🇸🇬 vmess-SG-11772406
   dialer-proxy: LBKuota
   type: vmess
@@ -38,6 +42,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  udp: 'true'
   network: tcp
   servername: 18.143.248.157
 - name: 🇸🇬 trojan-SG-11753587
@@ -46,6 +51,7 @@ proxies:
   server: 160.16.240.91
   port: 5553
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  udp: 'true'
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
@@ -53,6 +59,7 @@ proxies:
   server: 153.121.73.102
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  udp: 'true'
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
@@ -60,6 +67,7 @@ proxies:
   server: 160.16.89.176
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  udp: 'true'
   sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
   dialer-proxy: LBKuota
@@ -69,6 +77,7 @@ proxies:
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   network: ws
   tls: true
+  udp: 'true'
   sni: ovhwuxian.pai50288.uk
   ws-opts:
     path: /57ba2ab1
@@ -82,6 +91,7 @@ proxies:
   uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
   network: tcp
   tls: false
+  udp: 'true'
   sni: www.lamer.com.sg
 - name: 🇸🇬 vless-SG-11404553
   dialer-proxy: LBKuota
@@ -91,6 +101,7 @@ proxies:
   uuid: fe7d9497-c04b-4462-900d-333abc79a90f
   network: tcp
   tls: false
+  udp: 'true'
 - name: 🇸🇬 vless-SG-11404061
   dialer-proxy: LBKuota
   type: vless
@@ -99,6 +110,7 @@ proxies:
   uuid: c4ccf00e-72c6-4fd9-b7ce-f625a835539f
   network: tcp
   tls: false
+  udp: 'true'
 - name: 🇸🇬 vmess-SG-11398481
   dialer-proxy: LBKuota
   type: vmess
@@ -108,6 +120,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  udp: 'true'
   network: tcp
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
@@ -118,6 +131,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
+  udp: 'true'
   network: ws
   ws-opts:
     path: /
@@ -133,6 +147,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  udp: 'true'
   network: tcp
 - name: 🇸🇬 trojan-SG-6153812
   dialer-proxy: LBKuota
@@ -140,6 +155,7 @@ proxies:
   server: 139.180.143.191
   port: 10293
   password: aWgKDJmn2q.hv=51
+  udp: 'true'
   sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩 ss-ID
   dialer-proxy: LBKuota
@@ -147,6 +163,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
+  udp: 'true'
   port: 990
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
@@ -156,6 +173,7 @@ proxies:
   uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   network: ws
   tls: true
+  udp: 'true'
   sni: vless.muzheng.top
   ws-opts:
     path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
@@ -169,6 +187,7 @@ proxies:
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   network: ws
   tls: true
+  udp: 'true'
   sni: gaosir.unfeeling.sbs
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
@@ -182,6 +201,7 @@ proxies:
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   network: ws
   tls: true
+  udp: 'true'
   sni: gaosir.unfeeling.sbs
   ws-opts:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
@@ -195,6 +215,7 @@ proxies:
   uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   network: ws
   tls: true
+  udp: 'true'
   sni: ayanamirei.11160321.xyz
   ws-opts:
     path: /ed=2560
@@ -208,6 +229,7 @@ proxies:
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   network: ws
   tls: true
+  udp: 'true'
   sni: gaosir.unfeeling.sbs
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
@@ -221,6 +243,7 @@ proxies:
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
+  udp: 'true'
   sni: fast01.0860852.xyz
   ws-opts:
     path: /Telegram🇨🇳
@@ -234,6 +257,7 @@ proxies:
   uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
   network: ws
   tls: true
+  udp: 'true'
   sni: soft98m.dPdNS.OrG
   ws-opts:
     path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
@@ -247,6 +271,7 @@ proxies:
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
+  udp: 'true'
   sni: fast01.0860852.xyz
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
