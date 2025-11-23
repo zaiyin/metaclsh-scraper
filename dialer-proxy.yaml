@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.116.227
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -57,7 +57,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.89.176
+  server: 160.16.117.182
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -156,40 +156,40 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: ip.sb
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: 91.192.81.154
-  port: 2053
+  server: 25.25.25.253
+  port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /x @节点狂魔 /
+    path: /Telegram @sinavm/?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 45.192.224.253
+  server: 104.21.224.5
   port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 178.239.123.216
+  port: 24443
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   udp: true
   network: ws
   tls: true
-  sni: vless.muzheng.top
+  sni: vless3.datatestvless.click
   ws-opts:
-    path: /Telegram@Selinc/?ed=2560
+    path: /?ed=2560
     headers:
-      Host: vless.muzheng.top
+      Host: vless3.datatestvless.click
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
@@ -207,7 +207,7 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 159.246.55.253
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -221,17 +221,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: mfa.gov.ua
-  port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: ayanamirei.11160321.xyz
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /ed=2560
+    path: /Telegram🇨🇳 @Selinc /?ed=2560
     headers:
-      Host: ayanamirei.11160321.xyz
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
