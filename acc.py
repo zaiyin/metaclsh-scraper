@@ -201,7 +201,7 @@ def build_proxies(nodes):
 # --------------------------------------------
 # SAVE YAML TANPA JARAK ANTAR ITEM
 # --------------------------------------------
-def save_yaml(data, filename="proxies.yaml"):
+def save_yaml(data, filename="dialer-proxy.yaml"):
     with open(filename, "w", encoding="utf-8") as f:
         yaml.dump(
             data,
