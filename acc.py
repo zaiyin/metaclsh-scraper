@@ -4,266 +4,250 @@ import requests
 from urllib.parse import urlparse, parse_qs
 import json
 
+============================================
 
-# ======================================================
-# LIST SUBSCRIPTION (boleh lebih dari 1)
-# ======================================================
-URLS = [
-    "https://www.v2nodes.com/subscriptions/country/sg/?key=AADB0E71BD506FF",
-    # Tambah lagi jika mau:
-    # "https://example.com/sub2",
-]
+GANTI URL SUBSCRIPTION DI SINI
 
+============================================
 
-# ======================================================
-# SETTING FILTER
-# ======================================================
-REPLACE_SERVER = "bug.xcp"     # server override
-FILTER_WS_ONLY = False         # True = hanya WS
-FILTER_PORT_443 = False        # True = hanya port 443
+URL = "https://www.v2nodes.com/subscriptions/country/sg/?key=AADB0E71BD506FF"
 
+--------------------------------------------
 
-# ======================================================
-# FETCH SUBSCRIPTION
-# ======================================================
+FETCH SUBSCRIPTION
+
+--------------------------------------------
+
 def fetch_subscription(url):
-    print(f"[*] Fetching: {url}")
-    resp = requests.get(url, timeout=15)
-    resp.raise_for_status()
-    return resp.text.strip()
+print("[*] Fetching subscription…")
+resp = requests.get(url, timeout=10)
+resp.raise_for_status()
+return resp.text.strip()
 
+--------------------------------------------
 
-# ======================================================
-# DECODE BASE64 JIKA PERLU
-# ======================================================
+DECODE SUBSCRIPTION (jika base64)
+
+--------------------------------------------
+
 def decode_subscription(data):
-    try:
-        return base64.b64decode(data).decode("utf-8")
-    except:
-        return data
-
+try:
+return base64.b64decode(data).decode("utf-8")
+except:
+return data
 
 def parse_nodes(text):
-    return [l.strip() for l in text.splitlines() if l.strip()]
+return [l.strip() for l in text.splitlines() if l.strip()]
 
+---------------------------------------------------------
 
-# ======================================================
-# CLEAN NAME
-# ======================================================
+CLEAN NAME
+
+---------------------------------------------------------
+
 def clean_name(name):
-    return name.replace("[www.v2nodes.com]", "").strip()
+name = name.replace("[www.v2nodes.com]", "")
+return name.strip()
 
+--------------------------------------------
 
-# ======================================================
-# PARSER VMESS
-# ======================================================
+PARSER VMESS
+
+--------------------------------------------
+
 def parse_vmess(uri):
-    raw = uri.replace("vmess://", "")
-    decoded = base64.b64decode(raw).decode("utf-8")
-    js = json.loads(decoded)
+raw = uri.replace("vmess://", "")
+decoded = base64.b64decode(raw).decode("utf-8")
+js = json.loads(decoded)
 
-    net = js.get("net", "tcp")
-    port = int(js.get("port", 0))
+proxy = {  
+    "name": clean_name(js.get("ps", "vmess-node")),  
+    "dialer-proxy": "LBKuota",  
+    "type": "vmess",  
+    "server": js["add"],  
+    "port": int(js["port"]),  
+    "uuid": js["id"],  
+    "alterId": int(js.get("aid", 0)),  
+    "cipher": "auto",  
+    "tls": js.get("tls", "") == "tls",  
+    "udp": True,  
+    "network": js.get("net", "tcp")  
+}  
 
-    if FILTER_WS_ONLY and net != "ws":
-        return None
-    if FILTER_PORT_443 and port != 443:
-        return None
+if js.get("net") == "ws":  
+    proxy["ws-opts"] = {  
+        "path": js.get("path", "/"),  
+        "headers": {"Host": js.get("host", "")}  
+    }  
 
-    proxy = {
-        "name": clean_name(js.get("ps", "vmess")),
-        "type": "vmess",
-        "server": REPLACE_SERVER,
-        "port": port,
-        "uuid": js.get("id"),
-        "alterId": int(js.get("aid", 0)),
-        "cipher": "auto",
-        "tls": js.get("tls", "") == "tls",
-        "udp": True,
-        "network": net,
-    }
+if js.get("host"):  
+    proxy["servername"] = js.get("host")  
 
-    if net == "ws":
-        proxy["ws-opts"] = {
-            "path": js.get("path", "/"),
-            "headers": {"Host": js.get("host", "")}
-        }
+return proxy
 
-    if js.get("host"):
-        proxy["servername"] = js.get("host")
+--------------------------------------------
 
-    return proxy
+PARSER VLESS
 
+--------------------------------------------
 
-# ======================================================
-# PARSER VLESS
-# ======================================================
 def parse_vless(uri):
-    uri = uri.replace("&amp;", "&")
-    u = urlparse(uri)
-    q = parse_qs(u.query)
+uri = uri.replace("&", "&")
+u = urlparse(uri)
+q = parse_qs(u.query)
 
-    net = q.get("type", ["tcp"])[0]
-    port = int(u.port)
+proxy = {  
+    "name": clean_name(u.fragment or "vless-node"),  
+    "dialer-proxy": "LBKuota",  
+    "type": "vless",  
+    "server": u.hostname,  
+    "port": int(u.port),  
+    "uuid": u.username,  
+    "network": q.get("type", ["tcp"])[0],  
+    "tls": q.get("security", ["none"])[0] == "tls",  
+    "udp": True,  
+}  
 
-    if FILTER_WS_ONLY and net != "ws":
-        return None
-    if FILTER_PORT_443 and port != 443:
-        return None
+if "sni" in q:  
+    proxy["sni"] = q["sni"][0]  
 
-    proxy = {
-        "name": clean_name(u.fragment or "vless"),
-        "type": "vless",
-        "server": REPLACE_SERVER,
-        "port": port,
-        "uuid": u.username,
-        "network": net,
-        "tls": q.get("security", ["none"])[0] == "tls",
-        "udp": True,
-    }
+if proxy["network"] == "ws":  
+    proxy["ws-opts"] = {  
+        "path": q.get("path", [""])[0],  
+        "headers": {"Host": q.get("host", [""])[0]}  
+    }  
 
-    if "sni" in q:
-        proxy["sni"] = q["sni"][0]
+return proxy
 
-    if net == "ws":
-        proxy["ws-opts"] = {
-            "path": q.get("path", [""])[0],
-            "headers": {"Host": q.get("host", [""])[0]}
-        }
+--------------------------------------------
 
-    return proxy
+PARSER TROJAN
 
+--------------------------------------------
 
-# ======================================================
-# PARSER TROJAN
-# ======================================================
 def parse_trojan(uri):
-    u = urlparse(uri)
-    q = parse_qs(u.query)
+u = urlparse(uri)
+q = parse_qs(u.query)
 
-    port = int(u.port)
-    net = q.get("type", ["tcp"])[0]
+proxy = {  
+    "name": clean_name(u.fragment or "trojan-node"),  
+    "dialer-proxy": "LBKuota",  
+    "type": "trojan",  
+    "server": u.hostname,  
+    "port": int(u.port),  
+    "password": u.username,  
+    "udp": True,  
+}  
 
-    if FILTER_WS_ONLY and net != "ws":
-        return None
-    if FILTER_PORT_443 and port != 443:
-        return None
+if "sni" in q:  
+    proxy["sni"] = q["sni"][0]  
 
-    proxy = {
-        "name": clean_name(u.fragment or "trojan"),
-        "type": "trojan",
-        "server": REPLACE_SERVER,
-        "port": port,
-        "password": u.username,
-        "udp": True,
-    }
+return proxy
 
-    if "sni" in q:
-        proxy["sni"] = q["sni"][0]
+--------------------------------------------
 
-    if net == "ws":
-        proxy["network"] = "ws"
-        proxy["ws-opts"] = {
-            "path": q.get("path", [""])[0],
-            "headers": {"Host": q.get("host", [""])[0]}
-        }
+PARSER SHADOWSOCKS (SS)
 
-    return proxy
+--------------------------------------------
 
-
-# ======================================================
-# PARSER SS
-# ======================================================
 def parse_ss(uri):
-    try:
-        uri = uri.strip()
-        raw = uri[5:]
+try:
+uri = uri.strip()
+raw = uri[5:]
 
-        if "#" in raw:
-            raw, name = raw.split("#", 1)
-        else:
-            name = "ss-node"
+if "#" in raw:  
+        raw, name = raw.split("#", 1)  
+    else:  
+        name = "ss-node"  
 
-        if "@" in raw:
-            left, host_port = raw.split("@", 1)
-            try:
-                decoded = base64.b64decode(left).decode()
-                cipher, password = decoded.split(":", 1)
-            except:
-                cipher, password = left.split(":", 1)
-            host, port = host_port.split(":", 1)
-        else:
-            decoded = base64.b64decode(raw).decode()
-            cipher, rest = decoded.split(":", 1)
-            password, host_port = rest.split("@", 1)
-            host, port = host_port.split(":", 1)
+    # CASE 1: base64@host  
+    if "@" in raw:  
+        left, host_port = raw.split("@", 1)  
 
-        return {
-            "name": clean_name(name),
-            "type": "ss",
-            "cipher": cipher,
-            "password": password,
-            "server": REPLACE_SERVER,
-            "port": int(port),
-            "udp": True
-        }
+        # coba decode  
+        try:  
+            decoded = base64.b64decode(left).decode()  
+            cipher, password = decoded.split(":", 1)  
+        except:  
+            cipher, password = left.split(":", 1)  
 
-    except Exception:
-        return None
+        host, port = host_port.split(":", 1)  
 
+    # CASE 2: full base64  
+    else:  
+        decoded = base64.b64decode(raw).decode()  
+        cipher, rest = decoded.split(":", 1)  
+        password, host_port = rest.split("@", 1)  
+        host, port = host_port.split(":", 1)  
 
-# ======================================================
-# BUILD PROXIES
-# ======================================================
+    return {  
+        "name": clean_name(name),  
+        "dialer-proxy": "LBKuota",  
+        "type": "ss",  
+        "cipher": cipher,  
+        "password": password,  
+        "server": host,  
+        "udp": True,  
+        "port": int(port)  
+    }  
+
+except Exception as e:  
+    raise ValueError(f"Error parse SS: {str(e)}")
+
+--------------------------------------------
+
+BUILD PROXIES LIST
+
+--------------------------------------------
+
 def build_proxies(nodes):
-    proxies = []
+proxies = []
 
-    for n in nodes:
-        try:
-            if n.startswith("vmess://"):
-                p = parse_vmess(n)
-            elif n.startswith("vless://"):
-                p = parse_vless(n)
-            elif n.startswith("trojan://"):
-                p = parse_trojan(n)
-            elif n.startswith("ss://"):
-                p = parse_ss(n)
-            else:
-                p = None
+for n in nodes:  
+    try:  
+        if n.startswith("vmess://"):  
+            proxies.append(parse_vmess(n))  
+        elif n.startswith("vless://"):  
+            proxies.append(parse_vless(n))  
+        elif n.startswith("trojan://"):  
+            proxies.append(parse_trojan(n))  
+        elif n.startswith("ss://"):  
+            proxies.append(parse_ss(n))  
 
-            if p:
-                proxies.append(p)
+    except Exception as e:  
+        print("Parsing gagal:", e)  
+        print("Node bermasalah:", n)  
 
-        except Exception as e:
-            print("Error:", e)
-            print("Node:", n)
+return {"proxies": proxies}
 
-    return {"proxies": proxies}
+--------------------------------------------
 
+SAVE YAML TANPA JARAK ANTAR ITEM
 
-# ======================================================
-# SAVE YAML
-# ======================================================
+--------------------------------------------
+
 def save_yaml(data, filename="dialer-proxy.yaml"):
-    with open(filename, "w", encoding="utf-8") as f:
-        yaml.dump(data, f, allow_unicode=True, sort_keys=False)
-    print("[*] Saved:", filename)
+with open(filename, "w", encoding="utf-8") as f:
+yaml.dump(
+data,
+f,
+allow_unicode=True,
+sort_keys=False
+)
+print("[*] File saved:", filename)
 
+--------------------------------------------
 
-# ======================================================
-# MAIN
-# ======================================================
+MAIN
+
+--------------------------------------------
+
 def main():
-    all_nodes = []
+raw = fetch_subscription(URL)
+decoded = decode_subscription(raw)
+nodes = parse_nodes(decoded)
+result = build_proxies(nodes)
+save_yaml(result)
 
-    for url in URLS:
-        raw = fetch_subscription(url)
-        decoded = decode_subscription(raw)
-        all_nodes.extend(parse_nodes(decoded))
-
-    result = build_proxies(all_nodes)
-    save_yaml(result)
-
-
-if __name__ == "__main__":
-    main()
+if name == "main":
+main()
