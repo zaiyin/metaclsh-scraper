@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 153.121.73.102
+  server: 160.16.138.24
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -57,10 +57,11 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.117.182
+  server: 160.16.214.6
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
   dialer-proxy: LBKuota
   type: vless
