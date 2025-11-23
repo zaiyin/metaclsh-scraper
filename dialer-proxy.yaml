@@ -38,6 +38,14 @@ proxies:
   udp: true
   network: tcp
   servername: 18.143.248.157
+- name: 🇸🇬 trojan-SG-11761617
+  dialer-proxy: LBKuota
+  type: trojan
+  server: 38.180.191.251
+  port: 443
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
 - name: 🇸🇬 trojan-SG-11753587
   dialer-proxy: LBKuota
   type: trojan
@@ -156,7 +164,7 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 25.25.25.253
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -164,7 +172,7 @@ proxies:
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /Telegram @sinavm/?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
@@ -264,17 +272,3 @@ proxies:
     path: /ed=2560
     headers:
       Host: ayanamirei.11160321.xyz
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /
-    headers:
-      Host: gaosir.unfeeling.sbs
