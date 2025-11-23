@@ -61,7 +61,6 @@ proxies:
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
   dialer-proxy: LBKuota
   type: vless
@@ -96,6 +95,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
@@ -179,17 +179,12 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 178.239.123.216
-  port: 24443
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: vless3.datatestvless.click
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vless3.datatestvless.click
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
@@ -272,14 +267,9 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 198.202.211.253
+  server: 159.246.55.253
   port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
