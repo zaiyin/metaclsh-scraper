@@ -79,6 +79,7 @@ def parse_vmess(uri):
 # PARSER VLESS
 # --------------------------------------------
 def parse_vless(uri):
+    uri = uri.replace("&amp;", "&")
     u = urlparse(uri)
     q = parse_qs(u.query)
 
