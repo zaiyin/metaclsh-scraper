@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -57,7 +57,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.117.182
+  server: 160.16.89.176
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -96,7 +96,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
@@ -259,17 +258,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: staticdelivery.nexusmods.com
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: ayanamirei.11160321.xyz
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /ed=2560
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: ayanamirei.11160321.xyz
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless

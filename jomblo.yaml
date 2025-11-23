@@ -131,3 +131,16 @@ proxies:
     path: /ed=2560
     headers:
       Host: ayanamirei.11160321.xyz
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  network: ws
+  tls: true
+  udp: true
+  sni: ayanamirei.11160321.xyz
+  ws-opts:
+    path: /ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
