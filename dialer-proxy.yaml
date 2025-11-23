@@ -213,35 +213,7 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 141.101.114.197
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
-  udp: true
-  network: ws
-  tls: true
-  sni: RR-FF.pages.DEV
-  ws-opts:
-    path: /assets?ed=2560
-    headers:
-      Host: RR-FF.pages.DEV
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: 172.67.166.211
-  port: 443
-  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
-  udp: true
-  network: ws
-  tls: true
-  sni: soft98m.dPdNS.OrG
-  ws-opts:
-    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-    headers:
-      Host: soft98m.dpdns.org
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: cf.tencentapp.cn
+  server: cloudflare-dl.byoip.top
   port: 443
   uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
@@ -252,6 +224,29 @@ proxies:
     path: /ed=2560
     headers:
       Host: ayanamirei.11160321.xyz
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless

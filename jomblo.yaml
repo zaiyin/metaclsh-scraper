@@ -96,19 +96,6 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
-  network: ws
-  tls: true
-  udp: true
-  sni: soft98m.dPdNS.OrG
-  ws-opts:
-    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-    headers:
-      Host: soft98m.dpdns.org
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
-  port: 443
   uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   network: ws
   tls: true
