@@ -1,0 +1,35 @@
+name: Auto Scrape Proxy
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # setiap 1 jam
+  workflow_dispatch:       # bisa run manual
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Run scraper
+        run: |
+          python acc.py
+
+      - name: Commit & Push changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add proxies.yaml
+          git commit -m "Auto-update $(date)"
+          git push
