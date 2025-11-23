@@ -25,6 +25,7 @@ jobs:
       - name: Run scraper
         run: |
           python acc.py
+          python prx.py
 
       - name: Commit & Push changes
         run: |
