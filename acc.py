@@ -60,7 +60,7 @@ def parse_vmess(uri):
         "alterId": int(js.get("aid", 0)),
         "cipher": "auto",
         "tls": js.get("tls", "") == "tls",
-        "udp": "true",
+        "udp": true,
         "network": js.get("net", "tcp")
     }
 
@@ -93,7 +93,7 @@ def parse_vless(uri):
         "uuid": u.username,
         "network": q.get("type", ["tcp"])[0],
         "tls": q.get("security", ["none"])[0] == "tls",
-        "udp": "true",
+        "udp": true,
     }
 
     if "sni" in q:
@@ -122,7 +122,7 @@ def parse_trojan(uri):
         "server": u.hostname,
         "port": int(u.port),
         "password": u.username,
-        "udp": "true",
+        "udp": true,
     }
 
     if "sni" in q:
@@ -171,7 +171,7 @@ def parse_ss(uri):
             "cipher": cipher,
             "password": password,
             "server": host,
-            "udp": "true",
+            "udp": true,
             "port": int(port)
         }
 
