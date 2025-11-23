@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -61,6 +61,7 @@ proxies:
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
   dialer-proxy: LBKuota
   type: vless
@@ -95,7 +96,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
@@ -202,17 +202,12 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 25.25.25.253
+  server: 45.40.155.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
@@ -244,12 +239,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: store.ubi.com
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: ayanamirei.11160321.xyz
+  ws-opts:
+    path: /ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
