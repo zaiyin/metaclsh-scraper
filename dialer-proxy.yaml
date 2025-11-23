@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 153.121.73.102
+  server: 160.16.116.227
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -57,7 +57,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.89.176
+  server: 160.16.214.6
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -110,7 +110,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
@@ -264,14 +263,13 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 166.62.114.253
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
-  tls: true
-  sni: vless.muzheng.top
+  tls: false
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: vless.muzheng.top
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
