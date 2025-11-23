@@ -1,7 +1,8 @@
 proxies:
 - name: 🇸🇬 vmess-SG-11849129
+  dialer-proxy: LBKuota
   type: vmess
-  server: bug.xcp
+  server: 166.108.232.40
   port: 8009
   uuid: a9a0b976-3850-4461-b3e8-cb1d6a7875be
   alterId: 0
@@ -10,28 +11,25 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 trojan-SG-11841398
+  dialer-proxy: LBKuota
   type: trojan
-  server: bug.xcp
+  server: 116.49.237.130
   port: 1691
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
 - name: 🇸🇬 ss-SG-11818509
+  dialer-proxy: LBKuota
   type: ss
+  udp: true
   cipher: chacha20-ietf-poly1305
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  server: bug.xcp
+  server: 167.150.100.115
   port: 443
-  udp: true
-- name: 🇸🇬 trojan-SG-11781945
-  type: trojan
-  server: bug.xcp
-  port: 51469
-  password: LxJCPOP40a
-  udp: true
 - name: 🇸🇬 vmess-SG-11772406
+  dialer-proxy: LBKuota
   type: vmess
-  server: bug.xcp
+  server: 18.143.248.157
   port: 53784
   uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
   alterId: 0
@@ -41,67 +39,75 @@ proxies:
   network: tcp
   servername: 18.143.248.157
 - name: 🇸🇬 trojan-SG-11753587
+  dialer-proxy: LBKuota
   type: trojan
-  server: bug.xcp
+  server: 160.16.240.91
   port: 5553
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702720
+  dialer-proxy: LBKuota
   type: trojan
-  server: bug.xcp
+  server: 160.16.116.227
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702717
+  dialer-proxy: LBKuota
   type: trojan
-  server: bug.xcp
+  server: 160.16.117.182
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: ovhwuxian.pai50288.uk
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  udp: true
   network: ws
   tls: true
-  udp: true
   sni: ovhwuxian.pai50288.uk
   ws-opts:
     path: /57ba2ab1
     headers:
       Host: ovhwuxian.pai50288.uk
 - name: 🇸🇬 vless-SG-11528746
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: aws-linksg64.eovay.com
   port: 31064
   uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+  udp: true
   network: tcp
   tls: false
-  udp: true
   sni: www.lamer.com.sg
 - name: 🇸🇬 vless-SG-11404553
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: 46.250.237.164
   port: 55076
   uuid: fe7d9497-c04b-4462-900d-333abc79a90f
+  udp: true
   network: tcp
   tls: false
-  udp: true
 - name: 🇸🇬 vless-SG-11404061
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: 109.123.236.161
   port: 42692
   uuid: c4ccf00e-72c6-4fd9-b7ce-f625a835539f
+  udp: true
   network: tcp
   tls: false
-  udp: true
 - name: 🇸🇬 vmess-SG-11398481
+  dialer-proxy: LBKuota
   type: vmess
-  server: bug.xcp
+  server: 82.197.69.131
   port: 39674
   uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef
   alterId: 0
@@ -110,8 +116,9 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 vmess-SG-11391645
+  dialer-proxy: LBKuota
   type: vmess
-  server: bug.xcp
+  server: cf.090227.xyz
   port: 443
   uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
   alterId: 0
@@ -125,8 +132,9 @@ proxies:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vmess-SG-10987257
+  dialer-proxy: LBKuota
   type: vmess
-  server: bug.xcp
+  server: 62.146.235.193
   port: 28011
   uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a
   alterId: 0
@@ -135,120 +143,139 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 trojan-SG-6153812
+  dialer-proxy: LBKuota
   type: trojan
-  server: bug.xcp
+  server: 139.180.143.191
   port: 10293
   password: aWgKDJmn2q.hv=51
   udp: true
   sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩 ss-ID
+  dialer-proxy: LBKuota
   type: ss
+  udp: true
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-  server: bug.xcp
+  server: 154.205.159.100
   port: 990
-  udp: true
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: 166.62.104.253
   port: 2096
   uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
   network: ws
   tls: true
-  udp: true
   sni: vless.muzheng.top
   ws-opts:
     path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
       Host: vless.muzheng.top
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: 198.202.211.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  udp: true
   network: ws
   tls: true
-  udp: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  network: ws
-  tls: true
-  udp: true
-  sni: gaosir.unfeeling.sbs
+  sni: fast01.0860852.xyz
   ws-opts:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: fast01.0860852.xyz
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
-  port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  server: 91.192.81.154
+  port: 2053
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
   network: ws
   tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /x @节点狂魔 /
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: store.ubi.com
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
+  network: ws
+  tls: true
   sni: ayanamirei.11160321.xyz
   ws-opts:
     path: /ed=2560
     headers:
       Host: ayanamirei.11160321.xyz
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  network: ws
-  tls: true
   udp: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
+  server: 172.67.166.211
   port: 443
   uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  udp: true
   network: ws
   tls: true
-  udp: true
   sni: soft98m.dPdNS.OrG
   ws-opts:
     path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
     headers:
       Host: soft98m.dpdns.org
 - name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
   type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: cf.tencentapp.cn
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  udp: true
   network: ws
   tls: true
+  sni: ayanamirei.11160321.xyz
+  ws-opts:
+    path: /ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 198.202.211.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
+  network: ws
+  tls: true
   sni: fast01.0860852.xyz
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: fast01.0860852.xyz
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 166.62.114.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: vless.muzheng.top

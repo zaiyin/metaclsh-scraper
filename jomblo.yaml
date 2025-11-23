@@ -6,7 +6,7 @@ proxies:
   uuid: c3fec147-2189-4447-a590-2edcc0484ee8
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638992899243672646.stinger-amsid.info
   ws-opts:
     path: /qhxqyxws
@@ -19,7 +19,7 @@ proxies:
   uuid: 64f8f5e3-00eb-4a2e-be91-daab6634ae89
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638991939314084689.sonata-amsib.info
   ws-opts:
     path: /tssnuows
@@ -32,7 +32,7 @@ proxies:
   uuid: 391eb4b0-4b59-4f5c-8ced-c5f685ba255f
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638991681638536098.jetta-amsia.info
   ws-opts:
     path: /qixrimws
@@ -45,7 +45,7 @@ proxies:
   uuid: 0a079dd2-86dc-4209-b2b2-0069c5d6f1de
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638990351278603478.civic-amshz.info
   ws-opts:
     path: /kbsozzws
@@ -58,7 +58,7 @@ proxies:
   uuid: 634fa772-75d0-41ca-8fa3-8b500a3651c1
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638990235724147123.corolla-amshz.info
   ws-opts:
     path: /bzbtejws
@@ -71,7 +71,7 @@ proxies:
   uuid: bf88990d-178b-47f7-98bd-4c28ee9523aa
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: 638992899243644080.stinger-amsid.info
   ws-opts:
     path: /mqytbxws
@@ -86,7 +86,7 @@ proxies:
   cipher: auto
   tls: true
   network: ws
-  udp: 'true'
+  udp: true
   ws-opts:
     path: /
     headers:
@@ -99,7 +99,7 @@ proxies:
   uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: ayanamirei.11160321.xyz
   ws-opts:
     path: /ed=2560
@@ -112,9 +112,22 @@ proxies:
   uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
   network: ws
   tls: true
-  udp: 'true'
+  udp: true
   sni: soft98m.dPdNS.OrG
   ws-opts:
     path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
     headers:
       Host: soft98m.dpdns.org
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  network: ws
+  tls: true
+  udp: true
+  sni: ayanamirei.11160321.xyz
+  ws-opts:
+    path: /ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
