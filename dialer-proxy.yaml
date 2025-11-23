@@ -50,7 +50,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 153.121.73.102
+  server: 160.16.138.24
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   sni: www.nintendogames.net
@@ -109,6 +109,7 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
