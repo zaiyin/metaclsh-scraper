@@ -49,7 +49,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.116.227
+  server: 153.121.73.102
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -57,7 +57,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.89.176
+  server: 160.16.214.6
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
@@ -71,16 +71,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬 vless-SG-11528746
-  dialer-proxy: LBKuota
-  type: vless
-  server: aws-linksg64.eovay.com
-  port: 31064
-  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.lamer.com.sg
 - name: 🇸🇬 vless-SG-11404553
   dialer-proxy: LBKuota
   type: vless
@@ -194,35 +184,45 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 154.197.121.253
+  server: 198.202.211.253
   port: 2096
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: fast01.0860852.xyz
+  ws-opts:
+    path: /Telegram🇨🇳 @Selinc /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: cloudflare-dl.byoip.top
+  server: 172.67.166.211
   port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
   udp: true
   network: ws
   tls: true
-  sni: ayanamirei.11160321.xyz
+  sni: soft98m.dPdNS.OrG
   ws-opts:
-    path: /ed=2560
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
     headers:
-      Host: ayanamirei.11160321.xyz
+      Host: soft98m.dpdns.org
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 104.21.224.5
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
@@ -264,3 +264,17 @@ proxies:
     path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
       Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
