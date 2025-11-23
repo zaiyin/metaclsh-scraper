@@ -250,16 +250,12 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 104.21.81.174
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
-    headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
