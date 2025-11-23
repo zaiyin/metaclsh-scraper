@@ -50,7 +50,7 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702720
   dialer-proxy: LBKuota
   type: trojan
-  server: 160.16.138.24
+  server: 153.121.73.102
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   sni: www.nintendogames.net
@@ -109,7 +109,6 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBKuota
   type: vmess
@@ -165,7 +164,33 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: mfa.gov.ua
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBKuota
+  type: vless
+  server: store.ubi.com
   port: 443
   uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   network: ws
@@ -178,14 +203,14 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 159.246.55.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   network: ws
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
@@ -204,42 +229,16 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
-  server: 198.202.211.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 172.67.166.211
+  port: 443
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
   network: ws
   tls: true
-  sni: fast01.0860852.xyz
+  sni: soft98m.dPdNS.OrG
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
     headers:
-      Host: fast01.0860852.xyz
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: 185.251.81.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
-  type: vless
-  server: 92.53.191.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: fast01.0860852.xyz
+      Host: soft98m.dpdns.org
 - name: 🇺🇸 vless-US
   dialer-proxy: LBKuota
   type: vless
