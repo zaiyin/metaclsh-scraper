@@ -4,19 +4,19 @@ import requests
 from urllib.parse import urlparse, parse_qs
 import json
 
-============================================
+#============================================
 
-GANTI URL SUBSCRIPTION DI SINI
+#GANTI URL SUBSCRIPTION DI SINI
 
-============================================
+#============================================
 
 URL = "https://www.v2nodes.com/subscriptions/country/sg/?key=AADB0E71BD506FF"
 
---------------------------------------------
+#--------------------------------------------
 
-FETCH SUBSCRIPTION
+# FETCH SUBSCRIPTION
 
---------------------------------------------
+#--------------------------------------------
 
 def fetch_subscription(url):
 print("[*] Fetching subscription…")
@@ -24,11 +24,11 @@ resp = requests.get(url, timeout=10)
 resp.raise_for_status()
 return resp.text.strip()
 
---------------------------------------------
+#--------------------------------------------
 
-DECODE SUBSCRIPTION (jika base64)
+# DECODE SUBSCRIPTION (jika base64)
 
---------------------------------------------
+#--------------------------------------------
 
 def decode_subscription(data):
 try:
@@ -39,21 +39,21 @@ return data
 def parse_nodes(text):
 return [l.strip() for l in text.splitlines() if l.strip()]
 
----------------------------------------------------------
+#---------------------------------------------------------
 
-CLEAN NAME
+# CLEAN NAME
 
----------------------------------------------------------
+#---------------------------------------------------------
 
 def clean_name(name):
 name = name.replace("[www.v2nodes.com]", "")
 return name.strip()
 
---------------------------------------------
+#--------------------------------------------
 
-PARSER VMESS
+# PARSER VMESS
 
---------------------------------------------
+#--------------------------------------------
 
 def parse_vmess(uri):
 raw = uri.replace("vmess://", "")
@@ -85,11 +85,11 @@ if js.get("host"):
 
 return proxy
 
---------------------------------------------
+#--------------------------------------------
 
-PARSER VLESS
+# PARSER VLESS
 
---------------------------------------------
+#--------------------------------------------
 
 def parse_vless(uri):
 uri = uri.replace("&", "&")
@@ -119,11 +119,11 @@ if proxy["network"] == "ws":
 
 return proxy
 
---------------------------------------------
+#--------------------------------------------
 
-PARSER TROJAN
+# PARSER TROJAN
 
---------------------------------------------
+#--------------------------------------------
 
 def parse_trojan(uri):
 u = urlparse(uri)
@@ -144,11 +144,11 @@ if "sni" in q:
 
 return proxy
 
---------------------------------------------
+#--------------------------------------------
 
-PARSER SHADOWSOCKS (SS)
+# PARSER SHADOWSOCKS (SS)
 
---------------------------------------------
+#--------------------------------------------
 
 def parse_ss(uri):
 try:
@@ -194,11 +194,11 @@ if "#" in raw:
 except Exception as e:  
     raise ValueError(f"Error parse SS: {str(e)}")
 
---------------------------------------------
+#--------------------------------------------
 
-BUILD PROXIES LIST
+# BUILD PROXIES LIST
 
---------------------------------------------
+#--------------------------------------------
 
 def build_proxies(nodes):
 proxies = []
@@ -220,11 +220,11 @@ for n in nodes:
 
 return {"proxies": proxies}
 
---------------------------------------------
+#--------------------------------------------
 
-SAVE YAML TANPA JARAK ANTAR ITEM
+# SAVE YAML TANPA JARAK ANTAR ITEM
 
---------------------------------------------
+#--------------------------------------------
 
 def save_yaml(data, filename="dialer-proxy.yaml"):
 with open(filename, "w", encoding="utf-8") as f:
@@ -236,11 +236,11 @@ sort_keys=False
 )
 print("[*] File saved:", filename)
 
---------------------------------------------
+#--------------------------------------------
 
-MAIN
+# MAIN
 
---------------------------------------------
+#--------------------------------------------
 
 def main():
 raw = fetch_subscription(URL)
