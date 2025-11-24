@@ -65,9 +65,9 @@ proxies:
 - name: 🇸🇬 trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.236.32
   port: 2760
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
@@ -104,7 +104,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -204,14 +203,15 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🇺🇸 trojan-US
+- name: 🇺🇸 vless-US
   dialer-proxy: LBCF
-  type: trojan
-  server: joss.gpj1.web.id
-  port: 443
-  password: 6e6191a3-9a93-4617-859a-8d0ea0fce937
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  sni: joss.gpj1.web.id
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
