@@ -104,6 +104,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -203,18 +204,24 @@ proxies:
     path: /
     headers:
       Host: vless.muzheng.top
-- name: 🇺🇸 trojan-US
-  dialer-proxy: LBCF
-  type: trojan
-  server: time.is
-  port: 8443
-  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  udp: true
-  sni: cm3-bpg.filegear-sg.me
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 172.67.166.211
+  port: 443
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  udp: true
+  network: ws
+  tls: true
+  sni: soft98m.dPdNS.OrG
+  ws-opts:
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: soft98m.dpdns.org
+- name: 🇺🇸 vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -241,17 +248,12 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
