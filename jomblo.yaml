@@ -96,12 +96,12 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
   network: ws
   tls: true
   udp: true
-  sni: gaosir.unfeeling.sbs
+  sni: vless.hubp.de
   ws-opts:
-    path: /freecodes/
+    path: /?ed=2560
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: vless.hubp.de
