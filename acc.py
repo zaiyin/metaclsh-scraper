@@ -52,7 +52,7 @@ def parse_vmess(uri):
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
-        "dialer-proxy": "LBKuota",
+        "dialer-proxy": "LBCF",
         "type": "vmess",
         "server": js["add"],
         "port": int(js["port"]),
@@ -85,7 +85,7 @@ def parse_vless(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "vless-node"),
-        "dialer-proxy": "LBKuota",
+        "dialer-proxy": "LBCF",
         "type": "vless",
         "server": u.hostname,
         "port": int(u.port),
@@ -116,7 +116,7 @@ def parse_trojan(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "trojan-node"),
-        "dialer-proxy": "LBKuota",
+        "dialer-proxy": "LBCF",
         "type": "trojan",
         "server": u.hostname,
         "port": int(u.port),
@@ -165,7 +165,7 @@ def parse_ss(uri):
 
         return {
             "name": clean_name(name),
-            "dialer-proxy": "LBKuota",
+            "dialer-proxy": "LBCF",
             "type": "ss",
             "udp": True,
             "cipher": cipher,
