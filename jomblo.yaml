@@ -51,19 +51,6 @@ proxies:
     path: /qixrimws
     headers:
       Host: 638991681638536098.jetta-amsia.info
-- name: 🇲🇾 vless-MY-11819647
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 0a079dd2-86dc-4209-b2b2-0069c5d6f1de
-  network: ws
-  tls: true
-  udp: true
-  sni: 638990351278603478.civic-amshz.info
-  ws-opts:
-    path: /kbsozzws
-    headers:
-      Host: 638990351278603478.civic-amshz.info
 - name: 🇲🇾 vless-MY-11798877
   type: vless
   server: bug.xcp

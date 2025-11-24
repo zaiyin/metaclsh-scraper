@@ -1,6 +1,6 @@
 proxies:
 - name: 🇸🇬 vmess-SG-11849129
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vmess
   server: 166.108.232.40
   port: 8009
@@ -11,7 +11,7 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 trojan-SG-11841398
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
   server: 116.49.237.130
   port: 1691
@@ -19,7 +19,7 @@ proxies:
   udp: true
   sni: t.me/ripaojiedian
 - name: 🇸🇬 ss-SG-11818509
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
@@ -27,7 +27,7 @@ proxies:
   server: 167.150.100.115
   port: 443
 - name: 🇸🇬 vmess-SG-11772406
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vmess
   server: 18.143.248.157
   port: 53784
@@ -39,7 +39,7 @@ proxies:
   network: tcp
   servername: 18.143.248.157
 - name: 🇸🇬 trojan-SG-11761617
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
   server: 38.180.191.251
   port: 443
@@ -47,7 +47,7 @@ proxies:
   udp: true
   sni: t.me/ripaojiedian
 - name: 🇸🇬 trojan-SG-11753587
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
   server: 160.16.240.91
   port: 5553
@@ -55,23 +55,23 @@ proxies:
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702720
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 127
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 trojan-SG-11702717
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
-  server: 160.16.117.182
+  server: 160.16.223.205
   port: 2760
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬 vless-SG-11684604
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 104.21.3.219
   port: 8443
@@ -85,7 +85,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
 - name: 🇸🇬 vless-SG-11404553
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 46.250.237.164
   port: 55076
@@ -94,7 +94,7 @@ proxies:
   network: tcp
   tls: false
 - name: 🇸🇬 vmess-SG-11398481
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vmess
   server: 82.197.69.131
   port: 39674
@@ -105,7 +105,7 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 vmess-SG-11391645
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vmess
   server: cf.090227.xyz
   port: 443
@@ -121,7 +121,7 @@ proxies:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vmess-SG-10987257
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vmess
   server: 62.146.235.193
   port: 28011
@@ -132,7 +132,7 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬 trojan-SG-6153812
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: trojan
   server: 139.180.143.191
   port: 10293
@@ -140,7 +140,7 @@ proxies:
   udp: true
   sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩 ss-ID
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
@@ -148,7 +148,7 @@ proxies:
   server: 154.205.159.100
   port: 990
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 104.21.224.5
   port: 2096
@@ -162,7 +162,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 159.246.55.253
   port: 2096
@@ -176,7 +176,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 104.21.224.5
   port: 2096
@@ -185,7 +185,7 @@ proxies:
   network: tcp
   tls: false
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 159.246.55.253
   port: 2096
@@ -194,7 +194,7 @@ proxies:
   network: tcp
   tls: false
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 141.101.114.197
   port: 2083
@@ -208,7 +208,7 @@ proxies:
     headers:
       Host: RR-FF.pages.DEV
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 45.40.155.253
   port: 2096
@@ -217,7 +217,7 @@ proxies:
   network: tcp
   tls: false
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 159.246.55.253
   port: 2096
@@ -231,7 +231,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: 166.62.104.253
   port: 2096
@@ -245,7 +245,7 @@ proxies:
     headers:
       Host: vless.muzheng.top
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: store.ubi.com
   port: 443
@@ -259,7 +259,7 @@ proxies:
     headers:
       Host: ayanamirei.11160321.xyz
 - name: 🇺🇸 vless-US
-  dialer-proxy: LBKuota
+  dialer-proxy: LBCF
   type: vless
   server: staticdelivery.nexusmods.com
   port: 443
