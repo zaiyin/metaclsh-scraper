@@ -192,17 +192,12 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
@@ -210,8 +205,13 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
@@ -257,16 +257,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.81.174
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  server: 92.53.191.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+      Host: fast01.0860852.xyz
 - name: 🇺🇸 trojan-US
   dialer-proxy: LBCF
   type: trojan
