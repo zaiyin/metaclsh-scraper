@@ -2,7 +2,7 @@ name: Auto Scrape Proxy
 
 on:
   schedule:
-    - cron: "0 * * * *"   # setiap 1 jam
+    - cron: "0 */3 * * *"   # setiap 1 jam
   workflow_dispatch:       # bisa run manual
 
 jobs:
