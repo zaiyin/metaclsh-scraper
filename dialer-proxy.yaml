@@ -104,6 +104,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬 vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -150,17 +151,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 178.239.123.216
-  port: 24443
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: 198.202.211.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: vless3.datatestvless.click
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: vless3.datatestvless.click
+      Host: fast01.0860852.xyz
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
@@ -196,8 +197,13 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 trojan-US
   dialer-proxy: LBCF
   type: trojan
@@ -209,17 +215,17 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.44.81
-  port: 443
-  uuid: 6e95243c-544c-4770-b2cd-a5c5cc10211e
+  server: 166.62.104.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
   network: ws
   tls: true
-  sni: DIP.Amperes.Workers.DEV
+  sni: vless.muzheng.top
   ws-opts:
-    path: /assets
+    path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
-      Host: dip.amperes.workers.dev
+      Host: vless.muzheng.top
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
@@ -237,42 +243,35 @@ proxies:
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.166.211
+  server: 140.245.48.42
   port: 443
-  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: soft98m.dPdNS.OrG
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    path: /freecodes/
     headers:
-      Host: soft98m.dpdns.org
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸 vless-US
   dialer-proxy: LBCF
   type: vless
-  server: store.ubi.com
-  port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
-  tls: true
-  sni: ayanamirei.11160321.xyz
+  tls: false
   ws-opts:
-    path: /ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: ayanamirei.11160321.xyz
-- name: 🇺🇸 vless-US
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+- name: 🇺🇸 trojan-US
   dialer-proxy: LBCF
-  type: vless
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  type: trojan
+  server: cf.877774.xyz
+  port: 2087
+  password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
   udp: true
-  network: ws
-  tls: true
-  sni: ayanamirei.11160321.xyz
-  ws-opts:
-    path: /ed=2560
-    headers:
-      Host: ayanamirei.11160321.xyz
+  sni: cm3-bpg.filegear-sg.me
