@@ -92,6 +92,43 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇺🇸 trojan-US
+  type: trojan
+  udp: true
+  server: bug.xcp
+  port: 443
+  password: 6e6191a3-9a93-4617-859a-8d0ea0fce937
+  sni: joss.gpj1.web.id
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/81.91.214.85=443
+    headers:
+      Host: joss.gpj1.web.id
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6e95243c-544c-4770-b2cd-a5c5cc10211e
+  network: ws
+  tls: true
+  udp: true
+  sni: DIP.Amperes.Workers.DEV
+  ws-opts:
+    path: /assets
+    headers:
+      Host: dip.amperes.workers.dev
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  network: ws
+  tls: true
+  udp: true
+  sni: soft98m.dPdNS.OrG
+  ws-opts:
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: soft98m.dpdns.org
 - name: 🇺🇸 vless-US
   type: vless
   server: bug.xcp
