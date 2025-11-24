@@ -38,7 +38,7 @@ def parse_nodes(text):
 # CLEAN NAME
 # ---------------------------------------------------------
 def clean_name(name):
-    name = name.replace("[www.v2nodes.com]", "")
+    name = name.replace("[www.v2nodes.com]", "DP")
     return name.strip()
 
 
