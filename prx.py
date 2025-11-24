@@ -40,7 +40,7 @@ def parse_nodes(text):
 
 # ---------------- CLEAN NAME ---------------- #
 def clean_name(name):
-    return name.replace("[www.v2nodes.com]", "DP").strip()
+    return name.replace("[www.v2nodes.com]", "").strip()
 
 
 # ---------------- PARSER VMESS ---------------- #
