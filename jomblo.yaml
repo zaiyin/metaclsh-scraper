@@ -109,45 +109,6 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  udp: true
-  sni: 13bca32d.ba73fe85.netlib.re
-  ws-opts:
-    path: /
-    headers:
-      Host: 13bca32d.ba73fe85.netlib.re
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  network: ws
-  tls: true
-  udp: true
-  sni: www.x-aniu--sg.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  network: ws
-  tls: true
-  udp: true
-  sni: www.x-aniu--sg.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸 vless-US
-  type: vless
-  server: bug.xcp
-  port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
   tls: true

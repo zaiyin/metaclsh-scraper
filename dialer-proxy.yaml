@@ -131,17 +131,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 209.94.90.152
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 45.192.224.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
   network: ws
   tls: true
-  sni: 13bca32d.ba73fe85.netlib.re
+  sni: vless.muzheng.top
   ws-opts:
     path: /
     headers:
-      Host: 13bca32d.ba73fe85.netlib.re
+      Host: vless.muzheng.top
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -173,8 +173,53 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.79.57
-  port: 443
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.144.76
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: www.x-aniu--jp.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.x-aniu--jp.netlib.re
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.46.49
+  port: 2087
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
@@ -191,49 +236,13 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.62.103
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--sg.netlib.re
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
