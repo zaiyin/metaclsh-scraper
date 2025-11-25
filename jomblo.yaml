@@ -105,16 +105,14 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇺🇸 vless-US
-  type: vless
+- name: 🇺🇸 trojan-US
+  type: trojan
+  udp: true
   server: bug.xcp
   port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  network: ws
-  tls: true
-  udp: true
-  sni: www.x-aniu--sg.netlib.re
+  password: 6e6191a3-9a93-4617-859a-8d0ea0fce937
+  sni: joss.gpj1.web.id
   ws-opts:
-    path: /?ed=2560
+    path: /Free-VPN-CF-Geo-Project/81.91.214.85=443
     headers:
-      Host: www.x-aniu--sg.netlib.re
+      Host: joss.gpj1.web.id
