@@ -51,6 +51,17 @@ proxies:
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP vmess-SG-11687508
+  dialer-proxy: LBCF
+  type: vmess
+  server: 66.42.63.36
+  port: 11074
+  uuid: a432f27e-68d2-45a0-ab42-47606d4da983
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
@@ -173,21 +184,30 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 167.68.4.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 167.68.4.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: vless.muzheng.top
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -196,26 +216,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 154.197.121.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.166.211
-  port: 443
-  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: soft98m.dPdNS.OrG
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+    path: /?ed=2560
     headers:
-      Host: soft98m.dpdns.org
+      Host: fast01.0860852.xyz
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -233,12 +244,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
+  server: 185.251.81.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: fast01.0860852.xyz
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      Host: fast01.0860852.xyz
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -256,23 +272,14 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 141.101.114.197
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
+  server: 104.16.62.103
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: RR-FF.pages.DEV
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
-    path: /assets?ed=2560
+    path: /?ed=2560
     headers:
-      Host: RR-FF.pages.DEV
+      Host: www.x-aniu--sg.netlib.re

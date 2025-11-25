@@ -109,12 +109,12 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
   tls: true
   udp: true
-  sni: soft98m.dPdNS.OrG
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
-    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+    path: /?ed=2560
     headers:
-      Host: soft98m.dpdns.org
+      Host: www.x-aniu--sg.netlib.re
