@@ -109,12 +109,49 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   udp: true
-  sni: azadnet-1cm.pages.dev
+  sni: 13bca32d.ba73fe85.netlib.re
   ws-opts:
     path: /
     headers:
-      Host: azadnet-1cm.pages.dev
+      Host: 13bca32d.ba73fe85.netlib.re
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  network: ws
+  tls: true
+  udp: true
+  sni: www.x-aniu--sg.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.x-aniu--sg.netlib.re
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  network: ws
+  tls: true
+  udp: true
+  sni: www.x-aniu--sg.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.x-aniu--sg.netlib.re
+- name: 🇺🇸 trojan-US
+  type: trojan
+  udp: true
+  server: bug.xcp
+  port: 443
+  password: '0'
+  sni: c03237cb.ba73fe85.netlib.re
+  ws-opts:
+    path: /
+    headers:
+      Host: c03237cb.ba73fe85.netlib.re
