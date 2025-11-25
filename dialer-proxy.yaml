@@ -19,14 +19,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-11841398
-  dialer-proxy: LBCF
-  type: trojan
-  server: 116.49.237.130
-  port: 1691
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -93,7 +85,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -154,26 +145,31 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 45.40.155.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: convera.com
-  port: 2053
-  uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048
+  server: 104.18.46.49
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: newfreebird.sayuri.dpdns.org
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: newfreebird.sayuri.dpdns.org
+      Host: www.x-aniu--sg.netlib.re
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.156.116.194
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: www.x-aniu--sg.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.x-aniu--sg.netlib.re
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -191,30 +187,21 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: npmjs.com
-  port: 80
-  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.40.155.253
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -241,35 +228,46 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.144.76
-  port: 2087
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: www.x-aniu--jp.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: www.x-aniu--jp.netlib.re
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.46.49
-  port: 2087
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 198.202.211.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--sg.netlib.re
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸DP trojan-US
+      Host: fast01.0860852.xyz
+- name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
-  type: trojan
-  server: 198.41.208.120
-  port: 443
-  password: '0'
+  type: vless
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
+  network: ws
+  tls: true
+  sni: RR-FF.pages.DEV
+  ws-opts:
+    path: /assets?ed=2560
+    headers:
+      Host: RR-FF.pages.DEV

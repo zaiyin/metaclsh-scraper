@@ -144,14 +144,16 @@ proxies:
     path: /?ed=2560
     headers:
       Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸 trojan-US
-  type: trojan
-  udp: true
+- name: 🇺🇸 vless-US
+  type: vless
   server: bug.xcp
   port: 443
-  password: '0'
-  sni: c03237cb.ba73fe85.netlib.re
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  network: ws
+  tls: true
+  udp: true
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: c03237cb.ba73fe85.netlib.re
+      Host: www.x-aniu--sg.netlib.re
