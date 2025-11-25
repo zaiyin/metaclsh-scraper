@@ -105,6 +105,19 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
+  network: ws
+  tls: true
+  udp: true
+  sni: soft98m.dPdNS.OrG
+  ws-opts:
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+    headers:
+      Host: soft98m.dpdns.org
 - name: 🇺🇸 trojan-US
   type: trojan
   udp: true

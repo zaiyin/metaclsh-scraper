@@ -131,31 +131,26 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 45.192.224.253
+  server: 159.246.55.253
   port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: vless.muzheng.top
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: vless.muzheng.top
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.46.49
-  port: 2087
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 45.40.155.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: www.x-aniu--sg.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: www.x-aniu--sg.netlib.re
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -173,21 +168,21 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 154.197.121.253
+  server: 104.21.224.5
   port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: fast01.0860852.xyz
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: fast01.0860852.xyz
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -210,12 +205,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 172.67.166.211
+  port: 443
+  uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: soft98m.dPdNS.OrG
+  ws-opts:
+    path: /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+    headers:
+      Host: soft98m.dpdns.org
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -237,13 +237,8 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸DP trojan-US
   dialer-proxy: LBCF
   type: trojan
@@ -255,17 +250,12 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 198.202.211.253
+  server: 159.246.55.253
   port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
