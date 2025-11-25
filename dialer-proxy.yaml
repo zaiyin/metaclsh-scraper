@@ -54,7 +54,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.3.219
+  server: ovhwuxian.pai50288.uk
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   udp: true
@@ -145,12 +145,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 45.40.155.253
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -182,7 +187,7 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -191,17 +196,12 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram @sinavm/?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -239,14 +239,20 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇺🇸DP trojan-US
+- name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
-  type: trojan
-  server: joss.gpj1.web.id
-  port: 443
-  password: 6e6191a3-9a93-4617-859a-8d0ea0fce937
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  sni: joss.gpj1.web.id
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
