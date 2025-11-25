@@ -35,18 +35,6 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP vmess-SG-11772406
-  dialer-proxy: LBCF
-  type: vmess
-  server: 18.143.248.157
-  port: 53784
-  uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: 18.143.248.157
 - name: 🇸🇬DP trojan-SG-11761617
   dialer-proxy: LBCF
   type: trojan
@@ -113,6 +101,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -173,26 +162,26 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 198.202.211.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: ip.sb
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: tcp
   tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: convera.com
+  port: 2053
+  uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048
+  udp: true
+  network: ws
+  tls: true
+  sni: newfreebird.sayuri.dpdns.org
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: newfreebird.sayuri.dpdns.org
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -237,9 +226,9 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: icook.hk
-  port: 443
-  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+  server: 45.40.155.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: tcp
   tls: false
@@ -252,3 +241,17 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 166.62.104.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
+    headers:
+      Host: vless.muzheng.top

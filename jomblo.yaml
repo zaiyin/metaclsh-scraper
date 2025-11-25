@@ -109,12 +109,12 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
   tls: true
   udp: true
-  sni: vless.hubp.de
+  sni: azadnet-1cm.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: vless.hubp.de
+      Host: azadnet-1cm.pages.dev
