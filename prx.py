@@ -10,10 +10,15 @@ import json
 URLS = [
     "https://www.v2nodes.com/subscriptions/country/my/?key=AADB0E71BD506FF",
     "https://www.v2nodes.com/subscriptions/country/sg/?key=AADB0E71BD506FF",
-    # Tambah URL lagi di sini:
-    # "https://example.com/sub1",
-    # "https://example.com/sub2",
 ]
+
+# =============================
+#  PORT YANG DIPERBOLEHKAN
+# =============================
+ALLOWED_PORTS = {
+    80, 8080, 8880, 2052, 2082, 2086, 2095,
+    443, 8443, 2053, 2083, 2087, 2096
+}
 
 
 def fetch_subscription(url):
@@ -38,7 +43,6 @@ def parse_nodes(text):
     return [l.strip() for l in text.splitlines() if l.strip()]
 
 
-# ---------------- CLEAN NAME ---------------- #
 def clean_name(name):
     return name.replace("[www.v2nodes.com]", "").strip()
 
@@ -52,16 +56,19 @@ def parse_vmess(uri):
     except:
         return None
 
-    if js.get("net") != "ws":
+    net = js.get("net", "tcp")
+    port = int(js.get("port", 0))
+
+    if net != "ws":
         return None
-    if str(js.get("port")) != "443":
+    if port not in ALLOWED_PORTS:
         return None
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
         "type": "vmess",
         "server": "bug.xcp",
-        "port": 443,
+        "port": port,
         "uuid": js["id"],
         "alterId": int(js.get("aid", 0)),
         "cipher": "auto",
@@ -86,29 +93,31 @@ def parse_vless(uri):
     u = urlparse(uri)
     q = parse_qs(u.query)
 
-    if q.get("type", ["tcp"])[0] != "ws":
+    net = q.get("type", ["tcp"])[0]
+    port = int(u.port)
+
+    if net != "ws":
         return None
-    if int(u.port) != 443:
+    if port not in ALLOWED_PORTS:
         return None
 
     proxy = {
         "name": clean_name(u.fragment or "vless-node"),
         "type": "vless",
         "server": "bug.xcp",
-        "port": 443,
+        "port": port,
         "uuid": u.username,
         "network": "ws",
         "tls": q.get("security", ["none"])[0] == "tls",
         "udp": True,
+        "ws-opts": {
+            "path": q.get("path", [""])[0],
+            "headers": {"Host": q.get("host", [""])[0]}
+        }
     }
 
     if "sni" in q:
         proxy["sni"] = q["sni"][0]
-
-    proxy["ws-opts"] = {
-        "path": q.get("path", [""])[0],
-        "headers": {"Host": q.get("host", [""])[0]}
-    }
 
     return proxy
 
@@ -119,37 +128,37 @@ def parse_trojan(uri):
     u = urlparse(uri)
     q = parse_qs(u.query)
 
-    if q.get("type", ["tcp"])[0] != "ws":
+    net = q.get("type", ["tcp"])[0]
+    port = int(u.port)
+
+    if net != "ws":
         return None
-    if int(u.port) != 443:
+    if port not in ALLOWED_PORTS:
         return None
 
     proxy = {
         "name": clean_name(u.fragment or "trojan-node"),
         "type": "trojan",
-        "udp": True,
         "server": "bug.xcp",
-        "port": 443,
-        "password": u.username
+        "port": port,
+        "password": u.username,
+        "udp": True,
+        "ws-opts": {
+            "path": q.get("path", [""])[0],
+            "headers": {"Host": q.get("host", [""])[0]}
+        }
     }
 
     if "sni" in q:
         proxy["sni"] = q["sni"][0]
 
-    proxy["ws-opts"] = {
-        "path": q.get("path", [""])[0],
-        "headers": {"Host": q.get("host", [""])[0]}
-    }
-
     return proxy
 
 
-# ---------------- PARSER SS → SKIP ---------------- #
 def parse_ss(uri):
     return None
 
 
-# ---------------- BUILD PROXIES ---------------- #
 def build_proxies(nodes):
     proxies = []
 
@@ -163,8 +172,6 @@ def build_proxies(nodes):
                 proxy = parse_vless(n)
             elif n.startswith("trojan://"):
                 proxy = parse_trojan(n)
-            elif n.startswith("ss://"):
-                proxy = parse_ss(n)
 
             if proxy:
                 proxies.append(proxy)
@@ -176,7 +183,6 @@ def build_proxies(nodes):
     return {"proxies": proxies}
 
 
-# ---------------- SAVE YAML ---------------- #
 def save_yaml(data, filename="jomblo.yaml"):
     with open(filename, "w", encoding="utf-8") as f:
         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
@@ -184,19 +190,17 @@ def save_yaml(data, filename="jomblo.yaml"):
     print("[*] File saved:", filename)
 
 
-# ---------------- MAIN ---------------- #
 def main():
 
     all_nodes = []
 
-    # fetch semua URL subscription
     for url in URLS:
         raw = fetch_subscription(url)
         decoded = decode_subscription(raw)
         nodes = parse_nodes(decoded)
         all_nodes.extend(nodes)
 
-    print(f"[*] Total node yang terkumpul: {len(all_nodes)}")
+    print(f"[*] Total node terkumpul: {len(all_nodes)}")
 
     result = build_proxies(all_nodes)
     save_yaml(result)
