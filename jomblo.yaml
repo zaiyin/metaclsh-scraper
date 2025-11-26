@@ -7,11 +7,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638995509468903835.giulia-amsif.info
   ws-opts:
     path: /ucpweqws
     headers:
       Host: 638995509468903835.giulia-amsif.info
+  sni: 638995509468903835.giulia-amsif.info
 - name: 🇲🇾 vless-MY-11857831
   type: vless
   server: bug.xcp
@@ -20,11 +20,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638993962459201183.passat-amsid.info
   ws-opts:
     path: /pczeguws
     headers:
       Host: 638993962459201183.passat-amsid.info
+  sni: 638993962459201183.passat-amsid.info
 - name: 🇲🇾 vless-MY-11841072
   type: vless
   server: bug.xcp
@@ -33,11 +33,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638992899243672646.stinger-amsid.info
   ws-opts:
     path: /qhxqyxws
     headers:
       Host: 638992899243672646.stinger-amsid.info
+  sni: 638992899243672646.stinger-amsid.info
 - name: 🇲🇾 vless-MY-11831758
   type: vless
   server: bug.xcp
@@ -46,11 +46,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638991939314084689.sonata-amsib.info
   ws-opts:
     path: /tssnuows
     headers:
       Host: 638991939314084689.sonata-amsib.info
+  sni: 638991939314084689.sonata-amsib.info
 - name: 🇲🇾 vless-MY-11826174
   type: vless
   server: bug.xcp
@@ -59,11 +59,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638991681638536098.jetta-amsia.info
   ws-opts:
     path: /qixrimws
     headers:
       Host: 638991681638536098.jetta-amsia.info
+  sni: 638991681638536098.jetta-amsia.info
 - name: 🇲🇾 vless-MY-11798877
   type: vless
   server: bug.xcp
@@ -72,11 +72,11 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638990235724147123.corolla-amshz.info
   ws-opts:
     path: /bzbtejws
     headers:
       Host: 638990235724147123.corolla-amshz.info
+  sni: 638990235724147123.corolla-amshz.info
 - name: 🇲🇾 vless-MY-11383655
   type: vless
   server: bug.xcp
@@ -85,11 +85,24 @@ proxies:
   network: ws
   tls: true
   udp: true
-  sni: 638992899243644080.stinger-amsid.info
   ws-opts:
     path: /mqytbxws
     headers:
       Host: 638992899243644080.stinger-amsid.info
+  sni: 638992899243644080.stinger-amsid.info
+- name: 🇸🇬 vless-SG-11684604
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /57ba2ab1
+    headers:
+      Host: ovhwuxian.pai50288.uk
+  sni: ovhwuxian.pai50288.uk
 - name: 🇸🇬 vmess-SG-11391645
   type: vmess
   server: bug.xcp
@@ -108,13 +121,143 @@ proxies:
 - name: 🇺🇸 vless-US
   type: vless
   server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
   tls: true
   udp: true
-  sni: www.x-aniu--sg.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
       Host: www.x-aniu--sg.netlib.re
+  sni: www.x-aniu--sg.netlib.re
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: gaosir.unfeeling.sbs
+  sni: gaosir.unfeeling.sbs
+- name: 🇺🇸 vless-US
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
