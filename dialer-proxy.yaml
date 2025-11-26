@@ -185,17 +185,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 43.156.116.194
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--sg.netlib.re
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: www.x-aniu--sg.netlib.re
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -213,39 +213,21 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 154.197.121.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 104.18.207.210
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: fast01.0860852.xyz
+  sni: www.x-aniu--hk.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: fast01.0860852.xyz
+      Host: www.x-aniu--hk.netlib.re
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.246.55.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -253,9 +235,31 @@ proxies:
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /Telegram🇨🇳@Selinc/?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 198.41.209.88
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /txr7ehsbynnn4fxy
+    headers:
+      Host: index.harmony611.workers.dev
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -273,7 +277,7 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 166.62.111.253
+  server: 198.202.211.253
   port: 2096
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
@@ -281,6 +285,6 @@ proxies:
   tls: true
   sni: fast01.0860852.xyz
   ws-opts:
-    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: fast01.0860852.xyz
