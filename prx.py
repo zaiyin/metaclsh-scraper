@@ -5,7 +5,7 @@ from urllib.parse import urlparse, parse_qs
 import json
 
 # =============================
-#  DAFTAR URL SUBSCRIPTION
+#  URL SUBSCRIPTION
 # =============================
 URLS = [
     "https://www.v2nodes.com/subscriptions/country/my/?key=AADB0E71BD506FF",
@@ -20,6 +20,22 @@ ALLOWED_PORTS = {
     443, 8443, 2053, 2083, 2087, 2096
 }
 
+# =============================
+#  KODE NEGARA ASIA
+# =============================
+ASIA_CODES = [
+    "SG","MY","ID","JP","KR","HK","TW","TH",
+    "VN","PH","IN","BD","CN"
+]
+
+
+def is_asia(name):
+    upper = name.upper()
+    for code in ASIA_CODES:
+        if f"-{code}-" in upper or f" {code}" in upper:
+            return True
+    return False
+
 
 def fetch_subscription(url):
     print(f"[*] Fetching: {url}")
@@ -27,8 +43,7 @@ def fetch_subscription(url):
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         return resp.text.strip()
-    except Exception as e:
-        print(f"[!] Gagal fetch {url} → {e}")
+    except:
         return ""
 
 
@@ -155,10 +170,7 @@ def parse_trojan(uri):
     return proxy
 
 
-def parse_ss(uri):
-    return None
-
-
+# ---------------- BUILD PROXIES ---------------- #
 def build_proxies(nodes):
     proxies = []
 
@@ -173,12 +185,11 @@ def build_proxies(nodes):
             elif n.startswith("trojan://"):
                 proxy = parse_trojan(n)
 
-            if proxy:
+            if proxy and is_asia(proxy["name"]):
                 proxies.append(proxy)
 
         except Exception as e:
-            print("Parsing gagal:", e)
-            print("Node bermasalah:", n)
+            print("Error:", e)
 
     return {"proxies": proxies}
 
