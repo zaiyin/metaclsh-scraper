@@ -96,7 +96,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -143,17 +142,26 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
+  server: 140.245.48.42
+  port: 443
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /freecodes/
     headers:
       Host: gaosir.unfeeling.sbs
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -171,31 +179,12 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -227,17 +216,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 104.16.63.112
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
-    path: /Telegram🇨🇳@Selinc/?ed=2560
+    path: /?ed=2560
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: www.x-aniu--sg.netlib.re
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -250,16 +239,12 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 198.41.209.88
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /txr7ehsbynnn4fxy
-    headers:
-      Host: index.harmony611.workers.dev
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
