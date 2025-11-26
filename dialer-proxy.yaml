@@ -96,6 +96,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -244,7 +245,7 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -252,7 +253,7 @@ proxies:
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
