@@ -65,7 +65,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
-  server: ovhwuxian.pai50288.uk
+  server: 104.21.3.219
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   udp: true
@@ -188,31 +188,26 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 198.202.211.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.207.210
+  server: 104.16.63.112
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--hk.netlib.re
+  sni: www.x-aniu--sg.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: www.x-aniu--hk.netlib.re
+      Host: www.x-aniu--sg.netlib.re
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.25.25.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
