@@ -123,14 +123,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-6153812
-  dialer-proxy: LBCF
-  type: trojan
-  server: 139.180.143.191
-  port: 10293
-  password: aWgKDJmn2q.hv=51
-  udp: true
-  sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -156,26 +148,26 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.42.52
-  port: 2087
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.190.195
+  port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--sg.netlib.re
+  sni: www.x-aniu--jp.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: www.x-aniu--sg.netlib.re
-- name: 🇺🇸DP vless-US
-  dialer-proxy: LBCF
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  udp: true
-  network: tcp
-  tls: false
+      Host: www.x-aniu--jp.netlib.re
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -188,9 +180,9 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
   network: tcp
   tls: false
@@ -201,8 +193,13 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram @sinavm/?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -251,14 +248,23 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.143.134
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US
+  dialer-proxy: LBCF
+  type: vless
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu--hk.netlib.re
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: www.x-aniu--hk.netlib.re
+      Host: gaosir.unfeeling.sbs
