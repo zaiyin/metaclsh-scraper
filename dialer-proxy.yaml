@@ -19,7 +19,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 202.181.103.246
+  server: 160.16.116.227
   port: 127
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -27,7 +27,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.236.32
+  server: 160.16.240.91
   port: 2760
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -169,17 +169,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 141.101.114.197
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
+  server: 178.239.123.216
+  port: 24443
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   udp: true
   network: ws
   tls: true
-  sni: RR-FF.pages.DEV
+  sni: vless3.datatestvless.click
   ws-opts:
-    path: /assets?ed=2560
+    path: /
     headers:
-      Host: RR-FF.pages.DEV
+      Host: vless3.datatestvless.click
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -271,14 +271,9 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
-  port: 2096
+  server: 140.245.48.42
+  port: 443
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
