@@ -38,19 +38,6 @@ proxies:
     headers:
       Host: 638991939314084689.sonata-amsib.info
   sni: 638991939314084689.sonata-amsib.info
-- name: 🇲🇾 vless-MY-11826174
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 391eb4b0-4b59-4f5c-8ced-c5f685ba255f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /qixrimws
-    headers:
-      Host: 638991681638536098.jetta-amsia.info
-  sni: 638991681638536098.jetta-amsia.info
 - name: 🇲🇾 vless-MY-11798877
   type: vless
   server: bug.xcp
