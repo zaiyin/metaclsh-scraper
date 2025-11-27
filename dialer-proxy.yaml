@@ -234,16 +234,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.40.145
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  server: 198.202.211.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
+      Host: fast01.0860852.xyz
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
