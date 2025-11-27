@@ -12,16 +12,18 @@ URLS = [
     "https://www.v2nodes.com/subscriptions/country/sg/?key=6FD0D31FB086C7C",
 ]
 
+
 # =============================
-#  PORT YANG DIPERBOLEHKAN
+#  PORT YANG DIPERBOLEHKAN (WS)
 # =============================
 ALLOWED_PORTS = {
     80, 8080, 8880, 2052, 2082, 2086, 2095,
     443, 8443, 2053, 2083, 2087, 2096
 }
 
+
 # =============================
-#  KODE NEGARA ASIA
+#  NEGARA ASIA
 # =============================
 ASIA_CODES = [
     "SG","MY","ID","JP","KR","HK","TW","TH",
@@ -31,19 +33,37 @@ ASIA_CODES = [
 
 def is_asia(name):
     upper = name.upper()
-    for code in ASIA_CODES:
-        if f"-{code}-" in upper or f" {code}" in upper:
+    for c in ASIA_CODES:
+        if f"-{c}-" in upper or f" {c}" in upper:
             return True
     return False
 
 
+# =======================================
+#  CHECK SERVER ASLI HIDUP ATAU TIDAK
+# =======================================
+def check_alive(host):
+    if not host:
+        return False
+    url = f"https://{host}"
+    try:
+        requests.head(url, timeout=3)
+        return True
+    except:
+        return False
+
+
+# =============================
+#  FETCH & DECODE
+# =============================
 def fetch_subscription(url):
     print(f"[*] Fetching: {url}")
     try:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         return resp.text.strip()
-    except:
+    except Exception as e:
+        print("[!] Fetch gagal:", e)
         return ""
 
 
@@ -62,7 +82,9 @@ def clean_name(name):
     return name.replace("[www.v2nodes.com]", "").strip()
 
 
-# ---------------- PARSER VMESS ---------------- #
+# =============================
+#  PARSER VMESS
+# =============================
 def parse_vmess(uri):
     try:
         raw = uri.replace("vmess://", "")
@@ -71,13 +93,16 @@ def parse_vmess(uri):
     except:
         return None
 
-    net = js.get("net", "tcp")
+    net = js.get("net", "")
     port = int(js.get("port", 0))
+    host = js.get("host", "")
 
     if net != "ws":
         return None
     if port not in ALLOWED_PORTS:
         return None
+    if not check_alive(host):
+        return None  # akun mati
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
@@ -92,17 +117,19 @@ def parse_vmess(uri):
         "udp": True,
         "ws-opts": {
             "path": js.get("path", "/"),
-            "headers": {"Host": js.get("host", "")}
+            "headers": {"Host": host}
         }
     }
 
-    if js.get("host"):
-        proxy["servername"] = js.get("host")
+    if host:
+        proxy["servername"] = host
 
     return proxy
 
 
-# ---------------- PARSER VLESS ---------------- #
+# =============================
+#  PARSER VLESS
+# =============================
 def parse_vless(uri):
     uri = uri.replace("&amp;", "&")
     u = urlparse(uri)
@@ -110,10 +137,13 @@ def parse_vless(uri):
 
     net = q.get("type", ["tcp"])[0]
     port = int(u.port)
+    host = q.get("host", [""])[0]
 
     if net != "ws":
         return None
     if port not in ALLOWED_PORTS:
+        return None
+    if not check_alive(host):
         return None
 
     proxy = {
@@ -127,7 +157,7 @@ def parse_vless(uri):
         "udp": True,
         "ws-opts": {
             "path": q.get("path", [""])[0],
-            "headers": {"Host": q.get("host", [""])[0]}
+            "headers": {"Host": host}
         }
     }
 
@@ -137,7 +167,9 @@ def parse_vless(uri):
     return proxy
 
 
-# ---------------- PARSER TROJAN ---------------- #
+# =============================
+#  PARSER TROJAN
+# =============================
 def parse_trojan(uri):
     uri = uri.replace("&amp;", "&")
     u = urlparse(uri)
@@ -145,10 +177,13 @@ def parse_trojan(uri):
 
     net = q.get("type", ["tcp"])[0]
     port = int(u.port)
+    host = q.get("host", [""])[0]
 
     if net != "ws":
         return None
     if port not in ALLOWED_PORTS:
+        return None
+    if not check_alive(host):
         return None
 
     proxy = {
@@ -160,7 +195,7 @@ def parse_trojan(uri):
         "udp": True,
         "ws-opts": {
             "path": q.get("path", [""])[0],
-            "headers": {"Host": q.get("host", [""])[0]}
+            "headers": {"Host": host}
         }
     }
 
@@ -170,7 +205,9 @@ def parse_trojan(uri):
     return proxy
 
 
-# ---------------- BUILD PROXIES ---------------- #
+# =============================
+#  BUILD PROXIES
+# =============================
 def build_proxies(nodes):
     proxies = []
 
@@ -185,11 +222,12 @@ def build_proxies(nodes):
             elif n.startswith("trojan://"):
                 proxy = parse_trojan(n)
 
+            # hanya ambil server Asia + akun hidup
             if proxy and is_asia(proxy["name"]):
                 proxies.append(proxy)
 
         except Exception as e:
-            print("Error:", e)
+            print("Error parsing:", e)
 
     return {"proxies": proxies}
 
@@ -197,12 +235,13 @@ def build_proxies(nodes):
 def save_yaml(data, filename="jomblo.yaml"):
     with open(filename, "w", encoding="utf-8") as f:
         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
-
     print("[*] File saved:", filename)
 
 
+# =============================
+#  MAIN
+# =============================
 def main():
-
     all_nodes = []
 
     for url in URLS:
