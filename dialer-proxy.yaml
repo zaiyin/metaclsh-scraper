@@ -132,17 +132,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 167.68.4.253
+  server: 37.153.171.253
   port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: vless.muzheng.top
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
-      Host: vless.muzheng.top
+      Host: fast01.0860852.xyz
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -174,12 +174,17 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
+  server: 140.245.48.42
+  port: 443
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /freecodes/
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -206,31 +211,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 91.192.81.154
-  port: 2053
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 185.251.81.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /x @节点狂魔 /
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🇺🇸DP vless-US
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 159.246.55.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -252,27 +247,17 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🇺🇸DP vless-US
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.45.45
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: www.x-aniu--sg.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: www.x-aniu--sg.netlib.re
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
