@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-7971
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2096
@@ -36,7 +36,33 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: ed7f3703-29d7-42ca-b8bd-a4b291422921
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /tr----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420---Join----EXPRESSVPN_420---Join---EXPRESSVPN_420/?ed=2048
+    headers:
+      Host: spring-dream-2210.votapi4213.workers.dev
+  sni: spring-dream-2210.votapi4213.workers.dev
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.foton.dpdns.org
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
