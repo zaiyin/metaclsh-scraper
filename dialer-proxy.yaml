@@ -62,7 +62,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
-  server: ovhwuxian.pai50288.uk
+  server: 104.21.3.219
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   udp: true
@@ -163,21 +163,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: ip.sb
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 91.192.81.154
+  port: 2053
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /x @节点狂魔 /
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: RR-FF.pages.DEV
+  ws-opts:
+    path: /assets?ed=2560
+    headers:
+      Host: RR-FF.pages.DEV
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -190,17 +200,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 210.87.111.61
-  port: 39738
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: 104.21.224.5
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: vless3.datatestvless.click
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: vless3.datatestvless.click
+      Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -246,42 +256,37 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳@Selinc/?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
-- name: 🏳DP vless-
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 185.251.81.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /Telegram🇨🇳
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 210.87.111.61
-  port: 39738
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: 25.25.25.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: vless3.datatestvless.click
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed=2560&telegram@freecodes
+    path: /?TELEGRAM-V2rayBaaz?ed=512
     headers:
-      Host: vless3.datatestvless.click
+      Host: gaosir.unfeeling.sbs

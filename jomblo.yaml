@@ -1,19 +1,4 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11918159
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: singapore02.zgjok.com
-  servername: singapore02.zgjok.com
 - name: 🇸🇬 vless-SG-11684604
   type: vless
   server: bug.xcp
@@ -42,19 +27,19 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /assets?ed=2560
     headers:
-      Host: azadnet-1cm.pages.dev
-  sni: azadnet-1cm.pages.dev
+      Host: RR-FF.pages.DEV
+  sni: RR-FF.pages.DEV
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -81,3 +66,16 @@ proxies:
     headers:
       Host: hello.96xckkzx.workers.dev
   sni: hello.96xckkzx.workers.dev
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
