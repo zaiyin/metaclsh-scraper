@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-11918159
+  dialer-proxy: LBCF
+  type: vmess
+  server: singapore02.zgjok.com
+  port: 443
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore02.zgjok.com
+  servername: singapore02.zgjok.com
 - name: 🇸🇬DP vless-SG-11874980
   dialer-proxy: LBCF
   type: vless
@@ -19,7 +35,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 202.181.103.246
+  server: 160.16.116.227
   port: 127
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -27,7 +43,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.240.91
+  server: 160.16.236.32
   port: 2760
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -86,6 +102,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -132,12 +149,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 178.239.123.216
+  port: 24443
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: vless3.datatestvless.click
+  ws-opts:
+    path: /
+    headers:
+      Host: vless3.datatestvless.click
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
@@ -168,50 +190,27 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  server: 178.239.123.216
+  port: 24443
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 167.68.4.253
+  server: 154.197.121.253
   port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: vless.muzheng.top
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560
     headers:
-      Host: vless.muzheng.top
+      Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 25.25.25.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
   server: 159.246.55.253
@@ -222,7 +221,35 @@ proxies:
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
+    path: /
+    headers:
+      Host: gaosir.unfeeling.sbs
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 198.202.211.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  udp: true
+  network: ws
+  tls: true
+  sni: fast01.0860852.xyz
+  ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.40.155.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  udp: true
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🏳DP vless-
@@ -242,21 +269,7 @@ proxies:
 - name: 🇺🇸DP vless-US
   dialer-proxy: LBCF
   type: vless
-  server: 45.192.224.253
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  udp: true
-  network: ws
-  tls: true
-  sni: vless.muzheng.top
-  ws-opts:
-    path: /Telegram@Selinc/?ed=2560
-    headers:
-      Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-7531
-  dialer-proxy: LBCF
-  type: vless
-  server: 195.13.45.253
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true

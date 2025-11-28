@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬 vmess-SG-11918159
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore02.zgjok.com
+  servername: singapore02.zgjok.com
 - name: 🇸🇬 vless-SG-11684604
   type: vless
   server: bug.xcp
@@ -27,16 +42,29 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /?ed=2560
     headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
