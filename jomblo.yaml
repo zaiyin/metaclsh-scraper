@@ -27,21 +27,19 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   sni: ovhwuxian.pai50288.uk
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
+- name: 🇸🇬 vless-SG-9271
+  type: vless
   server: bug.xcp
   port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
+      Host: azadnet-1cm.pages.dev
+  sni: azadnet-1cm.pages.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -58,13 +56,13 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: hello.96xckkzx.workers.dev
+  sni: hello.96xckkzx.workers.dev
