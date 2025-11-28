@@ -178,10 +178,10 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇺🇸DP vless-US
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -198,7 +198,7 @@ proxies:
   tls: true
   sni: vless3.datatestvless.click
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /
     headers:
       Host: vless3.datatestvless.click
 - name: 🇸🇬DP vless-SG-8105
@@ -274,9 +274,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 210.87.111.61
+  port: 39738
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: vless3.datatestvless.click
+  ws-opts:
+    path: /?ed=2560&telegram@freecodes
+    headers:
+      Host: vless3.datatestvless.click
