@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬DP vless-SG-11927823
+  dialer-proxy: LBCF
+  type: vless
+  server: free.tharuwa.store
+  port: 80
+  uuid: 1bcfabf7-c143-4dab-989b-2b663e7e69c8
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: zoom.us
 - name: 🇸🇬DP vmess-SG-11918159
   dialer-proxy: LBCF
   type: vmess
@@ -129,9 +142,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 104.16.86.2
+  port: 80
+  uuid: 9f0eae34-97c1-4c07-8a55-438379981334
   udp: true
   network: tcp
   tls: false
@@ -165,17 +178,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 25.25.25.253
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -207,17 +215,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 185.18.184.66
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: www.visa.com.mt
+  port: 2086
+  uuid: a0af2643-a236-463c-8056-3f71d05eed53
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  sni: hello.96xckkzx.workers.dev
-  ws-opts:
-    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
-    headers:
-      Host: hello.96xckkzx.workers.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -269,12 +272,3 @@ proxies:
     path: /Telegram🇨🇳 @Selinc /?ed=2560
     headers:
       Host: fast01.0860852.xyz
-- name: 🇸🇬DP vless-SG-7456
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.224.5
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  udp: true
-  network: tcp
-  tls: false

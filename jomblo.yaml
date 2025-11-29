@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-11927823
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 1bcfabf7-c143-4dab-989b-2b663e7e69c8
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: zoom.us
 - name: 🇸🇬 vless-SG-11684604
   type: vless
   server: bug.xcp
@@ -27,6 +39,18 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 9f0eae34-97c1-4c07-8a55-438379981334
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -43,16 +67,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  port: 2086
+  uuid: a0af2643-a236-463c-8056-3f71d05eed53
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
+    path: /?ed=2560
     headers:
-      Host: hello.96xckkzx.workers.dev
-  sni: hello.96xckkzx.workers.dev
+      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
