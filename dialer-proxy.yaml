@@ -47,7 +47,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 202.181.103.246
+  server: 160.16.116.227
   port: 127
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -167,27 +167,17 @@ proxies:
   port: 443
   uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
-  network: ws
-  tls: true
-  sni: azadnet-1cm.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: azadnet-1cm.pages.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: vless5-edu.pages.dev
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: vless5-edu.pages.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -246,13 +236,8 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
