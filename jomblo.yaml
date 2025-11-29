@@ -64,41 +64,54 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 8080
+  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: feng4.l1ut8bi9.workers.dev
+  sni: feng4.l1ut8bi9.workers.dev
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: vless5-edu.pages.dev
+  sni: vless5-edu.pages.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2086
-  uuid: a0af2643-a236-463c-8056-3f71d05eed53
+  port: 80
+  uuid: 1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4
   network: ws
   tls: false
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
-- name: 🇸🇬 vless-SG-7801
+      Host: winter-bush-f08c-ppal03.himigaw787.workers.dev
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳
+    path: /?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-7531
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Telegram🇨🇳 @Selinc /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: rayan-007.foton.dpdns.org
+  sni: rAyAn-007.fOtOn.dPdNs.oRg

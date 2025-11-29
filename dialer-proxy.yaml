@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-11928618
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.199.161.175
+  port: 1196
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
 - name: 🇸🇬DP vless-SG-11927823
   dialer-proxy: LBCF
   type: vless
@@ -55,17 +63,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.3.219
+  server: ovhwuxian.pai50288.uk
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   udp: true
-  network: ws
-  tls: true
-  sni: ovhwuxian.pai50288.uk
-  ws-opts:
-    path: /57ba2ab1
-    headers:
-      Host: ovhwuxian.pai50288.uk
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-11404553
   dialer-proxy: LBCF
   type: vless
@@ -160,12 +163,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: xn--b6gac.eu.org
+  port: 8080
+  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
   udp: true
-  network: tcp
+  network: ws
   tls: false
+  sni: feng4.l1ut8bi9.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: feng4.l1ut8bi9.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -178,7 +186,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -191,40 +199,53 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 104.18.86.131
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: vless5-edu.pages.dev
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: vless5-edu.pages.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: www.visa.com.mt
-  port: 2086
-  uuid: a0af2643-a236-463c-8056-3f71d05eed53
+  server: 104.24.189.102
+  port: 80
+  uuid: 1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4
   udp: true
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: winter-bush-f08c-ppal03.himigaw787.workers.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
+  server: 1password.com
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.224.5
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
@@ -235,20 +256,6 @@ proxies:
     path: /
     headers:
       Host: gaosir.unfeeling.sbs
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.251.81.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳
-    headers:
-      Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
@@ -256,19 +263,10 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-7531
-  dialer-proxy: LBCF
-  type: vless
-  server: 198.202.211.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
   network: ws
   tls: true
-  sni: fast01.0860852.xyz
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /Telegram🇨🇳 @Selinc /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: fast01.0860852.xyz
+      Host: gaosir.unfeeling.sbs
