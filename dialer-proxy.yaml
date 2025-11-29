@@ -55,7 +55,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.240.91
+  server: 160.16.236.32
   port: 2760
   password: 2cf6d686799e6fa95316394064f26c0a
   udp: true
@@ -63,12 +63,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-11684604
   dialer-proxy: LBCF
   type: vless
-  server: ovhwuxian.pai50288.uk
+  server: 104.21.3.219
   port: 8443
   uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: ovhwuxian.pai50288.uk
+  ws-opts:
+    path: /57ba2ab1
+    headers:
+      Host: ovhwuxian.pai50288.uk
 - name: 🇸🇬DP vless-SG-11404553
   dialer-proxy: LBCF
   type: vless
@@ -154,26 +159,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 154.197.121.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: xn--b6gac.eu.org
-  port: 8080
-  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
+  server: ip.sb
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: ws
-  tls: false
-  sni: feng4.l1ut8bi9.workers.dev
+  tls: true
+  sni: azadnet-1cm.pages.dev
   ws-opts:
     path: /
     headers:
-      Host: feng4.l1ut8bi9.workers.dev
+      Host: azadnet-1cm.pages.dev
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.86.131
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  network: ws
+  tls: true
+  sni: vless5-edu.pages.dev
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: vless5-edu.pages.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -190,31 +200,40 @@ proxies:
   port: 2096
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /Telegram🇨🇳@Selinc/?ed=2560
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
-  port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
   network: ws
   tls: true
-  sni: vless5-edu.pages.dev
+  sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?ed
+    path: /Telegram🇨🇳 @Selinc /?ed=2560
     headers:
-      Host: vless5-edu.pages.dev
+      Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -259,14 +278,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 159.246.55.253
+  server: 166.62.104.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: vless.muzheng.top
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: vless.muzheng.top
