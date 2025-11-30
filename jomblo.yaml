@@ -94,40 +94,27 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-    headers:
-      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets?ed=2560
+    path: /Telegram🇨🇳
     headers:
-      Host: RR-FF.pages.DEV
-  sni: RR-FF.pages.DEV
-- name: 🇸🇬 vless-SG-7971
-  type: vless
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇸🇬 trojan-SG-7966
+  type: trojan
   server: bug.xcp
-  port: 2086
-  uuid: a0af2643-a236-463c-8056-3f71d05eed53
-  network: ws
-  tls: false
+  port: 8443
+  password: trojan
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
+      Host: fofang.pages.dev
+  sni: fofang.pages.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -140,16 +127,3 @@ proxies:
     path: /?ed
     headers:
       Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
-- name: 🇸🇬 vless-SG-7724
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: a114d067-b900-4f60-87a5-50d4d63972b8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
-  sni: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
