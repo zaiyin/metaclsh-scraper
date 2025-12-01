@@ -39,31 +39,19 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram @sinavm /?ed=2560
+    path: /assets?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
+      Host: RR-FF.pages.DEV
+  sni: RR-FF.pages.DEV
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
