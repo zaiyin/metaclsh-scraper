@@ -7,7 +7,7 @@ import json
 # ============================================
 # GANTI URL SUBSCRIPTION DI SINI
 # ============================================
-URL = "https://www.v2nodes.com/subscriptions/country/sg/?key=6FD0D31FB086C7C"
+URL = "https://www.v2nodes.com/subscriptions/country/sg/?key=769C91E549B7811"
 
 
 # --------------------------------------------
