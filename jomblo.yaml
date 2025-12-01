@@ -1,1 +1,92 @@
-proxies: []
+proxies:
+- name: 🇸🇬 vless-SG-11927823
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 1bcfabf7-c143-4dab-989b-2b663e7e69c8
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: zoom.us
+- name: 🇸🇬 vless-SG-11684604
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /57ba2ab1
+    headers:
+      Host: ovhwuxian.pai50288.uk
+  sni: ovhwuxian.pai50288.uk
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram @sinavm /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram @sinavm /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: vless5-edu.pages.dev
+  sni: vless5-edu.pages.dev
