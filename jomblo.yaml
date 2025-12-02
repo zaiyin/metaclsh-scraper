@@ -42,13 +42,13 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets?ed=2560
+    path: /
     headers:
-      Host: RR-FF.pages.DEV
-  sni: RR-FF.pages.DEV
+      Host: azadnet-1cm.pages.dev
+  sni: azadnet-1cm.pages.dev
