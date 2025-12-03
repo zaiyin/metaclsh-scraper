@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11944874
   dialer-proxy: LBCF
   type: trojan
-  server: 52.199.129.13
+  server: 16.163.138.120
   port: 2752
   password: BxceQaOe
   udp: true
@@ -68,9 +68,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 153.121.51.29
   port: 127
-  password: 2cf6d686799e6fa95316394064f26c0a
+  password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11702717
@@ -115,6 +115,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -175,31 +176,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: ip.sb
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 159.246.55.253
+  port: 2096
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: azadnet-1cm.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: azadnet-1cm.pages.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 91.192.81.154
-  port: 2053
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 45.146.201.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
-  network: ws
-  tls: true
-  sni: gaosir.unfeeling.sbs
-  ws-opts:
-    path: /x @节点狂魔 /
-    headers:
-      Host: gaosir.unfeeling.sbs
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -221,12 +212,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
+  server: 104.21.224.5
   port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: gaosir.unfeeling.sbs
+  ws-opts:
+    path: /
+    headers:
+      Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
