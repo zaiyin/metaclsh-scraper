@@ -24,7 +24,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   sni: ovhwuxian.pai50288.uk
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
   port: 2096
@@ -37,32 +37,20 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
-- name: 🇸🇬 vless-SG-8105
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
-  sni: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
-- name: 🇸🇬 vless-SG-8023
+      Host: azadnet-1cm.pages.dev
+  sni: azadnet-1cm.pages.dev
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2083
@@ -71,7 +59,32 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /assets?ed=2560
     headers:
       Host: RR-FF.pages.DEV
   sni: RR-FF.pages.DEV
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram @sinavm /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
