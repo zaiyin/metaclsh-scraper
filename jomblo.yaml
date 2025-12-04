@@ -1,4 +1,17 @@
 proxies:
+- name: 🇲🇾 vless-MY-11270582
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 1242d7fa-0b37-4fe7-bc98-9b6e576614c0
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /ssxboqws
+    headers:
+      Host: 639003543253503779.supra-amsit.info
+  sni: 639003543253503779.supra-amsit.info
 - name: 🇸🇬 vless-SG-11927823
   type: vless
   server: bug.xcp
@@ -24,42 +37,31 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
   sni: ovhwuxian.pai50288.uk
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /assets?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: RR-FF.pages.DEV
+  sni: RR-FF.pages.DEV

@@ -1,5 +1,21 @@
 proxies:
-- name: 🇸🇬DP vless-SG-11997868
+- name: 🇸🇬DP trojan-SG-12021050
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.150.76
+  port: 1596
+  password: 79314e99f0a473fe86efc7827942ad00
+  udp: true
+  sni: www.nintendogames.net
+- name: 🏳DP trojan-
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.144.208
+  port: 3145
+  password: 79314e99f0a473fe86efc7827942ad00
+  udp: true
+  sni: www.nintendogames.net
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 103.229.96.181
@@ -49,7 +65,7 @@ proxies:
     path: /FREE By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -65,7 +81,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇸🇬DP trojan-SG-11702720
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 153.121.51.29
@@ -95,7 +111,7 @@ proxies:
     path: /57ba2ab1
     headers:
       Host: ovhwuxian.pai50288.uk
-- name: 🇸🇬DP vless-SG-11404553
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 46.250.237.164
@@ -132,7 +148,7 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP vmess-SG-10987257
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 62.146.235.193
@@ -151,34 +167,24 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.106.68
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
-  network: ws
-  tls: true
-  sni: vless.muzheng.top
-  ws-opts:
-    path: /Telegram@ShadowProxy66 /?ed=2560
-    headers:
-      Host: vless.muzheng.top
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -211,7 +217,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 25.25.25.253
@@ -222,48 +228,15 @@ proxies:
   tls: true
   sni: gaosir.unfeeling.sbs
   ws-opts:
-    path: /?TELEGRAM-SiNAVM_SiNAVM_SiNAVM_SiNAVMed=512
+    path: /Telegram @sinavm/?ed=2560
     headers:
       Host: gaosir.unfeeling.sbs
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.253
+  server: 159.246.55.253
   port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   udp: true
-  network: ws
-  tls: true
-  sni: vless.muzheng.top
-  ws-opts:
-    path: /Telegram@ShadowProxy66
-    headers:
-      Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 166.62.111.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 91.206.71.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
