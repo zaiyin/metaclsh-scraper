@@ -52,6 +52,19 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -62,19 +75,6 @@ proxies:
   udp: true
   ws-opts:
     path: /assets
-    headers:
-      Host: RR-FF.pages.DEV
-  sni: RR-FF.pages.DEV
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /assets?ed=2560
     headers:
       Host: RR-FF.pages.DEV
   sni: RR-FF.pages.DEV
