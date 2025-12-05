@@ -177,10 +177,10 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
+  server: 45.146.201.253
   port: 2096
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
@@ -188,7 +188,7 @@ proxies:
   tls: true
   sni: fast01.0860852.xyz
   ws-opts:
-    path: /Telegram_@sinavm/?ed=2560
+    path: /Telegram @sinavm /?ed=2560
     headers:
       Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-8862
@@ -217,17 +217,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.25.25.253
+  server: 166.62.111.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: gaosir.unfeeling.sbs
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /
+    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
     headers:
-      Host: gaosir.unfeeling.sbs
+      Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
