@@ -65,14 +65,6 @@ proxies:
     path: /FREE By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🇸🇬DP trojan-SG-11808858
-  dialer-proxy: LBCF
-  type: trojan
-  server: 95.40.76.44
-  port: 2673
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
@@ -118,6 +110,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -207,12 +200,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.224.5
+  server: 194.152.44.253
   port: 2096
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram @ /?ed=2560
+    headers:
+      Host: vless.muzheng.top
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -236,3 +234,17 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 190.93.244.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram@ShadowProxy66
+    headers:
+      Host: vless.muzheng.top
