@@ -118,7 +118,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
