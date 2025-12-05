@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬DP trojan-SG-12021050
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.150.76
@@ -7,7 +7,7 @@ proxies:
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-12021047
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.144.208
@@ -65,7 +65,15 @@ proxies:
     path: /FREE By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🇸🇬DP trojan-SG-11702720
+- name: 🏳DP ss-
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  server: 167.150.100.115
+  port: 443
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 153.121.51.29
@@ -73,7 +81,7 @@ proxies:
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-11702717
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.81.84
@@ -99,7 +107,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vmess-SG-11398481
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 82.197.69.131
@@ -110,8 +118,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
-- name: 🇸🇬DP vmess-SG-11391645
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: cf.090227.xyz
@@ -127,7 +134,7 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP vmess-SG-10987257
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 62.146.235.193
@@ -138,7 +145,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇮🇩DP ss-ID
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -214,17 +221,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 166.62.111.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 141.98.199.222
+  port: 9443
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
   udp: true
   network: ws
   tls: true
-  sni: fast01.0860852.xyz
+  sni: ak.suoni.nyc.mn
   ws-opts:
-    path: /Telegram🇮🇷@ShadowProxy66/?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: fast01.0860852.xyz
+      Host: ak.suoni.nyc.mn
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
