@@ -1,8 +1,22 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12039971
+  dialer-proxy: LBCF
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  udp: true
+  network: ws
+  tls: true
+  sni: premium.vkehi.shop
+  ws-opts:
+    path: /
+    headers:
+      Host: premium.vkehi.shop
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.44.99
+  server: 160.16.107.37
   port: 507
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -44,14 +58,6 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
-- name: 🇸🇬DP trojan-SG-11944874
-  dialer-proxy: LBCF
-  type: trojan
-  server: 16.163.138.120
-  port: 2752
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -68,7 +74,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇸🇬DP trojan-SG-11702720
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.131.243
@@ -114,7 +120,7 @@ proxies:
   udp: true
   network: tcp
   servername: t.me/v2Line
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
   server: cf.090227.xyz
@@ -141,7 +147,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP ss-
+- name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -205,10 +211,10 @@ proxies:
     path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
       Host: vless.muzheng.top
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 45.146.201.253
+  server: 91.206.71.253
   port: 2096
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
@@ -231,9 +237,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 140.245.48.42
-  port: 443
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
   network: tcp
   tls: false
