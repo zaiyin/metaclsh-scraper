@@ -69,25 +69,26 @@ proxies:
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /assets?ed=2560
     headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
+      Host: RR-FF.pages.DEV
+  sni: RR-FF.pages.DEV
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2086
-  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
+      Host: www.x-aniu-h-k.netlib.re
+  sni: www.x-aniu-h-k.netlib.re

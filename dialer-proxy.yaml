@@ -85,7 +85,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.214.6
+  server: 160.16.81.84
   port: 2760
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -231,9 +231,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  server: 141.101.114.197
+  port: 2083
+  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
   udp: true
   network: tcp
   tls: false
@@ -254,13 +254,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: www.visa.com.mt
-  port: 2086
-  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  server: 104.21.30.206
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: www.x-aniu-h-k.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
+      Host: www.x-aniu-h-k.netlib.re
