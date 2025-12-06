@@ -2,7 +2,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.107.37
+  server: 153.121.44.99
   port: 507
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
