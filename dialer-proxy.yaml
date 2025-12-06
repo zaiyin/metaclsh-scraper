@@ -36,14 +36,6 @@ proxies:
     path: /admin
     headers:
       Host: ''
-- name: 🇸🇬DP ss-SG-11966882
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 193.135.174.135
-  port: 990
 - name: 🇸🇬DP ss-SG-11949219
   dialer-proxy: LBCF
   type: ss
@@ -259,3 +251,16 @@ proxies:
     path: /Telegram@ShadowProxy66
     headers:
       Host: vless.muzheng.top
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: www.visa.com.mt
+  port: 2086
+  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
