@@ -17,16 +17,16 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: www.x-aniu-s-g.netlib.re
-  sni: www.x-aniu-s-g.netlib.re
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -66,19 +66,32 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  port: 2053
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
+      Host: ak.suoni.nyc.mn
+  sni: ak.suoni.nyc.mn
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+  sni: rAyAn-007.pArViN.DpDnS.OrG
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp

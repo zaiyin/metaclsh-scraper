@@ -69,7 +69,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.131.243
   port: 127
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -111,7 +111,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -150,17 +149,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.238.33
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 91.206.71.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
   network: ws
   tls: true
-  sni: www.x-aniu-s-g.netlib.re
+  sni: fast01.0860852.xyz
   ws-opts:
-    path: /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: www.x-aniu-s-g.netlib.re
+      Host: fast01.0860852.xyz
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -215,21 +214,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.106.68
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  server: 193.124.18.238
+  port: 2053
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: ak.suoni.nyc.mn
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: ak.suoni.nyc.mn
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
+  server: adf.ly
   port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: rAyAn-007.pArViN.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.parvin.dpdns.org
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
