@@ -1,4 +1,13 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12053277
+  dialer-proxy: LBCF
+  type: vless
+  server: 38.134.189.186
+  port: 443
+  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-12051818
   dialer-proxy: LBCF
   type: vless
@@ -141,6 +150,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -211,31 +221,26 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
+  server: 154.197.121.253
   port: 2096
   uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.106.68
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  server: 193.124.18.238
+  port: 2053
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
   udp: true
   network: ws
   tls: true
-  sni: vless.muzheng.top
+  sni: ak.suoni.nyc.mn
   ws-opts:
-    path: /Telegram@ShadowProxy66 /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: vless.muzheng.top
+      Host: ak.suoni.nyc.mn
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -250,16 +255,3 @@ proxies:
     path: /Telegramًں‡¨ًں‡³ @WangCai2 /?ed=2560
     headers:
       Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.40.145
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev

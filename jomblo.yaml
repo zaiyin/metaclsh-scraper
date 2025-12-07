@@ -34,19 +34,20 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  port: 2053
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
+      Host: ak.suoni.nyc.mn
+  sni: ak.suoni.nyc.mn
