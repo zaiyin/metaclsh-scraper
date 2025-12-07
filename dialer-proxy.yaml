@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12051818
+  dialer-proxy: LBCF
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  udp: true
+  network: ws
+  tls: true
+  sni: premium.vkehi.shop
+  ws-opts:
+    path: /
+    headers:
+      Host: premium.vkehi.shop
 - name: 🇸🇬DP trojan-SG-12048806
   dialer-proxy: LBCF
   type: trojan
@@ -66,6 +80,14 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
+- name: 🇸🇬DP ss-SG-11818509
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  server: 167.150.100.115
+  port: 443
 - name: 🇸🇬DP trojan-SG-11808858
   dialer-proxy: LBCF
   type: trojan
@@ -119,7 +141,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -158,17 +179,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 104.18.86.131
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -186,17 +202,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: mybb.com
+  server: 104.18.86.131
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -242,27 +253,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  udp: true
-  network: ws
-  tls: true
-  sni: vless5-edu.pages.dev
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: vless5-edu.pages.dev
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.24.189.102
+  server: 104.16.40.145
   port: 80
-  uuid: 1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4
+  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: winter-bush-f08c-ppal03.himigaw787.workers.dev
+      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
