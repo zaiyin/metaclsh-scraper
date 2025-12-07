@@ -30,26 +30,13 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: sni.111000.dynv6.net
+  sni: sni.111000.dynv6.net

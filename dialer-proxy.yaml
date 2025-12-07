@@ -47,7 +47,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.107.37
+  server: 153.121.44.99
   port: 507
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -195,21 +195,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  server: notion.site
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 154.197.121.253
+  server: 194.152.44.253
   port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram @ /?ed=2560
+    headers:
+      Host: vless.muzheng.top
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
