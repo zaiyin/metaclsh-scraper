@@ -81,14 +81,6 @@ proxies:
     path: /admin
     headers:
       Host: ''
-- name: 🇸🇬DP ss-SG-11818509
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  server: 167.150.100.115
-  port: 443
 - name: 🇸🇬DP trojan-SG-11808858
   dialer-proxy: LBCF
   type: trojan
@@ -105,10 +97,10 @@ proxies:
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.214.6
+  server: 160.16.81.84
   port: 2760
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -142,7 +134,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -222,14 +213,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 193.124.18.238
-  port: 2053
-  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+  server: 166.62.114.253
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   udp: true
-  network: ws
-  tls: true
-  sni: ak.suoni.nyc.mn
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ak.suoni.nyc.mn
+  network: tcp
+  tls: false
