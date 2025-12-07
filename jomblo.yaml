@@ -27,19 +27,19 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: rayan-007.nastaran.dpdns.org
+  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -53,45 +53,19 @@ proxies:
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ak.suoni.nyc.mn
-  sni: ak.suoni.nyc.mn
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed
     headers:
-      Host: rayan-007.parvin.dpdns.org
-  sni: rAyAn-007.pArViN.DpDnS.OrG
+      Host: vless5-edu.pages.dev
+  sni: vless5-edu.pages.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -104,16 +78,3 @@ proxies:
     path: /?ed=2560
     headers:
       Host: winter-bush-f08c-ppal03.himigaw787.workers.dev
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 2083
-  uuid: ac51ad36-5052-460a-842a-e13455d30cb8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /assets?ed=2560
-    headers:
-      Host: RR-FF.pages.DEV
-  sni: RR-FF.pages.DEV
