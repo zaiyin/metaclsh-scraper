@@ -30,16 +30,16 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: azadnet-1cm.pages.dev
-  sni: azadnet-1cm.pages.dev
+      Host: sni.111000.dynv6.net
+  sni: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -63,6 +63,19 @@ proxies:
   udp: true
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
     headers:
       Host: fast01.0860852.xyz
   sni: fast01.0860852.xyz

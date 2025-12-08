@@ -47,7 +47,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.107.37
+  server: 153.121.44.99
   port: 507
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -55,7 +55,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12021050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.150.76
+  server: 160.16.68.250
   port: 1596
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -114,15 +114,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-11404061
-  dialer-proxy: LBCF
-  type: vless
-  server: 109.123.236.161
-  port: 42692
-  uuid: c4ccf00e-72c6-4fd9-b7ce-f625a835539f
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP vmess-SG-11398481
   dialer-proxy: LBCF
   type: vmess
@@ -134,7 +125,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -182,17 +172,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: ip.sb
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 104.26.12.27
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: azadnet-1cm.pages.dev
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: azadnet-1cm.pages.dev
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -233,5 +223,19 @@ proxies:
   sni: fast01.0860852.xyz
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    headers:
+      Host: fast01.0860852.xyz
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 154.197.121.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  udp: true
+  network: ws
+  tls: true
+  sni: fast01.0860852.xyz
+  ws-opts:
+    path: /?ed=2560
     headers:
       Host: fast01.0860852.xyz
