@@ -60,7 +60,7 @@ proxies:
     path: /
     headers:
       Host: premium.vkehi.shop
-- name: 🇸🇬DP trojan-SG-12038149
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.233.76
@@ -190,17 +190,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: medium.com
+  server: 104.18.86.131
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless

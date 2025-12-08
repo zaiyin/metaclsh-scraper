@@ -18,15 +18,15 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: vless5-edu.pages.dev
+  sni: vless5-edu.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
