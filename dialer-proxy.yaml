@@ -47,7 +47,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.212.152
+  server: 160.16.107.37
   port: 507
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -59,6 +59,7 @@ proxies:
   port: 1596
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12021047
   dialer-proxy: LBCF
   type: trojan
@@ -91,7 +92,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.131.243
+  server: 153.121.51.29
   port: 127
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
