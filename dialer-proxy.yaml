@@ -84,19 +84,6 @@ proxies:
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP vless-SG-11997868
-  dialer-proxy: LBCF
-  type: vless
-  server: 103.229.96.181
-  port: 8443
-  uuid: 8e2da759-bd9f-457b-c4b8-2ba1bab65002
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /admin
-    headers:
-      Host: ''
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -177,6 +164,14 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP trojan-SG-6153812
+  dialer-proxy: LBCF
+  type: trojan
+  server: 139.180.143.191
+  port: 10293
+  password: aWgKDJmn2q.hv=51
+  udp: true
+  sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -188,26 +183,26 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
+  server: medium.com
   port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.26.12.27
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
