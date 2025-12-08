@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-12063760
+  dialer-proxy: LBCF
+  type: trojan
+  server: 13.231.156.35
+  port: 968
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
+- name: 🇸🇬DP trojan-SG-12063755
+  dialer-proxy: LBCF
+  type: trojan
+  server: 3.112.225.115
+  port: 804
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -55,7 +71,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12021050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.68.250
+  server: 160.16.150.76
   port: 1596
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
@@ -100,9 +116,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.81.84
+  server: 202.181.103.246
   port: 2760
-  password: 79314e99f0a473fe86efc7827942ad00
+  password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vless-SG-11404553
@@ -125,6 +141,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -186,17 +203,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: legion.lenovo.com
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 104.18.86.131
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: vless5-edu.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /?ed
     headers:
-      Host: sni.111000.dynv6.net
+      Host: vless5-edu.pages.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -211,31 +228,3 @@ proxies:
     path: /Telegram @ /?ed=2560
     headers:
       Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 91.206.71.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 154.197.121.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
