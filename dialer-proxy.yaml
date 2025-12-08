@@ -60,7 +60,7 @@ proxies:
     path: /
     headers:
       Host: premium.vkehi.shop
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.233.76
@@ -92,14 +92,6 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
-- name: 🇸🇬DP ss-SG-11818509
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  server: 167.150.100.115
-  port: 443
 - name: 🇸🇬DP trojan-SG-11808858
   dialer-proxy: LBCF
   type: trojan
@@ -179,7 +171,7 @@ proxies:
   password: aWgKDJmn2q.hv=51
   udp: true
   sni: zmbvgixwdqusy.advudjng.click
-- name: 🏳DP ss-
+- name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -212,8 +204,13 @@ proxies:
   port: 443
   uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: vless5-edu.pages.dev
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: vless5-edu.pages.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
