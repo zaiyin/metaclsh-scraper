@@ -99,14 +99,6 @@ proxies:
   password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-11949219
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 38.89.142.56
-  port: 990
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -159,7 +151,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: t.me/v2Line
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
