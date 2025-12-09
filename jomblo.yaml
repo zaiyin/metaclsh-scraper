@@ -14,16 +14,3 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Telegram @sinavm /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz

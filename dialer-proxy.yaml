@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12086004
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  server: 209.74.81.149
+  port: 21166
+- name: 🇸🇬DP ss-SG-12085898
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 8Ij4seif85QQHfLmR0zYkQ
+  server: 209.74.82.196
+  port: 48918
 - name: 🇸🇬DP vless-SG-12083729
   dialer-proxy: LBCF
   type: vless
@@ -207,26 +223,3 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.146.201.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram @sinavm /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 166.62.114.253
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  udp: true
-  network: tcp
-  tls: false
