@@ -2,29 +2,29 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /Telegram @sinavm /?ed=2560
     headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
+      Host: fast01.0860852.xyz
+  sni: fast01.0860852.xyz
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2096
+  uuid: 12345678-1234-1234-1234-123456789123
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /snippets
     headers:
-      Host: azadnet-1cm.pages.dev
-  sni: azadnet-1cm.pages.dev
+      Host: vless.hubp.de
+  sni: vless.hubp.de
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
