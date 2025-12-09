@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-12074725
+  dialer-proxy: LBCF
+  type: vmess
+  server: 54.179.173.163
+  port: 46576
+  uuid: bf465b5f-a9eb-4615-d24b-469a23cd79b1
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /bf465b5f
+    headers:
+      Host: ''
 - name: 🇸🇬DP trojan-SG-12063760
   dialer-proxy: LBCF
   type: trojan
@@ -211,17 +226,3 @@ proxies:
     path: /?ed
     headers:
       Host: vless5-edu.pages.dev
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.146.201.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
-  udp: true
-  network: ws
-  tls: true
-  sni: fast01.0860852.xyz
-  ws-opts:
-    path: /Telegram @sinavm /?ed=2560
-    headers:
-      Host: fast01.0860852.xyz
