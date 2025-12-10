@@ -12,3 +12,16 @@ proxies:
     headers:
       Host: vless5-edu.pages.dev
   sni: vless5-edu.pages.dev
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: azadnet-1cm.pages.dev
+  sni: azadnet-1cm.pages.dev

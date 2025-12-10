@@ -76,20 +76,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-12051818
-  dialer-proxy: LBCF
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
-  udp: true
-  network: ws
-  tls: true
-  sni: premium.vkehi.shop
-  ws-opts:
-    path: /
-    headers:
-      Host: premium.vkehi.shop
 - name: 🇸🇬DP trojan-SG-12048806
   dialer-proxy: LBCF
   type: trojan
@@ -215,6 +201,15 @@ proxies:
   server: 104.18.86.131
   port: 443
   uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: tcp
   tls: false
