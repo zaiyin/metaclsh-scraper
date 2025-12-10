@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12092642
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: uA1rLP5m0mMOQ8FcxRXxgr
+  server: 209.74.82.227
+  port: 26515
 - name: 🇸🇬DP ss-SG-12086004
   dialer-proxy: LBCF
   type: ss
@@ -59,14 +67,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -99,20 +99,6 @@ proxies:
   password: 79314e99f0a473fe86efc7827942ad00
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
-  udp: true
-  network: ws
-  tls: true
-  sni: premium.vkehi.shop
-  ws-opts:
-    path: /
-    headers:
-      Host: premium.vkehi.shop
 - name: 🇸🇬DP trojan-SG-12038149
   dialer-proxy: LBCF
   type: trojan
