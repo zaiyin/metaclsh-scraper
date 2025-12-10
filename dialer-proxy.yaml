@@ -66,8 +66,9 @@ proxies:
   port: 443
   uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
   udp: true
-  network: tcp
+  network: grpc
   tls: false
+  sni: www.microsoft.com
 - name: 🇸🇬DP vless-SG-12051818
   dialer-proxy: LBCF
   type: vless
