@@ -67,14 +67,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -108,6 +100,14 @@ proxies:
   password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-11949219
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 38.89.142.56
+  port: 990
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -124,15 +124,6 @@ proxies:
   password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP vless-SG-11404553
-  dialer-proxy: LBCF
-  type: vless
-  server: 46.250.237.164
-  port: 55076
-  uuid: fe7d9497-c04b-4462-900d-333abc79a90f
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP vmess-SG-11398481
   dialer-proxy: LBCF
   type: vmess
@@ -208,6 +199,24 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
+  server: 104.18.86.131
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 91.206.71.253
+  port: 2096
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
   server: 166.62.114.253
   port: 2096
   uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
@@ -219,17 +228,3 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: shops.myshopify.com
-  port: 443
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
