@@ -15,7 +15,7 @@ proxies:
   password: q92MrrP9oJ3lMEzbQFpyuU
   server: 209.74.81.149
   port: 21166
-- name: 🇸🇬DP ss-SG-12085898
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
