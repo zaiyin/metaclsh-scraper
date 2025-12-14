@@ -53,16 +53,15 @@ proxies:
     headers:
       Host: rayan-007.parvin.dpdns.org
   sni: rAyAn-007.pArViN.DpDnS.OrG
-- name: 🇸🇬 vless-SG-7971
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: fast01.0860852.xyz
-  sni: fast01.0860852.xyz
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV

@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12151664
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.122.4
+  port: 8080
+  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: support.sslzoom.us
 - name: 🇸🇬DP ss-SG-12140729
   dialer-proxy: LBCF
   type: ss
@@ -41,19 +54,6 @@ proxies:
   password: 8Ij4seif85QQHfLmR0zYkQ
   server: 209.74.82.196
   port: 48918
-- name: 🇸🇬DP vless-SG-12083729
-  dialer-proxy: LBCF
-  type: vless
-  server: sg.fluxcommunity.my.id
-  port: 2082
-  uuid: ff831988-b64a-4bc3-93dd-58389c91a03a
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sg.fluxcommunity.my.id
 - name: 🇸🇬DP trojan-SG-12063755
   dialer-proxy: LBCF
   type: trojan
@@ -62,15 +62,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
-- name: 🇸🇬DP vless-SG-12053277
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 38.134.189.186
@@ -233,17 +225,16 @@ proxies:
     path: /?ed=2560
     headers:
       Host: rayan-007.parvin.dpdns.org
-- name: 🇸🇬DP vless-SG-7971
+- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 91.206.71.253
-  port: 2096
-  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
-  tls: true
-  sni: fast01.0860852.xyz
+  tls: false
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: fast01.0860852.xyz
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
