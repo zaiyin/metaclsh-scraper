@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-12154066
+  dialer-proxy: LBCF
+  type: vmess
+  server: v12.hdacd.com
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: t.me%252Fripaojiedian
 - name: 🇸🇬DP vless-SG-12151664
   dialer-proxy: LBCF
   type: vless
@@ -38,14 +50,6 @@ proxies:
   password: uA1rLP5m0mMOQ8FcxRXxgr
   server: 209.74.82.227
   port: 26515
-- name: 🇸🇬DP ss-SG-12086004
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  server: 209.74.81.149
-  port: 21166
 - name: 🇸🇬DP ss-SG-12085898
   dialer-proxy: LBCF
   type: ss
@@ -62,14 +66,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -95,7 +91,7 @@ proxies:
   password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-11702717
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 202.181.103.246
