@@ -122,12 +122,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.86.131
+  server: medium.com
   port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -201,16 +206,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 104.24.172.153
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  server: adf.ly
+  port: 443
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: rAyAn-007.pArViN.DpDnS.OrG
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
+      Host: rayan-007.parvin.dpdns.org
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -228,13 +234,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.1.47
+  server: 104.21.81.174
   port: 80
-  uuid: b550a101-63fe-4862-bfd3-8b87bb4168dd
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /?ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: flat-bread-ddb6-ppal03.joriy39169.workers.dev
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV

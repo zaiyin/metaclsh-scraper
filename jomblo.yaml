@@ -18,15 +18,15 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /?ed=2560
     headers:
-      Host: vless5-edu.pages.dev
-  sni: vless5-edu.pages.dev
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -43,15 +43,16 @@ proxies:
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  port: 443
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
+      Host: rayan-007.parvin.dpdns.org
+  sni: rAyAn-007.pArViN.DpDnS.OrG
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -69,11 +70,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 80
-  uuid: b550a101-63fe-4862-bfd3-8b87bb4168dd
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: flat-bread-ddb6-ppal03.joriy39169.workers.dev
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
