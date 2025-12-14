@@ -54,6 +54,22 @@ proxies:
     path: /vless
     headers:
       Host: sg.fluxcommunity.my.id
+- name: 🇸🇬DP trojan-SG-12063755
+  dialer-proxy: LBCF
+  type: trojan
+  server: 16.162.21.116
+  port: 804
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -231,16 +247,3 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
       Host: fast01.0860852.xyz
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.81.174
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
-    headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
