@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-12154066
   dialer-proxy: LBCF
   type: vmess
   server: v12.hdacd.com
@@ -66,14 +66,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -99,14 +91,6 @@ proxies:
   password: 76d630f2af6619c4a5de0ef953df3c6a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-11818509
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  server: 167.150.100.115
-  port: 443
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
@@ -217,20 +201,6 @@ proxies:
     path: /Telegram@ShadowProxy66 /?ed=2560
     headers:
       Host: vless.muzheng.top
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 166.62.114.253
-  port: 2096
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  udp: true
-  network: ws
-  tls: true
-  sni: vless.muzheng.top
-  ws-opts:
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-    headers:
-      Host: vless.muzheng.top
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -258,3 +228,17 @@ proxies:
     path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
       Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.19.106.68
+  port: 2096
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  udp: true
+  network: ws
+  tls: true
+  sni: vless.muzheng.top
+  ws-opts:
+    path: /Telegram@ShadowProxy66 /?ed=2560
+    headers:
+      Host: vless.muzheng.top
