@@ -50,6 +50,14 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -75,6 +83,14 @@ proxies:
   password: e2722c0fb503f8a592436c12bce0509a
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-11818509
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  server: 167.150.100.115
+  port: 443
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
@@ -180,17 +196,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: adf.ly
-  port: 443
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  server: 160.153.0.61
+  port: 2096
+  uuid: 12345678-1234-1234-1234-123456789123
   udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.pArViN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.parvin.dpdns.org
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless

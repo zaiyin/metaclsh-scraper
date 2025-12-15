@@ -1,19 +1,4 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -69,16 +54,16 @@ proxies:
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  port: 2096
+  uuid: 12345678-1234-1234-1234-123456789123
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /snippets
     headers:
-      Host: rayan-007.parvin.dpdns.org
-  sni: rAyAn-007.pArViN.DpDnS.OrG
+      Host: vless.hubp.de
+  sni: vless.hubp.de
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
