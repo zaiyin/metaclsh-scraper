@@ -42,14 +42,6 @@ proxies:
   network: tcp
   tls: true
   sni: free-server.techsonic.cloud
-- name: 🇸🇬DP ss-SG-12092642
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: uA1rLP5m0mMOQ8FcxRXxgr
-  server: 209.74.82.227
-  port: 26515
 - name: 🇸🇬DP trojan-SG-12063755
   dialer-proxy: LBCF
   type: trojan
@@ -107,14 +99,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP trojan-SG-6500358
-  dialer-proxy: LBCF
-  type: trojan
-  server: 206.206.77.237
-  port: 51469
-  password: LxJCPOP40a
-  udp: true
-  sni: cloudflare.com
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -248,3 +232,26 @@ proxies:
     path: /@V2rayBaaz?ed
     headers:
       Host: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.96.7
+  port: 443
+  uuid: 5050e255-4919-4d7f-96c8-30b13d06fdf6
+  udp: true
+  network: ws
+  tls: true
+  sni: 1mCijea74uYkCcQ2mZrX-MNGHduCyF0B.DAMav48375.wORKErs.DeV
+  ws-opts:
+    path: /
+    headers:
+      Host: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: ium3uojslvj2shb1yh8zu7etc34vmyfb.z8f5hmu0ue.workers.dev
+  port: 443
+  uuid: b0e5da32-8bb4-4e65-94f1-99ddeefeaa5e
+  udp: true
+  network: tcp
+  tls: false
