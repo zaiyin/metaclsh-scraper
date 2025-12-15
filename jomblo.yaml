@@ -89,3 +89,16 @@ proxies:
     path: /?ed=2560
     headers:
       Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 169221de-6408-4143-9e66-6f77de385e94
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /@V2rayBaaz?ed
+    headers:
+      Host: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
+  sni: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
