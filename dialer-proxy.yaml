@@ -50,7 +50,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -115,6 +115,14 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬DP trojan-SG-6153812
+  dialer-proxy: LBCF
+  type: trojan
+  server: 139.180.143.191
+  port: 10293
+  password: aWgKDJmn2q.hv=51
+  udp: true
+  sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -140,17 +148,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: ip.sb
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: azadnet-1cm.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: azadnet-1cm.pages.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -168,17 +171,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
@@ -257,12 +260,3 @@ proxies:
     path: /
     headers:
       Host: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: ium3uojslvj2shb1yh8zu7etc34vmyfb.z8f5hmu0ue.workers.dev
-  port: 443
-  uuid: b0e5da32-8bb4-4e65-94f1-99ddeefeaa5e
-  udp: true
-  network: tcp
-  tls: false
