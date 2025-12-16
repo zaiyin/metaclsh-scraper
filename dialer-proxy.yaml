@@ -147,17 +147,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
