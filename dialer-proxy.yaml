@@ -6,12 +6,8 @@ proxies:
   port: 42409
   uuid: 7519638e-b786-4279-baaf-8501548caf1f
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: zoom.us
 - name: 🇸🇬DP vmess-SG-12154066
   dialer-proxy: LBCF
   type: vmess
@@ -216,7 +212,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 160.153.0.61
+  server: 188.164.248.61
   port: 2096
   uuid: 12345678-1234-1234-1234-123456789123
   udp: true
