@@ -66,6 +66,19 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
   sni: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: yousef.varzesh.dpdns.org
+  sni: yousef.varzesh.dpdns.org
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp

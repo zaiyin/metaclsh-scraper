@@ -63,14 +63,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -80,14 +72,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-12038149
-  dialer-proxy: LBCF
-  type: trojan
-  server: 160.16.233.76
-  port: 507
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12021047
   dialer-proxy: LBCF
   type: trojan
@@ -199,6 +183,20 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.148.22
+  port: 2083
+  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
+  udp: true
+  network: ws
+  tls: true
+  sni: yousef.varzesh.dpdns.org
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: yousef.varzesh.dpdns.org
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
