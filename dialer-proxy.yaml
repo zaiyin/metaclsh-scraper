@@ -6,12 +6,8 @@ proxies:
   port: 42409
   uuid: 7519638e-b786-4279-baaf-8501548caf1f
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: zoom.us/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
 - name: 🇸🇬DP vmess-SG-12154066
   dialer-proxy: LBCF
   type: vmess
@@ -24,19 +20,14 @@ proxies:
   udp: true
   network: tcp
   servername: v12.hdacd.com
-- name: 🇸🇬DP vless-SG-12151664
+- name: 🇸🇬DP ss-SG-12054749
   dialer-proxy: LBCF
-  type: vless
-  server: 104.16.122.4
-  port: 8080
-  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
+  type: ss
   udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: support.sslzoom.us
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -62,7 +53,7 @@ proxies:
   password: e2722c0fb503f8a592436c12bce0509a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -141,7 +132,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: legion.lenovo.com
+  server: www.aapanel.com
   port: 2053
   uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
@@ -169,12 +160,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
+  server: legion.lenovo.com
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: ss.saaas.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: ss.saaas.de5.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -192,12 +188,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 188.164.248.61
-  port: 2096
-  uuid: 12345678-1234-1234-1234-123456789123
+  server: www.gov.se
+  port: 2053
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: ss.saaas.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: ss.saaas.de5.net
 - name: 🇸🇬DP trojan-SG-7971
   dialer-proxy: LBCF
   type: trojan
@@ -252,6 +253,20 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: delivr.com
+  port: 2053
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  udp: true
+  network: ws
+  tls: true
+  sni: ss.saaas.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: ss.saaas.de5.net
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.26.12.27
   port: 2053
   uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
