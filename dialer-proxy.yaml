@@ -117,17 +117,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
+  server: www.gco.gov.qa
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: ss.saaas.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: sni.111000.dynv6.net
+      Host: ss.saaas.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -154,7 +154,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: one.dash.cloudflare.com
+  server: www.gov.se
   port: 2053
   uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
@@ -168,17 +168,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 178.239.123.216
-  port: 24443
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: vless3.datatestvless.click
-  ws-opts:
-    path: /
-    headers:
-      Host: vless3.datatestvless.click
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless

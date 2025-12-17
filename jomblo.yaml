@@ -1,32 +1,17 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: sni.111000.dynv6.net
-  sni: sni.111000.dynv6.net
+      Host: ss.saaas.de5.net
+  sni: ss.saaas.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -66,6 +51,19 @@ proxies:
     headers:
       Host: ss.saaas.de5.net
   sni: ss.saaas.de5.net
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.dynv6.net
+  sni: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
