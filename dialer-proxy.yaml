@@ -73,14 +73,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP trojan-SG-6153812
-  dialer-proxy: LBCF
-  type: trojan
-  server: 139.180.143.191
-  port: 10293
-  password: aWgKDJmn2q.hv=51
-  udp: true
-  sni: zmbvgixwdqusy.advudjng.click
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -250,17 +242,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: delivr.com
-  port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  server: 195.85.23.61
+  port: 2096
+  uuid: 12345678-1234-1234-1234-123456789123
   udp: true
-  network: ws
-  tls: true
-  sni: ss.saaas.de5.net
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ss.saaas.de5.net
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
@@ -275,3 +262,12 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: ss.saaas.de5.net
+- name: 🇸🇬DP vless-SG-7424
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: tcp
+  tls: false
