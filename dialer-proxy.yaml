@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-12208269
+  dialer-proxy: LBCF
+  type: vmess
+  server: v12.hdacd.com
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: n1744454498.lie5d.cyou
 - name: 🇸🇬DP vless-SG-12170186
   dialer-proxy: LBCF
   type: vless
@@ -84,17 +96,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: www.gco.gov.qa
+  server: 208.103.161.33
   port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: ss.saaas.de5.net
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ss.saaas.de5.net
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -205,9 +212,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 167.68.42.61
-  port: 2096
-  uuid: 12345678-1234-1234-1234-123456789123
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: tcp
   tls: false
@@ -262,12 +269,3 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: ss.saaas.de5.net
-- name: 🇸🇬DP vless-SG-7424
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: tcp
-  tls: false
