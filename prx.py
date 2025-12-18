@@ -8,8 +8,8 @@ import json
 #  URL SUBSCRIPTION
 # =============================
 URLS = [
-    "https://www.v2nodes.com/subscriptions/country/my/?key=42F70D6D74C1CAB",
-    "https://www.v2nodes.com/subscriptions/country/sg/?key=42F70D6D74C1CAB",
+    "https://www.v2nodes.com/subscriptions/country/my/?key=3F7988C1E0FC53C",
+    "https://www.v2nodes.com/subscriptions/country/sg/?key=3F7988C1E0FC53C",
 ]
 
 
