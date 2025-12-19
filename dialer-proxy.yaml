@@ -45,14 +45,6 @@ proxies:
   password: e2722c0fb503f8a592436c12bce0509a
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-11818509
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  server: 167.150.100.115
-  port: 443
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
@@ -111,17 +103,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: www.aapanel.com
+  server: 208.103.161.33
   port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: ss.saaas.de5.net
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /?ed=2560
     headers:
-      Host: ss.saaas.de5.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -147,32 +139,37 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: www.aapanel.com
-  port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  server: www.speedtest.net
+  port: 443
+  uuid: 17805789-e705-4b20-b487-e9372b06fe4c
   udp: true
   network: ws
   tls: true
-  sni: ss.saaas.de5.net
+  sni: 001.eLEcTRoceLLcO-Cf-003.WORkeRS.dEV
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /eyJqdW5rIjoidTFKWmpMZmRod1Jqa2pPUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
     headers:
-      Host: ss.saaas.de5.net
+      Host: 001.electrocellco-cf-003.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: www.speedtest.net
+  port: 443
+  uuid: 17805789-e705-4b20-b487-e9372b06fe4c
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: 001.eLEcTRoceLLcO-Cf-003.WORkeRS.dEV
+  ws-opts:
+    path: /eyJqdW5rIjoidTFKWmpMZmRod1Jqa2pPUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+    headers:
+      Host: 001.electrocellco-cf-003.workers.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
