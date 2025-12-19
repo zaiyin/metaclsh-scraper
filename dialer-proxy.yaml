@@ -45,6 +45,14 @@ proxies:
   password: e2722c0fb503f8a592436c12bce0509a
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-11818509
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  server: 167.150.100.115
+  port: 443
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
@@ -89,17 +97,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: china.embassy.gov.au
-  port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  server: 162.159.2.134
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: ss.saaas.de5.net
+  sni: ww.x-aniu---tw.netlib.re
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /
     headers:
-      Host: ss.saaas.de5.net
+      Host: ww.x-aniu---tw.netlib.re
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
