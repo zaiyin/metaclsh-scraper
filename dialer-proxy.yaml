@@ -10,7 +10,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: green2.cdntencentmusic.com
+  servername: t.me/ripaojiedian
 - name: 🇸🇬DP vless-SG-12170186
   dialer-proxy: LBCF
   type: vless
@@ -53,7 +53,7 @@ proxies:
   password: e2722c0fb503f8a592436c12bce0509a
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -61,7 +61,7 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP trojan-SG-11702717
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.124.55
@@ -93,15 +93,20 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless

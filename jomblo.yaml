@@ -1,17 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
-  sni: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -47,7 +34,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /
     headers:
       Host: sni.111000.dynv6.net
   sni: sni.111000.dynv6.net
