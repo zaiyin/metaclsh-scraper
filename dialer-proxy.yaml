@@ -53,14 +53,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-12021047
-  dialer-proxy: LBCF
-  type: trojan
-  server: 160.16.150.76
-  port: 3145
-  password: e2722c0fb503f8a592436c12bce0509a
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11928618
   dialer-proxy: LBCF
   type: trojan
@@ -149,7 +141,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 167.68.42.61
+  server: 188.164.248.61
   port: 2096
   uuid: 12345678-1234-1234-1234-123456789123
   udp: true
@@ -186,7 +178,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
+  server: 208.103.161.32
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -209,17 +201,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.2.134
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: ww.x-aniu---tw.netlib.re
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: ww.x-aniu---tw.netlib.re
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -251,14 +243,23 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: legion.lenovo.com
+  server: 208.103.161.33
   port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: ss.saaas.de5.net
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /
     headers:
-      Host: ss.saaas.de5.net
+      Host: sni.111000.dynv6.net
