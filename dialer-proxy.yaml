@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12224356
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  server: ss.039.node-for-bigairport.win
+  port: 40402
 - name: 🇸🇬DP vmess-SG-12208269
   dialer-proxy: LBCF
   type: vmess
@@ -20,6 +28,14 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -85,20 +101,13 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🏳DP vless-
+- name: 🇸🇬DP trojan-SG-9406
   dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  type: trojan
+  server: ip.sb
+  port: 8443
+  password: trojan
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -190,17 +199,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.2.134
-  port: 2087
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: ww.x-aniu---tw.netlib.re
-  ws-opts:
-    path: /
-    headers:
-      Host: ww.x-aniu---tw.netlib.re
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -239,20 +243,6 @@ proxies:
     headers:
       Host: ss.saaas.de5.net
 - name: 🇸🇬DP vless-SG-7456
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
