@@ -53,14 +53,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-12038149
-  dialer-proxy: LBCF
-  type: trojan
-  server: 160.16.132.158
-  port: 1507
-  password: e2722c0fb503f8a592436c12bce0509a
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12021047
   dialer-proxy: LBCF
   type: trojan
@@ -117,13 +109,15 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP trojan-SG-9406
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
-  type: trojan
-  server: ip.sb
-  port: 8443
-  password: trojan
+  type: vless
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -192,17 +186,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 17805789-e705-4b20-b487-e9372b06fe4c
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: 001.eLEcTRoceLLcO-Cf-003.WORkeRS.dEV
-  ws-opts:
-    path: /eyJqdW5rIjoidTFKWmpMZmRod1Jqa2pPUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-    headers:
-      Host: 001.electrocellco-cf-003.workers.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -249,6 +238,20 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: www.gov.se
+  port: 2053
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  udp: true
+  network: ws
+  tls: true
+  sni: ss.saaas.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: ss.saaas.de5.net
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: legion.lenovo.com
   port: 2053
   uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
   udp: true
