@@ -19,15 +19,6 @@ proxies:
   udp: true
   network: tcp
   servername: v12.hdacd.com
-- name: 🇸🇬DP vless-SG-12170186
-  dialer-proxy: LBCF
-  type: vless
-  server: 143.198.222.68
-  port: 42409
-  uuid: 7519638e-b786-4279-baaf-8501548caf1f
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP trojan-SG-12063760
   dialer-proxy: LBCF
   type: trojan
@@ -36,6 +27,14 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%252Fripaojiedian
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -53,7 +52,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -61,7 +60,7 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
   server: 202.181.103.235
@@ -211,17 +210,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: www.gov.se
+  server: 208.103.161.33
   port: 2053
-  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: ss.saaas.de5.net
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ss.saaas.de5.net
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -235,6 +229,15 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.32
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
