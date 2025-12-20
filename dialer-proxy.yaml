@@ -61,7 +61,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -93,7 +93,7 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇮🇩DP ss-ID
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
