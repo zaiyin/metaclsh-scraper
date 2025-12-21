@@ -43,7 +43,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%252Fripaojiedian
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12054749
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -70,7 +70,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.81.84
+  server: 160.16.236.32
   port: 2760
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
@@ -155,13 +155,8 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -174,17 +169,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 17805789-e705-4b20-b487-e9372b06fe4c
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: 001.eLEcTRoceLLcO-Cf-003.WORkeRS.dEV
-  ws-opts:
-    path: /eyJqdW5rIjoidTFKWmpMZmRod1Jqa2pPUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-    headers:
-      Host: 001.electrocellco-cf-003.workers.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
