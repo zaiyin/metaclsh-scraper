@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12242205
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  server: ss.038.node-for-bigairport.win
+  port: 11689
 - name: 🇸🇬DP ss-SG-12240908
   dialer-proxy: LBCF
   type: ss
@@ -35,7 +43,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%252Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -62,9 +70,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 202.181.103.235
+  server: 160.16.81.84
   port: 2760
-  password: e2722c0fb503f8a592436c12bce0509a
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
@@ -180,17 +188,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.149.80
-  port: 443
-  uuid: 733a9a09-ba93-4e73-b1f3-ae0bcbd88310
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: noisy-paper-6b70.grirbp.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: noisy-paper-6b70.grirbp.workers.dev
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -242,17 +245,3 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-7456
-  dialer-proxy: LBCF
-  type: vless
-  server: creativecommons.org
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
-  udp: true
-  network: ws
-  tls: true
-  sni: shiny.revilseptember.workers.dev
-  ws-opts:
-    path: /socks5://8.222.249.27:1100
-    headers:
-      Host: shiny.revilseptember.workers.dev
