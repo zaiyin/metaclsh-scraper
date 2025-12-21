@@ -99,7 +99,7 @@ proxies:
   password: LxJCPOP40a
   udp: true
   sni: cloudflare.com
-- name: 🇮🇩DP ss-ID
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
