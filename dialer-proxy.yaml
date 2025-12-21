@@ -27,14 +27,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%252Fripaojiedian
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -84,6 +76,14 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬DP trojan-SG-6497875
+  dialer-proxy: LBCF
+  type: trojan
+  server: 206.206.77.237
+  port: 51469
+  password: LxJCPOP40a
+  udp: true
+  sni: cloudflare.com
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -141,9 +141,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 172.66.45.18
+  port: 443
+  uuid: 923509aa-bfb0-4758-a5a1-a6c2d0468169
   udp: true
   network: tcp
   tls: false
@@ -214,8 +214,13 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -226,15 +231,6 @@ proxies:
   network: tcp
   tls: false
 - name: 🇸🇬DP vless-SG-7456
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.32
