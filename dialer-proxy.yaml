@@ -60,7 +60,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.132.158
   port: 2760
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
@@ -192,18 +192,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
   server: docker.1panel.live
   port: 2053
-  uuid: 6949ea89-4825-1b47-3b03-113cede87254
+  uuid: 694c8d77-1584-ea3e-8860-bab565285b33
   udp: true
   network: ws
   tls: true
@@ -212,6 +203,20 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: stall.saass.ccwu.cc
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.125.234
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: qqq-3t8.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: qqq-3t8.pages.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
