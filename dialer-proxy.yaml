@@ -229,17 +229,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.4.135
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: qqq-3t8.pages.dev
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: qqq-3t8.pages.dev
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
