@@ -6,12 +6,8 @@ proxies:
   port: 23675
   uuid: bfb7355f-da10-470c-99d2-16c5061c403a
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: m.zoom.us
 - name: 🇸🇬DP ss-SG-12255444
   dialer-proxy: LBCF
   type: ss
@@ -28,14 +24,6 @@ proxies:
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   server: ss.038.node-for-bigairport.win
   port: 11689
-- name: 🇸🇬DP ss-SG-12224356
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  server: ss.039.node-for-bigairport.win
-  port: 40402
 - name: 🇸🇬DP ss-SG-12054749
   dialer-proxy: LBCF
   type: ss
@@ -53,7 +41,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -64,11 +52,10 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.227.93
+  server: 153.121.39.240
   port: 2760
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -248,3 +235,17 @@ proxies:
     path: /
     headers:
       Host: noisy-paper-6b70.grirbp.workers.dev
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.215.138
+  port: 2096
+  uuid: 06a03af9-a629-4047-9418-4bb226551346
+  udp: true
+  network: ws
+  tls: true
+  sni: www.pjw5.top
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.pjw5.top
