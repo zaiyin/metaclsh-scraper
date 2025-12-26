@@ -49,7 +49,7 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP trojan-SG-11702717
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 153.121.39.240
@@ -114,17 +114,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.254.137
+  server: 208.103.161.33
   port: 2053
-  uuid: 694c8d77-1584-ea3e-8860-bab565285b33
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: stall.saass.ccwu.cc
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: stall.saass.ccwu.cc
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -137,17 +132,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
+  server: www.garuda-indonesia.com
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 694c8d77-1584-ea3e-8860-bab565285b33
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: stall.saass.ccwu.cc
   ws-opts:
-    path: /
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: sni.111000.dynv6.net
+      Host: stall.saass.ccwu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -169,16 +164,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.81.174
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
+    path: /?ed=2560
     headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -214,13 +210,8 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
