@@ -6,8 +6,12 @@ proxies:
   port: 23675
   uuid: bfb7355f-da10-470c-99d2-16c5061c403a
   udp: true
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: m.zoom.us
 - name: 🇸🇬DP ss-SG-12255444
   dialer-proxy: LBCF
   type: ss
@@ -52,10 +56,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.39.240
+  server: 160.16.227.93
   port: 2760
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -179,17 +184,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: docker.1panel.live
-  port: 2053
-  uuid: 694c8d77-1584-ea3e-8860-bab565285b33
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
-  tls: true
-  sni: stall.saass.ccwu.cc
+  tls: false
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: stall.saass.ccwu.cc
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -221,16 +225,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.81.174
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
+    path: /?ed=2560
     headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
