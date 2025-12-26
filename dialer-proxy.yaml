@@ -1,4 +1,13 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12308419
+  dialer-proxy: LBCF
+  type: vless
+  server: free-server.techsonic.cloud
+  port: 443
+  uuid: a4cb890e-8251-488e-9439-3403c9a58e55
+  udp: true
+  network: tcp
+  tls: true
 - name: 🇸🇬DP vless-SG-12267042
   dialer-proxy: LBCF
   type: vless
@@ -49,13 +58,14 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.39.240
+  server: 160.16.227.93
   port: 2760
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -114,12 +124,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 172.64.53.226
+  port: 443
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: snippets.kkii.eu.org
+  ws-opts:
+    path: /
+    headers:
+      Host: snippets.kkii.eu.org
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -132,17 +147,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: www.garuda-indonesia.com
+  server: 208.103.161.32
   port: 2053
-  uuid: 694c8d77-1584-ea3e-8860-bab565285b33
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: stall.saass.ccwu.cc
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /?ed=2560
     headers:
-      Host: stall.saass.ccwu.cc
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -161,21 +176,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8023
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
@@ -189,20 +190,34 @@ proxies:
     path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-7971
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.4.203
+  port: 2087
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: qqq-3t8.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: qqq-3t8.pages.dev
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.19.39.97
+  port: 443
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  udp: true
+  network: ws
+  tls: true
+  sni: snippets.kkii.eu.org
+  ws-opts:
+    path: /
+    headers:
+      Host: snippets.kkii.eu.org
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -215,28 +230,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.149.80
-  port: 443
-  uuid: 733a9a09-ba93-4e73-b1f3-ae0bcbd88310
+  server: pages.cloudflare.com
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: noisy-paper-6b70.grirbp.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: noisy-paper-6b70.grirbp.workers.dev
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.215.138
-  port: 2096
-  uuid: 06a03af9-a629-4047-9418-4bb226551346
-  udp: true
-  network: ws
-  tls: true
-  sni: www.pjw5.top
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: www.pjw5.top
+      Host: sni.111000.dynv6.net
