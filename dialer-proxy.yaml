@@ -160,7 +160,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
+  server: 208.103.161.33
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -173,13 +173,8 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
+  network: tcp
+  tls: false
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -197,17 +192,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.39.97
-  port: 443
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: snippets.kkii.eu.org
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /
     headers:
-      Host: snippets.kkii.eu.org
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
