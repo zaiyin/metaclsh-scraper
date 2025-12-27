@@ -8,7 +8,7 @@ proxies:
   udp: true
   network: tcp
   tls: true
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-12267042
   dialer-proxy: LBCF
   type: vless
   server: 152.42.185.230
@@ -151,14 +151,20 @@ proxies:
   password: 7418004a-0ecd-41c0-a062-42bf966d3fb2
   udp: true
   sni: vd.vmy2024.dpdns.org
-- name: 🇸🇬DP trojan-SG-9203
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
-  type: trojan
-  server: ip.sb
-  port: 8443
-  password: trojan
+  type: vless
+  server: 190.93.244.73
+  port: 443
+  uuid: 06a03af9-a629-4047-9418-4bb226551346
   udp: true
-  sni: fofang.pages.dev
+  network: ws
+  tls: true
+  sni: www.pjw5.top
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: www.pjw5.top
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -218,12 +224,11 @@ proxies:
     path: /
     headers:
       Host: snippets.kkii.eu.org
-- name: 🇸🇬DP vless-SG-7966
+- name: 🇸🇬DP trojan-SG-7966
   dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  type: trojan
+  server: cf.877774.xyz
+  port: 443
+  password: 7418004a-0ecd-41c0-a062-42bf966d3fb2
   udp: true
-  network: tcp
-  tls: false
+  sni: guang.bgm2024.dpdns.org
