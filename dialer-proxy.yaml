@@ -81,8 +81,12 @@ proxies:
   port: 8080
   uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
   udp: true
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: support.sslzoom.us
 - name: 🇸🇬DP vless-SG-6647727
   dialer-proxy: LBCF
   type: vless
@@ -162,7 +166,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
