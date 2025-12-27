@@ -80,29 +80,40 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
   network: ws
   tls: true
   udp: true
   ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+  sni: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+- name: 🇸🇬 trojan-SG-8023
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 5a2c16f9
+  udp: true
+  ws-opts:
     path: /
     headers:
-      Host: sni.111000.dynv6.net
-  sni: sni.111000.dynv6.net
+      Host: snippets.kkii.eu.org
+  sni: snippets.kkii.eu.org
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
     headers:
-      Host: sni.111000.dynv6.net
-  sni: sni.111000.dynv6.net
+      Host: hello.96xckkzx.workers.dev
+  sni: hello.96xckkzx.workers.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
