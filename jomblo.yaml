@@ -80,16 +80,16 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  port: 443
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
+    path: /
     headers:
-      Host: hello.96xckkzx.workers.dev
-  sni: hello.96xckkzx.workers.dev
+      Host: snippets.kkii.eu.org
+  sni: snippets.kkii.eu.org
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
@@ -99,7 +99,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
   sni: sni.111000.dynv6.net

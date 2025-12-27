@@ -8,7 +8,7 @@ proxies:
   udp: true
   network: tcp
   tls: true
-- name: 🇸🇬DP vless-SG-12267042
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 152.42.185.230
@@ -89,12 +89,8 @@ proxies:
   port: 8080
   uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: support.sslzoom.us
 - name: 🇸🇬DP vless-SG-6647727
   dialer-proxy: LBCF
   type: vless
@@ -184,13 +180,8 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
+  network: tcp
+  tls: false
 - name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
@@ -216,17 +207,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 185.18.184.66
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.19.39.97
+  port: 443
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   udp: true
   network: ws
-  tls: false
-  sni: hello.96xckkzx.workers.dev
+  tls: true
+  sni: snippets.kkii.eu.org
   ws-opts:
-    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
+    path: /
     headers:
-      Host: hello.96xckkzx.workers.dev
+      Host: snippets.kkii.eu.org
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -234,10 +225,5 @@ proxies:
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: sni.111000.dynv6.net
+  network: tcp
+  tls: false
