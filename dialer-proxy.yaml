@@ -15,12 +15,8 @@ proxies:
   port: 23675
   uuid: bfb7355f-da10-470c-99d2-16c5061c403a
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: m.zoom.us
 - name: 🇸🇬DP ss-SG-12255444
   dialer-proxy: LBCF
   type: ss
@@ -29,6 +25,14 @@ proxies:
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   server: ss.039.node-for-bigairport.win
   port: 40402
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -57,10 +61,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.39.240
+  server: 160.16.82.24
   port: 2760
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -99,6 +104,14 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP trojan-SG-6500358
+  dialer-proxy: LBCF
+  type: trojan
+  server: 206.206.77.237
+  port: 51469
+  password: LxJCPOP40a
+  udp: true
+  sni: cloudflare.com
 - name: 🇸🇬DP vless-SG-6497875
   dialer-proxy: LBCF
   type: vless
@@ -134,15 +147,14 @@ proxies:
     path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-9271
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  type: trojan
+  server: cf.0sm.com
+  port: 443
+  password: 7418004a-0ecd-41c0-a062-42bf966d3fb2
   udp: true
-  network: tcp
-  tls: false
+  sni: vd.vmy2024.dpdns.org
 - name: 🇸🇬DP trojan-SG-9203
   dialer-proxy: LBCF
   type: trojan
@@ -176,23 +188,17 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
-  type: vless
-  server: digitalocean.com
+  type: trojan
+  server: one.cf.cdn.hyli.xyz
   port: 443
-  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
+  password: 5a2c16f9
   udp: true
-  network: ws
-  tls: true
-  sni: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+  sni: snippets.kkii.eu.org
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -232,15 +238,6 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /fp=chrome
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: tcp
-  tls: false
