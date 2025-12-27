@@ -29,14 +29,6 @@ proxies:
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   server: ss.039.node-for-bigairport.win
   port: 40402
-- name: 🇸🇬DP ss-SG-12240908
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  server: ss.038.node-for-bigairport.win
-  port: 11689
 - name: 🇸🇬DP vless-SG-12053277
   dialer-proxy: LBCF
   type: vless
@@ -65,11 +57,10 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.82.24
+  server: 153.121.39.240
   port: 2760
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
   udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -177,12 +168,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: docker.1panel.live
+  server: 208.103.161.33
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -228,7 +224,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
+  server: 208.103.161.33
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -236,6 +232,15 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /x-aniu/?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: tcp
+  tls: false

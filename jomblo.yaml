@@ -125,7 +125,20 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /x-aniu/?ed=2560
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: sni.111000.dynv6.net
+  sni: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
   sni: sni.111000.dynv6.net
