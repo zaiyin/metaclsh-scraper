@@ -27,12 +27,8 @@ proxies:
   port: 23675
   uuid: bfb7355f-da10-470c-99d2-16c5061c403a
   udp: true
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: m.zoom.us
 - name: 🇸🇬DP ss-SG-12255444
   dialer-proxy: LBCF
   type: ss
@@ -73,7 +69,7 @@ proxies:
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP vmess-SG-11391645
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: cf.090227.xyz
@@ -98,7 +94,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-6647727
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 206.206.77.237
