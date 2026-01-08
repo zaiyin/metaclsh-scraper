@@ -62,6 +62,14 @@ proxies:
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-12054749
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 95.173.218.203
+  port: 990
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -162,34 +170,28 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
-  port: 2096
+  server: 208.103.161.33
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.cc.cd
-- name: 🇸🇬DP vless-SG-9271
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
+  type: trojan
+  server: blueivy.qzz.io
   port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  password: da943f80-91e6-46df-b7ba-c6ecf28e0171
   udp: true
-  network: ws
-  tls: true
-  sni: ayanamirei.11160321.xyz
-  ws-opts:
-    path: /Telegram@V2rayAlpha/ed=2560
-    headers:
-      Host: ayanamirei.11160321.xyz
+  sni: blueivy.qzz.io
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -220,17 +222,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 151.101.3.8
+  port: 80
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.de5.net
+  tls: false
   ws-opts:
-    path: /?ed=2560
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
     headers:
-      Host: sni.111000.de5.net
+      Host: mitivpn.global.ssl.fastly.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -300,6 +301,16 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇯🇵DP vless-JP-12490203
   dialer-proxy: LBCF
   type: vless
@@ -314,7 +325,7 @@ proxies:
     path: /pq/jp1
     headers:
       Host: ujp1.xn--ghqu5fm27b67w.com
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-12482898
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -426,7 +437,7 @@ proxies:
   network: tcp
   tls: false
   sni: cloudcircus.jp
-- name: 🇯🇵DP vless-JP-12213001
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 116.80.44.144
@@ -507,11 +518,3 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
-- name: 🇯🇵DP trojan-JP-1151344
-  dialer-proxy: LBCF
-  type: trojan
-  server: 103.238.129.215
-  port: 42734
-  password: 5a2c16f9
-  udp: true
-  sni: snippets.kkii.eu.org
