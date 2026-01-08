@@ -57,19 +57,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 202.181.103.246
+  server: 160.16.196.59
   port: 3901
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-12054749
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 95.173.218.203
-  port: 990
 - name: 🇸🇬DP trojan-SG-11928618
   dialer-proxy: LBCF
   type: trojan
@@ -192,14 +184,20 @@ proxies:
     path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬DP trojan-SG-9271
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
-  type: trojan
-  server: blueivy.qzz.io
-  port: 443
-  password: da943f80-91e6-46df-b7ba-c6ecf28e0171
+  type: vless
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  sni: blueivy.qzz.io
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -230,31 +228,30 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 5.10.214.158
+  server: 25.26.27.158
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.v6.army
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.army
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 104.21.81.174
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
+  tls: false
   ws-opts:
-    path: /?ed
+    path: /wP3dwCyRAVyMJFfW?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -381,7 +378,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.144.208
+  server: 160.16.196.59
   port: 1933
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
@@ -389,7 +386,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.144.208
+  server: 160.16.196.59
   port: 4006
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
@@ -462,7 +459,7 @@ proxies:
     path: /ws
     headers:
       Host: ''
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-11352710
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -470,7 +467,7 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 103.106.228.247
   port: 990
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-11339200
   dialer-proxy: LBCF
   type: vmess
   server: t1.620720.xyz
