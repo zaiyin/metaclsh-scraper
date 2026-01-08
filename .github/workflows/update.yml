@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pyyaml
+          pip install requests pyyaml bs4
 
       - name: Run scraper
         run: |
