@@ -62,7 +62,7 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇸🇬DP trojan-SG-12342314
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.63.16
@@ -104,7 +104,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-7119279
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -189,17 +189,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: pages.cloudflare.com
+  server: www.gco.gov.qa
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: news3.f1w.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: sni.111000.dynv6.net
+      Host: news3.f1w.de5.net
 - name: 🇸🇬DP trojan-SG-9203
   dialer-proxy: LBCF
   type: trojan
@@ -314,7 +314,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-  sni: japan.geodema.network
 - name: 🇯🇵DP vless-JP-12457809
   dialer-proxy: LBCF
   type: vless
@@ -333,7 +332,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vmess-JP-12382688
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: n1753598451.74qxv.top
@@ -373,7 +372,7 @@ proxies:
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-12369182
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.196.59
@@ -427,7 +426,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🇯🇵DP ss-JP-11862664
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
