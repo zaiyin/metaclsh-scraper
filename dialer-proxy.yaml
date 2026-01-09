@@ -62,6 +62,16 @@ proxies:
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP vless-SG-12053277
+  dialer-proxy: LBCF
+  type: vless
+  server: 38.134.189.186
+  port: 443
+  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
+  udp: true
+  network: grpc
+  tls: false
+  sni: www.microsoft.com
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -157,18 +167,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
+  server: 151.101.3.8
+  port: 80
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 193.227.99.148
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-9271
+      Host: sni.111000.v6.rocks
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
   server: 172.64.146.20
@@ -182,32 +205,24 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.cc.cd
-- name: 🇸🇬DP vless-SG-9203
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 31.43.179.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.dns.army
-- name: 🇸🇬DP trojan-SG-8862
-  dialer-proxy: LBCF
-  type: trojan
-  server: cf.090227.xyz
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  udp: true
-  sni: _acme-challenge.2go.cloudns.be
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: pages.cloudflare.com
+  server: 208.103.161.32
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -215,37 +230,22 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 151.101.3.8
+  port: 80
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.de5.net
+  tls: false
   ws-opts:
-    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
     headers:
-      Host: sni.111000.de5.net
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: docker.1panel.live
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
+      Host: mitivpn.global.ssl.fastly.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -318,7 +318,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11205
+  port: 11204
 - name: 🇯🇵DP vless-JP-12482679
   dialer-proxy: LBCF
   type: vless
@@ -382,7 +382,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.144.208
+  server: 202.181.103.246
   port: 1933
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
