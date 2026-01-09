@@ -1,12 +1,4 @@
 proxies:
-- name: 🇸🇬DP ss-SG-12520809
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-  port: 18017
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
@@ -54,8 +46,8 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 48801
-- name: 🏳DP vmess-
+  port: 48803
+- name: 🇸🇬DP vmess-SG-12468328
   dialer-proxy: LBCF
   type: vmess
   server: 150.109.11.193
@@ -73,9 +65,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.63.16
   port: 3901
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vless-SG-12053277
@@ -271,6 +263,16 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-12523389
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.245.38.111
+  port: 443
+  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.autodesk.com
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -366,17 +368,17 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.138.24
   port: 1933
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.196.59
   port: 4006
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP vmess-JP-12299776
@@ -425,7 +427,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-11862664
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -446,17 +448,17 @@ proxies:
 - name: 🇯🇵DP vless-JP-11356393
   dialer-proxy: LBCF
   type: vless
-  server: 23andme.com
+  server: al-akhbar.com
   port: 443
   uuid: defd03ed-ef26-415c-a64e-f95edd0d430e
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg
+  sni: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
   ws-opts:
     path: /ws
     headers:
-      Host: rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg
+      Host: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
 - name: 🇯🇵DP vmess-JP-11339200
   dialer-proxy: LBCF
   type: vmess
@@ -501,34 +503,6 @@ proxies:
   type: vless
   server: 47.79.42.30
   port: 18443
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  udp: true
-  network: ws
-  tls: true
-  sni: gyhh2333.2288888.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: gyhh2333.2288888.xyz
-- name: 🇯🇵DP vless-JP-1402621
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.79.42.30
-  port: 18443
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  udp: true
-  network: ws
-  tls: true
-  sni: gyhh2333.2288888.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: gyhh2333.2288888.xyz
-- name: 🇯🇵DP vless-JP-160475
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.79.151.55
-  port: 1443
   uuid: 483809cc-4a30-42d9-b713-6916b048aad7
   udp: true
   network: ws
