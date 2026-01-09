@@ -23,22 +23,6 @@ proxies:
   password: ce1dfbefd0addc9c
   server: 45.135.228.135
   port: 11201
-- name: 🇸🇬DP vmess-SG-12479017
-  dialer-proxy: LBCF
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12901
-  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: baidu.com
-  servername: baidu.com
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
@@ -46,7 +30,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 48803
+  port: 48801
 - name: 🇸🇬DP vmess-SG-12468328
   dialer-proxy: LBCF
   type: vmess
@@ -62,10 +46,10 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.63.16
+  server: 160.16.196.59
   port: 3901
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
@@ -172,34 +156,34 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.122
+  server: 25.129.197.138
   port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: DiGIkALaA.dpdns.ORG
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: digikalaa.dpdns.org
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.gco.gov.qa
+  server: 104.19.73.126
   port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: news3.f1w.de5.net
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /?ed=2560
     headers:
-      Host: news3.f1w.de5.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP trojan-SG-9203
   dialer-proxy: LBCF
   type: trojan
@@ -211,7 +195,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
+  server: 104.18.42.163
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  udp: true
+  network: ws
+  tls: true
+  sni: ayanamirei.11160321.xyz
+  ws-opts:
+    path: /Telegram@V2rayAlpha/ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: docker.1panel.live
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -219,7 +217,7 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇲🇾DP ss-MY-12478987
@@ -263,6 +261,22 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vmess-JP-12527000
+  dialer-proxy: LBCF
+  type: vmess
+  server: tokyo01.zgjok.com
+  port: 443
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -314,6 +328,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
+  sni: japan.geodema.network
 - name: 🇯🇵DP vless-JP-12457809
   dialer-proxy: LBCF
   type: vless
@@ -332,7 +347,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
   server: n1753598451.74qxv.top
@@ -367,12 +382,12 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.144.208
   port: 1933
   password: 381f2e86233720eacda26d50e9aa26da
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.196.59
@@ -426,7 +441,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-11862664
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -497,17 +512,3 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
-- name: 🇯🇵DP vless-JP-4988321
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.79.42.30
-  port: 18443
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  udp: true
-  network: ws
-  tls: true
-  sni: gyhh2333.2288888.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: gyhh2333.2288888.xyz
