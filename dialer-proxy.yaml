@@ -38,7 +38,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 48803
+  port: 48801
 - name: 🇸🇬DP vmess-SG-12468328
   dialer-proxy: LBCF
   type: vmess
@@ -143,20 +143,14 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🇸🇬DP trojan-SG-9406
   dialer-proxy: LBCF
-  type: vless
-  server: 185.162.231.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  type: trojan
+  server: mfa.gov.ua
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.rocks
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.rocks
+  sni: _acme-challenge.2go.cloudns.be
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -171,18 +165,24 @@ proxies:
     path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬DP trojan-SG-9203
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
-  type: trojan
-  server: mfa.gov.ua
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  type: vless
+  server: 8.47.69.0
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
-  sni: _acme-challenge.2go.cloudns.be
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: www.aapanel.com
+  server: pages.cloudflare.com
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -193,28 +193,33 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 31.43.179.138
+  server: 172.64.146.20
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: sni.111000.cc.cd
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dns.army
-- name: 🇸🇬DP trojan-SG-8105
+      Host: sni.111000.cc.cd
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
-  type: trojan
-  server: cf.090227.xyz
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  type: vless
+  server: 172.67.137.47
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
   udp: true
-  sni: _acme-challenge.2go.cloudns.be
+  network: ws
+  tls: false
+  ws-opts:
+    path: /1qrxwiek8tujvr6h
+    headers:
+      Host: index.harmony510.workers.dev
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -256,12 +261,12 @@ proxies:
     path: /telegram_@sswia
     headers:
       Host: ''
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -378,15 +383,15 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -463,20 +468,20 @@ proxies:
   network: tcp
   tls: false
   sni: mensura.cdn-apple.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-11356393
   dialer-proxy: LBCF
   type: vless
-  server: 45.83.22.118
+  server: al-akhbar.com
   port: 443
   uuid: defd03ed-ef26-415c-a64e-f95edd0d430e
   udp: true
   network: ws
   tls: true
-  sni: zula.ir
+  sni: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
   ws-opts:
     path: /ws
     headers:
-      Host: ''
+      Host: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
 - name: 🇯🇵DP vmess-JP-11339200
   dialer-proxy: LBCF
   type: vmess
