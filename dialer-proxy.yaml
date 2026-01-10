@@ -54,7 +54,7 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇸🇬DP trojan-SG-12342314
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.87.174
@@ -154,22 +154,23 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: xijinpingnmsl.s4ar.workers.dev
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP trojan-SG-9203
   dialer-proxy: LBCF
   type: trojan
@@ -178,20 +179,20 @@ proxies:
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   udp: true
   sni: _acme-challenge.2go.cloudns.be
-- name: 🇸🇬DP vless-SG-8862
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
+  server: pavosilene.qzz.io
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /79.141.170.138:443
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
@@ -206,19 +207,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: wangcai253.cloudflare.182682.xyz
-  port: 8880
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: kazuhikosvpn.kazuhikolzk.workers.dev
+      Host: sni.111000.dns.army
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -313,7 +315,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-  sni: japan.geodema.network
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -372,7 +373,7 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.87.174
@@ -482,7 +483,7 @@ proxies:
     headers:
       Host: t1.620720.xyz
   servername: t1.620720.xyz
-- name: 🇯🇵DP vmess-JP-10306937
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 172.111.146.64

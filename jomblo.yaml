@@ -8,33 +8,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2095
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: xijinpingnmsl.s4ar.workers.dev
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -47,15 +35,3 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 8880
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-    headers:
-      Host: kazuhikosvpn.kazuhikolzk.workers.dev
