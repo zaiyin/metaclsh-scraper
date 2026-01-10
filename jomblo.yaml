@@ -8,9 +8,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -23,7 +23,7 @@ proxies:
     path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 2053
