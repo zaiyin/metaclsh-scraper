@@ -2,15 +2,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -38,12 +38,12 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 80
+  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: soft-wave-5d2a.kyng-ayaan.workers.dev

@@ -30,7 +30,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 48803
+  port: 48801
 - name: 🇸🇬DP vmess-SG-12468328
   dialer-proxy: LBCF
   type: vmess
@@ -159,17 +159,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 8.47.69.0
-  port: 2053
+  server: 25.129.197.138
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -209,17 +209,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 193.227.99.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: npmjs.com
+  port: 80
+  uuid: 0c07016f-6238-4a17-a414-ab0ecd8a8b5e
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.v6.rocks
+  tls: false
+  sni: soft-wave-5d2a.kyng-ayaan.workers.dev
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: soft-wave-5d2a.kyng-ayaan.workers.dev
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
