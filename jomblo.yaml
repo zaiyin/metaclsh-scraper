@@ -14,15 +14,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 2095
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: xijinpingnmsl.s4ar.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -59,15 +59,3 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.v6.rocks
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
