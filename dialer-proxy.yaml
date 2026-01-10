@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-12534386
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.150.76
+  port: 544
+  password: 61d8077bfb174e171b8283f155a555ad
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
@@ -30,7 +38,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 48801
+  port: 48803
 - name: 🇸🇬DP vmess-SG-12468328
   dialer-proxy: LBCF
   type: vmess
@@ -72,22 +80,6 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP trojan-SG-11817705
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.199.160.78
-  port: 3127
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
-- name: 🇸🇬DP trojan-SG-11808858
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.199.160.78
-  port: 2673
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
@@ -110,19 +102,6 @@ proxies:
     headers:
       Host: support.sslzoom.us
 - name: 🇸🇬DP vless-SG-6647727
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.122.4
-  port: 8080
-  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: support.sslzoom.us
-- name: 🇸🇬DP vless-SG-6500358
   dialer-proxy: LBCF
   type: vless
   server: 104.16.122.4
@@ -220,6 +199,33 @@ proxies:
     path: /?ed=2560
     headers:
       Host: soft-wave-5d2a.kyng-ayaan.workers.dev
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.148.107.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.rocks
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.rocks
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.40.145
+  port: 80
+  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -277,7 +283,7 @@ proxies:
     headers:
       Host: tokyo01.zgjok.com
   servername: tokyo01.zgjok.com
-- name: 🇯🇵DP vless-JP-12523389
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 47.245.38.111
@@ -329,7 +335,7 @@ proxies:
   network: tcp
   tls: false
   sni: japan.geodema.network
-- name: 🇯🇵DP vless-JP-12457809
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 109.61.109.135
@@ -382,7 +388,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -390,7 +396,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -421,6 +427,14 @@ proxies:
   network: tcp
   tls: false
   sni: github.com
+- name: 🏳DP trojan-
+  dialer-proxy: LBCF
+  type: trojan
+  server: 3.112.71.26
+  port: 2762
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-12237910
   dialer-proxy: LBCF
   type: vless
@@ -489,18 +503,3 @@ proxies:
     headers:
       Host: t1.620720.xyz
   servername: t1.620720.xyz
-- name: 🇯🇵DP vmess-JP-10306937
-  dialer-proxy: LBCF
-  type: vmess
-  server: 172.111.146.64
-  port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
