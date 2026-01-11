@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12551909
+  dialer-proxy: LBCF
+  type: vless
+  server: 167.172.83.42
+  port: 11441
+  uuid: d7a84b8a-66c3-4b9c-b1b7-d576058c489f
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: zoom.us
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
@@ -7,10 +20,10 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-12520806
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.72.33
   port: 3076
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -54,10 +67,10 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇸🇬DP trojan-SG-12342314
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.87.174
   port: 3901
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -72,7 +85,7 @@ proxies:
   network: grpc
   tls: false
   sni: www.microsoft.com
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -214,20 +227,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: notion.site
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  network: ws
-  tls: true
-  sni: ss1.f1w.de5.net
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
-    headers:
-      Host: ss1.f1w.de5.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -353,7 +352,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-  sni: japan.geodema.network
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
