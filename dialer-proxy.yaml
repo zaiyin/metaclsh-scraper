@@ -10,7 +10,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 153.121.38.213
   port: 3076
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -57,7 +57,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.38.213
   port: 3901
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -138,6 +138,19 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: support.sslzoom.us
+- name: 🇸🇬DP vless-SG-6500358
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.122.4
+  port: 8080
+  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: support.sslzoom.us
 - name: 🇸🇬DP vless-SG-6497875
   dialer-proxy: LBCF
   type: vless
@@ -176,17 +189,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.42.163
+  server: 162.159.249.92
   port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
   tls: true
-  sni: ayanamirei.11160321.xyz
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /Telegram@V2rayAlpha/ed=2560
+    path: /assets
     headers:
-      Host: ayanamirei.11160321.xyz
+      Host: shiny.revilseptember.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -204,31 +217,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.162.231.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.rocks
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.rocks
+      Host: ''
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -346,7 +345,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-  sni: japan.geodema.network
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -400,7 +398,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.130.66
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -408,7 +406,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
