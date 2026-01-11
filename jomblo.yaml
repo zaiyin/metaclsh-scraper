@@ -17,27 +17,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--
+    path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /assets
-    headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
