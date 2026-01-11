@@ -15,7 +15,7 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12500160
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -162,30 +162,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.254.137
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: ss1.f1w.de5.net
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
-      Host: ss1.f1w.de5.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.18.42.163
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: ayanamirei.11160321.xyz
   ws-opts:
-    path: /?ed=2560
+    path: /Telegram@V2rayAlpha/ed=2560
     headers:
-      Host: xijinpingnmsl.s4ar.workers.dev
+      Host: ayanamirei.11160321.xyz
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -203,30 +204,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: pavosilene.qzz.io
-  port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: pavosilene.qzz.io
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /79.141.170.138:443
+    path: /
     headers:
-      Host: ''
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.13.229
-  port: 2052
-  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
+  server: 185.162.231.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: winbiss-0tpka6-v1.winbiss.workers.dev
+      Host: sni.111000.v6.rocks
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -406,7 +408,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.87.174
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
