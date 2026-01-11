@@ -23,7 +23,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12488970
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -183,13 +183,41 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
+    path: /?ed=2560&Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: nrt.xxxxxxxx.nyc.mn
+  server: zula.ir
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  udp: true
+  network: ws
+  tls: true
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
+  ws-opts:
+    path: /assets
+    headers:
+      Host: shiny.revilseptember.workers.dev
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.159.247.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dns.army
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.dns.army
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: notion.site
   port: 2053
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -200,34 +228,6 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: ss1.f1w.de5.net
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.47.69.0
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: pavosilene.qzz.io
-  port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
-  udp: true
-  network: ws
-  tls: true
-  sni: pavosilene.qzz.io
-  ws-opts:
-    path: /79.141.170.138:443
-    headers:
-      Host: ''
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -353,6 +353,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
+  sni: japan.geodema.network
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -406,7 +407,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.130.66
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -453,7 +454,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-12237910
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
