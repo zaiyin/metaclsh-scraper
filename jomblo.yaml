@@ -38,3 +38,15 @@ proxies:
     path: /assets
     headers:
       Host: shiny.revilseptember.workers.dev
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2087
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: danfeng.ye.gs
