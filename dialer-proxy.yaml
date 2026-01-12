@@ -31,12 +31,12 @@ proxies:
 - name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 153.121.38.213
   port: 3076
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12500160
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -52,7 +52,7 @@ proxies:
   password: ce1dfbefd0addc9c
   server: 45.135.228.135
   port: 11201
-- name: 🇸🇬DP ss-SG-12479009
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -78,7 +78,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 153.121.38.213
   port: 3901
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -115,14 +115,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🏳DP ss-
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 65e716e3d3ec1fc0
-  server: 84.247.147.61
-  port: 24914
 - name: 🇸🇬DP vless-SG-6732219
   dialer-proxy: LBCF
   type: vless
@@ -200,16 +192,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: zula.ir
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /?ed=2560
+    path: /assets
     headers:
-      Host: xijinpingnmsl.s4ar.workers.dev
+      Host: shiny.revilseptember.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -224,21 +217,35 @@ proxies:
     path: /
     headers:
       Host: worker-ancient-bonus-70e8.96dc4cc80bfb.workers.dev
-- name: 🇸🇬DP vless-SG-8862
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: pavosilene.qzz.io
+  server: 1password.com
   port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: pavosilene.qzz.io
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
-    path: /79.141.170.138:443
+    path: /?ed=2560
     headers:
-      Host: ''
-- name: 🇲🇾DP ss-MY-12478987
+      Host: rayan-007.foton.dpdns.org
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.159.247.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dns.army
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.dns.army
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -338,7 +345,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇯🇵DP ss-JP-12482898
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -355,7 +362,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-  sni: japan.geodema.network
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -409,12 +415,12 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.57.238
+  server: 153.121.51.29
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP vmess-JP-12299776
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: n1753598452.wpg27.xyz
@@ -448,7 +454,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vless-JP-12237910
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
@@ -516,7 +522,7 @@ proxies:
     headers:
       Host: t1.620720.xyz
   servername: t1.620720.xyz
-- name: 🇯🇵DP vmess-JP-10306937
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 172.111.146.64
@@ -531,7 +537,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
