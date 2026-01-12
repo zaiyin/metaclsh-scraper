@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12554406
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  server: ss.038.node-for-bigairport.win
+  port: 11689
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -75,16 +83,6 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP vless-SG-12053277
-  dialer-proxy: LBCF
-  type: vless
-  server: 38.134.189.186
-  port: 443
-  uuid: ef4d7a6a-a7f0-48e1-8c77-cd305fdca732
-  udp: true
-  network: grpc
-  tls: false
-  sni: www.microsoft.com
 - name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
@@ -188,17 +186,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  server: 104.19.73.126
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  sni: freesni.zjde5.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: freesni.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -216,17 +214,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: v1.dabache.top
-  port: 2087
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  server: www.gov.se
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   network: ws
   tls: true
-  sni: danfeng.ye.gs
+  sni: freesni.zjde5.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: danfeng.ye.gs
+      Host: freesni.zjde5.de5.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -504,14 +502,14 @@ proxies:
 - name: 🇯🇵DP vless-JP-11356393
   dialer-proxy: LBCF
   type: vless
-  server: al-akhbar.com
+  server: 45.83.22.118
   port: 443
   uuid: defd03ed-ef26-415c-a64e-f95edd0d430e
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
+  sni: zula.ir
   ws-opts:
     path: /ws
     headers:
-      Host: rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg
+      Host: ''
