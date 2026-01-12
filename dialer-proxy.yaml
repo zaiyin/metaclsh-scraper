@@ -138,7 +138,7 @@ proxies:
   network: ws
   tls: false
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /
     headers:
       Host: support.sslzoom.us
 - name: 🇸🇬DP vless-SG-6500358
@@ -178,21 +178,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dns.army
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.32
+  server: 141.193.213.21
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -203,6 +189,20 @@ proxies:
     path: /
     headers:
       Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: www.shopify.com
+  port: 2096
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  udp: true
+  network: ws
+  tls: true
+  sni: danfeng.ye.gs
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: danfeng.ye.gs
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -217,21 +217,7 @@ proxies:
     path: /
     headers:
       Host: worker-ancient-bonus-70e8.96dc4cc80bfb.workers.dev
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 1password.com
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇸🇬DP vless-SG-8430
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.33
@@ -243,6 +229,20 @@ proxies:
   sni: sni.111000.dynv6.net
   ws-opts:
     path: /
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇲🇾DP ss-MY-12478987
@@ -405,7 +405,7 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12299776
   dialer-proxy: LBCF
   type: vmess
   server: n1753598452.wpg27.xyz
