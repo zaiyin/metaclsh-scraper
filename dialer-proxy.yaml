@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.55
+  server: 160.16.150.76
   port: 544
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -44,7 +44,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP ss-SG-12488970
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -52,7 +52,7 @@ proxies:
   password: ce1dfbefd0addc9c
   server: 45.135.228.135
   port: 11201
-- name: 🇸🇬DP ss-SG-12479009
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -182,20 +182,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.249.92
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  server: 193.227.99.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: Shiny.REvilSeptembEr.WorkErs.dEv
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /assets
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -227,30 +227,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: v3.dabache.top
-  port: 8443
-  uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
+  server: 141.193.213.21
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: protkskd.webn.cc
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /
     headers:
-      Host: protkskd.webn.cc
+      Host: sni.111000.dynv6.net
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: wangcai253.cloudflare.182682.xyz
-  port: 8880
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 25.129.199.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: kazuhikosvpn.kazuhikolzk.workers.dev
+      Host: sni.111000.v6.rocks
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -288,8 +289,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -325,7 +326,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
-- name: 🇯🇵DP vless-JP-12510381
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 45.89.109.25
@@ -528,7 +529,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
