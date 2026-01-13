@@ -38,18 +38,16 @@ proxies:
     path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-9203
-  type: vless
+- name: 🇸🇬 trojan-SG-9203
+  type: trojan
   server: bug.xcp
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
+  port: 8443
+  password: trojan
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: fofang.pages.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -65,15 +63,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 6965a21b-9842-d547-afae-02fa48ac197d
+  port: 2052
+  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /?ed=2560
     headers:
-      Host: 22.netlib.ccwu.cc
+      Host: winbiss-0tpka6-v1.winbiss.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
