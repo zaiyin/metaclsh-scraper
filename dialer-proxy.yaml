@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.70.180
+  server: 160.16.124.55
   port: 544
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -31,7 +31,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 153.121.38.213
   port: 3076
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -44,7 +44,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12488970
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -63,7 +63,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 153.121.65.107
   port: 3901
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -76,14 +76,6 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP trojan-SG-11777658
-  dialer-proxy: LBCF
-  type: trojan
-  server: 3.112.254.143
-  port: 3579
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -179,31 +171,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 141.193.213.21
-  port: 2053
+  server: 185.159.247.138
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.gco.gov.qa
-  port: 2053
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  server: 162.159.249.92
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng.frii.site
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /assets
     headers:
-      Host: snippet.danfeng.frii.site
+      Host: shiny.revilseptember.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -221,22 +213,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: pavosilene.qzz.io
+  server: 1password.com
   port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: pavosilene.qzz.io
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
-    path: /79.141.170.138:443
+    path: /?ed=2560
     headers:
-      Host: ''
+      Host: rayan-007.foton.dpdns.org
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: cf-cname.xingpingcn.top
-  port: 2096
+  server: v3.dabache.top
+  port: 8443
   uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
   udp: true
   network: ws
@@ -246,6 +238,20 @@ proxies:
     path: /
     headers:
       Host: protkskd.webn.cc
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.de5.net
+  ws-opts:
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    headers:
+      Host: sni.111000.de5.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -283,8 +289,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -393,7 +399,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 153.121.65.107
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -401,7 +407,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.39.240
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -432,7 +438,7 @@ proxies:
   network: tcp
   tls: false
   sni: github.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-12237910
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
@@ -523,7 +529,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
   udp: true
