@@ -44,7 +44,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP ss-SG-12488970
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -100,6 +100,22 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬DP vmess-SG-11196313
+  dialer-proxy: LBCF
+  type: vmess
+  server: aflzzul.meiquankongjian.com
+  port: 51515
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /564dfa20/
+    headers:
+      Host: aflzzul.meiquankongjian.com
+  servername: aflzzul.meiquankongjian.com
 - name: 🇸🇬DP vless-SG-6732219
   dialer-proxy: LBCF
   type: vless
@@ -177,7 +193,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.gov.se
+  server: www.gco.gov.qa
   port: 2053
   uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
   udp: true
@@ -205,44 +221,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.dynv6.net
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 25.129.197.138
-  port: 2053
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  server: cf-cname.xingpingcn.top
+  port: 2096
+  uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
   udp: true
   network: ws
   tls: true
-  sni: KhAmeneI.DPdNs.OrG
+  sni: protkskd.webn.cc
   ws-opts:
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /
     headers:
-      Host: khamenei.dpdns.org
+      Host: protkskd.webn.cc
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -429,15 +432,7 @@ proxies:
   network: tcp
   tls: false
   sni: github.com
-- name: 🏳DP trojan-
-  dialer-proxy: LBCF
-  type: trojan
-  server: 3.112.71.26
-  port: 2762
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vless-JP-12237910
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
@@ -528,7 +523,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -536,3 +531,17 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-4395498
+  dialer-proxy: LBCF
+  type: vless
+  server: 138.2.29.119
+  port: 443
+  uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
+  udp: true
+  network: ws
+  tls: true
+  sni: protkskd.webn.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: protkskd.webn.cc
