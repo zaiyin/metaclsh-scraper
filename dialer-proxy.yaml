@@ -238,20 +238,19 @@ proxies:
     path: /
     headers:
       Host: protkskd.webn.cc
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: wangcai253.cloudflare.182682.xyz
+  port: 8880
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.de5.net
+  tls: false
   ws-opts:
-    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
     headers:
-      Host: sni.111000.de5.net
+      Host: kazuhikosvpn.kazuhikolzk.workers.dev
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -399,7 +398,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.65.107
+  server: 153.121.38.213
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
