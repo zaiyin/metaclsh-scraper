@@ -192,17 +192,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: www.shopify.com
-  port: 2096
+  server: go2.lenovo.com
+  port: 2053
   uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
   udp: true
   network: ws
   tls: true
-  sni: danfeng.ye.gs
+  sni: snippet.danfeng.frii.site
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: danfeng.ye.gs
+      Host: snippet.danfeng.frii.site
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -245,7 +245,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇲🇾DP ss-MY-12478987
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -282,8 +282,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -319,7 +319,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
   server: 45.89.109.25
@@ -329,7 +329,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-12482898
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -392,7 +392,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -491,6 +491,14 @@ proxies:
     path: /ws
     headers:
       Host: ''
+- name: 🇯🇵DP ss-JP-11352710
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 103.106.228.247
+  port: 990
 - name: 🇯🇵DP vmess-JP-11339200
   dialer-proxy: LBCF
   type: vmess
