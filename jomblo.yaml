@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -8,9 +23,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    headers:
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -39,11 +66,23 @@ proxies:
   type: vless
   server: bug.xcp
   port: 2053
+  uuid: 6965a21b-9842-d547-afae-02fa48ac197d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: 22.netlib.ccwu.cc
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.de5.net
