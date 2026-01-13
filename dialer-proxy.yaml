@@ -60,21 +60,6 @@ proxies:
   password: 7afa39016d5a409c
   server: 194.233.73.51
   port: 48803
-- name: 🇸🇬DP vmess-SG-12468328
-  dialer-proxy: LBCF
-  type: vmess
-  server: 150.109.11.193
-  port: 80
-  uuid: b7118dcc-a234-4784-e487-4064c2920808
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
@@ -192,7 +177,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: go2.lenovo.com
+  server: www.gov.se
   port: 2053
   uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
   udp: true
@@ -206,17 +191,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.209.105
-  port: 2087
-  uuid: 1953c1e6-af68-4c60-a6f8-f8194de580f6
+  server: mybb.com
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   network: ws
   tls: true
-  sni: worker-ancient-bonus-70e8.96dc4cc80bfb.workers.dev
+  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: worker-ancient-bonus-70e8.96dc4cc80bfb.workers.dev
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -234,18 +219,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro.
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.129.197.138
   port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: KhAmeneI.DPdNs.OrG
   ws-opts:
-    path: /?ed=2560
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
-      Host: sni.111000.dynv6.net
-- name: 🏳DP ss-
+      Host: khamenei.dpdns.org
+- name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -282,8 +280,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -400,7 +398,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.57.238
+  server: 160.16.87.174
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
