@@ -1,12 +1,4 @@
 proxies:
-- name: 🇸🇬DP ss-SG-12554406
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  server: ss.038.node-for-bigairport.win
-  port: 11689
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -76,7 +68,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -155,7 +147,7 @@ proxies:
     path: /
     headers:
       Host: support.sslzoom.us
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-6497875
   dialer-proxy: LBCF
   type: vless
   server: 104.16.122.4
@@ -179,17 +171,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 185.159.247.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -221,18 +213,32 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: www.aapanel.com
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.dynv6.net
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.145.38
+  port: 8443
+  uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
+  udp: true
+  network: ws
+  tls: true
+  sni: vyznthvt7f5fr.zjde5.de5.net
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vyznthvt7f5fr.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 25.129.199.148
@@ -243,7 +249,7 @@ proxies:
   tls: true
   sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
       Host: sni.111000.v6.rocks
 - name: 🇲🇾DP ss-MY-12478987
@@ -283,8 +289,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -385,7 +391,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -424,7 +430,7 @@ proxies:
   network: tcp
   tls: false
   sni: cloudcircus.jp
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-12213001
   dialer-proxy: LBCF
   type: vless
   server: 116.80.44.144
