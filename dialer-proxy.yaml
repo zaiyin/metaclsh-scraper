@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.55
+  server: 160.16.106.99
   port: 544
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -31,7 +31,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.106.99
   port: 3076
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -76,7 +76,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -155,7 +155,7 @@ proxies:
     path: /
     headers:
       Host: support.sslzoom.us
-- name: 🇸🇬DP vless-SG-6497875
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 104.16.122.4
@@ -168,7 +168,7 @@ proxies:
     path: /
     headers:
       Host: support.sslzoom.us
-- name: 🏳DP ss-
+- name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -176,7 +176,7 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
   server: 25.129.197.138
@@ -221,7 +221,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
+  server: www.aapanel.com
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -235,18 +235,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.159.247.138
+  server: 25.129.199.148
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.dns.army
-- name: 🏳DP ss-
+      Host: sni.111000.v6.rocks
+- name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -393,7 +393,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.89.176
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
