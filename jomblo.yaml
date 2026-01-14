@@ -3,26 +3,26 @@ proxies:
   type: vless
   server: bug.xcp
   port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
-      Host: digikalaa.dpdns.org
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -35,15 +35,27 @@ proxies:
     path: /?ed=2560
     headers:
       Host: www.pjw5.top
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.army
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
