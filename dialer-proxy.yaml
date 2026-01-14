@@ -68,6 +68,14 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP trojan-SG-11928618
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.163.206.7
+  port: 1196
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -171,17 +179,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 185.148.107.148
-  port: 2096
+  server: 208.103.161.32
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed
     headers:
-      Host: sni.111000.v6.rocks
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -199,17 +207,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 185.159.247.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 104.24.254.159
+  port: 2053
+  uuid: 288e0174-2f12-4818-a809-b93507d92184
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: www.pjw5.top
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dns.army
+      Host: www.pjw5.top
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -238,20 +246,6 @@ proxies:
     path: /?ed
     headers:
       Host: lively-brook-c471.nedena3319.workers.dev
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 190.93.247.168
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.army
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.army
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -318,7 +312,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
-- name: 🇯🇵DP vless-JP-12510381
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 45.89.109.25
@@ -399,7 +393,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.89.176
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
