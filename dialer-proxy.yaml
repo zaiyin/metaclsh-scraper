@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.55
+  server: 160.16.150.76
   port: 544
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -171,17 +171,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.132.196
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 185.148.107.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: a.azadnet003.ddns-ip.net
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /telegram-@v2ray_alpha=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: a.azadnet003.ddns-ip.net
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -213,30 +213,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
+  server: pavosilene.qzz.io
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /79.141.170.138:443
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  server: saas.sin.fan
+  port: 443
+  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: lively-brook-c471.nedena3319.workers.dev
   ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
+    path: /?ed
     headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
+      Host: lively-brook-c471.nedena3319.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -288,8 +289,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -390,7 +391,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.65.107
+  server: 160.16.130.66
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -419,16 +420,6 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP vless-JP-12285442
-  dialer-proxy: LBCF
-  type: vless
-  server: 195.78.49.158
-  port: 4443
-  uuid: d5d5b641-dd56-4f39-9754-8d3c45cc2c5e
-  udp: true
-  network: tcp
-  tls: false
-  sni: github.com
 - name: 🇯🇵DP vless-JP-12237910
   dialer-proxy: LBCF
   type: vless
@@ -543,6 +534,20 @@ proxies:
     headers:
       Host: protkskd.webn.cc
 - name: 🇯🇵DP vless-JP-156122
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
+- name: 🇯🇵DP vless-JP-153322
   dialer-proxy: LBCF
   type: vless
   server: 162.159.44.142
