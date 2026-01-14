@@ -68,7 +68,7 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -171,39 +171,45 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 172.66.132.196
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: a.azadnet003.ddns-ip.net
   ws-opts:
-    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /telegram-@v2ray_alpha=?ed=2560?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
     headers:
-      Host: sni.111000.de5.net
+      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
+  server: 162.159.249.92
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  udp: true
+  network: ws
+  tls: true
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
+  ws-opts:
+    path: /assets
+    headers:
+      Host: shiny.revilseptember.workers.dev
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.159.247.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
-- name: 🇸🇬DP trojan-SG-9203
-  dialer-proxy: LBCF
-  type: trojan
-  server: ip.sb
-  port: 8443
-  password: trojan
-  udp: true
-  sni: fofang.pages.dev
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -221,30 +227,30 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.13.229
-  port: 2052
-  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /?ed=2560
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
     headers:
-      Host: winbiss-0tpka6-v1.winbiss.workers.dev
+      Host: elenaaaaaaaaaa.cloudns.pro.
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 190.93.247.168
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.v6.army
   ws-opts:
-    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.army
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -301,14 +307,6 @@ proxies:
   password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
   udp: true
   sni: login-staticjpc.jasmine-douyin.top
-- name: 🇯🇵DP ss-JP-12543548
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  server: ss.027.node-for-bigairport.win
-  port: 10079
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -400,7 +398,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.39.240
+  server: 160.16.87.174
   port: 4006
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -544,3 +542,17 @@ proxies:
     path: /
     headers:
       Host: protkskd.webn.cc
+- name: 🇯🇵DP vless-JP-156122
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
