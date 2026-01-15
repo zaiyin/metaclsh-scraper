@@ -55,9 +55,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.124.17
   port: 3901
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 4843e94d205f3893f588255a591abe94
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11928618
@@ -390,7 +390,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.117.182
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -560,3 +560,17 @@ proxies:
     path: /?ed=2560
     headers:
       Host: l.ayovo.netlib.re
+- name: 🇯🇵DP vless-JP-153040
+  dialer-proxy: LBCF
+  type: vless
+  server: 138.2.29.119
+  port: 443
+  uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
+  udp: true
+  network: ws
+  tls: true
+  sni: protkskd.webn.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: protkskd.webn.cc
