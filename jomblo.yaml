@@ -1,16 +1,31 @@
 proxies:
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -35,15 +50,39 @@ proxies:
     path: /?ed=2560
     headers:
       Host: www.pjw5.top
-- name: 🇸🇬 vless-SG-8105
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
+    path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: lively-brook-c471.nedena3319.workers.dev
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
