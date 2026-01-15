@@ -28,7 +28,7 @@ proxies:
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-12500160
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -171,17 +171,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
+  server: 25.129.197.138
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -227,17 +227,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: saas.sin.fan
+  server: 50.62.172.48
   port: 443
-  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: lively-brook-c471.nedena3319.workers.dev
+  sni: ww20.allxniu.qzz.io
   ws-opts:
-    path: /?ed
+    path: /?ed=2560
     headers:
-      Host: lively-brook-c471.nedena3319.workers.dev
+      Host: ww20.allxniu.qzz.io
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -288,8 +288,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -334,7 +334,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11201
+  port: 11202
 - name: 🇯🇵DP vless-JP-12482679
   dialer-proxy: LBCF
   type: vless
@@ -390,7 +390,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.117.182
+  server: 153.121.51.29
   port: 1933
   password: 61d8077bfb174e171b8283f155a555ad
   udp: true
@@ -471,6 +471,20 @@ proxies:
     path: /ws
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-11355242
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
 - name: 🇯🇵DP ss-JP-11352710
   dialer-proxy: LBCF
   type: ss
@@ -532,6 +546,20 @@ proxies:
     path: /
     headers:
       Host: protkskd.webn.cc
+- name: 🇯🇵DP vless-JP-1151344
+  dialer-proxy: LBCF
+  type: vless
+  server: 221.139.87.28
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
 - name: 🇯🇵DP vless-JP-156122
   dialer-proxy: LBCF
   type: vless
@@ -546,31 +574,3 @@ proxies:
     path: /?ed=2560
     headers:
       Host: l.ayovo.netlib.re
-- name: 🇯🇵DP vless-JP-153322
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.44.142
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  network: ws
-  tls: true
-  sni: l.ayovo.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: l.ayovo.netlib.re
-- name: 🇯🇵DP vless-JP-153040
-  dialer-proxy: LBCF
-  type: vless
-  server: 138.2.29.119
-  port: 443
-  uuid: 3ce3d565-3a9c-65dc-acdd-2d299ed15936
-  udp: true
-  network: ws
-  tls: true
-  sni: protkskd.webn.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: protkskd.webn.cc
