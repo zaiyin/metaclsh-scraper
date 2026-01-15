@@ -38,19 +38,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-9203
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 2053
-  uuid: 288e0174-2f12-4818-a809-b93507d92184
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: www.pjw5.top
-- name: 🇸🇬 vless-SG-8862
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 2053
@@ -65,12 +65,12 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /wP3dwCyRAVyMJFfW?ed=2560
+    path: /?ed=2560&Telegram@V2rayAlpha
     headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+      Host: sni.111000.v6.army
