@@ -55,9 +55,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 160.16.87.174
   port: 3901
-  password: 4843e94d205f3893f588255a591abe94
+  password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11928618
@@ -171,31 +171,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 25.129.199.122
   port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: DiGIkALaA.dpdns.ORG
   ws-opts:
-    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: sni.111000.de5.net
+      Host: digikalaa.dpdns.org
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
-  port: 2096
+  server: 141.193.213.21
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -213,17 +213,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.dynv6.net
+      Host: ''
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
@@ -235,23 +235,23 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
+  server: 25.129.197.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.army
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.v6.army
+      Host: sni.111000.de5.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -335,7 +335,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11204
+  port: 11201
 - name: 🇯🇵DP vless-JP-12482679
   dialer-proxy: LBCF
   type: vless
@@ -391,17 +391,17 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 153.121.51.29
   port: 1933
-  password: 4843e94d205f3893f588255a591abe94
+  password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.87.174
   port: 4006
-  password: 4843e94d205f3893f588255a591abe94
+  password: 61d8077bfb174e171b8283f155a555ad
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP vmess-JP-12299776
@@ -420,7 +420,7 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP vless-JP-12237910
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
@@ -458,20 +458,6 @@ proxies:
   password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
   server: 103.75.118.125
   port: 443
-- name: 🇯🇵DP vless-JP-11356393
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.83.22.118
-  port: 443
-  uuid: defd03ed-ef26-415c-a64e-f95edd0d430e
-  udp: true
-  network: ws
-  tls: true
-  sni: zula.ir
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ''
 - name: 🇯🇵DP vless-JP-11355242
   dialer-proxy: LBCF
   type: vless
@@ -562,6 +548,20 @@ proxies:
     headers:
       Host: ww20.allxniu.qzz.io
 - name: 🇯🇵DP vless-JP-165436
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
+- name: 🇯🇵DP vless-JP-161220
   dialer-proxy: LBCF
   type: vless
   server: 18.183.158.211
