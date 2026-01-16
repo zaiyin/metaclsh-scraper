@@ -1,14 +1,16 @@
 proxies:
-- name: 🇸🇬 trojan-SG-9406
-  type: trojan
+- name: 🇸🇬 vless-SG-9406
+  type: vless
   server: bug.xcp
-  port: 8443
-  password: trojan
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: fofang.pages.dev
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -33,18 +35,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: rayan-007.nastaran.dpdns.org
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /vgn80ag4q5o0oxj5
-    headers:
-      Host: index.harmony610.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -54,6 +44,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.de5.net
