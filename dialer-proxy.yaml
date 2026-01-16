@@ -36,7 +36,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12488970
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -60,7 +60,7 @@ proxies:
     headers:
       Host: baidu.com
   servername: baidu.com
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -150,7 +150,7 @@ proxies:
     path: /
     headers:
       Host: support.sslzoom.us
-- name: 🇸🇬DP vless-SG-6497875
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 104.16.122.4
@@ -185,33 +185,28 @@ proxies:
     path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
       Host: digikalaa.dpdns.org
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
+  server: 162.159.249.92
   port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
   tls: true
-  sni: sg.aniuge.qzz.io
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /?ed=2560
+    path: /assets
     headers:
-      Host: sg.aniuge.qzz.io
-- name: 🇸🇬DP vless-SG-9203
+      Host: shiny.revilseptember.workers.dev
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
-  type: vless
-  server: 151.101.3.8
-  port: 80
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  type: trojan
+  server: mfa.gov.ua
+  port: 443
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
+  sni: _acme-challenge.2go.cloudns.be
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -229,31 +224,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.162.231.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 1password.com
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
-- name: 🏳DP vless-
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: digitalocean.com
+  port: 443
+  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -291,8 +286,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -353,7 +348,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11201
+  port: 11202
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -386,7 +381,7 @@ proxies:
     headers:
       Host: n1753598448.74qxv.top
   servername: n1753598448.74qxv.top
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.72.205
@@ -394,7 +389,7 @@ proxies:
   password: 4843e94d205f3893f588255a591abe94
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.72.205
@@ -438,7 +433,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-11862664
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -499,7 +494,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -507,6 +502,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-1468065
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
 - name: 🇯🇵DP vless-JP-1151344
   dialer-proxy: LBCF
   type: vless
@@ -549,10 +558,10 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-160475
+- name: 🇯🇵DP vless-JP-160479
   dialer-proxy: LBCF
   type: vless
-  server: 18.183.158.211
+  server: 221.139.87.28
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
@@ -563,21 +572,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-156122
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.44.142
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  network: ws
-  tls: true
-  sni: l.ayovo.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: l.ayovo.netlib.re
-- name: 🇯🇵DP vless-JP-153435
+- name: 🇯🇵DP vless-JP-160475
   dialer-proxy: LBCF
   type: vless
   server: 18.183.158.211
