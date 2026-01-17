@@ -7,7 +7,7 @@ proxies:
   password: ed78b7ec3662e43a
   server: 81.28.13.223
   port: 11201
-- name: 🇸🇬DP vless-SG-12551909
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 167.172.83.42
@@ -79,7 +79,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.124.17
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -190,36 +190,36 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.73.126
-  port: 2053
-  uuid: 69699799-6abc-b931-6c1d-b5008b031e1c
+  server: 25.129.199.122
+  port: 2096
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
   udp: true
   network: ws
   tls: true
-  sni: sss.ifree.int.yt
+  sni: DiGIkALaA.dpdns.ORG
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: sss.ifree.int.yt
+      Host: digikalaa.dpdns.org
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: singapore.com
-  port: 2053
-  uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
+  server: 162.159.249.92
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
   tls: true
-  sni: sss.ifree.int.yt
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /assets
     headers:
-      Host: sss.ifree.int.yt
+      Host: shiny.revilseptember.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.240.104
-  port: 2083
+  server: 190.93.245.51
+  port: 2053
   uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
   udp: true
   network: ws
@@ -342,7 +342,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11202
+  port: 11201
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess

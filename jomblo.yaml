@@ -17,31 +17,31 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 69699799-6abc-b931-6c1d-b5008b031e1c
+  port: 2096
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: sss.ifree.int.yt
+      Host: digikalaa.dpdns.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+    path: /assets
     headers:
-      Host: sss.ifree.int.yt
+      Host: shiny.revilseptember.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2083
+  port: 2053
   uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
   network: ws
   tls: true
