@@ -11,14 +11,6 @@ proxies:
   udp: true
   network: tcp
   servername: cgroup.node3.v.nodelist-airport.com
-- name: 🇸🇬DP ss-SG-12616336
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: d2umVadPT1m/FwIn
-  server: 194.87.10.161
-  port: 8388
 - name: 🇸🇬DP ss-SG-12612747
   dialer-proxy: LBCF
   type: ss
@@ -202,31 +194,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 25.129.199.122
   port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: DiGIkALaA.dpdns.ORG
   ws-opts:
-    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: sni.111000.de5.net
+      Host: digikalaa.dpdns.org
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.249.92
+  port: 443
+  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: Shiny.REvilSeptembEr.WorkErs.dEv
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /assets
     headers:
-      Host: sni.111000.v6.rocks
+      Host: shiny.revilseptember.workers.dev
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -340,7 +332,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11201
+  port: 11202
 - name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
@@ -384,7 +376,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.105.192
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
