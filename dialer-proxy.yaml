@@ -23,7 +23,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.130.21
+  server: 160.16.132.38
   port: 544
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -92,7 +92,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -190,21 +190,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: www.visa.cn
+  server: 104.19.73.126
   port: 2053
   uuid: 69699799-6abc-b931-6c1d-b5008b031e1c
   udp: true
@@ -215,14 +201,34 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: sss.ifree.int.yt
-- name: 🏳DP trojan-
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
-  type: trojan
-  server: mfa.gov.ua
-  port: 443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  type: vless
+  server: singapore.com
+  port: 2053
+  uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
   udp: true
-  sni: _acme-challenge.2go.cloudns.be
+  network: ws
+  tls: true
+  sni: sss.ifree.int.yt
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: sss.ifree.int.yt
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.240.104
+  port: 2083
+  uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
+  udp: true
+  network: ws
+  tls: true
+  sni: ezdriv-server.help
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ezdriv-server.help
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -301,6 +307,14 @@ proxies:
     headers:
       Host: baidu.com
   servername: baidu.com
+- name: 🇯🇵DP trojan-JP-12549400
+  dialer-proxy: LBCF
+  type: trojan
+  server: tuntro003.instconn.com
+  port: 443
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  udp: true
+  sni: login-staticjpc.jasmine-douyin.top
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -364,7 +378,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.130.21
   port: 1933
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -372,7 +386,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.105.192
+  server: 160.16.72.205
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -542,20 +556,6 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 221.139.87.28
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: ww20.allxniu.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-160475
-  dialer-proxy: LBCF
-  type: vless
-  server: 18.183.158.211
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
