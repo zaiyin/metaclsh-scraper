@@ -15,7 +15,7 @@ proxies:
   password: ed78b7ec3662e43a
   server: 81.28.13.223
   port: 11201
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
   server: 167.172.83.42
@@ -87,7 +87,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.72.33
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -187,24 +187,38 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.122
+  server: 25.129.197.138
   port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: DiGIkALaA.dpdns.ORG
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /?ed=2560&Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--
     headers:
-      Host: digikalaa.dpdns.org
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: china.embassy.gov.au
+  server: 141.193.213.21
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: pages.cloudflare.com
   port: 2053
   uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
   udp: true
@@ -215,20 +229,6 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: sss.ifree.int.yt
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 190.93.245.51
-  port: 2053
-  uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
-  udp: true
-  network: ws
-  tls: true
-  sni: ezdriv-server.help
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ezdriv-server.help
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -280,8 +280,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false

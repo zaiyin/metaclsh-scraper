@@ -14,19 +14,19 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /
     headers:
-      Host: digikalaa.dpdns.org
-- name: 🇸🇬 vless-SG-9271
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2053
@@ -38,15 +38,3 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: sss.ifree.int.yt
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ezdriv-server.help
