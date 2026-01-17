@@ -1,12 +1,4 @@
 proxies:
-- name: 🇸🇬DP ss-SG-12616336
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: d2umVadPT1m/FwIn
-  server: 194.87.10.161
-  port: 8388
 - name: 🇸🇬DP ss-SG-12612747
   dialer-proxy: LBCF
   type: ss
@@ -87,7 +79,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 160.16.85.33
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -204,7 +196,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 141.193.213.21
+  server: 208.103.161.32
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -212,7 +204,7 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /
+    path: /?ed
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
@@ -280,8 +272,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
