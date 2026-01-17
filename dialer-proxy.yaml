@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-12619858
+  dialer-proxy: LBCF
+  type: vmess
+  server: cgroup.node3.v.nodelist-airport.com
+  port: 24321
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: cgroup.node3.v.nodelist-airport.com
 - name: 🇸🇬DP ss-SG-12612747
   dialer-proxy: LBCF
   type: ss
@@ -179,7 +191,7 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
   server: 25.129.197.138
@@ -190,23 +202,23 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--Vpn_Sky--
+    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
+  server: 25.129.199.148
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -221,20 +233,6 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: sss.ifree.int.yt
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: pavosilene.qzz.io
-  port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
-  udp: true
-  network: ws
-  tls: true
-  sni: pavosilene.qzz.io
-  ws-opts:
-    path: /79.141.170.138:443
-    headers:
-      Host: ''
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -243,7 +241,7 @@ proxies:
   password: f1584199f4cb3ca6
   server: 163.171.115.28
   port: 11201
-- name: 🇲🇾DP vless-MY-12257436
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 45.89.107.200
@@ -272,8 +270,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -334,7 +332,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11201
+  port: 11202
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
