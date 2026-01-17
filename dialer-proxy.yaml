@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-12616336
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: d2umVadPT1m/FwIn
+  server: 194.87.10.161
+  port: 8388
 - name: 🇸🇬DP ss-SG-12612747
   dialer-proxy: LBCF
   type: ss
@@ -31,9 +39,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.87.174
   port: 3076
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 4843e94d205f3893f588255a591abe94
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP ss-SG-12500160
@@ -79,19 +87,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 160.16.85.33
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-11928618
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.206.7
-  port: 1196
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
@@ -204,17 +204,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.249.92
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  server: china.embassy.gov.au
+  port: 2053
+  uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
   udp: true
   network: ws
   tls: true
-  sni: Shiny.REvilSeptembEr.WorkErs.dEv
+  sni: sss.ifree.int.yt
   ws-opts:
-    path: /assets
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: sss.ifree.int.yt
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless

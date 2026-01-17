@@ -29,15 +29,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  port: 2053
+  uuid: 696a0439-f0ce-7107-403b-c5e2c77969e0
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /proxyip=sjc.o00o.ooo
     headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: sss.ifree.int.yt
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
