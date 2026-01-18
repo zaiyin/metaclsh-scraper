@@ -191,20 +191,20 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 8.47.69.0
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 25.129.199.122
+  port: 2096
+  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: DiGIkALaA.dpdns.ORG
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: sni.111000.dynv6.net
+      Host: digikalaa.dpdns.org
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -233,6 +233,20 @@ proxies:
     path: /
     headers:
       Host: ww4.sgxaniu.qzz.io
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.20
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.cc.cd
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.cc.cd
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -523,17 +537,17 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-165436
+- name: 🇯🇵DP vless-JP-1007486
   dialer-proxy: LBCF
   type: vless
-  server: 18.183.158.211
+  server: 217.142.236.93
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: ww20.allxniu.qzz.io
+  sni: tw25.aniusnippets.qzz.io
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: ww20.allxniu.qzz.io
+      Host: tw25.aniusnippets.qzz.io
