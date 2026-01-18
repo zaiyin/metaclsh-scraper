@@ -1,13 +1,1 @@
-proxies:
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 2new.ssdxz.cn
+proxies: []

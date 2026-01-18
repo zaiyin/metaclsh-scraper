@@ -35,7 +35,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.150.76
+  server: 160.16.130.21
   port: 544
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -157,7 +157,7 @@ proxies:
     path: /
     headers:
       Host: support.sslzoom.us
-- name: 🇸🇬DP vless-SG-6500358
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 104.16.122.4
@@ -205,20 +205,20 @@ proxies:
     path: /
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: blog.646474.xyz
-  port: 443
-  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: 2new.ssdxz.cn
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: 2new.ssdxz.cn
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -400,7 +400,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 160.16.87.174
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
