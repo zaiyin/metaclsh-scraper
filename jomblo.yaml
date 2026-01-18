@@ -11,15 +11,3 @@ proxies:
     path: /?ed=2560
     headers:
       Host: 2new.ssdxz.cn
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2082
-  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: workerr.schodog1.workers.dev
