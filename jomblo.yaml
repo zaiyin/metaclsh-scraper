@@ -1,40 +1,25 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
-    headers:
-      Host: digikalaa.dpdns.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /?ed=2560
     headers:
-      Host: shiny.revilseptember.workers.dev
+      Host: 2new.ssdxz.cn
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2082
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: workerr.schodog1.workers.dev

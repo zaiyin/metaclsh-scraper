@@ -91,7 +91,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.124.17
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -194,45 +194,44 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.122
-  port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   udp: true
   network: ws
   tls: true
-  sni: DiGIkALaA.dpdns.ORG
+  sni: l.ayovo.netlib.re
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /?ed=2560
     headers:
-      Host: digikalaa.dpdns.org
+      Host: l.ayovo.netlib.re
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.249.92
+  server: blog.646474.xyz
   port: 443
-  uuid: 2053d74c-2a3b-453b-b665-8e25142a7569
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
   udp: true
   network: ws
   tls: true
-  sni: Shiny.REvilSeptembEr.WorkErs.dEv
+  sni: 2new.ssdxz.cn
   ws-opts:
-    path: /assets
+    path: /?ed=2560
     headers:
-      Host: shiny.revilseptember.workers.dev
-- name: 🏳DP vless-
+      Host: 2new.ssdxz.cn
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 159.112.235.174
+  port: 2082
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
+  tls: false
   ws-opts:
-    path: /?ed
+    path: /?ed=2048
     headers:
-      Host: sni.111000.dynv6.net
+      Host: workerr.schodog1.workers.dev
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -332,8 +331,8 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 303ac65e30f28b0b
   server: 154.205.139.9
-  port: 11202
-- name: 🏳DP vmess-
+  port: 11201
+- name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
   server: n1753598451.74qxv.top
@@ -368,7 +367,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.130.21
+  server: 160.16.72.205
   port: 1933
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -376,7 +375,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.105.192
+  server: 160.16.72.205
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
