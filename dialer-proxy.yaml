@@ -91,7 +91,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 160.16.85.33
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -367,7 +367,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.130.21
   port: 1933
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -462,21 +462,6 @@ proxies:
     headers:
       Host: t1.620720.xyz
   servername: t1.620720.xyz
-- name: 🇯🇵DP vmess-JP-10306937
-  dialer-proxy: LBCF
-  type: vmess
-  server: 172.111.146.64
-  port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
 - name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
@@ -545,6 +530,20 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 221.139.87.28
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
+- name: 🇯🇵DP vless-JP-160475
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
   port: 443
   uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
