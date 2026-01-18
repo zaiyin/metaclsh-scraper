@@ -35,7 +35,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.130.21
   port: 544
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -91,7 +91,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.124.17
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -191,20 +191,20 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   server: 154.205.159.100
   port: 990
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 8.47.69.0
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: l.ayovo.netlib.re
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: l.ayovo.netlib.re
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -280,6 +280,14 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP trojan-JP-12628590
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.206.194.122
+  port: 2595
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vmess-JP-12602383
   dialer-proxy: LBCF
   type: vmess
@@ -304,6 +312,14 @@ proxies:
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   udp: true
   sni: login-staticjpc.jasmine-douyin.top
+- name: 🇯🇵DP ss-JP-12528411
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: 0690659746980c46
+  server: 167.17.179.197
+  port: 20291
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -375,7 +391,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.87.174
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -513,34 +529,6 @@ proxies:
     headers:
       Host: ww20.allxniu.qzz.io
 - name: 🇯🇵DP vless-JP-161220
-  dialer-proxy: LBCF
-  type: vless
-  server: 18.183.158.211
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: ww20.allxniu.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-160479
-  dialer-proxy: LBCF
-  type: vless
-  server: 221.139.87.28
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: ww20.allxniu.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-160475
   dialer-proxy: LBCF
   type: vless
   server: 18.183.158.211
