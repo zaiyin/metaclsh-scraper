@@ -35,7 +35,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.130.21
+  server: 160.16.150.76
   port: 544
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -91,7 +91,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.124.17
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -236,17 +236,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: pavosilene.qzz.io
+  port: 443
+  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: pavosilene.qzz.io
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /79.141.170.138:443
     headers:
-      Host: sni.111000.cc.cd
+      Host: ''
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -255,7 +255,7 @@ proxies:
   password: f1584199f4cb3ca6
   server: 163.171.115.28
   port: 11201
-- name: 🇲🇾DP vless-MY-12257436
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 45.89.107.200
@@ -406,7 +406,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.130.21
+  server: 160.16.87.174
   port: 1933
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -435,7 +435,7 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP vless-JP-12237910
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 178.239.124.30
@@ -455,7 +455,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🇯🇵DP ss-JP-11862664
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -509,6 +509,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-2836884
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.76.107.78
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: tw25.aniusnippets.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: tw25.aniusnippets.qzz.io
 - name: 🇯🇵DP vless-JP-1468065
   dialer-proxy: LBCF
   type: vless
@@ -537,17 +551,3 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-1007486
-  dialer-proxy: LBCF
-  type: vless
-  server: 217.142.236.93
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: tw25.aniusnippets.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: tw25.aniusnippets.qzz.io

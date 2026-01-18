@@ -11,15 +11,3 @@ proxies:
     path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
       Host: digikalaa.dpdns.org
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.cc.cd
