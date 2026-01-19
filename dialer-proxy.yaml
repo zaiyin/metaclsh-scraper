@@ -196,30 +196,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: l.ayovo.netlib.re
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: l.ayovo.netlib.re
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 159.112.235.174
-  port: 2082
-  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  server: 104.19.73.126
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: snippet.sh21.eu.org
   ws-opts:
-    path: /?ed=2048
+    path: /danfeng?ed=2560
     headers:
-      Host: workerr.schodog1.workers.dev
+      Host: snippet.sh21.eu.org
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -237,17 +238,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 185.159.247.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dns.army
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -285,8 +286,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -299,7 +300,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.70.180
   port: 3423
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -356,7 +357,7 @@ proxies:
   password: 303ac65e30f28b0b
   server: 154.205.139.9
   port: 11201
-- name: 🇯🇵DP vmess-JP-12382688
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: n1753598451.74qxv.top
@@ -399,7 +400,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.87.174
   port: 4006
   password: 4843e94d205f3893f588255a591abe94
   udp: true
