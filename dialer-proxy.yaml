@@ -10,7 +10,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: bpbg.anguswen.top
+  servername: asuka.0061.my
 - name: 🇸🇬DP vmess-SG-12619858
   dialer-proxy: LBCF
   type: vmess
@@ -47,7 +47,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.130.21
   port: 544
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -87,7 +87,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.150.76
+  server: 160.16.72.33
   port: 3901
   password: 4843e94d205f3893f588255a591abe94
   udp: true
@@ -210,7 +210,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.73.126
+  server: one.dash.cloudflare.com
   port: 2053
   uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
