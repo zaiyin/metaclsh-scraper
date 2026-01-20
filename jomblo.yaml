@@ -14,15 +14,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: ea3f180c-8141-4e03-b11c-4d542767a417
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoidmo5SG5sY2oyMGNKYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /?ed=2560
     headers:
-      Host: e4xf3l6qfdu-shhc8axat6695v4t9e6p.pages.dev
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -62,18 +62,6 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
@@ -83,3 +71,13 @@ proxies:
     path: /?ed=2560&TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-
     headers:
       Host: sni.111000.v6.rocks
+- name: 🇸🇬 trojan-SG-8023
+  type: trojan
+  server: bug.xcp
+  port: 8443
+  password: trojan
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: fofang.pages.dev
