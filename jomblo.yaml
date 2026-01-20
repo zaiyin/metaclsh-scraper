@@ -18,14 +18,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 2096
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: digikalaa.dpdns.org
+      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -35,9 +35,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.v6.rocks
+      Host: sni.111000.cc.cd
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -71,9 +71,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -83,6 +83,18 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Telegram@V2rayAlpha
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 92092474-994a-4537-ae93-76729a0ee7d7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: go-79m.pages.dev
