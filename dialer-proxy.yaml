@@ -163,101 +163,101 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.32.47
-  port: 443
-  uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+  server: 208.103.161.33
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: DiGIkALaA.dpdns.ORG
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    path: /
     headers:
-      Host: digikalaa.dpdns.org
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: 208.103.161.33
   port: 2053
-  uuid: 6d288402-6ef9-4092-9d52-c528690fb693
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: pmlmyazd-6s6.pages.dev
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /ifzr5xrgltxbyevl/mtixlju0ljmwlje1oq==?ed=2560
+    path: /?ed=2560
     headers:
-      Host: pmlmyazd-6s6.pages.dev
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.67.6
-  port: 8443
-  uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: ezdriv-server.help
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: ezdriv-server.help
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: pavosilene.qzz.io
-  port: 443
-  uuid: 3ceb7c2b-8aed-41b3-ad42-ba1e1a69bae5
-  udp: true
-  network: ws
-  tls: true
-  sni: pavosilene.qzz.io
-  ws-opts:
-    path: /79.141.170.138:443
-    headers:
-      Host: ''
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.254.137
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: snippet.sheilabelinda.ndjp.net
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /danfeng?ed=2560
     headers:
-      Host: sni.111000.dns.army
+      Host: snippet.sheilabelinda.ndjp.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.24.31.217
-  port: 2096
-  uuid: 8c10273b-1d54-49b3-9af8-801d9978d1f9
-  udp: true
-  network: ws
-  tls: true
-  sni: ezdriv-server.help
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ezdriv-server.help
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.20
+  server: 25.129.199.148
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.cc.cd
+      Host: sni.111000.v6.rocks
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.129.199.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.rocks
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.rocks
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -322,24 +322,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-12549400
-  dialer-proxy: LBCF
-  type: trojan
-  server: tuntro003.instconn.com
-  port: 443
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  udp: true
-  sni: login-staticjpc.jasmine-douyin.top
-- name: 🇯🇵DP vless-JP-12523389
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.245.38.111
-  port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.autodesk.com
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -350,7 +332,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇯🇵DP ss-JP-12482898
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -432,16 +414,6 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 178.239.124.30
-  port: 56482
-  uuid: 2c487d9d-25a1-4b79-aed1-086b8c3082ca
-  udp: true
-  network: tcp
-  tls: false
-  sni: cloudcircus.jp
 - name: 🇯🇵DP vless-JP-12213001
   dialer-proxy: LBCF
   type: vless
@@ -564,3 +536,45 @@ proxies:
     path: /?ed=2560
     headers:
       Host: tw25.aniusnippets.qzz.io
+- name: 🇯🇵DP vless-JP-165436
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
+- name: 🇯🇵DP vless-JP-163274
+  dialer-proxy: LBCF
+  type: vless
+  server: 217.142.236.93
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: tw25.aniusnippets.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: tw25.aniusnippets.qzz.io
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: 18.183.158.211
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww20.allxniu.qzz.io
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ww20.allxniu.qzz.io
