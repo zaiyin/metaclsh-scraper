@@ -35,17 +35,17 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.65.107
+  server: 160.16.106.99
   port: 544
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.89.176
   port: 3076
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP ss-SG-12500160
@@ -91,7 +91,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11808858
   dialer-proxy: LBCF
   type: trojan
-  server: 16.162.252.227
+  server: 43.198.16.69
   port: 2673
   password: BxceQaOe
   udp: true
@@ -137,16 +137,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.189.112
-  port: 80
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+  server: 25.129.197.138
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /@WireXnet?ed=2048
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: britain.padoamu.workers.dev
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -164,17 +165,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 45.80.108.238
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.152.4
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: ww23.sgxaniu.qzz.io
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /
     headers:
-      Host: sni.111000.cc.cd
+      Host: ww23.sgxaniu.qzz.io
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -192,17 +193,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 212.183.88.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 162.159.152.4
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: ww23.sgxaniu.qzz.io
   ws-opts:
-    path: /?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    path: /
     headers:
-      Host: sni.111000.de5.net
+      Host: ww23.sgxaniu.qzz.io
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -216,14 +217,20 @@ proxies:
     path: /1qrxwiek8tujvr6h
     headers:
       Host: index.harmony510.workers.dev
-- name: 🇸🇬DP trojan-SG-8023
+- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
-  type: trojan
-  server: top.imlast2.com
-  port: 443
-  password: trojan
+  type: vless
+  server: 188.114.96.143
+  port: 8443
+  uuid: d5d6faa0-9136-4e2d-b7b5-51a1b9e61126
   udp: true
-  sni: nixian.pages.dev
+  network: ws
+  tls: true
+  sni: cfzx.653827.xyz
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cfzx.653827.xyz
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -379,9 +386,9 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.57.238
+  server: 160.16.89.176
   port: 1933
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-12369182

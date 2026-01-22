@@ -1,28 +1,16 @@
 proxies:
-- name: 🇸🇬 vless-SG-11684604
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /57ba2ab1
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: ovhwuxian.pai50288.uk
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /@WireXnet?ed=2048
-    headers:
-      Host: britain.padoamu.workers.dev
+      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -35,18 +23,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.cc.cd
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -59,18 +35,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
-    headers:
-      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -83,16 +47,18 @@ proxies:
     path: /1qrxwiek8tujvr6h
     headers:
       Host: index.harmony510.workers.dev
-- name: 🇸🇬 trojan-SG-8023
-  type: trojan
+- name: 🇸🇬 vless-SG-8023
+  type: vless
   server: bug.xcp
-  port: 443
-  password: trojan
+  port: 8443
+  uuid: d5d6faa0-9136-4e2d-b7b5-51a1b9e61126
+  network: ws
+  tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: nixian.pages.dev
+      Host: cfzx.653827.xyz
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
