@@ -11,33 +11,18 @@ proxies:
     path: /57ba2ab1
     headers:
       Host: ovhwuxian.pai50288.uk
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 80
+  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /@WireXnet?ed=2048
     headers:
-      Host: sni.111000.dynv6.net
+      Host: britain.padoamu.workers.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -53,28 +38,28 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    headers:
+      Host: sni.111000.cc.cd
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
   port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 2096
@@ -83,10 +68,32 @@ proxies:
   tls: true
   udp: true
   ws-opts:
+    path: /?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+    headers:
+      Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /1qrxwiek8tujvr6h
+    headers:
+      Host: index.harmony510.workers.dev
+- name: 🇸🇬 trojan-SG-8023
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: trojan
+  udp: true
+  ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
-- name: 🇸🇬 vless-SG-8023
+      Host: nixian.pages.dev
+- name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
   port: 2096
@@ -98,3 +105,15 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.v6.rocks
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&
+    headers:
+      Host: sni.111000.de5.net

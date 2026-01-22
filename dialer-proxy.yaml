@@ -126,32 +126,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP vless-SG-6500358
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.122.4
-  port: 8080
-  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: support.sslzoom.us
-- name: 🇸🇬DP vless-SG-6497875
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.122.4
-  port: 8080
-  uuid: bb6e0719-3d1a-4896-bddc-ddc86d682609
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: support.sslzoom.us
 - name: 🇮🇩DP ss-ID
   dialer-proxy: LBCF
   type: ss
@@ -163,17 +137,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 104.18.189.112
+  port: 80
+  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
+  tls: false
   ws-opts:
-    path: /
+    path: /@WireXnet?ed=2048
     headers:
-      Host: sni.111000.dynv6.net
+      Host: britain.padoamu.workers.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -191,18 +164,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
+  server: 45.80.108.238
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.cc.cd
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: 🏳DP vless-
+      Host: sni.111000.cc.cd
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
   server: 208.103.161.32
@@ -219,35 +192,42 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.254.137
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.sheilabelinda.ndjp.net
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 25.129.199.148
+  server: 212.183.88.158
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
     headers:
-      Host: sni.111000.v6.rocks
-- name: 🇸🇬DP vless-SG-8023
+      Host: sni.111000.de5.net
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.148
+  server: 172.67.137.47
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /1qrxwiek8tujvr6h
+    headers:
+      Host: index.harmony510.workers.dev
+- name: 🇸🇬DP trojan-SG-8023
+  dialer-proxy: LBCF
+  type: trojan
+  server: top.imlast2.com
+  port: 443
+  password: trojan
+  udp: true
+  sni: nixian.pages.dev
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.162.231.148
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -258,6 +238,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.v6.rocks
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.26.27.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.de5.net
+  ws-opts:
+    path: /?ed=2560&
+    headers:
+      Host: sni.111000.de5.net
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -332,7 +326,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-12482898
   dialer-proxy: LBCF
   type: ss
   udp: true
