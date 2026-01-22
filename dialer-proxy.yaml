@@ -70,7 +70,7 @@ proxies:
   password: ce1dfbefd0addc9c
   server: 45.135.228.135
   port: 11201
-- name: 🇸🇬DP ss-SG-12479009
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -132,14 +132,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇮🇩DP ss-ID
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  server: 154.205.159.100
-  port: 990
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
@@ -154,20 +146,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
-  port: 2096
+  server: 208.103.161.32
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.cc.cd
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -199,17 +191,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
+  server: cloudflare.182682.xyz
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: l.ayovo.netlib.re
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: l.ayovo.netlib.re
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -253,6 +245,20 @@ proxies:
     headers:
       Host: sni.111000.v6.army
 - name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
   server: 172.64.146.20
@@ -340,7 +346,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇯🇵DP ss-JP-12482898
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true

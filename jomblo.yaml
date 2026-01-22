@@ -11,6 +11,21 @@ proxies:
     path: /pV67LRFs428xHke56mDQ
     headers:
       Host: Singapore1p.farasorat.net
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -23,6 +38,18 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -35,18 +62,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.foton.dpdns.org
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -84,6 +99,18 @@ proxies:
     headers:
       Host: sni.111000.v6.army
 - name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
   port: 2096
