@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12667175
+  dialer-proxy: LBCF
+  type: vless
+  server: cdn.halazzon.ir
+  port: 443
+  uuid: eb7a89bb-adeb-4a4b-9104-772c42fbeb1e
+  udp: true
+  network: ws
+  tls: true
+  sni: Free-11265213.FaraSorat.Net
+  ws-opts:
+    path: /pV67LRFs428xHke56mDQ
+    headers:
+      Host: Singapore1p.farasorat.net
 - name: 🇸🇬DP vmess-SG-12640599
   dialer-proxy: LBCF
   type: vmess
@@ -11,14 +25,6 @@ proxies:
   udp: true
   network: tcp
   servername: 2001:bc8:32d7:302::10
-- name: 🇸🇬DP ss-SG-12612747
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ed78b7ec3662e43a
-  server: 81.28.13.223
-  port: 11201
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -148,20 +154,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.33
-  port: 2053
+  server: 172.64.146.20
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.cc.cd
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.cc.cd
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -193,59 +199,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.152.4
+  server: 1password.com
   port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: ww23.sgxaniu.qzz.io
-  ws-opts:
-    path: /
-    headers:
-      Host: ww23.sgxaniu.qzz.io
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.137.47
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /1qrxwiek8tujvr6h
-    headers:
-      Host: index.harmony510.workers.dev
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.96.143
-  port: 8443
-  uuid: d5d6faa0-9136-4e2d-b7b5-51a1b9e61126
-  udp: true
-  network: ws
-  tls: true
-  sni: cfzx.653827.xyz
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: cfzx.653827.xyz
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.162.231.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.rocks
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 🇸🇬DP vless-SG-7966
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 25.26.27.158
@@ -256,9 +221,51 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&
+    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
     headers:
       Host: sni.111000.de5.net
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.129.199.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.rocks
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.rocks
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 25.26.27.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.army
+  ws-opts:
+    path: /?ed=2560&Telegram@V2rayAlpha
+    headers:
+      Host: sni.111000.v6.army
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.20
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.cc.cd
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.cc.cd
 - name: 🇲🇾DP ss-MY-12478987
   dialer-proxy: LBCF
   type: ss
@@ -481,20 +488,6 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
-- name: 🇯🇵DP vless-JP-2836884
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.76.107.78
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: tw25.aniusnippets.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: tw25.aniusnippets.qzz.io
 - name: 🇯🇵DP vless-JP-1468065
   dialer-proxy: LBCF
   type: vless
@@ -523,20 +516,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-1007486
-  dialer-proxy: LBCF
-  type: vless
-  server: 217.142.236.93
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: tw25.aniusnippets.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: tw25.aniusnippets.qzz.io
 - name: 🇯🇵DP vless-JP-165436
   dialer-proxy: LBCF
   type: vless
@@ -551,20 +530,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
-- name: 🇯🇵DP vless-JP-163274
-  dialer-proxy: LBCF
-  type: vless
-  server: 217.142.236.93
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  udp: true
-  network: ws
-  tls: true
-  sni: tw25.aniusnippets.qzz.io
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: tw25.aniusnippets.qzz.io
 - name: 🇯🇵DP vless-JP-161220
   dialer-proxy: LBCF
   type: vless
@@ -579,3 +544,45 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ww20.allxniu.qzz.io
+- name: 🇯🇵DP vless-JP-160475
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
+- name: 🇯🇵DP vless-JP-159620
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
+- name: 🇯🇵DP vless-JP-156122
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
