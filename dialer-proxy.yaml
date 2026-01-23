@@ -70,7 +70,7 @@ proxies:
   password: ce1dfbefd0addc9c
   server: 45.135.228.135
   port: 11201
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -135,17 +135,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 25.129.199.148
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -163,17 +163,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  server: 185.162.231.148
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: ww23.sgxaniu.qzz.io
+  sni: sni.111000.v6.rocks
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: ww23.sgxaniu.qzz.io
+      Host: sni.111000.v6.rocks
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -185,23 +185,23 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: l.ayovo.netlib.re
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: l.ayovo.netlib.re
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -213,23 +213,23 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.199.148
-  port: 2096
+  server: www.aapanel.com
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -247,21 +247,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.32
-  port: 2053
+  server: 25.129.197.138
+  port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.de5.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
+  server: 45.80.108.238
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -269,7 +269,7 @@ proxies:
   tls: true
   sni: sni.111000.cc.cd
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: sni.111000.cc.cd
 - name: 🇲🇾DP ss-MY-12478987
@@ -346,7 +346,7 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-12482898
   dialer-proxy: LBCF
   type: ss
   udp: true
