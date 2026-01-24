@@ -13,7 +13,7 @@ proxies:
     path: /pV67LRFs428xHke56mDQ
     headers:
       Host: Singapore1p.farasorat.net
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-12640599
   dialer-proxy: LBCF
   type: vmess
   server: v12.hdacd.com
@@ -124,6 +124,14 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬DP ss-SG-7119279
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 65e716e3d3ec1fc0
+  server: 84.247.147.61
+  port: 24914
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
@@ -183,17 +191,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 141.193.213.21
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -224,17 +232,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 25.26.27.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 104.18.42.163
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.army
+  sni: ayanamirei.11160321.xyz
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /Telegram@V2rayAlpha/ed=2560
     headers:
-      Host: sni.111000.v6.army
+      Host: ayanamirei.11160321.xyz
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -263,34 +271,6 @@ proxies:
     path: /telegram-@v2ray_alpha
     headers:
       Host: a.azadnet003.ddns-ip.net
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 443
-  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
-  udp: true
-  network: ws
-  tls: true
-  sni: ayanamirei.11160321.xyz
-  ws-opts:
-    path: /Telegram@V2rayAlpha/ed=2560
-    headers:
-      Host: ayanamirei.11160321.xyz
-- name: 🇸🇬DP vless-SG-7531
-  dialer-proxy: LBCF
-  type: vless
-  server: 25.129.199.148
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.rocks
-  ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
-    headers:
-      Host: sni.111000.v6.rocks
 - name: 🇲🇾DP vmess-MY-12675311
   dialer-proxy: LBCF
   type: vmess
