@@ -94,22 +94,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP vmess-SG-11391645
-  dialer-proxy: LBCF
-  type: vmess
-  server: cf.090227.xyz
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬DP ss-SG-7119279
   dialer-proxy: LBCF
   type: ss
@@ -121,17 +105,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.158
+  server: 172.64.146.20
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.cc.cd
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.cc.cd
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -174,10 +158,10 @@ proxies:
     path: /
     headers:
       Host: asmaos.uk
-- name: 🇸🇬DP vless-SG-8430
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.158
+  server: 25.129.197.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
@@ -185,7 +169,7 @@ proxies:
   tls: true
   sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /?ed=2048
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-8105
@@ -272,6 +256,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.cc.cd
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.de5.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.de5.net
 - name: 🇲🇾DP vmess-MY-12675311
   dialer-proxy: LBCF
   type: vmess
