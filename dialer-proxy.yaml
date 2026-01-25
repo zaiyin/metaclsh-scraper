@@ -1,4 +1,13 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12684499
+  dialer-proxy: LBCF
+  type: vless
+  server: bf.branly23.cloud
+  port: 2087
+  uuid: 9f6ffb3c-de36-4a48-8cae-34d7e3ede5ea
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-12667175
   dialer-proxy: LBCF
   type: vless
@@ -41,7 +50,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.106.99
   port: 544
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -62,14 +71,6 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP ss-SG-12488970
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ce1dfbefd0addc9c
-  server: 45.135.228.135
-  port: 11201
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
@@ -78,14 +79,6 @@ proxies:
   password: 7afa39016d5a409c
   server: 194.233.73.51
   port: 48803
-- name: 🇸🇬DP trojan-SG-12342314
-  dialer-proxy: LBCF
-  type: trojan
-  server: 160.16.124.55
-  port: 3901
-  password: 4843e94d205f3893f588255a591abe94
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11808858
   dialer-proxy: LBCF
   type: trojan
@@ -105,20 +98,6 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.cc.cd
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.cc.cd
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
   server: 192.0.54.158
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
@@ -130,20 +109,34 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬DP vless-SG-9203
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: singapore.com
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  sni: snippet.443888.xyz
   ws-opts:
-    path: /?ed=2560
+    path: /danfeng?ed=2560
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: snippet.443888.xyz
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.de5.net
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -175,17 +168,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.158
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 172.67.137.47
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.de5.net
+  tls: false
   ws-opts:
-    path: /?ed=2560
+    path: /1qrxwiek8tujvr6h
     headers:
-      Host: sni.111000.de5.net
+      Host: index.harmony510.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -217,17 +209,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 185.148.107.148
+  server: 192.0.54.158
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.rocks
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -245,17 +237,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.20
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 8.6.112.0
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.cd
+  sni: a.azadnet003.ddns-ip.net
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /telegram-@v2ray_alpha=
     headers:
-      Host: sni.111000.cc.cd
+      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -270,6 +262,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.66.44.54
+  port: 2083
+  uuid: 75afff14-dad5-43d2-bd47-207b15978630
+  udp: true
+  network: ws
+  tls: true
+  sni: abOLCInFIG1.PagES.dEv
+  ws-opts:
+    path: /qgIgE6AX11OVGyHW/dHVya2V5Lmpld2VsbGwuaXIsZ20xLmpwZ2Zvcm1hdC5pcg==?ed=2560
+    headers:
+      Host: abolcinfig1.pages.dev
 - name: 🇲🇾DP vmess-MY-12675311
   dialer-proxy: LBCF
   type: vmess

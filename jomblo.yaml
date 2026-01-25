@@ -20,10 +20,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.cc.cd
-- name: 🇸🇬 vless-SG-9271
+      Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2096
@@ -32,21 +32,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -62,15 +50,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /1qrxwiek8tujvr6h
     headers:
-      Host: sni.111000.de5.net
+      Host: index.harmony510.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -104,9 +92,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.rocks
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -122,15 +110,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /telegram-@v2ray_alpha=
     headers:
-      Host: sni.111000.cc.cd
+      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
@@ -143,3 +131,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-7456
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: 75afff14-dad5-43d2-bd47-207b15978630
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /qgIgE6AX11OVGyHW/dHVya2V5Lmpld2VsbGwuaXIsZ20xLmpwZ2Zvcm1hdC5pcg==?ed=2560
+    headers:
+      Host: abolcinfig1.pages.dev
