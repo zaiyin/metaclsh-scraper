@@ -20,9 +20,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.army
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -38,27 +38,39 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: asmaos.uk
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /1qrxwiek8tujvr6h
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: index.harmony510.workers.dev
+      Host: sni.111000.cc.cd
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -98,27 +110,27 @@ proxies:
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /telegram-@v2ray_alpha
+    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: a.azadnet003.ddns-ip.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /telegram-@v2ray_alpha=
+    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: a.azadnet003.ddns-ip.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
@@ -134,12 +146,12 @@ proxies:
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: 75afff14-dad5-43d2-bd47-207b15978630
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /qgIgE6AX11OVGyHW/dHVya2V5Lmpld2VsbGwuaXIsZ20xLmpwZ2Zvcm1hdC5pcg==?ed=2560
+    path: /?ed=2560
     headers:
-      Host: abolcinfig1.pages.dev
+      Host: sni.111000.de5.net

@@ -50,7 +50,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.72.205
   port: 544
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -79,14 +79,22 @@ proxies:
   password: 7afa39016d5a409c
   server: 194.233.73.51
   port: 48803
-- name: 🇸🇬DP trojan-SG-11808858
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
-  type: trojan
-  server: 43.198.16.69
-  port: 2673
-  password: BxceQaOe
+  type: vmess
+  server: cf.090227.xyz
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
   udp: true
-  sni: t.me%2Fripaojiedian
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬DP ss-SG-7119279
   dialer-proxy: LBCF
   type: ss
@@ -98,17 +106,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.158
+  server: 190.93.247.168
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.v6.army
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.v6.army
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -140,44 +148,45 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: asmaos.uk
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /
     headers:
-      Host: asmaos.uk
-- name: 🏳DP vless-
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 25.129.197.138
+  server: 31.43.179.138
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.de5.net
+  sni: sni.111000.dns.army
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dns.army
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.137.47
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
+  server: 172.64.146.20
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.cc.cd
   ws-opts:
-    path: /1qrxwiek8tujvr6h
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: index.harmony510.workers.dev
+      Host: sni.111000.cc.cd
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -223,31 +232,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: a.azadnet003.ddns-ip.net
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /telegram-@v2ray_alpha
+    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: a.azadnet003.ddns-ip.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: a.azadnet003.ddns-ip.net
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /telegram-@v2ray_alpha=
+    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: a.azadnet003.ddns-ip.net
+      Host: sni.111000.de5.net
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -265,17 +274,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.44.54
-  port: 2083
-  uuid: 75afff14-dad5-43d2-bd47-207b15978630
+  server: 192.0.54.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   udp: true
   network: ws
   tls: true
-  sni: abOLCInFIG1.PagES.dEv
+  sni: sni.111000.de5.net
   ws-opts:
-    path: /qgIgE6AX11OVGyHW/dHVya2V5Lmpld2VsbGwuaXIsZ20xLmpwZ2Zvcm1hdC5pcg==?ed=2560
+    path: /?ed=2560
     headers:
-      Host: abolcinfig1.pages.dev
+      Host: sni.111000.de5.net
 - name: 🇲🇾DP vmess-MY-12675311
   dialer-proxy: LBCF
   type: vmess
@@ -462,14 +471,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇯🇵DP ss-JP-11862664
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
-  server: 103.75.118.125
-  port: 443
 - name: 🇯🇵DP vless-JP-11355242
   dialer-proxy: LBCF
   type: vless
