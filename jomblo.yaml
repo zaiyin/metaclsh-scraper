@@ -20,9 +20,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.v6.army
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -35,18 +35,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -56,9 +44,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -68,9 +56,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.cc.cd
+      Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -110,15 +98,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
+      Host: sg.aniua.qzz.io
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -128,30 +116,18 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.de5.net
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 2053
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-7456
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.de5.net
+      Host: sni.111000.dynv6.net
