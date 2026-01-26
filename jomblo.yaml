@@ -1,28 +1,16 @@
 proxies:
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.dns.army
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 5148a842-2a62-4aa7-8b8f-ff79ccbc82c0
+  port: 8443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /164.52.2.100=443
+    path: /45.76.183.217=49292
     headers:
-      Host: apexbhao1.qzz.io
+      Host: delta090.qzz.io
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -38,6 +26,18 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.rocks
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
   port: 443
   uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
   network: ws
@@ -47,42 +47,30 @@ proxies:
     path: /43.218.77.16=1443
     headers:
       Host: apexbhao1.qzz.io
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram@V2rayAlpha
+    path: /43.218.77.16=1443
     headers:
-      Host: sni.111000.de5.net
+      Host: apexbhao1.qzz.io
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /47.250.139.59=443fp=chrome
     headers:
-      Host: sni.111000.dynv6.net
+      Host: dragonhost9.qzz.io
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -98,6 +86,30 @@ proxies:
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /45.76.183.217=49292
+    headers:
+      Host: delta090.qzz.io
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /47.250.139.59=443
+    headers:
+      Host: dragonhost9.qzz.io
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
   port: 2096
   uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
@@ -107,19 +119,7 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /213.35.100.31=47112
-    headers:
-      Host: afsbconfessout.qzz.io
-- name: 🇸🇬 vless-SG-7724
+- name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
   port: 443
@@ -131,31 +131,7 @@ proxies:
     path: /211.48.77.114:12312
     headers:
       Host: delta090.qzz.io
-- name: 🇸🇬 vless-SG-7531
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /telegram-@v2ray_alpha
-    headers:
-      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬 vless-SG-7456
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.de5.net
-- name: 🇸🇬 vless-SG-7429
   type: vless
   server: bug.xcp
   port: 443
@@ -167,3 +143,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sg.aniua.qzz.io
+- name: 🇸🇬 vless-SG-7429
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /45.76.183.217=49292
+    headers:
+      Host: delta090.qzz.io
