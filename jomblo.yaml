@@ -1,41 +1,41 @@
 proxies:
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: snippet.danfeng.kozow.com
+      Host: sni.111000.dns.army
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 5148a842-2a62-4aa7-8b8f-ff79ccbc82c0
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /164.52.2.100=443
+    headers:
+      Host: apexbhao1.qzz.io
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /
     headers:
-      Host: snippet.danfeng.kozow.com
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
@@ -47,7 +47,19 @@ proxies:
     path: /43.218.77.16=1443
     headers:
       Host: apexbhao1.qzz.io
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 2096
@@ -58,11 +70,23 @@ proxies:
   ws-opts:
     path: /?ed=2560&Telegram@V2rayAlpha
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 443
   uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
   network: ws
   tls: true
@@ -83,30 +107,42 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.de5.net
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /213.35.100.31=47112
+    headers:
+      Host: afsbconfessout.qzz.io
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 443
+  uuid: e65da911-ce94-46b8-b6bd-e2dd4d8f4751
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /211.48.77.114:12312
     headers:
-      Host: snippet.danfeng.kozow.com
+      Host: delta090.qzz.io
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /telegram-@v2ray_alpha
     headers:
-      Host: sni.111000.v6.army
+      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
@@ -122,12 +158,12 @@ proxies:
 - name: 🇸🇬 vless-SG-7429
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sg.aniua.qzz.io
