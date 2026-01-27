@@ -36,7 +36,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.205
+  server: 160.16.72.33
   port: 544
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -68,7 +68,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
+  server: 160.16.70.180
   port: 3901
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -108,77 +108,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
-  udp: true
-  network: ws
-  tls: true
-  sni: apexbhao1.qzz.io
-  ws-opts:
-    path: /43.218.77.16=1443
-    headers:
-      Host: apexbhao1.qzz.io
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.254.137
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.chinam.indevs.in
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snippet.chinam.indevs.in
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.20
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.cc.cd
-  ws-opts:
-    path: /?ed=2560&Join---
-    headers:
-      Host: sni.111000.cc.cd
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 1password.com
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
-  udp: true
-  network: ws
-  tls: true
-  sni: delta090.qzz.io
-  ws-opts:
-    path: /156.244.1.250=8443
-    headers:
-      Host: delta090.qzz.io
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
+  server: ercf-ma.rainzone.site
   port: 443
   uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
   udp: true
@@ -189,25 +119,81 @@ proxies:
     path: /45.76.183.217=49292
     headers:
       Host: delta090.qzz.io
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.32
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.152.23
+  port: 443
+  uuid: 32c257a1-f18c-42c7-860d-9cb0ead8b07c
+  udp: true
+  network: ws
+  tls: true
+  sni: dragonhost9.qzz.io
+  ws-opts:
+    path: /47.250.139.59=443
+    headers:
+      Host: dragonhost9.qzz.io
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: cdn.sjdpictures.ir
+  port: 443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
+  udp: true
+  network: ws
+  tls: true
+  sni: delta090.qzz.io
+  ws-opts:
+    path: /45.76.183.217=49292
+    headers:
+      Host: delta090.qzz.io
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+  udp: true
+  network: ws
+  tls: true
+  sni: apexbhao1.qzz.io
+  ws-opts:
+    path: /43.218.77.16=1443
+    headers:
+      Host: apexbhao1.qzz.io
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.152.23
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  udp: true
+  network: ws
+  tls: true
+  sni: pages.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: 188.114.98.0
   port: 443
-  uuid: ea1dc99b-4adc-4485-852e-f21483bf8beb
-  udp: true
-  network: ws
-  tls: true
-  sni: delta090.qzz.io
-  ws-opts:
-    path: /138.199.43.139:443
-    headers:
-      Host: delta090.qzz.io
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: iran.zone-server-irani.ir
-  port: 443
   uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
   udp: true
   network: ws
@@ -217,38 +203,38 @@ proxies:
     path: /43.218.77.16=1443
     headers:
       Host: apexbhao1.qzz.io
-- name: 🇸🇬DP vless-SG-7966
+- name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: ea1dc99b-4adc-4485-852e-f21483bf8beb
+  server: cdn.sjdpictures.ir
+  port: 8443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
   udp: true
   network: ws
   tls: true
   sni: delta090.qzz.io
   ws-opts:
-    path: /138.2.48.109:26412
+    path: /45.76.183.217=49292
+    headers:
+      Host: delta090.qzz.io
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: ercf-ma.rainzone.site
+  port: 443
+  uuid: 6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20
+  udp: true
+  network: ws
+  tls: true
+  sni: delta090.qzz.io
+  ws-opts:
+    path: /45.76.183.217=49292
     headers:
       Host: delta090.qzz.io
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: iran.zone-server-irani.ir
-  port: 443
-  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
-  udp: true
-  network: ws
-  tls: true
-  sni: apexbhao1.qzz.io
-  ws-opts:
-    path: /43.218.77.16=1443
-    headers:
-      Host: apexbhao1.qzz.io
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
+  server: 172.64.152.23
   port: 443
   uuid: ea1dc99b-4adc-4485-852e-f21483bf8beb
   udp: true
@@ -259,6 +245,20 @@ proxies:
     path: /35.78.229.176:443
     headers:
       Host: delta090.qzz.io
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
+  udp: true
+  network: ws
+  tls: true
+  sni: apexbhao1.qzz.io
+  ws-opts:
+    path: /43.218.77.16=1443
+    headers:
+      Host: apexbhao1.qzz.io
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -276,17 +276,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 31.43.179.138
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: 188.114.98.0
+  port: 443
+  uuid: ea1dc99b-4adc-4485-852e-f21483bf8beb
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dns.army
+  sni: delta090.qzz.io
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /43.130.134.123:65002
     headers:
-      Host: sni.111000.dns.army
+      Host: delta090.qzz.io
 - name: 🇲🇾DP vless-MY-12257436
   dialer-proxy: LBCF
   type: vless
@@ -359,6 +359,14 @@ proxies:
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
   sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-12628590
+  dialer-proxy: LBCF
+  type: trojan
+  server: 13.158.129.83
+  port: 2595
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-12549400
   dialer-proxy: LBCF
   type: trojan
@@ -387,14 +395,6 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇯🇵DP ss-JP-12482898
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 303ac65e30f28b0b
-  server: 154.205.139.9
-  port: 11201
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -430,7 +430,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.51.29
+  server: 18.179.118.202
   port: 1933
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
