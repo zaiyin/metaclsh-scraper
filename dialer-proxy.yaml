@@ -114,20 +114,20 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: notion.site
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  server: 66.81.247.155
+  port: 443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
   udp: true
   network: ws
   tls: true
-  sni: snippet.fgfw.ye.gs
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /?ed=512
     headers:
-      Host: snippet.fgfw.ye.gs
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -145,59 +145,59 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.162.123
-  port: 8443
-  uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
-  udp: true
-  network: ws
-  tls: true
-  sni: r4fnviw9jl4i4rx.zjde5.de5.net
-  ws-opts:
-    path: /?ed=?ed=512
-    headers:
-      Host: r4fnviw9jl4i4rx.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.20
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.cc.cd
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.cc.cd
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: chatgpt.com
+  server: 66.81.247.155
   port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
   udp: true
   network: ws
   tls: true
-  sni: pages.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.165.123
-  port: 8443
-  uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
-  udp: true
-  network: ws
-  tls: true
-  sni: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 66.81.247.155
+  port: 443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  udp: true
+  network: ws
+  tls: true
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  ws-opts:
+    path: /?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512
+    headers:
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.145.38
+  port: 8443
+  uuid: bb8c74a1-abc1-4511-b100-9876e30cb65c
+  udp: true
+  network: ws
+  tls: true
+  sni: xfjd79v2tjscrm6jqo.zjde5.de5.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: xfjd79v2tjscrm6jqo.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 66.81.247.155
+  port: 443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  udp: true
+  network: ws
+  tls: true
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  ws-opts:
+    path: /
+    headers:
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -223,69 +223,13 @@ proxies:
   tls: true
   sni: r4fnviw9jl4i4rx.zjde5.de5.net
   ws-opts:
-    path: /?ed=#@v2rays_ha?ed=512
+    path: /?ed=512
     headers:
       Host: r4fnviw9jl4i4rx.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.153.235
-  port: 8443
-  uuid: f94fc28f-688f-43aa-92a0-621f6255451c
-  udp: true
-  network: ws
-  tls: true
-  sni: il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: il8fd4w6j293nc2uzjc6xkwko6ohe43k845a76c2nl6su5q19ivkrboek9.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: ctcc.cloudflare.seeck.cn
-  port: 443
-  uuid: 8451ed89-d170-43b2-a9a4-eef553ef6600
-  udp: true
-  network: ws
-  tls: true
-  sni: hdmxf524.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: hdmxf524.pages.dev
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: cucc.cloudflare.seeck.cn
-  port: 443
-  uuid: 8451ed89-d170-43b2-a9a4-eef553ef6600
-  udp: true
-  network: ws
-  tls: true
-  sni: hddp490.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: hddp490.pages.dev
-- name: 🇸🇬DP vless-SG-7531
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.149.99
-  port: 8443
-  uuid: 2ddeb056-17d4-421e-a318-39428733d4a2
-  udp: true
-  network: ws
-  tls: true
-  sni: 8p3cfl0ripm.zjde5.de5.net
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 8p3cfl0ripm.zjde5.de5.net
-- name: vless-node
-  dialer-proxy: LBCF
-  type: vless
-  server: 66.81.247.155
+  server: 63.141.128.158
   port: 443
   uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
   udp: true
@@ -293,9 +237,59 @@ proxies:
   tls: true
   sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
   ws-opts:
-    path: /?ed=#TELEGRAM-ALIXTSO?ed=512
+    path: /?ed=2560
     headers:
       Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.164.123
+  port: 8443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  udp: true
+  network: ws
+  tls: true
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.162.123
+  port: 8443
+  uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
+  udp: true
+  network: ws
+  tls: true
+  sni: r4fnviw9jl4i4rx.zjde5.de5.net
+  ws-opts:
+    path: /?ed=#ed=512
+    headers:
+      Host: r4fnviw9jl4i4rx.zjde5.de5.net
+- name: 🏳DP trojan-
+  dialer-proxy: LBCF
+  type: trojan
+  server: 216.24.57.250
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+  udp: true
+  sni: afrcloud1.mmv.kr
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.15.19
+  port: 8443
+  uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
+  udp: true
+  network: ws
+  tls: true
+  sni: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
 - name: 🇲🇾DP vless-MY-12257436
   dialer-proxy: LBCF
   type: vless
@@ -448,6 +442,16 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
+- name: 🇯🇵DP vless-JP-12213001
+  dialer-proxy: LBCF
+  type: vless
+  server: 116.80.44.144
+  port: 27724
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.yahoo.co.jp
 - name: 🇯🇵DP vless-JP-12211728
   dialer-proxy: LBCF
   type: vless
@@ -583,20 +587,6 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
 - name: 🇯🇵DP vless-JP-159620
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.44.142
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  network: ws
-  tls: true
-  sni: l.ayovo.netlib.re
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: l.ayovo.netlib.re
-- name: 🇯🇵DP vless-JP-156122
   dialer-proxy: LBCF
   type: vless
   server: 162.159.44.142
