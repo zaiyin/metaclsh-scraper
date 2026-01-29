@@ -23,18 +23,30 @@ proxies:
     path: /213.35.100.31=47112
     headers:
       Host: afsbconfessout.qzz.io
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.de5.net
+      Host: rukawa.pages.dev
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 8451ed89-d170-43b2-a9a4-eef553ef6600
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: hdhy2125.pages.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -47,6 +59,18 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.dns.army
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /213.35.100.31=47112
+    headers:
+      Host: afsbconfessout.qzz.io
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
