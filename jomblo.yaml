@@ -1,64 +1,26 @@
 proxies:
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /213.35.100.31=47112
-    headers:
-      Host: afsbconfessout.qzz.io
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rukawa.pages.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 8451ed89-d170-43b2-a9a4-eef553ef6600
+  port: 2053
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: hdhy2125.pages.dev
-- name: 🇸🇬 vless-SG-7971
-  type: vless
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 trojan-SG-7971
+  type: trojan
   server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /5.223.47.32=443
     headers:
-      Host: sni.111000.dns.army
+      Host: afrcloud1.mmv.kr
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
@@ -71,27 +33,27 @@ proxies:
     path: /213.35.100.31=47112
     headers:
       Host: afsbconfessout.qzz.io
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: still-smoke-881e-ppal03.cabit21569.workers.dev
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /telegram-@v2ray_alpha
+    path: /?ed=2560
     headers:
-      Host: a.azadnet003.ddns-ip.net
-- name: 🇸🇬 vless-SG-7456
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.cc.cd
+      Host: rukawa.pages.dev
