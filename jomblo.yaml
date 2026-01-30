@@ -1,91 +1,25 @@
 proxies:
-- name: 🇸🇬 trojan-SG-9406
-  type: trojan
-  server: bug.xcp
-  port: 2087
-  password: trojan
-  udp: true
-  ws-opts:
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-    headers:
-      Host: store.timimi.dpdns.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /?ed=2560
     headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-- name: 🇸🇬 vless-SG-8862
+      Host: sni.111000.cc.Cd
+- name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+  port: 2083
+  uuid: 2ade106e-03d1-4b5c-a9e2-43bc70c9e79b
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: asmaos.uk
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snippet.gfw.nn.kg
-- name: 🇸🇬 trojan-SG-8023
-  type: trojan
-  server: bug.xcp
-  port: 2053
-  password: Aimer
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: epge.muarua.filegear-sg.me
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /Cczu8jOo6HDo?ed=2560
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-- name: 🇸🇬 trojan-SG-7966
-  type: trojan
-  server: bug.xcp
-  port: 8443
-  password: trojan
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: store.timimi.dpdns.org
+      Host: www.pjw5.top
