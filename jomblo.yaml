@@ -1,1 +1,81 @@
-proxies: []
+proxies:
+- name: 🇸🇬 trojan-SG-9406
+  type: trojan
+  server: bug.xcp
+  port: 2087
+  password: trojan
+  udp: true
+  ws-opts:
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+    headers:
+      Host: store.timimi.dpdns.org
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: asmaos.uk
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+- name: 🇸🇬 trojan-SG-8023
+  type: trojan
+  server: bug.xcp
+  port: 2053
+  password: Aimer
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: epge.muarua.filegear-sg.me
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2086
+  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
+- name: 🇸🇬 vless-SG-7456
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Telegram@V2rayAlpha/ed=2560
+    headers:
+      Host: ayanamirei.11160321.xyz
