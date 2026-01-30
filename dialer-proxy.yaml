@@ -44,7 +44,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.116.227
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -65,7 +65,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP ss-SG-12479009
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -89,7 +89,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP ss-SG-11818509
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -97,7 +97,7 @@ proxies:
   password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
   server: 167.150.100.115
   port: 443
-- name: 🇸🇬DP vmess-SG-11391645
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: cf.090227.xyz
@@ -116,17 +116,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 66.81.247.155
+  server: chatgpt.com
   port: 443
-  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
   udp: true
   network: ws
   tls: true
-  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  sni: pages.dev
   ws-opts:
-    path: /?ed=#?ed=512
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -169,34 +169,34 @@ proxies:
     path: /?ed=2560
     headers:
       Host: stceexvemn9g6twqfs89f4rpfr.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-8430
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
+  server: cf.narton.ir
   port: 8443
-  uuid: 8f1a15bf-a352-4c32-aee2-957039a6847b
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   udp: true
   network: ws
   tls: true
-  sni: 6nwf5rauksz8126xm.zjde5.de5.net
+  sni: hitgram.ir
   ws-opts:
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+    path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
     headers:
-      Host: 6nwf5rauksz8126xm.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-8105
+      Host: hitgram.ir
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
-  port: 8443
-  uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
+  server: 188.114.96.3
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
   udp: true
   network: ws
   tls: true
-  sni: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+  sni: pages.dev
   ws-opts:
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -228,17 +228,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
-  port: 8443
-  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  server: 213.35.100.31
+  port: 47112
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
   udp: true
   network: ws
   tls: true
-  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  sni: pages.anjue39.qzz.io
   ws-opts:
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+    path: /?ed=2048
     headers:
-      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+      Host: pages.anjue39.qzz.io
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -253,20 +253,20 @@ proxies:
     path: /?ed
     headers:
       Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-7724
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.75.62
-  port: 2083
-  uuid: 2ade106e-03d1-4b5c-a9e2-43bc70c9e79b
+  server: 188.114.96.3
+  port: 443
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
   udp: true
   network: ws
   tls: true
-  sni: www.pjw5.top
+  sni: pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: www.pjw5.top
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
 - name: 🇸🇬DP trojan-SG-7531
   dialer-proxy: LBCF
   type: trojan
@@ -275,20 +275,20 @@ proxies:
   password: 6uaond651xcb
   udp: true
   sni: qs1fotlgfslrg4axbnarya6c0tn8w7f6g2b321ng9l6au2tb.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-7456
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 63.141.128.158
-  port: 443
-  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  server: 213.35.100.31
+  port: 47112
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
   udp: true
   network: ws
   tls: true
-  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  sni: pages.anjue39.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
-      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+      Host: pages.anjue39.qzz.io
 - name: 🇲🇾DP vless-MY-12257436
   dialer-proxy: LBCF
   type: vless
@@ -314,7 +314,7 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: 🇯🇵DP trojan-JP-12723991
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 54.249.137.88
@@ -373,14 +373,6 @@ proxies:
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-12628590
-  dialer-proxy: LBCF
-  type: trojan
-  server: 13.158.129.83
-  port: 2595
-  password: BxceQaOe
-  udp: true
-  sni: 13.158.129.83
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -436,12 +428,12 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 57.180.246.207
+  server: 160.16.57.238
   port: 1933
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-12369182
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 43.207.157.137
@@ -595,3 +587,17 @@ proxies:
     path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
       Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+- name: 🇯🇵DP vless-JP-160475
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.142
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  network: ws
+  tls: true
+  sni: l.ayovo.netlib.re
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: l.ayovo.netlib.re
