@@ -23,3 +23,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.cc.Cd
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
+    headers:
+      Host: hitgram.ir

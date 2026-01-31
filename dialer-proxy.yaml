@@ -44,7 +44,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -65,7 +65,7 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -76,7 +76,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.150.76
+  server: 160.16.63.16
   port: 3901
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -89,7 +89,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-11818509
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -152,7 +152,7 @@ proxies:
   tls: true
   sni: r4fnviw9jl4i4rx.zjde5.de5.net
   ws-opts:
-    path: /
+    path: /?ed=?ed=512
     headers:
       Host: r4fnviw9jl4i4rx.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-8862
@@ -169,20 +169,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: stceexvemn9g6twqfs89f4rpfr.zjde5.de5.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: cf.narton.ir
+  server: 104.17.165.123
   port: 8443
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
   udp: true
   network: ws
   tls: true
-  sni: hitgram.ir
+  sni: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
   ws-opts:
-    path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
+    path: /?ed=2560
     headers:
-      Host: hitgram.ir
+      Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -253,20 +253,20 @@ proxies:
     path: /?ed
     headers:
       Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  server: cf.narton.ir
+  port: 8443
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   udp: true
   network: ws
   tls: true
-  sni: pages.dev
+  sni: hitgram.ir
   ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
     headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+      Host: hitgram.ir
 - name: 🇸🇬DP trojan-SG-7531
   dialer-proxy: LBCF
   type: trojan
@@ -314,7 +314,7 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12723991
   dialer-proxy: LBCF
   type: trojan
   server: 54.249.137.88
@@ -433,7 +433,7 @@ proxies:
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
   server: 43.207.157.137
