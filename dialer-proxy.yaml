@@ -70,9 +70,9 @@ proxies:
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: 7afa39016d5a409c
+  password: 764a4d8c1c76eb50
   server: 194.233.73.51
-  port: 48803
+  port: 14453
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
@@ -116,60 +116,46 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  server: 104.17.163.123
+  port: 8443
+  uuid: 83adcc98-ac23-4e51-9ae0-788a73fd9939
   udp: true
   network: ws
   tls: true
-  sni: pages.dev
+  sni: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
   ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /?ed=2560
     headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+      Host: vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 192.71.82.245
-  port: 2096
-  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  server: ipbaz.ping-box.com
+  port: 8443
+  uuid: 8f1a15bf-a352-4c32-aee2-957039a6847b
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.cc.Cd
+  sni: 6nwf5rauksz8126xm.zjde5.de5.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.cc.Cd
+      Host: 6nwf5rauksz8126xm.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.162.123
-  port: 8443
-  uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
+  server: ipbaz.ping-box.com
+  port: 443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
   udp: true
   network: ws
   tls: true
-  sni: r4fnviw9jl4i4rx.zjde5.de5.net
-  ws-opts:
-    path: /?ed=?ed=512
-    headers:
-      Host: r4fnviw9jl4i4rx.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.145.38
-  port: 8443
-  uuid: 15d99963-78a4-4b52-a746-0890e96b961e
-  udp: true
-  network: ws
-  tls: true
-  sni: stceexvemn9g6twqfs89f4rpfr.zjde5.de5.net
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: stceexvemn9g6twqfs89f4rpfr.zjde5.de5.net
-- name: 🇸🇬DP vless-SG-8430
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
   server: 104.17.165.123
@@ -183,34 +169,48 @@ proxies:
     path: /?ed=2560
     headers:
       Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  server: 104.17.163.123
+  port: 8443
+  uuid: 5073081a-a4a6-46e6-a3f5-ff6bb0bbdfab
   udp: true
   network: ws
   tls: true
-  sni: pages.dev
+  sni: 4f009rpo6n.zjde5.de5.net
   ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /?ed=2560
     headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+      Host: 4f009rpo6n.zjde5.de5.net
+- name: vless-node
+  dialer-proxy: LBCF
+  type: vless
+  server: ipbaz.ping-box.com
+  port: 8443
+  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  udp: true
+  network: ws
+  tls: true
+  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  ws-opts:
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+    headers:
+      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.145.38
-  port: 8443
-  uuid: 9e685fe3-e0f9-482d-939c-200a3f89b363
+  server: 172.66.132.196
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
   udp: true
   network: ws
   tls: true
-  sni: vyznthvt7f5fr.zjde5.de5.net
+  sni: a.azadnet003.ddns-ip.net
   ws-opts:
-    path: /?ed=2560fp=chrome
+    path: /telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray
     headers:
-      Host: vyznthvt7f5fr.zjde5.de5.net
+      Host: a.azadnet003.ddns-ip.net
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -228,67 +228,73 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 213.35.100.31
-  port: 47112
-  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
+  server: 104.18.15.19
+  port: 8443
+  uuid: 0665cf1e-0df8-4981-a8de-a366e37c0866
   udp: true
   network: ws
   tls: true
-  sni: pages.anjue39.qzz.io
+  sni: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
-      Host: pages.anjue39.qzz.io
+      Host: xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 66.81.247.155
-  port: 443
-  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
+  server: ipbaz.ping-box.com
+  port: 8443
+  uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
   udp: true
   network: ws
   tls: true
-  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+  sni: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
   ws-opts:
-    path: /?ed
+    path: /@OnNetVpn
     headers:
-      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
+      Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: cf.narton.ir
-  port: 8443
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  udp: true
-  network: ws
-  tls: true
-  sni: hitgram.ir
-  ws-opts:
-    path: /---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN
-    headers:
-      Host: hitgram.ir
-- name: 🇸🇬DP trojan-SG-7531
-  dialer-proxy: LBCF
-  type: trojan
   server: 104.17.162.123
   port: 8443
-  password: 6uaond651xcb
-  udp: true
-  sni: qs1fotlgfslrg4axbnarya6c0tn8w7f6g2b321ng9l6au2tb.zjde5.de5.net
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 213.35.100.31
-  port: 47112
-  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
+  uuid: 83f03646-fb28-44cc-9d2c-8853f6c09285
   udp: true
   network: ws
   tls: true
-  sni: pages.anjue39.qzz.io
+  sni: r4fnviw9jl4i4rx.zjde5.de5.net
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=#?ed=512
     headers:
-      Host: pages.anjue39.qzz.io
+      Host: r4fnviw9jl4i4rx.zjde5.de5.net
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  udp: true
+  network: ws
+  tls: true
+  sni: a.azadnet003.ddns-ip.net
+  ws-opts:
+    path: /telegram-@v2ray_alpha
+    headers:
+      Host: a.azadnet003.ddns-ip.net
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.165.123
+  port: 8443
+  uuid: f85f60b1-2b96-49e9-8bde-b656d1516df0
+  udp: true
+  network: ws
+  tls: true
+  sni: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net
 - name: 🇲🇾DP vless-MY-12257436
   dialer-proxy: LBCF
   type: vless
