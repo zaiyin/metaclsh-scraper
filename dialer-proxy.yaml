@@ -188,7 +188,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -196,7 +196,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.65.107
+  server: 160.16.124.17
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -220,7 +220,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 160.16.70.180
   port: 3901
   password: 869e9086806483ca4744a4cb0f3d6e16
   udp: true
@@ -296,6 +296,13 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP trojan-JP-12743542
+  dialer-proxy: LBCF
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 05effb18-d3e5-42a8-96cb-d4ca70c43c7a
+  udp: true
 - name: 🇯🇵DP vmess-JP-12742460
   dialer-proxy: LBCF
   type: vmess
@@ -550,7 +557,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.57.238
+  server: 160.16.105.192
   port: 1933
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -563,19 +570,3 @@ proxies:
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP vmess-JP-12299776
-  dialer-proxy: LBCF
-  type: vmess
-  server: n1753598452.wpg27.xyz
-  port: 443
-  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1753598452.wpg27.xyz
-  servername: n1753598452.wpg27.xyz
