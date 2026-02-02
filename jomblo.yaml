@@ -1,16 +1,1 @@
-proxies:
-- name: 🇸🇬 vmess-SG-11918159
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: singapore02.zgjok.com
-  servername: singapore02.zgjok.com
+proxies: []
