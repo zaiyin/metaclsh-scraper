@@ -207,7 +207,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.65.107
+  server: 160.16.124.17
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -457,7 +457,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12721424
   dialer-proxy: LBCF
   type: vmess
   server: n1753598446.wpg27.xyz
@@ -560,7 +560,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.57.238
+  server: 160.16.105.192
   port: 1933
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
