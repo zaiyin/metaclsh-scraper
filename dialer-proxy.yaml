@@ -210,16 +210,16 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
-  port: 544
+  server: 152.42.254.150
+  port: 443
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
-  port: 3076
+  server: 178.128.114.70
+  port: 443
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
@@ -303,6 +303,17 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vmess-JP-12767726
+  dialer-proxy: LBCF
+  type: vmess
+  server: 64.176.56.21
+  port: 29360
+  uuid: 74035447-585c-4e3e-a8f4-a47853b9767d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇯🇵DP trojan-JP-12755832
   dialer-proxy: LBCF
   type: trojan
@@ -566,14 +577,6 @@ proxies:
   type: trojan
   server: 160.16.105.192
   port: 1933
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  udp: true
-  sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-12369182
-  dialer-proxy: LBCF
-  type: trojan
-  server: 13.230.22.2
-  port: 4006
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
