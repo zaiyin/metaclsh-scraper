@@ -193,7 +193,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: sssssssxxxx.2032.pp.ua
+  servername: AZERB.NET
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -210,7 +210,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.116.227
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -218,7 +218,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.144.208
+  server: 160.16.106.99
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -496,7 +496,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.106.99
   port: 3423
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
