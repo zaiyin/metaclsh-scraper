@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12759797
+  dialer-proxy: LBCF
+  type: vless
+  server: 146.190.85.213
+  port: 45989
+  uuid: fa7ea4ac-1ed6-467a-ae18-2099ed2bb4ae
+  udp: true
+  network: tcp
+  tls: false
+  sni: apple.com
 - name: 🇸🇬DP vmess-SG-12747468
   dialer-proxy: LBCF
   type: vmess
@@ -183,7 +193,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: asuka.0061.my
+  servername: sssssssxxxx.2032.pp.ua
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -200,7 +210,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.138.24
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -208,7 +218,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 160.16.144.208
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -245,22 +255,6 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
-- name: 🇸🇬DP vmess-SG-11918159
-  dialer-proxy: LBCF
-  type: vmess
-  server: singapore02.zgjok.com
-  port: 443
-  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: singapore02.zgjok.com
-  servername: singapore02.zgjok.com
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -298,8 +292,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -467,14 +461,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP trojan-JP-12723991
-  dialer-proxy: LBCF
-  type: trojan
-  server: 54.249.137.88
-  port: 26378
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vmess-JP-12721424
   dialer-proxy: LBCF
   type: vmess
@@ -510,7 +496,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 153.121.45.139
   port: 3423
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -580,6 +566,14 @@ proxies:
   type: trojan
   server: 160.16.105.192
   port: 1933
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-12369182
+  dialer-proxy: LBCF
+  type: trojan
+  server: 13.230.22.2
+  port: 4006
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
