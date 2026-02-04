@@ -38,39 +38,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-12742487
-  dialer-proxy: LBCF
-  type: vmess
-  server: 47.236.244.168
-  port: 8080
-  uuid: a0866494-7354-430a-b6b3-4ac526ce7a50
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-12742484
-  dialer-proxy: LBCF
-  type: vmess
-  server: 47.245.86.214
-  port: 8080
-  uuid: caa0dae0-923f-4145-9db4-7d0bd4c4ee33
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-12742467
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.219.68.19
-  port: 8080
-  uuid: 6d71af49-dae9-4f8c-b016-7939943e633e
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇸🇬DP vless-SG-12740646
   dialer-proxy: LBCF
   type: vless
@@ -131,7 +98,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 160.16.116.227
   port: 544
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -139,7 +106,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.144.208
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -251,6 +218,48 @@ proxies:
     path: /eyJqdW5rIjoicXNuOHJDRXhEdyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=2560?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
     headers:
       Host: r-one.lat
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: v1.dabache.top
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  udp: true
+  network: ws
+  tls: true
+  sni: DiprOX.pages.DEV
+  ws-opts:
+    path: /Tel-@V2rayAlpha
+    headers:
+      Host: DiprOX.pages.DEV
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: convera.com
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.danfeng.de5.net
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.de5.net
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: convera.com
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.danfeng.de5.net
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.de5.net
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -299,6 +308,16 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-12779211
+  dialer-proxy: LBCF
+  type: vless
+  server: 66.90.99.93
+  port: 443
+  uuid: fa-7802655683-1770060873553089
+  udp: true
+  network: tcp
+  tls: false
+  sni: steampowered.com
 - name: 🇯🇵DP vmess-JP-12767726
   dialer-proxy: LBCF
   type: vmess
@@ -573,17 +592,3 @@ proxies:
     path: /proxyip=sjc.o00o.ooo
     headers:
       Host: snippets.sosoco.ggff.net
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
-  udp: true
-  network: ws
-  tls: true
-  sni: pages.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
