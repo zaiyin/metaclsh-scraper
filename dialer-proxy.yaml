@@ -1,4 +1,258 @@
 proxies:
+- name: 🇸🇬DP vless-SG-12775617
+  dialer-proxy: LBCF
+  type: vless
+  server: 8.219.75.210
+  port: 443
+  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
+  udp: true
+  network: tcp
+  tls: false
+  sni: j.6sc.co
+- name: 🇸🇬DP ss-SG-12770851
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ljqdalu13..
+  server: 3.1.195.148
+  port: 8316
+- name: 🇸🇬DP vless-SG-12759797
+  dialer-proxy: LBCF
+  type: vless
+  server: 146.190.85.213
+  port: 45989
+  uuid: fa7ea4ac-1ed6-467a-ae18-2099ed2bb4ae
+  udp: true
+  network: tcp
+  tls: false
+  sni: apple.com
+- name: 🇸🇬DP vmess-SG-12747468
+  dialer-proxy: LBCF
+  type: vmess
+  server: 8.222.166.72
+  port: 8080
+  uuid: 089240e2-7a2f-45ff-a107-516fb721009e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742506
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.236.64.216
+  port: 8080
+  uuid: e8f70314-81b4-4ec2-9c88-e8582980585c
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742495
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.237.0.177
+  port: 8080
+  uuid: 671848a3-e0da-4d47-a17e-6326cf3131e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742487
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.236.244.168
+  port: 8080
+  uuid: a0866494-7354-430a-b6b3-4ac526ce7a50
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742484
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.245.86.214
+  port: 8080
+  uuid: caa0dae0-923f-4145-9db4-7d0bd4c4ee33
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742481
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.236.197.234
+  port: 8080
+  uuid: 208dadf2-c55a-4539-939d-a0ce2399dcf4
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742477
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.237.133.201
+  port: 8080
+  uuid: 981a7ad2-960e-42e7-ac29-d7391db0a1b6
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12742467
+  dialer-proxy: LBCF
+  type: vmess
+  server: 8.219.68.19
+  port: 8080
+  uuid: 6d71af49-dae9-4f8c-b016-7939943e633e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-12740646
+  dialer-proxy: LBCF
+  type: vless
+  server: 8.219.138.86
+  port: 443
+  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
+  udp: true
+  network: tcp
+  tls: false
+  sni: commerce.adobe.com
+- name: 🇸🇬DP vmess-SG-12737705
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.237.24.195
+  port: 8080
+  uuid: 692c420c-23f9-4745-812c-eaeb617c0247
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-12737704
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.237.16.63
+  port: 8080
+  uuid: 8fe66650-fc21-4bc8-a8e4-1b9b3451f430
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-12684499
+  dialer-proxy: LBCF
+  type: vless
+  server: bf.branly23.cloud
+  port: 2087
+  uuid: 9f6ffb3c-de36-4a48-8cae-34d7e3ede5ea
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vmess-SG-12640599
+  dialer-proxy: LBCF
+  type: vmess
+  server: v12.hdacd.com
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: AZERB.NET
+- name: 🇸🇬DP vless-SG-12551909
+  dialer-proxy: LBCF
+  type: vless
+  server: 167.172.83.42
+  port: 11441
+  uuid: d7a84b8a-66c3-4b9c-b1b7-d576058c489f
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: zoom.us
+- name: 🇸🇬DP trojan-SG-12534386
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.138.24
+  port: 544
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇸🇬DP trojan-SG-12520806
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.106.99
+  port: 3076
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-12500160
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 42d2b47181a32de7
+  server: 154.26.132.38
+  port: 16922
+- name: 🇸🇬DP ss-SG-12479009
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 764a4d8c1c76eb50
+  server: 194.233.73.51
+  port: 14453
+- name: 🇸🇬DP trojan-SG-12342314
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.87.174
+  port: 3901
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇸🇬DP ss-SG-11949219
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 38.89.142.56
+  port: 990
+- name: 🇸🇬DP vmess-SG-11918159
+  dialer-proxy: LBCF
+  type: vmess
+  server: singapore02.zgjok.com
+  port: 443
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore02.zgjok.com
+  servername: singapore02.zgjok.com
+- name: 🇸🇬DP trojan-SG-11841398
+  dialer-proxy: LBCF
+  type: trojan
+  server: 13.113.82.107
+  port: 1691
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -161,61 +415,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP vmess-JP-12737700
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.216.12.247
-  port: 8080
-  uuid: 1cfffe25-7cef-4f94-a37b-476a493304a6
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-12737699
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.216.13.21
-  port: 8080
-  uuid: f67855c5-f679-49ad-921e-a68ec5a4cead
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-12737695
-  dialer-proxy: LBCF
-  type: vmess
-  server: 47.74.17.39
-  port: 8080
-  uuid: 1e105b72-f7ff-40e4-9bbf-6d9e4dc09311
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-12737693
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.216.1.103
-  port: 8080
-  uuid: f842ecbf-310c-4fe1-b1d3-c0881566bb54
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-12737691
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.216.20.166
-  port: 8080
-  uuid: d4606563-c987-4fbe-b546-bb118da87521
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇯🇵DP vmess-JP-12721424
   dialer-proxy: LBCF
   type: vmess
@@ -324,3 +523,61 @@ proxies:
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-12369182
+  dialer-proxy: LBCF
+  type: trojan
+  server: 116.80.76.130
+  port: 443
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP vmess-JP-12299776
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598452.wpg27.xyz
+  port: 443
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598452.wpg27.xyz
+  servername: n1753598452.wpg27.xyz
+- name: 🇯🇵DP vless-JP-11809832
+  dialer-proxy: LBCF
+  type: vless
+  server: 38.60.212.251
+  port: 29059
+  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
+  udp: true
+  network: tcp
+  tls: false
+  sni: mensura.cdn-apple.com
+- name: 🇯🇵DP ss-JP-11352710
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 103.106.228.247
+  port: 990
+- name: 🇯🇵DP vmess-JP-11339200
+  dialer-proxy: LBCF
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1.620720.xyz
+  servername: t1.620720.xyz
