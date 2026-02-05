@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬 trojan-SG-12777828
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  udp: true
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: sg-trojan.andfree.my.id
 - name: 🇸🇬 vmess-SG-11918159
   type: vmess
   server: bug.xcp
@@ -33,14 +43,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
+  uuid: 203e82ed-a6b7-416a-b04e-ba8a20d8a0c4
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
-      Host: teams.live.com.afrcloud1.c01.kr
+      Host: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -81,26 +91,26 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: rukawa.pages.dev
+      Host: diprox.pages.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 443
+  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng
+    path: /?ed=2048
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: myserviran.serviran.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp

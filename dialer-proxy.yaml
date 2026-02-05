@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-12777828
   dialer-proxy: LBCF
   type: trojan
   server: v1.dabache.top
@@ -65,15 +65,15 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
-  port: 544
+  server: 152.42.254.150
+  port: 443
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12520806
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.144.208
   port: 3076
   password: c1d83c0c7d57cead4379ba14a82df69b
   udp: true
@@ -161,17 +161,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.96.3
+  server: 104.21.23.22
   port: 443
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
+  uuid: 203e82ed-a6b7-416a-b04e-ba8a20d8a0c4
   udp: true
   network: ws
   tls: true
-  sni: teams.live.com.afrcloud1.c01.kr
+  sni: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
-      Host: teams.live.com.afrcloud1.c01.kr
+      Host: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -216,31 +216,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.144.74
+  server: creativecommons.org
   port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   udp: true
   network: ws
   tls: true
-  sni: rukawa.pages.dev
+  sni: DiprOX.pages.DEV
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: rukawa.pages.dev
+      Host: diprox.pages.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: convera.com
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  server: myserviran.serviran.workers.dev
+  port: 443
+  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng.de5.net
+  sni: myserviran.serviran.workers.dev
   ws-opts:
-    path: /danfeng
+    path: /?ed=2048
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: myserviran.serviran.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
