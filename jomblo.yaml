@@ -24,6 +24,21 @@ proxies:
     headers:
       Host: singapore02.zgjok.com
   servername: singapore02.zgjok.com
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -57,9 +72,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /assets
     headers:
-      Host: DiprOX.pages.DEV
+      Host: diprox.pages.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -69,9 +84,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /danfeng?ed=2560
     headers:
-      Host: snippet.fgfw.de5.net
+      Host: snippet.danfeng21.ndjp.net
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -96,3 +111,15 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.danfeng.de5.net
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
