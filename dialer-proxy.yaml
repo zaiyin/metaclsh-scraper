@@ -65,9 +65,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12534386
   dialer-proxy: LBCF
   type: trojan
-  server: 152.42.254.150
-  port: 443
-  password: c1d83c0c7d57cead4379ba14a82df69b
+  server: 13.231.234.230
+  port: 544
+  password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-12520806
@@ -142,6 +142,22 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP trojan-SG-11702720
+  dialer-proxy: LBCF
+  type: trojan
+  server: 38.180.107.76
+  port: 443
+  password: 5fb072e0ddd631cf66cf752b09210480
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇸🇬DP trojan-SG-11702717
+  dialer-proxy: LBCF
+  type: trojan
+  server: 38.180.190.13
+  port: 443
+  password: 5fb072e0ddd631cf66cf752b09210480
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-11391645
   dialer-proxy: LBCF
   type: vmess
@@ -161,17 +177,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.23.22
-  port: 443
-  uuid: 203e82ed-a6b7-416a-b04e-ba8a20d8a0c4
+  server: convera.com
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
+  sni: snippet.danfeng.de5.net
   ws-opts:
-    path: /eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /danfeng
     headers:
-      Host: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
+      Host: snippet.danfeng.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -202,46 +218,32 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: convera.com
+  server: 104.17.73.206
   port: 2053
   uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng.de5.net
+  sni: snippet.fgfw.de5.net
   ws-opts:
-    path: /danfeng
+    path: /danfeng?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: snippet.fgfw.de5.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: creativecommons.org
+  server: 172.64.144.74
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
   network: ws
   tls: true
-  sni: DiprOX.pages.DEV
+  sni: rukawa.pages.dev
   ws-opts:
-    path: /assets
+    path: /
     headers:
-      Host: diprox.pages.dev
+      Host: rukawa.pages.dev
 - name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: myserviran.serviran.workers.dev
-  port: 443
-  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
-  udp: true
-  network: ws
-  tls: true
-  sni: myserviran.serviran.workers.dev
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: myserviran.serviran.workers.dev
-- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: convera.com
@@ -255,20 +257,6 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.danfeng.de5.net
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: ipbaz.ping-box.com
-  port: 443
-  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-  udp: true
-  network: ws
-  tls: true
-  sni: teams.live.com.afrcloud1.c01.kr
-  ws-opts:
-    path: /
-    headers:
-      Host: teams.live.com.afrcloud1.c01.kr
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -381,9 +369,9 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.214.104
   port: 3423
-  password: c1d83c0c7d57cead4379ba14a82df69b
+  password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-12523389

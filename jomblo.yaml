@@ -24,33 +24,18 @@ proxies:
     headers:
       Host: singapore02.zgjok.com
   servername: singapore02.zgjok.com
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 203e82ed-a6b7-416a-b04e-ba8a20d8a0c4
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /danfeng
     headers:
-      Host: 014.ELectRoceLlCO-Cf-014.worKeRS.dev
+      Host: snippet.danfeng.de5.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -84,34 +69,22 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng
+    path: /danfeng?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: snippet.fgfw.de5.net
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /
     headers:
-      Host: diprox.pages.dev
+      Host: rukawa.pages.dev
 - name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: myserviran.serviran.workers.dev
-- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 2053
@@ -123,15 +96,3 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.danfeng.de5.net
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: teams.live.com.afrcloud1.c01.kr
