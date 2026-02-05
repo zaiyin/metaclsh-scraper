@@ -54,15 +54,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 016f56be-21ba-4c39-aa3d-2cc2c3ea9929
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoicXNuOHJDRXhEdyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=2560?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: r-one.lat
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -72,45 +72,45 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /Tel-@YamYamProxy
     headers:
-      Host: diprox.pages.dev
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: snippet.danfeng21.ndjp.net
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
-      Host: rukawa.pages.dev
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 443
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
