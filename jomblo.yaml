@@ -27,28 +27,16 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: snippet.danfeng21.ndjp.net
+      Host: rukawa.pages.dev
 - name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfengfp=chrome
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
@@ -57,9 +45,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: diprox.pages.dev
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -76,15 +64,27 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 0b3ad86e-1818-49bb-949d-4e85d137a16d
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: mianfeijiedianscp.buzz
+      Host: rukawa.pages.dev
 - name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 443
@@ -96,39 +96,15 @@ proxies:
     path: /assets
     headers:
       Host: diprox.pages.dev
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /Tel-@V2rayAlpha
     headers:
-      Host: DiprOX.pages.DEV
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-    headers:
-      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: rukawa.pages.dev

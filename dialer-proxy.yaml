@@ -147,35 +147,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: go2.lenovo.com
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  server: 172.64.144.74
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng21.ndjp.net
+  sni: rukawa.pages.dev
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: snippet.danfeng21.ndjp.net
+      Host: rukawa.pages.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.71.206
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.sheilabelinda.ndjp.net
-  ws-opts:
-    path: /danfengfp=chrome
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: creativecommons.org
+  server: v1.dabache.top
   port: 443
   uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   udp: true
@@ -183,9 +169,23 @@ proxies:
   tls: true
   sni: DiprOX.pages.DEV
   ws-opts:
-    path: /assets
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: diprox.pages.dev
+      Host: DiprOX.pages.DEV
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
+  udp: true
+  network: ws
+  tls: true
+  sni: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -203,18 +203,32 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.13.210
+  server: 172.64.144.74
   port: 443
-  uuid: 0b3ad86e-1818-49bb-949d-4e85d137a16d
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
   network: ws
   tls: true
-  sni: mianfeijiedianscp.buzz
+  sni: rukawa.pages.dev
   ws-opts:
-    path: /
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: mianfeijiedianscp.buzz
+      Host: rukawa.pages.dev
 - name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 160.153.1.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560fp=chrome
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: creativecommons.org
@@ -228,20 +242,6 @@ proxies:
     path: /assets
     headers:
       Host: diprox.pages.dev
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: v1.dabache.top
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  udp: true
-  network: ws
-  tls: true
-  sni: DiprOX.pages.DEV
-  ws-opts:
-    path: /Tel-@V2rayAlpha
-    headers:
-      Host: DiprOX.pages.DEV
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -259,17 +259,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
+  server: 172.64.144.74
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: rukawa.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: rukawa.pages.dev
 - name: 🇲🇾DP vless-MY-12795140
   dialer-proxy: LBCF
   type: vless
@@ -317,8 +317,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -357,7 +357,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vmess-JP-12721424
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: n1753598446.wpg27.xyz
@@ -447,7 +447,7 @@ proxies:
     headers:
       Host: n1753598451.74qxv.top
   servername: n1753598451.74qxv.top
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12379321
   dialer-proxy: LBCF
   type: vmess
   server: n1753598448.74qxv.top
