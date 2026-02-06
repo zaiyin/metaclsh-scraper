@@ -83,17 +83,17 @@ proxies:
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: ded718fcb2bb17b7
+  password: 42d2b47181a32de7
   server: 154.26.132.38
-  port: 27885
+  port: 16922
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: 764a4d8c1c76eb50
+  password: 7afa39016d5a409c
   server: 194.233.73.51
-  port: 14453
+  port: 48802
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
@@ -183,73 +183,72 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: v1.dabache.top
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  server: convera.com
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: DiprOX.pages.DEV
+  sni: snippet.danfeng.de5.net
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /danfeng
     headers:
-      Host: DiprOX.pages.DEV
+      Host: snippet.danfeng.de5.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: v1.dabache.top
+  server: mybb.com
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   network: ws
   tls: true
-  sni: DiprOX.pages.DEV
+  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
   ws-opts:
-    path: /Tel-@YamYamProxy
+    path: /?ed=2560
     headers:
-      Host: DiprOX.pages.DEV
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: v1.dabache.top
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  server: quick-edit.devprod.cloudflare.dev
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   udp: true
   network: ws
   tls: true
-  sni: DiprOX.pages.DEV
+  sni: snippet.danfeng21.ndjp.net
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /danfeng
     headers:
-      Host: DiprOX.pages.DEV
+      Host: snippet.danfeng21.ndjp.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
+  server: 172.64.144.74
   port: 443
-  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
   network: ws
   tls: true
-  sni: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+  sni: rukawa.pages.dev
   ws-opts:
-    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+      Host: rukawa.pages.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
+  server: 172.67.137.47
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
   udp: true
   network: ws
-  tls: true
-  sni: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+  tls: false
   ws-opts:
-    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    path: /1qrxwiek8tujvr6h
     headers:
-      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+      Host: index.harmony510.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -274,7 +273,7 @@ proxies:
   network: tcp
   tls: false
   sni: hls-svod.itunes.apple.com
-- name: 🏳DP ss-
+- name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -375,7 +374,7 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
   servername: n1753598445.74qxv.top
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.214.104
@@ -383,6 +382,22 @@ proxies:
   password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
+- name: 🇯🇵DP vmess-JP-12602383
+  dialer-proxy: LBCF
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12883
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: baidu.com
+  servername: baidu.com
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
