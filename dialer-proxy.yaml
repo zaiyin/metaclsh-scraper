@@ -27,28 +27,6 @@ proxies:
   network: tcp
   tls: false
   sni: apple.com
-- name: 🇸🇬DP vless-SG-12740646
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.219.138.86
-  port: 443
-  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
-  udp: true
-  network: tcp
-  tls: false
-  sni: commerce.adobe.com
-- name: 🇸🇬DP vmess-SG-12640599
-  dialer-proxy: LBCF
-  type: vmess
-  server: v12.hdacd.com
-  port: 30812
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: AZERB.NET
 - name: 🇸🇬DP vless-SG-12551909
   dialer-proxy: LBCF
   type: vless
@@ -97,9 +75,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.87.174
-  port: 390
-  password: c1d83c0c7d57cead4379ba14a82df69b
+  server: 160.16.236.32
+  port: 3901
+  password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP ss-SG-11949219
@@ -169,17 +147,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: convera.com
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  server: cfcdn.zopli.ir
+  port: 443
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng.de5.net
+  sni: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
   ws-opts:
-    path: /danfeng
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
-      Host: snippet.danfeng.de5.net
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -197,59 +175,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: mybb.com
+  server: creativecommons.org
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  sni: DiprOX.pages.DEV
   ws-opts:
-    path: /?ed=2560
+    path: /assets
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: diprox.pages.dev
 - name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: quick-edit.devprod.cloudflare.dev
-  port: 2053
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.danfeng21.ndjp.net
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.144.74
-  port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
-  udp: true
-  network: ws
-  tls: true
-  sni: rukawa.pages.dev
-  ws-opts:
-    path: /Tel-@V2rayAlpha
-    headers:
-      Host: rukawa.pages.dev
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.137.47
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /1qrxwiek8tujvr6h
-    headers:
-      Host: index.harmony510.workers.dev
-- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: www.speedtest.net
@@ -263,6 +200,76 @@ proxies:
     path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
       Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.144.74
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  udp: true
+  network: ws
+  tls: true
+  sni: rukawa.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: rukawa.pages.dev
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: creativecommons.org
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  udp: true
+  network: ws
+  tls: true
+  sni: DiprOX.pages.DEV
+  ws-opts:
+    path: /assets
+    headers:
+      Host: diprox.pages.dev
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: 94671f42-fdd3-4503-a3e6-bda4a2527560
+  udp: true
+  network: ws
+  tls: true
+  sni: 019.EleCtRoceLLco-cF-019.wOrKers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiTndjMXEwMzZtSUIwYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0=?ed=2560
+    headers:
+      Host: 019.electrocellco-cf-019.workers.dev
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 98d677be-b14b-4c14-a96b-4a39a3be645a
+  udp: true
+  network: ws
+  tls: true
+  sni: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.144.74
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  udp: true
+  network: ws
+  tls: true
+  sni: rukawa.pages.dev
+  ws-opts:
+    path: /ProxyCloud
+    headers:
+      Host: rukawa.pages.dev
 - name: 🇲🇾DP vless-MY-12795140
   dialer-proxy: LBCF
   type: vless
@@ -377,7 +384,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.214.104
+  server: 202.181.103.246
   port: 3423
   password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
