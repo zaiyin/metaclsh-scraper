@@ -9,11 +9,11 @@ proxies:
     path: /welcome
     headers:
       Host: sg-trojan.andfree.my.id
-- name: 🇸🇬 vmess-SG-11391645
+- name: 🇸🇬 vmess-SG-11918159
   type: vmess
   server: bug.xcp
   port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
   alterId: 0
   cipher: auto
   tls: true
@@ -22,8 +22,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
+      Host: singapore02.zgjok.com
+  servername: singapore02.zgjok.com
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -39,27 +39,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  port: 8880
+  uuid: 016f56be-21ba-4c39-aa3d-2cc2c3ea9929
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /eyJqdW5rIjoicXNuOHJDRXhEdyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=2560
     headers:
-      Host: DiprOX.pages.DEV
+      Host: r-one.lat
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: diprox.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -81,7 +81,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /assets
     headers:
       Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-8023
@@ -105,18 +105,42 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /assetsfp=chrome
+    path: /assets
     headers:
-      Host: DiprOX.pages.DEV
+      Host: diprox.pages.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /Tel-@V2rayAlpha
     headers:
-      Host: rukawa.pages.dev
+      Host: DiprOX.pages.DEV
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.de5.net
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng?ed=2560fp=chrome
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
