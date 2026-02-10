@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-12846519
   dialer-proxy: LBCF
   type: trojan
   server: 43.198.233.56
@@ -22,14 +22,6 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇸🇬DP ss-SG-12770851
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ljqdalu13..
-  server: 3.1.195.148
-  port: 8313
 - name: 🇸🇬DP vless-SG-12759797
   dialer-proxy: LBCF
   type: vless
@@ -82,9 +74,9 @@ proxies:
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: 7afa39016d5a409c
+  password: 764a4d8c1c76eb50
   server: 194.233.73.51
-  port: 48802
+  port: 14453
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
@@ -120,16 +112,16 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11702720
   dialer-proxy: LBCF
   type: trojan
-  server: 38.180.107.76
-  port: 443
+  server: 160.16.85.33
+  port: 127
   password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-11702717
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
-  port: 276
+  server: 38.180.190.13
+  port: 443
   password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
@@ -218,7 +210,7 @@ proxies:
   ws-opts:
     path: /Tel-@V2rayAlpha
     headers:
-      Host: diprox.pages.dev
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -247,20 +239,14 @@ proxies:
     path: /assets
     headers:
       Host: diprox.pages.dev
-- name: 🇸🇬DP vless-SG-7971
+- name: 🇸🇬DP trojan-SG-7971
   dialer-proxy: LBCF
-  type: vless
-  server: creativecommons.org
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  type: trojan
+  server: 167.68.4.199
+  port: 2053
+  password: Aimer
   udp: true
-  network: ws
-  tls: true
-  sni: DiprOX.pages.DEV
-  ws-opts:
-    path: /assets
-    headers:
-      Host: diprox.pages.dev
+  sni: epge.muarua.filegear-sg.me
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -347,6 +333,20 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-12853507
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.165.183.43
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇯🇵DP trojan-JP-12743542
   dialer-proxy: LBCF
   type: trojan
@@ -355,14 +355,6 @@ proxies:
   password: a6764ddc-0ffa-4cd7-a107-6323b6fc35a6
   udp: true
   sni: douyin.com
-- name: 🇯🇵DP trojan-JP-12723991
-  dialer-proxy: LBCF
-  type: trojan
-  server: 52.194.222.6
-  port: 26378
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vmess-JP-12721424
   dialer-proxy: LBCF
   type: vmess
