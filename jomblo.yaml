@@ -65,15 +65,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /assets
     headers:
-      Host: sni.111000.indevs.in
+      Host: diprox.pages.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -107,6 +107,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Tel-@V2rayAlpha
+    path: /assetsfp=chrome
     headers:
       Host: DiprOX.pages.DEV
