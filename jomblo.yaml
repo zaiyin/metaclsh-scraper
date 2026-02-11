@@ -42,14 +42,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 5566ef21-b44d-4f2f-9356-6664a7c611ee
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /proxyip=sjc.o00o.ooofp=chrome
     headers:
-      Host: diprox.pages.dev
+      Host: mc2-1rw.pages.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -71,9 +71,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: diprox.pages.dev
+      Host: DiprOX.pages.DEV
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -98,15 +98,3 @@ proxies:
     path: /assets
     headers:
       Host: diprox.pages.dev
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /assetsfp=chrome
-    headers:
-      Host: DiprOX.pages.DEV
