@@ -17,27 +17,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  port: 2053
+  uuid: 0b93fd13-de5c-4ca5-8530-435bfa2a0955
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
     headers:
-      Host: diprox.pages.dev
+      Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /Tel-@v2rayngzendegimamad@v2rayngzendegimamad
     headers:
-      Host: diprox.pages.dev
+      Host: o00o.snip.qzz.io
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -54,39 +54,27 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /assets
-    headers:
-      Host: diprox.pages.dev
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /Tel-@V2rayAlpha
     headers:
-      Host: DiprOX.pages.DEV
-- name: 🇸🇬 vless-SG-8105
+      Host: o00o.snip.qzz.io
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /assets
+    path: /pyip=proxyip.cmliussss.net
     headers:
-      Host: diprox.pages.dev
-- name: 🇸🇬 vless-SG-8023
+      Host: cf.cloudip.ggff.net
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
