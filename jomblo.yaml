@@ -26,18 +26,6 @@ proxies:
     path: /eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
     headers:
       Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Tel-@v2rayngzendegimamad@v2rayngzendegimamad
-    headers:
-      Host: o00o.snip.qzz.io
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -66,14 +54,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /pyip=proxyip.cmliussss.net
+    path: /?ed=2560fp=chrome
     headers:
-      Host: cf.cloudip.ggff.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
