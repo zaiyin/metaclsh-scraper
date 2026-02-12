@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-12884284
+  dialer-proxy: LBCF
+  type: vmess
+  server: 172.236.154.50
+  port: 443
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+    headers:
+      Host: sg.dalxy.eu.org
+  servername: sg.dalxy.eu.org
 - name: 🇸🇬DP vless-SG-12867147
   dialer-proxy: LBCF
   type: vless
@@ -31,6 +47,14 @@ proxies:
     path: /
     headers:
       Host: ''
+- name: 🇸🇬DP ss-SG-12770851
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ljqdalu13..
+  server: 3.1.195.148
+  port: 8319
 - name: 🇸🇬DP vless-SG-12759797
   dialer-proxy: LBCF
   type: vless
@@ -115,7 +139,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-11928618
   dialer-proxy: LBCF
   type: trojan
-  server: 18.183.242.254
+  server: 95.40.77.248
   port: 1196
   password: BxceQaOe
   udp: true
@@ -220,17 +244,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 8.34.146.255
-  port: 2083
-  uuid: 5566ef21-b44d-4f2f-9356-6664a7c611ee
+  server: 1password.com
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: mc2-1rw.pages.dev
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
-    path: /proxyip=sjc.o00o.ooofp=chrome
+    path: /?ed=2560
     headers:
-      Host: mc2-1rw.pages.dev
+      Host: rayan-007.foton.dpdns.org
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
@@ -245,20 +269,6 @@ proxies:
     path: /Tel-@V2rayAlpha
     headers:
       Host: o00o.snip.qzz.io
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: creativecommons.org
-  port: 443
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  udp: true
-  network: ws
-  tls: true
-  sni: DiprOX.pages.DEV
-  ws-opts:
-    path: /assets
-    headers:
-      Host: diprox.pages.dev
 - name: 🇲🇾DP vless-MY-12819586
   dialer-proxy: LBCF
   type: vless
@@ -381,6 +391,14 @@ proxies:
   password: 5fb072e0ddd631cf66cf752b09210480
   udp: true
   sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-12628590
+  dialer-proxy: LBCF
+  type: trojan
+  server: 54.248.12.71
+  port: 2595
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -391,6 +409,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇯🇵DP ss-JP-12482898
   dialer-proxy: LBCF
   type: ss
@@ -434,17 +462,17 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
-  port: 1933
-  password: 5fb072e0ddd631cf66cf752b09210480
+  server: 160.16.117.182
+  port: 193
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
-  port: 4006
-  password: 5fb072e0ddd631cf66cf752b09210480
+  server: 160.16.105.192
+  port: 400
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
   sni: www.nintendogames.net
 - name: 🏳DP vmess-
@@ -578,17 +606,3 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇯🇵DP vless-JP-162885
-  dialer-proxy: LBCF
-  type: vless
-  server: 43.165.180.71
-  port: 8443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: _acme-challenge.443888.xyz
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: _acme-challenge.443888.xyz
