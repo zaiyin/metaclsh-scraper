@@ -57,16 +57,6 @@ proxies:
   network: tcp
   tls: false
   sni: apple.com
-- name: 🇸🇬DP vless-SG-12740646
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.219.138.86
-  port: 443
-  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
-  udp: true
-  network: tcp
-  tls: false
-  sni: commerce.adobe.com
 - name: 🇸🇬DP ss-SG-12500160
   dialer-proxy: LBCF
   type: ss
@@ -86,9 +76,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.138.24
+  server: 153.121.39.240
   port: 3901
-  password: 5fb072e0ddd631cf66cf752b09210480
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP ss-SG-11949219
@@ -192,7 +182,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 192.200.160.19
+  server: 135.84.67.41
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -200,23 +190,23 @@ proxies:
   tls: true
   sni: sni.111000.v6.navy
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: '@ChinaPortGFW'
     headers:
       Host: sni.111000.v6.navy
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.74.47
-  port: 443
+  server: ipbaz.ping-box.com
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -231,6 +221,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.200.160.19
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.navy
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
 - name: 🇲🇾DP vless-MY-12819586
   dialer-proxy: LBCF
   type: vless
@@ -418,15 +422,15 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.116.227
+  server: 160.16.144.208
   port: 3423
-  password: 5fb072e0ddd631cf66cf752b09210480
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-12628590
   dialer-proxy: LBCF
   type: trojan
-  server: 54.248.12.71
+  server: 13.113.192.229
   port: 2595
   password: BxceQaOe
   udp: true
@@ -502,7 +506,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-12369182
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.105.192
+  server: 160.16.57.238
   port: 400
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
@@ -601,6 +605,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-4988321
+  dialer-proxy: LBCF
+  type: vless
+  server: 138.2.39.24
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.navy
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
 - name: 🇯🇵DP vless-JP-3908941
   dialer-proxy: LBCF
   type: vless

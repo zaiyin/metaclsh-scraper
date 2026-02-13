@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬 vmess-SG-11918159
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore02.zgjok.com
+  servername: singapore02.zgjok.com
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -44,21 +59,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: '@ChinaPortGFW'
     headers:
       Host: sni.111000.v6.navy
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -71,3 +86,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
