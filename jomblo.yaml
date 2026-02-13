@@ -1,24 +1,9 @@
 proxies:
-- name: 🇸🇬 vmess-SG-12884284
+- name: 🇸🇬 vmess-SG-11391645
   type: vmess
   server: bug.xcp
   port: 443
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-    headers:
-      Host: sg.dalxy.eu.org
-  servername: sg.dalxy.eu.org
-- name: 🇸🇬 vmess-SG-11918159
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
   alterId: 0
   cipher: auto
   tls: true
@@ -27,20 +12,20 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: singapore02.zgjok.com
-  servername: singapore02.zgjok.com
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -89,15 +74,3 @@ proxies:
     path: /?ed=2560fp=chrome
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /Tel-@V2rayAlpha
-    headers:
-      Host: o00o.snip.qzz.io
