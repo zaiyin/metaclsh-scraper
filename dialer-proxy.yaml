@@ -67,19 +67,6 @@ proxies:
   network: tcp
   tls: false
   sni: commerce.adobe.com
-- name: 🇸🇬DP vless-SG-12551909
-  dialer-proxy: LBCF
-  type: vless
-  server: 167.172.83.42
-  port: 11441
-  uuid: d7a84b8a-66c3-4b9c-b1b7-d576058c489f
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: zoom.us
 - name: 🇸🇬DP ss-SG-12500160
   dialer-proxy: LBCF
   type: ss
@@ -163,36 +150,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.17.73.206
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: o00o.snip.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: sni.111000.indevs.in
+      Host: o00o.snip.qzz.io
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: 135.84.74.44
   port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  udp: true
-  network: ws
-  tls: true
-  sni: ProxyVPN11.afrcloud22.mmv.kr
-  ws-opts:
-    path: /156.244.1.250=8443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 151.242.183.166
-  port: 35549
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -202,6 +175,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.v6.navy
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: mybb.com
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -219,7 +206,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 199.34.228.41
+  server: 135.84.74.47
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -233,17 +220,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.74.118
+  server: cf.008500.xyz
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
   ws-opts:
-    path: /?ed=2560fp=chrome
+    path: /?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
 - name: 🇲🇾DP vless-MY-12819586
   dialer-proxy: LBCF
   type: vless
@@ -305,15 +292,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8018762
@@ -520,7 +507,7 @@ proxies:
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12299776
   dialer-proxy: LBCF
   type: vmess
   server: n1753598452.wpg27.xyz
