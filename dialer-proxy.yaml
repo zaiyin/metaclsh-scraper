@@ -43,7 +43,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-12342314
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.39.240
+  server: 160.16.89.176
   port: 3901
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   udp: true
@@ -56,14 +56,6 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
-- name: 🇸🇬DP trojan-SG-11928618
-  dialer-proxy: LBCF
-  type: trojan
-  server: 95.40.77.248
-  port: 1196
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-11918159
   dialer-proxy: LBCF
   type: vmess
@@ -101,48 +93,48 @@ proxies:
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: e8add82d-0a0a-4f3b-a22e-c74f83da73b9
+  uuid: 9751a75b-b27c-4766-9e67-380599588612
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /138.2.64.229=443
+    path: /138.2.95.61=1111
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 92.53.191.238
-  port: 2096
+  server: 134.209.96.76
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 176.124.223.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.144.51
+  port: 8443
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: a926adb5.lfree.ccwu.cc
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
     headers:
-      Host: sni.111000.indevs.in
+      Host: a926adb5.lfree.ccwu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
+  server: 135.84.64.90
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -153,90 +145,6 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.170.166.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.73.206
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  udp: true
-  network: ws
-  tls: true
-  sni: o00o.snip.qzz.io
-  ws-opts:
-    path: /Tel-@V2rayAlpha
-    headers:
-      Host: o00o.snip.qzz.io
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.170.166.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  udp: true
-  network: ws
-  tls: true
-  sni: ProxyVPN11.afrcloud22.mmv.kr
-  ws-opts:
-    path: /156.244.1.250=8443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.73.206
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  udp: true
-  network: ws
-  tls: true
-  sni: o00o.snip.qzz.io
-  ws-opts:
-    path: /Tel-@v2rayngzendegimamad@v2rayngzendegimamad
-    headers:
-      Host: o00o.snip.qzz.io
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: afrcloud22.mmv.kr
-  port: 443
-  uuid: 8fc83032-cb7e-4626-8058-f7051a68eb7b
-  udp: true
-  network: ws
-  tls: true
-  sni: afrcloud22.mmv.kr
-  ws-opts:
-    path: /44.217.235.114=2053
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
   server: 104.16.2.90
@@ -250,6 +158,104 @@ proxies:
     path: /43.218.77.16=1443
     headers:
       Host: afrcloud22.mmv.kr
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /198.98.61.220=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: ipbaz.ping-box.com
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 190.93.244.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 50.62.195.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.73.206
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  udp: true
+  network: ws
+  tls: true
+  sni: o00o.snip.qzz.io
+  ws-opts:
+    path: /Tel-@V2rayAlpha
+    headers:
+      Host: o00o.snip.qzz.io
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.153.231
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.67.204.84
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇲🇾DP vless-MY-12819586
   dialer-proxy: LBCF
   type: vless
@@ -319,7 +325,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8018762
@@ -367,17 +373,27 @@ proxies:
 - name: 🇲🇾DP vless-MY-6574438
   dialer-proxy: LBCF
   type: vless
-  server: 151.242.183.166
+  server: 151.242.183.220
   port: 35549
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: WangCai.443888.xyz
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.v6.navy
+      Host: WangCai.443888.xyz
+- name: 🇯🇵DP vless-JP-12943789
+  dialer-proxy: LBCF
+  type: vless
+  server: 5.253.41.208
+  port: 8443
+  uuid: 6432bbec-c4c0-4837-9aa3-82e79def5017
+  udp: true
+  network: tcp
+  tls: false
+  sni: tradingview.com
 - name: 🇯🇵DP vless-JP-12940845
   dialer-proxy: LBCF
   type: vless
@@ -658,11 +674,3 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇯🇵DP ss-JP-5141029
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: shadowsocks
-  server: 149.22.87.204
-  port: 443
