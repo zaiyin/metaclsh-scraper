@@ -99,6 +99,34 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
+  server: 212.22.76.18
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  network: ws
+  tls: true
+  sni: WangCai.443888.xyz
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /130.185.164.213=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
   server: ipbaz.ping-box.com
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -107,41 +135,27 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.65
-  port: 2096
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: WangCai.443888.xyz
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 208.103.161.62
+  server: 104.17.73.206
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  udp: true
+  network: ws
+  tls: true
+  sni: o00o.snip.qzz.io
+  ws-opts:
+    path: /Tel-@V2rayAlpha
+    headers:
+      Host: o00o.snip.qzz.io
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 208.103.161.235
   port: 2096
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
@@ -152,48 +166,34 @@ proxies:
     path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: WangCai.443888.xyz
-- name: 🇸🇬DP vless-SG-8430
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: 61113265-3e78-4012-8f42-692b5069ddac
+  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /140.245.53.45=443
+    path: /130.185.164.213=8443
     headers:
       Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-8105
+- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 143.198.213.40
-  port: 443
+  server: 141.11.203.238
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: sni.111000.v6.navy
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 208.103.161.195
-  port: 2096
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: WangCai.443888.xyz
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -211,29 +211,29 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 1password.com
+  server: 104.17.73.206
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: o00o.snip.qzz.io
   ws-opts:
-    path: /?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: o00o.snip.qzz.io
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  uuid: 7b906ed2-a5a8-41d2-a9cf-8621ec6e90a9
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /130.185.164.213=8443
+    path: /158.101.11.204=15805
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-7724
@@ -319,7 +319,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8018762
@@ -378,6 +378,14 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.v6.navy
+- name: 🇯🇵DP ss-JP-12928569
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 193.135.174.135
+  port: 990
 - name: 🇯🇵DP trojan-JP-12911508
   dialer-proxy: LBCF
   type: trojan
@@ -493,7 +501,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-12379321
   dialer-proxy: LBCF
   type: vmess
-  server: n1753598448.74qxv.top
+  server: 47.74.52.195
   port: 443
   uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
   alterId: 0
@@ -538,6 +546,16 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
+- name: 🇯🇵DP vless-JP-12213001
+  dialer-proxy: LBCF
+  type: vless
+  server: 116.80.44.144
+  port: 27724
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.yahoo.co.jp
 - name: 🇯🇵DP vless-JP-12211728
   dialer-proxy: LBCF
   type: vless
@@ -607,8 +625,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-4988321
   dialer-proxy: LBCF
   type: vless
-  server: 217.142.230.253
-  port: 587
+  server: 140.83.57.114
+  port: 25965
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -621,22 +639,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-1151344
   dialer-proxy: LBCF
   type: vless
-  server: 202.84.53.85
-  port: 19999
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: WangCai.443888.xyz
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: 🇯🇵DP vless-JP-1007660
-  dialer-proxy: LBCF
-  type: vless
-  server: 217.142.230.253
-  port: 587
+  server: 131.186.38.156
+  port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -646,17 +650,3 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇯🇵DP vless-JP-1007486
-  dialer-proxy: LBCF
-  type: vless
-  server: 138.2.39.24
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.navy
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.v6.navy

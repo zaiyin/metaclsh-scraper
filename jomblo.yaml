@@ -14,7 +14,19 @@ proxies:
     headers:
       Host: singapore02.zgjok.com
   servername: singapore02.zgjok.com
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /130.185.164.213=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 2096
@@ -23,10 +35,34 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-9203
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /Tel-@V2rayAlpha
+    headers:
+      Host: o00o.snip.qzz.io
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /130.185.164.213=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 2096
@@ -37,53 +73,29 @@ proxies:
   ws-opts:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 61113265-3e78-4012-8f42-692b5069ddac
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /140.245.53.45=443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.navy
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /Tel-@V2rayAlpha
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: o00o.snip.qzz.io
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
   port: 443
-  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  uuid: 7b906ed2-a5a8-41d2-a9cf-8621ec6e90a9
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /130.185.164.213=8443
+    path: /158.101.11.204=15805
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7724
