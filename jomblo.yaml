@@ -23,31 +23,29 @@ proxies:
     path: /ws
     headers:
       Host: rAyAn-cOnFiG-sg-1.pArSa.dPdNs.oRg
+- name: 🇸🇬 trojan-SG-4559462
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 519d06a5-f3a5-41bd-8f95-519ab65e20ed
+  udp: true
+  ws-opts:
+    path: /images
+    headers:
+      Host: yss2o9nzv7hsgw2z.sggogo202510.top
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /198.98.61.220=443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 61066a16-78fc-4446-8013-6646bc3f27ba
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /103.86.44.120=65432
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 2096
@@ -59,16 +57,28 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d9a83363-40a6-4a21-9dbe-cb2b7d287048
+  uuid: 61066a16-78fc-4446-8013-6646bc3f27ba
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /107.174.121.122=443
+    path: /
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /43.218.77.16=1443
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-8105
@@ -80,30 +90,18 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /129.146.46.164=443
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
+      Host: afrcloud22.mmv.kr
