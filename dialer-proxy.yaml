@@ -128,54 +128,54 @@ proxies:
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
+  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /198.98.61.220=443
+    path: /
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: afrcloud22.mmv.kr
-  port: 443
-  uuid: 643a3034-d3f9-4e03-acde-0e6ab3a238fb
+  server: 104.18.7.36
+  port: 2086
+  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
   udp: true
   network: ws
-  tls: true
+  tls: false
   ws-opts:
-    path: 🔒
+    path: /
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: afrcloud22.mmv.kr
-  port: 443
-  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
+  server: 185.193.31.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: afrcloud22.mmv.kr
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /131.186.26.129=30443
+    path: /?ed=2560&telegram🇨🇳 @wangcai2
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
+  uuid: 0ec1c958-0087-4ca6-b4b2-b846c0f62419
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /131.186.26.129=30443
+    path: /45.32.100.46=13802
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-8105
@@ -183,43 +183,42 @@ proxies:
   type: vless
   server: afrcloud22.mmv.kr
   port: 443
-  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
   udp: true
   network: ws
   tls: true
   sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /130.185.164.213=8443
+    path: /167.179.110.68=8443
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.96.0
+  server: ip.sb
   port: 443
-  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: restless-dew-894b.amirhost4.workers.dev
+  sni: sany.tara132.workers.dev
   ws-opts:
-    path: /
+    path: /sni.111000.dynv6.net/?ed=2560
     headers:
-      Host: restless-dew-894b.amirhost4.workers.dev
+      Host: sany.tara132.workers.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
   server: afrcloud22.mmv.kr
-  port: 443
-  uuid: 5c824317-ac50-49a5-8d32-a0ccb890fb3d
+  port: 80
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   udp: true
   network: ws
-  tls: true
-  sni: afrcloud22.mmv.kr
+  tls: false
   ws-opts:
-    path: /118.91.78.76=50001#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night
+    path: /185.186.245.90=443
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: chatgpt.com.afrcloud22.mmv.kr
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -535,15 +534,15 @@ proxies:
 - name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
-  server: 217.142.230.253
-  port: 587
+  server: 150.230.5.34
+  port: 45681
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
 - name: 🇯🇵DP vless-JP-1151344
