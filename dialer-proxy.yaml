@@ -112,88 +112,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /?ed=2560
+    path: /198.98.61.220=443
     headers:
-      Host: sni.111000.indevs.in
+      Host: afrcloud22.mmv.kr
 - name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: cdn.zoom.us
-  port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  udp: true
-  network: ws
-  tls: true
-  sni: afrcloud22.mmv.kr
-  ws-opts:
-    path: /138.2.5.136=443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.26.14.21
-  port: 443
-  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
-  udp: true
-  network: ws
-  tls: true
-  sni: afrcloud22.mmv.kr
-  ws-opts:
-    path: /131.186.26.129
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.0.144
-  port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  udp: true
-  network: ws
-  tls: true
-  sni: joinProxyVPN11.afrcloud22.mmv.kr
-  ws-opts:
-    path: /49.51.197.141=443
-    headers:
-      Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.16.110.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: 172.67.73.14
@@ -207,20 +137,90 @@ proxies:
     path: /167.179.110.68
     headers:
       Host: afrcloud22.mmv.kr
-- name: 🇸🇬DP vless-SG-7971
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: d85ea913-7dfa-44b0-bd66-33414e897991
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: afrcloud22.mmv.kr
   ws-opts:
-    path: /?ed=2560
+    path: /35.230.79.26=443
     headers:
-      Host: sni.111000.indevs.in
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.26.15.21
+  port: 443
+  uuid: d9a83363-40a6-4a21-9dbe-cb2b7d287048
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /107.174.121.122=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  udp: true
+  network: ws
+  tls: true
+  sni: ProxyVPN11.afrcloud22.mmv.kr
+  ws-opts:
+    path: /156.244.1.250=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /131.186.26.129=30443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: c1a3e8f5-48c7-4070-95bb-8d609955d3ad
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /172.245.182.112=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: 8fc83032-cb7e-4626-8058-f7051a68eb7b
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /44.217.235.114=2053
+    headers:
+      Host: afrcloud22.mmv.kr
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -243,8 +243,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -292,15 +292,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com.cn
-- name: 🇯🇵DP vless-JP-12954772
-  dialer-proxy: LBCF
-  type: vless
-  server: zone.jp.fx2hub.ir
-  port: 45703
-  uuid: bdf97c06-ae1f-47e9-b47a-9d9ff47b5820
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇯🇵DP vless-JP-12878749
   dialer-proxy: LBCF
   type: vless
@@ -374,7 +365,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
-  server: n1753598451.74qxv.top
+  server: 47.74.1.191
   port: 443
   uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
   alterId: 0
@@ -508,8 +499,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-4988321
   dialer-proxy: LBCF
   type: vless
-  server: 150.230.5.34
-  port: 45681
+  server: 217.142.230.253
+  port: 587
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -536,8 +527,22 @@ proxies:
 - name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
-  server: 150.230.5.34
-  port: 45681
+  server: 140.83.57.114
+  port: 25965
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵DP vless-JP-1184841
+  dialer-proxy: LBCF
+  type: vless
+  server: 155.248.181.189
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
