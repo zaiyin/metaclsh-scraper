@@ -11,18 +11,6 @@ proxies:
     path: /seaseus
     headers:
       Host: zero.seaseus.pp.ua
-- name: 🇸🇬 vless-SG-12969594
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 55b0463c-e27f-455b-a25a-70123297b9f4
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: rAyAn-cOnFiG-sg-1.pArSa.dPdNs.oRg
 - name: 🇸🇬 trojan-SG-4559462
   type: trojan
   server: bug.xcp
@@ -33,54 +21,42 @@ proxies:
     path: /images
     headers:
       Host: yss2o9nzv7hsgw2z.sggogo202510.top
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /131.186.26.129
-    headers:
-      Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
+  uuid: 643a3034-d3f9-4e03-acde-0e6ab3a238fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /167.179.110.68
+    path: /54.203.85.46
     headers:
       Host: afrcloud22.mmv.kr
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  uuid: d00a29d1-6e6c-4281-9e46-263caa77bb44
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /146.235.18.248=45137
+    path: /eyJqdW5rIjoiYk9WYlJsYlFGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsibmltYS5uc2NsLmlyIl19
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: pedaratvpn.ar-ahmadiyan86.workers.dev
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d9a83363-40a6-4a21-9dbe-cb2b7d287048
+  uuid: e6eec2e9-f98d-4fd4-afac-c504123231cf
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /107.174.121.122=443
+    path: /
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: rukawa.pages.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -97,23 +73,35 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /131.186.26.129
+    path: /185.186.245.40:81
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /130.185.164.213=8443
+    path: /?ed=2560
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: 9fb4f918-d297-4750-96fa-217ae44b3102
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 52yunwang.dpdns.org
