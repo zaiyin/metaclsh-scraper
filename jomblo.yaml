@@ -30,39 +30,75 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  uuid: e8add82d-0a0a-4f3b-a22e-c74f83da73b9
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /5.223.47.32=443
+    path: /138.2.64.229=443
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /130.185.164.213=8443
+    path: /185.186.245.40:81
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 682373b3-7927-4cbf-9a6e-f53877458555
+  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /88.210.37.244=2053
+    path: /?ed=2048
+    headers:
+      Host: myserviran.serviran.workers.dev
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /138.2.5.136=443
     headers:
       Host: afrcloud22.mmv.kr
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /156.244.1.250=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 443
@@ -71,102 +107,42 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /--Telegram---@MiTiVPN/---@MiTiVPN?/Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN?ed=2560
+    path: /--Telegram---@MiTiVPN/---@MiTiVPN
     headers:
       Host: mitivpn-2.nic3-1.workers.dev
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 3ea61064-dae6-4ce5-8e3b-451c7feab49f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiMHF3bXNPUVFSYkwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: sweet-sgv2ray.xihijop617-075.workers.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /167.179.110.68
-    headers:
-      Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d85ea913-7dfa-44b0-bd66-33414e897991
+  uuid: 61066a16-78fc-4446-8013-6646bc3f27ba
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /35.230.79.26=443
+    path: /103.86.44.120=65432
     headers:
       Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sni.111000.dynv6.net/?ed=2560
+    path: /5.223.47.32=443
     headers:
-      Host: nameless-violet-d45c.anthony900.workers.dev
+      Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7724
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: 90b9fe99-5bd4-4fa8-a290-4987833adb22
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiZGZqSnhwWmI5NzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed
+    path: /--Telegram---@MiTiVPN/---@MiTiVPN
     headers:
-      Host: tck-cmhdwom6nlm1k50eelcbh6kum4ob.s90786383.workers.dev
-- name: 🇸🇬 vless-SG-7531
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+      Host: mitivpn-2.nic3-1.workers.dev
