@@ -11,21 +11,6 @@ proxies:
     path: /seaseus
     headers:
       Host: zero.seaseus.pp.ua
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -38,18 +23,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /43.218.77.16
-    headers:
-      Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -62,18 +35,6 @@ proxies:
     path: /sni.111000.dynv6.net/?ed=2560
     headers:
       Host: nameless-frost-a3f4.loyal341.workers.dev
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
