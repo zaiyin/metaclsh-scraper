@@ -11,21 +11,30 @@ proxies:
     path: /seaseus
     headers:
       Host: zero.seaseus.pp.ua
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
+- name: 🇸🇬 vless-SG-8862
+  type: vless
   server: bug.xcp
   port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
+  uuid: a6430e91-38ad-4254-b7db-d1fba6efd9e3
   network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /129.146.254.25:443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: b7039fbe-0359-4d91-977d-a926203b1936
+  network: ws
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
+      Host: afrcloud22.mmv.kr
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -38,15 +47,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7456
+- name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  port: 443
+  uuid: d85ea913-7dfa-44b0-bd66-33414e897991
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /fp=randomized
+    path: /35.230.79.26=443#Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
     headers:
-      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+      Host: afrcloud22.mmv.kr
