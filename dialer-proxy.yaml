@@ -1,1 +1,622 @@
-proxies: []
+proxies:
+- name: 🇸🇬DP trojan-SG-13156149
+  dialer-proxy: LBCF
+  type: trojan
+  server: 16.163.102.116
+  port: 52951
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP vless-SG-13155950
+  dialer-proxy: LBCF
+  type: vless
+  server: 165.22.49.27
+  port: 2567
+  uuid: 0f021ee3-772e-4e24-e0d1-415a2e4a61e1
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP trojan-SG-13120053
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.198.227.190
+  port: 15363
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP trojan-SG-13120050
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.85.33
+  port: 3419
+  password: 262f1d150049457ac1d6e66b020fa980
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇸🇬DP vless-SG-12982678
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.82.6.36
+  port: 51164
+  uuid: d29a7cee-acd1-4821-adbf-517f8681040e
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP ss-SG-12500160
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 42d2b47181a32de7
+  server: 154.26.132.38
+  port: 16922
+- name: 🇸🇬DP ss-SG-11949219
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 38.89.142.56
+  port: 990
+- name: 🇸🇬DP vmess-SG-11391645
+  dialer-proxy: LBCF
+  type: vmess
+  server: cf.090227.xyz
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
+- name: 🇭🇰DP trojan-HK
+  dialer-proxy: LBCF
+  type: trojan
+  server: 27.122.59.45
+  port: 443
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  udp: true
+  sni: 45.32.28.232
+- name: 🇸🇬DP vless-SG-9406
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /198.98.61.220=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: 61066a16-78fc-4446-8013-6646bc3f27ba
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: d85ea913-7dfa-44b0-bd66-33414e897991
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /35.230.79.26=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.130.125.69
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  udp: true
+  network: ws
+  tls: true
+  sni: zh.hollowspot.ir
+  ws-opts:
+    path: /
+    headers:
+      Host: zh.hollowspot.ir
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.26.15.21
+  port: 443
+  uuid: d9a83363-40a6-4a21-9dbe-cb2b7d287048
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /107.174.121.122=443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.2.90
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  udp: true
+  network: ws
+  tls: true
+  sni: Pulavpn11.afrcloud22.mmv.kr
+  ws-opts:
+    path: /43.218.77.16
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: b7039fbe-0359-4d91-977d-a926203b1936
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.89.18
+  port: 443
+  uuid: e6eec2e9-f98d-4fd4-afac-c504123231cf
+  udp: true
+  network: ws
+  tls: true
+  sni: rukawa.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: rukawa.pages.dev
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.238.228.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: a9ee8b76-6a94-4c25-9705-76d9bd38771e
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /35.230.79.26
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: www.visasoutheasteurope.com
+  port: 2096
+  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
+  udp: true
+  network: ws
+  tls: true
+  sni: daluan.eu.org
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: daluan.eu.org
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: 16068e83-af4c-49ba-8048-98fcff3e5e7b
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /131.186.26.129=30443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇲🇾DP ss-MY-12758358
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 3bb08205cb6c8af0
+  server: 38.54.97.247
+  port: 28026
+- name: 🇲🇾DP vless-MY-12257436
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.107.200
+  port: 8443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🇲🇾DP vmess-MY-12068572
+  dialer-proxy: LBCF
+  type: vmess
+  server: 38.54.98.110
+  port: 20522
+  uuid: cfb08f31-bca2-4f78-a8fa-2784a83ab1f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /telegram_@sswia
+    headers:
+      Host: ''
+- name: 🇲🇾DP vmess-MY-11398419
+  dialer-proxy: LBCF
+  type: vmess
+  server: 47.250.45.234
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: ''
+- name: 🇲🇾DP vless-MY-8009497
+  dialer-proxy: LBCF
+  type: vless
+  server: 175.29.22.17
+  port: 35549
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.navy
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇯🇵DP vless-JP-13108549
+  dialer-proxy: LBCF
+  type: vless
+  server: sgskb.osaip.net
+  port: 25055
+  uuid: 18d6752a-47b8-423f-9428-c9020761cd88
+  udp: true
+  network: grpc
+  tls: true
+- name: 🏳DP vmess-
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1751468092.lie5d.cyou
+  port: 443
+  uuid: 7ace1873-9822-46af-9920-bd64f725212c
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1751468092.lie5d.cyou
+  servername: n1751468092.lie5d.cyou
+- name: 🇯🇵DP vless-JP-12878749
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.74.6.60
+  port: 443
+  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
+  udp: true
+  network: tcp
+  tls: false
+  sni: cdn77.api.userway.org
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /103.6.207.108=8080
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇯🇵DP vmess-JP-12721424
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598446.wpg27.xyz
+  port: 443
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+- name: 🇯🇵DP vmess-JP-12696467
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598445.74qxv.top
+  port: 443
+  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598445.74qxv.top
+  servername: n1753598445.74qxv.top
+- name: 🇯🇵DP trojan-JP-12629994
+  dialer-proxy: LBCF
+  type: trojan
+  server: 54.250.241.85
+  port: 3423
+  password: 262f1d150049457ac1d6e66b020fa980
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP vless-JP-12523389
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.245.38.111
+  port: 443
+  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.autodesk.com
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
+- name: 🏳DP vmess-
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598451.74qxv.top
+  port: 443
+  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598451.74qxv.top
+  servername: n1753598451.74qxv.top
+- name: 🇯🇵DP vmess-JP-12379321
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598448.74qxv.top
+  port: 443
+  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598448.74qxv.top
+  servername: n1753598448.74qxv.top
+- name: 🇯🇵DP trojan-JP-12369183
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.138.24
+  port: 193
+  password: 262f1d150049457ac1d6e66b020fa980
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-12369182
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.231.103
+  port: 400
+  password: 262f1d150049457ac1d6e66b020fa980
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP vmess-JP-12299776
+  dialer-proxy: LBCF
+  type: vmess
+  server: n1753598452.wpg27.xyz
+  port: 443
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1753598452.wpg27.xyz
+  servername: n1753598452.wpg27.xyz
+- name: 🇯🇵DP vless-JP-12213001
+  dialer-proxy: LBCF
+  type: vless
+  server: 116.80.44.144
+  port: 27724
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.yahoo.co.jp
+- name: 🇯🇵DP vless-JP-12211728
+  dialer-proxy: LBCF
+  type: vless
+  server: 5.253.41.52
+  port: 8443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.43.130
+  port: 443
+  uuid: 064059ce-23b9-45d3-953d-57d4c5092874
+  udp: true
+  network: ws
+  tls: true
+  sni: 026.elEctrOCELLCo-cF-026.wORKERs.deV
+  ws-opts:
+    path: /eyJqdW5rIjoieUVOZzhGTTh2OWdLcVYzRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: 026.electrocellco-cf-026.workers.dev
+- name: 🇯🇵DP ss-JP-11352710
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 103.106.228.247
+  port: 990
+- name: 🇯🇵DP vmess-JP-11339200
+  dialer-proxy: LBCF
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1.620720.xyz
+  servername: t1.620720.xyz
+- name: 🇯🇵DP vless-JP-7993275
+  dialer-proxy: LBCF
+  type: vless
+  server: 217.142.230.253
+  port: 587
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /130.185.164.213=8443
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: 61066a16-78fc-4446-8013-6646bc3f27ba
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /
+    headers:
+      Host: afrcloud22.mmv.kr
+- name: 🇯🇵DP ss-JP-5141029
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.204
+  port: 443
+- name: 🇯🇵DP vless-JP-4988321
+  dialer-proxy: LBCF
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: bbafc769-441b-4f06-9aae-9cc04ede1980
+  udp: true
+  network: ws
+  tls: true
+  sni: afrcloud22.mmv.kr
+  ws-opts:
+    path: /198.98.61.220=443
+    headers:
+      Host: afrcloud22.mmv.kr
