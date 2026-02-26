@@ -10,9 +10,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.85.33
   port: 3419
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vless-SG-13028860
@@ -38,7 +38,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-12500160
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -46,14 +46,6 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP ss-SG-12479009
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 764a4d8c1c76eb50
-  server: 194.233.73.51
-  port: 14453
 - name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
@@ -100,20 +92,20 @@ proxies:
     path: /
     headers:
       Host: zh.hollowspot.ir
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.2.90
-  port: 443
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  server: 138.2.89.238
+  port: 43254
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: ProxyVPN11.afrcloud22.mmv.kr
+  sni: sni.111000.v6.navy
   ws-opts:
-    path: /43.218.77.16=1443
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: afrcloud22.mmv.kr
+      Host: sni.111000.v6.navy
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
@@ -184,10 +176,10 @@ proxies:
     path: /
     headers:
       Host: zh.hollowspot.ir
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 104.239.72.238
+  server: 154.218.15.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -195,7 +187,7 @@ proxies:
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: 'Telegram=@N3TWRK '
+    path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
 - name: 🏳DP vless-
@@ -254,6 +246,20 @@ proxies:
     path: /
     headers:
       Host: 80bab3a2.gon-7ye.pages.dev
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  sni: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  ws-opts:
+    path: /fp=randomized
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
 - name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
@@ -287,19 +293,19 @@ proxies:
     path: /telegram_@sswia
     headers:
       Host: ''
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8009497
@@ -321,26 +327,10 @@ proxies:
   type: vless
   server: sgskb.osaip.net
   port: 25055
-  uuid: 0d2566dd-ac64-4733-b8ba-3d0fe9a51a61
+  uuid: 18d6752a-47b8-423f-9428-c9020761cd88
   udp: true
   network: grpc
   tls: true
-- name: 🇯🇵DP vmess-JP-13090513
-  dialer-proxy: LBCF
-  type: vmess
-  server: n1749032906.kzxds.cn
-  port: 443
-  uuid: c3337e26-c0e0-4625-ad62-bfa8d19991a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1749032906.kzxds.cn
-  servername: n1749032906.kzxds.cn
 - name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
@@ -421,7 +411,7 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
   servername: n1753598445.74qxv.top
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12629994
   dialer-proxy: LBCF
   type: trojan
   server: 160.16.214.104
@@ -465,7 +455,7 @@ proxies:
     headers:
       Host: n1753598451.74qxv.top
   servername: n1753598451.74qxv.top
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-12379321
   dialer-proxy: LBCF
   type: vmess
   server: n1753598448.74qxv.top
@@ -481,7 +471,7 @@ proxies:
     headers:
       Host: n1753598448.74qxv.top
   servername: n1753598448.74qxv.top
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-12369183
   dialer-proxy: LBCF
   type: trojan
   server: 153.121.39.240
@@ -555,7 +545,7 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 103.106.228.247
   port: 990
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-11339200
   dialer-proxy: LBCF
   type: vmess
   server: t1.620720.xyz
@@ -613,3 +603,11 @@ proxies:
     path: /
     headers:
       Host: afrcloud22.mmv.kr
+- name: 🇯🇵DP ss-JP-5141029
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.204
+  port: 443

@@ -26,3 +26,27 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬 vless-SG-7456
+  type: vless
+  server: bug.xcp
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /fp=randomized
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
