@@ -1,19 +1,4 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -25,79 +10,79 @@ proxies:
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: zh.hollowspot.ir
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /--Telegram---@MiTiVPN/---@MiTiVPN
     headers:
-      Host: sni.111000.indevs.in
+      Host: mitivpn-2.nic3-1.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: zh.hollowspot.ir
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: restless-dew-894b.amirhost4.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: sni.111000.indevs.in
+      Host: long-mode-2783.sepna114.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: zh.hollowspot.ir
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -109,8 +94,20 @@ proxies:
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
   port: 2096
@@ -121,19 +118,7 @@ proxies:
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /64.181.218.67=443
-    headers:
-      Host: afrcloud22.mmv.kr
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -143,18 +128,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7531
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
+    path: 'Telegram=@N3TWRK '
     headers:
       Host: sni.jpmj.dev
