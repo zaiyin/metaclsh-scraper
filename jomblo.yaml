@@ -23,22 +23,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
@@ -50,30 +38,30 @@ proxies:
     path: /
     headers:
       Host: 20251127.ldvsmms.dpdns.org
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /--Telegram---@MiTiVPN/---@MiTiVPN
+    path: /
     headers:
-      Host: mitivpn-2.nic3-1.workers.dev
+      Host: zh.hollowspot.ir
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: zh.hollowspot.ir
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -90,27 +78,27 @@ proxies:
   type: vless
   server: bug.xcp
   port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7966
+      Host: daluan.eu.org
+- name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
+  uuid: 4506cd31-0c15-4b92-b464-35b377b4c2be
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: 80bab3a2.gon-7ye.pages.dev
-- name: 🇸🇬 vless-SG-7801
+      Host: yopk.pages.dev
+- name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
   port: 2096
@@ -119,21 +107,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7531
+- name: 🇲🇾 vless-MY-8016935
   type: vless
   server: bug.xcp
   port: 443
-  uuid: e6eec2e9-f98d-4fd4-afac-c504123231cf
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: rukawa.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇲🇾 vless-MY-8009497
   type: vless
   server: bug.xcp
