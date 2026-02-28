@@ -1,31 +1,16 @@
 proxies:
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: a36c66e0-b38a-42db-b647-76cb9e544203
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: po-7ll.pages.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -50,6 +35,18 @@ proxies:
     path: /
     headers:
       Host: zh.hollowspot.ir
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: c.iamdt.dpdns.org
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -86,6 +83,18 @@ proxies:
     path: /?ed=2560
     headers:
       Host: daluan.eu.org
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 2086
+  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
