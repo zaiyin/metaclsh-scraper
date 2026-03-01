@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬 trojan-SG-13207450
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ubu.okaoclax.me
 - name: 🇸🇬 vmess-SG-11391645
   type: vmess
   server: bug.xcp
@@ -62,30 +72,6 @@ proxies:
     path: /eyJqdW5rIjoiRnpna0hyZFRQRmNqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
       Host: sonya-3nl.pages.dev
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: myserviran.serviran.workers.dev
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -98,18 +84,30 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: daluan.eu.org
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: ad3b1a22-3678-43a4-a0c2-ddd5b7da5b5a
+  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: 20251127.ldvsmms.dpdns.org
+      Host: 80bab3a2.gon-7ye.pages.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -119,21 +117,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram🇨🇳 @wangcai2=
+    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: restless-dew-894b.amirhost4.workers.dev
 - name: 🇲🇾 vless-MY-12451058
   type: vless
   server: bug.xcp
