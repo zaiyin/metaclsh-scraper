@@ -40,14 +40,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: 80bab3a2.gon-7ye.pages.dev
+      Host: zrf-623.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -57,33 +57,57 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo:443
+    headers:
+      Host: zrf-623.pages.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -93,33 +117,45 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&telegram🇨🇳 @wangcai2
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: sni.jpmj.dev
+      Host: zrf-623.pages.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 2083
+  uuid: 9fb4f918-d297-4750-96fa-217ae44b3102
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: 52yunwang.dpdns.org
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 80bab3a2.gon-7ye.pages.dev
 - name: 🇲🇾 vless-MY-12451058
   type: vless
   server: bug.xcp
