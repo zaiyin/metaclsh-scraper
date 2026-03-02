@@ -119,17 +119,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
-  port: 2096
+  server: 104.18.110.121
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: nameless-violet-d45c.anthony900.workers.dev
   ws-opts:
-    path: /?ed
+    path: /sni.111000.dynv6.net/?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: nameless-violet-d45c.anthony900.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -158,24 +158,10 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8430
+- name: vless-node
   dialer-proxy: LBCF
   type: vless
-  server: ipbaz.ping-box.com
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 176.124.223.238
+  server: 185.251.81.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -186,6 +172,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.0.128
+  port: 443
+  uuid: 38715482-05f5-4ea0-aebf-60d3b8c71f30
+  udp: true
+  network: ws
+  tls: true
+  sni: myserviran.serviran.workers.dev
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: myserviran.serviran.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -314,7 +314,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8016935
@@ -348,7 +348,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13212488
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.70.180
   port: 2001
   password: 262f1d150049457ac1d6e66b020fa980
   udp: true
@@ -429,14 +429,6 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
   servername: n1753598445.74qxv.top
-- name: 🇯🇵DP trojan-JP-12629994
-  dialer-proxy: LBCF
-  type: trojan
-  server: 153.121.38.213
-  port: 3423
-  password: 262f1d150049457ac1d6e66b020fa980
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -479,14 +471,6 @@ proxies:
     headers:
       Host: n1753598448.74qxv.top
   servername: n1753598448.74qxv.top
-- name: 🇯🇵DP trojan-JP-12369183
-  dialer-proxy: LBCF
-  type: trojan
-  server: 160.16.138.24
-  port: 193
-  password: 262f1d150049457ac1d6e66b020fa980
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP vmess-JP-12299776
   dialer-proxy: LBCF
   type: vmess
@@ -630,6 +614,20 @@ proxies:
   type: vless
   server: 153.121.45.101
   port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵DP vless-JP-1184841
+  dialer-proxy: LBCF
+  type: vless
+  server: 158.101.152.6
+  port: 2919
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
