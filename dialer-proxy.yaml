@@ -16,14 +16,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-13170376
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.198.13.210
-  port: 41973
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-13162079
   dialer-proxy: LBCF
   type: trojan
@@ -40,15 +32,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP vless-SG-13155950
-  dialer-proxy: LBCF
-  type: vless
-  server: 165.22.49.27
-  port: 2567
-  uuid: 0f021ee3-772e-4e24-e0d1-415a2e4a61e1
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
@@ -123,7 +106,34 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
+  server: 104.19.151.106
+  port: 80
+  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: ipbaz.ping-box.com
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: ipbaz.ping-box.com
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -134,32 +144,6 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.14.88
-  port: 80
-  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: long-forest-ac72.salari1382m.workers.dev
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.7.36
-  port: 2086
-  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -177,7 +161,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.18.250.238
+  server: ipbaz.ping-box.com
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 176.124.223.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -185,23 +183,9 @@ proxies:
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
-  udp: true
-  network: ws
-  tls: true
-  sni: loNg-modE-2783.SEpna114.WOrkERs.dEV
-  ws-opts:
-    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: long-mode-2783.sepna114.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -213,52 +197,64 @@ proxies:
   tls: true
   sni: zh.hollowspot.ir
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /
     headers:
       Host: zh.hollowspot.ir
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 212.183.88.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.159.153.177
+  port: 443
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: zrf-623.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: sni.jpmj.dev
+      Host: zrf-623.pages.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 173.245.59.53
+  server: 104.18.125.5
+  port: 80
+  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: lively-brook-c471.nedena3319.workers.dev
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.43.4
   port: 443
-  uuid: a36c66e0-b38a-42db-b647-76cb9e544203
+  uuid: a49f214f-9460-44cf-bcc4-08fda8a3f3de
   udp: true
   network: ws
   tls: true
-  sni: po-7ll.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: po-7ll.pages.dev
-- name: 🇲🇾DP vmess-MY-13174842
-  dialer-proxy: LBCF
-  type: vmess
-  server: 23.27.28.15
-  port: 4728
-  uuid: 8d2153d1-88f4-48bd-ac63-b65b0ddbd662
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
+  sni: fancy-disk-3455.v2raytv20.workers.dev
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: fancy-disk-3455.v2raytv20.workers.dev
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: usa.visa.com
+  port: 443
+  uuid: a114d067-b900-4f60-87a5-50d4d63972b8
+  udp: true
+  network: ws
+  tls: true
+  sni: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -318,7 +314,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇲🇾DP vless-MY-8016935
@@ -401,20 +397,6 @@ proxies:
     headers:
       Host: n1751468092.lie5d.cyou
   servername: n1751468092.lie5d.cyou
-- name: 🇯🇵DP vless-JP-12853507
-  dialer-proxy: LBCF
-  type: vless
-  server: 168.138.198.7
-  port: 27560
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
 - name: 🇯🇵DP vmess-JP-12721424
   dialer-proxy: LBCF
   type: vmess
@@ -521,14 +503,6 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP trojan-JP-12262501
-  dialer-proxy: LBCF
-  type: trojan
-  server: 52.194.205.115
-  port: 2762
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-12213001
   dialer-proxy: LBCF
   type: vless
@@ -623,11 +597,39 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
   server: 158.101.152.6
   port: 2919
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵DP vless-JP-2744172
+  dialer-proxy: LBCF
+  type: vless
+  server: 217.142.230.253
+  port: 587
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵DP vless-JP-1402621
+  dialer-proxy: LBCF
+  type: vless
+  server: 153.121.45.101
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
