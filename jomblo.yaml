@@ -9,21 +9,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-6732219
   type: vless
   server: bug.xcp
@@ -40,26 +25,26 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
+  uuid: 48129906-0fdc-482e-8c79-c78bfc6480b7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo:443
+    path: /eyJqdW5rIjoiNTRZOXhhMTJCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
     headers:
-      Host: zrf-623.pages.dev
+      Host: 041.electrocellco-cf-041.workers.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: sni.111000.indevs.in
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -75,39 +60,39 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?Telegram🇨🇳 @WangCai2=
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
+  port: 8080
+  uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo:443
+    path: /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
     headers:
-      Host: zrf-623.pages.dev
+      Host: 031.electrocellco-cf-031.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -117,45 +102,33 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳 @wangcai2
+    path: /?Telegram🇨🇳 @WangCai2=
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
+  port: 2086
+  uuid: a0af2643-a236-463c-8056-3f71d05eed53
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /proxyip=sjc.o00o.ooo:443
+    path: /
     headers:
-      Host: zrf-623.pages.dev
+      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: 9fb4f918-d297-4750-96fa-217ae44b3102
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 52yunwang.dpdns.org
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?Telegram🇨🇳 @WangCai2=
     headers:
-      Host: 80bab3a2.gon-7ye.pages.dev
+      Host: sni.111000.v6.navy
 - name: 🇲🇾 vless-MY-12451058
   type: vless
   server: bug.xcp
