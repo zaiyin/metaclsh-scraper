@@ -40,26 +40,26 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 5f1fc730-c184-415c-932b-37c8812c8736
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: yor.pages.dev
+      Host: c5c00e13.zrf-623.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: cee4ee46-7856-4d3e-a579-f08269b26f77
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: jop-6z6.pages.dev
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -75,75 +75,75 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: sni.jpmj.dev
+      Host: zrf-623.pages.dev
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: fancy-haze-01e3.ipv4-917.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: stipulations.gelatin.workers.dev
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: restless-dew-894b.amirhost4.workers.dev
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 2dd47d3e-62aa-479c-a5c2-34b4826f3773
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 52yunwang.dpdns.org
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
   port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
   network: ws
   tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
+      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -159,24 +159,24 @@ proxies:
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  port: 443
+  uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: zh.hollowspot.ir
+      Host: stipulations.gelatin.workers.dev
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 47702dbb-6607-4d76-80e9-cd75327be3e7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=sjc.o00o.ooo:443
     headers:
-      Host: sni.111000.indevs.in
+      Host: zrf-623.pages.dev
