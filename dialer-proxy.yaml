@@ -32,7 +32,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-13207450
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: ubu.okaoclax.me
@@ -123,7 +123,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: 188.114.98.0
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -131,7 +131,7 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-9271
@@ -179,17 +179,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 27.50.48.114
-  port: 2083
-  uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+  server: 188.244.122.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: 6f221d78.mfree.ccwu.cc
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+    path: /
     headers:
-      Host: 6f221d78.mfree.ccwu.cc
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -221,31 +221,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
+  server: 192.200.160.238
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.187
-  port: 8443
-  uuid: 2dd47d3e-62aa-479c-a5c2-34b4826f3773
+  server: poe.com
+  port: 443
+  uuid: 5f1fc730-c184-415c-932b-37c8812c8736
   udp: true
   network: ws
   tls: true
-  sni: 52yunwang.dpdns.org
+  sni: yor.pages.dev
   ws-opts:
     path: /
     headers:
-      Host: 52yunwang.dpdns.org
+      Host: yor.pages.dev
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -259,20 +259,6 @@ proxies:
     path: /
     headers:
       Host: amirvpn.amirhm00100.workers.dev
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.244.122.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
