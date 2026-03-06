@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-13288067
+  dialer-proxy: LBCF
+  type: trojan
+  server: 95.40.10.51
+  port: 1717
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-13282499
   dialer-proxy: LBCF
   type: vmess
@@ -153,17 +161,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: 135.84.72.118
   port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -181,58 +189,58 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 45.130.125.69
-  port: 8443
-  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  server: 135.84.72.118
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: zh.hollowspot.ir
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
-      Host: zh.hollowspot.ir
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
+  server: 104.18.173.174
+  port: 80
+  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: c.iamdt.dpdns.org
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.19.173.68
+  port: 443
+  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
+  udp: true
+  network: ws
+  tls: true
+  sni: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+  ws-opts:
+    path: /
+    headers:
+      Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 194.59.5.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.138.160
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: www.shopify.com
-  port: 2087
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
-  udp: true
-  network: ws
-  tls: true
-  sni: 8fbxjhscv17.fx02.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: 8fbxjhscv17.fx02.ccwu.cc
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
@@ -247,19 +255,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: vpnpro.eshghiabolfazl2009.workers.dev
-  port: 80
-  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: 🔒
-    headers:
-      Host: vpnpro.eshghiabolfazl2009.workers.dev
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -305,9 +300,17 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP trojan-JP-13288061
+  dialer-proxy: LBCF
+  type: trojan
+  server: 13.192.170.234
+  port: 3022
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-13274555
   dialer-proxy: LBCF
   type: trojan
@@ -546,8 +549,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
-  server: 155.248.181.189
-  port: 443
+  server: 158.101.152.6
+  port: 2919
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
