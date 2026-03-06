@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬DP vless-SG-13295108
+  dialer-proxy: LBCF
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /@Tech_Sonic
+    headers:
+      Host: free-server.techsonic.ggff.net
 - name: 🇸🇬DP trojan-SG-13288067
   dialer-proxy: LBCF
   type: trojan
@@ -147,18 +160,74 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: legion.lenovo.com
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 190.93.244.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: m834s7cv.chinam.eu.org
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /
     headers:
-      Host: m834s7cv.chinam.eu.org
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.158.133.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?telegram🇨🇳 @wangcai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  udp: true
+  network: ws
+  tls: true
+  sni: 8fbxjhscv17.fx02.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: 8fbxjhscv17.fx02.ccwu.cc
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.16.110.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 190.93.244.138
@@ -172,80 +241,11 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 135.84.72.118
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 135.84.64.79
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.138.164
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
   server: 162.159.12.151
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.162.231.138
-  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -549,8 +549,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
-  server: 158.101.152.6
-  port: 2919
+  server: 155.248.181.189
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
