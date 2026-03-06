@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-13282499
+  dialer-proxy: LBCF
+  type: vmess
+  server: v5.cdn.fkjw4wq0g5.ewddns.net
+  port: 5503
+  uuid: 3fa3cc38-9ad1-444d-883e-21fbdc4532af
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v5.cdn.fkjw4wq0g5.ewddns.net
+  servername: v5.cdn.fkjw4wq0g5.ewddns.net
 - name: 🇸🇬DP vless-SG-13272524
   dialer-proxy: LBCF
   type: vless
@@ -32,7 +48,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-13207450
   dialer-proxy: LBCF
   type: trojan
   server: ubu.okaoclax.me
@@ -123,17 +139,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: poe.com
+  port: 443
+  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: 80bab3a2.gon-7ye.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: 80bab3a2.gon-7ye.pages.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -165,35 +181,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 45.130.125.69
+  port: 8443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: zh.hollowspot.ir
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: zh.hollowspot.ir
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.244.122.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.153.231
+  server: 188.114.98.0
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -204,24 +206,37 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8023
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.17.138.160
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.indevs.in
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: vip.yaml7.ggff.net
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: www.shopify.com
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  udp: true
+  network: ws
+  tls: true
+  sni: 8fbxjhscv17.fx02.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: 8fbxjhscv17.fx02.ccwu.cc
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 192.200.160.238
+  server: 185.16.110.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -229,36 +244,22 @@ proxies:
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: poe.com
-  port: 443
-  uuid: 5f1fc730-c184-415c-932b-37c8812c8736
-  udp: true
-  network: ws
-  tls: true
-  sni: yor.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: yor.pages.dev
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.30.239
+  server: vpnpro.eshghiabolfazl2009.workers.dev
   port: 80
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: 🔒
     headers:
-      Host: amirvpn.amirhm00100.workers.dev
+      Host: vpnpro.eshghiabolfazl2009.workers.dev
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -304,7 +305,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇯🇵DP trojan-JP-13274555
@@ -413,10 +414,9 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
-      Host: n1753598451.74qxv.top
-  servername: n1753598451.74qxv.top
+      Host: ''
 - name: 🇯🇵DP vmess-JP-12379321
   dialer-proxy: LBCF
   type: vmess
@@ -532,8 +532,8 @@ proxies:
 - name: 🇯🇵DP vless-JP-4385752
   dialer-proxy: LBCF
   type: vless
-  server: 158.101.152.6
-  port: 2919
+  server: 168.138.198.7
+  port: 27560
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
