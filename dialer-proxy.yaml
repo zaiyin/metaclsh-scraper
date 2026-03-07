@@ -160,17 +160,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 8.35.211.59
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: lirpeuijr.chinav.indevs.in
   ws-opts:
-    path: /
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: lirpeuijr.chinav.indevs.in
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -202,45 +202,44 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.18.44.182
+  port: 443
+  uuid: 22620697-6fba-4b71-a348-0cef2f7bec1e
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: do88.cmddo.ggff.net
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: do88.cmddo.ggff.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.16.110.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: chatgpt.com
+  port: 443
+  uuid: d00a29d1-6e6c-4281-9e46-263caa77bb44
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: pEdaRAtVPn.ar-AhmadiYan86.WoRKers.dev
   ws-opts:
-    path: /?ed=2560
+    path: /eyJqdW5rIjoiYk9WYlJsYlFGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsibmltYS5uc2NsLmlyIl19
     headers:
-      Host: sni.jpmj.dev
+      Host: pedaratvpn.ar-ahmadiyan86.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.17.138.164
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.indevs.in
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -292,15 +291,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
     headers:
       Host: ''
 - name: 🇯🇵DP trojan-JP-13288061
@@ -452,16 +451,6 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP vless-JP-12211728
-  dialer-proxy: LBCF
-  type: vless
-  server: 5.253.41.52
-  port: 8443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇯🇵DP vless-JP-11809832
   dialer-proxy: LBCF
   type: vless
