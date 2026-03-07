@@ -2,13 +2,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-13295108
   dialer-proxy: LBCF
   type: vless
-  server: webmail.eclass.lk
-  port: 2096
-  uuid: b8ae3c37-37d6-4d4d-93fc-1ce0bc329ba0
+  server: support.zoom.us
+  port: 80
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
   udp: true
   network: ws
-  tls: true
-  sni: free-server.techsonic.ggff.net
+  tls: false
   ws-opts:
     path: /@Tech_Sonic
     headers:
@@ -169,31 +168,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: nrt.xxxxxxxx.nyc.mn
-  port: 2053
+  server: 173.245.58.249
+  port: 443
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: x5dpudyj1.chinav.indevs.in
+  sni: lirpeuijr.chinav.indevs.in
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /danfeng
     headers:
-      Host: x5dpudyj1.chinav.indevs.in
+      Host: lirpeuijr.chinav.indevs.in
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.36.20
-  port: 443
-  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
   udp: true
   network: ws
   tls: true
-  sni: fancy-haze-01e3.ipv4-917.workers.dev
+  sni: afxmsv51.fx02.ccwu.cc
   ws-opts:
     path: /
     headers:
-      Host: fancy-haze-01e3.ipv4-917.workers.dev
+      Host: afxmsv51.fx02.ccwu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -224,28 +223,28 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: 104.17.153.111
   port: 443
-  uuid: d00a29d1-6e6c-4281-9e46-263caa77bb44
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: pEdaRAtVPn.ar-AhmadiYan86.WoRKers.dev
+  sni: snippet.sh21.eu.org
   ws-opts:
-    path: /eyJqdW5rIjoiYk9WYlJsYlFGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsibmltYS5uc2NsLmlyIl19
+    path: /danfeng
     headers:
-      Host: pedaratvpn.ar-ahmadiyan86.workers.dev
+      Host: snippet.sh21.eu.org
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.150.99
+  server: 104.17.152.254
   port: 80
   uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
       Host: vip.yaml7.ggff.net
 - name: 🇲🇾DP ss-MY-12758358
