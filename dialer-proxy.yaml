@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP ss-SG-13310607
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: a338A9
+  server: 8.210.182.238
+  port: 8888
 - name: 🇸🇬DP vless-SG-13305612
   dialer-proxy: LBCF
   type: vless
@@ -177,17 +185,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 173.245.58.249
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 194.59.5.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: lirpeuijr.chinav.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /danfeng
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
-      Host: lirpeuijr.chinav.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -219,30 +227,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.14.19
-  port: 80
-  uuid: a7e84660-8f5c-43ba-b635-cc394c5be4b9
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: amita-b17wejf6-v2.amita.workers.dev
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.16.110.238
+  server: 188.114.99.243
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -265,15 +260,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
     headers:
       Host: ''
 - name: 🇯🇵DP trojan-JP-13300702
@@ -284,7 +279,7 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
   server: 153.121.65.107
@@ -392,6 +387,14 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
   servername: n1753598445.74qxv.top
+- name: 🇯🇵DP ss-JP-12528411
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: 0690659746980c46
+  server: 167.17.179.197
+  port: 60129
 - name: 🇯🇵DP vless-JP-12523389
   dialer-proxy: LBCF
   type: vless
@@ -437,7 +440,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-12299776
   dialer-proxy: LBCF
   type: vmess
-  server: n1753598452.wpg27.xyz
+  server: 47.245.42.92
   port: 443
   uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
   alterId: 0
