@@ -185,31 +185,30 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 194.59.5.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.16.82.241
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: snippet.sh21.eu.org
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /danfeng
     headers:
-      Host: sni.jpmj.dev
+      Host: snippet.sh21.eu.org
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  server: 104.16.164.44
+  port: 80
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   udp: true
   network: ws
-  tls: true
-  sni: afxmsv51.fx02.ccwu.cc
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: afxmsv51.fx02.ccwu.cc
+      Host: amirvpn.amirhm00100.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -227,17 +226,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.99.243
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 8.39.125.61
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: lirpeuijr.chinav.indevs.in
   ws-opts:
-    path: /?ed=2560
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: lirpeuijr.chinav.indevs.in
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -260,15 +259,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
     headers:
       Host: ''
 - name: 🇯🇵DP trojan-JP-13300702
