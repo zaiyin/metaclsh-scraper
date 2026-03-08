@@ -81,7 +81,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 153.121.45.139
   port: 4674
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -98,8 +98,8 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 209.17.118.131
-  port: 12639
-  uuid: 82e457f4-43ff-4f83-9345-407da3da57f4
+  port: 26403
+  uuid: 2ab6258a-6670-4875-ab65-60999b764f87
   udp: true
   network: tcp
   tls: false
@@ -114,7 +114,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 153.121.65.107
   port: 3419
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -168,17 +168,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 188.244.122.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: www.charteredaccountantsanz.com
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: f5383e07d.chinam.indevs.in
   ws-opts:
-    path: /
+    path: /danfeng?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: f5383e07d.chinam.indevs.in
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -196,35 +196,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.67.239
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.sh21.eu.org
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.sh21.eu.org
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.152.39
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: fqrf5tlc.chinav.eu.org
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: fqrf5tlc.chinav.eu.org
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: chatgpt.com
+  server: 188.244.122.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -232,7 +204,35 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: pages.cloudflare.com
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  network: ws
+  tls: true
+  sni: f5383e07d.chinam.indevs.in
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: f5383e07d.chinam.indevs.in
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
@@ -249,6 +249,20 @@ proxies:
     path: /
     headers:
       Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 160.79.104.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -282,10 +296,20 @@ proxies:
     path: /arki
     headers:
       Host: ''
+- name: 🇯🇵DP vless-JP-13318572
+  dialer-proxy: LBCF
+  type: vless
+  server: 103.213.249.62
+  port: 8443
+  uuid: 84b5a48a-4c69-493c-87cb-09cbdfa7a450
+  udp: true
+  network: tcp
+  tls: false
+  sni: ign.dev
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 153.121.65.107
   port: 34818
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -314,18 +338,10 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-13274555
-  dialer-proxy: LBCF
-  type: trojan
-  server: 52.195.220.53
-  port: 21508
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-13212488
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 160.16.214.104
   port: 2001
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -418,10 +434,9 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
-      Host: n1753598451.74qxv.top
-  servername: n1753598451.74qxv.top
+      Host: ''
 - name: 🇯🇵DP vmess-JP-12379321
   dialer-proxy: LBCF
   type: vmess
