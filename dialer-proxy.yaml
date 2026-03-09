@@ -74,7 +74,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 153.121.65.107
   port: 3419
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -125,48 +125,48 @@ proxies:
     path: /vless
     headers:
       Host: a.monohob.eu.org
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: www.investec.com
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sd1lznov9.chinam.indevs.in
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /danfeng?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: sd1lznov9.chinam.indevs.in
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 34.143.159.175
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: snippet.fgfw.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: snippet.fgfw.indevs.in
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 185.162.231.138
+  server: 141.11.203.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -184,31 +184,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.141.147
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇸🇬DP vless-SG-8105
+      Host: sni.111000.indevs.in
+- name: vless-node
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
+  server: 185.251.81.238
   port: 2096
-  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: loNg-modE-2783.SEpna114.WOrkERs.dEV
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /?ed=2560
     headers:
-      Host: long-mode-2783.sepna114.workers.dev
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -226,17 +226,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.187
-  port: 8443
-  uuid: 2dd47d3e-62aa-479c-a5c2-34b4826f3773
+  server: 192.0.54.165
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: 52yunwang.dpdns.org
+  sni: snippet.gfw.nn.kg
   ws-opts:
-    path: /
+    path: /danfeng
     headers:
-      Host: 52yunwang.dpdns.org
+      Host: snippet.gfw.nn.kg
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
