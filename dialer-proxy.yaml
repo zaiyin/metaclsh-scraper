@@ -29,14 +29,6 @@ proxies:
     path: /@Tech_Sonic
     headers:
       Host: free-server.techsonic.ggff.net
-- name: 🇸🇬DP trojan-SG-13288067
-  dialer-proxy: LBCF
-  type: trojan
-  server: 95.40.10.51
-  port: 1717
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
@@ -57,8 +49,8 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 209.17.118.131
-  port: 12639
-  uuid: 82e457f4-43ff-4f83-9345-407da3da57f4
+  port: 26403
+  uuid: 2ab6258a-6670-4875-ab65-60999b764f87
   udp: true
   network: tcp
   tls: false
@@ -73,7 +65,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 153.121.65.107
   port: 3419
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   udp: true
@@ -127,17 +119,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: www.caritas.org.hk
+  server: 192.0.63.112
   port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: f5383e07d.chinam.indevs.in
+  sni: snippet.gfw.nn.kg
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /danfeng
     headers:
-      Host: f5383e07d.chinam.indevs.in
+      Host: snippet.gfw.nn.kg
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -253,17 +245,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
-  port: 2096
+  server: 162.159.12.151
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed
+    path: /
     headers:
       Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 154.92.9.46
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.fgfw.ye.gs
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.ye.gs
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -339,14 +345,6 @@ proxies:
   type: trojan
   server: 57.180.10.241
   port: 4945
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-13288061
-  dialer-proxy: LBCF
-  type: trojan
-  server: 13.192.170.234
-  port: 3022
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
@@ -434,6 +432,16 @@ proxies:
   password: 0690659746980c46
   server: 167.17.179.197
   port: 60129
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -524,7 +532,7 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 103.106.228.247
   port: 990
-- name: 🇯🇵DP vmess-JP-11339200
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: t1.620720.xyz
