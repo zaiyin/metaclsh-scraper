@@ -17,27 +17,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -59,21 +59,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: afxmsv51.fx02.ccwu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -95,7 +95,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /?ed=2560
     headers:
       Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7966
@@ -110,18 +110,6 @@ proxies:
     path: /
     headers:
       Host: 52yunwang.dpdns.org
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -134,3 +122,51 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
+- name: 🇲🇾 vless-MY-8018762
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.gfw.nn.kg
+- name: 🇲🇾 vless-MY-8016935
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.gfw.nn.kg
+- name: 🇲🇾 vless-MY-8009497
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.gfw.nn.kg
+- name: 🇲🇾 vless-MY-6574438
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.gfw.nn.kg
