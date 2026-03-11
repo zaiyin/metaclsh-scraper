@@ -134,17 +134,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
+  server: 181.214.1.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -162,17 +162,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 176.124.223.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -190,8 +190,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
-  port: 2096
+  server: 162.159.12.151
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -218,45 +218,45 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.247
-  port: 443
-  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
-  udp: true
-  network: ws
-  tls: true
-  sni: 80bab3a2.gon-7ye.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: 80bab3a2.gon-7ye.pages.dev
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.7.193
+  server: 135.84.64.226
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sant.atira-40.workers.dev
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /sni.111000.dynv6.net/
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
-      Host: sant.atira-40.workers.dev
-- name: 🇸🇬DP vless-SG-7724
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 176.124.223.138
+  server: 181.214.1.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
+  udp: true
+  network: ws
+  tls: true
+  sni: loNg-modE-2783.SEpna114.WOrkERs.dEV
+  ws-opts:
+    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: long-mode-2783.sepna114.workers.dev
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -377,16 +377,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP vless-JP-13318572
-  dialer-proxy: LBCF
-  type: vless
-  server: 103.213.249.62
-  port: 8443
-  uuid: 84b5a48a-4c69-493c-87cb-09cbdfa7a450
-  udp: true
-  network: tcp
-  tls: false
-  sni: ign.dev
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
@@ -398,7 +388,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.214.104
+  server: 160.16.106.99
   port: 4937
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -653,3 +643,17 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.fgfw.indevs.in
+- name: 🇯🇵DP vless-JP-1468065
+  dialer-proxy: LBCF
+  type: vless
+  server: 154.19.187.81
+  port: 2052
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.sheilabelinda.ndjp.net
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
