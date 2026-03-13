@@ -17,15 +17,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /axcp1cm75o7digvt
+    path: /danfeng
     headers:
-      Host: index.harmony702.workers.dev
+      Host: snippet.fgfw.ccwu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -41,6 +41,18 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -49,8 +61,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8862
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 2096
@@ -61,8 +73,20 @@ proxies:
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-8430
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: long-mode-2783.sepna114.workers.dev
+- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 2096
@@ -71,33 +95,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 8e7269cd-e5c0-48fa-970e-bc0e63c35d19
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fornewiranvpn6.fornewiranvpn6.workers.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -119,21 +119,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram🇨🇳 @wangcai2=
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: hfnb8xmvw3h14.fx02.ccwu.cc
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
