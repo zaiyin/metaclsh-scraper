@@ -70,14 +70,31 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP trojan-SG-13120050
+- name: 🇸🇬DP vless-SG-12867147
   dialer-proxy: LBCF
-  type: trojan
-  server: 153.121.65.107
-  port: 3419
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  type: vless
+  server: 47.82.1.12
+  port: 59100
+  uuid: ca0e8520-42cd-49db-cfec-1295834b9e21
   udp: true
-  sni: www.nintendogames.net
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vmess-SG-12479017
+  dialer-proxy: LBCF
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12901
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: baidu.com
+  servername: baidu.com
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
@@ -113,7 +130,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 185.16.110.238
+  server: 162.159.153.247
+  port: 443
+  uuid: 081efe27-f6b8-4f60-aedb-3c9effe9c67d
+  udp: true
+  network: ws
+  tls: true
+  sni: 80bab3a2.gon-7ye.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: 80bab3a2.gon-7ye.pages.dev
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 194.59.5.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -121,36 +152,23 @@ proxies:
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-9271
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
+  server: 188.114.99.243
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.7.36
-  port: 2086
-  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -168,21 +186,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 181.214.1.238
+  server: 188.114.99.243
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.152.254
+  server: 104.20.63.52
   port: 80
   uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
@@ -217,37 +235,23 @@ proxies:
   tls: true
   sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 198.41.223.164
+  server: 162.159.141.147
   port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   network: ws
   tls: true
-  sni: snippet.fgfw.cc.cd
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
-    path: /danfeng
+    path: /
     headers:
-      Host: snippet.fgfw.cc.cd
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 192.200.160.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
-    headers:
-      Host: sni.jpmj.dev
+      Host: rayan-007.foton.dpdns.org
 - name: 🇲🇾DP ss-MY-12758358
   dialer-proxy: LBCF
   type: ss
@@ -379,7 +383,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.106.99
+  server: 160.16.214.104
   port: 4937
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -607,17 +611,17 @@ proxies:
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
-  server: 103.75.118.144
-  port: 2053
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 43.165.180.71
+  port: 8443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   udp: true
   network: ws
   tls: true
-  sni: snippet.fgfw.ye.gs
+  sni: ylnhh.cc.cd
   ws-opts:
-    path: /danfeng
+    path: /Telegram🇨🇳@WangCai2
     headers:
-      Host: snippet.fgfw.ye.gs
+      Host: ylnhh.cc.cd
 - name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
@@ -635,14 +639,14 @@ proxies:
 - name: 🇯🇵DP vless-JP-1468065
   dialer-proxy: LBCF
   type: vless
-  server: 154.19.187.81
-  port: 2052
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 151.242.74.249
+  port: 443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   udp: true
   network: ws
   tls: true
-  sni: snippet.sheilabelinda.ndjp.net
+  sni: ylnhh.cc.cd
   ws-opts:
-    path: /danfeng
+    path: /Telegram🇨🇳@WangCai2
     headers:
-      Host: snippet.sheilabelinda.ndjp.net
+      Host: ylnhh.cc.cd
