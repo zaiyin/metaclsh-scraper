@@ -1,16 +1,19 @@
 proxies:
-- name: 🇸🇬 vless-SG-9406
-  type: vless
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
   server: bug.xcp
   port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  network: ws
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
   tls: true
+  network: ws
   udp: true
   ws-opts:
-    path: /danfeng
+    path: /
     headers:
-      Host: snippet.danfeng.theworkpc.com
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -48,27 +51,27 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: labeller.neonime83.workers.dev
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -78,10 +81,22 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?telegram🇨🇳 @wangcai2=
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 0b93fd13-de5c-4ca5-8530-435bfa2a0955
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 2096
@@ -90,21 +105,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.foton.dpdns.org
 - name: 🇲🇾 vless-MY-8018762
   type: vless
   server: bug.xcp
@@ -117,31 +120,7 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.gfw.nn.kg
-- name: 🇲🇾 vless-MY-8016935
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.gfw.nn.kg
 - name: 🇲🇾 vless-MY-8009497
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.gfw.nn.kg
-- name: 🇲🇾 vless-MY-6574438
   type: vless
   server: bug.xcp
   port: 2053
