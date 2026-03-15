@@ -27,19 +27,19 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 0b93fd13-de5c-4ca5-8530-435bfa2a0955
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    path: /danfeng?ed=2560
     headers:
-      Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
+      Host: snippet.danfeng.theworkpc.com
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -51,39 +51,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: restless-dew-894b.amirhost4.workers.dev
+      Host: sni.111000.indevs.in
 - name: 🇲🇾 vless-MY-8009497
   type: vless
   server: bug.xcp
