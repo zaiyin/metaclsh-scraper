@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬 trojan-SG-13207450
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ubu.okaoclax.me
 - name: 🇸🇬 vmess-SG-11391645
   type: vmess
   server: bug.xcp
@@ -29,27 +39,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: snippet.danfeng.ccwu.cc
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  port: 2083
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /danfeng
     headers:
-      Host: 8fbxjhscv17.fx02.ccwu.cc
+      Host: snippet.danfeng.ccwu.cc
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
