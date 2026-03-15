@@ -1,4 +1,29 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-13404893
+  dialer-proxy: LBCF
+  type: trojan
+  server: free-duckling.rooster465.autos
+  port: 443
+  password: ZY07256934
+  udp: true
+- name: 🇸🇬DP trojan-SG-13404846
+  dialer-proxy: LBCF
+  type: trojan
+  server: delicate-buck.rooster465.autos
+  port: 443
+  password: ZY07256934
+  udp: true
+- name: 🇸🇬DP vmess-SG-13403168
+  dialer-proxy: LBCF
+  type: vmess
+  server: cn02.365cloud5878.com
+  port: 6004
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇸🇬DP vless-SG-13400299
   dialer-proxy: LBCF
   type: vless
@@ -125,22 +150,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.73.100
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 025.electrocellco-cf-025.workers.dev
+  port: 2053
+  uuid: 0b93fd13-de5c-4ca5-8530-435bfa2a0955
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
     headers:
-      Host: sni.111000.dynv6.net
+      Host: 025.ELEcTROcELLco-Cf-025.wORkeRS.DeV
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
+  server: 190.93.244.138
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -167,47 +192,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.20.63.52
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.156.229
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.99.243
+  server: 188.114.98.0
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -218,20 +203,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.137.154
+  server: 188.114.96.0
   port: 443
-  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
   udp: true
   network: ws
   tls: true
-  sni: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
+  sni: restless-dew-894b.amirhost4.workers.dev
   ws-opts:
-    path: /ws
+    path: /
     headers:
-      Host: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
+      Host: restless-dew-894b.amirhost4.workers.dev
 - name: 🇲🇾DP trojan-MY-13386007
   dialer-proxy: LBCF
   type: trojan
@@ -266,8 +251,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -277,20 +262,6 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: 🇲🇾DP vless-MY-8018762
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.89.107.78
-  port: 2053
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.gfw.nn.kg
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.gfw.nn.kg
 - name: 🇲🇾DP vless-MY-8009497
   dialer-proxy: LBCF
   type: vless
@@ -305,6 +276,18 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.gfw.nn.kg
+- name: 🇯🇵DP vmess-JP-13404773
+  dialer-proxy: LBCF
+  type: vmess
+  server: cn02.365cloud5878.com
+  port: 6003
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: cn02.365cloud5878.com
 - name: 🇯🇵DP vless-JP-13398915
   dialer-proxy: LBCF
   type: vless
@@ -349,17 +332,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nintendo.com
-- name: 🇯🇵DP vmess-JP-13322581
-  dialer-proxy: LBCF
-  type: vmess
-  server: 31.58.223.134
-  port: 8443
-  uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
