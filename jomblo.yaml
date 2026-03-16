@@ -9,28 +9,33 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬 trojan-SG-9271
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: )5,9FW.Kk166
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiU2oxczB0b0tSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-    headers:
-      Host: 028.electrocellco-cf-028.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -42,16 +47,16 @@ proxies:
   ws-opts:
     path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  port: 8443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /Telegram🇨🇳@WangCai2
     headers:
-      Host: rayan-007.foton.dpdns.org
+      Host: ylnhh.cc.cd
