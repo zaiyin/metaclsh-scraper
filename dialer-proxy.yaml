@@ -65,7 +65,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.85.33
   port: 4674
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -103,22 +103,6 @@ proxies:
   password: 42d2b47181a32de7
   server: 154.26.132.38
   port: 16922
-- name: 🇸🇬DP vmess-SG-12479017
-  dialer-proxy: LBCF
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12901
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: baidu.com
-  servername: baidu.com
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
@@ -154,31 +138,25 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: cfxr.eu.org
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 154.197.75.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: uwjl3c7q.fgfw.indevs.in
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
-      Host: uwjl3c7q.fgfw.indevs.in
-- name: 🇸🇬DP vless-SG-9271
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  type: trojan
+  server: irancell.buzzmuzzpanel.online
   port: 443
-  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+  password: )5,9FW.Kk166
   udp: true
-  network: ws
-  tls: true
-  sni: muddy-math-c1fc.tmpnriqueau89.workers.dev
-  ws-opts:
-    path: /js/cHlpcC55Z2tray5kcGRucy5vcmc=/
-    headers:
-      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  sni: 028.eLECtRocEllco-Cf-028.worKErS.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -196,31 +174,58 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.73.100
+  server: 192.0.54.164
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: danfeng.sylu.cc
   ws-opts:
-    path: /
+    path: /danfeng
     headers:
-      Host: sni.111000.dynv6.net
+      Host: danfeng.sylu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.36.20
+  server: 185.158.133.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.66.47.45
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vip.yaml7.ggff.net
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 190.93.244.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇲🇾DP vmess-MY-13423496
   dialer-proxy: LBCF
   type: vmess
@@ -259,8 +264,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -270,6 +275,17 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP vmess-JP-13427933
+  dialer-proxy: LBCF
+  type: vmess
+  server: 5.34.216.149
+  port: 6003
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇯🇵DP vmess-JP-13424853
   dialer-proxy: LBCF
   type: vmess
@@ -352,7 +368,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 153.121.45.139
   port: 34818
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -360,7 +376,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.132.38
   port: 4937
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -389,7 +405,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-13212488
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 57.180.28.65
@@ -465,6 +481,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -523,27 +549,3 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
-- name: 🇯🇵DP vless-JP-11809832
-  dialer-proxy: LBCF
-  type: vless
-  server: 38.60.212.251
-  port: 29059
-  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
-  udp: true
-  network: tcp
-  tls: false
-  sni: mensura.cdn-apple.com
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.43.130
-  port: 443
-  uuid: 064059ce-23b9-45d3-953d-57d4c5092874
-  udp: true
-  network: ws
-  tls: true
-  sni: 026.elEctrOCELLCo-cF-026.wORKERs.deV
-  ws-opts:
-    path: /eyJqdW5rIjoieUVOZzhGTTh2OWdLcVYzRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: 026.electrocellco-cf-026.workers.dev
