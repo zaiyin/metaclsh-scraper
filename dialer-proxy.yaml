@@ -66,9 +66,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.72.33
   port: 4674
-  password: f389ed926e512e15f382dc3804029474
+  password: 86e150eb21c6faee48e81d496d7f61c2
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-13207450
@@ -96,14 +96,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP ss-SG-12500160
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 42d2b47181a32de7
-  server: 154.26.132.38
-  port: 16922
 - name: 🇸🇬DP ss-SG-12479009
   dialer-proxy: LBCF
   type: ss
@@ -150,83 +142,117 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP trojan-SG-9271
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
-  type: trojan
-  server: irancell.buzzmuzzpanel.online
+  type: vless
+  server: chatgpt.com
   port: 443
-  password: )5,9FW.Kk166
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   udp: true
-  sni: 028.eLECtRocEllco-Cf-028.worKErS.dev
+  network: ws
+  tls: true
+  sni: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  ws-opts:
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 168.138.165.174
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.fgfw.ccwu.cc
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.ccwu.cc
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
-  udp: true
-  network: ws
-  tls: true
-  sni: 8fbxjhscv17.fx02.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: 8fbxjhscv17.fx02.ccwu.cc
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: quick-edit.devprod.cloudflare.dev
+  server: pages.cloudflare.com
   port: 2053
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: snippet.fgfw.eu.org
+  sni: uwjl3c7q.fgfw.indevs.in
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: uwjl3c7q.fgfw.indevs.in
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 173.245.59.220
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.danfeng.eu.org
   ws-opts:
     path: /danfeng
     headers:
-      Host: snippet.fgfw.eu.org
+      Host: snippet.danfeng.eu.org
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: broad-sky-9360.k7uztejf9ief.workers.dev
+  port: 443
+  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
+  udp: true
+  network: ws
+  tls: true
+  sni: broad-sky-9360.k7uztejf9ief.workers.dev
+  ws-opts:
+    path: /xixv2ray
+    headers:
+      Host: broad-sky-9360.k7uztejf9ief.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.150.99
+  server: 173.245.59.220
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.danfeng.eu.org
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.eu.org
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: pages.cloudflare.com
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  network: ws
+  tls: true
+  sni: uwjl3c7q.fgfw.indevs.in
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: uwjl3c7q.fgfw.indevs.in
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: vpnpro.eshghiabolfazl2009.workers.dev
   port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: 🔒
     headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8023
+      Host: vpnpro.eshghiabolfazl2009.workers.dev
+- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.16.108.114
+  port: 2083
+  uuid: f3f47d83-2966-4743-aaa6-aad34189f7e1
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: 52yunwang.dpdns.org
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: 52yunwang.dpdns.org
 - name: 🇲🇾DP vmess-MY-13423496
   dialer-proxy: LBCF
   type: vmess
@@ -348,16 +374,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nintendo.com
-- name: 🇯🇵DP vless-JP-13393600
-  dialer-proxy: LBCF
-  type: vless
-  server: high-speed-test-01.linkpc.net
-  port: 61234
-  uuid: ef092640-433a-4f17-99bd-d5d206435606
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.nintendo.com
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
@@ -369,9 +385,9 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.70.180
   port: 4937
-  password: f389ed926e512e15f382dc3804029474
+  password: 86e150eb21c6faee48e81d496d7f61c2
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-13300697
@@ -379,14 +395,6 @@ proxies:
   type: trojan
   server: 13.115.145.176
   port: 4945
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-13288061
-  dialer-proxy: LBCF
-  type: trojan
-  server: 52.196.224.76
-  port: 3022
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
@@ -401,9 +409,9 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13212488
   dialer-proxy: LBCF
   type: trojan
-  server: 57.180.28.65
+  server: 160.16.72.33
   port: 2001
-  password: f389ed926e512e15f382dc3804029474
+  password: 86e150eb21c6faee48e81d496d7f61c2
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-13198652
@@ -519,7 +527,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-12299776
   dialer-proxy: LBCF
   type: vmess
-  server: 47.245.42.92
+  server: n1753598452.wpg27.xyz
   port: 443
   uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
   alterId: 0
@@ -556,3 +564,27 @@ proxies:
     path: /kbjc/jp1
     headers:
       Host: jp1-jp1.aiopen.sbs
+- name: 🇯🇵DP vless-JP-11809832
+  dialer-proxy: LBCF
+  type: vless
+  server: 38.60.212.251
+  port: 29059
+  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
+  udp: true
+  network: tcp
+  tls: false
+  sni: mensura.cdn-apple.com
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.43.130
+  port: 443
+  uuid: 064059ce-23b9-45d3-953d-57d4c5092874
+  udp: true
+  network: ws
+  tls: true
+  sni: 026.elEctrOCELLCo-cF-026.wORKERs.deV
+  ws-opts:
+    path: /eyJqdW5rIjoieUVOZzhGTTh2OWdLcVYzRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: 026.electrocellco-cf-026.workers.dev

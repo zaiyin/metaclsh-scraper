@@ -1,14 +1,19 @@
 proxies:
-- name: 🇸🇬 trojan-SG-13207450
-  type: trojan
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
   server: bug.xcp
   port: 443
-  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
   udp: true
   ws-opts:
-    path: /trojan-ws
+    path: /
     headers:
-      Host: ubu.okaoclax.me
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -21,17 +26,19 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 trojan-SG-9271
-  type: trojan
+- name: 🇸🇬 vless-SG-9271
+  type: vless
   server: bug.xcp
   port: 443
-  password: )5,9FW.Kk166
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiU2oxczB0b0tSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: 028.electrocellco-cf-028.workers.dev
-- name: 🇸🇬 vless-SG-9203
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 443
@@ -42,40 +49,52 @@ proxies:
   ws-opts:
     path: /danfeng
     headers:
-      Host: snippet.fgfw.ccwu.cc
-- name: 🇸🇬 vless-SG-8862
+      Host: snippet.danfeng.eu.org
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  port: 443
+  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /xixv2ray
     headers:
-      Host: 8fbxjhscv17.fx02.ccwu.cc
+      Host: broad-sky-9360.k7uztejf9ief.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.eu.org
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
   port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /
+    path: 🔒
     headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬 vless-SG-8023
+      Host: vpnpro.eshghiabolfazl2009.workers.dev
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 2083
+  uuid: f3f47d83-2966-4743-aaa6-aad34189f7e1
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: 52yunwang.dpdns.org
