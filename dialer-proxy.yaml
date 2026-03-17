@@ -10,7 +10,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: cn02.365cloud5878.com
 - name: 🇸🇬DP trojan-SG-13407082
   dialer-proxy: LBCF
   type: trojan
@@ -131,7 +130,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.231
+  server: 43.160.248.66
+  port: 8443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  network: ws
+  tls: true
+  sni: ylnhh.cc.cd
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2
+    headers:
+      Host: ylnhh.cc.cd
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.7.2
+  port: 443
+  uuid: 055e3bd2-10f8-4d9c-8f7d-70b9f659e476
+  udp: true
+  network: ws
+  tls: true
+  sni: m1.mwu.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: m1.mwu.de5.net
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.158.133.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -139,120 +166,93 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  udp: true
-  network: ws
-  tls: true
-  sni: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: pages.cloudflare.com
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  udp: true
-  network: ws
-  tls: true
-  sni: uwjl3c7q.fgfw.indevs.in
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: uwjl3c7q.fgfw.indevs.in
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 173.245.59.220
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.danfeng.eu.org
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.eu.org
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: broad-sky-9360.k7uztejf9ief.workers.dev
-  port: 443
-  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
-  udp: true
-  network: ws
-  tls: true
-  sni: broad-sky-9360.k7uztejf9ief.workers.dev
-  ws-opts:
-    path: /xixv2ray
-    headers:
-      Host: broad-sky-9360.k7uztejf9ief.workers.dev
-- name: 🇸🇬DP vless-SG-8105
-  dialer-proxy: LBCF
-  type: vless
-  server: 173.245.59.220
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.danfeng.eu.org
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.eu.org
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: pages.cloudflare.com
+  server: www.garuda-indonesia.com
   port: 2053
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: uwjl3c7q.fgfw.indevs.in
+  sni: snippet.fgfw.eu.org
   ws-opts:
     path: /danfeng?ed=2560
     headers:
-      Host: uwjl3c7q.fgfw.indevs.in
-- name: 🇸🇬DP vless-SG-7971
+      Host: snippet.fgfw.eu.org
+- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: vpnpro.eshghiabolfazl2009.workers.dev
-  port: 80
-  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: 🔒
-    headers:
-      Host: vpnpro.eshghiabolfazl2009.workers.dev
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.108.114
-  port: 2083
-  uuid: f3f47d83-2966-4743-aaa6-aad34189f7e1
+  server: 156.225.72.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: 52yunwang.dpdns.org
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: www.shopify.com
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+  udp: true
+  network: ws
+  tls: true
+  sni: 8fbxjhscv17.fx02.ccwu.cc
   ws-opts:
     path: /
     headers:
-      Host: 52yunwang.dpdns.org
+      Host: 8fbxjhscv17.fx02.ccwu.cc
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.77.249.102
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.danfeng.ee.cd
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.danfeng.ee.cd
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.16.94
+  port: 8443
+  uuid: 055e3bd2-10f8-4d9c-8f7d-70b9f659e476
+  udp: true
+  network: ws
+  tls: true
+  sni: m1.mwu.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: m1.mwu.de5.net
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.36.192
+  port: 2087
+  uuid: 055e3bd2-10f8-4d9c-8f7d-70b9f659e476
+  udp: true
+  network: ws
+  tls: true
+  sni: m1.mwu.de5.net
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo
+    headers:
+      Host: m1.mwu.de5.net
 - name: 🇲🇾DP vmess-MY-13423496
   dialer-proxy: LBCF
   type: vmess
@@ -540,16 +540,6 @@ proxies:
     headers:
       Host: n1753598452.wpg27.xyz
   servername: n1753598452.wpg27.xyz
-- name: 🇯🇵DP vless-JP-12213001
-  dialer-proxy: LBCF
-  type: vless
-  server: 116.80.44.144
-  port: 27724
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.yahoo.co.jp
 - name: 🇯🇵DP vless-JP-12161285
   dialer-proxy: LBCF
   type: vless
@@ -574,17 +564,25 @@ proxies:
   network: tcp
   tls: false
   sni: mensura.cdn-apple.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-11355242
   dialer-proxy: LBCF
   type: vless
-  server: 104.21.43.130
+  server: 198.13.62.34
   port: 443
-  uuid: 064059ce-23b9-45d3-953d-57d4c5092874
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: 026.elEctrOCELLCo-cF-026.wORKERs.deV
+  sni: snippet.danfeng.ccwu.cc
   ws-opts:
-    path: /eyJqdW5rIjoieUVOZzhGTTh2OWdLcVYzRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /danfeng
     headers:
-      Host: 026.electrocellco-cf-026.workers.dev
+      Host: snippet.danfeng.ccwu.cc
+- name: 🇯🇵DP ss-JP-11352710
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 103.106.228.247
+  port: 990
