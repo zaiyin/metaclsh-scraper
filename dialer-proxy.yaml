@@ -10,6 +10,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: cn02.365cloud5878.com
 - name: 🇸🇬DP trojan-SG-13407082
   dialer-proxy: LBCF
   type: trojan
@@ -65,7 +66,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 153.121.45.139
   port: 4674
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -138,7 +139,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 154.197.75.138
+  server: 162.159.153.231
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -146,7 +147,7 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP trojan-SG-9271
@@ -174,35 +175,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.164
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-6663-4ef2-b26b-ed2d70642678
   udp: true
   network: ws
   tls: true
-  sni: danfeng.sylu.cc
+  sni: 8fbxjhscv17.fx02.ccwu.cc
   ws-opts:
-    path: /danfeng
+    path: /
     headers:
-      Host: danfeng.sylu.cc
+      Host: 8fbxjhscv17.fx02.ccwu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: quick-edit.devprod.cloudflare.dev
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: snippet.fgfw.eu.org
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: snippet.fgfw.eu.org
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.47.45
+  server: 104.17.150.99
   port: 80
   uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
@@ -215,8 +216,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
-  port: 2096
+  server: 162.159.12.151
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -238,14 +239,6 @@ proxies:
   udp: true
   network: tcp
   servername: cn02.365cloud5878.com
-- name: 🇲🇾DP ss-MY-12758358
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 3bb08205cb6c8af0
-  server: 38.54.97.247
-  port: 28026
 - name: 🇲🇾DP vless-MY-12451058
   dialer-proxy: LBCF
   type: vless
@@ -368,7 +361,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300702
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.45.139
+  server: 160.16.124.17
   port: 34818
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -376,7 +369,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.85.33
   port: 4937
   password: f389ed926e512e15f382dc3804029474
   udp: true
@@ -405,7 +398,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-13212488
   dialer-proxy: LBCF
   type: trojan
   server: 57.180.28.65
@@ -549,3 +542,17 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.co.jp
+- name: 🇯🇵DP vless-JP-12161285
+  dialer-proxy: LBCF
+  type: vless
+  server: 69.84.182.13
+  port: 443
+  uuid: 6d31e562-2107-4531-bec5-5ed5b4af118c
+  udp: true
+  network: ws
+  tls: true
+  sni: jp1-jp1.aiopen.sbs
+  ws-opts:
+    path: /kbjc/jp1
+    headers:
+      Host: jp1-jp1.aiopen.sbs
