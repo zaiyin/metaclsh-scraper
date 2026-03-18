@@ -24,14 +24,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-13407082
-  dialer-proxy: LBCF
-  type: trojan
-  server: 54.238.89.170
-  port: 25343
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-13404893
   dialer-proxy: LBCF
   type: trojan
@@ -85,9 +77,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13120050
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.106.99
   port: 3419
-  password: f389ed926e512e15f382dc3804029474
+  password: 86e150eb21c6faee48e81d496d7f61c2
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vless-SG-12867147
@@ -123,27 +115,34 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP trojan-SG-9406
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
-  type: trojan
-  server: 109.234.211.66
-  port: 2087
-  password: trojan
+  type: vless
+  server: 192.0.63.124
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
-  sni: store.timimi.dpdns.org
+  network: ws
+  tls: true
+  sni: snippet.chinat.eu.cc
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinat.eu.cc
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.15.19
-  port: 80
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+  server: www.sofi.com
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: pnat6unnnp.gfw.hidns.co
   ws-opts:
-    path: /
+    path: /danfeng?ed=2560
     headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
+      Host: pnat6unnnp.gfw.hidns.co
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -161,18 +160,95 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.238
-  port: 2096
+  server: 162.159.141.147
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.foton.dpdns.org
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: broad-sky-9360.k7uztejf9ief.workers.dev
+  port: 443
+  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
+  udp: true
+  network: ws
+  tls: true
+  sni: broad-sky-9360.k7uztejf9ief.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: broad-sky-9360.k7uztejf9ief.workers.dev
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: labeller.neonime83.workers.dev
+  port: 443
+  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
+  udp: true
+  network: ws
+  tls: true
+  sni: labeller.neonime83.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: labeller.neonime83.workers.dev
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.160.248.66
+  port: 8443
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  network: ws
+  tls: true
+  sni: ylnhh.cc.cd
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2
+    headers:
+      Host: ylnhh.cc.cd
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.131.4.192
+  port: 80
+  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: silent-paper-fa57.fipiyag989.workers.dev
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.67.224.0
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: holy-dawn-e9ec.jonas05-ba6.workers.dev
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /sni.111000.dynv6.net/
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-8430
+      Host: holy-dawn-e9ec.jonas05-ba6.workers.dev
+- name: 🇸🇬DP trojan-SG-7801
+  dialer-proxy: LBCF
+  type: trojan
+  server: irancell.buzzmuzzpanel.online
+  port: 443
+  password: )5,9FW.Kk166
+  udp: true
+  sni: 028.eLECtRocEllco-Cf-028.worKErS.dev
+- name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
   server: 199.241.138.38
@@ -186,83 +262,20 @@ proxies:
     path: /Telegram🇨🇳+@WangCai2
     headers:
       Host: ylnhh.cc.cd
-- name: 🇸🇬DP vless-SG-8105
+- name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.138.160
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.155.209
-  port: 443
-  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
-  udp: true
-  network: ws
-  tls: true
-  sni: fancy-haze-01e3.ipv4-917.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: fancy-haze-01e3.ipv4-917.workers.dev
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 212.183.88.238
+  server: 188.114.98.0
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.66.1.143
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  sni: sni.111000.indevs.in
   ws-opts:
     path: /
     headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇸🇬DP trojan-SG-7801
-  dialer-proxy: LBCF
-  type: trojan
-  server: irancell.buzzmuzzpanel.online
-  port: 443
-  password: )5,9FW.Kk166
-  udp: true
-  sni: 028.eLECtRocEllco-Cf-028.worKErS.dev
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.2.150
-  port: 443
-  uuid: a114d067-b900-4f60-87a5-50d4d63972b8
-  udp: true
-  network: ws
-  tls: true
-  sni: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
+      Host: sni.111000.indevs.in
 - name: 🇲🇾DP vmess-MY-13423496
   dialer-proxy: LBCF
   type: vmess
@@ -304,6 +317,14 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP trojan-JP-13450945
+  dialer-proxy: LBCF
+  type: trojan
+  server: 52.198.90.187
+  port: 16919
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vmess-JP-13427933
   dialer-proxy: LBCF
   type: vmess
@@ -405,14 +426,6 @@ proxies:
   type: trojan
   server: 13.115.145.176
   port: 4945
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-13274555
-  dialer-proxy: LBCF
-  type: trojan
-  server: 54.238.7.116
-  port: 21508
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
