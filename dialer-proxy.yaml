@@ -1,4 +1,36 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-13470838
+  dialer-proxy: LBCF
+  type: vmess
+  server: planb.mojcn.com
+  port: 16618
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+  servername: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+- name: 🇸🇬DP vmess-SG-13469471
+  dialer-proxy: LBCF
+  type: vmess
+  server: planb.mojcn.com
+  port: 16618
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+  servername: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
 - name: 🇸🇬DP vless-SG-13461261
   dialer-proxy: LBCF
   type: vless
@@ -122,21 +154,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
+  server: 154.197.75.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -144,9 +162,23 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
       Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.75.235
+  port: 443
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+  udp: true
+  network: ws
+  tls: true
+  sni: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  ws-opts:
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -178,7 +210,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.244.138
+  server: 172.64.155.209
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -186,104 +218,77 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?ed
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 5238a315-4427-4915-a1de-4978e3029a1c
+  server: 104.20.63.52
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
-  tls: true
-  sni: loNg-modE-2783.SEpna114.WOrkERs.dEV
+  tls: false
   ws-opts:
-    path: /eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /
     headers:
-      Host: long-mode-2783.sepna114.workers.dev
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.151
-  port: 443
+  server: 104.17.145.59
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vip.yaml7.ggff.net
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.99.243
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.32.47
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.155.209
-  port: 8443
+  server: 181.214.1.238
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.7.133
-  port: 80
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-  udp: true
-  network: ws
-  tls: false
+  sni: sni.jpmj.dev
   ws-opts:
     path: /
     headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-- name: 🇸🇬DP vless-SG-7724
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.14.88
-  port: 80
-  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
+  server: 192.200.160.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.jpmj.dev
   ws-opts:
-    path: 🔒
+    path: /?ed=2560
     headers:
-      Host: long-forest-ac72.salari1382m.workers.dev
-- name: 🇸🇬DP vless-SG-7531
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.14.88
-  port: 80
-  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: 🔒
-    headers:
-      Host: long-forest-ac72.salari1382m.workers.dev
+      Host: sni.jpmj.dev
 - name: 🇲🇾DP vmess-MY-13423496
   dialer-proxy: LBCF
   type: vmess
@@ -367,6 +372,22 @@ proxies:
     path: /danfeng
     headers:
       Host: snippet.gfw.nn.kg
+- name: 🇯🇵DP vmess-JP-13469437
+  dialer-proxy: LBCF
+  type: vmess
+  server: m.cnmjin.net
+  port: 16617
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+  servername: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
 - name: 🇯🇵DP vmess-JP-13457745
   dialer-proxy: LBCF
   type: vmess
@@ -391,28 +412,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vmess-JP-13427933
-  dialer-proxy: LBCF
-  type: vmess
-  server: 5.34.216.149
-  port: 6003
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-13424853
-  dialer-proxy: LBCF
-  type: vmess
-  server: 5.34.216.149
-  port: 6003
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇯🇵DP vmess-JP-13409083
   dialer-proxy: LBCF
   type: vmess
@@ -507,16 +506,6 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
   servername: n1753598445.74qxv.top
-- name: 🇯🇵DP vless-JP-12510381
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.89.109.25
-  port: 18278
-  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
-  udp: true
-  network: tcp
-  tls: false
-  sni: yahoo.com
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -673,5 +662,33 @@ proxies:
   sni: ylnhh.cc.cd
   ws-opts:
     path: /Telegram🇨🇳 @WangCai2
+    headers:
+      Host: ylnhh.cc.cd
+- name: 🇯🇵DP vless-JP-2744172
+  dialer-proxy: LBCF
+  type: vless
+  server: 168.138.46.67
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.fgfw.ccwu.cc
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.ccwu.cc
+- name: 🇯🇵DP vless-JP-1468065
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.165.191.25
+  port: 20524
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  udp: true
+  network: ws
+  tls: true
+  sni: ylnhh.cc.cd
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2
     headers:
       Host: ylnhh.cc.cd
