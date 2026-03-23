@@ -95,28 +95,28 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: netherlands.vipserver14.workers.dev
+      Host: sni.111000.indevs.in
