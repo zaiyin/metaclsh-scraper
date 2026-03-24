@@ -32,7 +32,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: ddDFHhj.922922.Shop
+  servername: AZERB.NET
 - name: 🇸🇬DP vless-SG-13461261
   dialer-proxy: LBCF
   type: vless
@@ -87,7 +87,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.72.33
+  server: 153.121.45.139
   port: 4674
   password: 86e150eb21c6faee48e81d496d7f61c2
   udp: true
@@ -160,17 +160,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.53.9
-  port: 443
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
+  server: 45.130.125.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: xn--cz8h.pages.dev
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: pyip=proxyip.cmliussss.net
+    path: /?ed=2560
     headers:
-      Host: xn--cz8h.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -188,59 +188,58 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.74.43
+  server: 104.17.53.9
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: xn--cz8h.pages.dev
   ws-opts:
-    path: /?ed=2560
+    path: pyip=proxyip.cmliussss.net
     headers:
-      Host: sni.111000.v6.navy
+      Host: xn--cz8h.pages.dev
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 185.238.228.238
+  server: 188.114.99.243
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 14.102.228.238
+  server: 172.64.146.198
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
     path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.64.222
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.66.47.45
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
-  tls: true
-  sni: sni.111000.dynv6.net
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -258,17 +257,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 199.241.138.38
-  port: 25631
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 45.131.4.192
+  port: 80
+  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
   udp: true
   network: ws
-  tls: true
-  sni: ylnhh.cc.cd
+  tls: false
   ws-opts:
-    path: /Telegram🇨🇳+@WangCai2
+    path: /
     headers:
-      Host: ylnhh.cc.cd
+      Host: silent-paper-fa57.fipiyag989.workers.dev
 - name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
@@ -402,6 +400,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.autodesk.com
+- name: 🇯🇵DP vless-JP-12510381
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇯🇵DP vmess-JP-12382688
   dialer-proxy: LBCF
   type: vmess
@@ -572,17 +580,3 @@ proxies:
     path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
     headers:
       Host: b86bf7fa.mfree.ccwu.cc
-- name: 🇯🇵DP vless-JP-1006312
-  dialer-proxy: LBCF
-  type: vless
-  server: 138.2.51.20
-  port: 32839
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-  network: ws
-  tls: true
-  sni: ylnhh.cc.cd
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2
-    headers:
-      Host: ylnhh.cc.cd
