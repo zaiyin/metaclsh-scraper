@@ -21,7 +21,34 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /aoz8sb9opsovdegg
+    headers:
+      Host: index.harmony702.workers.dev
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 2096
@@ -30,21 +57,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: pyip=proxyip.cmliussss.net
-    headers:
-      Host: xn--cz8h.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -60,39 +75,39 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: broad-sky-9360.k7uztejf9ief.workers.dev
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
   port: 80
-  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
+  uuid: 53342b53-157e-4475-9f3a-40439434e689
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: netherlands.vipserver14.workers.dev
-- name: 🇸🇬 vless-SG-8023
+      Host: c.iamdt.dpdns.org
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 937d410f-1858-471d-bc0e-cdf3b43e78b8
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiMnlwZUVocGtVZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
-      Host: 60ysrd9-v10nswi4duhvlrv0yxuspeth.efownd9to.workers.dev
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -121,27 +136,51 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: stipulations.gelatin.workers.dev
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: long-forest-ac72.salari1382m.workers.dev
+- name: 🇸🇬 vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7531
+      Host: broad-sky-9360.k7uztejf9ief.workers.dev
+- name: 🇲🇾 vless-MY-8018762
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 5152ff5b-56f7-400c-bc1d-2f1dd1ac1e13
+  port: 2053
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiZ2FTSnpWSlFGbENDM0xrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTI1LjcuMjQuMjUxIl19?ed=2560
+    path: /danfeng
     headers:
-      Host: 010.electrocellco-cf-010.workers.dev
-- name: 🇲🇾 vless-MY-8018762
+      Host: snippet.gfw.nn.kg
+- name: 🇲🇾 vless-MY-8009497
   type: vless
   server: bug.xcp
   port: 2053
