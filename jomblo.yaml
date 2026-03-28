@@ -171,15 +171,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7424
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.netfp=chrome
     headers:
-      Host: sni.jpmj.dev
+      Host: wu.090881.xyz
 - name: 🇸🇬 vless-SG-5222
   type: vless
   server: bug.xcp
