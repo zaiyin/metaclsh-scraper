@@ -274,21 +274,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.0
-  port: 443
-  uuid: 6e16baf3-82cd-4e5e-bfea-5bd4d2253b4f
-  udp: true
-  network: ws
-  tls: true
-  sni: telegram.proxie2-tel.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoidXYyRXNUTXEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: telegram.proxie2-tel.workers.dev
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.238.228.238
+  server: 194.59.5.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -296,9 +282,23 @@ proxies:
   tls: true
   sni: sni.jpmj.dev
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
       Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: staticdelivery.nexusmods.com
+  port: 443
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  udp: true
+  network: ws
+  tls: true
+  sni: wu.ssdxz.cn
+  ws-opts:
+    path: /proxyip=ProxyIP.SG.CMLiussss.net/proxyip=tw.william.us.ci,ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wu.ssdxz.cn
 - name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
@@ -341,7 +341,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.106.99
   port: 4937
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   udp: true
@@ -417,6 +417,20 @@ proxies:
   type: vless
   server: 158.101.131.94
   port: 2083
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵DP vless-JP-1086049
+  dialer-proxy: LBCF
+  type: vless
+  server: 168.138.192.16
+  port: 54584
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
@@ -613,17 +627,3 @@ proxies:
     path: /
     headers:
       Host: vip.yaml7.ggff.net
-- name: 🇯🇵DP vless-JP-153040
-  dialer-proxy: LBCF
-  type: vless
-  server: 43.167.157.65
-  port: 12345
-  uuid: 69c70236-6d7f-a785-2d3a-5332b1c91e99
-  udp: true
-  network: ws
-  tls: true
-  sni: bab1c79b.soos.bbroot.com
-  ws-opts:
-    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
-    headers:
-      Host: bab1c79b.soos.bbroot.com
