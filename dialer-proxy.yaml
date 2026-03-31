@@ -33,7 +33,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 2001:bc8:32d7:302::10
+  servername: v12.hdacd.com
 - name: 🇸🇬DP vless-SG-13461261
   dialer-proxy: LBCF
   type: vless
@@ -112,33 +112,33 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬DP vless-SG-9406
+- name: vless-node
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.15.19
+  server: 185.251.81.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.20.63.52
   port: 80
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 192.0.63.56
-  port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  udp: true
-  network: ws
-  tls: true
-  sni: snippet.danfeng.kozow.com
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snippet.danfeng.kozow.com
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -156,7 +156,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: cf.cloudflare.182682.xyz
+  server: newsroom.paypal-corp.com
   port: 443
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
@@ -170,17 +170,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.99.243
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 192.0.54.188
+  port: 443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: snippet.danfeng.kozow.com
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /danfeng
     headers:
-      Host: sni.111000.indevs.in
+      Host: snippet.danfeng.kozow.com
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -225,8 +225,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: testingcf.jsdelivr.net
-  port: 443
+  server: www.gco.gov.qa
+  port: 2053
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
@@ -281,17 +281,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: www.investec.com
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 104.17.145.59
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   udp: true
   network: ws
-  tls: true
-  sni: bh0070x2.danfeng.gv.uy
+  tls: false
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /
     headers:
-      Host: bh0070x2.danfeng.gv.uy
+      Host: vip.yaml7.ggff.net
 - name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
@@ -602,13 +601,14 @@ proxies:
 - name: 🇯🇵DP vless-JP-160475
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.38.62
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  server: 202.84.53.85
+  port: 19999
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: sni.111000.indevs.in
