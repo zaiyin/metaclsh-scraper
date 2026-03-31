@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-13589293
+  dialer-proxy: LBCF
+  type: trojan
+  server: 16.162.188.208
+  port: 25675
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-13515762
   dialer-proxy: LBCF
   type: vmess
@@ -42,9 +50,9 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.214.104
+  server: 153.121.65.107
   port: 4674
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  password: 9f7d5cb76d1645101994d9b25891e3b7
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-13207450
@@ -134,17 +142,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 198.41.223.233
-  port: 443
-  uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: edt2.btxst.eu.cc
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /rank
+    path: /
     headers:
-      Host: edt2.btxst.eu.cc
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -245,17 +253,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.36.20
+  server: 185.162.231.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    path: /?ed=2560
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: vless-node
   dialer-proxy: LBCF
   type: vless
@@ -273,30 +281,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.63.115
+  server: www.investec.com
   port: 443
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: snippet.danfeng.theworkpc.com
+  sni: bh0070x2.danfeng.gv.uy
   ws-opts:
     path: /danfeng?ed=2560
     headers:
-      Host: snippet.danfeng.theworkpc.com
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.155.209
-  port: 80
-  uuid: 787b3724-16c8-4e58-a038-2b8013cdc6d9
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
+      Host: bh0070x2.danfeng.gv.uy
 - name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
@@ -312,6 +307,14 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
+- name: 🇯🇵DP trojan-JP-13589290
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.85.33
+  port: 4380
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇯🇵DP vmess-JP-13567514
   dialer-proxy: LBCF
   type: vmess
@@ -349,9 +352,9 @@ proxies:
 - name: 🇯🇵DP trojan-JP-13300700
   dialer-proxy: LBCF
   type: trojan
-  server: 153.121.38.213
+  server: 160.16.132.38
   port: 4937
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  password: 9f7d5cb76d1645101994d9b25891e3b7
   udp: true
   sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-12510381
@@ -446,6 +449,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-4385752
+  dialer-proxy: LBCF
+  type: vless
+  server: 202.84.53.85
+  port: 19999
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
@@ -595,29 +612,3 @@ proxies:
     path: /
     headers:
       Host: vip.yaml7.ggff.net
-- name: 🇯🇵DP vless-JP-160005
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.38.129
-  port: 80
-  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: leecher56.matinheydri.workers.dev
-- name: 🇯🇵DP vless-JP-159620
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.38.129
-  port: 80
-  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: leecher56.matinheydri.workers.dev
