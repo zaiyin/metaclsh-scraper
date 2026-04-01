@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-13461261
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: vless
+    headers:
+      Host: vps.zakir.web.id
 - name: 🇸🇬 trojan-SG-13207450
   type: trojan
   server: bug.xcp
@@ -18,9 +30,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /danfeng
     headers:
-      Host: snippet.danfeng.loc.cc
+      Host: snippet.danfeng.kozow.com
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -49,14 +61,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: bf710ad2-4a43-4379-aa73-e684f00b6240
+  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: broad-sky-9360.k7uztejf9ief.workers.dev
+      Host: fancy-haze-01e3.ipv4-917.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -72,15 +84,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: fancy-haze-01e3.ipv4-917.workers.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -120,15 +132,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: restless-dew-894b.amirhost4.workers.dev
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
@@ -144,24 +156,24 @@ proxies:
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬 vless-SG-7429
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 8e7269cd-e5c0-48fa-970e-bc0e63c35d19
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: fornewiranvpn6.fornewiranvpn6.workers.dev
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7429
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    headers:
+      Host: sni.111000.indevs.in
