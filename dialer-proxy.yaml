@@ -22,7 +22,7 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-13473048
   dialer-proxy: LBCF
   type: vmess
   server: v12.hdacd.com
@@ -33,11 +33,11 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: one.cf.cdn.hyli.xyz
+  servername: AZERB.NET
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.85.33
+  server: 160.16.124.17
   port: 4674
   password: 9f7d5cb76d1645101994d9b25891e3b7
   udp: true
@@ -94,17 +94,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.32.47
-  port: 2096
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  server: 135.84.74.43
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: inDEx.HArMOnY702.workeRS.DEv
+  sni: sni.111000.v6.navy
   ws-opts:
-    path: /aoz8sb9opsovdegg
+    path: /
     headers:
-      Host: index.harmony702.workers.dev
+      Host: sni.111000.v6.navy
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -149,17 +149,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 135.84.74.155
+  server: 188.114.96.0
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 40afa553-1745-4f62-a380-4163c7bb4870
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: restless-dew-894b.amirhost4.workers.dev
   ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
+    path: /
     headers:
-      Host: sni.111000.v6.navy
+      Host: restless-dew-894b.amirhost4.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -259,31 +259,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.155.209
-  port: 443
-  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
+  server: 104.19.73.126
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: fancy-haze-01e3.ipv4-917.workers.dev
+  sni: qeccnw7svyo.chinav.eu.org
   ws-opts:
-    path: /
+    path: /danfeng?ed=2560
     headers:
-      Host: fancy-haze-01e3.ipv4-917.workers.dev
+      Host: qeccnw7svyo.chinav.eu.org
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.155.209
-  port: 8443
+  server: 162.159.153.231
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.dynv6.net
+  sni: sni.111000.indevs.in
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
