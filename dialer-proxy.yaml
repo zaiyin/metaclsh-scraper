@@ -159,17 +159,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 162.159.36.20
+  port: 443
+  uuid: 0833debf-4a9e-4c31-a5b7-a88574bddf18
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: fancy-haze-01e3.ipv4-917.workers.dev
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: fancy-haze-01e3.ipv4-917.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -517,20 +517,6 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🇯🇵DP vless-JP-1151344
-  dialer-proxy: LBCF
-  type: vless
-  server: 168.138.192.16
-  port: 54584
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
 - name: 🇯🇵DP vless-JP-1007660
   dialer-proxy: LBCF
   type: vless
@@ -599,3 +585,17 @@ proxies:
     path: /
     headers:
       Host: vip.yaml7.ggff.net
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: 203.168.131.110
+  port: 3389
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  udp: true
+  network: ws
+  tls: true
+  sni: snippet.chinav.eu.cc
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinav.eu.cc
