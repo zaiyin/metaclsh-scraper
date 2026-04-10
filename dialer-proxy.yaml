@@ -56,11 +56,27 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 2001:bc8:32d7:302::10
+  servername: v12.hdacd.com
+- name: 🇸🇬DP vmess-SG-13469471
+  dialer-proxy: LBCF
+  type: vmess
+  server: m.cnmjin.net
+  port: 16618
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+  servername: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.124.17
+  server: 160.16.132.38
   port: 4674
   password: 187dda4498be9ac4f28db939d5940185
   udp: true
@@ -114,6 +130,14 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
+- name: 🏳DP trojan-
+  dialer-proxy: LBCF
+  type: trojan
+  server: 85.211.192.237
+  port: 5784
+  password: 413fdb10-a596-4e7c-b081-54243d252894
+  udp: true
+  sni: www.baidu.com
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
@@ -214,65 +238,37 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 192.0.54.238
-  port: 2096
+  server: 135.84.74.43
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.111000.v6.navy
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7801
+      Host: sni.111000.v6.navy
+- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.0
+  server: 135.84.74.155
   port: 443
-  uuid: 6e16baf3-82cd-4e5e-bfea-5bd4d2253b4f
-  udp: true
-  network: ws
-  tls: true
-  sni: telegram.proxie2-tel.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoidXYyRXNUTXEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: telegram.proxie2-tel.workers.dev
-- name: 🇸🇬DP vless-SG-7724
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.155.209
-  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.111000.v6.navy
   ws-opts:
-    path: /?ed
+    path: /?Telegram🇨🇳 @WangCai2=
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.111000.v6.navy
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.153.136
-  port: 26181
-  uuid: 7249c3be-85ad-46fb-ab98-c4a07f4a724d
+  port: 42012
+  uuid: 20fe66fb-e22c-453e-f7ea-d02021976737
   alterId: 0
   cipher: auto
   tls: false
