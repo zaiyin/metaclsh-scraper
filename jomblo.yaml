@@ -24,18 +24,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6fb65356-788e-4118-8280-148ec6eca18a
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: pyip=proxyip.cmliussss.net
-    headers:
-      Host: xn--cz8h.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -45,9 +33,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
+    path: /?ed
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -83,7 +71,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -127,9 +115,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.my111000.tech
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
