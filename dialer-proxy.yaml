@@ -29,14 +29,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP trojan-SG-13623764
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.162.112.212
-  port: 28033
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-13622192
   dialer-proxy: LBCF
   type: trojan
@@ -56,7 +48,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: v12.hdacd.com
 - name: 🇸🇬DP vmess-SG-13469471
   dialer-proxy: LBCF
   type: vmess
@@ -76,7 +67,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-13260110
   dialer-proxy: LBCF
   type: trojan
-  server: 160.16.132.38
+  server: 160.16.124.17
   port: 4674
   password: 187dda4498be9ac4f28db939d5940185
   udp: true
@@ -130,7 +121,7 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
   servername: sgal.dagrate.eu.org
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-5359107
   dialer-proxy: LBCF
   type: trojan
   server: 85.211.192.237
@@ -155,7 +146,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 188.244.122.138
+  server: 154.197.75.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -163,7 +154,7 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬DP vless-SG-9203
@@ -197,31 +188,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.98.0
-  port: 2096
+  server: 172.64.155.209
+  port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: www.digitalcommerce360.com
+  port: 2053
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: qyi.fqjd663.ggff.net
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: qyi.fqjd663.ggff.net
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -258,6 +249,20 @@ proxies:
     path: /id-pusat
     headers:
       Host: vltj.qzz.io
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.0.54.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
@@ -514,20 +519,6 @@ proxies:
     path: /proxyip=ProxyIP.DE.owg.dpdns.org
     headers:
       Host: 3-2ll.pages.dev
-- name: 🇯🇵DP vless-JP-1007486
-  dialer-proxy: LBCF
-  type: vless
-  server: 217.142.230.253
-  port: 587
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
 - name: 🇯🇵DP trojan-JP-1006312
   dialer-proxy: LBCF
   type: trojan
@@ -614,5 +605,18 @@ proxies:
   tls: false
   ws-opts:
     path: /?ed%3D2048
+    headers:
+      Host: leecher56.matinheydri.workers.dev
+- name: 🇯🇵DP vless-JP-159620
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.38.129
+  port: 80
+  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2048
     headers:
       Host: leecher56.matinheydri.workers.dev
