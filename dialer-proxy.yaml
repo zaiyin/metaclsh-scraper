@@ -47,7 +47,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: green2.cdntencentmusic.com
+  servername: 2001:bc8:32d7:302::10
 - name: 🇸🇬DP vmess-SG-13469471
   dialer-proxy: LBCF
   type: vmess
@@ -123,50 +123,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.26.13.31
+  server: medium.com
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   network: ws
   tls: true
-  sni: sany.tara132.workers.dev
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
-    path: /sni.111000.dynv6.net/
+    path: /?ed=2560
     headers:
-      Host: sany.tara132.workers.dev
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 185.238.228.238
+  server: 8.35.211.18
   port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 135.84.74.43
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.v6.navy
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.39.125.219
-  port: 2053
   uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
   udp: true
   network: ws
@@ -176,24 +148,52 @@ proxies:
     path: /
     headers:
       Host: aier.eu.cc
-- name: 🇸🇬DP vless-SG-8430
+- name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.12.149
-  port: 443
+  server: 8.35.211.162
+  port: 2087
+  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+  udp: true
+  network: ws
+  tls: true
+  sni: aier.eu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: aier.eu.cc
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.251.81.238
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: sni.jpmj.dev
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 8.35.211.195
+  port: 443
+  uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+  udp: true
+  network: ws
+  tls: true
+  sni: aier.eu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: aier.eu.cc
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: www.bigcommerce.com
+  server: www.hivenet.com
   port: 2053
   uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   udp: true
@@ -207,34 +207,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 192.200.160.19
-  port: 443
+  server: 185.251.81.238
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: sni.jpmj.dev
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 45.131.4.192
-  port: 80
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+  server: 104.18.12.149
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 8.39.125.255
+  server: 8.35.211.186
   port: 2053
   uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
   udp: true
@@ -248,22 +249,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 217.163.76.254
+  server: 135.84.64.222
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.v6.navy
+  sni: sni.111000.dynv6.net
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 8.35.211.181
-  port: 2083
+  server: 8.35.211.200
+  port: 2053
   uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
   udp: true
   network: ws
