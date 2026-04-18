@@ -7,46 +7,6 @@ proxies:
   password: oXGOymGM1IE1
   server: 192.124.176.153
   port: 8388
-- name: 🇸🇬DP ss-SG-13710713
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  server: v.4.8.j.s.g.t.8.d.sg02-ae5.entry.v51124-4.qpon
-  port: 20077
-- name: 🇸🇬DP vmess-SG-13710359
-  dialer-proxy: LBCF
-  type: vmess
-  server: xg1c4.waimaofuwujd.cc
-  port: 443
-  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: xg1c4.waimaofuwujd.cc
-  servername: xg1c4.waimaofuwujd.cc
-- name: 🇸🇬DP vmess-SG-13708740
-  dialer-proxy: LBCF
-  type: vmess
-  server: xg1c4.waimaofuwujd.cc
-  port: 443
-  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: xg1c4.waimaofuwujd.cc
-  servername: xg1c4.waimaofuwujd.cc
 - name: 🇸🇬DP trojan-SG-13622192
   dialer-proxy: LBCF
   type: trojan
@@ -142,62 +102,63 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 185.158.133.138
+  server: 192.200.160.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.jpmj.dev
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: china.embassy.gov.au
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 160.153.1.198
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: aqona0.node-cache-a1.chinav.indevs.in
+  sni: sni.111000.v6.navy
   ws-opts:
-    path: /danfeng?ed=2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
     headers:
-      Host: aqona0.node-cache-a1.chinav.indevs.in
+      Host: sni.111000.v6.navy
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: chatgpt.com
+  server: store.ubi.com
   port: 443
-  uuid: 93f0761d-4393-4b43-a523-e812fa0b7e83
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   udp: true
   network: ws
   tls: true
-  sni: cf.cfvip.lol
-  ws-opts:
-    path: /pyip=47.251.95.178
-    headers:
-      Host: cf.cfvip.lol
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.164.44
-  port: 80
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  udp: true
-  network: ws
-  tls: false
+  sni: 3-2h8.pages.dev
   ws-opts:
     path: /
     headers:
-      Host: amirvpn.amirhm00100.workers.dev
+      Host: 3-2h8.pages.dev
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 160.153.1.23
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.dynv6.net
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.36.5
+  server: 104.17.101.139
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -211,7 +172,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: labeller.neonime83.workers.dev
+  server: 188.114.96.3
   port: 443
   uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
   udp: true
@@ -225,32 +186,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.231
-  port: 2096
+  server: 188.114.98.0
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.149.54
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
+  sni: sni.111000.v6.navy
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7966
+      Host: sni.111000.v6.navy
+- name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
   server: 8.6.112.0
@@ -264,6 +211,62 @@ proxies:
     path: /?Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.dynv6.net
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.163
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.16.56
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: 160.153.0.78
+  port: 2053
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  udp: true
+  network: ws
+  tls: true
+  sni: qyi.fqjd663.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: qyi.fqjd663.ggff.net
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
@@ -311,22 +314,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vmess-JP-13710807
-  dialer-proxy: LBCF
-  type: vmess
-  server: jp248_2.cowvpn.space
-  port: 11612
-  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ws248_2.baidu.com
-  servername: ws248_2.baidu.com
 - name: 🇯🇵DP trojan-JP-13687056
   dialer-proxy: LBCF
   type: trojan
@@ -386,6 +373,14 @@ proxies:
   type: trojan
   server: 13.231.60.220
   port: 34818
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-13300700
+  dialer-proxy: LBCF
+  type: trojan
+  server: 160.16.85.33
+  port: 4937
   password: 868ecdaf6aed618ec98cf78585672b2b
   udp: true
   sni: www.nintendogames.net
@@ -471,17 +466,17 @@ proxies:
 - name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
-  server: 126.220.82.161
+  server: 64.176.44.23
   port: 443
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   udp: true
   network: ws
   tls: true
-  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  sni: 3-2ll.pages.dev
   ws-opts:
-    path: /
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
     headers:
-      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+      Host: 3-2ll.pages.dev
 - name: 🇯🇵DP ss-JP-1291802
   dialer-proxy: LBCF
   type: ss
@@ -557,6 +552,20 @@ proxies:
     path: /
     headers:
       Host: powered-by-surena.user68f797c2f3e1b.workers.dev
+- name: 🇯🇵DP vless-JP-160479
+  dialer-proxy: LBCF
+  type: vless
+  server: 64.176.44.23
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: ws
+  tls: true
+  sni: 3-2ll.pages.dev
+  ws-opts:
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+    headers:
+      Host: 3-2ll.pages.dev
 - name: 🇯🇵DP vless-JP-160475
   dialer-proxy: LBCF
   type: vless
@@ -570,17 +579,3 @@ proxies:
     path: /
     headers:
       Host: vip.yaml7.ggff.net
-- name: 🇯🇵DP vless-JP-160005
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.45.173
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  network: ws
-  tls: true
-  sni: powered-by-surena.user68f797c2f3e1b.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
