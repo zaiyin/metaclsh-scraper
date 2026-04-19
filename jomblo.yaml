@@ -1,29 +1,66 @@
 proxies:
+- name: 🇸🇬 trojan-SG-13207450
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ubu.okaoclax.me
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 42add63b-deda-4e71-aa48-ddd288181858
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
+    path: /
     headers:
-      Host: edtunnel-eiz.pages.dev
+      Host: sni.111000.v6.navy
 - name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: zh.hollowspot.ir
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 2096
@@ -34,8 +71,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8862
+      Host: sni.jpmj.dev
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 2053
@@ -47,19 +84,19 @@ proxies:
     path: /
     headers:
       Host: qyi.fqjd663.ggff.net
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 2053
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-8105
+      Host: qyi.fqjd663.ggff.net
+- name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 8443
@@ -68,10 +105,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram @WangCai2
+    path: /?Telegram+@WangCai2
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-8023
+- name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
   port: 443
@@ -80,19 +117,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
+    path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-7966
@@ -104,9 +129,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -122,15 +147,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: qyi.fqjd663.ggff.net
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
@@ -146,12 +171,12 @@ proxies:
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: / @ProxyVPN11
+    path: /
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: sni.111000.v6.navy
