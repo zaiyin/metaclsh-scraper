@@ -48,7 +48,7 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-9203
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
@@ -60,42 +60,42 @@ proxies:
     path: /
     headers:
       Host: sni.111000.v6.navy
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /?ed=2048
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
-      Host: c.iamdt.dpdns.org
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
+    path: /
     headers:
-      Host: joss.jak.biz.id
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -111,19 +111,7 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -131,7 +119,19 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: / @irshum2
+    headers:
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
