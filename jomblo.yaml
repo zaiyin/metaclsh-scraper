@@ -31,6 +31,21 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -46,72 +61,72 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  port: 2083
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: //
+    headers:
+      Host: cIAllO-EGB.pAGES.dev
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: y6-3cj.PAgES.DEV
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
   port: 443
-  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: zh.hollowspot.ir
+      Host: qyi.fqjd663.ggff.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 80
+  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
   network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: vpnpro.eshghiabolfazl2009.workers.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8880
+  uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
+      Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
