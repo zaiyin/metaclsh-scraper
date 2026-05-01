@@ -36,18 +36,33 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
+- name: 🇸🇬 vmess-SG-11391645
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sgal.dagrate.eu.org
+  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 2086
-  uuid: 636de463-b509-4631-adc6-400b21733278
+  port: 2087
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /vgn80ag4q5o0oxj5
+    path: /info/readme/items/juzibaipiao?ed=2560
     headers:
-      Host: index.harmony610.workers.dev
+      Host: juzi8186.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -57,7 +72,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+    path: Telegram🇨🇳@WangCai2/
     headers:
       Host: sni.my111000.tech
 - name: 🇸🇬 vless-SG-9203
@@ -75,6 +90,18 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: tristandeng.cc.cd
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -87,15 +114,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: qyi.fqjd663.ggff.net
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -111,12 +138,12 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: y6-3cj.PAgES.DEV
