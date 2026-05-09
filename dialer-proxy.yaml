@@ -159,7 +159,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.153.231
+  server: 217.163.76.254
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.v6.navy
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 5.10.247.43
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.cc.cd
+  ws-opts:
+    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+    headers:
+      Host: sni.111000.cc.cd
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 108.165.216.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -167,52 +195,10 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: cf3.danfeng.eu.org
-  port: 8443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  network: ws
-  tls: true
-  sni: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /shop/juzibaipiao?ed=2560
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 184.174.80.231
-  port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  udp: true
-  network: ws
-  tls: true
-  sni: babayaga-6i7.pages.dev
-  ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
 - name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 185.238.228.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
   server: 188.114.98.0
@@ -223,13 +209,27 @@ proxies:
   tls: true
   sni: sni.111000.indevs.in
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.indevs.in
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: cf.danfeng.eu.org
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /buy/ads/juzibaipiao?ed=2560
+    headers:
+      Host: juzi8186.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: www.ftc.net
+  server: witzendcomputing.com
   port: 2053
   uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   udp: true
@@ -243,73 +243,73 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.149.54
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: true
-  sni: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.0
+  server: 185.16.110.238
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.150.241
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-7966
+  dialer-proxy: LBCF
+  type: vless
+  server: 160.153.0.78
+  port: 2053
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  udp: true
+  network: ws
+  tls: true
+  sni: qyi.fqjd663.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: qyi.fqjd663.ggff.net
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 135.84.74.65
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
   sni: sni.111000.indevs.in
   ws-opts:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: cf4.danfeng.eu.org
-  port: 2053
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  network: ws
-  tls: true
-  sni: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /tv/juzibaipiao?ed=2560
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: e1-f55.pages.dev
-  port: 443
-  uuid: 8b5acf77-2c2e-4eed-9ad1-be81851b99ea
-  udp: true
-  network: ws
-  tls: true
-  sni: e1-f55.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: e1-f55.pages.dev
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.12.149
+  server: 160.153.1.122
   port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: y6-3cj.PAgES.DEV
+  sni: sni.111000.v6.navy
   ws-opts:
-    path: /
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
     headers:
-      Host: y6-3cj.PAgES.DEV
+      Host: sni.111000.v6.navy
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
@@ -330,8 +330,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -625,17 +625,17 @@ proxies:
 - name: 🇯🇵DP vless-JP-4988321
   dialer-proxy: LBCF
   type: vless
-  server: 64.176.44.23
+  server: 126.220.82.161
   port: 443
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   udp: true
   network: ws
   tls: true
-  sni: 3-2ll.pages.dev
+  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
   ws-opts:
-    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+    path: /
     headers:
-      Host: 3-2ll.pages.dev
+      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
 - name: 🇯🇵DP vless-JP-4670961
   dialer-proxy: LBCF
   type: vless
