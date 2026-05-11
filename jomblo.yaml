@@ -27,27 +27,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: 3-7ny.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: y6-3cj.PAgES.DEV
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -63,27 +63,27 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /socks5=gogo:gogo@185.184.70.120:50088
+    path: /
     headers:
-      Host: 3-93f.pages.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /tv/juzibaipiao?ed=2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
-      Host: juzi8186.qea.ccwu.cc
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -93,7 +93,7 @@ proxies:
   tls: false
   udp: true
   ws-opts:
-    path: /+@ProxyVPN11
+    path: / @ProxyVPN11
     headers:
       Host: vip.yaml7.ggff.net
 - name: 🇸🇬 vless-SG-8023
@@ -111,7 +111,7 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2053
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -123,15 +123,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /pictures/jump/channel/juzibaipiao?ed=2560
+    path: /
     headers:
-      Host: juzi8186.qea.ccwu.cc
+      Host: sni.111000.indevs.in
 - name: 🇲🇾 vless-MY-12451058
   type: vless
   server: bug.xcp
