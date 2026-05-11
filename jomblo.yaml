@@ -9,21 +9,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: ubu.okaoclax.me
-- name: 🇸🇬 vmess-SG-11391645
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sgal.dagrate.eu.org
-  servername: sgal.dagrate.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -33,22 +18,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
@@ -60,18 +33,30 @@ proxies:
     path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
     headers:
       Host: babayaga-6i7.pages.dev
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sni.111000.dynv6.net
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -81,21 +66,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  port: 80
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /
+    path: / @ProxyVPN11
     headers:
-      Host: qyi.fqjd663.ggff.net
+      Host: vip.yaml7.ggff.net
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -105,9 +90,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.my111000.tech
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -117,13 +102,13 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-7801
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
@@ -132,6 +117,18 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
+- name: 🇲🇾 vless-MY-12451058
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: gogo.qzzio.dpdns.org
 - name: 🇲🇾 vless-MY-8018762
   type: vless
   server: bug.xcp
@@ -141,10 +138,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: gogo6.kmj.qzz.io
-- name: 🇲🇾 vless-MY-8009497
+      Host: gogo.onetap.qzz.io
+- name: 🇲🇾 vless-MY-8016935
   type: vless
   server: bug.xcp
   port: 443
@@ -155,4 +152,16 @@ proxies:
   ws-opts:
     path: /fp=chrome
     headers:
-      Host: gogo6.kmj.qzz.io
+      Host: gogo9.kmj.qzz.io
+- name: 🇲🇾 vless-MY-8009497
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: gogo.qzzio.dpdns.org
