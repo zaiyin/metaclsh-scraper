@@ -47,6 +47,18 @@ proxies:
     path: /
     headers:
       Host: qyi.fqjd663.ggff.net
+- name: ?? vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: sni.111000.dynv6.net
 - name: ?? vless-SG-8862
   type: vless
   server: bug.xcp
@@ -119,6 +131,18 @@ proxies:
     path: /?Telegram?? @WangCai2
     headers:
       Host: sni.111000.dynv6.net
+- name: ?? vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.navy
 - name: ?? vless-SG-7456
   type: vless
   server: bug.xcp
@@ -179,15 +203,3 @@ proxies:
     path: /fp=chrome
     headers:
       Host: gogo.vks.dpdns.org
-- name: ?? vless-MY-6574438
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.wknm.qzz.io

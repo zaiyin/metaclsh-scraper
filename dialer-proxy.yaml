@@ -356,20 +356,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: gogo.vks.dpdns.org
-- name: ??DP vless-MY-6574438
-  dialer-proxy: LBCF
-  type: vless
-  server: 23.27.113.77
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  network: ws
-  tls: true
-  sni: gogo.wknm.qzz.io
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.wknm.qzz.io
 - name: ??DP ss-JP-14007623
   dialer-proxy: LBCF
   type: ss
