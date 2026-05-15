@@ -1,22 +1,4 @@
 proxies:
-- name: ??DP vless-SG-14007513
-  dialer-proxy: LBCF
-  type: vless
-  server: shadownetxfree.zorox.store
-  port: 443
-  uuid: 70b2ab78-b430-4455-a172-dd2ab0bee668
-  udp: true
-  network: tcp
-  tls: true
-  sni: netflix.com
-- name: ??DP trojan-SG-14001532
-  dialer-proxy: LBCF
-  type: trojan
-  server: lt-sin.ltdns.top
-  port: 37043
-  password: abb011d5-2749-4fba-9a66-0eb7b1b14d1e
-  udp: true
-  sni: www.ithome.com
 - name: ??DP vless-SG-13982690
   dialer-proxy: LBCF
   type: vless
@@ -297,6 +279,34 @@ proxies:
     path: /?Telegram🇨🇳@WangCai2=
     headers:
       Host: sni.jpmj.dev
+- name: ??DP vless-SG-5222
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.200.160.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.jpmj.dev
+- name: ??DP vless-SG-5033
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.20.6.134
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
@@ -356,14 +366,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: gogo.vks.dpdns.org
-- name: ??DP ss-JP-14007623
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 889e7055-e174-43a2-9004-a8f55f5d9784
-  server: gw.lydwan.com
-  port: 35603
 - name: ??DP trojan-JP-13993703
   dialer-proxy: LBCF
   type: trojan
@@ -663,3 +665,17 @@ proxies:
     path: /fp=chrome
     headers:
       Host: gogo.vks.dpdns.org
+- name: ??DP vless-JP-1007660
+  dialer-proxy: LBCF
+  type: vless
+  server: 126.220.82.161
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: ws
+  tls: true
+  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
