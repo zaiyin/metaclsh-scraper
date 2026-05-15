@@ -338,34 +338,6 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: ??DP vless-MY-8018762
-  dialer-proxy: LBCF
-  type: vless
-  server: 72.60.237.170
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  network: ws
-  tls: true
-  sni: gogo.vks.dpdns.org
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.vks.dpdns.org
-- name: ??DP vless-MY-8009497
-  dialer-proxy: LBCF
-  type: vless
-  server: 96.126.190.51
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  network: ws
-  tls: true
-  sni: gogo.vks.dpdns.org
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.vks.dpdns.org
 - name: ??DP trojan-JP-13993703
   dialer-proxy: LBCF
   type: trojan
@@ -384,7 +356,7 @@ proxies:
   network: tcp
   tls: true
   sni: tokyo.ap221.com
-- name: ??DP vless-JP-13854338
+- name: 🇯🇵DP vless-JP-13854338
   dialer-proxy: LBCF
   type: vless
   server: 8.216.21.135
@@ -406,7 +378,7 @@ proxies:
     path: /a12b0d31
     headers:
       Host: ''
-- name: ??DP vless-JP-13812119
+- name: 🇯🇵DP vless-JP-13812119
   dialer-proxy: LBCF
   type: vless
   server: dongjing4.zqjsqapi.com
@@ -537,7 +509,7 @@ proxies:
     path: /
     headers:
       Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
-- name: ??DP ss-JP-5141029
+- name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -587,20 +559,20 @@ proxies:
     path: /fp=chromefp=chrome
     headers:
       Host: gogo.vks.dpdns.org
-- name: ??DP vless-JP-2744172
+- name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
-  server: 126.220.82.161
+  server: 138.2.59.112
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  sni: sni.111000.v6.army
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+      Host: sni.111000.v6.army
 - name: ??DP vless-JP-1402621
   dialer-proxy: LBCF
   type: vless
@@ -615,7 +587,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.v6.army
-- name: ??DP ss-JP-1291802
+- name: 🇯🇵DP ss-JP-1291802
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -651,31 +623,31 @@ proxies:
     path: /danfengfp=firefox
     headers:
       Host: shkiau5c.api-node-a1.chinam.indevs.in
-- name: ??DP vless-JP-1125813
+- name: 🇯🇵DP vless-JP-1007660
   dialer-proxy: LBCF
   type: vless
-  server: 45.142.125.104
+  server: 138.2.59.112
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: gogo.vks.dpdns.org
+  sni: sni.111000.v6.army
   ws-opts:
-    path: /fp=chrome
+    path: /?ed=2560
     headers:
-      Host: gogo.vks.dpdns.org
-- name: ??DP vless-JP-1007660
+      Host: sni.111000.v6.army
+- name: ??DP vless-JP-1007486
   dialer-proxy: LBCF
   type: vless
-  server: 126.220.82.161
+  server: 138.2.59.112
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: true
-  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  sni: sni.111000.v6.army
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+      Host: sni.111000.v6.army
