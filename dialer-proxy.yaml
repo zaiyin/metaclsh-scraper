@@ -68,14 +68,6 @@ proxies:
     path: /announcement?ed=2048fp=chrome
     headers:
       Host: do-sgp1.862400.xyz
-- name: ??DP trojan-SG-13207450
-  dialer-proxy: LBCF
-  type: trojan
-  server: ubu.okaoclax.me
-  port: 443
-  password: 13c169be-8592-4eaa-94cb-69c859e7d987
-  udp: true
-  sni: ubu.okaoclax.me
 - name: ??DP ss-SG-11949219
   dialer-proxy: LBCF
   type: ss
@@ -84,17 +76,6 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   server: 38.89.142.56
   port: 990
-- name: 🇸🇬DP vmess-SG-7314090
-  dialer-proxy: LBCF
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇸🇬DP vmess-SG-7297225
   dialer-proxy: LBCF
   type: vmess
@@ -288,6 +269,34 @@ proxies:
     path: /
     headers:
       Host: sni.jpmj.dev
+- name: ??DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.129.167.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: ??DP vless-SG-7424
+  dialer-proxy: LBCF
+  type: vless
+  server: 156.243.83.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.jpmj.dev
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇲🇾DP vmess-MY-13653906
   dialer-proxy: LBCF
   type: vmess
@@ -333,20 +342,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: gogo.vks.dpdns.org
-- name: ??DP vless-MY-8016935
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.128.54.137
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  network: ws
-  tls: true
-  sni: gogo.onetap.qzz.io
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.onetap.qzz.io
 - name: ??DP vless-MY-8009497
   dialer-proxy: LBCF
   type: vless
@@ -383,22 +378,6 @@ proxies:
   password: 889e7055-e174-43a2-9004-a8f55f5d9784
   server: gw.lydwan.com
   port: 35603
-- name: 🇯🇵DP vmess-JP-14003347
-  dialer-proxy: LBCF
-  type: vmess
-  server: hk26.998998.best
-  port: 443
-  uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ieusrdgfhteuirgfiuws?ed=2560
-    headers:
-      Host: server11.9966338.xyz
-  servername: server11.9966338.xyz
 - name: ??DP trojan-JP-13993703
   dialer-proxy: LBCF
   type: trojan
@@ -493,14 +472,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.muji.com
-- name: ??DP trojan-JP-12958430
-  dialer-proxy: LBCF
-  type: trojan
-  server: jp3.998998.best
-  port: 443
-  password: 9c851606-9722-42fc-a1c1-175c3c82a7ae
-  udp: true
-  sni: nat11.outsidemyheart.space
 - name: ??DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -678,3 +649,31 @@ proxies:
     path: /
     headers:
       Host: gogo4.kmj.qzz.io
+- name: ??DP vless-JP-1151344
+  dialer-proxy: LBCF
+  type: vless
+  server: 103.201.130.47
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  network: ws
+  tls: true
+  sni: shkiau5c.api-node-a1.chinam.indevs.in
+  ws-opts:
+    path: /danfengfp=firefox
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+- name: ??DP vless-JP-1125813
+  dialer-proxy: LBCF
+  type: vless
+  server: 45.142.125.104
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: ws
+  tls: true
+  sni: gogo.vks.dpdns.org
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: gogo.vks.dpdns.org
