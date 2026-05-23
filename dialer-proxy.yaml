@@ -709,7 +709,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: null
+      Host: 66.154.106.185
 - name: 🇺🇸DP vmess-US-14064748
   dialer-proxy: LBCF
   type: vmess
