@@ -27,15 +27,15 @@ proxies:
   type: vless
   server: bug.xcp
   port: 2096
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /aoz8sb9opsovdegg
+    path: /
     headers:
-      Host: index.harmony702.workers.dev
-- name: 🇸🇬 vless-SG-8862
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 2096
@@ -44,21 +44,9 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+    path: /
     headers:
-      Host: sni.my111000.tech
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
+      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -80,10 +68,22 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+    path: /sni.111000.dynv6.net/
     headers:
-      Host: sni.latonyamadeline.ndjp.net
+      Host: sany.tara132.workers.dev
 - name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 2096
@@ -92,10 +92,22 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2=
+    path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-7966
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
   port: 443
@@ -110,15 +122,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
-  port: 2096
+  port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
-      Host: sni.my111000.tech
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
@@ -128,6 +140,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
+    path: /
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.jpmj.dev
