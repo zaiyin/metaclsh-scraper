@@ -76,16 +76,19 @@ def parse_vmess(uri):
     }
 
     if js.get("net") == "ws":
+        # Jangan langsung masukkan headers
         proxy["ws-opts"] = {
-            "path": js.get("path", "/"),
-            "headers": {"Host": js.get("host", "")}
+            "path": js.get("path", "/") or "/"
         }
+        # Cek apakah host ada dan tidak "null"
+        host_val = js.get("host", "")
+        if host_val and str(host_val).lower() != "null":
+            proxy["ws-opts"]["headers"] = {"Host": host_val}
 
-    if js.get("host"):
+    if js.get("host") and str(js.get("host")).lower() != "null":
         proxy["servername"] = js.get("host")
 
     return proxy
-
 
 # ============================================
 # PARSER VLESS
@@ -106,14 +109,18 @@ def parse_vless(uri):
         "tls": q.get("security", ["none"])[0] == "tls",
     }
 
-    if "sni" in q:
+    if "sni" in q and q["sni"][0] and str(q["sni"][0]).lower() != "null":
         proxy["sni"] = q["sni"][0]
 
     if proxy["network"] == "ws":
+        # Jangan langsung masukkan headers
         proxy["ws-opts"] = {
-            "path": q.get("path", [""])[0],
-            "headers": {"Host": q.get("host", [""])[0]}
+            "path": q.get("path", ["/"])[0] or "/"
         }
+        # Cek apakah host ada dan tidak "null"
+        host_val = q.get("host", [""])[0]
+        if host_val and str(host_val).lower() != "null":
+            proxy["ws-opts"]["headers"] = {"Host": host_val}
 
     return proxy
 
