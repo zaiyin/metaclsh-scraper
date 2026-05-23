@@ -260,16 +260,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.150.99
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  server: 135.84.64.66
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: sni.111000.dynv6.net
   ws-opts:
-    path: /
+    path: /?Telegram🇨🇳@WangCai2=
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
@@ -297,8 +298,6 @@ proxies:
   network: ws
   ws-opts:
     path: /9665280c
-    headers:
-      Host: ''
 - name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
@@ -312,8 +311,6 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
-    headers:
-      Host: ''
 - name: 🇯🇵DP vmess-JP-14119235
   dialer-proxy: LBCF
   type: vmess
@@ -465,8 +462,6 @@ proxies:
   sni: dongjing4.zqjsqapi.com
   ws-opts:
     path: /proxy
-    headers:
-      Host: ''
 - name: 🇯🇵DP vmess-JP-13805479
   dialer-proxy: LBCF
   type: vmess
@@ -510,8 +505,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-    headers:
-      Host: ''
 - name: 🇯🇵DP vless-JP-7993275
   dialer-proxy: LBCF
   type: vless
@@ -659,8 +652,6 @@ proxies:
   network: ws
   ws-opts:
     path: /JASON.ET
-    headers:
-      Host: ''
 - name: 🇺🇸DP vmess-US-14089709
   dialer-proxy: LBCF
   type: vmess
@@ -708,8 +699,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: 66.154.106.185
 - name: 🇺🇸DP vmess-US-14064748
   dialer-proxy: LBCF
   type: vmess
@@ -761,8 +750,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: ''
 - name: 🇺🇸DP vmess-US-14058866
   dialer-proxy: LBCF
   type: vmess
