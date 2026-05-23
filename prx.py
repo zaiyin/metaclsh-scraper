@@ -219,7 +219,7 @@ def build_proxies(nodes):
 # ============================================
 # SAVE YAML
 # ============================================
-def save_yaml(data, filename="/etc/nikki/run/proxy_provider/dialer-proxy.yaml"):
+def save_yaml(data, filename="dialer-proxy.yaml"):
     with open(filename, "w", encoding="utf-8") as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False)
     print("[*] File saved:", filename)
