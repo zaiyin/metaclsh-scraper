@@ -16,7 +16,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 # ============================================
 def get_subscription_url(country):
     url = f"https://www.v2nodes.com/country/{country}/"
-    r = requests.get(url, headers=HEADERS, timeout=10)
+    r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
@@ -219,7 +219,7 @@ def build_proxies(nodes):
 # ============================================
 # SAVE YAML
 # ============================================
-def save_yaml(data, filename="dialer-proxy.yaml"):
+def save_yaml(data, filename="/etc/nikki/run/proxy_provider/dialer-proxy.yaml"):
     with open(filename, "w", encoding="utf-8") as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False)
     print("[*] File saved:", filename)
