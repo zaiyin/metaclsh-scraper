@@ -11,19 +11,7 @@ proxies:
     path: /
     headers:
       Host: sni.jpmj.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /%252F
-    headers:
-      Host: CiallO-eGb.pAGEs.Dev
-- name: 🇸🇬 vless-SG-8862
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 2096
@@ -35,18 +23,30 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: 1-brc.pages.dev
+      Host: sni.111000.indevs.in
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -68,7 +68,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+    path: /
     headers:
       Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-7971
@@ -104,21 +104,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
+    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+    path: /
     headers:
-      Host: sni.latonyamadeline.ndjp.net
+      Host: sni.111000.indevs.in
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
@@ -134,12 +134,12 @@ proxies:
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2053
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+    path: /
     headers:
-      Host: sni.latonyamadeline.ndjp.net
+      Host: sni.111000.indevs.in
