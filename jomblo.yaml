@@ -23,18 +23,6 @@ proxies:
     path: /?https://t.me/wangcai2🇨🇳=
     headers:
       Host: sni.latonyamadeline.ndjp.net
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -50,15 +38,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: / @ProxyVPN11
+    path: /
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -74,15 +62,27 @@ proxies:
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /comic
+    path: /
     headers:
-      Host: pagescm.freen10.de5.net
+      Host: 3-7ny.pages.dev
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?Telegram @v2rayngzendegimamad
+    headers:
+      Host: sni.111000.dynv6.net
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -107,27 +107,3 @@ proxies:
     path: Telegram@WangCai2
     headers:
       Host: sni.my111000.tech
-- name: 🇸🇬 vless-SG-7456
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: / @ProxyVPN11
-    headers:
-      Host: vip.yaml7.ggff.net
-- name: 🇸🇬 vless-SG-7429
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
