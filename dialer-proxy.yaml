@@ -461,7 +461,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-13805479
   dialer-proxy: LBCF
   type: vmess
-  server: 168.138.43.75
+  server: jp01.a0a.xyz
   port: 80
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
@@ -565,20 +565,20 @@ proxies:
     path: /
     headers:
       Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
-- name: 🇯🇵DP vless-JP-4395498
+- name: 🇯🇵DP vless-JP-2744172
   dialer-proxy: LBCF
   type: vless
-  server: 158.51.110.12
+  server: 126.220.82.161
   port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   udp: true
   network: ws
   tls: true
-  sni: pagescm.freen5.cc.cd
+  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
   ws-opts:
-    path: /showfp=chrome
+    path: /
     headers:
-      Host: pagescm.freen5.cc.cd
+      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
 - name: 🇺🇸DP vmess-US-14163271
   dialer-proxy: LBCF
   type: vmess
