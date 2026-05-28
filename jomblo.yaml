@@ -50,15 +50,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /lesson/tv
+    path: ''
     headers:
-      Host: pagescm.freen6.cc.cd
+      Host: vms.lifetime58.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -71,39 +71,3 @@ proxies:
     path: / @ProxyVPN11
     headers:
       Host: vip.yaml7.ggff.net
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 2096
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /vod
-    headers:
-      Host: pagescm.freen14.cc.cd
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /album/bt
-    headers:
-      Host: pagescm.freen15.cc.cd

@@ -1,4 +1,21 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-14165761
+  dialer-proxy: LBCF
+  type: trojan
+  server: 140.235.140.105
+  port: 443
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP vless-SG-14165577
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.82.239.48
+  port: 43505
+  uuid: 4cf81982-c8eb-4e7b-bd37-99cc5d49bc3c
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-14163670
   dialer-proxy: LBCF
   type: vless
@@ -17,7 +34,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-14161870
   dialer-proxy: LBCF
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -80,6 +97,14 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP ss-SG-14032940
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
+  server: 154.18.239.126
+  port: 37425
 - name: 🇸🇬DP vless-SG-13982690
   dialer-proxy: LBCF
   type: vless
@@ -103,6 +128,18 @@ proxies:
   network: tcp
   tls: true
   sni: node1.nanonet.host
+- name: 🇸🇬DP vmess-SG-13403168
+  dialer-proxy: LBCF
+  type: vmess
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6004
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP ss-SG-11949219
   dialer-proxy: LBCF
   type: ss
@@ -178,7 +215,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.13.206
+  server: 172.66.3.201
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -192,17 +229,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.53.196
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  server: 195.85.59.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: pagescm.freen6.cc.cd
+  tls: false
   ws-opts:
-    path: /lesson/tv
+    path: /
     headers:
-      Host: pagescm.freen6.cc.cd
+      Host: vms.lifetime58.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -216,48 +252,6 @@ proxies:
     path: / @ProxyVPN11
     headers:
       Host: vip.yaml7.ggff.net
-- name: 🇸🇬DP vless-SG-8023
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.19.44.117
-  port: 2096
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  network: ws
-  tls: true
-  sni: pagescm.freen14.cc.cd
-  ws-opts:
-    path: /vod
-    headers:
-      Host: pagescm.freen14.cc.cd
-- name: 🇸🇬DP vless-SG-7971
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.18.105
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  udp: true
-  network: ws
-  tls: true
-  sni: juzi.qea.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.152.23
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  network: ws
-  tls: true
-  sni: pagescm.freen15.cc.cd
-  ws-opts:
-    path: /album/bt
-    headers:
-      Host: pagescm.freen15.cc.cd
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -308,6 +302,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP ss-JP-14164878
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
   type: vless
@@ -395,7 +397,7 @@ proxies:
   server: 172.104.80.66
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
+  alterId: 0
   cipher: auto
   tls: false
   udp: true
@@ -753,16 +755,6 @@ proxies:
     headers:
       Host: usaapp1.jisuyun.top
   servername: usaapp1.jisuyun.top
-- name: 🇺🇸DP vless-US-14089115
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.250.239.8
-  port: 17195
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  udp: true
-  network: tcp
-  tls: true
-  sni: usvless.yydzx.xyz
 - name: 🇺🇸DP vless-US-14083773
   dialer-proxy: LBCF
   type: vless
@@ -850,6 +842,17 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-14058826
+  dialer-proxy: LBCF
+  type: vmess
+  server: 38.114.123.42
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
