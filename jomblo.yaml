@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 9d27a374-26d9-46df-9895-312a2062bc47
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: uin-ape.pages.dev
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
