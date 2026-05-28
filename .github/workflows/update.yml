@@ -26,13 +26,14 @@ jobs:
         run: |
           python acc.py
           python prx.py
+          python inject_sni.py
 
       - name: Commit & Push changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
 
-          git add dialer-proxy.yaml jomblo.yaml
+          git add dialer-proxy.yaml jomblo.yaml akun_wildcard_aktif.txt
 
           # kalau tidak ada perubahan → keluar tanpa error
           git diff --cached --quiet && echo "No changes detected" && exit 0
