@@ -281,8 +281,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 109.61.109.204
-  port: 33991
-  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+  port: 59696
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
   alterId: 0
   cipher: auto
   tls: true
@@ -520,17 +520,17 @@ proxies:
 - name: 🇯🇵DP vless-JP-7983737
   dialer-proxy: LBCF
   type: vless
-  server: 126.220.82.161
+  server: 64.176.36.17
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   udp: true
   network: ws
   tls: true
-  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   ws-opts:
-    path: /
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
     headers:
-      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
 - name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
