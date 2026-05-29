@@ -285,7 +285,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
 - name: 🇯🇵DP vmess-JP-14171486
   dialer-proxy: LBCF
   type: vmess
@@ -353,39 +353,6 @@ proxies:
   server: 47.74.8.80
   port: 29583
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-14064548
-  dialer-proxy: LBCF
-  type: vmess
-  server: 47.91.19.32
-  port: 15777
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-14062115
-  dialer-proxy: LBCF
-  type: vmess
-  server: 47.74.59.195
-  port: 53521
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇯🇵DP vmess-JP-14060179
-  dialer-proxy: LBCF
-  type: vmess
-  server: 8.209.218.109
-  port: 38510
-  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
   alterId: 0
   cipher: auto
   tls: false
@@ -564,6 +531,46 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇯🇵DP vless-JP-4988321
+  dialer-proxy: LBCF
+  type: vless
+  server: 126.220.82.161
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: ws
+  tls: true
+  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+- name: 🇯🇵DP vless-JP-4395498
+  dialer-proxy: LBCF
+  type: vless
+  server: 134.122.194.186
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇯🇵DP vless-JP-2836884
+  dialer-proxy: LBCF
+  type: vless
+  server: 134.122.194.186
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP trojan-US-14173565
+  dialer-proxy: LBCF
+  type: trojan
+  server: a.twodnwnpoe.xyz
+  port: 23655
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  udp: true
+  sni: water.waittomorrow.top
 - name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
@@ -735,7 +742,7 @@ proxies:
     headers:
       Host: s542.ccgfw.online
   servername: s542.ccgfw.online
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14160516
   dialer-proxy: LBCF
   type: vmess
   server: 104.233.214.176
@@ -746,22 +753,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14154995
-  dialer-proxy: LBCF
-  type: vmess
-  server: s70.ayxj.top
-  port: 443
-  uuid: 6d49fae1-374d-313e-b360-1227b0ea8dea
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: ssp-ws
-    headers:
-      Host: s70.ayxj.top
-  servername: s70.ayxj.top
 - name: 🇺🇸DP vmess-US-14151604
   dialer-proxy: LBCF
   type: vmess
