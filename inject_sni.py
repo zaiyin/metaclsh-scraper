@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs, urlunparse, urlencode
 # ================= KONFIGURASI =================
 URL_SUMBER = "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/V2Ray-Config-By-EbraSha-All-Type.txt"
 BUG_DOMAIN = "support.zoom.us"
-OUTPUT_FILE = "akun_wildcard_ws_aktif.txt"
+OUTPUT_FILE = "akun_wildcard_aktif.txt"
 MAX_THREADS = 30 # Kecepatan cek
 
 # FILTER JARINGAN
