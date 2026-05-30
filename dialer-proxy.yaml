@@ -115,17 +115,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-14161869
-  dialer-proxy: LBCF
-  type: vmess
-  server: world.t.51guangtaobao.com
-  port: 2504
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇸🇬DP trojan-SG-14123052
   dialer-proxy: LBCF
   type: trojan
@@ -163,7 +152,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
-  server: 155.254.126.249
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
@@ -171,7 +160,8 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7314090
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.207
@@ -229,20 +219,48 @@ proxies:
     path: /
     headers:
       Host: juzi.qea.ccwu.cc
-- name: 🇸🇬DP vless-SG-9203
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.49.198
+  server: 162.159.13.206
   port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
   network: ws
   tls: true
-  sni: pagescm.freen14.cc.cd
+  sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /shop
+    path: /
     headers:
-      Host: pagescm.freen14.cc.cd
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.25.242.55
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.18.105
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -368,7 +386,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
-  server: jp02.a0a.xyz
+  server: 140.83.51.161
   port: 25686
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   alterId: 0
@@ -486,7 +504,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇯🇵DP ss-JP-13076355
   dialer-proxy: LBCF
   type: ss
@@ -495,6 +512,14 @@ proxies:
   password: XKFKl2rULjIp74
   server: 103.106.228.175
   port: 8009
+- name: 🇯🇵DP ss-JP-12928569
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  server: 193.135.174.135
+  port: 990
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -542,14 +567,14 @@ proxies:
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🇺🇸DP trojan-US-14180640
   dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: shadowsocks
-  server: 149.22.87.204
+  type: trojan
+  server: 45.79.8.17
   port: 443
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  udp: true
+  sni: 45.79.8.17
 - name: 🇺🇸DP vless-US-14178788
   dialer-proxy: LBCF
   type: vless
@@ -678,7 +703,7 @@ proxies:
   password: f58cd113-a3b1-319d-a993-331481731e82
   udp: true
   sni: water.waittomorrow.top
-- name: 🏳DP ss-
+- name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -776,14 +801,3 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇺🇸DP vmess-US-14166387
-  dialer-proxy: LBCF
-  type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
