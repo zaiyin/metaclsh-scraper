@@ -163,7 +163,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  server: 155.254.126.249
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
@@ -171,7 +171,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -399,7 +398,7 @@ proxies:
   server: 172.104.80.66
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
+  alterId: 1
   cipher: auto
   tls: false
   udp: true
@@ -551,6 +550,16 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
+- name: 🇺🇸DP vless-US-14178788
+  dialer-proxy: LBCF
+  type: vless
+  server: 107.161.168.104
+  port: 7443
+  uuid: 48437590-600b-4563-86fe-994d13eb3592
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.microsoft.com
 - name: 🇺🇸DP trojan-US-14178643
   dialer-proxy: LBCF
   type: trojan
@@ -669,7 +678,7 @@ proxies:
   password: f58cd113-a3b1-319d-a993-331481731e82
   udp: true
   sni: water.waittomorrow.top
-- name: 🇺🇸DP ss-US-14172732
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -778,19 +787,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14163271
-  dialer-proxy: LBCF
-  type: vmess
-  server: usaapp2.jisuyun.top
-  port: 2053
-  uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /usavm
-    headers:
-      Host: usaapp2.jisuyun.top
-  servername: usaapp2.jisuyun.top
