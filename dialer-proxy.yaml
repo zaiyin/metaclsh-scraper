@@ -49,7 +49,7 @@ proxies:
     headers:
       Host: yd3.ainivp.com
   servername: yd3.ainivp.com
-- name: 🇸🇬DP vless-SG-14170276
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 18.143.151.84
@@ -84,16 +84,6 @@ proxies:
   udp: true
   network: tcp
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
-- name: 🇸🇬DP vless-SG-14168631
-  dialer-proxy: LBCF
-  type: vless
-  server: 84.32.22.143
-  port: 443
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-  udp: true
-  network: tcp
-  tls: false
-  sni: maps.apple.com
 - name: 🇸🇬DP vmess-SG-14161870
   dialer-proxy: LBCF
   type: vmess
@@ -152,7 +142,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  server: 155.254.126.249
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
@@ -160,7 +150,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -183,14 +172,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-6500358
-  dialer-proxy: LBCF
-  type: trojan
-  server: 5.180.78.22
-  port: 443
-  password: d30ab83dbde4480082048fb315bedebd
-  udp: true
-  sni: 5.180.78.22
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
@@ -219,10 +200,24 @@ proxies:
     path: /
     headers:
       Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 129.6.29.255
+  port: 443
+  uuid: 19804f6b-3661-4eca-b294-ba37196dab5b
+  udp: true
+  network: ws
+  tls: true
+  sni: graph.instagram.com.cyylr.eu.cc
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: graph.instagram.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.17.189
+  server: 104.17.156.197
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -250,7 +245,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.3.201
+  server: 202.37.33.80
+  port: 443
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  udp: true
+  network: ws
+  tls: true
+  sni: cyylr.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: cyylr.eu.cc
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.25.242.55
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -371,7 +380,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 147.90.234.133
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -383,7 +392,7 @@ proxies:
   network: tcp
   tls: true
   sni: jp1.fromblancwithlove.com
-- name: 🇯🇵DP vmess-JP-14059171
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: jp02.a0a.xyz
@@ -410,7 +419,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-14058863
   dialer-proxy: LBCF
   type: vmess
   server: 172.104.80.66
@@ -596,7 +605,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.deepl.com
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-14183092
   dialer-proxy: LBCF
   type: vless
   server: pl.fantoff.online
