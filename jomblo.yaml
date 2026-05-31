@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 19804f6b-3661-4eca-b294-ba37196dab5b
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /pyip=ProxyIP.SG.CMLiussss.netfp=chromefp=chrome
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: tianshu13.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
