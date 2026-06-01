@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-14170188
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 067140d7-5665-4131-844b-45d2b509a5e5
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /vless
-    headers:
-      Host: payload.xyz-my.eu.org
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -27,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /id-tksi
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: m.udemy.com.cyylr.eu.cc
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -60,18 +48,6 @@ proxies:
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
-- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
