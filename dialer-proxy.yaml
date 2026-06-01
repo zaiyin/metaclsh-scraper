@@ -221,17 +221,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 129.6.29.255
+  server: 202.37.33.80
   port: 443
-  uuid: 19804f6b-3661-4eca-b294-ba37196dab5b
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: graph.instagram.com.cyylr.eu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -249,17 +249,33 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
+  server: 202.37.33.81
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
   udp: true
   network: ws
   tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  sni: m.udemy.com.cyylr.eu.cc
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: m.udemy.com.cyylr.eu.cc
+- name: 🇲🇾DP vmess-MY-14191972
+  dialer-proxy: LBCF
+  type: vmess
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  port: 10056
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -377,7 +393,7 @@ proxies:
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
-  server: 140.83.51.161
+  server: jp02.a0a.xyz
   port: 25686
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   alterId: 0
@@ -420,14 +436,6 @@ proxies:
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   server: 47.79.144.115
   port: 40003
-- name: 🇯🇵DP trojan-JP-13993703
-  dialer-proxy: LBCF
-  type: trojan
-  server: 116.80.61.236
-  port: 443
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-13854338
   dialer-proxy: LBCF
   type: vless
@@ -535,7 +543,21 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇯🇵DP vless-JP-160488
   dialer-proxy: LBCF
   type: vless
   server: dx.mmhh.eu.cc
@@ -752,24 +774,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🇺🇸DP vless-US-14174511
-  dialer-proxy: LBCF
-  type: vless
-  server: 23.166.40.27
-  port: 443
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
-  udp: true
-  network: tcp
-  tls: true
-  sni: s881.ccgfw.top
-- name: 🇺🇸DP trojan-US-14173565
-  dialer-proxy: LBCF
-  type: trojan
-  server: a.twodnwnpoe.xyz
-  port: 23655
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  udp: true
-  sni: water.waittomorrow.top
 - name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
@@ -778,3 +782,21 @@ proxies:
   password: 4e287631dc4fc8fc
   server: 62.146.231.112
   port: 12012
+- name: 🇺🇸DP trojan-US-14172544
+  dialer-proxy: LBCF
+  type: trojan
+  server: 172.237.145.189
+  port: 443
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  udp: true
+  sni: 172.237.145.189
+- name: 🇺🇸DP vless-US-14171584
+  dialer-proxy: LBCF
+  type: vless
+  server: 170.205.37.59
+  port: 443
+  uuid: d98e6ac5-e873-402a-bcce-78e2887c936b
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.yahoo.com
