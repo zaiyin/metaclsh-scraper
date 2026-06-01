@@ -167,7 +167,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -207,17 +206,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.80
+  server: 104.25.242.61
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
+  sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: cyylr.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -235,31 +234,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.18.105
+  server: 202.37.33.80
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+    path: /sg-melbi
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.81
+  server: 104.19.229.21
   port: 443
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: m.udemy.com.cyylr.eu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi
     headers:
-      Host: m.udemy.com.cyylr.eu.cc
+      Host: cyylr.eu.cc
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -313,6 +312,16 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-14194411
+  dialer-proxy: LBCF
+  type: vless
+  server: 150.251.158.76
+  port: 443
+  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  udp: true
+  network: tcp
+  tls: true
+  sni: s646.okgg.top
 - name: 🇯🇵DP trojan-JP-14189577
   dialer-proxy: LBCF
   type: trojan
@@ -423,7 +432,7 @@ proxies:
   server: 172.104.80.66
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
+  alterId: 0
   cipher: auto
   tls: false
   udp: true
@@ -544,20 +553,6 @@ proxies:
   server: 149.22.87.241
   port: 443
 - name: 🇯🇵DP vless-JP-161220
-  dialer-proxy: LBCF
-  type: vless
-  server: dx.mmhh.eu.cc
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /fp=random
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇯🇵DP vless-JP-160488
   dialer-proxy: LBCF
   type: vless
   server: dx.mmhh.eu.cc
