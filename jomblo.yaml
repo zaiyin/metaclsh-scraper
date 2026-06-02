@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -47,15 +47,3 @@ proxies:
     path: /
     headers:
       Host: juzi.qea.ccwu.cc
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: cyylr.eu.cc
