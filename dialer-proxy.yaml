@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-14196879
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.206.130.64
+  port: 10478
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP ss-SG-14195713
   dialer-proxy: LBCF
   type: ss
@@ -18,7 +26,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14189579
   dialer-proxy: LBCF
   type: trojan
-  server: 16.163.157.108
+  server: 18.181.199.223
   port: 1180
   password: d84665c37878196ecf983cf6910e3b44
   udp: true
@@ -66,19 +74,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14183839
   dialer-proxy: LBCF
   type: trojan
-  server: 16.163.157.108
+  server: 18.163.33.60
   port: 3842
   password: d84665c37878196ecf983cf6910e3b44
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-14177814
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.166.59.84
-  port: 7484
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vless-SG-14170276
   dialer-proxy: LBCF
   type: vless
@@ -149,14 +149,6 @@ proxies:
   password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
   server: 154.18.239.126
   port: 37425
-- name: 🇸🇬DP trojan-SG-13934864
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.128.27
-  port: 4840
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP vless-SG-13928182
   dialer-proxy: LBCF
   type: vless
@@ -178,6 +170,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -256,6 +249,20 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
       Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 202.37.33.81
+  port: 443
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  udp: true
+  network: ws
+  tls: true
+  sni: m.udemy.com.cyylr.eu.cc
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: m.udemy.com.cyylr.eu.cc
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -309,6 +316,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-14196946
+  dialer-proxy: LBCF
+  type: trojan
+  server: 172.238.19.11
+  port: 443
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
+  udp: true
+  sni: 172.238.19.11
 - name: 🇯🇵DP vless-JP-14194411
   dialer-proxy: LBCF
   type: vless
@@ -335,22 +350,6 @@ proxies:
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-14177810
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.128.27
-  port: 24184
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  udp: true
-  sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-14177808
-  dialer-proxy: LBCF
-  type: trojan
-  server: 13.231.192.34
-  port: 53307
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vmess-JP-14170163
   dialer-proxy: LBCF
   type: vmess
@@ -426,6 +425,30 @@ proxies:
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   server: 47.79.144.115
   port: 40003
+- name: 🇯🇵DP trojan-JP-13946835
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.183.163.141
+  port: 4099
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇯🇵DP trojan-JP-13934861
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.181.199.223
+  port: 8066
+  password: d84665c37878196ecf983cf6910e3b44
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇯🇵DP trojan-JP-13934860
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.198.204.47
+  port: 11541
+  password: d84665c37878196ecf983cf6910e3b44
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-13854338
   dialer-proxy: LBCF
   type: vless
@@ -474,7 +497,7 @@ proxies:
     headers:
       Host: jp01.a0a.xyz
   servername: jp01.a0a.xyz
-- name: 🇯🇵DP vmess-JP-13427933
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -541,28 +564,6 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🇯🇵DP ss-JP-922375
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: shadowsocks
-  server: 149.22.87.241
-  port: 443
-- name: 🇯🇵DP vless-JP-161220
-  dialer-proxy: LBCF
-  type: vless
-  server: dx.mmhh.eu.cc
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /fp=random
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇺🇸DP vmess-US-14190659
   dialer-proxy: LBCF
   type: vmess
@@ -591,7 +592,7 @@ proxies:
   port: 2520
   password: BxceQaOe
   udp: true
-  sni: 95.40.4.37
+  sni: t.me/ripaojiedian
 - name: 🇺🇸DP vmess-US-14189071
   dialer-proxy: LBCF
   type: vmess
@@ -655,16 +656,6 @@ proxies:
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   udp: true
   sni: 45.79.8.17
-- name: 🇺🇸DP vless-US-14178788
-  dialer-proxy: LBCF
-  type: vless
-  server: 107.161.168.104
-  port: 7443
-  uuid: 48437590-600b-4563-86fe-994d13eb3592
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.microsoft.com
 - name: 🇺🇸DP trojan-US-14178643
   dialer-proxy: LBCF
   type: trojan
@@ -676,29 +667,11 @@ proxies:
 - name: 🇺🇸DP trojan-US-14177818
   dialer-proxy: LBCF
   type: trojan
-  server: 43.199.229.84
+  server: 95.40.68.192
   port: 17801
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇺🇸DP trojan-US-14177816
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.128.27
-  port: 2663
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  udp: true
-  sni: www.nintendogames.net
-- name: 🇺🇸DP vless-US-14177783
-  dialer-proxy: LBCF
-  type: vless
-  server: 84.32.70.206
-  port: 443
-  uuid: 31969cf4-c1bb-4a3e-b42b-574dfb271c73
-  udp: true
-  network: tcp
-  tls: false
-  sni: dfgh.falsemirrov.com
 - name: 🇺🇸DP trojan-US-14177281
   dialer-proxy: LBCF
   type: trojan
@@ -801,3 +774,19 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇺🇸DP trojan-US-14152056
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.163.33.60
+  port: 5224
+  password: d84665c37878196ecf983cf6910e3b44
+  udp: true
+  sni: www.nintendogames.net
+- name: 🇺🇸DP ss-US-14148572
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 5vldsNMbQ8B4cKDK0sROwj
+  server: 142.93.183.235
+  port: 20683
