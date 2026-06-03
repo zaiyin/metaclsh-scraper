@@ -114,7 +114,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14123052
   dialer-proxy: LBCF
   type: trojan
-  server: jpbgp.netvigor.cc
+  server: 211.76.176.98
   port: 19128
   password: gcuCpQfaiVeDBdWG
   udp: true
@@ -180,6 +180,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -216,38 +217,38 @@ proxies:
     path: /id-tksi
     headers:
       Host: m.udemy.com.cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-9271
+- name: vless-node
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.80
+  server: 188.114.97.6
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: 334e484f-7f7c-4895-a6e4-8951de2626f8
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
+  sni: unnes.ac.id.cyylr.eu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /ae-bo
     headers:
-      Host: cyylr.eu.cc
+      Host: unnes.ac.id.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.80
+  server: 188.114.97.6
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: 9bab5218-ce9f-4991-9887-8b3605a27d5e
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
+  sni: graph.instagram.com.cyylr.eu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /sg-amz
     headers:
-      Host: cyylr.eu.cc
+      Host: graph.instagram.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.3.201
+  server: 162.159.18.105
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -255,7 +256,7 @@ proxies:
   tls: true
   sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14191972
@@ -356,6 +357,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇯🇵DP ss-JP-14164878
   dialer-proxy: LBCF
   type: ss
@@ -453,7 +455,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇯🇵DP vless-JP-13838354
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 47.79.144.103
@@ -625,6 +627,7 @@ proxies:
   port: 443
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
+  sni: 172.235.63.252
 - name: 🇺🇸DP vmess-US-14184460
   dialer-proxy: LBCF
   type: vmess
