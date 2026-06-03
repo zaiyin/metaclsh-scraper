@@ -73,14 +73,6 @@ proxies:
     headers:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 🇸🇬DP ss-SG-14183853
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
-  server: sg-03.jjsdns.com
-  port: 17891
 - name: 🇸🇬DP trojan-SG-14183839
   dialer-proxy: LBCF
   type: trojan
@@ -142,15 +134,6 @@ proxies:
     path: /FREE By Tharuwa (0767597317)
     headers:
       Host: m.zoom.us
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.219.213.195
-  port: 10032
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP ss-SG-14032940
   dialer-proxy: LBCF
   type: ss
@@ -253,6 +236,28 @@ proxies:
     path: /sg-amz
     headers:
       Host: graph.instagram.com.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.19.229.21
+  port: 443
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  udp: true
+  network: ws
+  tls: true
+  sni: cyylr.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: cyylr.eu.cc
+- name: 🇸🇬DP trojan-SG-8430
+  dialer-proxy: LBCF
+  type: trojan
+  server: 141.193.213.30
+  port: 443
+  password: bb45f73f-795b-4a05-a8e0-ba717bce87e3
+  udp: true
+  sni: api24-normal.tiktokv.com.cyylr.eu.cc
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -616,7 +621,7 @@ proxies:
   port: 2520
   password: BxceQaOe
   udp: true
-  sni: 95.40.4.37
+  sni: t.me/ripaojiedian
 - name: 🇺🇸DP vmess-US-14189071
   dialer-proxy: LBCF
   type: vmess
