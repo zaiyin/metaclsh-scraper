@@ -39,6 +39,18 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
   uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   network: ws
   tls: true
@@ -47,13 +59,3 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
-- name: 🇸🇬 trojan-SG-8430
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: bb45f73f-795b-4a05-a8e0-ba717bce87e3
-  udp: true
-  ws-opts:
-    path: /id-tksi
-    headers:
-      Host: api24-normal.tiktokv.com.cyylr.eu.cc
