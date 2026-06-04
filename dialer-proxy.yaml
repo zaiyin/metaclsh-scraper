@@ -82,7 +82,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14123052
   dialer-proxy: LBCF
   type: trojan
-  server: 211.76.176.98
+  server: jpbgp.netvigor.cc
   port: 19128
   password: gcuCpQfaiVeDBdWG
   udp: true
@@ -160,15 +160,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-9406
-  dialer-proxy: LBCF
-  type: trojan
-  server: 141.193.213.30
-  port: 443
-  password: bb45f73f-795b-4a05-a8e0-ba717bce87e3
-  udp: true
-  sni: api24-normal.tiktokv.com.cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-9271
+- name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
   server: 104.19.229.21
@@ -182,7 +174,29 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
+- name: 🇸🇬DP trojan-SG-9271
+  dialer-proxy: LBCF
+  type: trojan
+  server: 208.103.161.170
+  port: 443
+  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
+  udp: true
+  sni: edu.ruangguru.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 9bab5218-ce9f-4991-9887-8b3605a27d5e
+  udp: true
+  network: ws
+  tls: true
+  sni: graph.instagram.com.cyylr.eu.cc
+  ws-opts:
+    path: /sg-amz
+    headers:
+      Host: graph.instagram.com.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
   server: 202.37.33.80
@@ -196,46 +210,32 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.18.105
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  udp: true
-  network: ws
-  tls: true
-  sni: juzi.qea.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.229.21
+  server: 188.114.97.6
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: 1ce9392f-caf4-48f7-bbb9-475b101fbde0
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
+  sni: graph.instagram.com.cyylr.eu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /id-tksi
     headers:
-      Host: cyylr.eu.cc
+      Host: graph.instagram.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: d3310d18-c198-4974-a3f1-f9fe7896d4dc
+  uuid: 559ab675-567f-4d61-a742-877bfd51d87c
   udp: true
   network: ws
   tls: true
   sni: zaintest.vuclip.com.cyylr.eu.cc
   ws-opts:
-    path: /ae-bo
+    path: /in-do
     headers:
       Host: zaintest.vuclip.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8023
@@ -323,14 +323,6 @@ proxies:
   network: tcp
   tls: true
   sni: s646.okgg.top
-- name: 🇯🇵DP trojan-JP-14189577
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.199.61.178
-  port: 47655
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-14177811
   dialer-proxy: LBCF
   type: trojan
@@ -545,6 +537,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
+- name: 🇯🇵DP vless-JP-163304
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇯🇵DP vless-JP-161220
   dialer-proxy: LBCF
   type: vless
@@ -559,6 +565,16 @@ proxies:
     path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸DP vless-US-14213772
+  dialer-proxy: LBCF
+  type: vless
+  server: us.healthy-connected.com
+  port: 443
+  uuid: 4405aeb6-84fc-49ba-a42b-948a3b1ed13c
+  udp: true
+  network: tcp
+  tls: false
+  sni: us.healthy-connected.com
 - name: 🇺🇸DP vless-US-14203198
   dialer-proxy: LBCF
   type: vless
@@ -661,7 +677,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🏳DP trojan-
+- name: 🇺🇸DP trojan-US-14177281
   dialer-proxy: LBCF
   type: trojan
   server: 130.94.107.171
@@ -790,14 +806,3 @@ proxies:
     headers:
       Host: accklsj.bufu.us.ci
   servername: accklsj.bufu.us.ci
-- name: 🇺🇸DP vmess-US-14058854
-  dialer-proxy: LBCF
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
