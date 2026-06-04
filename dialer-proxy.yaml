@@ -59,6 +59,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
+- name: 🇸🇬DP trojan-SG-14165761
+  dialer-proxy: LBCF
+  type: trojan
+  server: 140.235.140.105
+  port: 443
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-14161870
   dialer-proxy: LBCF
   type: vmess
@@ -74,7 +82,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14123052
   dialer-proxy: LBCF
   type: trojan
-  server: jpbgp.netvigor.cc
+  server: 211.76.176.98
   port: 19128
   password: gcuCpQfaiVeDBdWG
   udp: true
@@ -152,70 +160,70 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
+- name: 🇸🇬DP trojan-SG-9406
+  dialer-proxy: LBCF
+  type: trojan
+  server: 141.193.213.30
+  port: 443
+  password: bb45f73f-795b-4a05-a8e0-ba717bce87e3
+  udp: true
+  sni: api24-normal.tiktokv.com.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.81
+  server: 104.19.229.21
   port: 443
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: m.udemy.com.cyylr.eu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi
     headers:
-      Host: m.udemy.com.cyylr.eu.cc
-- name: 🇸🇬DP trojan-SG-9271
-  dialer-proxy: LBCF
-  type: trojan
-  server: 208.103.161.170
-  port: 443
-  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
-  udp: true
-  sni: edu.ruangguru.com.cyylr.eu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 45.130.125.160
+  server: 202.37.33.80
   port: 443
-  uuid: 47422044-85e3-426b-b6c4-3588cb24a3e5
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: s.blibli.com.cyylr.eu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /ae-bo
+    path: /sg-melbi
     headers:
-      Host: s.blibli.com.cyylr.eu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.18.105
+  server: 104.19.229.21
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: cyylr.eu.cc
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 129.6.29.255
+  server: 188.114.97.6
   port: 443
-  uuid: 19804f6b-3661-4eca-b294-ba37196dab5b
+  uuid: 0a4eabad-a6b8-4f4a-b610-4540b9c8f49a
   udp: true
   network: ws
   tls: true
-  sni: graph.instagram.com.cyylr.eu.cc
+  sni: ava.game.naver.com.cyylr.eu.cc
   ws-opts:
-    path: /id-tksi
+    path: /sg-orcl
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: ava.game.naver.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
@@ -233,25 +241,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.80
+  server: 188.114.97.6
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: 334e484f-7f7c-4895-a6e4-8951de2626f8
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
+  sni: unnes.ac.id.cyylr.eu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /ae-bo
     headers:
-      Host: cyylr.eu.cc
-- name: 🇸🇬DP trojan-SG-7971
-  dialer-proxy: LBCF
-  type: trojan
-  server: 109.234.211.66
-  port: 8443
-  password: trojan
-  udp: true
-  sni: store.timimi.dpdns.org
+      Host: unnes.ac.id.cyylr.eu.cc
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -349,7 +349,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -598,16 +598,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vless-US-14189625
-  dialer-proxy: LBCF
-  type: vless
-  server: 2.27.13.15
-  port: 443
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
-  udp: true
-  network: tcp
-  tls: false
-  sni: newfn.stardevs.top
 - name: 🇺🇸DP trojan-US-14189588
   dialer-proxy: LBCF
   type: trojan
@@ -685,7 +675,7 @@ proxies:
   password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   udp: true
   sni: www.logger-guard.click
-- name: 🇺🇸DP ss-US-14172732
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -721,22 +711,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14163271
-  dialer-proxy: LBCF
-  type: vmess
-  server: 172.236.226.7
-  port: 2053
-  uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /usavm
-    headers:
-      Host: usaapp2.jisuyun.top
-  servername: usaapp2.jisuyun.top
 - name: 🇺🇸DP vmess-US-14161877
   dialer-proxy: LBCF
   type: vmess
@@ -793,3 +767,32 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
+- name: 🇺🇸DP vmess-US-14080424
+  dialer-proxy: LBCF
+  type: vmess
+  server: 66.154.106.185
+  port: 48060
+  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸DP vmess-US-14060091
+  dialer-proxy: LBCF
+  type: vmess
+  server: skk.moe
+  port: 80
+  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+    headers:
+      Host: accklsj.bufu.us.ci
+  servername: accklsj.bufu.us.ci
