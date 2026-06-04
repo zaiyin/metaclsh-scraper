@@ -199,6 +199,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
+  server: 162.159.18.105
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
   server: 104.19.229.21
   port: 443
   uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
@@ -210,34 +224,20 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0a4eabad-a6b8-4f4a-b610-4540b9c8f49a
-  udp: true
-  network: ws
-  tls: true
-  sni: ava.game.naver.com.cyylr.eu.cc
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ava.game.naver.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: 5f225374-54c9-4945-91ea-a911b9384239
+  uuid: d3310d18-c198-4974-a3f1-f9fe7896d4dc
   udp: true
   network: ws
   tls: true
-  sni: graph.instagram.com.cyylr.eu.cc
+  sni: zaintest.vuclip.com.cyylr.eu.cc
   ws-opts:
-    path: /my-wbv
+    path: /ae-bo
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: zaintest.vuclip.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -331,6 +331,14 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
+- name: 🇯🇵DP trojan-JP-14177811
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.207.82.19
+  port: 31351
+  password: d84665c37878196ecf983cf6910e3b44
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇯🇵DP vmess-JP-14170163
   dialer-proxy: LBCF
   type: vmess
@@ -349,7 +357,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 38.135.24.131
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -431,15 +439,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   udp: true
   sni: www.nintendogames.net
-- name: 🇯🇵DP vless-JP-13854338
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.216.21.135
-  port: 10026
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇯🇵DP vless-JP-13838354
   dialer-proxy: LBCF
   type: vless
@@ -499,14 +498,6 @@ proxies:
   password: XKFKl2rULjIp74
   server: 103.106.228.175
   port: 8009
-- name: 🇯🇵DP ss-JP-12928569
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  server: 193.135.174.135
-  port: 990
 - name: 🇯🇵DP vless-JP-12510381
   dialer-proxy: LBCF
   type: vless
@@ -554,6 +545,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇺🇸DP vless-US-14203198
   dialer-proxy: LBCF
   type: vless
@@ -587,17 +592,6 @@ proxies:
     path: /tixvuws
     headers:
       Host: vangoghhh.info
-- name: 🇺🇸DP vmess-US-14190659
-  dialer-proxy: LBCF
-  type: vmess
-  server: vpnicp.xyc.hk.cn
-  port: 20001
-  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇺🇸DP trojan-US-14189588
   dialer-proxy: LBCF
   type: trojan
@@ -667,7 +661,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇺🇸DP trojan-US-14177281
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 130.94.107.171
@@ -675,7 +669,7 @@ proxies:
   password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   udp: true
   sni: www.logger-guard.click
-- name: 🏳DP ss-
+- name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -796,3 +790,14 @@ proxies:
     headers:
       Host: accklsj.bufu.us.ci
   servername: accklsj.bufu.us.ci
+- name: 🇺🇸DP vmess-US-14058854
+  dialer-proxy: LBCF
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
