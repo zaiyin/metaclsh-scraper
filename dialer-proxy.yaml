@@ -41,38 +41,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP vmess-SG-14188891
-  dialer-proxy: LBCF
-  type: vmess
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10034
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 🇸🇬DP vmess-SG-14187955
-  dialer-proxy: LBCF
-  type: vmess
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10123
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
 - name: 🇸🇬DP trojan-SG-14183839
   dialer-proxy: LBCF
   type: trojan
@@ -111,16 +79,6 @@ proxies:
   password: gcuCpQfaiVeDBdWG
   udp: true
   sni: yazhou10.dynu.net
-- name: 🇸🇬DP vless-SG-14119843
-  dialer-proxy: LBCF
-  type: vless
-  server: 50.114.55.14
-  port: 10001
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.icloud.com
 - name: 🇸🇬DP vless-SG-14065109
   dialer-proxy: LBCF
   type: vless
@@ -171,6 +129,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -207,34 +166,28 @@ proxies:
     path: /id-tksi
     headers:
       Host: m.udemy.com.cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-9271
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: 202.37.33.80
+  type: trojan
+  server: 208.103.161.170
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
   udp: true
-  network: ws
-  tls: true
-  sni: cyylr.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: cyylr.eu.cc
+  sni: edu.ruangguru.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.6
+  server: 45.130.125.160
   port: 443
-  uuid: 9bab5218-ce9f-4991-9887-8b3605a27d5e
+  uuid: 47422044-85e3-426b-b6c4-3588cb24a3e5
   udp: true
   network: ws
   tls: true
-  sni: graph.instagram.com.cyylr.eu.cc
+  sni: s.blibli.com.cyylr.eu.cc
   ws-opts:
-    path: /sg-amz
+    path: /ae-bo
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: s.blibli.com.cyylr.eu.cc
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
@@ -252,6 +205,34 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
+  server: 129.6.29.255
+  port: 443
+  uuid: 19804f6b-3661-4eca-b294-ba37196dab5b
+  udp: true
+  network: ws
+  tls: true
+  sni: graph.instagram.com.cyylr.eu.cc
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: graph.instagram.com.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-8105
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 5f225374-54c9-4945-91ea-a911b9384239
+  udp: true
+  network: ws
+  tls: true
+  sni: graph.instagram.com.cyylr.eu.cc
+  ws-opts:
+    path: /my-wbv
+    headers:
+      Host: graph.instagram.com.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-8023
+  dialer-proxy: LBCF
+  type: vless
   server: 202.37.33.80
   port: 443
   uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
@@ -263,6 +244,14 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
+- name: 🇸🇬DP trojan-SG-7971
+  dialer-proxy: LBCF
+  type: trojan
+  server: 109.234.211.66
+  port: 8443
+  password: trojan
+  udp: true
+  sni: store.timimi.dpdns.org
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -662,16 +651,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vless-US-14184022
-  dialer-proxy: LBCF
-  type: vless
-  server: 2.26.3.148
-  port: 443
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.deepl.com
 - name: 🇺🇸DP vless-US-14183092
   dialer-proxy: LBCF
   type: vless
@@ -722,16 +701,6 @@ proxies:
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   udp: true
   sni: 172.237.145.189
-- name: 🇺🇸DP vless-US-14171584
-  dialer-proxy: LBCF
-  type: vless
-  server: 170.205.37.59
-  port: 443
-  uuid: d98e6ac5-e873-402a-bcce-78e2887c936b
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.yahoo.com
 - name: 🇺🇸DP vless-US-14169296
   dialer-proxy: LBCF
   type: vless
@@ -800,3 +769,27 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   udp: true
   sni: www.nintendogames.net
+- name: 🇺🇸DP vmess-US-14089709
+  dialer-proxy: LBCF
+  type: vmess
+  server: usaapp1.jisuyun.top
+  port: 2053
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /usavm
+    headers:
+      Host: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+- name: 🇺🇸DP trojan-US-14087244
+  dialer-proxy: LBCF
+  type: trojan
+  server: 95.40.68.150
+  port: 2702
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
