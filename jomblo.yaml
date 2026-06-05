@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d3310d18-c198-4974-a3f1-f9fe7896d4dc
+  uuid: 6e593426-1a8e-4226-984f-0ea174e218c7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /ae-bo
+    path: /id-pusat
     headers:
-      Host: zaintest.vuclip.com.cyylr.eu.cc
+      Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
 - name: 🇸🇬 trojan-SG-9203
   type: trojan
   server: bug.xcp
@@ -33,7 +33,19 @@ proxies:
     path: /ae-bo
     headers:
       Host: s.blibli.com.cyylr.eu.cc
-- name: 🇸🇬 trojan-SG-8862
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬 trojan-SG-8430
   type: trojan
   server: bug.xcp
   port: 443
@@ -43,30 +55,18 @@ proxies:
     path: /id-tksi
     headers:
       Host: api24-normal.tiktokv.com.cyylr.eu.cc
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: cyylr.eu.cc
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 1ce9392f-caf4-48f7-bbb9-475b101fbde0
+  uuid: 559ab675-567f-4d61-a742-877bfd51d87c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /in-do
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
+      Host: zaintest.vuclip.com.cyylr.eu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -91,13 +91,15 @@ proxies:
     path: /id-tksi
     headers:
       Host: grabacademyportal.grab.com.cyylr.eu.cc
-- name: 🇸🇬 trojan-SG-7966
-  type: trojan
+- name: 🇸🇬 vless-SG-7966
+  type: vless
   server: bug.xcp
   port: 443
-  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
+  uuid: d2992c0d-53cb-489c-85af-5eb80e6d9e79
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /in-do
     headers:
-      Host: edu.ruangguru.com.cyylr.eu.cc
+      Host: blog.webex.com.cyylr.eu.cc
