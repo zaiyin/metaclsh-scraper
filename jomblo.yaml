@@ -11,29 +11,39 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
-- name: 🇸🇬 trojan-SG-9271
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
-  udp: true
-  ws-opts:
-    path: /id-tksi
-    headers:
-      Host: edu.ruangguru.com.cyylr.eu.cc
-- name: 🇸🇬 vless-SG-9203
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 9bab5218-ce9f-4991-9887-8b3605a27d5e
+  uuid: d3310d18-c198-4974-a3f1-f9fe7896d4dc
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-amz
+    path: /ae-bo
     headers:
-      Host: graph.instagram.com.cyylr.eu.cc
-- name: 🇸🇬 vless-SG-8862
+      Host: zaintest.vuclip.com.cyylr.eu.cc
+- name: 🇸🇬 trojan-SG-9203
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: aa710f78-eddb-45b4-bd32-1f8692a754e5
+  udp: true
+  ws-opts:
+    path: /ae-bo
+    headers:
+      Host: s.blibli.com.cyylr.eu.cc
+- name: 🇸🇬 trojan-SG-8862
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: Config0plus
+  udp: true
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: api24-normal.tiktokv.com.cyylr.eu.cc
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
@@ -45,7 +55,7 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
@@ -57,18 +67,6 @@ proxies:
     path: /id-tksi
     headers:
       Host: graph.instagram.com.cyylr.eu.cc
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 559ab675-567f-4d61-a742-877bfd51d87c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /in-do
-    headers:
-      Host: zaintest.vuclip.com.cyylr.eu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -81,3 +79,25 @@ proxies:
     path: /ae-bo
     headers:
       Host: unnes.ac.id.cyylr.eu.cc
+- name: 🇸🇬 vless-SG-7971
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 9232a847-8f7d-4548-a23a-a8b3550e0f15
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: grabacademyportal.grab.com.cyylr.eu.cc
+- name: 🇸🇬 trojan-SG-7966
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
+  udp: true
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: edu.ruangguru.com.cyylr.eu.cc
