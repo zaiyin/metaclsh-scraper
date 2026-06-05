@@ -92,15 +92,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  port: 80
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
     headers:
-      Host: cyylr.eu.cc
+      Host: billowing-cloud-d339.sospanel.workers.dev
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
