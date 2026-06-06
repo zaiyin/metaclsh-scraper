@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6e593426-1a8e-4226-984f-0ea174e218c7
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /id-pusat
+    path: /
     headers:
-      Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 trojan-SG-9203
   type: trojan
   server: bug.xcp
@@ -151,3 +151,15 @@ proxies:
     path: /sg-melbi
     headers:
       Host: cyylr.eu.cc
+- name: 🇸🇬 vless-SG-7429
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
