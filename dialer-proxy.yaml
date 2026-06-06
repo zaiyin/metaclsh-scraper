@@ -1,14 +1,4 @@
 proxies:
-- name: 🇸🇬DP vless-SG-14200966
-  dialer-proxy: LBCF
-  type: vless
-  server: vsgch.mostserv.xyz
-  port: 443
-  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
-  udp: true
-  network: tcp
-  tls: false
-  sni: vsgch.mostserv.xyz
 - name: 🇸🇬DP trojan-SG-14196879
   dialer-proxy: LBCF
   type: trojan
@@ -50,7 +40,7 @@ proxies:
   port: 443
   password: BxceQaOe
   udp: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
 - name: 🇸🇬DP vmess-SG-14161870
   dialer-proxy: LBCF
   type: vmess
@@ -63,10 +53,10 @@ proxies:
   udp: true
   network: tcp
   servername: gtm-sg-cc54q7d1q01.365cloud0285.com
-- name: 🇸🇬DP trojan-SG-14123052
+- name: trojan-node
   dialer-proxy: LBCF
   type: trojan
-  server: 211.76.176.97
+  server: jpbgp.netvigor.cc
   port: 19128
   password: gcuCpQfaiVeDBdWG
   udp: true
@@ -121,7 +111,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -183,7 +172,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.13.206
+  server: 162.159.18.105
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -191,7 +180,7 @@ proxies:
   tls: true
   sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP trojan-SG-8430
@@ -265,6 +254,20 @@ proxies:
     path: /my-wbv
     headers:
       Host: unnes.ac.id.cyylr.eu.cc
+- name: 🇸🇬DP vless-SG-7724
+  dialer-proxy: LBCF
+  type: vless
+  server: 202.37.33.80
+  port: 443
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  udp: true
+  network: ws
+  tls: true
+  sni: cyylr.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: cyylr.eu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -346,7 +349,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -396,22 +399,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP ss-JP-14036842
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
-  server: 47.79.144.115
-  port: 40003
-- name: 🇯🇵DP trojan-JP-13946835
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.183.163.141
-  port: 4099
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-13934861
   dialer-proxy: LBCF
   type: trojan
@@ -554,6 +541,20 @@ proxies:
     path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇯🇵DP vless-JP-162885
+  dialer-proxy: LBCF
+  type: vless
+  server: 142.248.151.249
+  port: 17512
+  uuid: 00000000-0000-4000-8000-000000000000
+  udp: true
+  network: ws
+  tls: true
+  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  ws-opts:
+    path: /@Marisa_kristifp=chrome
+    headers:
+      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
 - name: 🇯🇵DP vless-JP-161220
   dialer-proxy: LBCF
   type: vless
@@ -650,7 +651,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-14183092
   dialer-proxy: LBCF
   type: vless
   server: pl.fantoff.online
@@ -684,6 +685,16 @@ proxies:
   password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   udp: true
   sni: www.logger-guard.click
+- name: 🇺🇸DP vless-US-14174807
+  dialer-proxy: LBCF
+  type: vless
+  server: 44.242.50.106
+  port: 36895
+  uuid: 5c875449-ae7d-46f8-b919-5a29f271dfce
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.icloud.com
 - name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
