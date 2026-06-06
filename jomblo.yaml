@@ -42,19 +42,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: juzi.qea.ccwu.cc
-- name: 🇸🇬 trojan-SG-8430
-  type: trojan
+- name: 🇸🇬 vless-SG-8430
+  type: vless
   server: bug.xcp
   port: 443
-  password: Config0plus
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /
     headers:
-      Host: api24-normal.tiktokv.com.cyylr.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -92,15 +94,15 @@ proxies:
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    path: /
     headers:
-      Host: billowing-cloud-d339.sospanel.workers.dev
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -114,6 +116,30 @@ proxies:
     headers:
       Host: unnes.ac.id.cyylr.eu.cc
 - name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: cyylr.eu.cc
+- name: 🇸🇬 vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
   port: 443
