@@ -53,14 +53,6 @@ proxies:
   password: gcuCpQfaiVeDBdWG
   udp: true
   sni: yazhou10.dynu.net
-- name: 🇸🇬DP ss-SG-14032940
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
-  server: 154.18.239.126
-  port: 37425
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
@@ -133,7 +125,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.18.105
+  server: 162.159.13.206
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -141,7 +133,7 @@ proxies:
   tls: true
   sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-8430
@@ -189,17 +181,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.6
+  server: 104.25.252.37
   port: 443
-  uuid: a253ff3f-fb8d-4160-85e8-61b080f0f561
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
   network: ws
   tls: true
-  sni: dfsuporte.garena.com.ex33r.eu.cc
+  sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /my-mbv
+    path: /
     headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -270,20 +262,14 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.ex33r.eu.cc
-- name: 🇸🇬DP vless-SG-7429
+- name: 🇸🇬DP trojan-SG-7429
   dialer-proxy: LBCF
-  type: vless
-  server: 104.25.242.55
+  type: trojan
+  server: 185.18.250.252
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   udp: true
-  network: ws
-  tls: true
-  sni: juzi.qea.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
+  sni: unnes.ac.id.r3xxe.eu.cc
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
@@ -298,6 +284,20 @@ proxies:
     path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-5222
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.150.241
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -395,7 +395,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 38.135.24.131
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -527,7 +527,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-5141029
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -581,6 +581,16 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
+- name: 🇺🇸DP vless-US-14235182
+  dialer-proxy: LBCF
+  type: vless
+  server: 2.26.88.109
+  port: 443
+  uuid: 749a5df1-2d12-45cf-80f3-f85ea6b2e405
+  udp: true
+  network: tcp
+  tls: false
+  sni: google.com
 - name: 🇺🇸DP vless-US-14233396
   dialer-proxy: LBCF
   type: vless
@@ -643,7 +653,8 @@ proxies:
   port: 443
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
-- name: 🏳DP vmess-
+  sni: 172.235.63.252
+- name: 🇺🇸DP vmess-US-14184460
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
@@ -749,7 +760,7 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-- name: 🇺🇸DP vmess-US-14160516
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 104.233.214.176
@@ -825,17 +836,6 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14058826
-  dialer-proxy: LBCF
-  type: vmess
-  server: 38.114.123.42
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0

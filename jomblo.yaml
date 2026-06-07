@@ -42,7 +42,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8430
@@ -85,14 +85,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a253ff3f-fb8d-4160-85e8-61b080f0f561
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /my-mbv
+    path: /
     headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
@@ -153,7 +153,17 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.ex33r.eu.cc
-- name: 🇸🇬 vless-SG-7429
+- name: 🇸🇬 trojan-SG-7429
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
+  udp: true
+  ws-opts:
+    path: /au-mt
+    headers:
+      Host: unnes.ac.id.r3xxe.eu.cc
+- name: 🇸🇬 vless-SG-5222
   type: vless
   server: bug.xcp
   port: 443
