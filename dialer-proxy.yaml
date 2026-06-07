@@ -74,7 +74,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  server: 155.254.126.249
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
@@ -107,31 +107,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.229.21
+  server: 172.64.53.74
   port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: cyylr.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.25.242.61
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  udp: true
-  network: ws
-  tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
     path: /
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.152.233
+  port: 443
+  uuid: 08b006dc-17e4-411d-9528-4369d72ad646
+  udp: true
+  network: ws
+  tls: true
+  sni: support.zoom.us.ex33r.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.ex33r.eu.cc
 - name: 🇸🇬DP trojan-SG-9203
   dialer-proxy: LBCF
   type: trojan
@@ -143,7 +143,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.13.206
+  server: 162.159.18.105
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -151,7 +151,7 @@ proxies:
   tls: true
   sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-8430
@@ -196,18 +196,24 @@ proxies:
     path: /ae-bo
     headers:
       Host: unnes.ac.id.cyylr.eu.cc
-- name: 🇸🇬DP trojan-SG-7971
+- name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
-  type: trojan
-  server: 104.19.229.21
+  type: vless
+  server: 172.66.3.201
   port: 443
-  password: bb45f73f-795b-4a05-a8e0-ba717bce87e3
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
-  sni: api24-normal.tiktokv.com.cyylr.eu.cc
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.13.20
+  server: 104.17.156.197
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -221,17 +227,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.6
+  server: 162.159.13.20
   port: 443
-  uuid: 429f43ca-087a-4fbc-9d88-9d9007bf30bc
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
   network: ws
   tls: true
-  sni: unnes.ac.id.cyylr.eu.cc
+  sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /my-wbv
+    path: /
     headers:
-      Host: unnes.ac.id.cyylr.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
@@ -263,21 +269,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 202.37.33.80
-  port: 443
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
-  udp: true
-  network: ws
-  tls: true
-  sni: cyylr.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: cyylr.eu.cc
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.17.156.197
+  server: 104.25.242.61
   port: 443
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
@@ -286,6 +278,20 @@ proxies:
   sni: juzi.qea.ccwu.cc
   ws-opts:
     path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.18.105
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
       Host: juzi.qea.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14164165
@@ -385,7 +391,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -435,14 +441,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP ss-JP-14036842
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
-  server: 47.79.144.115
-  port: 40003
 - name: 🇯🇵DP vless-JP-13838354
   dialer-proxy: LBCF
   type: vless
@@ -726,7 +724,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14166387
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.143.80
