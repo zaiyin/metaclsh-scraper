@@ -85,14 +85,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: a253ff3f-fb8d-4160-85e8-61b080f0f561
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /my-mbv
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: dfsuporte.garena.com.ex33r.eu.cc
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
@@ -157,11 +157,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 08b006dc-17e4-411d-9528-4369d72ad646
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.ex33r.eu.cc
+      Host: juzi.qea.ccwu.cc

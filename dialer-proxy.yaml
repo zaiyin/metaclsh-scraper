@@ -61,16 +61,6 @@ proxies:
   password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
   server: 154.18.239.126
   port: 37425
-- name: 🇸🇬DP vless-SG-13928182
-  dialer-proxy: LBCF
-  type: vless
-  server: 159.89.194.243
-  port: 22539
-  uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
-  udp: true
-  network: tcp
-  tls: true
-  sni: node1.nanonet.host
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
@@ -199,17 +189,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.3.201
+  server: 188.114.97.6
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: a253ff3f-fb8d-4160-85e8-61b080f0f561
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: dfsuporte.garena.com.ex33r.eu.cc
   ws-opts:
-    path: /
+    path: /my-mbv
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: dfsuporte.garena.com.ex33r.eu.cc
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -283,17 +273,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.152.233
+  server: 104.25.242.55
   port: 443
-  uuid: 08b006dc-17e4-411d-9528-4369d72ad646
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.ex33r.eu.cc
+  sni: juzi.qea.ccwu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.ex33r.eu.cc
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-7424
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.34.124
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -391,7 +395,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -441,14 +445,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP ss-JP-14036842
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
-  server: 47.79.144.115
-  port: 40003
 - name: 🇯🇵DP vless-JP-13838354
   dialer-proxy: LBCF
   type: vless
@@ -531,7 +527,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -624,16 +620,6 @@ proxies:
   network: tcp
   tls: false
   sni: us.healthy-connected.com
-- name: 🇺🇸DP vless-US-14203198
-  dialer-proxy: LBCF
-  type: vless
-  server: 31.207.5.73
-  port: 443
-  uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.amd.com
 - name: 🇺🇸DP vmess-US-14189071
   dialer-proxy: LBCF
   type: vmess
@@ -657,8 +643,7 @@ proxies:
   port: 443
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
-  sni: 172.235.63.252
-- name: 🇺🇸DP vmess-US-14184460
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
@@ -785,7 +770,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.deepl.com
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14080424
   dialer-proxy: LBCF
   type: vmess
   server: 66.154.106.185
@@ -840,6 +825,17 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-14058826
+  dialer-proxy: LBCF
+  type: vmess
+  server: 38.114.123.42
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
