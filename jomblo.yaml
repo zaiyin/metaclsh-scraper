@@ -99,14 +99,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: a321980f-54ce-432a-862a-76035b9d78ad
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /nl-tw
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: m.udemy.com.r3xxe.eu.cc
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -155,15 +155,3 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.ex33r.eu.cc
-- name: 🇸🇬 vless-SG-5222
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
