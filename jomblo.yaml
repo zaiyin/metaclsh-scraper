@@ -27,14 +27,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-amz
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
     headers:
-      Host: partner.catchplay.com.r3xxe.eu.cc
+      Host: juzi.qea.ccwu.cc
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -50,15 +50,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: a253ff3f-fb8d-4160-85e8-61b080f0f561
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /my-mbv
+    path: /
     headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
