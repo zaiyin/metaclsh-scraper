@@ -73,7 +73,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.202
@@ -255,17 +255,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.152.233
+  server: dx.mmhh.eu.cc
   port: 443
-  uuid: 08b006dc-17e4-411d-9528-4369d72ad646
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.ex33r.eu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi
+    path: /fp=random
     headers:
-      Host: support.zoom.us.ex33r.eu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
@@ -280,20 +280,20 @@ proxies:
     path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-5222
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.150.241
+  server: 172.64.53.74
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
     path: /
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
