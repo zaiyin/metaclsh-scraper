@@ -269,7 +269,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 172.67.185.178
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -407,7 +407,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🇯🇵DP vless-JP-14241642
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 18.183.94.154
@@ -627,6 +627,14 @@ proxies:
     path: /@Marisa_kristifp=chrome
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+- name: 🇺🇸DP ss-US-14247944
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  server: account-center.zzdy25.com
+  port: 36321
 - name: 🇺🇸DP vless-US-14247181
   dialer-proxy: LBCF
   type: vless
@@ -856,7 +864,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14161877
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.77.248
