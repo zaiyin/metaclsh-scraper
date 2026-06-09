@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-14247653
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.162.54.223
+  port: 41421
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vless-SG-14243995
   dialer-proxy: LBCF
   type: vless
@@ -17,22 +25,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP trojan-SG-14224629
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.167.42.231
-  port: 6357
-  password: d84665c37878196ecf983cf6910e3b44
-  udp: true
-  sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-14224628
-  dialer-proxy: LBCF
-  type: trojan
-  server: 95.40.35.52
-  port: 12143
-  password: d84665c37878196ecf983cf6910e3b44
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-14187955
   dialer-proxy: LBCF
   type: vmess
@@ -49,22 +41,6 @@ proxies:
     headers:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 🇸🇬DP trojan-SG-14165761
-  dialer-proxy: LBCF
-  type: trojan
-  server: 140.235.140.105
-  port: 443
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
-- name: 🇸🇬DP trojan-SG-14123052
-  dialer-proxy: LBCF
-  type: trojan
-  server: 211.76.176.97
-  port: 19128
-  password: gcuCpQfaiVeDBdWG
-  udp: true
-  sni: yazhou10.dynu.net
 - name: 🇸🇬DP vless-SG-14119843
   dialer-proxy: LBCF
   type: vless
@@ -293,7 +269,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.185.178
+  server: 104.18.34.124
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -304,6 +280,48 @@ proxies:
     path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-5222
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.150.241
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  network: ws
+  tls: true
+  sni: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi.qea.ccwu.cc
+- name: 🇸🇬DP vless-SG-5033
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.34.124
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-4717
+  dialer-proxy: LBCF
+  type: vless
+  server: cf.9999669.xyz
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -341,6 +359,34 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-14248542
+  dialer-proxy: LBCF
+  type: vless
+  server: 3.112.19.64
+  port: 26902
+  uuid: 9cb72288-da5a-40a4-b856-4557f9849016
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.icloud.com
+- name: 🇯🇵DP vless-JP-14247663
+  dialer-proxy: LBCF
+  type: vless
+  server: 152.69.195.67
+  port: 47878
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+  udp: true
+  network: tcp
+  tls: false
+  sni: 152.69.195.67
+- name: 🇯🇵DP trojan-JP-14247652
+  dialer-proxy: LBCF
+  type: trojan
+  server: 54.178.8.69
+  port: 6737
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-14244014
   dialer-proxy: LBCF
   type: vless
@@ -381,22 +427,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nvidia.com
-- name: 🇯🇵DP trojan-JP-14224625
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.198.226.205
-  port: 37973
-  password: d84665c37878196ecf983cf6910e3b44
-  udp: true
-  sni: www.nintendogames.net
-- name: 🇯🇵DP trojan-JP-14224623
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.167.42.231
-  port: 5701
-  password: d84665c37878196ecf983cf6910e3b44
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-14196946
   dialer-proxy: LBCF
   type: trojan
@@ -415,18 +445,6 @@ proxies:
   network: tcp
   tls: true
   sni: s646.okgg.top
-- name: 🇯🇵DP vmess-JP-14170163
-  dialer-proxy: LBCF
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6003
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇯🇵DP ss-JP-14164878
   dialer-proxy: LBCF
   type: ss
@@ -838,7 +856,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14161877
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.77.248
@@ -851,14 +869,3 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-- name: 🇺🇸DP vmess-US-14160516
-  dialer-proxy: LBCF
-  type: vmess
-  server: 104.233.214.176
-  port: 13581
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
