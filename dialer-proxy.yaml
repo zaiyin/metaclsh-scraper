@@ -1,5 +1,13 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🏳DP ss-
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
+  server: 168.138.175.92
+  port: 9888
+- name: 🇸🇬DP trojan-SG-14255353
   dialer-proxy: LBCF
   type: trojan
   server: 43.198.203.3
@@ -235,17 +243,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.13.20
+  server: 172.67.185.178
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
@@ -287,20 +295,6 @@ proxies:
     path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🏳DP vless-
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.53.74
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -328,7 +322,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vmess-MY-14083204
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.149.51
@@ -695,16 +689,6 @@ proxies:
   network: tcp
   tls: false
   sni: google.com
-- name: 🇺🇸DP vless-US-14233396
-  dialer-proxy: LBCF
-  type: vless
-  server: 167.104.223.57
-  port: 7443
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.microsoft.com
 - name: 🇺🇸DP vless-US-14226076
   dialer-proxy: LBCF
   type: vless
@@ -849,3 +833,16 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇺🇸DP vmess-US-14161877
+  dialer-proxy: LBCF
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
