@@ -47,18 +47,6 @@ proxies:
     path: /
     headers:
       Host: juzi.qea.ccwu.cc
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
