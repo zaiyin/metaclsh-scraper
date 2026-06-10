@@ -73,7 +73,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.202
@@ -255,21 +255,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: dx.mmhh.eu.cc
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 50.62.198.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: false
   ws-opts:
-    path: /fp=random
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: vms.lifetime39.workers.dev
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.185.178
+  server: 104.18.34.124
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -297,7 +296,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 162.159.12.41
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -305,23 +304,9 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-4717
-  dialer-proxy: LBCF
-  type: vless
-  server: cf.9999669.xyz
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -350,8 +335,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -548,18 +533,6 @@ proxies:
     headers:
       Host: jp01.a0a.xyz
   servername: jp01.a0a.xyz
-- name: 🇯🇵DP vmess-JP-13427933
-  dialer-proxy: LBCF
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6003
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: gtm-sg-cc54q7d1q01.365cloud0285.com
 - name: 🇯🇵DP ss-JP-13076355
   dialer-proxy: LBCF
   type: ss
@@ -627,6 +600,14 @@ proxies:
     path: /@Marisa_kristifp=chrome
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+- name: 🏳DP ss-
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.240
+  port: 443
 - name: 🇺🇸DP ss-US-14247944
   dialer-proxy: LBCF
   type: ss
