@@ -23,7 +23,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-14243995
   dialer-proxy: LBCF
   type: vless
   server: 52.76.240.5
@@ -284,7 +284,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 172.67.185.178
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -348,6 +348,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-14260476
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.199.207.202
+  port: 16712
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-14255350
   dialer-proxy: LBCF
   type: trojan
@@ -456,7 +464,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -592,20 +600,13 @@ proxies:
   password: shadowsocks
   server: 149.22.87.204
   port: 443
-- name: 🇯🇵DP vless-JP-4395498
+- name: 🇺🇸DP trojan-US-14260534
   dialer-proxy: LBCF
-  type: vless
-  server: 142.248.151.249
-  port: 17512
-  uuid: 00000000-0000-4000-8000-000000000000
+  type: trojan
+  server: 178.83.46.50
+  port: 51117
+  password: 96sc719vi2gtuqp6
   udp: true
-  network: ws
-  tls: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
 - name: 🇺🇸DP vless-US-14247181
   dialer-proxy: LBCF
   type: vless
@@ -833,16 +834,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14161877
-  dialer-proxy: LBCF
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
