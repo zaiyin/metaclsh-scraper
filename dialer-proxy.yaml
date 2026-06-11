@@ -31,7 +31,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP vless-SG-14243995
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 52.76.240.5
@@ -49,22 +49,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP vmess-SG-14187955
-  dialer-proxy: LBCF
-  type: vmess
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10123
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
 - name: 🇸🇬DP vless-SG-14119843
   dialer-proxy: LBCF
   type: vless
@@ -97,7 +81,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.202
@@ -284,6 +268,20 @@ proxies:
     path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-7424
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.67.185.178
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -324,7 +322,7 @@ proxies:
   network: ws
   ws-opts:
     path: /9665280c
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-11398419
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
@@ -459,7 +457,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 38.135.24.131
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -571,7 +569,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-- name: 🇯🇵DP ss-JP-5141029
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -587,6 +585,29 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
+- name: 🇺🇸DP vless-US-14273205
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.86.109.206
+  port: 17121
+  uuid: 734d7287-27d5-4ed4-ad86-8639669e0607
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: www.google.com
+- name: 🇺🇸DP vless-US-14273090
+  dialer-proxy: LBCF
+  type: vless
+  server: newyorkcity.instasup.ir
+  port: 1005
+  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
 - name: 🇺🇸DP vless-US-14266970
   dialer-proxy: LBCF
   type: vless
@@ -687,15 +708,6 @@ proxies:
   network: tcp
   tls: false
   sni: google.com
-- name: 🇺🇸DP vless-US-14226076
-  dialer-proxy: LBCF
-  type: vless
-  server: 52.14.47.44
-  port: 443
-  uuid: 0c61d46d-4c4d-421b-b0fb-d211415da368
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇺🇸DP vmess-US-14189071
   dialer-proxy: LBCF
   type: vmess
@@ -712,7 +724,7 @@ proxies:
     headers:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 🇺🇸DP trojan-US-14184787
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 172.235.63.252
@@ -720,7 +732,7 @@ proxies:
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
   sni: 172.235.63.252
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14184460
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
@@ -806,14 +818,3 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-- name: 🇺🇸DP vmess-US-14160516
-  dialer-proxy: LBCF
-  type: vmess
-  server: 104.233.214.176
-  port: 13581
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
