@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-14263595
+  dialer-proxy: LBCF
+  type: trojan
+  server: 46.137.202.140
+  port: 443
+  password: 5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ
+  udp: true
+  sni: node1.bw8848.org
 - name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
@@ -257,17 +265,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.156.197
+  server: 172.64.53.74
   port: 443
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: juzi.qea.ccwu.cc
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
     path: /
     headers:
-      Host: juzi.qea.ccwu.cc
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
@@ -281,20 +289,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime39.workers.dev
-- name: 🇸🇬DP vless-SG-7424
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.185.178
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -322,7 +316,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14083204
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.149.51
@@ -339,8 +333,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -448,16 +442,22 @@ proxies:
   password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   udp: true
   sni: 172.238.19.11
-- name: 🇯🇵DP vless-JP-14194411
+- name: 🇯🇵DP vmess-JP-14170173
   dialer-proxy: LBCF
-  type: vless
-  server: 150.251.158.76
-  port: 443
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  udp: true
-  network: tcp
+  type: vmess
+  server: 109.61.109.204
+  port: 13872
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+  alterId: 0
+  cipher: auto
   tls: true
-  sni: s646.okgg.top
+  udp: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: imafake.locker
+  servername: imafake.locker
 - name: 🇯🇵DP ss-JP-14164878
   dialer-proxy: LBCF
   type: ss
@@ -733,7 +733,7 @@ proxies:
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
   sni: 172.235.63.252
-- name: 🇺🇸DP vmess-US-14184460
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
@@ -796,7 +796,7 @@ proxies:
   password: 4e287631dc4fc8fc
   server: 62.146.231.112
   port: 12012
-- name: 🇺🇸DP trojan-US-14172544
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 172.237.145.189
@@ -823,14 +823,3 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇺🇸DP vmess-US-14166387
-  dialer-proxy: LBCF
-  type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
