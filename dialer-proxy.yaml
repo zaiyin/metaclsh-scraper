@@ -23,14 +23,6 @@ proxies:
   password: d02e3bb7e6b3333e818d36866d40de6e
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-14247653
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.162.54.223
-  port: 41421
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vless-SG-14243995
   dialer-proxy: LBCF
   type: vless
@@ -113,16 +105,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: itarmy.com.ua
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 162.159.12.41
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=randomized
+    path: /fp=random
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
@@ -173,20 +166,33 @@ proxies:
     path: /au-do
     headers:
       Host: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇸🇬DP vless-SG-7531
+- name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.58.17
-  port: 2083
-  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  server: 172.64.53.74
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: edgetunnel-cmliu.lyqnihao.dpdns.org
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+- name: 🇸🇬DP vless-SG-7531
+  dialer-proxy: LBCF
+  type: vless
+  server: itarmy.com.ua
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /fp=randomized
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
@@ -311,7 +317,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vmess-MY-14083204
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.149.51
@@ -328,8 +334,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -337,6 +343,16 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-14283941
+  dialer-proxy: LBCF
+  type: vless
+  server: 31.76.91.28
+  port: 443
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  udp: true
+  network: tcp
+  tls: false
+  sni: jp.s3-cloud.org
 - name: 🇯🇵DP trojan-JP-14260476
   dialer-proxy: LBCF
   type: trojan
@@ -363,24 +379,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🇯🇵DP vless-JP-14247663
-  dialer-proxy: LBCF
-  type: vless
-  server: 152.69.195.67
-  port: 47878
-  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
-  udp: true
-  network: tcp
-  tls: false
-  sni: 152.69.195.67
-- name: 🇯🇵DP trojan-JP-14247652
-  dialer-proxy: LBCF
-  type: trojan
-  server: 54.178.8.69
-  port: 6737
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-14244014
   dialer-proxy: LBCF
   type: vless
@@ -487,7 +485,7 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
   servername: jp02.a0a.xyz
-- name: 🇯🇵DP vmess-JP-14058867
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 153.121.73.175
@@ -589,6 +587,34 @@ proxies:
     path: /@Marisa_kristifp=chrome
     headers:
       Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+- name: 🇯🇵DP ss-JP-922375
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.241
+  port: 443
+- name: 🇺🇸DP vless-US-14283933
+  dialer-proxy: LBCF
+  type: vless
+  server: newyorkcity.instasup.ir
+  port: 1005
+  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
+- name: 🇺🇸DP vless-US-14281272
+  dialer-proxy: LBCF
+  type: vless
+  server: 31.76.38.84
+  port: 7443
+  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
+  udp: true
+  network: tcp
+  tls: false
+  sni: stackoverflow.com
 - name: 🇺🇸DP ss-US-14278647
   dialer-proxy: LBCF
   type: ss
@@ -601,15 +627,13 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 172.86.109.206
-  port: 17121
-  uuid: 734d7287-27d5-4ed4-ad86-8639669e0607
+  port: 55380
+  uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
-    headers:
-      Host: www.google.com
 - name: 🇺🇸DP vless-US-14273090
   dialer-proxy: LBCF
   type: vless
@@ -647,20 +671,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇺🇸DP vless-US-14247141
-  dialer-proxy: LBCF
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: b2bfb4f3-f4c3-4323-9810-a086fef2f25d
-  udp: true
-  network: ws
-  tls: true
-  sni: default.ssl.fastly.net
-  ws-opts:
-    path: /
-    headers:
-      Host: pan1.global.ssl.fastly.net
 - name: 🇺🇸DP vless-US-14244010
   dialer-proxy: LBCF
   type: vless
@@ -671,7 +681,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🇺🇸DP vless-US-14243985
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 77.110.127.191
@@ -682,16 +692,6 @@ proxies:
   tls: false
   ws-opts:
     path: /pourya
-- name: 🇺🇸DP vless-US-14243442
-  dialer-proxy: LBCF
-  type: vless
-  server: de.pink-perfect.ru
-  port: 443
-  uuid: 5d8fcd24-9634-4dd7-845c-3dc2d6291942
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.google.com
 - name: 🇺🇸DP trojan-US-14239970
   dialer-proxy: LBCF
   type: trojan
@@ -700,7 +700,7 @@ proxies:
   password: d02e3bb7e6b3333e818d36866d40de6e
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vless-
+- name: 🇱🇻DP vless-LV
   dialer-proxy: LBCF
   type: vless
   server: 2.26.88.109
