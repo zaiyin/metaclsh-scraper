@@ -91,17 +91,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.41
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.16.150.246
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /fp=random
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -279,7 +279,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-4567
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 162.159.12.41
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -287,7 +287,7 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14191972
@@ -402,16 +402,6 @@ proxies:
 - name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 18.183.94.154
-  port: 39611
-  uuid: f032fd94-715d-4d37-835f-13959a63df14
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.icloud.com
-- name: 🇯🇵DP vless-JP-14241342
-  dialer-proxy: LBCF
-  type: vless
   server: 57.181.38.2
   port: 59826
   uuid: aa24026d-9542-4357-8625-3f04653fc4bd
@@ -451,7 +441,7 @@ proxies:
     headers:
       Host: imafake.locker
   servername: imafake.locker
-- name: 🇺🇸DP ss-US
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -485,7 +475,7 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
   servername: jp02.a0a.xyz
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-14058867
   dialer-proxy: LBCF
   type: vmess
   server: 153.121.73.175
@@ -595,6 +585,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
+- name: 🇯🇵DP vless-JP-163304
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇺🇸DP vless-US-14283933
   dialer-proxy: LBCF
   type: vless
@@ -681,7 +685,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-14243985
   dialer-proxy: LBCF
   type: vless
   server: 77.110.127.191
@@ -734,7 +738,7 @@ proxies:
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
   sni: 172.235.63.252
-- name: 🇺🇸DP vmess-US-14184460
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
