@@ -33,14 +33,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇸🇬DP trojan-SG-14239969
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.120.29
-  port: 32434
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-13403168
   dialer-proxy: LBCF
   type: vmess
@@ -63,7 +55,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.202
@@ -144,7 +136,7 @@ proxies:
     path: /
     headers:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-8105
   dialer-proxy: LBCF
   type: trojan
   server: www.speedtest.net
@@ -236,21 +228,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 198.41.211.114
+  port: 80
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: amirvpn.amirhm00100.workers.dev
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: dx.mmhh.eu.cc
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -258,23 +249,22 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-5222
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 45.40.149.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: vms.lifetime39.workers.dev
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
@@ -289,6 +279,19 @@ proxies:
     path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-4717
+  dialer-proxy: LBCF
+  type: vless
+  server: 92.53.188.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime18.workers.dev
 - name: 🇲🇾DP vmess-MY-14191972
   dialer-proxy: LBCF
   type: vmess
@@ -342,6 +345,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-14296682
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.181.230.17
+  port: 5408
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP vless-JP-14295261
   dialer-proxy: LBCF
   type: vless
@@ -380,14 +391,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP trojan-JP-14255350
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.162.187.222
-  port: 3743
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP vless-JP-14248542
   dialer-proxy: LBCF
   type: vless
@@ -428,14 +431,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nvidia.com
-- name: 🇯🇵DP trojan-JP-14224623
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.193.177
-  port: 5701
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-14196946
   dialer-proxy: LBCF
   type: trojan
@@ -466,7 +461,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 38.135.24.131
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -478,7 +473,7 @@ proxies:
   network: tcp
   tls: true
   sni: jp1.fromblancwithlove.com
-- name: 🇯🇵DP vmess-JP-14059171
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 140.83.51.161
@@ -590,6 +585,20 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
+- name: 🇯🇵DP vless-JP-163304
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.44.195
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇺🇸DP vless-US-14294363
   dialer-proxy: LBCF
   type: vless
@@ -632,15 +641,13 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 172.86.109.206
-  port: 17121
-  uuid: 734d7287-27d5-4ed4-ad86-8639669e0607
+  port: 55380
+  uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
-    headers:
-      Host: www.google.com
 - name: 🇺🇸DP vless-US-14273090
   dialer-proxy: LBCF
   type: vless
@@ -763,7 +770,7 @@ proxies:
 - name: 🇺🇸DP trojan-US-14177818
   dialer-proxy: LBCF
   type: trojan
-  server: 18.163.120.29
+  server: 43.198.12.196
   port: 17801
   password: BxceQaOe
   udp: true
@@ -804,16 +811,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14161877
-  dialer-proxy: LBCF
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8

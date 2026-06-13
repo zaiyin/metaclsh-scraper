@@ -47,6 +47,16 @@ proxies:
     path: /
     headers:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
+- name: 🇸🇬 trojan-SG-8105
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: A4u^p(_UR*F6
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 027.electrocellco-cf-027.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -122,24 +132,36 @@ proxies:
 - name: 🇸🇬 vless-SG-7429
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 80
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: amirvpn.amirhm00100.workers.dev
 - name: 🇸🇬 vless-SG-5222
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime39.workers.dev
+- name: 🇸🇬 vless-SG-4717
+  type: vless
+  server: bug.xcp
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: vms.lifetime18.workers.dev
