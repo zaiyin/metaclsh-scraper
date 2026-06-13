@@ -125,17 +125,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
+  server: 104.18.34.124
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP trojan-SG-8105
   dialer-proxy: LBCF
   type: trojan
@@ -242,7 +242,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 172.67.185.178
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -266,10 +266,10 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vms.lifetime39.workers.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
-  server: dx.mmhh.eu.cc
+  server: 162.159.12.41
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -384,15 +384,7 @@ proxies:
   network: tcp
   tls: false
   sni: jp.s3-cloud.org
-- name: 🇯🇵DP trojan-JP-14260476
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.199.207.202
-  port: 16712
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇯🇵DP vless-JP-14248542
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 3.112.19.64
@@ -464,7 +456,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   server: 38.135.24.131
   port: 443
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
   type: vless
   server: 178.249.213.177
@@ -501,7 +493,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-14058863
   dialer-proxy: LBCF
   type: vmess
   server: 172.104.80.66
@@ -578,7 +570,7 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🏳DP ss-
+- name: 🇯🇵DP ss-JP-922375
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -589,7 +581,7 @@ proxies:
 - name: 🇯🇵DP vless-JP-163304
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.44.195
+  server: dx.mmhh.eu.cc
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -597,9 +589,51 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=chrome
+    path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸DP vless-US-14305319
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.184.121.101
+  port: 8443
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  udp: true
+  network: ws
+  tls: true
+  sni: octopusss5.info
+  ws-opts:
+    path: /udfyfws
+    headers:
+      Host: octopusss5.info
+- name: 🇺🇸DP vless-US-14303664
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.184.121.101
+  port: 8443
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  udp: true
+  network: ws
+  tls: true
+  sni: octopusss5.info
+  ws-opts:
+    path: /udfyfws
+    headers:
+      Host: octopusss5.info
 - name: 🇺🇸DP vmess-US-14303236
   dialer-proxy: LBCF
   type: vmess
@@ -699,7 +733,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🇺🇸DP vless-US-14243985
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 77.110.127.191
@@ -752,7 +786,7 @@ proxies:
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
   sni: 172.235.63.252
-- name: 🇺🇸DP vmess-US-14184460
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 57.151.100.27
@@ -773,14 +807,6 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇺🇸DP trojan-US-14180640
-  dialer-proxy: LBCF
-  type: trojan
-  server: 45.79.8.17
-  port: 443
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  udp: true
-  sni: 45.79.8.17
 - name: 🇺🇸DP trojan-US-14177818
   dialer-proxy: LBCF
   type: trojan
