@@ -55,7 +55,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.202
@@ -201,16 +201,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: itarmy.com.ua
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 162.159.12.41
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=randomized
+    path: /fp=random
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
@@ -241,7 +242,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: dx.mmhh.eu.cc
+  server: 104.18.34.124
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -249,7 +250,7 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=random
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-5222
@@ -265,10 +266,10 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vms.lifetime39.workers.dev
-- name: 🇸🇬DP vless-SG-5033
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.41
+  server: dx.mmhh.eu.cc
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -461,9 +462,9 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
-- name: 🇯🇵DP vless-JP-14161910
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 178.249.213.177
@@ -473,7 +474,7 @@ proxies:
   network: tcp
   tls: true
   sni: jp1.fromblancwithlove.com
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
   server: 140.83.51.161
@@ -500,7 +501,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP vmess-JP-14058863
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 172.104.80.66
@@ -577,7 +578,7 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🇯🇵DP ss-JP-922375
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -599,6 +600,19 @@ proxies:
     path: /fp=chrome
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸DP vmess-US-14303236
+  dialer-proxy: LBCF
+  type: vmess
+  server: 45.63.75.211
+  port: 44855
+  uuid: 5164f226-f833-4e5b-8903-094a3460cd41
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /5164f226
 - name: 🇺🇸DP vless-US-14294363
   dialer-proxy: LBCF
   type: vless
@@ -791,15 +805,6 @@ proxies:
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   udp: true
   sni: 172.237.145.189
-- name: 🇺🇸DP vless-US-14169296
-  dialer-proxy: LBCF
-  type: vless
-  server: 38.55.146.153
-  port: 13000
-  uuid: b852270a-1283-4ea8-8a2f-5bae8e644a3e
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇺🇸DP vmess-US-14166387
   dialer-proxy: LBCF
   type: vmess
