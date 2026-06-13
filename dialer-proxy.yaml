@@ -133,8 +133,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: cf.9999669.xyz
-  port: 2087
+  server: 172.64.53.74
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -144,7 +144,7 @@ proxies:
     path: /
     headers:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP trojan-SG-8105
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: www.speedtest.net
@@ -183,31 +183,29 @@ proxies:
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 162.159.34.60
+  port: 80
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: amirvpn.amirhm00100.workers.dev
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: cf.9999669.xyz
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 216.24.57.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: vms.lifetime28.workers.dev
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -224,8 +222,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
-  port: 443
+  server: 91.193.58.17
+  port: 2083
+  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  udp: true
+  network: ws
+  tls: true
+  sni: edgetunnel-cmliu.lyqnihao.dpdns.org
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+- name: 🇸🇬DP vless-SG-7429
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.150.246
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -235,23 +247,10 @@ proxies:
     path: /
     headers:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.40.149.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime39.workers.dev
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.12.41
+  server: 104.18.34.124
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -259,7 +258,7 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=random
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-5222
@@ -343,6 +342,16 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-14295261
+  dialer-proxy: LBCF
+  type: vless
+  server: 1.sdwan.realm-sync.com
+  port: 5454
+  uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+  udp: true
+  network: tcp
+  tls: false
+  sni: swcdn.apple.com
 - name: 🇯🇵DP vless-JP-14289187
   dialer-proxy: LBCF
   type: vless
@@ -457,7 +466,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -573,20 +582,6 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🇯🇵DP vless-JP-1125813
-  dialer-proxy: LBCF
-  type: vless
-  server: 103.214.68.51
-  port: 10702
-  uuid: 00000000-0000-4000-8000-000000000000
-  udp: true
-  network: ws
-  tls: true
-  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
 - name: 🇯🇵DP ss-JP-922375
   dialer-proxy: LBCF
   type: ss
@@ -595,6 +590,16 @@ proxies:
   password: shadowsocks
   server: 149.22.87.241
   port: 443
+- name: 🇺🇸DP vless-US-14294363
+  dialer-proxy: LBCF
+  type: vless
+  server: sw.pink-perfect.ru
+  port: 443
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+  udp: true
+  network: tcp
+  tls: false
+  sni: yandex.net
 - name: 🇺🇸DP vless-US-14283933
   dialer-proxy: LBCF
   type: vless
@@ -627,13 +632,15 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 172.86.109.206
-  port: 55380
-  uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
+  port: 17121
+  uuid: 734d7287-27d5-4ed4-ad86-8639669e0607
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
+    headers:
+      Host: www.google.com
 - name: 🇺🇸DP vless-US-14273090
   dialer-proxy: LBCF
   type: vless
@@ -797,7 +804,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14161877
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.77.248
@@ -810,14 +817,3 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-- name: 🇺🇸DP vmess-US-14160516
-  dialer-proxy: LBCF
-  type: vmess
-  server: 104.233.214.176
-  port: 13581
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
