@@ -23,18 +23,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime59.workers.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: leecher56.matinheydri.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -83,18 +71,6 @@ proxies:
     path: /?ed=2560fp=random
     headers:
       Host: misaka.cndyw.ggff.net
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-7531
   type: vless
   server: bug.xcp
