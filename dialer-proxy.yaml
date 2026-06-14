@@ -75,17 +75,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 185.159.247.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: vms.lifetime59.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -130,17 +129,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: yx.cloudflare.182682.xyz
-  port: 443
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  server: 45.40.146.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: false
-  sni: gddy.hhlfy.de5.net
   ws-opts:
-    path: /fp=firefoxsecurity=tls
+    path: /?ed=2560
     headers:
-      Host: gddy.hhlfy.de5.net
+      Host: vms.lifetime36.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -158,17 +156,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.155.229
+  server: 104.18.34.124
   port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: www.genflix.co.id.r3xxe.eu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /au-do
+    path: /
     headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -186,17 +184,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: fbi.gov
+  server: 172.67.185.178
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: misaka.cndyw.ggff.net
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /?ed=2560fp=random
+    path: /
     headers:
-      Host: misaka.cndyw.ggff.net
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -213,30 +211,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.155.229
-  port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  server: cf.9999669.xyz
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: www.genflix.co.id.r3xxe.eu.cc
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /au-do
+    path: /
     headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 104.19.151.106
-  port: 80
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+  server: 104.16.150.246
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
@@ -254,20 +253,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-5222
   dialer-proxy: LBCF
   type: vless
-  server: 45.40.149.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.18.34.124
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: vms.lifetime39.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
-  server: shopify.com
+  server: singapore.com
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   udp: true
@@ -591,7 +591,7 @@ proxies:
 - name: 🇯🇵DP vless-JP-161220
   dialer-proxy: LBCF
   type: vless
-  server: yd.mmhh.eu.cc
+  server: dx.mmhh.eu.cc
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -599,7 +599,7 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇺🇸DP vless-US-14305319
@@ -702,16 +702,16 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇺🇸DP vless-US-14266970
+- name: 🇩🇪DP vless-DE
   dialer-proxy: LBCF
   type: vless
-  server: newyorkcity.instasup.ir
-  port: 1005
-  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  server: de.pink-perfect.ru
+  port: 443
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
   udp: true
   network: tcp
   tls: false
-  sni: yahoo.com
+  sni: yandex.net
 - name: 🇺🇸DP vless-US-14244010
   dialer-proxy: LBCF
   type: vless
@@ -820,7 +820,7 @@ proxies:
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   udp: true
   sni: 172.237.145.189
-- name: 🇺🇸DP vmess-US-14166387
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.143.80
