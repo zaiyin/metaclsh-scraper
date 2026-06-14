@@ -291,22 +291,6 @@ proxies:
     path: /?ed=2048fp=chrome
     headers:
       Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
-- name: 🇲🇾DP vmess-MY-14191972
-  dialer-proxy: LBCF
-  type: vmess
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10056
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -335,8 +319,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -436,7 +420,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -494,7 +478,7 @@ proxies:
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   server: 47.79.144.115
   port: 40003
-- name: 🇯🇵DP vless-JP-13838354
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 47.79.144.103
@@ -563,7 +547,7 @@ proxies:
 - name: 🇯🇵DP vless-JP-163304
   dialer-proxy: LBCF
   type: vless
-  server: dx.mmhh.eu.cc
+  server: 162.159.44.195
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -571,7 +555,7 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=random
+    path: /fp=chrome
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇯🇵DP vless-JP-163275
@@ -733,6 +717,16 @@ proxies:
   tls: false
   ws-opts:
     path: /pourya
+- name: 🇩🇪DP vless-DE
+  dialer-proxy: LBCF
+  type: vless
+  server: de.pink-perfect.ru
+  port: 443
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+  udp: true
+  network: tcp
+  tls: false
+  sni: yandex.net
 - name: 🇺🇸DP trojan-US-14239970
   dialer-proxy: LBCF
   type: trojan
@@ -820,7 +814,7 @@ proxies:
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   udp: true
   sni: 172.237.145.189
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vmess-US-14166387
   dialer-proxy: LBCF
   type: vmess
   server: 129.146.143.80
@@ -831,16 +825,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14161877
-  dialer-proxy: LBCF
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
