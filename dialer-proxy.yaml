@@ -103,17 +103,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.20.214
-  port: 443
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  server: 45.67.215.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: refighehosein.salamdadash123.workers.dev
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: refighehosein.salamdadash123.workers.dev
+      Host: vms.lifetime48.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -156,23 +155,18 @@ proxies:
     path: /fp=chrome
     headers:
       Host: edgetunnel-cmliu.lyqnihao.dpdns.org
-- name: 🇸🇬DP vless-SG-8105
+- name: 🇸🇬DP trojan-SG-8105
   dialer-proxy: LBCF
-  type: vless
-  server: 8.34.70.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: A4u^p(_UR*F6
   udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime09.workers.dev
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: japan.com
+  server: www.4chan.org
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   udp: true
@@ -183,6 +177,20 @@ proxies:
     path: /?ed=2560fp=random
     headers:
       Host: misaka.cndyw.ggff.net
+- name: 🇸🇬DP vless-SG-7971
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.145.166
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
@@ -214,7 +222,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: fbi.gov
+  server: icook.hk
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   udp: true
@@ -256,7 +264,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7429
   dialer-proxy: LBCF
   type: vless
-  server: 45.40.149.50
+  server: 50.62.198.50
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -269,7 +277,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
+  server: 172.67.185.178
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -297,30 +305,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
-  server: japan.com
+  server: yd.mmhh.eu.cc
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: misaka.cndyw.ggff.net
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /?ed=2560fp=random
+    path: /
     headers:
-      Host: misaka.cndyw.ggff.net
-- name: 🇸🇬DP vless-SG-4717
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.34.70.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime09.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -387,7 +382,7 @@ proxies:
   type: vless
   server: 1.sdwan.realm-sync.com
   port: 5454
-  uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+  uuid: 48959fe8-4a5e-4996-bc87-8d66398e6860
   udp: true
   network: tcp
   tls: false
@@ -452,14 +447,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nvidia.com
-- name: 🇯🇵DP trojan-JP-14196946
-  dialer-proxy: LBCF
-  type: trojan
-  server: 172.238.19.11
-  port: 443
-  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
-  udp: true
-  sni: 172.238.19.11
 - name: 🇺🇸DP ss-US
   dialer-proxy: LBCF
   type: ss
@@ -593,20 +580,6 @@ proxies:
 - name: 🇯🇵DP vless-JP-163304
   dialer-proxy: LBCF
   type: vless
-  server: yd.mmhh.eu.cc
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇯🇵DP vless-JP-163275
-  dialer-proxy: LBCF
-  type: vless
   server: 162.159.44.195
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
@@ -618,6 +591,50 @@ proxies:
     path: /fp=chrome
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇯🇵DP vless-JP-163275
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇯🇵DP vless-JP-161220
+  dialer-proxy: LBCF
+  type: vless
+  server: dx.mmhh.eu.cc
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸DP vmess-US-14325335
+  dialer-proxy: LBCF
+  type: vmess
+  server: 96.47.230.5
+  port: 54840
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: imafake.locker
+  servername: imafake.locker
 - name: 🇺🇸DP vless-US-14323388
   dialer-proxy: LBCF
   type: vless
@@ -784,7 +801,7 @@ proxies:
   network: tcp
   tls: false
   sni: yandex.net
-- name: 🇱🇻DP vless-LV
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 2.26.88.109
@@ -810,14 +827,6 @@ proxies:
     headers:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 🇺🇸DP trojan-US-14184787
-  dialer-proxy: LBCF
-  type: trojan
-  server: 172.235.63.252
-  port: 443
-  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
-  udp: true
-  sni: 172.235.63.252
 - name: 🇺🇸DP vmess-US-14184460
   dialer-proxy: LBCF
   type: vmess
@@ -847,6 +856,16 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
+- name: 🇺🇸DP vless-US-14174807
+  dialer-proxy: LBCF
+  type: vless
+  server: 44.242.50.106
+  port: 36895
+  uuid: 5c875449-ae7d-46f8-b919-5a29f271dfce
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.icloud.com
 - name: 🇺🇸DP ss-US-14172732
   dialer-proxy: LBCF
   type: ss
@@ -855,11 +874,3 @@ proxies:
   password: 4e287631dc4fc8fc
   server: 62.146.231.112
   port: 12012
-- name: 🇺🇸DP trojan-US-14172544
-  dialer-proxy: LBCF
-  type: trojan
-  server: 172.237.145.189
-  port: 443
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  udp: true
-  sni: 172.237.145.189
