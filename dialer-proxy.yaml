@@ -35,14 +35,6 @@ proxies:
   password: 5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ
   udp: true
   sni: node1.bw8848.org
-- name: 🇸🇬DP ss-SG-14259380
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
-  server: 168.138.175.92
-  port: 9888
 - name: 🇸🇬DP vless-SG-14243995
   dialer-proxy: LBCF
   type: vless
@@ -89,8 +81,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.53.74
-  port: 443
+  server: 172.64.145.166
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -166,18 +158,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: www.4chan.org
+  server: 172.64.53.74
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: misaka.cndyw.ggff.net
+  sni: fgnix832fx.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /?ed=2560fp=random
+    path: /
     headers:
-      Host: misaka.cndyw.ggff.net
-- name: 🇸🇬DP vless-SG-7971
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 172.64.145.166
@@ -453,7 +445,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 38.135.24.131
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -605,20 +597,20 @@ proxies:
     path: /fp=random
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇯🇵DP vless-JP-161220
+- name: 🇯🇵DP vless-JP-162885
   dialer-proxy: LBCF
   type: vless
-  server: dx.mmhh.eu.cc
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: josni.hoyes.cloudns.ch
+  port: 2053
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /fp=random
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: josni.hoyes.cloudns.ch
 - name: 🇺🇸DP vmess-US-14325335
   dialer-proxy: LBCF
   type: vmess
@@ -791,7 +783,7 @@ proxies:
   tls: false
   ws-opts:
     path: /pourya
-- name: 🇩🇪DP vless-DE
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: de.pink-perfect.ru
@@ -801,7 +793,7 @@ proxies:
   network: tcp
   tls: false
   sni: yandex.net
-- name: 🏳DP vless-
+- name: 🇱🇻DP vless-LV
   dialer-proxy: LBCF
   type: vless
   server: 2.26.88.109
@@ -811,6 +803,16 @@ proxies:
   network: tcp
   tls: false
   sni: google.com
+- name: 🇫🇮DP vless-FI
+  dialer-proxy: LBCF
+  type: vless
+  server: 2.27.13.15
+  port: 443
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+  udp: true
+  network: tcp
+  tls: false
+  sni: newfn.stardevs.top
 - name: 🇺🇸DP vmess-US-14189071
   dialer-proxy: LBCF
   type: vmess
@@ -866,11 +868,3 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
-- name: 🇺🇸DP ss-US-14172732
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 4e287631dc4fc8fc
-  server: 62.146.231.112
-  port: 12012
