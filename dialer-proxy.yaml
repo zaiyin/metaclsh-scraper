@@ -81,17 +81,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 45.131.209.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: vms.lifetime04.workers.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
@@ -136,25 +135,30 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.58.17
-  port: 2083
-  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  server: nexusmods.com
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
   network: ws
   tls: true
-  sni: edgetunnel-cmliu.lyqnihao.dpdns.org
+  sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
-- name: 🇸🇬DP trojan-SG-8105
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u^p(_UR*F6
+  type: vless
+  server: 154.197.64.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime36.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -169,34 +173,32 @@ proxies:
     path: /
     headers:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 198.41.222.191
+  port: 80
+  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
   udp: true
   network: ws
-  tls: true
-  sni: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
+      Host: leecher56.matinheydri.workers.dev
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.34.124
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 188.114.97.6
+  port: 2086
+  uuid: 9c10d8b0-e1fb-48d5-af5d-03ad736f37bb
   udp: true
   network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: false
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiMENyWGlPUjVmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODcuMTIwLjE2Ni4xNCJdfQ==?ed=2560
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: snowy-fire-7369.mmdiborobav.workers.dev
 - name: 🇸🇬DP vless-SG-7801
   dialer-proxy: LBCF
   type: vless
@@ -214,7 +216,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: icook.hk
+  server: russia.com
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   udp: true
@@ -228,17 +230,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.58.17
-  port: 2083
-  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  server: 50.62.195.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: edgetunnel-cmliu.lyqnihao.dpdns.org
+  tls: false
   ws-opts:
-    path: /fp=chrome
+    path: /?ed=2560
     headers:
-      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+      Host: vms.lifetime38.workers.dev
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
@@ -269,7 +270,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7424
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.185.178
+  server: 104.18.34.124
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -297,17 +298,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-5033
   dialer-proxy: LBCF
   type: vless
-  server: yd.mmhh.eu.cc
+  server: yx.cloudflare.182682.xyz
   port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
   udp: true
   network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  sni: gddy.hhlfy.de5.net
   ws-opts:
-    path: /
+    path: /fp=firefoxsecurity=tls
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: gddy.hhlfy.de5.net
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -723,16 +724,6 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇺🇸DP vless-US-14281272
-  dialer-proxy: LBCF
-  type: vless
-  server: 31.76.38.84
-  port: 7443
-  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
-  udp: true
-  network: tcp
-  tls: false
-  sni: stackoverflow.com
 - name: 🇺🇸DP ss-US-14278647
   dialer-proxy: LBCF
   type: ss
@@ -783,7 +774,7 @@ proxies:
   tls: false
   ws-opts:
     path: /pourya
-- name: 🏳DP vless-
+- name: 🇩🇪DP vless-DE
   dialer-proxy: LBCF
   type: vless
   server: de.pink-perfect.ru
@@ -868,3 +859,11 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
+- name: 🇺🇸DP ss-US-14172732
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 4e287631dc4fc8fc
+  server: 62.146.231.112
+  port: 12012
