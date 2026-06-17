@@ -26,15 +26,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: vms.lifetime59.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -82,7 +82,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: vms.lifetime54.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
@@ -119,18 +119,42 @@ proxies:
     path: /eyJqdW5rIjoiMENyWGlPUjVmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODcuMTIwLjE2Ni4xNCJdfQ==?ed=2560
     headers:
       Host: snowy-fire-7369.mmdiborobav.workers.dev
-- name: 🇸🇬 vless-SG-7531
+- name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 80
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
     headers:
-      Host: vms.lifetime38.workers.dev
+      Host: billowing-cloud-d339.sospanel.workers.dev
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
 - name: 🇸🇬 vless-SG-7456
   type: vless
   server: bug.xcp
@@ -143,15 +167,27 @@ proxies:
     path: /
     headers:
       Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬 vless-SG-7424
+- name: 🇸🇬 vless-SG-7429
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: vms.lifetime28.workers.dev
+- name: 🇸🇬 vless-SG-7424
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+    headers:
+      Host: billowing-cloud-d339.sospanel.workers.dev
