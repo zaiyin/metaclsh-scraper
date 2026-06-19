@@ -62,15 +62,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+  port: 443
+  uuid: 04e28e6c-7a6c-4ec7-bed2-3da8f7c9edce
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiVUllM0x5bkQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560fp=chrome
     headers:
-      Host: crimson-king-301d.nexoxnet.workers.dev
+      Host: bpb-expo--10rayly4zy.expo.app
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -83,18 +83,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime54.workers.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
@@ -123,40 +111,6 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560fp=random
-    headers:
-      Host: misaka.cndyw.ggff.net
-- name: 🇸🇬 vless-SG-7531
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: aed8656b-6479-4c04-9437-c7e16aa52a06
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoidXlXRjN1SVB6MllockoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
-    headers:
-      Host: jolly-base-0bce.hamedpop2.workers.dev
-- name: 🇸🇬 trojan-SG-7456
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: 0ab59a11983d4ce7862d156c164d927d
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiajRMMndudHIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC4xMjciXX0=?ed=2560
-    headers:
-      Host: FAST-RouTE-Dd4E2d.fREefIREmO7964.wOrKerS.dev
-- name: 🇸🇬 vless-SG-7429
-  type: vless
-  server: bug.xcp
-  port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   tls: true
@@ -165,3 +119,27 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+- name: 🇸🇬 vless-SG-7456
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: josni.hoyes.cloudns.ch
