@@ -11,18 +11,6 @@ proxies:
     path: /7bd180e8
     headers:
       Host: python-graysongon.wasmer.app
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ld.223350.xyz
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -95,18 +83,6 @@ proxies:
     path: /?ed=2560fp=random
     headers:
       Host: misaka.cndyw.ggff.net
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
