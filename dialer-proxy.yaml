@@ -37,16 +37,6 @@ proxies:
     path: /shalana
     headers:
       Host: group.shalana.xyz
-- name: 🇸🇬DP vless-SG-14342962
-  dialer-proxy: LBCF
-  type: vless
-  server: 139.162.3.14
-  port: 443
-  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
-  udp: true
-  network: tcp
-  tls: true
-  sni: sahanwickramasinghevip.shop
 - name: 🇸🇬DP vless-SG-14321200
   dialer-proxy: LBCF
   type: vless
@@ -69,14 +59,6 @@ proxies:
   password: 5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ
   udp: true
   sni: node1.bw8848.org
-- name: 🇸🇬DP ss-SG-14259380
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
-  server: 168.138.175.92
-  port: 9888
 - name: 🇸🇬DP trojan-SG-14255353
   dialer-proxy: LBCF
   type: trojan
@@ -155,16 +137,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 185.159.247.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.67.89.31
+  port: 2086
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
     headers:
-      Host: vms.lifetime59.workers.dev
+      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -182,7 +164,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: cdn.9889888.xyz
+  server: cloudflare.czkcdn.cn
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -210,17 +192,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-8105
   dialer-proxy: LBCF
   type: vless
-  server: yx.cloudflare.182682.xyz
-  port: 443
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  server: 104.254.140.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: false
-  sni: gddy.hhlfy.de5.net
   ws-opts:
-    path: /fp=firefoxsecurity=tls
+    path: /
     headers:
-      Host: gddy.hhlfy.de5.net
+      Host: vms.lifetime54.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
@@ -279,17 +260,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: shopify.com
-  port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  server: josni.hoyes.cloudns.ch
+  port: 2053
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: misaka.cndyw.ggff.net
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /?ed=2560fp=random
+    path: /
     headers:
-      Host: misaka.cndyw.ggff.net
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
@@ -304,6 +285,20 @@ proxies:
     path: /?u=73742dbc12
     headers:
       Host: nova-atlas-core-609c.nova-c40b57.workers.dev
+- name: 🇸🇬DP vless-SG-7456
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.60.231
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -437,6 +432,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
+  sni: jp.s3-cloud.org
 - name: 🇯🇵DP vless-JP-14247663
   dialer-proxy: LBCF
   type: vless
@@ -447,16 +443,6 @@ proxies:
   network: tcp
   tls: false
   sni: 152.69.195.67
-- name: 🇯🇵DP vless-JP-14244014
-  dialer-proxy: LBCF
-  type: vless
-  server: 57.180.22.236
-  port: 12524
-  uuid: c8a930cb-7a41-403f-922a-0b2148a75e05
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇯🇵DP trojan-JP-14224625
   dialer-proxy: LBCF
   type: trojan
@@ -471,7 +457,7 @@ proxies:
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 147.90.234.133
   port: 443
 - name: 🇯🇵DP vless-JP-14161910
   dialer-proxy: LBCF
@@ -603,6 +589,25 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP trojan-JP-5602181
+  dialer-proxy: LBCF
+  type: trojan
+  server: 64.176.36.17
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+- name: 🇺🇸DP vmess-US-14424525
+  dialer-proxy: LBCF
+  type: vmess
+  server: atiins.com.tr
+  port: 443
+  uuid: 97775936-05ea-4fea-8562-e9eb98559790
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: tcp
 - name: 🇺🇸DP trojan-US-14420726
   dialer-proxy: LBCF
   type: trojan
@@ -741,22 +746,6 @@ proxies:
   password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   udp: true
   sni: 207.126.167.241
-- name: 🇺🇸DP vmess-US-14325335
-  dialer-proxy: LBCF
-  type: vmess
-  server: 96.47.230.5
-  port: 54840
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: imafake.locker
-  servername: imafake.locker
 - name: 🇺🇸DP ss-US-14317653
   dialer-proxy: LBCF
   type: ss
@@ -765,7 +754,7 @@ proxies:
   password: eDfN7SODQceIOmIAbtJJtK
   server: 198.98.53.130
   port: 443
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-14243985
   dialer-proxy: LBCF
   type: vless
   server: 77.110.127.191
@@ -815,14 +804,6 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🇺🇸DP ss-US-14172732
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 4e287631dc4fc8fc
-  server: 62.146.231.112
-  port: 12012
 - name: 🇺🇸DP vmess-US-14166387
   dialer-proxy: LBCF
   type: vmess
@@ -834,3 +815,16 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇺🇸DP vmess-US-14161877
+  dialer-proxy: LBCF
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
