@@ -257,16 +257,20 @@ proxies:
   network: tcp
   tls: false
   sni: play.google.com
-- name: 🇸🇬DP vless-SG-14481760
+- name: 🇸🇬DP vless-SG-14321200
   dialer-proxy: LBCF
   type: vless
-  server: 52.77.226.93
+  server: python-graysongon.wasmer.app
   port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
+  uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
   udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
+  network: ws
+  tls: true
+  sni: python-graysongon.wasmer.app
+  ws-opts:
+    path: /7bd180e8
+    headers:
+      Host: python-graysongon.wasmer.app
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -373,16 +377,6 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
-- name: 🇯🇵DP vless-JP-14161910
-  dialer-proxy: LBCF
-  type: vless
-  server: 178.249.213.177
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  udp: true
-  network: tcp
-  tls: true
-  sni: jp1.fromblancwithlove.com
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
@@ -416,7 +410,7 @@ proxies:
   server: 172.104.80.66
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
+  alterId: 1
   cipher: auto
   tls: false
   udp: true
@@ -467,7 +461,7 @@ proxies:
 - name: 🇯🇵DP vless-JP-12853507
   dialer-proxy: LBCF
   type: vless
-  server: 8.211.167.113
+  server: 108.160.132.178
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -558,7 +552,21 @@ proxies:
 - name: 🇯🇵DP vless-JP-4395498
   dialer-proxy: LBCF
   type: vless
-  server: 167.179.84.175
+  server: 108.160.132.178
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /fp#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP vless-JP-4385752
+  dialer-proxy: LBCF
+  type: vless
+  server: 207.148.108.85
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -569,6 +577,15 @@ proxies:
     path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
+- name: 🇺🇸DP vless-US-14535218
+  dialer-proxy: LBCF
+  type: vless
+  server: rvg-production-1ab7.up.railway.app
+  port: 443
+  uuid: deffbfcd-0626-365b-ff92-9b93f2fd6459
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇺🇸DP vless-US-14532148
   dialer-proxy: LBCF
   type: vless
@@ -686,16 +703,6 @@ proxies:
   network: ws
   ws-opts:
     path: /youtube
-- name: 🇺🇸DP vless-US-14470299
-  dialer-proxy: LBCF
-  type: vless
-  server: assets.trorays.com
-  port: 443
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
-  udp: true
-  network: tcp
-  tls: true
-  sni: assets.trorays.com
 - name: 🇺🇸DP vless-US-14468906
   dialer-proxy: LBCF
   type: vless
@@ -714,7 +721,7 @@ proxies:
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   udp: true
   sni: 45.61.52.243
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-14455360
   dialer-proxy: LBCF
   type: vless
   server: usa.ldtp.com
@@ -754,16 +761,6 @@ proxies:
   network: grpc
   tls: true
   sni: gco1.afterdomain.shop
-- name: 🇺🇸DP vless-US-14428514
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.249.126.198
-  port: 443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  udp: true
-  network: tcp
-  tls: false
-  sni: cdn8-90.yahoo.com
 - name: 🇺🇸DP vmess-US-14384749
   dialer-proxy: LBCF
   type: vmess
@@ -816,3 +813,11 @@ proxies:
   network: tcp
   tls: false
   sni: www.microsoft.com
+- name: 🇺🇸DP trojan-US-14348777
+  dialer-proxy: LBCF
+  type: trojan
+  server: 207.126.167.241
+  port: 443
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+  udp: true
+  sni: 207.126.167.241
