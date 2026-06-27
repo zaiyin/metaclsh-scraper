@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-14503455
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: a3ca2f6f-3905-406b-b15e-873bed123033
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /vless
-    headers:
-      Host: education.panelvps.eu.org
 - name: 🇸🇬 vless-SG-14321200
   type: vless
   server: bug.xcp
