@@ -7,6 +7,16 @@ proxies:
   password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
   udp: true
   sni: 130.94.94.15
+- name: 🇸🇬DP vless-SG-14571629
+  dialer-proxy: LBCF
+  type: vless
+  server: 56.10.13.139
+  port: 443
+  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
+  udp: true
+  network: tcp
+  tls: false
+  sni: play.google.com
 - name: 🇸🇬DP vless-SG-14568382
   dialer-proxy: LBCF
   type: vless
@@ -175,16 +185,6 @@ proxies:
   network: tcp
   tls: false
   sni: play.google.com
-- name: 🇸🇬DP vless-SG-14524394
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.129.227.54
-  port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
-  udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
 - name: 🇸🇬DP vless-SG-14522671
   dialer-proxy: LBCF
   type: vless
@@ -199,19 +199,6 @@ proxies:
     path: /shalana
     headers:
       Host: group.shalana.xyz
-- name: 🇸🇬DP vless-SG-14514820
-  dialer-proxy: LBCF
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-14506380
   dialer-proxy: LBCF
   type: vless
@@ -253,7 +240,7 @@ proxies:
   password: 230012981ba34c12fec11deca0379005
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-14321200
   dialer-proxy: LBCF
   type: vless
   server: python-graysongon.wasmer.app
@@ -267,6 +254,14 @@ proxies:
     path: /7bd180e8
     headers:
       Host: python-graysongon.wasmer.app
+- name: 🇸🇬DP trojan-SG-14123052
+  dialer-proxy: LBCF
+  type: trojan
+  server: jpbgp.netvigor.cc
+  port: 19128
+  password: OccIqeORGQwiNkwS
+  udp: true
+  sni: yazhou10.dynu.net
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -278,7 +273,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vmess-MY-14083204
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.149.51
@@ -295,20 +290,23 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
-- name: 🇯🇵DP trojan-JP-14521015
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
+- name: 🇯🇵DP trojan-JP-14570479
   dialer-proxy: LBCF
   type: trojan
-  server: 54.250.183.37
-  port: 10624
+  server: 18.183.83.131
+  port: 18021
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
@@ -361,13 +359,13 @@ proxies:
   password: 230012981ba34c12fec11deca0379005
   udp: true
   sni: www.nintendogames.net
-- name: 🇺🇸DP ss-US
+- name: 🏳DP ss-
   dialer-proxy: LBCF
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 147.90.234.133
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
@@ -415,7 +413,7 @@ proxies:
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   server: 47.79.144.115
   port: 40003
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-13838354
   dialer-proxy: LBCF
   type: vless
   server: 47.79.144.103
@@ -581,7 +579,7 @@ proxies:
 - name: 🇺🇸DP trojan-US-14554656
   dialer-proxy: LBCF
   type: trojan
-  server: 54.46.109.132
+  server: 16.163.142.40
   port: 22657
   password: BxceQaOe
   udp: true
@@ -614,17 +612,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇺🇸DP vless-US-14521040
-  dialer-proxy: LBCF
-  type: vless
-  server: 37.152.190.242
-  port: 49194
-  uuid: a1667f69-6ef0-4f4c-a4e6-3fe555d6da71
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
 - name: 🇺🇸DP ss-US-14520568
   dialer-proxy: LBCF
   type: ss
@@ -633,19 +620,6 @@ proxies:
   password: hRd=IXkjozMEKLeGR_0q09jtwly5J2la2O
   server: 172.234.202.34
   port: 24833
-- name: 🇺🇸DP vless-US-14514395
-  dialer-proxy: LBCF
-  type: vless
-  server: arvancloud.ir
-  port: 8880
-  uuid: 928d8e01-289f-4a8b-91ea-2689ec62aed1
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: sinimoo.com
 - name: 🇺🇸DP vless-US-14510152
   dialer-proxy: LBCF
   type: vless
@@ -653,28 +627,14 @@ proxies:
   port: 443
   uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
   udp: true
-  network: ws
-  tls: true
-  sni: default.ssl.fastly.net
-  ws-opts:
-    path: /
-    headers:
-      Host: newip.global.ssl.fastly.neT.
-- name: 🏳DP vless-
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-14509361
   dialer-proxy: LBCF
   type: vless
   server: 104.16.9.20
   port: 443
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US-14500215
-  dialer-proxy: LBCF
-  type: vless
-  server: 31.76.32.114
-  port: 108
-  uuid: 08c063d4-17d8-4d44-8f1c-6a1e782d3a1e
   udp: true
   network: tcp
   tls: false
@@ -752,7 +712,7 @@ proxies:
 - name: 🇺🇸DP trojan-US-14348777
   dialer-proxy: LBCF
   type: trojan
-  server: 198.52.244.10
+  server: 207.126.167.162
   port: 443
   password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   udp: true
@@ -789,6 +749,51 @@ proxies:
   server: 57.151.100.27
   port: 10086
   uuid: 550e8400-e29b-41d4-a716-446655440000
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇵🇱DP vless-PL
+  dialer-proxy: LBCF
+  type: vless
+  server: pl.fantoff.online
+  port: 443
+  uuid: b95dd8e5-2758-408f-be99-9362eecee609
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
+- name: 🇺🇸DP vmess-US-14166387
+  dialer-proxy: LBCF
+  type: vmess
+  server: 129.146.143.80
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-14161877
+  dialer-proxy: LBCF
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+- name: 🇺🇸DP vmess-US-14160516
+  dialer-proxy: LBCF
+  type: vmess
+  server: 104.233.214.176
+  port: 13581
+  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
   alterId: 0
   cipher: auto
   tls: false
