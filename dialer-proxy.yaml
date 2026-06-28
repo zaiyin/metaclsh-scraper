@@ -155,26 +155,6 @@ proxies:
   network: tcp
   tls: false
   sni: play.google.com
-- name: 🇸🇬DP vless-SG-14529692
-  dialer-proxy: LBCF
-  type: vless
-  server: 47.129.175.231
-  port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
-  udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
-- name: 🇸🇬DP vless-SG-14528985
-  dialer-proxy: LBCF
-  type: vless
-  server: 13.250.19.72
-  port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
-  udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
 - name: 🇸🇬DP vless-SG-14522671
   dialer-proxy: LBCF
   type: vless
@@ -262,6 +242,28 @@ proxies:
   network: tcp
   tls: false
   sni: www.icloud.com
+- name: 🇸🇬DP vmess-SG-7314090
+  dialer-proxy: LBCF
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-7297225
+  dialer-proxy: LBCF
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -273,7 +275,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14083204
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.149.51
@@ -298,10 +300,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
 - name: 🇯🇵DP trojan-JP-14570479
   dialer-proxy: LBCF
   type: trojan
@@ -364,8 +363,8 @@ proxies:
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: gaM3vd5zfR1ay1v7hfn4X6
-  server: tinkered-pennies-puppies.freesocks.work
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  server: 147.90.234.133
   port: 443
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
@@ -606,7 +605,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP ss-
+- name: 🇺🇸DP ss-US-14520568
   dialer-proxy: LBCF
   type: ss
   udp: true
@@ -667,7 +666,7 @@ proxies:
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   udp: true
   sni: 45.61.52.243
-- name: 🇺🇸DP vless-US-14455360
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: usa.ldtp.com
