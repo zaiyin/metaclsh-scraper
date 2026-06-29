@@ -1,13 +1,13 @@
 proxies:
-- name: 🇸🇬 vless-SG-14503455
+- name: 🇸🇬 vless-SG-14321200
   type: vless
   server: bug.xcp
-  port: 80
-  uuid: a3ca2f6f-3905-406b-b15e-873bed123033
+  port: 443
+  uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /vless
+    path: /7bd180e8
     headers:
-      Host: education.panelvps.eu.org
+      Host: python-graysongon.wasmer.app
