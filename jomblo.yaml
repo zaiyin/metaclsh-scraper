@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-14321200
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /7bd180e8
-    headers:
-      Host: python-graysongon.wasmer.app
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -20,7 +8,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 trojan-SG-9271
@@ -37,14 +25,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /ca-cl
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: unnes.ac.id.yxls.eu.cc
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -55,5 +43,29 @@ proxies:
   udp: true
   ws-opts:
     path: /?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=2048
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-8105
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
