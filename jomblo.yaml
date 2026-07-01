@@ -15,14 +15,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: e18cdfef-c81f-4199-8b2d-afcaf9f21cd0
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: nova-river-portal-b162.alireza57290.workers.dev
+      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -59,7 +59,7 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
@@ -71,66 +71,54 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 3c37d31e-9990-4c52-80fa-d971564d58c1
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?u=73742dbc12
-    headers:
-      Host: nova-atlas-core-609c.nova-c40b57.workers.dev
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
   port: 443
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /QiangLieTuiJian?ed=2560
+    path: /
     headers:
-      Host: cfoo-146.pages.dev
+      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
   port: 443
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /QiangLieTuiJian?ed=2560fp=chrome
+    path: /ca-cl
     headers:
-      Host: cfoo-146.pages.dev
+      Host: unnes.ac.id.yxls.eu.cc
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-amz
+    path: /ca-cl
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: unnes.ac.id.yxls.eu.cc
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: b82f0dc8-6ed6-4cb1-8754-3a41846eec11
+  port: 443
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip=45.155.102.207?u=f37bdce86d
+    path: /proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome
     headers:
-      Host: nova-mango-spark-7b1c.nova-ef15e0.workers.dev
+      Host: nbhhh.mrcool.kdns.fr
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -140,7 +128,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /QiangLieTuiJian?ed=2560
+    path: /QiangLieTuiJian?ed=2560fp=chrome
     headers:
       Host: cfoo-146.pages.dev
 - name: 🇸🇬 vless-SG-7531
@@ -159,11 +147,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /ca-cl
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: unnes.ac.id.yxls.eu.cc
