@@ -107,19 +107,18 @@ proxies:
     path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-9271
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: 104.16.72.70
+  type: trojan
+  server: 104.16.72.2
   port: 443
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
   udp: true
-  network: tcp
-  tls: false
+  sni: space.byu.id.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.52.240
+  server: 104.18.41.190
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -133,43 +132,36 @@ proxies:
 - name: 🇸🇬DP trojan-SG-8862
   dialer-proxy: LBCF
   type: trojan
-  server: 104.16.72.101
+  server: 104.16.72.2
   port: 443
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
   udp: true
   sni: space.byu.id.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.145.2
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 104.16.72.70
+  port: 2096
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
   udp: true
   network: ws
   tls: true
-  sni: t1s1.rittbo.kdns.fr
+  sni: sp.linuxdododo.ccwu.cc
   ws-opts:
-    path: /fp=chrome
+    path: /proxyip
     headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-8105
+      Host: sp.linuxdododo.ccwu.cc
+- name: 🇸🇬DP trojan-SG-8105
   dialer-proxy: LBCF
-  type: vless
-  server: 91.193.58.77
+  type: trojan
+  server: space.byu.id.yxls.eu.cc
   port: 443
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
   udp: true
-  network: ws
-  tls: true
-  sni: unnes.ac.id.yxls.eu.cc
-  ws-opts:
-    path: /ca-cl
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.1.170
+  server: 162.159.42.163
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -180,10 +172,32 @@ proxies:
     path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-7971
+- name: 🇸🇬DP trojan-SG-7971
+  dialer-proxy: LBCF
+  type: trojan
+  server: 104.17.121.43
+  port: 443
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  udp: true
+  sni: space.byu.id.yxls.eu.cc
+- name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.180.39
+  server: 198.41.223.238
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬DP vless-SG-7801
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.48.245
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -194,39 +208,11 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-7966
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.8.42
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.46.24
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬DP vless-SG-7724
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.44.198
-  port: 443
+  server: 162.159.13.196
+  port: 8443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
   network: ws
@@ -239,7 +225,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7531
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.16.154
+  server: 108.162.196.3
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -247,51 +233,39 @@ proxies:
   tls: true
   sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /fp=chrome
+    path: /fp
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬DP vless-SG-7456
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.21.206
-  port: 2083
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-7429
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.47.140
-  port: 2096
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  udp: true
-  network: ws
-  tls: true
-  sni: sp.linuxdododo.ccwu.cc
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.cmliussss.netfp=random
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-- name: 🇸🇬DP vless-SG-7424
-  dialer-proxy: LBCF
-  type: vless
-  server: cf.090227.xyz
+  server: 162.159.19.67
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   udp: true
   network: ws
   tls: true
-  sni: t1s1.rittbo.kdns.fr
+  sni: nbhhh.mrcool.kdns.fr
   ws-opts:
-    path: /
+    path: /proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: nbhhh.mrcool.kdns.fr
+- name: 🇸🇬DP trojan-SG-7429
+  dialer-proxy: LBCF
+  type: trojan
+  server: 104.16.72.2
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  udp: true
+  sni: space.byu.id.yxls.eu.cc
+- name: 🇸🇬DP trojan-SG-7424
+  dialer-proxy: LBCF
+  type: trojan
+  server: 104.16.72.101
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  udp: true
+  sni: space.byu.id.yxls.eu.cc
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -402,8 +376,8 @@ proxies:
   type: ss
   udp: true
   cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  server: 147.90.234.133
+  password: gaM3vd5zfR1ay1v7hfn4X6
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
@@ -565,7 +539,7 @@ proxies:
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
-  server: 108.160.131.197
+  server: 108.160.132.178
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -598,6 +572,29 @@ proxies:
     path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
+- name: 🇺🇸DP vless-US-14686312
+  dialer-proxy: LBCF
+  type: vless
+  server: 44.223.17.190
+  port: 2053
+  uuid: 0d9cc99b-d11a-43b8-8613-dc8ef04a326b
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.inel.com
+- name: 🇺🇸DP vless-US-14684650
+  dialer-proxy: LBCF
+  type: vless
+  server: 192.166.82.165
+  port: 80
+  uuid: ed6297aa-aa75-46b8-fea7-98074fd0a482
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /assets/js/app-v2.8.4-5f9a2b3c.js
+    headers:
+      Host: skyroom.online
 - name: 🇺🇸DP vless-US-14676875
   dialer-proxy: LBCF
   type: vless
@@ -812,28 +809,6 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14058826
-  dialer-proxy: LBCF
-  type: vmess
-  server: 38.114.123.42
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14058816
-  dialer-proxy: LBCF
-  type: vmess
-  server: 169.197.142.22
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
