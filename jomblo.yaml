@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-14321200
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 9b0b4404-f1eb-4551-9b88-e0aac7843c86
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /9b0b4404
+    headers:
+      Host: earthpro.wasmer.app
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -8,7 +20,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-9271
@@ -32,92 +44,46 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 trojan-SG-8430
-  type: trojan
+- name: 🇸🇬 vless-SG-8430
+  type: vless
   server: bug.xcp
   port: 443
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /au-do
+    path: /
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      Host: vpn47.cc.cd
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fp
+    path: /proxyip
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: nbhhh.mrcool.kdns.fr
 - name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 vless-SG-7971
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /fp=randomized
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-- name: 🇸🇬 vless-SG-7801
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
   port: 2096
@@ -126,10 +92,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip
+    path: /proxyip=ProxyIP.JP.cmliussss.netfp=random
     headers:
       Host: sp.linuxdododo.ccwu.cc
-- name: 🇸🇬 vless-SG-7456
+- name: 🇸🇬 vless-SG-7971
   type: vless
   server: bug.xcp
   port: 443
@@ -141,7 +107,7 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬 trojan-SG-7429
+- name: 🇸🇬 trojan-SG-7966
   type: trojan
   server: bug.xcp
   port: 443
@@ -151,15 +117,61 @@ proxies:
     path: /au-do
     headers:
       Host: space.byu.id.yxls.eu.cc
-- name: 🇸🇬 vless-SG-7424
-  type: vless
+- name: 🇸🇬 trojan-SG-7801
+  type: trojan
   server: bug.xcp
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   udp: true
   ws-opts:
-    path: /fp=randomized
+    path: /au-do
     headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+      Host: space.byu.id.yxls.eu.cc
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-7531
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-7456
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬 vless-SG-7429
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?TELEGRAM-vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr?ed=2048
+    headers:
+      Host: t1s1.rittbo.kdns.fr
