@@ -427,6 +427,58 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
+- name: 🇺🇸DP vmess-US-14764146
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-14764117
+  dialer-proxy: LBCF
+  type: vless
+  server: ansooyefilter-production.up.railway.app
+  port: 443
+  uuid: b521cf5a-91a8-7fad-3702-698a57b8a50e
+  udp: true
+  network: ws
+  tls: true
+  sni: ansooyefilter-production.up.railway.app
+  ws-opts:
+    path: /ws/b521cf5a-91a8-7fad-3702-698a57b8a50e
+    headers:
+      Host: ansooyefilter-production.up.railway.app
+- name: 🇺🇸DP vmess-US-14763552
+  dialer-proxy: LBCF
+  type: vmess
+  server: 104.16.0.0
+  port: 443
+  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws-gongyi
+    headers:
+      Host: gongyilm.dpdns.org
+  servername: gongyilm.dpdns.org
+- name: 🇺🇸DP vmess-US-14763397
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP trojan-US-14761314
   dialer-proxy: LBCF
   type: trojan
@@ -658,42 +710,3 @@ proxies:
   network: ws
   ws-opts:
     path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
-- name: 🇺🇸DP trojan-US-14694153
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.116.155
-  port: 44265
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
-- name: 🇺🇸DP vless-US-14694081
-  dialer-proxy: LBCF
-  type: vless
-  server: 69.46.46.7
-  port: 443
-  uuid: 0ae6576e-8011-2f4d-ea20-b35d4faddb6e
-  udp: true
-  network: ws
-  tls: true
-  sni: rvg-production-780b.up.railway.app
-  ws-opts:
-    path: /ws/0ae6576e-8011-2f4d-ea20-b35d4faddb6e
-    headers:
-      Host: rvg-production-780b.up.railway.app
-- name: 🇺🇸DP ss-US-14690297
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  server: 172.245.235.84
-  port: 2375
-- name: 🇺🇸DP vless-US-14676875
-  dialer-proxy: LBCF
-  type: vless
-  server: usa.mohammadaz2.shop
-  port: 42348
-  uuid: e286cebe-7473-44e9-8c30-273ac36ac83b
-  udp: true
-  network: tcp
-  tls: false
