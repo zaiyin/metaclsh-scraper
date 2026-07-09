@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-14759504
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-14738483
   type: vless
   server: bug.xcp
