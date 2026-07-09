@@ -243,8 +243,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -252,6 +252,22 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vmess-JP-14775305
+  dialer-proxy: LBCF
+  type: vmess
+  server: jp01.scpnb.top
+  port: 443
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+    headers:
+      Host: jp01.scpnb.top
+  servername: jp01.scpnb.top
 - name: 🇯🇵DP trojan-JP-14765394
   dialer-proxy: LBCF
   type: trojan
@@ -421,13 +437,6 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇯🇵DP trojan-JP-14759193
-  dialer-proxy: LBCF
-  type: trojan
-  server: grateful-owl.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
 - name: 🇺🇸DP vless-US-14773357
   dialer-proxy: LBCF
   type: vless
@@ -513,7 +522,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.41
+  server: 104.16.72.50
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -524,10 +533,10 @@ proxies:
     path: /rsedgws
     headers:
       Host: shegeftihaaa.net
-- name: 🇺🇸DP vless-US-14766407
+- name: vless-node
   dialer-proxy: LBCF
   type: vless
-  server: 89.116.250.135
+  server: 162.159.38.119
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -691,17 +700,6 @@ proxies:
     path: /ws/289b68cf-36f8-911c-92e5-a522bdee6ace
     headers:
       Host: x4g-production-51c6.up.railway.app
-- name: 🇺🇸DP vmess-US-14728707
-  dialer-proxy: LBCF
-  type: vmess
-  server: c722s801.portablesubmarines.com
-  port: 16025
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇺🇸DP vless-US-14726852
   dialer-proxy: LBCF
   type: vless
@@ -716,14 +714,29 @@ proxies:
     path: /ws/b6d7c0af-fa36-12e6-60d2-a4260129235b
     headers:
       Host: ansooyefilter4.up.railway.app
-- name: 🇺🇸DP vmess-US-14725925
+- name: 🇺🇸DP vmess-US-14710662
   dialer-proxy: LBCF
   type: vmess
-  server: c722s801.portablesubmarines.com
-  port: 16025
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  server: phoenix0202.zgjok.com
+  port: 443
+  uuid: d9c36b55-447a-4484-882b-d799f5301681
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /d9c36b55-447a-4484-882b-d799f5301681
+    headers:
+      Host: phoenix0202.zgjok.com
+  servername: phoenix0202.zgjok.com
+- name: 🇺🇸DP vless-US-14703747
+  dialer-proxy: LBCF
+  type: vless
+  server: 144.225.187.179
+  port: 51015
+  uuid: c7ba28f1-dd0a-4fd8-941e-e622f24c8a19
   udp: true
   network: tcp
+  tls: false
+  sni: apple.com
