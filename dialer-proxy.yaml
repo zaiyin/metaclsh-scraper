@@ -428,10 +428,24 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
+- name: 🇺🇸DP vless-US-14768542
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-5110.up.railway.app
+  port: 443
+  uuid: 7726f5f8-eded-a25f-d5c4-55e48ae096ea
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-5110.up.railway.app
+  ws-opts:
+    path: /ws/7726f5f8-eded-a25f-d5c4-55e48ae096ea
+    headers:
+      Host: x4g-production-5110.up.railway.app
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.41
+  server: www.speedtest.org
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -445,7 +459,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.101
+  server: 188.114.97.6
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -703,13 +717,3 @@ proxies:
   network: tcp
   tls: false
   sni: www.booking.com
-- name: 🇺🇸DP vless-US-14703663
-  dialer-proxy: LBCF
-  type: vless
-  server: 216.227.169.104
-  port: 443
-  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
-  udp: true
-  network: tcp
-  tls: false
-  sni: deepl.com
