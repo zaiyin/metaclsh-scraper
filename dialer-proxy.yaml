@@ -252,6 +252,42 @@ proxies:
     headers:
       Host: 47.250.45.234
   servername: 47.250.45.234
+- name: 🇯🇵DP trojan-JP-14765394
+  dialer-proxy: LBCF
+  type: trojan
+  server: dashing-bedbug.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+- name: 🇯🇵DP trojan-JP-14765392
+  dialer-proxy: LBCF
+  type: trojan
+  server: allowing-ram.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+- name: 🇯🇵DP trojan-JP-14765391
+  dialer-proxy: LBCF
+  type: trojan
+  server: immense-eagle.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+- name: 🇯🇵DP trojan-JP-14765388
+  dialer-proxy: LBCF
+  type: trojan
+  server: wise-rhino.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+- name: 🇯🇵DP trojan-JP-14765385
+  dialer-proxy: LBCF
+  type: trojan
+  server: rational-joey.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+  sni: rational-joey.rooster465.autos
 - name: 🇯🇵DP trojan-JP-14761370
   dialer-proxy: LBCF
   type: trojan
@@ -392,41 +428,45 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇯🇵DP trojan-JP-14759180
+- name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
-  type: trojan
-  server: equipped-moth.rooster465.autos
+  type: vless
+  server: 104.16.72.41
   port: 443
-  password: XG59623478
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
-- name: 🇯🇵DP trojan-JP-14759176
+  network: ws
+  tls: true
+  sni: shegeftihaaa.net
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+- name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
-  type: trojan
-  server: comic-eel.rooster465.autos
+  type: vless
+  server: 104.16.72.101
   port: 443
-  password: XG59623478
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
-- name: 🇯🇵DP trojan-JP-14759172
+  network: ws
+  tls: true
+  sni: vangoghhh.info
+  ws-opts:
+    path: /rdfgtws
+    headers:
+      Host: vangoghhh.info
+- name: 🇺🇸DP vless-US-14766212
   dialer-proxy: LBCF
-  type: trojan
-  server: united-grouse.rooster465.autos
-  port: 443
-  password: XG59623478
+  type: vless
+  server: 154.29.147.127
+  port: 11102
+  uuid: ac7f22d1-066b-4355-dd3e-c5cfdc8ab19f
   udp: true
-- name: 🇯🇵DP trojan-JP-14759166
-  dialer-proxy: LBCF
-  type: trojan
-  server: novel-kitten.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
-- name: 🇯🇵DP trojan-JP-14759163
-  dialer-proxy: LBCF
-  type: trojan
-  server: distinct-llama.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
 - name: 🇺🇸DP vmess-US-14764146
   dialer-proxy: LBCF
   type: vmess
@@ -673,40 +713,3 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🇺🇸DP vless-US-14703543
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.91.248.163
-  port: 6300
-  uuid: 8f6ccdb2-2b4e-4834-a90b-344bff490402
-  udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
-- name: 🇺🇸DP vless-US-14703527
-  dialer-proxy: LBCF
-  type: vless
-  server: rvg-production-8249.up.railway.app
-  port: 443
-  uuid: f1f47653-d57b-5917-fa47-c80823a8b7f3
-  udp: true
-  network: ws
-  tls: true
-  sni: rvg-production-8249.up.railway.app
-  ws-opts:
-    path: /ws/f1f47653-d57b-5917-fa47-c80823a8b7f3
-    headers:
-      Host: rvg-production-8249.up.railway.app
-- name: 🇺🇸DP vmess-US-14701292
-  dialer-proxy: LBCF
-  type: vmess
-  server: 107.173.7.186
-  port: 2095
-  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
