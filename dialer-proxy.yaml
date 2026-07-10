@@ -1,12 +1,4 @@
 proxies:
-- name: 🇮🇩DP trojan-ID-14345533
-  dialer-proxy: LBCF
-  type: trojan
-  server: 130.94.94.15
-  port: 443
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  udp: true
-  sni: 130.94.94.15
 - name: 🇸🇬DP trojan-SG-14782126
   dialer-proxy: LBCF
   type: trojan
@@ -273,6 +265,21 @@ proxies:
     headers:
       Host: 47.250.45.234
   servername: 47.250.45.234
+- name: 🇯🇵DP trojan-JP-14788259
+  dialer-proxy: LBCF
+  type: trojan
+  server: ethical-raccoon.rooster465.autos
+  port: 443
+  password: PI36027154
+  udp: true
+  sni: ethical-raccoon.rooster465.autos
+- name: 🇯🇵DP trojan-JP-14788256
+  dialer-proxy: LBCF
+  type: trojan
+  server: happy-monkfish.rooster465.autos
+  port: 443
+  password: HW85960347
+  udp: true
 - name: 🇯🇵DP trojan-JP-14782117
   dialer-proxy: LBCF
   type: trojan
@@ -445,20 +452,16 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇯🇵DP trojan-JP-14759221
+- name: 🇺🇸DP vless-US-14787503
   dialer-proxy: LBCF
-  type: trojan
-  server: worthy-labrador.rooster465.autos
+  type: vless
+  server: us2.fast-cone.com
   port: 443
-  password: XG59623478
+  uuid: c99fdb9a-0cec-497d-9d29-d45ed770807b
   udp: true
-- name: 🇯🇵DP trojan-JP-14759211
-  dialer-proxy: LBCF
-  type: trojan
-  server: modest-coral.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
+  network: tcp
+  tls: false
+  sni: us2.fast-cone.com
 - name: 🇺🇸DP vmess-US-14784792
   dialer-proxy: LBCF
   type: vmess
@@ -649,7 +652,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 45.130.125.126
+  server: 45.131.209.212
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -758,11 +761,3 @@ proxies:
   network: grpc
   tls: true
   sni: cache-5673.atlanta-games.com
-- name: 🇺🇸DP trojan-US-14755708
-  dialer-proxy: LBCF
-  type: trojan
-  server: 16.162.220.240
-  port: 11353
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
