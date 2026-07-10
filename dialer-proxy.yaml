@@ -452,6 +452,47 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
+- name: 🇺🇸DP vless-US-14792890
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vless-US-14791840
+  dialer-proxy: LBCF
+  type: vless
+  server: ansooyefilter-production-4623.up.railway.app
+  port: 443
+  uuid: a75f5c82-d667-0ce8-d297-30286b054691
+  udp: true
+  network: ws
+  tls: true
+  sni: ansooyefilter-production-4623.up.railway.app
+  ws-opts:
+    path: /ws/a75f5c82-d667-0ce8-d297-30286b054691
+    headers:
+      Host: ansooyefilter-production-4623.up.railway.app
+- name: 🇺🇸DP vless-US-14791245
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-06e2.up.railway.app
+  port: 443
+  uuid: 14dc1390-2efc-724d-9dfa-1bc02bc644bc
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-06e2.up.railway.app
+  ws-opts:
+    path: /ws/14dc1390-2efc-724d-9dfa-1bc02bc644bc
+    headers:
+      Host: x4g-production-06e2.up.railway.app
 - name: 🇺🇸DP vless-US-14787503
   dialer-proxy: LBCF
   type: vless
@@ -496,8 +537,11 @@ proxies:
   udp: true
   network: ws
   tls: true
+  sni: hemidal-production-1351.up.railway.app
   ws-opts:
     path: /
+    headers:
+      Host: hemidal-production-1351.up.railway.app
 - name: 🇺🇸DP vmess-US-14778479
   dialer-proxy: LBCF
   type: vmess
@@ -638,7 +682,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 108.162.192.75
+  server: 8.47.69.0
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -652,7 +696,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 45.131.209.212
+  server: 104.16.72.139
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -733,31 +777,3 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇺🇸DP vmess-US-14760281
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP trojan-US-14759170
-  dialer-proxy: LBCF
-  type: trojan
-  server: adjusted-orca.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
-- name: 🇺🇸DP vless-US-14755753
-  dialer-proxy: LBCF
-  type: vless
-  server: 143.14.22.32
-  port: 443
-  uuid: 3bdb8c70-da05-483a-aa56-0e252c767f16
-  udp: true
-  network: grpc
-  tls: true
-  sni: cache-5673.atlanta-games.com
