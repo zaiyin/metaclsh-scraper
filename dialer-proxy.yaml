@@ -7,6 +7,20 @@ proxies:
   password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
   udp: true
   sni: 130.94.94.15
+- name: 🇸🇬DP vless-SG-14781216
+  dialer-proxy: LBCF
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 7983f39c-7251-43b9-991d-62677bfee640
+  udp: true
+  network: ws
+  tls: false
+  sni: support.zoom.us
+  ws-opts:
+    path: /apexcloud.ggff.net
+    headers:
+      Host: apexcloud.ggff.net
 - name: 🇸🇬DP trojan-SG-14761393
   dialer-proxy: LBCF
   type: trojan
@@ -197,16 +211,6 @@ proxies:
     path: /free-server.techsonic.me
     headers:
       Host: free-server.techsonic.me
-- name: 🇸🇬DP vless-SG-14654689
-  dialer-proxy: LBCF
-  type: vless
-  server: sahanwickramasinghevip.shop
-  port: 443
-  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
-  udp: true
-  network: tcp
-  tls: true
-  sni: sahanwickramasinghevip.shop
 - name: 🇲🇾DP ss-MY-14735479
   dialer-proxy: LBCF
   type: ss
@@ -437,6 +441,89 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
+- name: 🇺🇸DP vless-US-14778989
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-1e7a.up.railway.app
+  port: 443
+  uuid: 65bed288-9602-d3aa-f7ef-752da3683677
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-1e7a.up.railway.app
+  ws-opts:
+    path: /ws/65bed288-9602-d3aa-f7ef-752da3683677
+    headers:
+      Host: x4g-production-1e7a.up.railway.app
+- name: 🇺🇸DP vless-US-14778819
+  dialer-proxy: LBCF
+  type: vless
+  server: hemidal-production-1351.up.railway.app
+  port: 443
+  uuid: 2cb607a7-6794-4911-b36b-958bed7b23b6
+  udp: true
+  network: ws
+  tls: true
+  sni: hemidal-production-1351.up.railway.app
+  ws-opts:
+    path: /
+    headers:
+      Host: hemidal-production-1351.up.railway.app
+- name: 🇺🇸DP vmess-US-14778479
+  dialer-proxy: LBCF
+  type: vmess
+  server: zt-ai.cloud
+  port: 443
+  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: zt-ai.cloud
+  servername: zt-ai.cloud
+- name: 🇺🇸DP vless-US-14777542
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.75.234
+  port: 443
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
+  udp: true
+  network: ws
+  tls: true
+  sni: server-ir-4.ariyuz.org
+  ws-opts:
+    path: /
+    headers:
+      Host: us-1.ariyuz.org
+- name: 🇺🇸DP vmess-US-14777207
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-14776744
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.16.72.2
+  port: 443
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  udp: true
+  network: ws
+  tls: true
+  sni: vangoghhh.info
+  ws-opts:
+    path: /rdfgtws
+    headers:
+      Host: vangoghhh.info
 - name: 🇺🇸DP vless-US-14773357
   dialer-proxy: LBCF
   type: vless
@@ -522,7 +609,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.50
+  server: 104.16.72.41
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -533,10 +620,10 @@ proxies:
     path: /rsedgws
     headers:
       Host: shegeftihaaa.net
-- name: vless-node
+- name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.38.119
+  server: 45.131.209.42
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -661,82 +748,3 @@ proxies:
   password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
   udp: true
   sni: 149.28.241.235
-- name: 🇺🇸DP vless-US-14744713
-  dialer-proxy: LBCF
-  type: vless
-  server: ansooyefilter6.up.railway.app
-  port: 443
-  uuid: 0b0dd312-eecb-cb9d-fe12-6d0c1df30ae4
-  udp: true
-  network: ws
-  tls: true
-  sni: ansooyefilter6.up.railway.app
-  ws-opts:
-    path: /ws/0b0dd312-eecb-cb9d-fe12-6d0c1df30ae4
-    headers:
-      Host: ansooyefilter6.up.railway.app
-- name: 🇺🇸DP vmess-US-14741800
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-14734023
-  dialer-proxy: LBCF
-  type: vless
-  server: x4g-production-51c6.up.railway.app
-  port: 443
-  uuid: 289b68cf-36f8-911c-92e5-a522bdee6ace
-  udp: true
-  network: ws
-  tls: true
-  sni: x4g-production-51c6.up.railway.app
-  ws-opts:
-    path: /ws/289b68cf-36f8-911c-92e5-a522bdee6ace
-    headers:
-      Host: x4g-production-51c6.up.railway.app
-- name: 🇺🇸DP vless-US-14726852
-  dialer-proxy: LBCF
-  type: vless
-  server: ansooyefilter4.up.railway.app
-  port: 443
-  uuid: b6d7c0af-fa36-12e6-60d2-a4260129235b
-  udp: true
-  network: ws
-  tls: true
-  sni: ansooyefilter4.up.railway.app
-  ws-opts:
-    path: /ws/b6d7c0af-fa36-12e6-60d2-a4260129235b
-    headers:
-      Host: ansooyefilter4.up.railway.app
-- name: 🇺🇸DP vmess-US-14710662
-  dialer-proxy: LBCF
-  type: vmess
-  server: phoenix0202.zgjok.com
-  port: 443
-  uuid: d9c36b55-447a-4484-882b-d799f5301681
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /d9c36b55-447a-4484-882b-d799f5301681
-    headers:
-      Host: phoenix0202.zgjok.com
-  servername: phoenix0202.zgjok.com
-- name: 🇺🇸DP vless-US-14703747
-  dialer-proxy: LBCF
-  type: vless
-  server: 144.225.187.179
-  port: 51015
-  uuid: c7ba28f1-dd0a-4fd8-941e-e622f24c8a19
-  udp: true
-  network: tcp
-  tls: false
-  sni: apple.com
