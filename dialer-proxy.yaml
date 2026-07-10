@@ -7,16 +7,38 @@ proxies:
   password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
   udp: true
   sni: 130.94.94.15
+- name: 🇸🇬DP trojan-SG-14782126
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.199.202.97
+  port: 51396
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇸🇬DP vless-SG-14781953
+  dialer-proxy: LBCF
+  type: vless
+  server: 52.139.202.182
+  port: 443
+  uuid: 18e65438-6095-4430-f258-ad68be5133b6
+  udp: true
+  network: ws
+  tls: true
+  sni: sga.okkeo.me
+  ws-opts:
+    path: /bing
+    headers:
+      Host: sga.okkeo.me
 - name: 🇸🇬DP vless-SG-14781216
   dialer-proxy: LBCF
   type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 7983f39c-7251-43b9-991d-62677bfee640
+  server: 141.193.213.20
+  port: 8443
+  uuid: 00cb997f-aebb-4c0b-93de-616962738aa0
   udp: true
   network: ws
-  tls: false
-  sni: support.zoom.us
+  tls: true
+  sni: apexcloud.ggff.net
   ws-opts:
     path: /apexcloud.ggff.net
     headers:
@@ -198,27 +220,19 @@ proxies:
     path: /shalana
     headers:
       Host: group.shalana.xyz
-- name: 🇸🇬DP vless-SG-14703689
+- name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
-  server: support.zoom.us
-  port: 8080
-  uuid: d4951d91-23e0-4301-a1ea-5300e0b5ec67
+  server: sexi.carderrr.com
+  port: 443
+  uuid: SoonTeam
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /free-server.techsonic.me
+    path: /telegram@SoonTeam
     headers:
-      Host: free-server.techsonic.me
-- name: 🇲🇾DP ss-MY-14735479
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  server: 38.54.125.229
-  port: 8091
+      Host: anten.ir
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -255,7 +269,32 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
+- name: 🇯🇵DP trojan-JP-14782117
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.183.199.219
+  port: 54411
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
+- name: 🇯🇵DP trojan-JP-14781814
+  dialer-proxy: LBCF
+  type: trojan
+  server: large-baboon.rooster465.autos
+  port: 443
+  password: PI36027154
+  udp: true
+- name: 🇯🇵DP trojan-JP-14781771
+  dialer-proxy: LBCF
+  type: trojan
+  server: rich-mule.rooster465.autos
+  port: 443
+  password: PI36027154
+  udp: true
 - name: 🇯🇵DP vmess-JP-14775305
   dialer-proxy: LBCF
   type: vmess
@@ -420,27 +459,17 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇯🇵DP trojan-JP-14759202
+- name: 🇺🇸DP vmess-US-14784792
   dialer-proxy: LBCF
-  type: trojan
-  server: up-dinosaur.rooster465.autos
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: XG59623478
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-- name: 🇯🇵DP trojan-JP-14759199
-  dialer-proxy: LBCF
-  type: trojan
-  server: complete-cockatoo.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
-- name: 🇯🇵DP trojan-JP-14759195
-  dialer-proxy: LBCF
-  type: trojan
-  server: internal-krill.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-14778989
   dialer-proxy: LBCF
   type: vless
@@ -464,11 +493,8 @@ proxies:
   udp: true
   network: ws
   tls: true
-  sni: hemidal-production-1351.up.railway.app
   ws-opts:
     path: /
-    headers:
-      Host: hemidal-production-1351.up.railway.app
 - name: 🇺🇸DP vmess-US-14778479
   dialer-proxy: LBCF
   type: vmess
@@ -609,7 +635,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.41
+  server: 108.162.192.75
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -623,7 +649,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 45.131.209.42
+  server: 45.130.125.126
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -740,11 +766,3 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me/ripaojiedian
-- name: 🇺🇸DP trojan-US-14745650
-  dialer-proxy: LBCF
-  type: trojan
-  server: 149.28.241.235
-  port: 443
-  password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
-  udp: true
-  sni: 149.28.241.235
