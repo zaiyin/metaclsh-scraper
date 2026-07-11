@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-14804416
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 70252937-5c61-4fb0-8656-d1a16261b795
+  udp: true
+  network: ws
+  tls: true
+  sni: group.shalana.xyz
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: group.shalana.xyz
 - name: 🇸🇬DP vmess-SG-14799178
   dialer-proxy: LBCF
   type: vmess
@@ -199,20 +213,6 @@ proxies:
     path: /60156344
     headers:
       Host: wasmer-earth.jzy88.top
-- name: 🇸🇬DP vless-SG-14719623
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 70252937-5c61-4fb0-8656-d1a16261b795
-  udp: true
-  network: ws
-  tls: true
-  sni: group.shalana.xyz
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: group.shalana.xyz
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -254,15 +254,18 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
 - name: 🇯🇵DP vmess-JP-14799913
   dialer-proxy: LBCF
   type: vmess
@@ -460,6 +463,68 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
+- name: 🇺🇸DP vless-US-14803911
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vless-US-14803767
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-23fd.up.railway.app
+  port: 443
+  uuid: ea5dbb0a-4dd4-7b78-84f3-3188b2de74ed
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-23fd.up.railway.app
+  ws-opts:
+    path: /ws/ea5dbb0a-4dd4-7b78-84f3-3188b2de74ed
+    headers:
+      Host: x4g-production-23fd.up.railway.app
+- name: 🇺🇸DP vless-US-14802179
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-135d.up.railway.app
+  port: 443
+  uuid: 7b8a1044-78a9-9461-d0b5-d6ebcd87959c
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-135d.up.railway.app
+  ws-opts:
+    path: /ws/7b8a1044-78a9-9461-d0b5-d6ebcd87959c
+    headers:
+      Host: x4g-production-135d.up.railway.app
+- name: 🇺🇸DP vmess-US-14800924
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-14800604
+  dialer-proxy: LBCF
+  type: vless
+  server: 31.76.21.58
+  port: 57176
+  uuid: 6395bc01-f320-4327-94a4-7f523e96b5dc
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amd.com
 - name: 🇺🇸DP vless-US-14797437
   dialer-proxy: LBCF
   type: vless
@@ -713,71 +778,3 @@ proxies:
     path: /ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e
     headers:
       Host: ansooyefilter-production-454e.up.railway.app
-- name: 🇺🇸DP vless-US-14772957
-  dialer-proxy: LBCF
-  type: vless
-  server: fi.karzino-connected.com
-  port: 443
-  uuid: ef3e206d-3cbc-4254-8374-df04fe35a762
-  udp: true
-  network: tcp
-  tls: false
-  sni: fi.karzino-connected.com
-- name: 🇺🇸DP vmess-US-14772340
-  dialer-proxy: LBCF
-  type: vmess
-  server: yg6.ygkkk.dpdns.org
-  port: 80
-  uuid: dc0672f1-1a09-42ec-8f46-0a7e68349e79
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
-    headers:
-      Host: remains-istanbul-hide-convention.trycloudflare.com
-  servername: remains-istanbul-hide-convention.trycloudflare.com
-- name: 🇺🇸DP vless-US-14768542
-  dialer-proxy: LBCF
-  type: vless
-  server: x4g-production-5110.up.railway.app
-  port: 443
-  uuid: 7726f5f8-eded-a25f-d5c4-55e48ae096ea
-  udp: true
-  network: ws
-  tls: true
-  sni: x4g-production-5110.up.railway.app
-  ws-opts:
-    path: /ws/7726f5f8-eded-a25f-d5c4-55e48ae096ea
-    headers:
-      Host: x4g-production-5110.up.railway.app
-- name: 🇺🇸DP vless-US-14766610
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.72.101
-  port: 443
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  udp: true
-  network: ws
-  tls: true
-  sni: shegeftihaaa.net
-  ws-opts:
-    path: /rsedgws
-    headers:
-      Host: shegeftihaaa.net
-- name: 🇺🇸DP vless-US-14766407
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.131.211.136
-  port: 443
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  udp: true
-  network: ws
-  tls: true
-  sni: vangoghhh.info
-  ws-opts:
-    path: /rdfgtws
-    headers:
-      Host: vangoghhh.info
