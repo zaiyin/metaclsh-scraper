@@ -1,4 +1,15 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-14799178
+  dialer-proxy: LBCF
+  type: vmess
+  server: 101.32.241.147
+  port: 56688
+  uuid: 4c6bf87d-dbc0-4ab6-d774-ded20e5ed1c4
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇸🇬DP trojan-SG-14782126
   dialer-proxy: LBCF
   type: trojan
@@ -174,16 +185,6 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇸🇬DP vless-SG-14753833
-  dialer-proxy: LBCF
-  type: vless
-  server: 163.128.98.119
-  port: 443
-  uuid: 1210355c-323f-4098-b782-96627ca8b495
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.apple.com
 - name: 🇸🇬DP vless-SG-14738483
   dialer-proxy: LBCF
   type: vless
@@ -253,18 +254,39 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
+- name: 🇯🇵DP vmess-JP-14799913
+  dialer-proxy: LBCF
+  type: vmess
+  server: 167.179.99.83
+  port: 8443
+  uuid: 7a86d8d5-2fdf-4e2b-9ce9-55b99584f40e
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🇯🇵DP vmess-JP-14793501
+  dialer-proxy: LBCF
+  type: vmess
+  server: 103.201.131.66
+  port: 1552
+  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇯🇵DP trojan-JP-14788259
   dialer-proxy: LBCF
   type: trojan
@@ -438,20 +460,72 @@ proxies:
   port: 443
   password: XG59623478
   udp: true
-- name: 🇯🇵DP trojan-JP-14759229
+- name: 🇺🇸DP vless-US-14797437
   dialer-proxy: LBCF
-  type: trojan
-  server: outgoing-lynx.rooster465.autos
+  type: vless
+  server: x4g-update1000-production.up.railway.app
   port: 443
-  password: XG59623478
+  uuid: b68b3c3d-2623-4d94-2633-0d8aec412b0e
   udp: true
-- name: 🇯🇵DP trojan-JP-14759225
+  network: ws
+  tls: true
+  sni: x4g-update1000-production.up.railway.app
+  ws-opts:
+    path: /ws/b68b3c3d-2623-4d94-2633-0d8aec412b0e
+    headers:
+      Host: x4g-update1000-production.up.railway.app
+- name: 🇺🇸DP vless-US-14796282
   dialer-proxy: LBCF
-  type: trojan
-  server: next-jaybird.rooster465.autos
-  port: 443
-  password: XG59623478
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vless-US-14795594
+  dialer-proxy: LBCF
+  type: vless
+  server: u-cvds-s-vfdsds-a-dc.codesystem.ir
+  port: 8080
+  uuid: f8cae104-2eaa-4b16-b258-65be28281b70
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-14794791
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.92.180.178
+  port: 443
+  uuid: Telegram-CNT-Cafe
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.yahoo.com
+- name: 🇺🇸DP vless-US-14794028
+  dialer-proxy: LBCF
+  type: vless
+  server: using.neobo-tooth.ru
+  port: 2083
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  udp: true
+  network: grpc
+  tls: true
+- name: 🇺🇸DP vmess-US-14793568
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-14792890
   dialer-proxy: LBCF
   type: vless
@@ -682,7 +756,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766610
   dialer-proxy: LBCF
   type: vless
-  server: 8.47.69.0
+  server: 104.16.72.101
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -696,7 +770,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14766407
   dialer-proxy: LBCF
   type: vless
-  server: 104.16.72.139
+  server: 45.131.211.136
   port: 443
   uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   udp: true
@@ -707,73 +781,3 @@ proxies:
     path: /rdfgtws
     headers:
       Host: vangoghhh.info
-- name: 🇺🇸DP vless-US-14766212
-  dialer-proxy: LBCF
-  type: vless
-  server: 154.29.147.127
-  port: 11102
-  uuid: ac7f22d1-066b-4355-dd3e-c5cfdc8ab19f
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-- name: 🇺🇸DP vmess-US-14764146
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-14764117
-  dialer-proxy: LBCF
-  type: vless
-  server: ansooyefilter-production.up.railway.app
-  port: 443
-  uuid: b521cf5a-91a8-7fad-3702-698a57b8a50e
-  udp: true
-  network: ws
-  tls: true
-  sni: ansooyefilter-production.up.railway.app
-  ws-opts:
-    path: /ws/b521cf5a-91a8-7fad-3702-698a57b8a50e
-    headers:
-      Host: ansooyefilter-production.up.railway.app
-- name: 🇺🇸DP vmess-US-14763552
-  dialer-proxy: LBCF
-  type: vmess
-  server: 104.16.0.0
-  port: 443
-  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws-gongyi
-    headers:
-      Host: gongyilm.dpdns.org
-  servername: gongyilm.dpdns.org
-- name: 🇺🇸DP vmess-US-14763397
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP trojan-US-14761314
-  dialer-proxy: LBCF
-  type: trojan
-  server: next-ringtail.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
