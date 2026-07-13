@@ -1,4 +1,30 @@
 proxies:
+- name: 🇸🇬DP vless-SG-14851586
+  dialer-proxy: LBCF
+  type: vless
+  server: sahanwickramasinghevip.shop
+  port: 443
+  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
+  udp: true
+  network: tcp
+  tls: true
+  sni: sahanwickramasinghevip.shop
+- name: 🇸🇬DP trojan-SG-14847698
+  dialer-proxy: LBCF
+  type: trojan
+  server: 152.42.191.178
+  port: 8443
+  password: cortex-trojan-2026
+  udp: true
+  sni: www.bing.com
+- name: 🇸🇬DP ss-SG-14846911
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: a338A9
+  server: aw-sg.vndmall.pro
+  port: 8888
 - name: 🇸🇬DP vless-SG-14804416
   dialer-proxy: LBCF
   type: vless
@@ -24,14 +50,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP trojan-SG-14782126
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.199.202.97
-  port: 51396
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vless-SG-14781953
   dialer-proxy: LBCF
   type: vless
@@ -106,14 +124,6 @@ proxies:
     path: /9b0b4404
     headers:
       Host: earthpro.wasmer.app
-- name: 🇸🇬DP trojan-SG-14224629
-  dialer-proxy: LBCF
-  type: trojan
-  server: 95.40.50.224
-  port: 6357
-  password: bb839d14960b7a4fb1e95a3aef990528
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-14123052
   dialer-proxy: LBCF
   type: trojan
@@ -157,21 +167,50 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 198.71.189.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.145.186
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: vms.lifetime04.workers.dev
+      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.46.24
-  port: 8443
+  server: 162.159.11.57
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.53.34
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.60.167
+  port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
   network: ws
@@ -181,32 +220,10 @@ proxies:
     path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP trojan-SG-9203
-  dialer-proxy: LBCF
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u^p(_UR*F6
-  udp: true
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 173.245.58.247
-  port: 2053
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬DP vless-SG-8430
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.66
+  server: 172.64.40.84
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -214,27 +231,27 @@ proxies:
   tls: true
   sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇸🇬DP vless-SG-8105
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.52.134
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 104.18.12.149
+  port: 443
+  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
   udp: true
   network: ws
   tls: true
-  sni: t1s1.rittbo.kdns.fr
+  sni: labeller.neonime83.workers.dev
   ws-opts:
-    path: /@NebulaVPNx
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: labeller.neonime83.workers.dev
 - name: 🇸🇬DP vless-SG-8023
   dialer-proxy: LBCF
   type: vless
-  server: cf.090227.xyz
+  server: 173.245.58.87
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -242,14 +259,14 @@ proxies:
   tls: true
   sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /
+    path: /fp
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇸🇬DP vless-SG-7971
   dialer-proxy: LBCF
   type: vless
-  server: 108.162.196.3
-  port: 2083
+  server: 104.18.42.98
+  port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
   network: ws
@@ -262,21 +279,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-7966
   dialer-proxy: LBCF
   type: vless
-  server: cloudflare-dns.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  sni: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-- name: 🇸🇬DP vless-SG-7801
-  dialer-proxy: LBCF
-  type: vless
-  server: celestara.biz
+  server: 104.16.72.50
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -284,7 +287,7 @@ proxies:
   tls: true
   sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /
+    path: /fp
     headers:
       Host: t1s1.rittbo.kdns.fr
 - name: 🇲🇾DP vless-MY-14783475
@@ -328,15 +331,18 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
 - name: 🇯🇵DP trojan-JP-14820077
   dialer-proxy: LBCF
   type: trojan
@@ -430,14 +436,6 @@ proxies:
   port: 443
   password: HW85960347
   udp: true
-- name: 🇯🇵DP trojan-JP-14782117
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.183.199.219
-  port: 54411
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP trojan-JP-14781814
   dialer-proxy: LBCF
   type: trojan
@@ -498,23 +496,6 @@ proxies:
     path: /
     headers:
       Host: ww1.aniuge.qzz.io
-- name: 🇯🇵DP trojan-JP-14506591
-  dialer-proxy: LBCF
-  type: trojan
-  server: 103.125.216.68
-  port: 443
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  udp: true
-- name: 🇯🇵DP vless-JP-14247663
-  dialer-proxy: LBCF
-  type: vless
-  server: 152.69.195.67
-  port: 47878
-  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
-  udp: true
-  network: tcp
-  tls: false
-  sni: 152.69.195.67
 - name: 🇺🇸DP ss-US
   dialer-proxy: LBCF
   type: ss
@@ -552,9 +533,6 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
-  servername: jp01.a0a.xyz
 - name: 🇯🇵DP vless-JP-12853507
   dialer-proxy: LBCF
   type: vless
@@ -569,33 +547,33 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇯🇵DP vmess-JP-10306937
+- name: 🇯🇵DP vless-JP-10306937
   dialer-proxy: LBCF
-  type: vmess
+  type: vless
   server: 172.111.146.64
   port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  tls: false
+  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
   udp: true
   network: ws
+  tls: false
   ws-opts:
-    path: /vmess/
+    path: /vless/
+    headers:
+      Host: join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn
 - name: 🇯🇵DP vless-JP-7993275
   dialer-proxy: LBCF
   type: vless
-  server: 45.116.14.38
-  port: 443
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
+  server: 64.176.42.196
+  port: 10443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   udp: true
   network: ws
   tls: true
-  sni: zdy.vavava.kdns.fr
+  sni: ww1.aniuge.qzz.io
   ws-opts:
-    path: /pyip=ProxyIP.CMLiussss.net
+    path: /
     headers:
-      Host: zdy.vavava.kdns.fr
+      Host: ww1.aniuge.qzz.io
 - name: 🇯🇵DP vless-JP-7983737
   dialer-proxy: LBCF
   type: vless
@@ -610,6 +588,92 @@ proxies:
     path: /
     headers:
       Host: ww1.aniuge.qzz.io
+- name: 🇯🇵DP vless-JP-5602181
+  dialer-proxy: LBCF
+  type: vless
+  server: 64.176.42.196
+  port: 10443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww1.aniuge.qzz.io
+  ws-opts:
+    path: /
+    headers:
+      Host: ww1.aniuge.qzz.io
+- name: 🇯🇵DP ss-JP-5141029
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.204
+  port: 443
+- name: 🇯🇵DP vless-JP-4988321
+  dialer-proxy: LBCF
+  type: vless
+  server: 64.176.42.196
+  port: 10443
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  udp: true
+  network: ws
+  tls: true
+  sni: ww1.aniuge.qzz.io
+  ws-opts:
+    path: /
+    headers:
+      Host: ww1.aniuge.qzz.io
+- name: 🇺🇸DP vless-US-14851645
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vless-US-14847015
+  dialer-proxy: LBCF
+  type: vless
+  server: 31.76.27.171
+  port: 110
+  uuid: 958f5940-de3d-4466-bb30-b605993db27e
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-14846981
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-0a61.up.railway.app
+  port: 443
+  uuid: 1725bfd6-5c74-759f-64d1-2f442f1c5992
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-0a61.up.railway.app
+  ws-opts:
+    path: /ws/1725bfd6-5c74-759f-64d1-2f442f1c5992
+    headers:
+      Host: x4g-production-0a61.up.railway.app
+- name: 🇺🇸DP vless-US-14846965
+  dialer-proxy: LBCF
+  type: vless
+  server: x4g-production-9cd5.up.railway.app
+  port: 443
+  uuid: d915fba6-d776-c48b-bd75-ce5b62a88648
+  udp: true
+  network: ws
+  tls: true
+  sni: x4g-production-9cd5.up.railway.app
+  ws-opts:
+    path: /ws/d915fba6-d776-c48b-bd75-ce5b62a88648
+    headers:
+      Host: x4g-production-9cd5.up.railway.app
 - name: 🇺🇸DP vmess-US-14845909
   dialer-proxy: LBCF
   type: vmess
@@ -671,7 +735,7 @@ proxies:
 - name: 🇺🇸DP vless-US-14836339
   dialer-proxy: LBCF
   type: vless
-  server: 104.26.14.137
+  server: 104.16.72.101
   port: 443
   uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   udp: true
@@ -854,66 +918,3 @@ proxies:
     path: /60156344
     headers:
       Host: wasmer-earth.jzy88.top
-- name: 🇺🇸DP vless-US-14825097
-  dialer-proxy: LBCF
-  type: vless
-  server: upgg2ge.auragg.org
-  port: 443
-  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  udp: true
-  network: grpc
-  tls: true
-  sni: upgg2ge.auragg.org
-- name: 🇺🇸DP vless-US-14822872
-  dialer-proxy: LBCF
-  type: vless
-  server: x4g-production-709e.up.railway.app
-  port: 443
-  uuid: 942bdf54-733c-64c5-6560-fe1b90f79486
-  udp: true
-  network: ws
-  tls: true
-  sni: x4g-production-709e.up.railway.app
-  ws-opts:
-    path: /ws/942bdf54-733c-64c5-6560-fe1b90f79486
-    headers:
-      Host: x4g-production-709e.up.railway.app
-- name: 🇺🇸DP vless-US-14822853
-  dialer-proxy: LBCF
-  type: vless
-  server: kiss-timazadi-9090.up.railway.app
-  port: 443
-  uuid: bf912534-d325-5fd6-6f9c-4d0748a4534f
-  udp: true
-  network: ws
-  tls: true
-  sni: kiss-timazadi-9090.up.railway.app
-  ws-opts:
-    path: /ws/bf912534-d325-5fd6-6f9c-4d0748a4534f
-    headers:
-      Host: kiss-timazadi-9090.up.railway.app
-- name: 🇺🇸DP vless-US-14815889
-  dialer-proxy: LBCF
-  type: vless
-  server: ans-channel-production-b262.up.railway.app
-  port: 443
-  uuid: f753c98a-bb23-e85a-d174-ebbeabcd7626
-  udp: true
-  network: ws
-  tls: true
-  sni: ans-channel-production-b262.up.railway.app
-  ws-opts:
-    path: /ws/f753c98a-bb23-e85a-d174-ebbeabcd7626
-    headers:
-      Host: ans-channel-production-b262.up.railway.app
-- name: 🇺🇸DP vmess-US-14815122
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
