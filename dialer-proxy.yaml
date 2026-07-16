@@ -88,7 +88,7 @@ proxies:
   password: CF68213490
   udp: true
   sni: learning-wren.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14894804
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: moral-basilisk.rooster465.autos
@@ -115,7 +115,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14894770
   dialer-proxy: LBCF
   type: trojan
-  server: 54.255.216.250
+  server: musical-terrier.rooster465.autos
   port: 443
   password: CF68213490
   udp: true
@@ -254,8 +254,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -263,6 +263,16 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-14912748
+  dialer-proxy: LBCF
+  type: vless
+  server: 3.114.220.22
+  port: 10583
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇯🇵DP trojan-JP-14898019
   dialer-proxy: LBCF
   type: trojan
@@ -308,7 +318,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-14894826
   dialer-proxy: LBCF
   type: trojan
-  server: 13.115.229.63
+  server: alert-redfish.rooster465.autos
   port: 443
   password: CF68213490
   udp: true
@@ -348,7 +358,7 @@ proxies:
 - name: 🇯🇵DP trojan-JP-14894784
   dialer-proxy: LBCF
   type: trojan
-  server: 35.72.9.75
+  server: caring-wallaby.rooster465.autos
   port: 443
   password: CF68213490
   udp: true
@@ -457,14 +467,46 @@ proxies:
   password: CF68213490
   udp: true
   sni: steady-prawn.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14887988
+- name: 🇺🇸DP vmess-US-14914854
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP trojan-US-14914627
   dialer-proxy: LBCF
   type: trojan
-  server: star-moray.rooster465.autos
+  server: balanced-puma.rooster465.autos
   port: 443
   password: CF68213490
   udp: true
-  sni: star-moray.rooster465.autos
+  sni: balanced-puma.rooster465.autos
+- name: 🇺🇸DP trojan-US-14914626
+  dialer-proxy: LBCF
+  type: trojan
+  server: nearby-muskrat.rooster465.autos
+  port: 443
+  password: OD90375861
+  udp: true
+  sni: nearby-muskrat.rooster465.autos
+- name: 🇺🇸DP vless-US-14910541
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
 - name: 🇺🇸DP vmess-US-14909427
   dialer-proxy: LBCF
   type: vmess
@@ -480,13 +522,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 45.205.31.175
-  port: 10086
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
+  port: 443
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
   alterId: 0
   cipher: auto
   tls: true
   udp: true
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /ws
 - name: 🇺🇸DP vmess-US-14906151
   dialer-proxy: LBCF
   type: vmess
@@ -702,48 +746,3 @@ proxies:
   password: '3632736327'
   udp: true
   sni: us04021322.tmdsb.org
-- name: 🇺🇸DP ss-US-14882295
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
-  server: 43.173.98.184
-  port: 8388
-- name: 🇺🇸DP vmess-US-14882273
-  dialer-proxy: LBCF
-  type: vmess
-  server: 209.54.107.157
-  port: 443
-  uuid: c4d1c2f9-30ac-4446-8f26-f6e230ea07b3
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇺🇸DP vmess-US-14880196
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-14879257
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
