@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-14937904
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7b84db8b-65cd-4072-9c57-dadae303feec
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: free.isurux.dpdns.org
 - name: 🇲🇾 vless-MY-14783475
   type: vless
   server: bug.xcp
