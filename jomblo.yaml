@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 🇲🇾 vless-MY-14783475
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: SoonTeam
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /telegram@SoonTeam
+    headers:
+      Host: anten.ir
