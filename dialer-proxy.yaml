@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-14991463
+  dialer-proxy: LBCF
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
+  udp: true
+  network: ws
+  tls: false
+  sni: speed.dulacloud.store
+  ws-opts:
+    path: /dula
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-14984620
   dialer-proxy: LBCF
   type: vless
@@ -197,14 +211,6 @@ proxies:
   password: HW85960347
   udp: true
   sni: settling-grouper.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14966007
-  dialer-proxy: LBCF
-  type: trojan
-  server: happy-porpoise.rooster465.autos
-  port: 443
-  password: HW85960347
-  udp: true
-  sni: happy-porpoise.rooster465.autos
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -442,6 +448,37 @@ proxies:
   password: JA96378052
   udp: true
   sni: normal-dory.rooster465.autos
+- name: 🇺🇸DP trojan-US-14993337
+  dialer-proxy: LBCF
+  type: trojan
+  server: possible-pup.rooster465.autos
+  port: 443
+  password: XG59623478
+  udp: true
+  sni: possible-pup.rooster465.autos
+- name: 🇺🇸DP vmess-US-14992933
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-14990133
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: LevikoConfig
 - name: 🇺🇸DP vmess-US-14986798
   dialer-proxy: LBCF
   type: vmess
@@ -681,36 +718,3 @@ proxies:
   password: KV63147582
   udp: true
   sni: wondrous-dogfish.rooster465.autos
-- name: 🇺🇸DP vmess-US-14968165
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14967048
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14967047
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
