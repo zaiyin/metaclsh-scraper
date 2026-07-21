@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-15008521
+  dialer-proxy: LBCF
+  type: trojan
+  server: glowing-deer.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+- name: 🇸🇬DP trojan-SG-15008465
+  dialer-proxy: LBCF
+  type: trojan
+  server: still-mastodon.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: still-mastodon.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15000774
   dialer-proxy: LBCF
   type: trojan
@@ -195,22 +210,6 @@ proxies:
   password: JA96378052
   udp: true
   sni: tolerant-fowl.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14966012
-  dialer-proxy: LBCF
-  type: trojan
-  server: absolute-teal.rooster465.autos
-  port: 443
-  password: HW85960347
-  udp: true
-  sni: absolute-teal.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14966010
-  dialer-proxy: LBCF
-  type: trojan
-  server: enough-lamb.rooster465.autos
-  port: 443
-  password: JA96378052
-  udp: true
-  sni: enough-lamb.rooster465.autos
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -248,6 +247,42 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15008517
+  dialer-proxy: LBCF
+  type: trojan
+  server: major-duckling.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+- name: 🇯🇵DP trojan-JP-15008515
+  dialer-proxy: LBCF
+  type: trojan
+  server: novel-bat.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+- name: 🇯🇵DP trojan-JP-15008441
+  dialer-proxy: LBCF
+  type: trojan
+  server: intense-basilisk.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+- name: 🇯🇵DP trojan-JP-15004514
+  dialer-proxy: LBCF
+  type: trojan
+  server: enhanced-dassie.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: enhanced-dassie.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15004502
+  dialer-proxy: LBCF
+  type: trojan
+  server: amazed-burro.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
 - name: 🇯🇵DP trojan-JP-14966064
   dialer-proxy: LBCF
   type: trojan
@@ -408,46 +443,105 @@ proxies:
   password: HW85960347
   udp: true
   sni: on-airedale.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965390
+- name: 🇺🇸DP vless-US-15011054
   dialer-proxy: LBCF
-  type: trojan
-  server: lasting-bobcat.rooster465.autos
-  port: 443
-  password: HW85960347
+  type: vless
+  server: united.oorluma.ir
+  port: 6300
+  uuid: b1a689fa-20c3-43b4-a107-4af64f8a7cf3
   udp: true
-  sni: lasting-bobcat.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965382
+  network: tcp
+  tls: false
+  sni: play.google.com
+- name: 🇺🇸DP vmess-US-15010702
   dialer-proxy: LBCF
-  type: trojan
-  server: casual-bee.rooster465.autos
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: HW85960347
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: casual-bee.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965376
+  network: tcp
+- name: 🇺🇸DP vmess-US-15007589
   dialer-proxy: LBCF
-  type: trojan
-  server: stable-racer.rooster465.autos
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: JA96378052
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: stable-racer.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965372
+  network: tcp
+  servername: LevikoConfig
+- name: 🇺🇸DP vmess-US-15006954
   dialer-proxy: LBCF
-  type: trojan
-  server: 54.178.60.95
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: JA96378052
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: WangCai.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965294
+  network: tcp
+- name: 🇺🇸DP vmess-US-15006945
   dialer-proxy: LBCF
-  type: trojan
-  server: normal-dory.rooster465.autos
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: JA96378052
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: normal-dory.rooster465.autos
+  network: tcp
+- name: 🇺🇸DP vless-US-15005321
+  dialer-proxy: LBCF
+  type: vless
+  server: usr.sempai.site
+  port: 443
+  uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
+  udp: true
+  network: tcp
+  tls: false
+  sni: usr.sempai.site
+- name: 🇺🇸DP vmess-US-15004220
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15004217
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: LevikoConfig
+- name: 🇺🇸DP vmess-US-15004216
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vmess-US-15003507
   dialer-proxy: LBCF
   type: vmess
@@ -580,7 +674,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: LevikoConfig
 - name: 🇺🇸DP vmess-US-15000595
   dialer-proxy: LBCF
   type: vmess
@@ -629,94 +722,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-14999093
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-14997634
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14997628
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-14997604
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP trojan-US-14997575
-  dialer-proxy: LBCF
-  type: trojan
-  server: firm-squid.rooster465.autos
-  port: 443
-  password: HW85960347
-  udp: true
-- name: 🇺🇸DP trojan-US-14997572
-  dialer-proxy: LBCF
-  type: trojan
-  server: legal-glider.rooster465.autos
-  port: 443
-  password: SX95078263
-  udp: true
-- name: 🇺🇸DP vmess-US-14997533
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-14996143
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP trojan-US-14993337
-  dialer-proxy: LBCF
-  type: trojan
-  server: possible-pup.rooster465.autos
-  port: 443
-  password: XG59623478
-  udp: true
-  sni: possible-pup.rooster465.autos
