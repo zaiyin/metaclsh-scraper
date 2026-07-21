@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-15018977
+  dialer-proxy: LBCF
+  type: trojan
+  server: pet-albacore.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: pet-albacore.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15015478
   dialer-proxy: LBCF
   type: trojan
@@ -197,14 +205,6 @@ proxies:
   password: JA96378052
   udp: true
   sni: WangCai.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14966023
-  dialer-proxy: LBCF
-  type: trojan
-  server: trusting-moccasin.rooster465.autos
-  port: 443
-  password: JA96378052
-  udp: true
-  sni: trusting-moccasin.rooster465.autos
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -233,8 +233,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -242,6 +242,21 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15018988
+  dialer-proxy: LBCF
+  type: trojan
+  server: square-anchovy.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: square-anchovy.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15015454
+  dialer-proxy: LBCF
+  type: trojan
+  server: sweeping-parakeet.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
 - name: 🇯🇵DP vmess-JP-15014009
   dialer-proxy: LBCF
   type: vmess
@@ -427,22 +442,143 @@ proxies:
   password: HW85960347
   udp: true
   sni: cool-lioness.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965405
+- name: 🇺🇸DP vmess-US-15019160
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15018955
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15018736
+  dialer-proxy: LBCF
+  type: vless
+  server: usr.sempai.site
+  port: 443
+  uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
+  udp: true
+  network: tcp
+  tls: false
+  sni: usr.sempai.site
+- name: 🇺🇸DP vmess-US-15017740
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15017438
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15017209
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15017201
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vless-US-15017044
+  dialer-proxy: LBCF
+  type: vless
+  server: 185.92.180.206
+  port: 443
+  uuid: 8ffbff3b-12c9-4d49-af97-93a8d6cb4edb
+  udp: true
+  network: tcp
+  tls: false
+  sni: google.com
+- name: 🇺🇸DP vmess-US-15015606
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: LevikoConfig
+- name: 🇺🇸DP vmess-US-15015580
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15015573
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP trojan-US-15015421
   dialer-proxy: LBCF
   type: trojan
-  server: certain-kit.rooster465.autos
-  port: 443
-  password: JA96378052
+  server: 163.245.196.68
+  port: 49361
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
   udp: true
-  sni: certain-kit.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14965403
+  sni: 163.245.196.68.sslip.io
+- name: 🇺🇸DP trojan-US-15015410
   dialer-proxy: LBCF
   type: trojan
-  server: brave-muskox.rooster465.autos
+  server: optimal-dane.rooster465.autos
   port: 443
-  password: JA96378052
+  password: IQ68037294
   udp: true
-  sni: brave-muskox.rooster465.autos
 - name: 🇺🇸DP vmess-US-15015249
   dialer-proxy: LBCF
   type: vmess
@@ -576,146 +712,3 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🇺🇸DP vmess-US-15012232
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15011054
-  dialer-proxy: LBCF
-  type: vless
-  server: united.oorluma.ir
-  port: 6300
-  uuid: b1a689fa-20c3-43b4-a107-4af64f8a7cf3
-  udp: true
-  network: tcp
-  tls: false
-  sni: play.google.com
-- name: 🇺🇸DP vmess-US-15010702
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15007589
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15006954
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15006945
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15005321
-  dialer-proxy: LBCF
-  type: vless
-  server: usr.sempai.site
-  port: 443
-  uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
-  udp: true
-  network: tcp
-  tls: false
-  sni: usr.sempai.site
-- name: 🇺🇸DP vmess-US-15004220
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15004217
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15004216
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15003507
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15003479
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15003475
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
