@@ -61,7 +61,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-  sni: full-mackerel.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15015449
   dialer-proxy: LBCF
   type: trojan
@@ -85,7 +84,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-  sni: casual-stallion.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15012391
   dialer-proxy: LBCF
   type: trojan
@@ -93,7 +91,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-  sni: endless-kiwi.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15012387
   dialer-proxy: LBCF
   type: trojan
@@ -169,46 +166,59 @@ proxies:
   password: ON38567014
   udp: true
   sni: crucial-moth.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14970441
+- name: 🇸🇬DP vless-SG-14965288
   dialer-proxy: LBCF
-  type: trojan
-  server: social-cod.rooster465.autos
-  port: 443
-  password: HW85960347
+  type: vless
+  server: 43.245.198.157
+  port: 21719
+  uuid: 6ff24708-1b2a-47dc-bc2b-d498ea00e3e1
   udp: true
-  sni: social-cod.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14970437
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-14961936
   dialer-proxy: LBCF
-  type: trojan
-  server: precious-stag.rooster465.autos
+  type: vless
+  server: 159.65.7.154
   port: 443
-  password: JA96378052
+  uuid: 3c5e6124-decf-425d-8c1e-fe05cb4dd298
   udp: true
-  sni: precious-stag.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14970434
+  network: tcp
+  tls: false
+  sni: onic.pk
+- name: 🇸🇬DP vless-SG-14937904
   dialer-proxy: LBCF
-  type: trojan
-  server: tops-puma.rooster465.autos
-  port: 443
-  password: HW85960347
+  type: vless
+  server: 104.17.74.206
+  port: 8443
+  uuid: 7b84db8b-65cd-4072-9c57-dadae303feec
   udp: true
-  sni: tops-puma.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14970432
+  network: ws
+  tls: true
+  sni: free.isurux.dpdns.org
+  ws-opts:
+    path: /
+    headers:
+      Host: free.isurux.dpdns.org
+- name: 🇸🇬DP vless-SG-14910559
   dialer-proxy: LBCF
-  type: trojan
-  server: leading-eel.rooster465.autos
+  type: vless
+  server: 43.159.50.28
   port: 443
-  password: HW85960347
+  uuid: aa83d161-1169-494a-a57e-c8d8b327f051
   udp: true
-  sni: leading-eel.rooster465.autos
-- name: 🇸🇬DP trojan-SG-14970429
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇸🇬DP vless-SG-14851586
   dialer-proxy: LBCF
-  type: trojan
-  server: lucky-urchin.rooster465.autos
+  type: vless
+  server: sahanwickramasinghevip.shop
   port: 443
-  password: HW85960347
+  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
   udp: true
-  sni: lucky-urchin.rooster465.autos
+  network: tcp
+  tls: true
+  sni: sahanwickramasinghevip.shop
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -246,6 +256,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15022786
+  dialer-proxy: LBCF
+  type: trojan
+  server: 16.163.109.164
+  port: 40138
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-15021672
   dialer-proxy: LBCF
   type: trojan
@@ -350,45 +368,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🇯🇵DP trojan-JP-14949644
-  dialer-proxy: LBCF
-  type: trojan
-  server: optimal-penguin.rooster465.autos
-  port: 443
-  password: NQ26071394
-  udp: true
-  sni: optimal-penguin.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14949275
-  dialer-proxy: LBCF
-  type: trojan
-  server: star-cheetah.rooster465.autos
-  port: 443
-  password: CF68213490
-  udp: true
-- name: 🇯🇵DP trojan-JP-14945733
-  dialer-proxy: LBCF
-  type: trojan
-  server: grateful-crawdad.rooster465.autos
-  port: 443
-  password: NQ26071394
-  udp: true
-  sni: grateful-crawdad.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14945714
-  dialer-proxy: LBCF
-  type: trojan
-  server: elegant-marten.rooster465.autos
-  port: 443
-  password: NQ26071394
-  udp: true
-  sni: elegant-marten.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14945708
-  dialer-proxy: LBCF
-  type: trojan
-  server: harmless-pegasus.rooster465.autos
-  port: 443
-  password: NQ26071394
-  udp: true
-  sni: harmless-pegasus.rooster465.autos
 - name: 🇯🇵DP vmess-JP-14943590
   dialer-proxy: LBCF
   type: vmess
@@ -405,54 +384,134 @@ proxies:
     headers:
       Host: baidu.com
   servername: baidu.com
-- name: 🇯🇵DP trojan-JP-14942499
+- name: 🇯🇵DP vless-JP-14922677
+  dialer-proxy: LBCF
+  type: vless
+  server: 103.75.118.228
+  port: 11452
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇯🇵DP vless-JP-14912748
+  dialer-proxy: LBCF
+  type: vless
+  server: 3.114.220.22
+  port: 10583
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇯🇵DP vless-JP-14896946
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.165.186.226
+  port: 443
+  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.sony.com
+- name: 🇯🇵DP vmess-JP-14876388
+  dialer-proxy: LBCF
+  type: vmess
+  server: 45.76.202.45
+  port: 4010
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /liksuzcp
+- name: 🇯🇵DP vmess-JP-14871081
+  dialer-proxy: LBCF
+  type: vmess
+  server: 161.33.139.138
+  port: 58905
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+    headers:
+      Host: 161.33.139.138
+  servername: 161.33.139.138
+- name: 🇯🇵DP trojan-JP-14782117
   dialer-proxy: LBCF
   type: trojan
-  server: fit-marten.rooster465.autos
-  port: 443
-  password: NQ26071394
+  server: 43.199.253.12
+  port: 54411
+  password: BxceQaOe
   udp: true
-  sni: fit-marten.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14942451
+  sni: t.me%2Fripaojiedian
+- name: 🇯🇵DP vmess-JP-14775305
   dialer-proxy: LBCF
-  type: trojan
-  server: stunning-mastodon.rooster465.autos
+  type: vmess
+  server: jp01.scpnb.top
   port: 443
-  password: NQ26071394
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  alterId: 0
+  cipher: auto
+  tls: true
   udp: true
-  sni: stunning-mastodon.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14939035
+  network: ws
+  ws-opts:
+    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+    headers:
+      Host: jp01.scpnb.top
+  servername: jp01.scpnb.top
+- name: 🇯🇵DP vless-JP-14247663
   dialer-proxy: LBCF
-  type: trojan
-  server: working-tomcat.rooster465.autos
-  port: 443
-  password: NQ26071394
+  type: vless
+  server: 152.69.195.67
+  port: 47878
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
   udp: true
-  sni: working-tomcat.rooster465.autos
-- name: 🏳DP trojan-
+  network: tcp
+  tls: false
+  sni: 152.69.195.67
+- name: 🇺🇸DP ss-US
   dialer-proxy: LBCF
-  type: trojan
-  server: upright-caribou.rooster465.autos
-  port: 443
-  password: NQ26071394
+  type: ss
   udp: true
-  sni: upright-caribou.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14939022
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  server: 147.90.234.133
+  port: 443
+- name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
-  type: trojan
-  server: new-eagle.rooster465.autos
-  port: 443
-  password: NQ26071394
+  type: vmess
+  server: 140.83.51.161
+  port: 25686
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: new-eagle.rooster465.autos
-- name: 🇯🇵DP trojan-JP-14939013
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp02.a0a.xyz
+  servername: jp02.a0a.xyz
+- name: 🇺🇸DP vmess-US-15024091
   dialer-proxy: LBCF
-  type: trojan
-  server: infinite-killdeer.rooster465.autos
+  type: vmess
+  server: 165.140.216.142
   port: 443
-  password: NQ26071394
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-  sni: infinite-killdeer.rooster465.autos
+  network: tcp
 - name: 🇺🇸DP vmess-US-15021930
   dialer-proxy: LBCF
   type: vmess
@@ -500,7 +559,7 @@ proxies:
   password: NQ26071394
   udp: true
   sni: emerging-hagfish.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇺🇸DP trojan-US-15021279
   dialer-proxy: LBCF
   type: trojan
   server: 44.252.127.212
@@ -554,7 +613,7 @@ proxies:
   network: tcp
   tls: false
   sni: huggingface.co
-- name: 🇺🇸DP vless-US-15021062
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 69.48.201.136
@@ -698,11 +757,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP trojan-US-15015421
-  dialer-proxy: LBCF
-  type: trojan
-  server: 163.245.196.68
-  port: 49361
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  udp: true
-  sni: 163.245.196.68.sslip.io
