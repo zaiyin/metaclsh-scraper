@@ -118,7 +118,7 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🇸🇬DP trojan-SG-15012387
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: prepared-turkey.rooster465.autos
@@ -220,16 +220,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vless-SG-14851586
+- name: 🇸🇬DP vless-SG-14738483
   dialer-proxy: LBCF
   type: vless
-  server: sahanwickramasinghevip.shop
+  server: wasmer-earth.jzy88.top
   port: 443
-  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
+  uuid: 60156344-dbc3-4614-8177-fd337539a473
   udp: true
-  network: tcp
+  network: ws
   tls: true
-  sni: sahanwickramasinghevip.shop
+  sni: wasmer-earth.jzy88.top
+  ws-opts:
+    path: /60156344
+    headers:
+      Host: wasmer-earth.jzy88.top
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -258,8 +262,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -507,6 +511,110 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
   servername: jp02.a0a.xyz
+- name: 🇺🇸DP vless-US-15047332
+  dialer-proxy: LBCF
+  type: vless
+  server: 186.246.21.156
+  port: 40443
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
+  udp: true
+  network: tcp
+  tls: false
+  sni: deepl.com
+- name: 🇺🇸DP vless-US-15047319
+  dialer-proxy: LBCF
+  type: vless
+  server: private.netraidly.ru
+  port: 40443
+  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
+  udp: true
+  network: tcp
+  tls: false
+  sni: deepl.com
+- name: 🇺🇸DP vless-US-15047010
+  dialer-proxy: LBCF
+  type: vless
+  server: 216.158.94.43
+  port: 443
+  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
+  udp: true
+  network: tcp
+  tls: false
+  sni: us-1.124515.xyz
+- name: 🇺🇸DP vmess-US-15046586
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15046582
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15045204
+  dialer-proxy: LBCF
+  type: vless
+  server: 82.40.23.142
+  port: 443
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+  udp: true
+  network: tcp
+  tls: false
+  sni: sellflow.org
+- name: 🇺🇸DP vless-US-15045192
+  dialer-proxy: LBCF
+  type: vless
+  server: 82.40.23.159
+  port: 443
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+  udp: true
+  network: tcp
+  tls: false
+  sni: sellflow.org
+- name: 🇺🇸DP vless-US-15045148
+  dialer-proxy: LBCF
+  type: vless
+  server: 82.40.23.174
+  port: 443
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+  udp: true
+  network: tcp
+  tls: false
+  sni: sellflow.org
+- name: 🇺🇸DP vmess-US-15045045
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15044087
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vmess-US-15043843
   dialer-proxy: LBCF
   type: vmess
@@ -680,124 +788,3 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇺🇸DP vmess-US-15031629
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15031584
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15031555
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15030883
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15030657
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15030649
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15030645
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15030438
-  dialer-proxy: LBCF
-  type: vless
-  server: v2rayngselllbot-aaws.up.railway.app
-  port: 443
-  uuid: f082844f-1902-b7a0-9af2-9bd9bf1c5361
-  udp: true
-  network: ws
-  tls: true
-  sni: v2rayngselllbot-aaws.up.railway.app
-  ws-opts:
-    path: /ws/f082844f-1902-b7a0-9af2-9bd9bf1c5361
-    headers:
-      Host: v2rayngselllbot-aaws.up.railway.app
-- name: 🇺🇸DP vless-US-15030431
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
-- name: 🇺🇸DP vless-US-15030402
-  dialer-proxy: LBCF
-  type: vless
-  server: soskeynets-v2ngnet-daefaaf.up.railway.app
-  port: 443
-  uuid: 713b7247-d958-0148-3838-1fcb15f991b5
-  udp: true
-  network: ws
-  tls: true
-  sni: join-v2ngnet-daefaaf.up.railway.app
-  ws-opts:
-    path: /ws/713b7247-d958-0148-3838-1fcb15f991b5
-    headers:
-      Host: join-v2ngnet-daefaaf.up.railway.app
