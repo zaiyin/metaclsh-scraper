@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15041291
+  dialer-proxy: LBCF
+  type: vless
+  server: cdn.ai-4-science.com
+  port: 443
+  uuid: 85c38af5-5a88-4ef1-b87a-a6dee6772285
+  udp: true
+  network: ws
+  tls: true
+  sni: cdn.ai-4-science.com
+  ws-opts:
+    path: /api/v1/stream
+    headers:
+      Host: cdn.ai-4-science.com
 - name: 🇸🇬DP vless-SG-15026312
   dialer-proxy: LBCF
   type: vless
@@ -104,7 +118,7 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15012387
   dialer-proxy: LBCF
   type: trojan
   server: prepared-turkey.rooster465.autos
@@ -216,20 +230,6 @@ proxies:
   network: tcp
   tls: true
   sni: sahanwickramasinghevip.shop
-- name: 🇸🇬DP vless-SG-14738483
-  dialer-proxy: LBCF
-  type: vless
-  server: wasmer-earth.jzy88.top
-  port: 443
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
-  udp: true
-  network: ws
-  tls: true
-  sni: wasmer-earth.jzy88.top
-  ws-opts:
-    path: /60156344
-    headers:
-      Host: wasmer-earth.jzy88.top
 - name: 🇲🇾DP vless-MY-14783475
   dialer-proxy: LBCF
   type: vless
@@ -266,7 +266,18 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
+- name: 🇯🇵DP ss-JP-15041252
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: h6mDbcyvQUXD
+  server: 150.251.158.203
+  port: 8388
 - name: 🇯🇵DP trojan-JP-15022786
   dialer-proxy: LBCF
   type: trojan
@@ -496,22 +507,100 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
   servername: jp02.a0a.xyz
-- name: 🇯🇵DP vmess-JP-13805479
+- name: 🇺🇸DP vmess-US-15043843
   dialer-proxy: LBCF
   type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
   alterId: 0
   cipher: auto
   tls: false
   udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15043190
+  dialer-proxy: LBCF
+  type: vless
+  server: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
+  port: 443
+  uuid: 79773255-2235-505f-a009-3bbaeb8a32fc
+  udp: true
   network: ws
+  tls: true
+  sni: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
   ws-opts:
-    path: /cctv13.m3u8
+    path: /ws/79773255-2235-505f-a009-3bbaeb8a32fc
     headers:
-      Host: None
-  servername: None
+      Host: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
+- name: 🇺🇸DP vless-US-15042244
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vmess-US-15042071
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15041441
+  dialer-proxy: LBCF
+  type: vmess
+  server: 156.239.47.69
+  port: 6000
+  uuid: 0cfc309d-3b90-4e65-802c-1c9b8a1528de
+  alterId: 60
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15041241
+  dialer-proxy: LBCF
+  type: vless
+  server: web-production-9c70.up.railway.app
+  port: 443
+  uuid: 4f85d2fb-0c63-40fc-a4f7-25040b1498ab
+  udp: true
+  network: ws
+  tls: true
+  sni: web-production-9c70.up.railway.app
+  ws-opts:
+    path: /ws/vless/4f85d2fb-0c63-40fc-a4f7-25040b1498ab?ed=2048fp=chrome
+    headers:
+      Host: web-production-9c70.up.railway.app
+- name: 🇺🇸DP vless-US-15041237
+  dialer-proxy: LBCF
+  type: vless
+  server: 59.152.127.76
+  port: 50863
+  uuid: cbc1b9e7-c393-4053-a338-6ed714daf4eb
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vmess-US-15040155
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vmess-US-15038845
   dialer-proxy: LBCF
   type: vmess
@@ -541,7 +630,6 @@ proxies:
   port: 443
   password: WG39087154
   udp: true
-  sni: caring-ghoul.rooster465.autos
 - name: 🇺🇸DP vmess-US-15036354
   dialer-proxy: LBCF
   type: vmess
@@ -713,93 +801,3 @@ proxies:
     path: /ws/713b7247-d958-0148-3838-1fcb15f991b5
     headers:
       Host: join-v2ngnet-daefaaf.up.railway.app
-- name: 🇺🇸DP vmess-US-15030187
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15029467
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15029456
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15029315
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15029271
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vmess-US-15028662
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15027378
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15026529
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp

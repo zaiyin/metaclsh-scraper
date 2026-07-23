@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15041291
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 85c38af5-5a88-4ef1-b87a-a6dee6772285
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /api/v1/stream
+    headers:
+      Host: cdn.ai-4-science.com
 - name: 🇸🇬 vless-SG-14937904
   type: vless
   server: bug.xcp
@@ -11,18 +23,6 @@ proxies:
     path: /
     headers:
       Host: free.isurux.dpdns.org
-- name: 🇸🇬 vless-SG-14738483
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /60156344
-    headers:
-      Host: wasmer-earth.jzy88.top
 - name: 🇲🇾 vless-MY-14783475
   type: vless
   server: bug.xcp
