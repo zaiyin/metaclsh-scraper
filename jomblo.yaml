@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15091347
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: edb26c67-44b7-4448-ac19-625f503db1a5
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: lk.thenuka.online
 - name: 🇸🇬 vless-SG-15041291
   type: vless
   server: bug.xcp

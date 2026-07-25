@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15091347
+  dialer-proxy: LBCF
+  type: vless
+  server: 141.193.213.20
+  port: 2096
+  uuid: edb26c67-44b7-4448-ac19-625f503db1a5
+  udp: true
+  network: ws
+  tls: true
+  sni: lk.thenuka.online
+  ws-opts:
+    path: /
+    headers:
+      Host: lk.thenuka.online
 - name: 🇸🇬DP trojan-SG-15070678
   dialer-proxy: LBCF
   type: trojan
@@ -201,13 +215,6 @@ proxies:
   password: IQ68037294
   udp: true
   sni: prepared-turkey.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15008521
-  dialer-proxy: LBCF
-  type: trojan
-  server: glowing-deer.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
 - name: 🇲🇾DP trojan-MY-15085181
   dialer-proxy: LBCF
   type: trojan
@@ -488,6 +495,52 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
+- name: 🇺🇸DP vless-US-15091379
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vmess-US-15091338
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15091037
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15090509
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-15087956
   dialer-proxy: LBCF
   type: vless
@@ -729,52 +782,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-15069894
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15069892
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15069843
-  dialer-proxy: LBCF
-  type: vless
-  server: kaoqy-us-ntt.cf.090227.xyz
-  port: 8443
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  udp: true
-  network: ws
-  tls: true
-  sni: ntt2.us.781391.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: ntt2.us.781391.xyz
-- name: 🇺🇸DP vless-US-15069787
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
