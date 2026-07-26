@@ -1,4 +1,25 @@
 proxies:
+- name: 🇸🇬DP ss-SG-15115153
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: i8asar9lrxhavh38
+  server: 178.128.86.181
+  port: 51435
+- name: 🇸🇬DP vless-SG-15114416
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.64.206.42
+  port: 57137
+  uuid: 4476eabb-509c-42d3-bb42-6838bf6fcd1e
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /FREE By Tharuwa (0767597317)
+    headers:
+      Host: m.zoom.us
 - name: 🇸🇬DP vless-SG-15094181
   dialer-proxy: LBCF
   type: vless
@@ -201,21 +222,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🇸🇬DP trojan-SG-15012391
-  dialer-proxy: LBCF
-  type: trojan
-  server: endless-kiwi.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-- name: 🇸🇬DP trojan-SG-15012387
-  dialer-proxy: LBCF
-  type: trojan
-  server: prepared-turkey.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: prepared-turkey.rooster465.autos
 - name: 🇲🇾DP trojan-MY-15085181
   dialer-proxy: LBCF
   type: trojan
@@ -260,10 +266,14 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15112146
+  dialer-proxy: LBCF
+  type: trojan
+  server: alert-monster.rooster465.autos
+  port: 443
+  password: AQ71834695
+  udp: true
 - name: 🇯🇵DP vmess-JP-15107934
   dialer-proxy: LBCF
   type: vmess
@@ -370,7 +380,7 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 103.75.118.228
-  port: 11452
+  port: 12683
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -425,6 +435,15 @@ proxies:
     headers:
       Host: 161.33.139.138
   servername: 161.33.139.138
+- name: 🇯🇵DP vless-JP-14655234
+  dialer-proxy: LBCF
+  type: vless
+  server: 43.163.241.110
+  port: 24477
+  uuid: 2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
@@ -484,6 +503,14 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
+- name: 🇯🇵DP ss-JP-5141029
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.204
+  port: 443
 - name: 🇯🇵DP vless-JP-4395498
   dialer-proxy: LBCF
   type: vless
@@ -498,34 +525,22 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-- name: 🇯🇵DP vless-JP-4385752
+- name: 🇺🇸DP vmess-US-15112167
   dialer-proxy: LBCF
-  type: vless
-  server: 207.148.108.85
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  type: vmess
+  server: 154.17.234.39
+  port: 2086
+  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
   network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
   ws-opts:
-    path: /fp=chrome
+    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
     headers:
-      Host: t1s1.rittbo.kdns.fr
-- name: 🇯🇵DP vless-JP-2836884
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.219.155.125
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  network: ws
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: www.bing.com
+  servername: www.bing.com
 - name: 🇺🇸DP vmess-US-15111890
   dialer-proxy: LBCF
   type: vmess
@@ -540,7 +555,7 @@ proxies:
 - name: 🇺🇸DP vless-US-15109831
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
+  server: 104.18.42.163
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
@@ -549,7 +564,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: fuckingfangbinxing.pusytroller.cf
+      Host: download.pusytroller.gq
 - name: 🇺🇸DP vless-US-15109453
   dialer-proxy: LBCF
   type: vless
@@ -804,17 +819,6 @@ proxies:
   udp: true
   network: tcp
 - name: 🇺🇸DP vmess-US-15080163
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vmess-US-15079835
   dialer-proxy: LBCF
   type: vmess
   server: 165.140.216.142
