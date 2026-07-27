@@ -254,8 +254,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -401,11 +401,12 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
+  sni: major-duckling.rooster465.autos
 - name: 🇯🇵DP vless-JP-14922677
   dialer-proxy: LBCF
   type: vless
   server: 103.75.118.228
-  port: 11452
+  port: 12683
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -498,6 +499,44 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
+- name: 🇺🇸DP vless-US-15140191
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.145.202
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+- name: 🇺🇸DP vless-US-15138567
+  dialer-proxy: LBCF
+  type: vless
+  server: rvg-production-464c.up.railway.app
+  port: 443
+  uuid: d0a0701e-9aef-972f-a69a-cad18aeb4426
+  udp: true
+  network: ws
+  tls: true
+  sni: rvg-production-464c.up.railway.app
+  ws-opts:
+    path: /ws/d0a0701e-9aef-972f-a69a-cad18aeb4426
+    headers:
+      Host: rvg-production-464c.up.railway.app
+- name: 🇺🇸DP vmess-US-15138154
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-15135411
   dialer-proxy: LBCF
   type: vless
@@ -604,9 +643,6 @@ proxies:
   network: ws
   ws-opts:
     path: /cc247516-d2cd-4ad4-a984-c4ae8ad9074a-vm
-    headers:
-      Host: www.bing.com
-  servername: www.bing.com
 - name: 🇺🇸DP vless-US-15123948
   dialer-proxy: LBCF
   type: vless
@@ -789,41 +825,3 @@ proxies:
   network: tcp
   tls: false
   sni: site.rumedia-cdn.com
-- name: 🇺🇸DP vmess-US-15102398
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15100747
-  dialer-proxy: LBCF
-  type: vless
-  server: 34.132.50.119
-  port: 443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  udp: true
-  network: ws
-  tls: true
-  sni: learn00.evany.de5.net
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-- name: 🇺🇸DP vless-US-15100732
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
