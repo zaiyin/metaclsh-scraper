@@ -1,4 +1,20 @@
 proxies:
+- name: 🇮🇩DP trojan-ID-15160619
+  dialer-proxy: LBCF
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20056
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  udp: true
+  sni: hk.catxstar.com
+- name: 🇸🇬DP ss-SG-15156708
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  server: 161.118.215.232
+  port: 56927
 - name: 🇸🇬DP vless-SG-15127995
   dialer-proxy: LBCF
   type: vless
@@ -210,14 +226,6 @@ proxies:
   port: 443
   password: IQ68037294
   udp: true
-- name: 🇸🇬DP trojan-SG-15012387
-  dialer-proxy: LBCF
-  type: trojan
-  server: prepared-turkey.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: prepared-turkey.rooster465.autos
 - name: 🇲🇾DP trojan-MY-15147311
   dialer-proxy: LBCF
   type: trojan
@@ -271,6 +279,22 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15156660
+  dialer-proxy: LBCF
+  type: trojan
+  server: hkdcrtc-e.catcat321.com
+  port: 20129
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  udp: true
+  sni: hk.catxstar.com
+- name: 🇯🇵DP trojan-JP-15156594
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.163.208.174
+  port: 45691
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇯🇵DP ss-JP-15153904
   dialer-proxy: LBCF
   type: ss
@@ -477,31 +501,115 @@ proxies:
     headers:
       Host: 161.33.139.138
   servername: 161.33.139.138
-- name: 🇯🇵DP vless-JP-14655234
-  dialer-proxy: LBCF
-  type: vless
-  server: 43.163.241.110
-  port: 24477
-  uuid: 2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇯🇵DP vmess-JP-14059171
+- name: 🇺🇸DP vmess-US-15160417
   dialer-proxy: LBCF
   type: vmess
-  server: 140.83.51.161
-  port: 25686
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15160411
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: LevikoConfig
+- name: 🇺🇸DP vless-US-15160139
+  dialer-proxy: LBCF
+  type: vless
+  server: skk.moe
+  port: 443
+  uuid: 0ba5211f-fb2b-42a0-8e18-9ce7a41745a5
+  udp: true
+  network: ws
+  tls: true
+  sni: sg.xfj123.top
+  ws-opts:
+    path: /0ba5211f-fb2b-42a0-8e18-9ce7a41745a5-vless
+    headers:
+      Host: sg.xfj123.top
+- name: 🇺🇸DP vmess-US-15160053
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15158402
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15157184
+  dialer-proxy: LBCF
+  type: vmess
+  server: 154.17.238.183
+  port: 8880
+  uuid: b7479b73-8cea-4a82-97e8-bacf9bd86605
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
     headers:
-      Host: jp02.a0a.xyz
-  servername: jp02.a0a.xyz
+      Host: www.bing.com
+  servername: www.bing.com
+- name: 🇺🇸DP vless-US-15157036
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP trojan-US-15156611
+  dialer-proxy: LBCF
+  type: trojan
+  server: 95.41.27.1
+  port: 29085
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
+- name: 🇺🇸DP vless-US-15156016
+  dialer-proxy: LBCF
+  type: vless
+  server: fuckfangbinxing.pusytroller.gq
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckfangbinxing.pusytroller.gq
 - name: 🇺🇸DP vmess-US-15154065
   dialer-proxy: LBCF
   type: vmess
@@ -521,19 +629,17 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 194.124.229.135
   port: 1080
-- name: 🇺🇸DP vmess-US-15152729
+- name: 🇺🇸DP vless-US-15152729
   dialer-proxy: LBCF
-  type: vmess
+  type: vless
   server: 154.64.228.51
-  port: 7739
-  uuid: 63d54df4-02eb-413e-beba-95e27bee760f
-  alterId: 0
-  cipher: auto
-  tls: false
+  port: 44194
+  uuid: 3857c126-6475-4dd7-d219-2e1d8fd43684
   udp: true
   network: ws
+  tls: false
   ws-opts:
-    path: /arki
+    path: /
 - name: 🇺🇸DP vmess-US-15152690
   dialer-proxy: LBCF
   type: vmess
@@ -687,118 +793,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-15143752
-  dialer-proxy: LBCF
-  type: vmess
-  server: 23.27.143.149
-  port: 5686
-  uuid: e06736c8-5da2-4713-b801-d9f6ac59ce1d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-- name: 🇺🇸DP vmess-US-15143525
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP vless-US-15140191
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.153
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-- name: 🇺🇸DP vless-US-15138567
-  dialer-proxy: LBCF
-  type: vless
-  server: rvg-production-464c.up.railway.app
-  port: 443
-  uuid: d0a0701e-9aef-972f-a69a-cad18aeb4426
-  udp: true
-  network: ws
-  tls: true
-  sni: rvg-production-464c.up.railway.app
-  ws-opts:
-    path: /ws/d0a0701e-9aef-972f-a69a-cad18aeb4426
-    headers:
-      Host: rvg-production-464c.up.railway.app
-- name: 🇺🇸DP vmess-US-15138154
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15135411
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
-- name: 🇺🇸DP vless-US-15134869
-  dialer-proxy: LBCF
-  type: vless
-  server: 45.151.102.99
-  port: 443
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
-  udp: true
-  network: grpc
-  tls: false
-  sni: maps.apple.com
-- name: 🇺🇸DP vless-US-15133185
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.16.72.41
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckfangbinxing.pusytroller.gq
-- name: 🇺🇸DP vmess-US-15131884
-  dialer-proxy: LBCF
-  type: vmess
-  server: 154.26.183.5
-  port: 8880
-  uuid: f4a047d5-f419-4e3f-9054-bd2a087e1dc2
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: f4a047d5-f419-4e3f-9054-bd2a087e1dc2-vm
-    headers:
-      Host: www.bing.com
-  servername: www.bing.com
