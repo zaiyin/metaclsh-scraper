@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- name: 🇸🇬 trojan-SG-15179748
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  udp: true
+  ws-opts:
+    path: /in-pdr
+    headers:
+      Host: space.byu.id.yxls.eu.cc
