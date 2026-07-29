@@ -7,6 +7,19 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
+- name: 🇸🇬DP vless-SG-15178436
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.67.170.226
+  port: 80
+  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: sahanwickramasinghevip.shop
 - name: 🇸🇬DP vmess-SG-15174234
   dialer-proxy: LBCF
   type: vmess
@@ -139,7 +152,7 @@ proxies:
   password: i8asar9lrxhavh38
   server: 178.128.86.181
   port: 51435
-- name: 🇸🇬DP vless-SG-15114416
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
   server: 104.64.206.42
@@ -240,16 +253,6 @@ proxies:
   network: grpc
   tls: true
   sni: sgp3xui.jzy88.top
-- name: 🇸🇬DP vless-SG-15056567
-  dialer-proxy: LBCF
-  type: vless
-  server: 3.0.111.82
-  port: 12972
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.apple.com
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -523,6 +526,19 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
+- name: 🇺🇸DP vless-US-15178029
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
 - name: 🇺🇸DP ss-US-15175743
   dialer-proxy: LBCF
   type: ss
@@ -774,14 +790,3 @@ proxies:
     path: /
     headers:
       Host: download.pusytroller.gq
-- name: 🇺🇸DP vmess-US-15165429
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
