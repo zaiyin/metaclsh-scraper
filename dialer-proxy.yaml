@@ -7,6 +7,22 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
+- name: 🇸🇬DP vmess-SG-15174234
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy58.ceoiii.com
+  port: 36809
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -234,14 +250,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP trojan-SG-15054934
-  dialer-proxy: LBCF
-  type: trojan
-  server: fun-salmon.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: fun-salmon.rooster465.autos
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -274,19 +282,6 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
-- name: 🇲🇾DP vless-MY-14783475
-  dialer-proxy: LBCF
-  type: vless
-  server: sexi.carderrr.com
-  port: 443
-  uuid: SoonTeam
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /telegram@SoonTeam
-    headers:
-      Host: anten.ir
 - name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
@@ -302,8 +297,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
@@ -502,7 +497,7 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 103.75.118.228
-  port: 11452
+  port: 12683
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -528,6 +523,88 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
+- name: 🇺🇸DP ss-US-15175743
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 185.236.200.210
+  port: 1080
+- name: 🇺🇸DP ss-US-15175685
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 38.132.118.30
+  port: 1080
+- name: 🇺🇸DP ss-US-15175666
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 38.132.118.198
+  port: 1080
+- name: 🇺🇸DP ss-US-15175612
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 146.70.34.226
+  port: 1080
+- name: 🇺🇸DP ss-US-15175572
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 185.232.22.18
+  port: 1080
+- name: 🇺🇸DP ss-US-15175515
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 185.247.68.94
+  port: 1080
+- name: 🇺🇸DP vless-US-15173972
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15173842
+  dialer-proxy: LBCF
+  type: vless
+  server: 155.117.137.201
+  port: 443
+  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
+  udp: true
+  network: tcp
+  tls: false
+  sni: cdn2-07.yahoo.com
+- name: 🇺🇸DP vmess-US-15173672
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-15172512
   dialer-proxy: LBCF
   type: vless
@@ -708,92 +785,3 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇺🇸DP vmess-US-15165414
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: LevikoConfig
-- name: 🇺🇸DP ss-US-15164240
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 156.146.38.195
-  port: 1080
-- name: 🇺🇸DP vless-US-15163513
-  dialer-proxy: LBCF
-  type: vless
-  server: www.fbi.gov
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP vless-US-15162870
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.55.229
-  port: 443
-  uuid: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  udp: true
-  network: ws
-  tls: true
-  sni: uk.xfj123.top
-  ws-opts:
-    path: /e1bd5c86-721c-4a2d-bdf8-ba50e522ec57-vless
-    headers:
-      Host: uk.xfj123.top
-- name: 🇺🇸DP vmess-US-15162349
-  dialer-proxy: LBCF
-  type: vmess
-  server: 192.204.57.30
-  port: 443
-  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /speed
-- name: 🇺🇸DP vmess-US-15162286
-  dialer-proxy: LBCF
-  type: vmess
-  server: sylva51.ceoiii.com
-  port: 36822
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🇺🇸DP vless-US-15161611
-  dialer-proxy: LBCF
-  type: vless
-  server: www.fbi.gov
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
