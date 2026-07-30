@@ -1,11 +1,13 @@
 proxies:
-- name: 🇸🇬 trojan-SG-15179748
-  type: trojan
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
   server: bug.xcp
-  port: 443
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 2083
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /in-pdr
+    path: /
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
