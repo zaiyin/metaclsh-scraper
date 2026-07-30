@@ -8,6 +8,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fdip=tw.william.us.ci!txt
+    path: /fdip=tw.william.us.ci!txt?ed=2560
     headers:
       Host: learn00.evany.de5.net

@@ -15,6 +15,40 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
+- name: 🇸🇬DP vless-SG-15191862
+  dialer-proxy: LBCF
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🇸🇬DP ss-SG-15191277
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: W8T44NSLuczcncGIf92m6Q
+  server: 178.128.101.77
+  port: 1080
+- name: 🇸🇬DP vmess-SG-15189597
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy58.ceoiii.com
+  port: 36809
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
 - name: 🇸🇬DP ss-SG-15188064
   dialer-proxy: LBCF
   type: ss
@@ -92,7 +126,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: orange.seeck.cn
+  server: 172.64.145.0
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
@@ -100,7 +134,7 @@ proxies:
   tls: true
   sni: learn00.evany.de5.net
   ws-opts:
-    path: /fdip=tw.william.us.ci!txt
+    path: /fdip=tw.william.us.ci!txt?ed=2560
     headers:
       Host: learn00.evany.de5.net
 - name: 🇸🇬DP vless-SG-15178436
@@ -265,30 +299,6 @@ proxies:
   password: FC60532879
   udp: true
   sni: faithful-panther.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15070670
-  dialer-proxy: LBCF
-  type: trojan
-  server: actual-chicken.rooster465.autos
-  port: 443
-  password: FC60532879
-  udp: true
-  sni: actual-chicken.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15070654
-  dialer-proxy: LBCF
-  type: trojan
-  server: sterling-fowl.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: sterling-fowl.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15070637
-  dialer-proxy: LBCF
-  type: trojan
-  server: neat-duck.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: neat-duck.rooster465.autos
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -321,7 +331,7 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
-- name: 🇲🇾DP vmess-MY-14164165
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.135.244
@@ -336,15 +346,18 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
 - name: 🇯🇵DP trojan-JP-15186347
   dialer-proxy: LBCF
   type: trojan
@@ -424,77 +437,6 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 89.187.160.73
   port: 1080
-- name: 🇯🇵DP trojan-JP-15126139
-  dialer-proxy: LBCF
-  type: trojan
-  server: fit-heron.rooster465.autos
-  port: 443
-  password: AQ71834695
-  udp: true
-  sni: fit-heron.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15121886
-  dialer-proxy: LBCF
-  type: trojan
-  server: tops-marlin.rooster465.autos
-  port: 443
-  password: AQ71834695
-  udp: true
-  sni: tops-marlin.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15121882
-  dialer-proxy: LBCF
-  type: trojan
-  server: integral-elf.rooster465.autos
-  port: 443
-  password: AQ71834695
-  udp: true
-- name: 🇯🇵DP trojan-JP-15085211
-  dialer-proxy: LBCF
-  type: trojan
-  server: inspired-hound.rooster465.autos
-  port: 443
-  password: JT80563429
-  udp: true
-  sni: inspired-hound.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15070605
-  dialer-proxy: LBCF
-  type: trojan
-  server: moved-osprey.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: moved-osprey.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15070490
-  dialer-proxy: LBCF
-  type: trojan
-  server: next-ringtail.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: next-ringtail.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15018988
-  dialer-proxy: LBCF
-  type: trojan
-  server: square-anchovy.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: square-anchovy.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15015454
-  dialer-proxy: LBCF
-  type: trojan
-  server: sweeping-parakeet.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: sweeping-parakeet.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15008517
-  dialer-proxy: LBCF
-  type: trojan
-  server: major-duckling.rooster465.autos
-  port: 443
-  password: IQ68037294
-  udp: true
-  sni: major-duckling.rooster465.autos
 - name: 🇯🇵DP vless-JP-14922677
   dialer-proxy: LBCF
   type: vless
@@ -538,7 +480,7 @@ proxies:
   network: ws
   ws-opts:
     path: /liksuzcp
-- name: 🇯🇵DP vmess-JP-14871081
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 161.33.139.138
@@ -551,6 +493,9 @@ proxies:
   network: ws
   ws-opts:
     path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+    headers:
+      Host: 161.33.139.138
+  servername: 161.33.139.138
 - name: 🇯🇵DP vless-JP-14655234
   dialer-proxy: LBCF
   type: vless
@@ -570,6 +515,150 @@ proxies:
   network: tcp
   tls: false
   sni: 152.69.195.67
+- name: 🇯🇵DP vmess-JP-14059171
+  dialer-proxy: LBCF
+  type: vmess
+  server: 140.83.51.161
+  port: 25686
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp02.a0a.xyz
+  servername: jp02.a0a.xyz
+- name: 🇯🇵DP vmess-JP-13805479
+  dialer-proxy: LBCF
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+- name: 🇯🇵DP vless-JP-12853507
+  dialer-proxy: LBCF
+  type: vless
+  server: yx.cloudflare.182682.xyz
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP vmess-JP-10306937
+  dialer-proxy: LBCF
+  type: vmess
+  server: 172.111.146.64
+  port: 80
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+- name: 🇯🇵DP vless-JP-4395498
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.227.134
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP vless-JP-4385752
+  dialer-proxy: LBCF
+  type: vless
+  server: 207.148.108.85
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP vless-JP-2836884
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.227.134
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇯🇵DP vless-JP-1468065
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.227.134
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+  ws-opts:
+    path: /@NebulaVPNx
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+- name: 🇺🇸DP vless-US-15192354
+  dialer-proxy: LBCF
+  type: vless
+  server: 191.101.130.131
+  port: 38001
+  uuid: d38fb586-bec2-4892-f774-7789068e32d5
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-15190609
+  dialer-proxy: LBCF
+  type: vless
+  server: www.fbi.gov
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15190514
+  dialer-proxy: LBCF
+  type: vless
+  server: 167.17.69.171
+  port: 443
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
 - name: 🇺🇸DP vmess-US-15188324
   dialer-proxy: LBCF
   type: vmess
@@ -702,7 +791,7 @@ proxies:
   type: vless
   server: 92.63.99.228
   port: 4353
-  uuid: b222ebc7-569c-45ca-a0e4-756f171b247b
+  uuid: e27dce75-b33b-49b6-afb7-17e29ce67bb1
   udp: true
   network: tcp
   tls: false
@@ -803,34 +892,3 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 185.232.22.18
   port: 1080
-- name: 🇺🇸DP ss-US-15175515
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 185.247.68.94
-  port: 1080
-- name: 🇺🇸DP vless-US-15173972
-  dialer-proxy: LBCF
-  type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP vless-US-15173842
-  dialer-proxy: LBCF
-  type: vless
-  server: 155.117.137.201
-  port: 443
-  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
-  udp: true
-  network: tcp
-  tls: false
-  sni: cdn2-07.yahoo.com
