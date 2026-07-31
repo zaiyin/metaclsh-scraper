@@ -2,12 +2,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  port: 2083
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
