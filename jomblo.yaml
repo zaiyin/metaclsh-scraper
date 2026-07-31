@@ -1,13 +1,25 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-15202889
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /dula
     headers:
-      Host: nova-comet-core-8e95.nova-58d622.workers.dev
+      Host: speed.dulacloud.store
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
