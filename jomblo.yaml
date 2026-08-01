@@ -14,12 +14,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2087
+  port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fdip
+    path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
