@@ -2,27 +2,15 @@ proxies:
 - name: 🇸🇬 vless-SG-15202889
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  port: 80
+  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /dula
     headers:
       Host: speed.dulacloud.store
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fdip
-    headers:
-      Host: learn00.evany.de5.net
 - name: 🇸🇬 vless-SG-14738483
   type: vless
   server: bug.xcp
