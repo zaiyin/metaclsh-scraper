@@ -11,15 +11,15 @@ proxies:
     path: /dula
     headers:
       Host: speed.dulacloud.store
-- name: 🇸🇬 vless-SG-14738483
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /60156344
+    path: /sg-melbi
     headers:
-      Host: wasmer-earth.jzy88.top
+      Host: support.zoom.us.yxls.eu.cc
