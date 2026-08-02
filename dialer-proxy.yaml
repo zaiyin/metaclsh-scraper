@@ -77,44 +77,20 @@ proxies:
   password: W8T44NSLuczcncGIf92m6Q
   server: 178.128.101.77
   port: 1080
-- name: 🇸🇬DP vmess-SG-15189597
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy58.ceoiii.com
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🇸🇬DP ss-SG-15188064
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: sHh42jRgCUfV
-  server: 194.87.10.216
-  port: 8388
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.246.202
+  server: 104.17.144.235
   port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -215,7 +191,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: ip.sb
+  server: 104.18.37.228
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.17.19.159
+  port: 2083
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  udp: true
+  network: ws
+  tls: true
+  sni: nova-comet-core-8e95.nova-58d622.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.43.28
   port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
@@ -223,24 +227,10 @@ proxies:
   tls: true
   sni: learn00.evany.de5.net
   ws-opts:
-    path: /fdip
+    path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇸🇬DP vless-SG-9271
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.21.74.24
-  port: 443
-  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
-  udp: true
-  network: ws
-  tls: true
-  sni: FRee.SeRver11pEEkcONFIg.WorkeRS.DEv
-  ws-opts:
-    path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-    headers:
-      Host: free.server11peekconfig.workers.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
   server: 162.159.8.155
@@ -254,6 +244,20 @@ proxies:
     path: /fdip=tw.william.us.ci!txt?ed=2560
     headers:
       Host: learn00.evany.de5.net
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.25.244.217
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  udp: true
+  network: ws
+  tls: true
+  sni: support.zoom.us.yxls.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇲🇾DP vless-MY-15233982
   dialer-proxy: LBCF
   type: vless
@@ -299,18 +303,15 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
 - name: 🇯🇵DP trojan-JP-15226625
   dialer-proxy: LBCF
   type: trojan
@@ -397,7 +398,7 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 3.114.220.22
-  port: 10583
+  port: 18007
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -413,7 +414,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🏳DP vmess-
+- name: 🇯🇵DP vmess-JP-14876388
   dialer-proxy: LBCF
   type: vmess
   server: 45.76.202.45
@@ -471,6 +472,9 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+  servername: 168.138.43.75
 - name: 🇯🇵DP vmess-JP-10306937
   dialer-proxy: LBCF
   type: vmess
@@ -584,10 +588,47 @@ proxies:
     path: /?ed=2560
     headers:
       Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
-- name: 🇺🇸DP vless-US-15235742
+- name: 🇺🇸DP vmess-US-15238344
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vmess-US-15238054
+  dialer-proxy: LBCF
+  type: vmess
+  server: Chdxgih.viranix.ir
+  port: 10119
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: play.google.com
+- name: 🇺🇸DP vless-US-15237908
   dialer-proxy: LBCF
   type: vless
-  server: www.wto.org
+  server: 69.46.46.14
+  port: 443
+  uuid: a5a633b1-3a63-0b45-2b05-4bea8474a0cd
+  udp: true
+  network: ws
+  tls: true
+  sni: rvg-production-fd34.up.railway.app
+  ws-opts:
+    path: /ws/a5a633b1-3a63-0b45-2b05-4bea8474a0cd
+    headers:
+      Host: rvg-production-fd34.up.railway.app
+- name: 🇺🇸DP vless-US-15237602
+  dialer-proxy: LBCF
+  type: vless
+  server: www.fbi.gov
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
@@ -597,6 +638,40 @@ proxies:
     path: /
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15237303
+  dialer-proxy: LBCF
+  type: vless
+  server: 169.40.42.75
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  network: tcp
+  tls: false
+  sni: yahoo.com
+- name: 🇺🇸DP vmess-US-15235847
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇺🇸DP vless-US-15235742
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.153
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
 - name: 🇺🇸DP vless-US-15234846
   dialer-proxy: LBCF
   type: vless
@@ -785,77 +860,3 @@ proxies:
     path: /
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP vmess-US-15222026
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10119
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
-- name: 🇺🇸DP vmess-US-15222022
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10117
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
-- name: 🇺🇸DP vless-US-15221717
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.169.143
-  port: 443
-  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
-  udp: true
-  network: ws
-  tls: true
-  sni: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
-  ws-opts:
-    path: /Wvf67jc5MgASmsb9Qsr0
-    headers:
-      Host: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
-- name: 🇺🇸DP vmess-US-15221420
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15220684
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.153
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-- name: 🇺🇸DP vmess-US-15220355
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10119
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
