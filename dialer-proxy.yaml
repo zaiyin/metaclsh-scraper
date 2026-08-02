@@ -101,97 +101,20 @@ proxies:
   password: sHh42jRgCUfV
   server: 194.87.10.216
   port: 8388
-- name: 🇸🇬DP vmess-SG-15187495
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy58.ceoiii.com
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🇸🇬DP vmess-SG-15186594
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy58.ceoiii.com
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🇸🇬DP vmess-SG-15185948
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy58.ceoiii.com
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.19.159
-  port: 2083
-  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  server: 190.93.246.202
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
   network: ws
   tls: true
-  sni: nova-comet-core-8e95.nova-58d622.workers.dev
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: nova-comet-core-8e95.nova-58d622.workers.dev
-- name: 🇸🇬DP vless-SG-15178436
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.67.170.226
-  port: 80
-  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: sahanwickramasinghevip.shop
-- name: 🇸🇬DP vmess-SG-15174234
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy58.ceoiii.com
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -241,22 +164,6 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-14247653
-  dialer-proxy: LBCF
-  type: trojan
-  server: 54.46.46.228
-  port: 41421
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP trojan-SG-14239969
-  dialer-proxy: LBCF
-  type: trojan
-  server: 43.198.12.180
-  port: 32434
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-14224629
   dialer-proxy: LBCF
   type: trojan
@@ -273,6 +180,94 @@ proxies:
   password: 94571d62-a23f-364e-8065-2a740b342216
   server: s.8.m.z.r.a.q.3.b.sg03-ae5.entry.v51124-1.qpon
   port: 20080
+- name: 🇸🇬DP vmess-SG-7314090
+  dialer-proxy: LBCF
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-7297225
+  dialer-proxy: LBCF
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-5955479
+  dialer-proxy: LBCF
+  type: vless
+  server: sgxi.959555.xyz
+  port: 10000
+  uuid: af6904c1-4349-4448-8e99-0024824a0c33
+  udp: true
+  network: tcp
+  tls: false
+  sni: gateway.icloud.com
+- name: 🇸🇬DP vless-SG-9406
+  dialer-proxy: LBCF
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇸🇬DP vless-SG-9271
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.21.74.24
+  port: 443
+  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
+  udp: true
+  network: ws
+  tls: true
+  sni: FRee.SeRver11pEEkcONFIg.WorkeRS.DEv
+  ws-opts:
+    path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
+    headers:
+      Host: free.server11peekconfig.workers.dev
+- name: 🏳DP vless-
+  dialer-proxy: LBCF
+  type: vless
+  server: 162.159.8.155
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇲🇾DP vless-MY-15233982
+  dialer-proxy: LBCF
+  type: vless
+  server: zjmy.zywm.eu.org
+  port: 443
+  uuid: 83564060-4069-40b4-e657-adccef9c4b62
+  udp: true
+  network: ws
+  tls: true
+  sni: zjmy.zywm.eu.org
+  ws-opts:
+    path: /mmy
+    headers:
+      Host: zjmy.zywm.eu.org
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -304,8 +299,8 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
@@ -372,27 +367,11 @@ proxies:
   port: 44184
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   udp: true
-- name: 🇯🇵DP trojan-JP-15186347
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.181.205.36
-  port: 38937
-  password: d1960ba9f0f6353353994fa844cf817b
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇯🇵DP trojan-JP-15185881
   dialer-proxy: LBCF
   type: trojan
   server: oplosgru-c.catcat321.com
   port: 20004
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  udp: true
-  sni: hk.catxstar.com
-- name: 🇯🇵DP trojan-JP-15184156
-  dialer-proxy: LBCF
-  type: trojan
-  server: hkdcrtc-e.catcat321.com
-  port: 20129
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
@@ -418,7 +397,7 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 3.114.220.22
-  port: 18007
+  port: 10583
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -434,7 +413,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🇯🇵DP vmess-JP-14876388
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 45.76.202.45
@@ -463,16 +442,6 @@ proxies:
     headers:
       Host: 161.33.139.138
   servername: 161.33.139.138
-- name: 🇯🇵DP vless-JP-14247663
-  dialer-proxy: LBCF
-  type: vless
-  server: 152.69.195.67
-  port: 47878
-  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
-  udp: true
-  network: tcp
-  tls: false
-  sni: 152.69.195.67
 - name: 🇯🇵DP vmess-JP-14059171
   dialer-proxy: LBCF
   type: vmess
@@ -502,9 +471,6 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
-  servername: jp01.a0a.xyz
 - name: 🇯🇵DP vmess-JP-10306937
   dialer-proxy: LBCF
   type: vmess
@@ -582,6 +548,75 @@ proxies:
     path: /?ed=2560
     headers:
       Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+- name: 🇯🇵DP vless-JP-1402621
+  dialer-proxy: LBCF
+  type: vless
+  server: 216.23.86.105
+  port: 8443
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  udp: true
+  network: ws
+  tls: true
+  sni: sni.ehb.cc.cd
+  ws-opts:
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+    headers:
+      Host: sni.ehb.cc.cd
+- name: 🇯🇵DP ss-JP-1291802
+  dialer-proxy: LBCF
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: shadowsocks
+  server: 149.22.87.240
+  port: 443
+- name: 🇯🇵DP vless-JP-1006312
+  dialer-proxy: LBCF
+  type: vless
+  server: 126.220.82.161
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  network: ws
+  tls: true
+  sni: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
+- name: 🇺🇸DP vless-US-15235742
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15234846
+  dialer-proxy: LBCF
+  type: vless
+  server: usa02.myxasecure.space
+  port: 443
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  udp: true
+  network: tcp
+  tls: false
+  sni: usa02.myxasecure.space
+- name: 🇺🇸DP vless-US-15233504
+  dialer-proxy: LBCF
+  type: vless
+  server: 161.104.90.17
+  port: 443
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.samsung.com
 - name: 🇺🇸DP vless-US-15231866
   dialer-proxy: LBCF
   type: vless
@@ -824,39 +859,3 @@ proxies:
   udp: true
   network: tcp
   servername: play.google.com
-- name: 🇺🇸DP vmess-US-15220350
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10117
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
-- name: 🇺🇸DP vless-US-15220147
-  dialer-proxy: LBCF
-  type: vless
-  server: 169.40.42.179
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  udp: true
-  network: tcp
-  tls: false
-  sni: yahoo.com
-- name: 🇺🇸DP vless-US-15219904
-  dialer-proxy: LBCF
-  type: vless
-  server: piracy-android.video-streams.org
-  port: 443
-  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
-  udp: true
-  network: ws
-  tls: true
-  sni: piracy-android.video-streams.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: piracy-android.video-streams.org
