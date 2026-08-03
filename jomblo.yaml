@@ -14,16 +14,16 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /fdip
+    path: /
     headers:
-      Host: learn00.evany.de5.net
-- name: 🇸🇬 vless-SG-9271
+      Host: vms.lifetime05.workers.dev
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
   port: 443
@@ -35,6 +35,16 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬 trojan-SG-9271
+  type: trojan
+  server: bug.xcp
+  port: 443
+  password: 257d8622-6701-4c98-a432-67a9696f58ae
+  udp: true
+  ws-opts:
+    path: /Novan-ID9
+    headers:
+      Host: shazira.app
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
