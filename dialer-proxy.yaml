@@ -71,22 +71,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP ss-SG-15191277
+- name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: W8T44NSLuczcncGIf92m6Q
-  server: 178.128.101.77
-  port: 1080
-- name: 🏳DP trojan-
-  dialer-proxy: LBCF
-  type: trojan
-  server: 188.114.96.3
+  type: vless
+  server: alist.sm.uy
   port: 443
-  password: Telegram_healer_config
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
-  sni: 6M1RGYiecLMrX9HEf1.z6-0hLNuBjIBWzPa85.wOrkers.DEv
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -205,31 +203,45 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.59.181
-  port: 2087
-  uuid: f0841bb1-00ff-4841-ba14-a3ec24d94bb5
+  server: 172.67.75.172
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
   network: ws
   tls: true
-  sni: edt.akkk.qzz.io
+  sni: learn00.evany.de5.net
   ws-opts:
-    path: /
+    path: /fdip
     headers:
-      Host: edt.akkk.qzz.io
+      Host: learn00.evany.de5.net
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.59.181
-  port: 2087
-  uuid: f0841bb1-00ff-4841-ba14-a3ec24d94bb5
+  server: 188.114.97.3
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
   network: ws
   tls: true
-  sni: edt.akkk.qzz.io
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: edt.akkk.qzz.io
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 108.162.195.58
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇲🇾DP vless-MY-15233982
   dialer-proxy: LBCF
   type: vless
@@ -284,6 +296,14 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP trojan-JP-15250983
+  dialer-proxy: LBCF
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20004
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  udp: true
+  sni: hk.catxstar.com
 - name: 🇯🇵DP ss-JP-15245811
   dialer-proxy: LBCF
   type: ss
@@ -372,7 +392,7 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-14922677
   dialer-proxy: LBCF
   type: vless
   server: 103.75.118.228
@@ -461,9 +481,9 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: 168.138.43.75
-  servername: 168.138.43.75
-- name: 🇯🇵DP vmess-JP-10306937
+      Host: jp01.a0a.xyz
+  servername: jp01.a0a.xyz
+- name: 🏳DP vmess-
   dialer-proxy: LBCF
   type: vmess
   server: 172.111.146.64
@@ -520,28 +540,30 @@ proxies:
   password: shadowsocks
   server: 149.22.87.240
   port: 443
-- name: 🇯🇵DP ss-JP-922375
+- name: 🇺🇸DP vmess-US-15251479
   dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: shadowsocks
-  server: 149.22.87.241
-  port: 443
-- name: 🇯🇵DP vless-JP-165436
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.44.195
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  type: vmess
+  server: 154.36.135.84
+  port: 55633
+  uuid: d2627d4c-422c-42d7-9e9a-954c8f6728d4
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
   network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=random
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+    path: /arki
+- name: 🇺🇸DP vless-US-15251467
+  dialer-proxy: LBCF
+  type: vless
+  server: 38.246.226.240
+  port: 57878
+  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /535f0e03
 - name: 🇺🇸DP vless-US-15248497
   dialer-proxy: LBCF
   type: vless
@@ -605,7 +627,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇺🇸DP vless-US-15241800
   dialer-proxy: LBCF
   type: vless
   server: 169.40.42.184
@@ -804,28 +826,3 @@ proxies:
   udp: true
   network: tcp
   servername: play.google.com
-- name: 🇺🇸DP vmess-US-15228956
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10136
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
-- name: 🇺🇸DP vless-US-15228076
-  dialer-proxy: LBCF
-  type: vless
-  server: ezaccess1-luffy-ezaccess1-4f1e.up.railway.app
-  port: 443
-  uuid: e7548057-5acb-4681-90c2-2e8b9fbf16e6
-  udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /ws/vless/e7548057-5acb-4681-90c2-2e8b9fbf16e6?ed=2048fp=chrome
-    headers:
-      Host: ezaccess1-luffy-ezaccess1-4f1e.up.railway.app
