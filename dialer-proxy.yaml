@@ -1,12 +1,4 @@
 proxies:
-- name: 🇮🇩DP trojan-ID-15180155
-  dialer-proxy: LBCF
-  type: trojan
-  server: oplosgru-c.catcat321.com
-  port: 20120
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  udp: true
-  sni: hk.catxstar.com
 - name: 🇸🇬DP ss-SG-15243433
   dialer-proxy: LBCF
   type: ss
@@ -74,15 +66,15 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: alist.sm.uy
-  port: 443
+  server: 108.162.195.244
+  port: 8443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
   network: ws
   tls: true
   sni: learn00.evany.de5.net
   ws-opts:
-    path: /fdip
+    path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
 - name: 🇸🇬DP vless-SG-15171939
@@ -132,7 +124,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-14224629
   dialer-proxy: LBCF
   type: trojan
   server: 18.163.180.201
@@ -180,6 +172,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.lovelive-anime.jp
+- name: 🇸🇬DP vless-SG-6647727
+  dialer-proxy: LBCF
+  type: vless
+  server: 168.138.166.89
+  port: 8899
+  uuid: 0c9839aa-c64f-4791-9137-420432605987
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.lovelive-anime.jp
 - name: 🇸🇬DP vless-SG-6497875
   dialer-proxy: LBCF
   type: vless
@@ -203,8 +205,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 172.67.75.172
-  port: 443
+  server: 104.18.36.192
+  port: 2087
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
   network: ws
@@ -217,29 +219,15 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  udp: true
-  network: ws
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 108.162.195.58
-  port: 443
+  server: 172.64.159.76
+  port: 8443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
   network: ws
   tls: true
   sni: learn00.evany.de5.net
   ws-opts:
-    path: /fdip=tw.william.us.ci!txt
+    path: /fdip
     headers:
       Host: learn00.evany.de5.net
 - name: 🇲🇾DP vless-MY-15233982
@@ -296,6 +284,22 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vmess-JP-15255932
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy50.ceoiii.com
+  port: 36801
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
 - name: 🇯🇵DP trojan-JP-15250983
   dialer-proxy: LBCF
   type: trojan
@@ -362,20 +366,6 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   udp: true
   sni: hk.catxstar.com
-- name: 🇯🇵DP trojan-JP-15203761
-  dialer-proxy: LBCF
-  type: trojan
-  server: v2jp.k1.ssnss.live
-  port: 44184
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  udp: true
-- name: 🇯🇵DP trojan-JP-15200127
-  dialer-proxy: LBCF
-  type: trojan
-  server: v2jp.k1.ssnss.live
-  port: 44184
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  udp: true
 - name: 🇯🇵DP trojan-JP-15185881
   dialer-proxy: LBCF
   type: trojan
@@ -402,7 +392,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🏳DP vless-
+- name: 🇯🇵DP vless-JP-14912748
   dialer-proxy: LBCF
   type: vless
   server: 3.114.220.22
@@ -481,9 +471,9 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: jp01.a0a.xyz
-  servername: jp01.a0a.xyz
-- name: 🏳DP vmess-
+      Host: None
+  servername: None
+- name: 🇯🇵DP vmess-JP-10306937
   dialer-proxy: LBCF
   type: vmess
   server: 172.111.146.64
@@ -496,14 +486,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-- name: 🇯🇵DP ss-JP-5141029
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-128-gcm
-  password: shadowsocks
-  server: 149.22.87.204
-  port: 443
 - name: 🇯🇵DP vless-JP-2836884
   dialer-proxy: LBCF
   type: vless
@@ -532,14 +514,50 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
     headers:
       Host: sni.ehb.cc.cd
-- name: 🇯🇵DP ss-JP-1291802
+- name: 🇯🇵DP ss-JP-922375
   dialer-proxy: LBCF
   type: ss
   udp: true
   cipher: aes-128-gcm
   password: shadowsocks
-  server: 149.22.87.240
+  server: 149.22.87.241
   port: 443
+- name: 🇺🇸DP vless-US-15255681
+  dialer-proxy: LBCF
+  type: vless
+  server: 138.68.53.88
+  port: 443
+  uuid: 413a66e9-b05b-4ae6-a9eb-6d28204a28f4
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-15254574
+  dialer-proxy: LBCF
+  type: vless
+  server: d.mygoldiran.com
+  port: 443
+  uuid: 76792e97-ee95-4d29-86da-347362d491f2
+  udp: true
+  network: ws
+  tls: true
+  sni: usa_multi.mygoldiran.com
+  ws-opts:
+    path: /idea
+    headers:
+      Host: usa_multi.mygoldiran.com
+- name: 🇺🇸DP vless-US-15254285
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
 - name: 🇺🇸DP vmess-US-15251479
   dialer-proxy: LBCF
   type: vmess
@@ -578,10 +596,10 @@ proxies:
   dialer-proxy: LBCF
   type: vless
   server: 64.49.38.6
-  port: 8443
+  port: 993
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
   udp: true
-  network: grpc
+  network: tcp
   tls: false
   sni: dl.google.com
 - name: 🇺🇸DP vless-US-15246203
@@ -789,40 +807,3 @@ proxies:
   network: tcp
   tls: false
   sni: www.samsung.com
-- name: 🇺🇸DP vless-US-15231866
-  dialer-proxy: LBCF
-  type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP vmess-US-15231342
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10136
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
-- name: 🇺🇸DP vmess-US-15231340
-  dialer-proxy: LBCF
-  type: vmess
-  server: Chdxgih.viranix.ir
-  port: 10119
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: play.google.com
