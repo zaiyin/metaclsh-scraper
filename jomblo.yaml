@@ -23,31 +23,7 @@ proxies:
     path: /fdip
     headers:
       Host: learn00.evany.de5.net
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fdip
-    headers:
-      Host: learn00.evany.de5.net
 - name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 362a79a2-ce89-8d2d-355c-f1f5071a445f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sync
-    headers:
-      Host: fragrant-unit-d662.mmammatrix770088.workers.dev
-- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
