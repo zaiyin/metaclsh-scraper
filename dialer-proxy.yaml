@@ -48,19 +48,6 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🇸🇬DP vless-SG-15202889
-  dialer-proxy: LBCF
-  type: vless
-  server: 170.114.46.6
-  port: 80
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-15191862
   dialer-proxy: LBCF
   type: vless
@@ -74,17 +61,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 108.162.192.9
-  port: 443
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  server: 172.64.146.211
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: soucuovls.pages.dev
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /pyip=proxyip.cmliussss.net
+    path: /
     headers:
-      Host: soucuovls.pages.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -108,14 +95,6 @@ proxies:
     path: /FREE By Tharuwa (0767597317)
     headers:
       Host: m.zoom.us
-- name: 🇸🇬DP trojan-SG-14440177
-  dialer-proxy: LBCF
-  type: trojan
-  server: 18.163.180.201
-  port: 48738
-  password: d1960ba9f0f6353353994fa844cf817b
-  udp: true
-  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-14417656
   dialer-proxy: LBCF
   type: trojan
@@ -132,14 +111,6 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP ss-SG-13710713
-  dialer-proxy: LBCF
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: 94571d62-a23f-364e-8065-2a740b342216
-  server: s.8.m.z.r.a.q.3.b.sg03-ae5.entry.v51124-1.qpon
-  port: 20080
 - name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
@@ -219,8 +190,50 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.146.59
-  port: 2087
+  server: developers.cloudflare.com
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.52.97
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  tls: true
+  sni: learn00.evany.de5.net
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.96.7
+  port: 8443
+  uuid: 362a79a2-ce89-8d2d-355c-f1f5071a445f
+  udp: true
+  network: ws
+  tls: true
+  sni: fragrant-unit-d662.mmammatrix770088.workers.dev
+  ws-opts:
+    path: /sync
+    headers:
+      Host: fragrant-unit-d662.mmammatrix770088.workers.dev
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: cmcc.877774.xyz
+  port: 443
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   udp: true
   network: ws
@@ -284,6 +297,38 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vmess-JP-15261030
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy50.ceoiii.com
+  port: 36801
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
+- name: 🇯🇵DP vmess-JP-15260044
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy50.ceoiii.com
+  port: 36801
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
 - name: 🇯🇵DP trojan-JP-15257070
   dialer-proxy: LBCF
   type: trojan
@@ -460,22 +505,6 @@ proxies:
   password: ND91608427
   udp: true
   sni: right-seahorse.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15256956
-  dialer-proxy: LBCF
-  type: trojan
-  server: learning-leopard.rooster465.autos
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: learning-leopard.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15256954
-  dialer-proxy: LBCF
-  type: trojan
-  server: adjusted-labrador.rooster465.autos
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: adjusted-labrador.rooster465.autos
 - name: 🇺🇸DP vless-US-15259491
   dialer-proxy: LBCF
   type: vless
