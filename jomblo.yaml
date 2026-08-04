@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -26,7 +14,7 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2087
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   network: ws
   tls: true
@@ -63,14 +51,14 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fdip
+    path: /sg-melbi
     headers:
-      Host: learn00.evany.de5.net
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇲🇾 vless-MY-15233982
   type: vless
   server: bug.xcp
