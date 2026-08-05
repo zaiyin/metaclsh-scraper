@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬DP trojan-SG-15271334
+  dialer-proxy: LBCF
+  type: trojan
+  server: 95.40.205.94
+  port: 26704
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP vmess-SG-15267470
   dialer-proxy: LBCF
   type: vmess
@@ -91,17 +99,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.19.159
-  port: 2083
-  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  server: 108.162.192.9
+  port: 443
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   udp: true
   network: ws
   tls: true
-  sni: nova-comet-core-8e95.nova-58d622.workers.dev
+  sni: soucuovls.pages.dev
   ws-opts:
-    path: /
+    path: /pyip=proxyip.cmliussss.netfp=random
     headers:
-      Host: nova-comet-core-8e95.nova-58d622.workers.dev
+      Host: soucuovls.pages.dev
 - name: 🇸🇬DP vless-SG-15171939
   dialer-proxy: LBCF
   type: vless
@@ -213,33 +221,34 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   dialer-proxy: LBCF
   type: vless
-  server: 104.26.2.173
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: peekconfig.hamrahfree1.workers.dev
+  port: 2096
+  uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv
   ws-opts:
-    path: /sg-melbi
+    path: /eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: peekconfig.hamrahfree1.workers.dev
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.235
-  port: 2086
-  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+  server: 104.17.19.159
+  port: 2083
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: nova-comet-core-8e95.nova-58d622.workers.dev
   ws-opts:
-    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560
+    path: /
     headers:
-      Host: misty-bread-fd96.salehinezhadali.workers.dev
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
 - name: 🇲🇾DP vless-MY-15233982
   dialer-proxy: LBCF
   type: vless
@@ -293,10 +302,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
 - name: 🇯🇵DP trojan-JP-15265848
   dialer-proxy: LBCF
   type: trojan
@@ -515,10 +521,18 @@ proxies:
   password: ND91608427
   udp: true
   sni: sensible-mongrel.rooster465.autos
+- name: 🇺🇸DP trojan-US-15271340
+  dialer-proxy: LBCF
+  type: trojan
+  server: 16.162.3.64
+  port: 53001
+  password: BxceQaOe
+  udp: true
+  sni: t.me/ripaojiedian
 - name: 🇺🇸DP vless-US-15269832
   dialer-proxy: LBCF
   type: vless
-  server: 172.64.152.241
+  server: www.wto.org
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
@@ -698,7 +712,7 @@ proxies:
 - name: 🇺🇸DP vless-US-15254574
   dialer-proxy: LBCF
   type: vless
-  server: d.mygoldiran.com
+  server: 8.34.146.163
   port: 443
   uuid: 76792e97-ee95-4d29-86da-347362d491f2
   udp: true
@@ -766,16 +780,3 @@ proxies:
   network: tcp
   tls: false
   sni: dl.google.com
-- name: 🇺🇸DP vless-US-15246203
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.47.69.0
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf

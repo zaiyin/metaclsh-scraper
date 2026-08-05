@@ -14,6 +14,18 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
+  port: 443
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /pyip=proxyip.cmliussss.netfp=random
+    headers:
+      Host: soucuovls.pages.dev
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
   port: 2083
   uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
   network: ws
@@ -23,30 +35,6 @@ proxies:
     path: /
     headers:
       Host: nova-comet-core-8e95.nova-58d622.workers.dev
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 2086
-  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560
-    headers:
-      Host: misty-bread-fd96.salehinezhadali.workers.dev
 - name: 🇲🇾 vless-MY-15233982
   type: vless
   server: bug.xcp
