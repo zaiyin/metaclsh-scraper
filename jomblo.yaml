@@ -1,4 +1,28 @@
 proxies:
+- name: 🇸🇬 vless-SG-15265775
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula
+    headers:
+      Host: speed.dulacloud.store
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -14,27 +38,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  port: 2086
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /fdip
+    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560
     headers:
-      Host: learn00.evany.de5.net
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: misty-bread-fd96.salehinezhadali.workers.dev
 - name: 🇲🇾 vless-MY-15233982
   type: vless
   server: bug.xcp
