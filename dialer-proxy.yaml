@@ -19,7 +19,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15279483
   dialer-proxy: LBCF
   type: vless
-  server: 91.193.58.27
+  server: 91.193.58.250
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -99,17 +99,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 80.93.202.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 108.162.192.5
+  port: 443
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   udp: true
   network: ws
-  tls: false
-  sni: vms.lifetime02.workers.dev
+  tls: true
+  sni: soucuovls.pages.dev
   ws-opts:
-    path: /
+    path: pyip=proxyip.cmliussss.net
     headers:
-      Host: vms.lifetime02.workers.dev
+      Host: soucuovls.pages.dev
 - name: 🇸🇬DP vless-SG-15114416
   dialer-proxy: LBCF
   type: vless
@@ -133,6 +133,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
+- name: 🇸🇬DP trojan-SG-14440177
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.163.180.201
+  port: 48738
+  password: d1960ba9f0f6353353994fa844cf817b
+  udp: true
+  sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-14417656
   dialer-proxy: LBCF
   type: trojan
@@ -171,16 +179,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-6732219
-  dialer-proxy: LBCF
-  type: vless
-  server: 168.138.166.89
-  port: 8899
-  uuid: 0c9839aa-c64f-4791-9137-420432605987
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.lovelive-anime.jp
 - name: 🇸🇬DP vless-SG-6647727
   dialer-proxy: LBCF
   type: vless
@@ -204,7 +202,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 104.25.245.126
+  server: 104.16.239.120
   port: 443
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
@@ -218,45 +216,45 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 190.93.246.202
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: 91.193.59.27
+  port: 2096
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: vlso300.1d.mom
   ws-opts:
-    path: /sg-melbi
+    path: /socks5=888:888@hkip.1d.mom:1080
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: vlso300.1d.mom
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.137.54
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: 8.35.211.43
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: go.iranfree.de5.net
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-- name: 🏳DP vless-
+      Host: go.iranfree.de5.net
+- name: 🇸🇬DP vless-SG-8862
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.158.173
+  server: 108.162.192.9
   port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: soucuovls.pages.dev
   ws-opts:
-    path: /sg-melbi
+    path: /pyip=proxyip.cmliussss.netfp=random
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: soucuovls.pages.dev
 - name: 🇲🇾DP vless-MY-15233982
   dialer-proxy: LBCF
   type: vless
@@ -311,6 +309,22 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇯🇵DP vmess-JP-15282417
+  dialer-proxy: LBCF
+  type: vmess
+  server: cindy50.ceoiii.com
+  port: 36801
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: ajax.microsoft.com
+  servername: ajax.microsoft.com
 - name: 🇯🇵DP vless-JP-15280913
   dialer-proxy: LBCF
   type: vless
@@ -349,7 +363,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇯🇵DP trojan-JP-15263227
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: relaxing-bluebird.rooster465.autos
@@ -461,7 +475,7 @@ proxies:
   password: ND91608427
   udp: true
   sni: moral-buzzard.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15256995
+- name: 🏳DP trojan-
   dialer-proxy: LBCF
   type: trojan
   server: 57.180.13.78
@@ -525,14 +539,32 @@ proxies:
   password: ND91608427
   udp: true
   sni: becoming-hare.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15256979
+- name: 🇺🇸DP vless-US-15282332
   dialer-proxy: LBCF
-  type: trojan
-  server: wise-bengal.rooster465.autos
-  port: 443
-  password: ND91608427
+  type: vless
+  server: 8.47.69.0
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
-  sni: wise-bengal.rooster465.autos
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15281810
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
 - name: 🇺🇸DP vless-US-15280403
   dialer-proxy: LBCF
   type: vless
@@ -773,29 +805,3 @@ proxies:
     path: /
     headers:
       Host: fuckfangbinxing.pusytroller.gq
-- name: 🇺🇸DP vless-US-15261921
-  dialer-proxy: LBCF
-  type: vless
-  server: 172.64.146.153
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-- name: 🇺🇸DP vless-US-15259491
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq

@@ -14,28 +14,16 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime02.workers.dev
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: pyip=proxyip.cmliussss.net
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬 vless-SG-9271
+      Host: soucuovls.pages.dev
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
   port: 443
@@ -50,15 +38,27 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: go.iranfree.de5.net
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /pyip=proxyip.cmliussss.netfp=random
+    headers:
+      Host: soucuovls.pages.dev
 - name: 🇲🇾 vless-MY-15233982
   type: vless
   server: bug.xcp
