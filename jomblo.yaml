@@ -1,29 +1,29 @@
 proxies:
-- name: 🇸🇬 vless-SG-15265775
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
   port: 443
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: pyip=proxyip.cmliussss.net
+    path: /sg-melbi
     headers:
-      Host: soucuovls.pages.dev
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
@@ -51,23 +51,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /pyip=proxyip.cmliussss.netfp=random
+    path: /sg-melbi
     headers:
-      Host: soucuovls.pages.dev
-- name: 🇲🇾 vless-MY-15233982
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 83564060-4069-40b4-e657-adccef9c4b62
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /mmy
-    headers:
-      Host: zjmy.zywm.eu.org
+      Host: support.zoom.us.yxls.eu.cc
