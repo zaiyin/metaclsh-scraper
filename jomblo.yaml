@@ -23,25 +23,39 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime04.workers.dev
-- name: 🇸🇬 trojan-SG-9271
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  udp: true
-  ws-opts:
-    path: /Novan-ID9
-    headers:
-      Host: shazira.app
-- name: 🇸🇬 vless-SG-9203
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: free-7f1.pages.dev
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc

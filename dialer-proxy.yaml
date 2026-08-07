@@ -77,14 +77,6 @@ proxies:
     path: /dula
     headers:
       Host: speed.dulacloud.store
-- name: 🇸🇬DP trojan-SG-15256948
-  dialer-proxy: LBCF
-  type: trojan
-  server: sacred-treefrog.rooster465.autos
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: sacred-treefrog.rooster465.autos
 - name: 🇮🇳DP vless-IN
   dialer-proxy: LBCF
   type: vless
@@ -108,7 +100,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.44.97
+  server: 104.26.2.173
   port: 443
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
@@ -119,19 +111,6 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬DP vless-SG-15114416
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.64.206.42
-  port: 57137
-  uuid: 4476eabb-509c-42d3-bb42-6838bf6fcd1e
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /FREE By Tharuwa (0767597317)
-    headers:
-      Host: m.zoom.us
 - name: 🇸🇬DP vless-SG-15056567
   dialer-proxy: LBCF
   type: vless
@@ -221,28 +200,62 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime04.workers.dev
-- name: 🇸🇬DP trojan-SG-9271
-  dialer-proxy: LBCF
-  type: trojan
-  server: 172.67.218.196
-  port: 443
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  udp: true
-  sni: shazira.app
-- name: 🇸🇬DP vless-SG-9203
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 104.17.167.149
-  port: 8443
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  server: 162.159.137.54
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
   network: ws
   tls: true
-  sni: free-7f1.pages.dev
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: free-7f1.pages.dev
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.66.44.97
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  udp: true
+  network: ws
+  tls: true
+  sni: support.zoom.us.yxls.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬DP vless-SG-8862
+  dialer-proxy: LBCF
+  type: vless
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  udp: true
+  network: ws
+  tls: false
+  sni: elenaaaaaaaaaa.cloudns.pro
+  ws-opts:
+    path: '%2FELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY'
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro
+- name: 🇸🇬DP vless-SG-8430
+  dialer-proxy: LBCF
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  udp: true
+  network: ws
+  tls: true
+  sni: support.zoom.us.yxls.eu.cc
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -401,22 +414,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
-- name: 🇯🇵DP vmess-JP-15261030
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy50.ceoiii.com
-  port: 36801
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
 - name: 🇯🇵DP trojan-JP-15257070
   dialer-proxy: LBCF
   type: trojan
@@ -520,10 +517,42 @@ proxies:
   password: ND91608427
   udp: true
   sni: becoming-hare.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256976
+  dialer-proxy: LBCF
+  type: trojan
+  server: thankful-mustang.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: thankful-mustang.rooster465.autos
+- name: 🇺🇸DP vless-US-15297118
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: 🇺🇸DP vmess-US-15296522
+  dialer-proxy: LBCF
+  type: vmess
+  server: 165.140.216.142
+  port: 443
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇺🇸DP vless-US-15294749
   dialer-proxy: LBCF
   type: vless
-  server: www.fbi.gov
+  server: 104.18.42.98
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
@@ -781,29 +810,3 @@ proxies:
   network: tcp
   tls: false
   sni: 5us.skorostnet.space
-- name: 🇺🇸DP vless-US-15277538
-  dialer-proxy: LBCF
-  type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP vless-US-15276736
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
