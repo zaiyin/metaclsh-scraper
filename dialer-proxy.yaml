@@ -1,4 +1,13 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15293703
+  dialer-proxy: LBCF
+  type: vless
+  server: 47.236.106.241
+  port: 40480
+  uuid: 0c97c970-41be-47dd-80d6-06c9a5c9c458
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇸🇬DP vless-SG-15281748
   dialer-proxy: LBCF
   type: vless
@@ -99,17 +108,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: josni.hoyes.cloudns.ch
-  port: 2053
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 172.66.44.97
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-15114416
   dialer-proxy: LBCF
   type: vless
@@ -141,6 +150,14 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   udp: true
   sni: www.nintendogames.net
+- name: 🇸🇬DP trojan-SG-14247653
+  dialer-proxy: LBCF
+  type: trojan
+  server: 43.198.209.68
+  port: 41421
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-14224629
   dialer-proxy: LBCF
   type: trojan
@@ -194,31 +211,24 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   dialer-proxy: LBCF
   type: vless
-  server: 162.159.0.8
-  port: 443
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  server: 198.71.189.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: soucuovls.pages.dev
+  tls: false
   ws-opts:
-    path: pyip=proxyip.cmliussss.net
+    path: /
     headers:
-      Host: soucuovls.pages.dev
-- name: 🇸🇬DP vless-SG-9271
+      Host: vms.lifetime04.workers.dev
+- name: 🇸🇬DP trojan-SG-9271
   dialer-proxy: LBCF
-  type: vless
-  server: 188.114.98.66
+  type: trojan
+  server: 172.67.218.196
   port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  password: 257d8622-6701-4c98-a432-67a9696f58ae
   udp: true
-  network: ws
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
+  sni: shazira.app
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
@@ -233,38 +243,10 @@ proxies:
     path: /
     headers:
       Host: free-7f1.pages.dev
-- name: 🇸🇬DP vless-SG-8862
-  dialer-proxy: LBCF
-  type: vless
-  server: 190.93.246.202
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  udp: true
-  network: ws
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬DP vless-SG-8430
-  dialer-proxy: LBCF
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  udp: true
-  network: ws
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
-  server: 20.17.157.20
+  server: cindy52.ceoiii.com
   port: 36803
   uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   alterId: 0
@@ -292,18 +274,29 @@ proxies:
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /arki?ed=2048
+- name: 🇯🇵DP vless-JP-15292119
+  dialer-proxy: LBCF
+  type: vless
+  server: love.ns.cloudflare.com
+  port: 443
+  uuid: 33d5ecd8-b530-4040-9c40-98b6805a3992
+  udp: true
+  network: ws
+  tls: true
+  sni: files104.noonpanir.info
+  ws-opts:
+    path: /files104
     headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+      Host: files104.noonpanir.info
 - name: 🇯🇵DP vless-JP-15289204
   dialer-proxy: LBCF
   type: vless
@@ -424,22 +417,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
-- name: 🇯🇵DP vmess-JP-15260044
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy50.ceoiii.com
-  port: 36801
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
 - name: 🇯🇵DP trojan-JP-15257070
   dialer-proxy: LBCF
   type: trojan
@@ -464,14 +441,6 @@ proxies:
   password: ND91608427
   udp: true
   sni: stunning-mite.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15257009
-  dialer-proxy: LBCF
-  type: trojan
-  server: devoted-heron.rooster465.autos
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: devoted-heron.rooster465.autos
 - name: 🇯🇵DP trojan-JP-15257006
   dialer-proxy: LBCF
   type: trojan
@@ -504,14 +473,6 @@ proxies:
   password: ND91608427
   udp: true
   sni: healthy-louse.rooster465.autos
-- name: 🇯🇵DP trojan-JP-15256994
-  dialer-proxy: LBCF
-  type: trojan
-  server: 13.192.236.67
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: immense-gnu.rooster465.autos
 - name: 🇯🇵DP trojan-JP-15256992
   dialer-proxy: LBCF
   type: trojan
@@ -528,6 +489,13 @@ proxies:
   password: ND91608427
   udp: true
   sni: internal-sunbird.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256988
+  dialer-proxy: LBCF
+  type: trojan
+  server: nearby-egret.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
 - name: 🇯🇵DP trojan-JP-15256986
   dialer-proxy: LBCF
   type: trojan
@@ -536,6 +504,91 @@ proxies:
   password: ND91608427
   udp: true
   sni: happy-mutt.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256984
+  dialer-proxy: LBCF
+  type: trojan
+  server: 18.179.31.199
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: prompt-duckling.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256982
+  dialer-proxy: LBCF
+  type: trojan
+  server: becoming-hare.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: becoming-hare.rooster465.autos
+- name: 🇺🇸DP vless-US-15294749
+  dialer-proxy: LBCF
+  type: vless
+  server: www.fbi.gov
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15293650
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.153
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+- name: 🇺🇸DP trojan-US-15292947
+  dialer-proxy: LBCF
+  type: trojan
+  server: sincere-gelding.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: sincere-gelding.rooster465.autos
+- name: 🇺🇸DP trojan-US-15292942
+  dialer-proxy: LBCF
+  type: trojan
+  server: pet-ghost.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: pet-ghost.rooster465.autos
+- name: 🇺🇸DP vless-US-15292827
+  dialer-proxy: LBCF
+  type: vless
+  server: soskeynets.up.railway.app
+  port: 443
+  uuid: 04861aa1-36b3-4189-bfff-68b1f92278ac
+  udp: true
+  network: ws
+  tls: true
+  sni: vhbjevcnjenc.up.railway.app
+  ws-opts:
+    path: /ws/04861aa1-36b3-4189-bfff-68b1f92278ac
+    headers:
+      Host: vhbjevcnjenc.up.railway.app
+- name: 🇺🇸DP vless-US-15291883
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.18.42.163
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
 - name: 🇺🇸DP vmess-US-15290570
   dialer-proxy: LBCF
   type: vmess
@@ -754,67 +807,3 @@ proxies:
     path: /
     headers:
       Host: download.pusytroller.gq
-- name: 🇺🇸DP vmess-US-15275434
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15275044
-  dialer-proxy: LBCF
-  type: vless
-  server: 192.220.43.144
-  port: 8443
-  uuid: e9508a2a-7848-4805-bf54-1eb84b64ec68
-  udp: true
-  network: tcp
-  tls: false
-- name: 🇺🇸DP vless-US-15274870
-  dialer-proxy: LBCF
-  type: vless
-  server: 212.104.141.166
-  port: 443
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-  udp: true
-  network: tcp
-  tls: false
-  sni: findmypackets.com
-- name: 🇺🇸DP vless-US-15274383
-  dialer-proxy: LBCF
-  type: vless
-  server: 8.47.69.0
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 🇺🇸DP trojan-US-15271340
-  dialer-proxy: LBCF
-  type: trojan
-  server: 16.162.3.64
-  port: 53001
-  password: BxceQaOe
-  udp: true
-  sni: t.me/ripaojiedian
-- name: 🇺🇸DP vless-US-15269832
-  dialer-proxy: LBCF
-  type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
