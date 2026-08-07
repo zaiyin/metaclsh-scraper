@@ -2,27 +2,27 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  port: 2053
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: pyip=proxyip.cmliussss.net
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: soucuovls.pages.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -38,16 +38,28 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  port: 8443
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: go.iranfree.de5.net
+      Host: free-7f1.pages.dev
 - name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
