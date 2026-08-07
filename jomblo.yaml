@@ -47,7 +47,7 @@ proxies:
     path: /sg-melbi
     headers:
       Host: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
   port: 443
