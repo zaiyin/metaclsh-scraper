@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15322510
+  dialer-proxy: LBCF
+  type: vless
+  server: 16.176.42.97
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  udp: true
+  network: ws
+  tls: true
+  sni: zero.csmaster.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: zero.csmaster.ggff.net
 - name: 🇸🇬DP vless-SG-15311200
   dialer-proxy: LBCF
   type: vless
@@ -56,20 +70,6 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15265775
-  dialer-proxy: LBCF
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  network: ws
-  tls: true
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬DP ss-SG-15243433
   dialer-proxy: LBCF
   type: ss
@@ -101,17 +101,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   dialer-proxy: LBCF
   type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+  server: 91.193.59.32
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   udp: true
   network: ws
   tls: true
-  sni: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  sni: vlsovip.1d.mom
   ws-opts:
-    path: /vl/14m2B3TtxW5N85ews?ed=2560
+    path: /socks5=888:888@hkip.1d.mom:1080
     headers:
-      Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+      Host: vlsovip.1d.mom
 - name: 🇸🇬DP vless-SG-15056567
   dialer-proxy: LBCF
   type: vless
@@ -209,23 +209,10 @@ proxies:
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
     headers:
       Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9271
   dialer-proxy: LBCF
   type: vless
-  server: 173.245.49.114
-  port: 2086
-  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
-    headers:
-      Host: misty-bread-fd96.salehinezhadali.workers.dev
-- name: 🇸🇬DP vless-SG-9203
-  dialer-proxy: LBCF
-  type: vless
-  server: 162.159.60.231
+  server: 104.18.37.228
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -233,9 +220,23 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp=chrome
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9203
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.66.44.97
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  udp: true
+  network: ws
+  tls: true
+  sni: josni.hoyes.cloudns.ch
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -284,7 +285,7 @@ proxies:
   type: vmess
   server: JP032009.ssgreen.org
   port: 443
-  uuid: 011fca93-33cd-4c3b-a584-7960621e0a3b
+  uuid: 0976d0fd-e6c1-4adc-a2be-86a11c87bc8b
   alterId: 0
   cipher: auto
   tls: true
@@ -465,15 +466,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
-- name: 🇯🇵DP vless-JP-15280913
-  dialer-proxy: LBCF
-  type: vless
-  server: 14.137.238.144
-  port: 10000
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇯🇵DP trojan-JP-15265848
   dialer-proxy: LBCF
   type: trojan
@@ -501,23 +493,7 @@ proxies:
   password: ND91608427
   udp: true
   sni: relaxing-bluebird.rooster465.autos
-- name: 🇯🇵DP vmess-JP-15261861
-  dialer-proxy: LBCF
-  type: vmess
-  server: cindy50.ceoiii.com
-  port: 36801
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  servername: ajax.microsoft.com
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-15257070
   dialer-proxy: LBCF
   type: trojan
   server: upright-impala.rooster465.autos
@@ -549,7 +525,7 @@ proxies:
   password: ND91608427
   udp: true
   sni: devoted-heron.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-15257006
   dialer-proxy: LBCF
   type: trojan
   server: sure-humpback.rooster465.autos
@@ -565,6 +541,45 @@ proxies:
   password: ND91608427
   udp: true
   sni: real-werewolf.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256999
+  dialer-proxy: LBCF
+  type: trojan
+  server: moral-buzzard.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: moral-buzzard.rooster465.autos
+- name: 🇯🇵DP trojan-JP-15256995
+  dialer-proxy: LBCF
+  type: trojan
+  server: healthy-louse.rooster465.autos
+  port: 443
+  password: ND91608427
+  udp: true
+  sni: healthy-louse.rooster465.autos
+- name: 🇺🇸DP vless-US-15322408
+  dialer-proxy: LBCF
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: 🇺🇸DP vless-US-15321698
+  dialer-proxy: LBCF
+  type: vless
+  server: 147.45.47.43
+  port: 443
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  udp: true
+  network: tcp
+  tls: false
+  sni: ai.sellflow.org
 - name: 🇺🇸DP vless-US-15319794
   dialer-proxy: LBCF
   type: vless
@@ -590,7 +605,7 @@ proxies:
 - name: 🇺🇸DP vless-US-15319438
   dialer-proxy: LBCF
   type: vless
-  server: 104.18.42.98
+  server: www.fbi.gov
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
@@ -744,7 +759,7 @@ proxies:
   type: vmess
   server: US032017.ssgreen.org
   port: 443
-  uuid: 51ca2c43-70e5-4537-b7fd-cd52e24ac2c2
+  uuid: 7132fc21-21b1-46e1-aa59-6ce61e96d0fe
   alterId: 0
   cipher: auto
   tls: true
@@ -843,28 +858,3 @@ proxies:
   network: tcp
   tls: false
   sni: yahoo.com
-- name: 🏳DP vmess-
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇺🇸DP vless-US-15300412
-  dialer-proxy: LBCF
-  type: vless
-  server: 69.46.46.30
-  port: 443
-  uuid: 6e50ed70-fbde-3719-6867-64348d81f276
-  udp: true
-  network: ws
-  tls: true
-  sni: hashish-production-evj7.up.railway.app
-  ws-opts:
-    path: /ws/6e50ed70-fbde-3719-6867-64348d81f276
-    headers:
-      Host: hashish-production-evj7.up.railway.app
