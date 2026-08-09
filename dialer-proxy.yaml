@@ -155,7 +155,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   udp: true
   sni: www.nintendogames.net
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7314090
   dialer-proxy: LBCF
   type: vmess
   server: 149.88.23.207
@@ -228,17 +228,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   dialer-proxy: LBCF
   type: vless
-  server: 172.66.44.97
+  server: 162.159.60.231
   port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi
+    path: /fp=chrome
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-15172392
   dialer-proxy: LBCF
   type: vmess
@@ -255,7 +255,7 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   dialer-proxy: LBCF
   type: vmess
   server: 47.250.135.244
@@ -278,10 +278,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
 - name: 🇯🇵DP vmess-JP-15312683
   dialer-proxy: LBCF
   type: vmess
@@ -404,7 +401,7 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-15301403
   dialer-proxy: LBCF
   type: trojan
   server: oplosgru-c.catcat321.com
@@ -544,7 +541,7 @@ proxies:
   password: ND91608427
   udp: true
   sni: stunning-mite.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇯🇵DP trojan-JP-15257009
   dialer-proxy: LBCF
   type: trojan
   server: devoted-heron.rooster465.autos
@@ -568,7 +565,52 @@ proxies:
   password: ND91608427
   udp: true
   sni: real-werewolf.rooster465.autos
-- name: 🏳DP vmess-
+- name: 🇺🇸DP vless-US-15316311
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.153
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+- name: 🇺🇸DP vless-US-15315047
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.252.19.69
+  port: 443
+  uuid: Tel-NamedZadim
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇺🇸DP vless-US-15314975
+  dialer-proxy: LBCF
+  type: vless
+  server: 172.64.146.153
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+- name: 🇺🇸DP vless-US-15314518
+  dialer-proxy: LBCF
+  type: vless
+  server: 104.168.90.119
+  port: 443
+  uuid: 4fad9600-a7ec-47bd-b791-372c4b4fb792
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.nvidia.com
+- name: 🇺🇸DP vmess-US-15312733
   dialer-proxy: LBCF
   type: vmess
   server: us.klxiaogou.com
@@ -828,49 +870,3 @@ proxies:
   password: ND91608427
   udp: true
   sni: sincere-gelding.rooster465.autos
-- name: 🇺🇸DP trojan-US-15292942
-  dialer-proxy: LBCF
-  type: trojan
-  server: pet-ghost.rooster465.autos
-  port: 443
-  password: ND91608427
-  udp: true
-  sni: pet-ghost.rooster465.autos
-- name: 🇺🇸DP vless-US-15292827
-  dialer-proxy: LBCF
-  type: vless
-  server: soskeynets.up.railway.app
-  port: 443
-  uuid: 04861aa1-36b3-4189-bfff-68b1f92278ac
-  udp: true
-  network: ws
-  tls: true
-  sni: vhbjevcnjenc.up.railway.app
-  ws-opts:
-    path: /ws/04861aa1-36b3-4189-bfff-68b1f92278ac
-    headers:
-      Host: vhbjevcnjenc.up.railway.app
-- name: 🇺🇸DP vless-US-15291883
-  dialer-proxy: LBCF
-  type: vless
-  server: 104.18.42.163
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: download.pusytroller.gq
-- name: 🇺🇸DP vmess-US-15290570
-  dialer-proxy: LBCF
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
