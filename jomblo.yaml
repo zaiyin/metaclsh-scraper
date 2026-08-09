@@ -3,11 +3,23 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /vl/14m2B3TtxW5N85ews?ed=2560
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 2086
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
+    headers:
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
