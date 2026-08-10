@@ -63,7 +63,7 @@ def parse_vmess(uri):
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
-        "interface-name": "phy0-sta0",
+        "interface-name": "eth1",
         "type": "vmess",
         "server": js["add"],
         "port": int(js["port"]),
@@ -134,7 +134,7 @@ def parse_trojan(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "trojan-node"),
-        "interface-name": "eth1",
+        "interface-name": "phy0-sta0",
         "type": "trojan",
         "server": u.hostname,
         "port": int(u.port),
