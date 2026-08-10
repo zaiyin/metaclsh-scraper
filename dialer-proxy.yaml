@@ -87,17 +87,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 188.164.248.72
-  port: 2083
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  server: 104.16.248.48
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: jcxjcnasvip.jcdenas.top
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /
     headers:
-      Host: jcxjcnasvip.jcdenas.top
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -116,14 +116,6 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   udp: true
   sni: www.nintendogames.net
-- name: 🇸🇬DP trojan-SG-14247653
-  interface-name: phy0-sta0
-  type: trojan
-  server: 43.198.209.68
-  port: 41421
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
@@ -195,17 +187,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.4.10
+  port: 2086
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
   udp: true
   network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
 - name: 🇸🇬DP vless-SG-9271
   interface-name: phy0-sta0
   type: vless
@@ -232,6 +223,20 @@ proxies:
   sni: josni.hoyes.cloudns.ch
   ws-opts:
     path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: phy0-sta0
+  type: vless
+  server: 172.66.44.97
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  udp: true
+  network: ws
+  tls: true
+  sni: josni.hoyes.cloudns.ch
+  ws-opts:
+    path: /sg-melbi=512
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-15172392
@@ -265,12 +270,15 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
