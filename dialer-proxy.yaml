@@ -2,7 +2,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 16.176.42.97
+  server: 172.67.69.106
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -26,20 +26,7 @@ proxies:
     path: /Free By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🇸🇬DP vless-SG-15298981
-  interface-name: phy0-sta0
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬DP vless-SG-15293703
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 47.236.106.241
@@ -64,7 +51,7 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 84.247.49.211
   port: 1080
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -87,17 +74,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.28.89
+  server: 172.67.149.60
   port: 443
-  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
+  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
   udp: true
   network: ws
   tls: true
-  sni: workspace.evan00.dpdns.org
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /fp=randomized
+    path: /id-tksi
     headers:
-      Host: workspace.evan00.dpdns.org
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -207,6 +194,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: phy0-sta0
   type: vless
+  server: 104.18.37.228
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: phy0-sta0
+  type: vless
   server: 172.66.44.97
   port: 443
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
@@ -215,23 +216,9 @@ proxies:
   tls: true
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /sg-melbi
+    path: /sg-melbi/mtmvpn---mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn
     headers:
       Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: phy0-sta0
-  type: vless
-  server: 104.17.28.89
-  port: 443
-  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
-  udp: true
-  network: ws
-  tls: true
-  sni: workspace.evan00.dpdns.org
-  ws-opts:
-    path: /fp=randomized
-    headers:
-      Host: workspace.evan00.dpdns.org
 - name: 🇸🇬DP vless-SG-8430
   interface-name: phy0-sta0
   type: vless
@@ -246,6 +233,20 @@ proxies:
     path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-8105
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-15335348
   interface-name: eth1
   type: vmess
@@ -300,8 +301,8 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
