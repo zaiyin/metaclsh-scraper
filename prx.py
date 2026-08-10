@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 # ============================================
 # COUNTRY LIST
 # ============================================
-COUNTRY = ["id", "sg", "my", "jp", "us"]
+COUNTRY = ["id", "sg", "my"]
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
 # ============================================
@@ -63,7 +63,7 @@ def parse_vmess(uri):
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
-        "dialer-proxy": "LBCF",
+        "interface-name": "phy0-sta0",
         "type": "vmess",
         "server": js["add"],
         "port": int(js["port"]),
@@ -99,7 +99,7 @@ def parse_vless(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "vless-node"),
-        "dialer-proxy": "LBCF",
+        "interface-name": "phy0-sta0",
         "type": "vless",
         "server": u.hostname,
         "port": int(u.port),
@@ -134,7 +134,7 @@ def parse_trojan(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "trojan-node"),
-        "dialer-proxy": "LBCF",
+        "interface-name": "eth1",
         "type": "trojan",
         "server": u.hostname,
         "port": int(u.port),
@@ -183,7 +183,7 @@ def parse_ss(uri):
 
         return {
             "name": clean_name(name),
-            "dialer-proxy": "LBCF",
+            "interface-name": "eth1",
             "type": "ss",
             "udp": True,
             "cipher": cipher,
