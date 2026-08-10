@@ -49,7 +49,7 @@ proxies:
   network: tcp
   tls: false
 - name: 🇸🇬DP trojan-SG-15280833
-  interface-name: eth1
+  interface-name: phy0-sta0
   type: trojan
   server: tidy-gelding.rooster465.autos
   port: 443
@@ -109,7 +109,7 @@ proxies:
   tls: false
   sni: www.apple.com
 - name: 🇸🇬DP trojan-SG-14440177
-  interface-name: eth1
+  interface-name: phy0-sta0
   type: trojan
   server: 18.163.180.201
   port: 48738
@@ -117,7 +117,7 @@ proxies:
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP trojan-SG-14247653
-  interface-name: eth1
+  interface-name: phy0-sta0
   type: trojan
   server: 43.198.209.68
   port: 41421
@@ -125,7 +125,7 @@ proxies:
   udp: true
   sni: t.me%2Fripaojiedian
 - name: 🏳DP trojan-
-  interface-name: eth1
+  interface-name: phy0-sta0
   type: trojan
   server: 18.163.120.239
   port: 32434
@@ -133,7 +133,7 @@ proxies:
   udp: true
   sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP trojan-SG-14224629
-  interface-name: eth1
+  interface-name: phy0-sta0
   type: trojan
   server: 18.163.180.201
   port: 6357
@@ -141,7 +141,7 @@ proxies:
   udp: true
   sni: www.nintendogames.net
 - name: 🇸🇬DP vmess-SG-7314090
-  interface-name: phy0-sta0
+  interface-name: eth1
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -152,7 +152,7 @@ proxies:
   udp: true
   network: tcp
 - name: 🇸🇬DP vmess-SG-7297225
-  interface-name: phy0-sta0
+  interface-name: eth1
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -235,7 +235,7 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-15172392
-  interface-name: phy0-sta0
+  interface-name: eth1
   type: vmess
   server: cindy52.ceoiii.com
   port: 36803
@@ -251,7 +251,7 @@ proxies:
       Host: ajax.microsoft.com
   servername: ajax.microsoft.com
 - name: 🇲🇾DP vmess-MY-14164165
-  interface-name: phy0-sta0
+  interface-name: eth1
   type: vmess
   server: 47.250.135.244
   port: 10000
@@ -262,7 +262,7 @@ proxies:
   udp: true
   network: tcp
 - name: 🇲🇾DP vmess-MY-11398419
-  interface-name: phy0-sta0
+  interface-name: eth1
   type: vmess
   server: 47.250.45.234
   port: 8613
