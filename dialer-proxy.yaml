@@ -87,17 +87,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.16.248.48
+  server: 104.17.28.89
   port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
   udp: true
   network: ws
   tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  sni: workspace.evan00.dpdns.org
   ws-opts:
-    path: /
+    path: /fp=randomized
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: workspace.evan00.dpdns.org
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -108,15 +108,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP trojan-SG-14440177
-  interface-name: phy0-sta0
-  type: trojan
-  server: 18.163.180.201
-  port: 48738
-  password: d1960ba9f0f6353353994fa844cf817b
-  udp: true
-  sni: www.nintendogames.net
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-14239969
   interface-name: phy0-sta0
   type: trojan
   server: 18.163.120.239
@@ -187,20 +179,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: phy0-sta0
   type: vless
-  server: 104.21.4.10
-  port: 2086
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-    headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.67.185.178
+  server: 104.18.37.228
   port: 443
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -208,9 +187,23 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.17.111.27
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  network: ws
+  tls: true
+  sni: round-art-52ee.eadfgv.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: round-art-52ee.eadfgv.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   interface-name: phy0-sta0
   type: vless
@@ -228,17 +221,54 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.44.97
+  server: 104.17.28.89
   port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: workspace.evan00.dpdns.org
   ws-opts:
-    path: /sg-melbi=512
+    path: /fp=randomized
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: workspace.evan00.dpdns.org
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.16.72.70
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇲🇾DP vmess-MY-15335348
+  interface-name: eth1
+  type: vmess
+  server: 166.88.35.128
+  port: 27533
+  uuid: ac3e705e-3713-40b0-c0fe-0342c328eed3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ac3e705e
+- name: 🇲🇾DP vless-MY-15335345
+  interface-name: phy0-sta0
+  type: vless
+  server: 136.0.110.35
+  port: 16865
+  uuid: 08d4e275-eb67-4878-949c-79a39e10cca1
+  udp: true
+  network: tcp
+  tls: true
+  sni: 136.0.110.35
 - name: 🇲🇾DP vmess-MY-15172392
   interface-name: eth1
   type: vmess
@@ -270,15 +300,12 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048

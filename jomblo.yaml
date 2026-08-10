@@ -11,18 +11,30 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2086
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  port: 443
+  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
+    path: /fp=randomized
     headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
+      Host: workspace.evan00.dpdns.org
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: round-art-52ee.eadfgv.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -39,11 +51,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi=512
+    path: /fp=randomized
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: workspace.evan00.dpdns.org
