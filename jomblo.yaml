@@ -14,15 +14,15 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  port: 2083
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: jcxjcnasvip.jcdenas.top
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
