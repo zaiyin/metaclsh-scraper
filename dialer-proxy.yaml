@@ -26,7 +26,7 @@ proxies:
     path: /Free By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15293703
   interface-name: phy0-sta0
   type: vless
   server: 47.236.106.241
@@ -74,17 +74,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.67.149.60
+  server: 172.66.44.97
   port: 443
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -174,24 +174,66 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9271
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.111.27
-  port: 8443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  server: 188.114.97.7
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   udp: true
   network: ws
   tls: true
-  sni: round-art-52ee.eadfgv.workers.dev
+  sni: shy-fog-af06.alvlirm333.workers.dev
   ws-opts:
-    path: /
+    path: /proxyip
     headers:
-      Host: round-art-52ee.eadfgv.workers.dev
+      Host: shy-fog-af06.alvlirm333.workers.dev
 - name: 🇸🇬DP vless-SG-9203
+  interface-name: phy0-sta0
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  udp: true
+  network: ws
+  tls: true
+  sni: josni.hoyes.cloudns.ch
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: phy0-sta0
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.17.171.60
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  udp: true
+  network: ws
+  tls: true
+  sni: vlso6.1d.mom
+  ws-opts:
+    path: /socks5=888:888@hkip.1d.mom:1080
+    headers:
+      Host: vlso6.1d.mom
+- name: 🇸🇬DP vless-SG-8105
   interface-name: phy0-sta0
   type: vless
   server: 104.18.37.228
@@ -202,51 +244,9 @@ proxies:
   tls: true
   sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi#TELEGRAM-PROXY_MTM?ed=512
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  network: ws
-  tls: true
-  sni: josni.hoyes.cloudns.ch
-  ws-opts:
-    path: /sg-melbi/mtmvpn---mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: phy0-sta0
-  type: vless
-  server: 104.16.72.70
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-8105
-  interface-name: phy0-sta0
-  type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-15335348
   interface-name: eth1
   type: vmess
@@ -301,8 +301,8 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false

@@ -15,27 +15,27 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /proxyip
     headers:
-      Host: round-art-52ee.eadfgv.workers.dev
-- name: 🇸🇬 vless-SG-8862
+      Host: shy-fog-af06.alvlirm333.workers.dev
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
@@ -44,18 +44,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi/mtmvpn---mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn
+    path: /sg-melbi
     headers:
       Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
