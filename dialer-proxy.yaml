@@ -1,4 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15349706
+  interface-name: phy0-sta0
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  udp: true
+  network: ws
+  tls: true
+  sni: speed.dulacloud.store
+  ws-opts:
+    path: /dula
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-15348286
   interface-name: phy0-sta0
   type: vless
@@ -8,10 +22,10 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15347106
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.250
+  server: 91.193.58.140
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -49,7 +63,7 @@ proxies:
     path: /Free By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🇸🇬DP vless-SG-15293703
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 47.236.106.241
@@ -89,17 +103,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.150.28
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 172.64.146.211
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /fp
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -126,15 +140,7 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP trojan-SG-14224629
-  interface-name: phy0-sta0
-  type: trojan
-  server: 18.163.180.201
-  port: 6357
-  password: d1960ba9f0f6353353994fa844cf817b
-  udp: true
-  sni: www.nintendogames.net
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -201,7 +207,7 @@ proxies:
   tls: true
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: musiclovers85_musiclovers85?ed=512
+    path: /sg-melbi
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-9203
@@ -221,31 +227,31 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.66.44.97
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP vless-SG-8430
+      Host: josni.hoyes.cloudns.ch
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
-  server: 104.16.151.220
+  server: 172.66.44.97
   port: 443
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: free-7f1.pages.dev
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /
+    path: /ed=2560
     headers:
-      Host: free-7f1.pages.dev
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-8105
   interface-name: phy0-sta0
   type: vless

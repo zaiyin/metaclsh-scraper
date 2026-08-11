@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15349706
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15322510
   type: vless
   server: bug.xcp
@@ -11,6 +23,18 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -32,7 +56,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: musiclovers85_musiclovers85?ed=512
+    path: /sg-melbi
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-9203
@@ -50,27 +74,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: free-7f1.pages.dev
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
