@@ -26,15 +26,27 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: ''
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: josni.hoyes.cloudns.ch
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 2086
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
+    headers:
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
@@ -50,16 +62,28 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
 - name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.fOtOn.dPdNs.oRg
+- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
@@ -68,42 +92,18 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: bazyepc.aminrazavi1384.workers.dev
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: musiclovers85?ed=512
     headers:
-      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
-- name: 🇸🇬 vless-SG-8023
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: josni.hoyes.cloudns.ch

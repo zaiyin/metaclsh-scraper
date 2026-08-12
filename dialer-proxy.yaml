@@ -25,7 +25,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.231
+  server: 91.193.58.140
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -72,6 +72,14 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP trojan-SG-15271334
+  interface-name: phy0-sta0
+  type: trojan
+  server: 18.163.126.92
+  port: 26704
+  password: BxceQaOe
+  udp: true
+  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP ss-SG-15243433
   interface-name: eth1
   type: ss
@@ -103,17 +111,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.53.240
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.66.44.97
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -175,46 +183,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: phy0-sta0
   type: vless
-  server: chat.openai.com
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.21.4.10
+  port: 2086
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
   udp: true
   network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: false
   ws-opts:
-    path: /fp
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
 - name: 🇸🇬DP vless-SG-9271
-  interface-name: phy0-sta0
-  type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  network: ws
-  tls: true
-  sni: josni.hoyes.cloudns.ch
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.64.53.215
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP vless-SG-8862
   interface-name: phy0-sta0
   type: vless
   server: 172.66.44.97
@@ -228,48 +207,62 @@ proxies:
     path: /sg-melbi
     headers:
       Host: josni.hoyes.cloudns.ch
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: phy0-sta0
+  type: vless
+  server: cmcc.cloudflare.seeck.cn
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  network: ws
+  tls: true
+  sni: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: phy0-sta0
+  type: vless
+  server: 162.159.141.147
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.fOtOn.dPdNs.oRg
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.fOtOn.dPdNs.oRg
 - name: 🇸🇬DP vless-SG-8430
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.149.243
-  port: 8443
-  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
+  server: 104.18.37.228
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: baZYepC.AMINRAZAvI1384.WoRkERS.dEv
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
-      Host: bazyepc.aminrazavi1384.workers.dev
+      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-8105
   interface-name: phy0-sta0
   type: vless
-  server: 8.39.125.152
-  port: 8443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  server: 104.18.37.228
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
   tls: true
-  sni: bitter-shadow-4fc5.alvlirm852.workers.dev
+  sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /
+    path: musiclovers85?ed=512
     headers:
-      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
-- name: 🇸🇬DP vless-SG-8023
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.64.53.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-15335348
   interface-name: eth1
   type: vmess
@@ -324,15 +317,12 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
