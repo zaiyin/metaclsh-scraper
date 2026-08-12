@@ -23,18 +23,6 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: ''
-    headers:
-      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -50,27 +38,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -83,18 +59,6 @@ proxies:
     path: /
     headers:
       Host: rAyAn-007.fOtOn.dPdNs.oRg
-- name: 🇸🇬 vless-SG-8430
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -104,6 +68,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: musiclovers85?ed=512
+    path: ''
     headers:
       Host: josni.hoyes.cloudns.ch
