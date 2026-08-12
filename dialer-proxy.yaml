@@ -22,10 +22,10 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.140
+  server: 91.193.58.231
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -63,7 +63,7 @@ proxies:
     path: /Free By Tharuwa (0767597317)
     headers:
       Host: zoom.us
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15293703
   interface-name: phy0-sta0
   type: vless
   server: 47.236.106.241
@@ -103,7 +103,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.146.211
+  server: 172.64.53.240
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -162,16 +162,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-6497875
-  interface-name: phy0-sta0
-  type: vless
-  server: 168.138.166.89
-  port: 8899
-  uuid: 0c9839aa-c64f-4791-9137-420432605987
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.lovelive-anime.jp
 - name: 🇸🇬DP vless-SG-5955479
   interface-name: phy0-sta0
   type: vless
@@ -185,21 +175,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: phy0-sta0
   type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: chat.openai.com
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9271
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.44.97
+  server: 104.18.37.228
   port: 443
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
@@ -213,17 +203,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: phy0-sta0
   type: vless
-  server: one-for-all.levikogjgfdd.ir
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 172.64.53.215
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-8862
   interface-name: phy0-sta0
   type: vless
@@ -238,34 +228,48 @@ proxies:
     path: /sg-melbi
     headers:
       Host: josni.hoyes.cloudns.ch
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-8430
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 172.66.149.243
+  port: 8443
+  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: baZYepC.AMINRAZAvI1384.WoRkERS.dEv
   ws-opts:
-    path: /ed=2560
+    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: bazyepc.aminrazavi1384.workers.dev
 - name: 🇸🇬DP vless-SG-8105
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 8.39.125.152
+  port: 8443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: bitter-shadow-4fc5.alvlirm852.workers.dev
   ws-opts:
-    path: /sg-melbi/mtmvpn---mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn
+    path: /
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
+- name: 🇸🇬DP vless-SG-8023
+  interface-name: phy0-sta0
+  type: vless
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vmess-MY-15335348
   interface-name: eth1
   type: vmess
@@ -320,12 +324,15 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
