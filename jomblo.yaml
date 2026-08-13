@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-15349706
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15322510
   type: vless
   server: bug.xcp
@@ -23,18 +11,6 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: musiclovers85_musiclovers85?ed=512
-    headers:
-      Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -47,27 +23,3 @@ proxies:
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
     headers:
       Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: josni.hoyes.cloudns.ch
