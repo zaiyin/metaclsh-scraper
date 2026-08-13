@@ -10,7 +10,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15363083
   interface-name: phy0-sta0
   type: vless
   server: 178.128.112.70
@@ -46,7 +46,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.250
+  server: 91.193.58.140
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -60,7 +60,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 172.67.69.106
+  server: 16.176.42.97
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -132,16 +132,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 173.245.49.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -155,7 +156,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-14247653
   interface-name: phy0-sta0
   type: trojan
-  server: 95.40.53.193
+  server: 18.167.42.162
   port: 41421
   password: BxceQaOe
   udp: true
@@ -206,17 +207,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: phy0-sta0
   type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.17.171.60
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   udp: true
   network: ws
   tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
+  sni: vlso6.1d.mom
   ws-opts:
-    path: /fp
+    path: /socks5=888:888@hkip.1d.mom:1080
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: vlso6.1d.mom
 - name: 🇸🇬DP vless-SG-9203
   interface-name: phy0-sta0
   type: vless
@@ -234,20 +235,6 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   interface-name: phy0-sta0
   type: vless
-  server: 162.159.141.147
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.fOtOn.dPdNs.oRg
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.fOtOn.dPdNs.oRg
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: phy0-sta0
-  type: vless
   server: 104.18.37.228
   port: 443
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
@@ -256,7 +243,7 @@ proxies:
   tls: true
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: musiclovers85?ed=512
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-15335348
