@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩DP vmess-ID-15382648
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 202.47.89.133
@@ -12,7 +12,14 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
-- name: 🇸🇬DP vmess-SG-15387290
+- name: 🇸🇬DP trojan-SG-15390708
+  interface-name: phy0-sta0
+  type: trojan
+  server: topical-shark.rooster465.autos
+  port: 443
+  password: FH72359861
+  udp: true
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 140.83.57.20
@@ -35,6 +42,7 @@ proxies:
   port: 443
   password: AE62539071
   udp: true
+  sni: integral-quetzal.rooster465.autos
 - name: 🇸🇬DP vmess-SG-15367812
   interface-name: eth1
   type: vmess
@@ -70,7 +78,7 @@ proxies:
     path: /dula
     headers:
       Host: speed.dulacloud.store
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
   server: 91.193.58.140
@@ -159,7 +167,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.66.44.97
+  server: 208.103.161.32
   port: 443
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
@@ -167,14 +175,14 @@ proxies:
   tls: true
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /sg-melbi
+    path: /sg-melbi_/@sil3nt_network
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
-  port: 12972
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -210,20 +218,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
-  interface-name: phy0-sta0
-  type: vless
-  server: 104.17.22.240
-  port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: true
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess

@@ -20,6 +20,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /sg-melbi
+    path: /sg-melbi_/@sil3nt_network
     headers:
       Host: josni.hoyes.cloudns.ch
