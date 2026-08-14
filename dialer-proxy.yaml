@@ -1,4 +1,17 @@
 proxies:
+- name: 🇮🇩DP vmess-ID-15382648
+  interface-name: eth1
+  type: vmess
+  server: 202.47.89.133
+  port: 53548
+  uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /dkfjh222
 - name: 🇸🇬DP trojan-SG-15376667
   interface-name: phy0-sta0
   type: trojan
@@ -53,7 +66,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.57
+  server: 91.193.58.140
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -67,7 +80,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 16.176.42.97
+  server: 172.67.118.45
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -139,17 +152,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: one-for-all.levikogjgfdd.ir
-  port: 443
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+  server: 172.67.215.44
+  port: 2052
+  uuid: 86442a2b-417d-426d-9b42-955573b5c6e4
   udp: true
   network: ws
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  tls: false
   ws-opts:
-    path: /id-tksi?ed=2048
+    path: /eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: ez-bfa272.ezaccess1d90628.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -190,33 +202,19 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
-  server: 104.21.4.10
-  port: 2086
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  server: www.speedtest.net
+  port: 80
+  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
+    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
     headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  network: ws
-  tls: true
-  sni: josni.hoyes.cloudns.ch
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: young-rice-749e.heliy78750.workers.dev
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
@@ -240,4 +238,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
