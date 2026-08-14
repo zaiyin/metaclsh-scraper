@@ -11,6 +11,18 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /id-tksi?ed=2048
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -23,3 +35,15 @@ proxies:
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
     headers:
       Host: muddy-shadow-8905.qara-atayi-1.workers.dev
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: josni.hoyes.cloudns.ch
