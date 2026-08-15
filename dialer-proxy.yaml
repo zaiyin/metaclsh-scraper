@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP vmess-
+- name: 🇮🇩DP vmess-ID-15382648
   interface-name: eth1
   type: vmess
   server: 202.47.89.133
@@ -12,6 +12,20 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15392612
+  interface-name: phy0-sta0
+  type: trojan
+  server: eminent-panther.rooster465.autos
+  port: 443
+  password: FH72359861
+  udp: true
+- name: 🇸🇬DP trojan-SG-15392610
+  interface-name: phy0-sta0
+  type: trojan
+  server: bold-eagle.rooster465.autos
+  port: 443
+  password: FH72359861
+  udp: true
 - name: 🇸🇬DP trojan-SG-15390708
   interface-name: phy0-sta0
   type: trojan
@@ -19,7 +33,7 @@ proxies:
   port: 443
   password: FH72359861
   udp: true
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-15387290
   interface-name: eth1
   type: vmess
   server: 140.83.57.20
@@ -95,7 +109,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 16.176.42.97
+  server: 172.67.69.106
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -119,6 +133,19 @@ proxies:
     path: /Free By Tharuwa (0767597317)
     headers:
       Host: zoom.us
+- name: 🇸🇬DP vless-SG-15298981
+  interface-name: phy0-sta0
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
 - name: 🇸🇬DP vless-SG-15293703
   interface-name: phy0-sta0
   type: vless
@@ -167,22 +194,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 208.103.161.32
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 104.19.35.20
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
   udp: true
   network: ws
   tls: true
-  sni: josni.hoyes.cloudns.ch
+  sni: d39333476.pages.dev
   ws-opts:
-    path: /sg-melbi_/@sil3nt_network
+    path: /pics/forum
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: d39333476.pages.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -196,28 +223,6 @@ proxies:
   password: BxceQaOe
   udp: true
   sni: t.me%2Fripaojiedian
-- name: 🇸🇬DP vmess-SG-7314090
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
