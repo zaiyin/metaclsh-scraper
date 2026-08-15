@@ -11,15 +11,3 @@ proxies:
     path: /
     headers:
       Host: zero.csmaster.ggff.net
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /id-tksi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc

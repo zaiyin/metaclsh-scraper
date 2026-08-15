@@ -57,7 +57,7 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
   servername: sg.11160321.de5.net
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15376667
   interface-name: phy0-sta0
   type: trojan
   server: integral-quetzal.rooster465.autos
@@ -194,17 +194,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 170.114.46.6
+  server: 104.18.37.228
   port: 443
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /id-tksi
+    path: /sg-melbi#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
     headers:
-      Host: support.zoom.us.yxls.eu.cc
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
