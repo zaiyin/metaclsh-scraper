@@ -14,12 +14,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  port: 443
+  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /pics/forum
+    path: /id-tksi
     headers:
-      Host: d39333476.pages.dev
+      Host: support.zoom.us.yxls.eu.cc

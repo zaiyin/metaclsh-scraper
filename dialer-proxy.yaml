@@ -12,6 +12,14 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15396845
+  interface-name: phy0-sta0
+  type: trojan
+  server: 54.254.235.88
+  port: 443
+  password: FH72359861
+  udp: true
+  sni: charming-ox.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15392612
   interface-name: phy0-sta0
   type: trojan
@@ -49,7 +57,7 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
   servername: sg.11160321.de5.net
-- name: 🇸🇬DP trojan-SG-15376667
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: integral-quetzal.rooster465.autos
@@ -95,7 +103,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.140
+  server: 91.193.58.131
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -155,14 +163,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP trojan-SG-15271334
-  interface-name: phy0-sta0
-  type: trojan
-  server: 18.163.126.92
-  port: 26704
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇸🇬DP ss-SG-15243433
   interface-name: eth1
   type: ss
@@ -194,22 +194,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.19.35.20
-  port: 2087
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  server: 170.114.46.6
+  port: 443
+  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
   udp: true
   network: ws
   tls: true
-  sni: d39333476.pages.dev
+  sni: support.zoom.us.yxls.eu.cc
   ws-opts:
-    path: /pics/forum
+    path: /id-tksi
     headers:
-      Host: d39333476.pages.dev
+      Host: support.zoom.us.yxls.eu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
