@@ -20,6 +20,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: musiclovers85?ed=512
+    path: musiclovers85?ed
     headers:
       Host: josni.hoyes.cloudns.ch

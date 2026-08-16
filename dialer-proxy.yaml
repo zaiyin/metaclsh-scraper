@@ -12,14 +12,46 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
-- name: 🏳DP trojan-
+- name: 🇸🇬DP vless-SG-15416361
+  interface-name: phy0-sta0
+  type: vless
+  server: 125.77.20.210
+  port: 13565
+  uuid: 65500794-99b4-0343-bd18-a12453257a2b
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+- name: 🇸🇬DP vless-SG-15416168
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.17.70.206
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  network: ws
+  tls: true
+  sni: shalana.xyz
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
+- name: 🇸🇬DP trojan-SG-15415832
+  interface-name: phy0-sta0
+  type: trojan
+  server: 13.229.94.200
+  port: 443
+  password: AE62539071
+  udp: true
+  sni: massive-terrapin.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15406603
   interface-name: phy0-sta0
   type: trojan
   server: worthy-perch.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-  sni: worthy-perch.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15396845
   interface-name: phy0-sta0
   type: trojan
@@ -65,7 +97,7 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
   servername: sg.11160321.de5.net
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15376667
   interface-name: phy0-sta0
   type: trojan
   server: integral-quetzal.rooster465.autos
@@ -94,20 +126,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇸🇬DP vless-SG-15349706
-  interface-name: phy0-sta0
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  network: ws
-  tls: true
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
@@ -125,7 +143,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 172.67.69.106
+  server: 16.176.42.97
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -149,15 +167,6 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🇸🇬DP vless-SG-15293703
-  interface-name: phy0-sta0
-  type: vless
-  server: 47.236.106.241
-  port: 40480
-  uuid: 0c97c970-41be-47dd-80d6-06c9a5c9c458
-  udp: true
-  network: tcp
-  tls: false
 - name: 🇸🇬DP ss-SG-15243433
   interface-name: eth1
   type: ss
@@ -166,7 +175,7 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 84.247.49.211
   port: 1080
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -176,7 +185,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🇸🇬DP vless-SG-15191862
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 91.192.81.214
@@ -189,7 +198,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.16.89.120
+  server: 104.18.37.228
   port: 443
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
@@ -197,7 +206,7 @@ proxies:
   tls: true
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: musiclovers85?ed=512
+    path: musiclovers85?ed
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-15056567
@@ -210,6 +219,17 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
