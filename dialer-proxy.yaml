@@ -12,6 +12,13 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15406603
+  interface-name: phy0-sta0
+  type: trojan
+  server: worthy-perch.rooster465.autos
+  port: 443
+  password: FH72359861
+  udp: true
 - name: 🇸🇬DP trojan-SG-15396845
   interface-name: phy0-sta0
   type: trojan
@@ -103,7 +110,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15347106
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.140
+  server: 91.193.58.250
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -117,7 +124,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 172.67.69.106
+  server: 16.176.42.97
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -199,10 +206,10 @@ proxies:
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   udp: true
   network: ws
-  tls: true
+  tls: false
   sni: josni.hoyes.cloudns.ch
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /musiclovers85_musiclovers85?ed=512security=tls
     headers:
       Host: josni.hoyes.cloudns.ch
 - name: 🇸🇬DP vless-SG-15056567
@@ -215,14 +222,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP trojan-SG-14247653
-  interface-name: phy0-sta0
-  type: trojan
-  server: 18.167.42.162
-  port: 41421
-  password: BxceQaOe
-  udp: true
-  sni: t.me%2Fripaojiedian
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
@@ -246,7 +245,4 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
