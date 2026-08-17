@@ -14,12 +14,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: musiclovers85?ed
+    path: /?ed=2560
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: vms.lifetime37.workers.dev

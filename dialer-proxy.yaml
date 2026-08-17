@@ -12,6 +12,14 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15419759
+  interface-name: phy0-sta0
+  type: trojan
+  server: infinite-anteater.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+  sni: infinite-anteater.rooster465.autos
 - name: 🇸🇬DP vless-SG-15416361
   interface-name: phy0-sta0
   type: vless
@@ -143,7 +151,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15322510
   interface-name: phy0-sta0
   type: vless
-  server: 16.176.42.97
+  server: 172.67.118.45
   port: 443
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
   udp: true
@@ -167,15 +175,7 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🇸🇬DP ss-SG-15243433
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 84.247.49.211
-  port: 1080
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -185,7 +185,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15191862
   interface-name: phy0-sta0
   type: vless
   server: 91.192.81.214
@@ -198,22 +198,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  server: 154.197.75.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: josni.hoyes.cloudns.ch
+  tls: false
   ws-opts:
-    path: musiclovers85?ed
+    path: /?ed=2560
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: vms.lifetime37.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
-  port: 12972
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
