@@ -12,6 +12,45 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15425301
+  interface-name: phy0-sta0
+  type: trojan
+  server: stable-python.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: 🇸🇬DP trojan-SG-15425278
+  interface-name: phy0-sta0
+  type: trojan
+  server: composed-sheep.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+  sni: composed-sheep.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15425271
+  interface-name: phy0-sta0
+  type: trojan
+  server: 47.129.183.20
+  port: 443
+  password: PQ05174892
+  udp: true
+  sni: welcome-monitor.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15423272
+  interface-name: phy0-sta0
+  type: trojan
+  server: 54.169.228.116
+  port: 443
+  password: PQ05174892
+  udp: true
+  sni: amusing-grub.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15423266
+  interface-name: phy0-sta0
+  type: trojan
+  server: 13.212.174.21
+  port: 443
+  password: PQ05174892
+  udp: true
+  sni: fleet-pony.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15421931
   interface-name: phy0-sta0
   type: trojan
@@ -19,7 +58,6 @@ proxies:
   port: 443
   password: PQ05174892
   udp: true
-  sni: intense-monarch.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15421927
   interface-name: phy0-sta0
   type: trojan
@@ -31,7 +69,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15421925
   interface-name: phy0-sta0
   type: trojan
-  server: 47.128.224.11
+  server: vast-werewolf.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
@@ -91,6 +129,7 @@ proxies:
   port: 443
   password: FH72359861
   udp: true
+  sni: worthy-perch.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15396845
   interface-name: phy0-sta0
   type: trojan
@@ -165,81 +204,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇸🇬DP vless-SG-15347106
-  interface-name: phy0-sta0
-  type: vless
-  server: 91.193.58.140
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  tls: true
-  sni: free-server.techsonic.dev
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15322510
-  interface-name: phy0-sta0
-  type: vless
-  server: 16.176.42.97
-  port: 443
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  udp: true
-  network: ws
-  tls: true
-  sni: zero.csmaster.ggff.net
-  ws-opts:
-    path: /
-    headers:
-      Host: zero.csmaster.ggff.net
-- name: 🇸🇬DP vless-SG-15298981
-  interface-name: phy0-sta0
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇮🇳DP vless-IN
-  interface-name: phy0-sta0
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  udp: true
-  network: tcp
-  tls: false
-  sni: deepl.com
-- name: 🇸🇬DP vless-SG-15191862
-  interface-name: phy0-sta0
-  type: vless
-  server: 91.192.81.214
-  port: 443
-  uuid: 607801ac-dbdd-4938-a167-129015d9978e
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15179748
-  interface-name: phy0-sta0
-  type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  network: ws
-  tls: true
-  sni: josni.hoyes.cloudns.ch
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
