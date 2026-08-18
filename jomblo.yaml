@@ -1,13 +1,25 @@
 proxies:
-- name: 🇸🇬 vless-SG-15322510
+- name: 🇸🇬 vless-SG-15435333
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula
+    headers:
+      Host: speed.dulacloud.store
+- name: 🇸🇬 vless-SG-15433855
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  uuid: 49c86212-ae0b-430e-9abb-244e715b533f
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: zero.csmaster.ggff.net
+      Host: paid.sshehi.ggff.net
