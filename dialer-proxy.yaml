@@ -12,6 +12,16 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP vless-SG-15439827
+  interface-name: phy0-sta0
+  type: vless
+  server: 111.119.235.145
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  udp: true
+  network: tcp
+  tls: false
+  sni: tesla.com
 - name: 🇸🇬DP vless-SG-15435333
   interface-name: phy0-sta0
   type: vless
@@ -172,14 +182,13 @@ proxies:
   password: AE62539071
   udp: true
   sni: massive-terrapin.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15406603
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: worthy-perch.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-  sni: worthy-perch.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15396845
   interface-name: phy0-sta0
   type: trojan
@@ -204,24 +213,6 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
   servername: sg.11160321.de5.net
-- name: 🇸🇬DP trojan-SG-15376667
-  interface-name: phy0-sta0
-  type: trojan
-  server: integral-quetzal.rooster465.autos
-  port: 443
-  password: AE62539071
-  udp: true
-  sni: integral-quetzal.rooster465.autos
-- name: 🇸🇬DP vless-SG-15363083
-  interface-name: phy0-sta0
-  type: vless
-  server: 178.128.112.70
-  port: 443
-  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.amazon.com
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
