@@ -81,7 +81,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15425271
   interface-name: phy0-sta0
   type: trojan
-  server: 47.129.183.20
+  server: welcome-monitor.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
@@ -112,7 +112,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15421927
   interface-name: phy0-sta0
   type: trojan
-  server: pleased-albacore.rooster465.autos
+  server: 52.220.98.46
   port: 443
   password: PQ05174892
   udp: true
