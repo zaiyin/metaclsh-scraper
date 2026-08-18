@@ -12,6 +12,22 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15432160
+  interface-name: phy0-sta0
+  type: trojan
+  server: 172.236.133.188
+  port: 52
+  password: fVZMat1g9H
+  udp: true
+  sni: 172.236.133.188
+- name: 🇸🇬DP ss-SG-15430765
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: AKikViE/m8OlVEfjyowo/KEuxifea5hFUDYTloI2SW8=
+  server: 161.118.225.233
+  port: 56927
 - name: 🇸🇬DP trojan-SG-15425301
   interface-name: phy0-sta0
   type: trojan
@@ -103,13 +119,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-15416168
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.70.206
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  server: support.zoom.us
+  port: 80
+  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
   udp: true
   network: ws
-  tls: true
-  sni: shalana.xyz
+  tls: false
   ws-opts:
     path: /shalana
     headers:
@@ -138,27 +153,6 @@ proxies:
   password: FH72359861
   udp: true
   sni: charming-ox.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15392612
-  interface-name: phy0-sta0
-  type: trojan
-  server: eminent-panther.rooster465.autos
-  port: 443
-  password: FH72359861
-  udp: true
-- name: 🇸🇬DP trojan-SG-15392610
-  interface-name: phy0-sta0
-  type: trojan
-  server: bold-eagle.rooster465.autos
-  port: 443
-  password: FH72359861
-  udp: true
-- name: 🇸🇬DP trojan-SG-15390708
-  interface-name: phy0-sta0
-  type: trojan
-  server: topical-shark.rooster465.autos
-  port: 443
-  password: FH72359861
-  udp: true
 - name: 🇸🇬DP vmess-SG-15387290
   interface-name: eth1
   type: vmess
@@ -207,6 +201,20 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
+- name: 🇸🇬DP vless-SG-15322510
+  interface-name: phy0-sta0
+  type: vless
+  server: 172.67.69.106
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  udp: true
+  network: ws
+  tls: true
+  sni: zero.csmaster.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: zero.csmaster.ggff.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess

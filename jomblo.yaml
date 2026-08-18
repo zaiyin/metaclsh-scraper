@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 🇸🇬 vless-SG-15322510
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: zero.csmaster.ggff.net
