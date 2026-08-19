@@ -12,6 +12,13 @@ proxies:
   network: ws
   ws-opts:
     path: /dkfjh222
+- name: 🇸🇬DP trojan-SG-15445686
+  interface-name: phy0-sta0
+  type: trojan
+  server: moved-bass.rooster465.autos
+  port: 443
+  password: EQ30679154
+  udp: true
 - name: 🇸🇬DP trojan-SG-15444495
   interface-name: phy0-sta0
   type: trojan
@@ -87,11 +94,10 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15444323
   interface-name: phy0-sta0
   type: trojan
-  server: 47.129.160.142
+  server: well-goshawk.rooster465.autos
   port: 443
   password: EQ30679154
   udp: true
-  sni: well-goshawk.rooster465.autos
 - name: 🇸🇬DP ss-SG-15441028
   interface-name: eth1
   type: ss
@@ -113,12 +119,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-15435333
   interface-name: phy0-sta0
   type: vless
-  server: 170.114.46.6
-  port: 80
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
+  server: 141.193.213.20
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: speed.dulacloud.store
   ws-opts:
     path: /dula
     headers:
@@ -191,21 +198,6 @@ proxies:
   password: PQ05174892
   udp: true
   sni: amusing-grub.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15423266
-  interface-name: phy0-sta0
-  type: trojan
-  server: 13.212.174.21
-  port: 443
-  password: PQ05174892
-  udp: true
-  sni: fleet-pony.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15421931
-  interface-name: phy0-sta0
-  type: trojan
-  server: intense-monarch.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
