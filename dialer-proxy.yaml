@@ -19,7 +19,6 @@ proxies:
   port: 443
   password: EQ30679154
   udp: true
-  sni: modest-bat.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15448789
   interface-name: phy0-sta0
   type: trojan
@@ -43,6 +42,7 @@ proxies:
   port: 443
   password: EQ30679154
   udp: true
+  sni: moved-bass.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15444495
   interface-name: phy0-sta0
   type: trojan
@@ -118,10 +118,11 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15444323
   interface-name: phy0-sta0
   type: trojan
-  server: well-goshawk.rooster465.autos
+  server: 47.129.160.142
   port: 443
   password: EQ30679154
   udp: true
+  sni: well-goshawk.rooster465.autos
 - name: 🇸🇬DP ss-SG-15441028
   interface-name: eth1
   type: ss
