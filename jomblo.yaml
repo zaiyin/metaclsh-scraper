@@ -1,4 +1,34 @@
 proxies:
+- name: 🇸🇬 vmess-SG-15457567
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
+    headers:
+      Host: willing-relative-las-legislative.trycloudflare.com
+  servername: willing-relative-las-legislative.trycloudflare.com
+- name: 🇸🇬 vmess-SG-15457566
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
+    headers:
+      Host: resolution-secretary-presence-amazing.trycloudflare.com
+  servername: resolution-secretary-presence-amazing.trycloudflare.com
 - name: 🇸🇬 vless-SG-15435333
   type: vless
   server: bug.xcp
