@@ -171,7 +171,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15435333
   interface-name: phy0-sta0
   type: vless
-  server: 45.131.7.7
+  server: 141.193.213.20
   port: 8443
   uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   udp: true
@@ -179,7 +179,7 @@ proxies:
   tls: true
   sni: speed.dulacloud.store
   ws-opts:
-    path: /dula?Telegram-WangCai2
+    path: /dula
     headers:
       Host: speed.dulacloud.store
 - name: 🇸🇬DP trojan-SG-15434370

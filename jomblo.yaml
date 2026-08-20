@@ -38,7 +38,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /dula?Telegram-WangCai2
+    path: /dula
     headers:
       Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15433855
