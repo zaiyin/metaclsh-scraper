@@ -1,19 +1,4 @@
 proxies:
-- name: 🇸🇬 vmess-SG-15462326
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
-    headers:
-      Host: brake-substance-shared-dual.trycloudflare.com
-  servername: brake-substance-shared-dual.trycloudflare.com
 - name: 🇸🇬 vmess-SG-15461262
   type: vmess
   server: bug.xcp
@@ -29,21 +14,6 @@ proxies:
     headers:
       Host: ericsson-lab-managed-oem.trycloudflare.com
   servername: ericsson-lab-managed-oem.trycloudflare.com
-- name: 🇸🇬 vmess-SG-15457567
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
-    headers:
-      Host: willing-relative-las-legislative.trycloudflare.com
-  servername: willing-relative-las-legislative.trycloudflare.com
 - name: 🇸🇬 vmess-SG-15457566
   type: vmess
   server: bug.xcp
