@@ -1,4 +1,25 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-15463365
+  interface-name: wwan0
+  type: vmess
+  server: 43.228.126.187
+  port: 47630
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-15463355
+  interface-name: phy0-sta0
+  type: vless
+  server: 163.128.98.110
+  port: 443
+  uuid: f67e149c-e1f4-4162-876b-a34591b8349f
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇸🇬DP vmess-SG-15462326
   interface-name: wwan0
   type: vmess
@@ -88,14 +109,6 @@ proxies:
     headers:
       Host: resolution-secretary-presence-amazing.trycloudflare.com
   servername: resolution-secretary-presence-amazing.trycloudflare.com
-- name: 🇸🇬DP ss-SG-15455186
-  interface-name: wwan0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: jSU7bGKupQ96YFvf
-  server: 139.180.133.90
-  port: 80
 - name: 🇸🇬DP trojan-SG-15448790
   interface-name: phy0-sta0
   type: trojan
@@ -207,24 +220,6 @@ proxies:
   password: EQ30679154
   udp: true
   sni: well-goshawk.rooster465.autos
-- name: 🇸🇬DP ss-SG-15441028
-  interface-name: wwan0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: LYuXPKlNF1V2jY/UWxFA8wrIRzwPeCLkqqk/6y12TK8=
-  server: 168.138.177.12
-  port: 56927
-- name: 🇸🇬DP vless-SG-15439827
-  interface-name: phy0-sta0
-  type: vless
-  server: 111.119.235.145
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  network: tcp
-  tls: false
-  sni: tesla.com
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
@@ -240,8 +235,8 @@ proxies:
   interface-name: wwan0
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false

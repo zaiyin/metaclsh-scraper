@@ -14,21 +14,6 @@ proxies:
     headers:
       Host: brake-substance-shared-dual.trycloudflare.com
   servername: brake-substance-shared-dual.trycloudflare.com
-- name: 🇸🇬 vmess-SG-15461328
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: singapore01.zgjok.com
-  servername: singapore01.zgjok.com
 - name: 🇸🇬 vmess-SG-15461262
   type: vmess
   server: bug.xcp
