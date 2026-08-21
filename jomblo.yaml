@@ -1,4 +1,49 @@
 proxies:
+- name: 🇸🇬 vmess-SG-15462326
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
+    headers:
+      Host: brake-substance-shared-dual.trycloudflare.com
+  servername: brake-substance-shared-dual.trycloudflare.com
+- name: 🇸🇬 vmess-SG-15461328
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore01.zgjok.com
+  servername: singapore01.zgjok.com
+- name: 🇸🇬 vmess-SG-15461262
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: f683235c-54b0-4442-bf0d-812d3804946e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
+    headers:
+      Host: ericsson-lab-managed-oem.trycloudflare.com
+  servername: ericsson-lab-managed-oem.trycloudflare.com
 - name: 🇸🇬 vmess-SG-15457567
   type: vmess
   server: bug.xcp
@@ -29,27 +74,3 @@ proxies:
     headers:
       Host: resolution-secretary-presence-amazing.trycloudflare.com
   servername: resolution-secretary-presence-amazing.trycloudflare.com
-- name: 🇸🇬 vless-SG-15435333
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
-- name: 🇸🇬 vless-SG-15433855
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 49c86212-ae0b-430e-9abb-244e715b533f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: paid.sshehi.ggff.net

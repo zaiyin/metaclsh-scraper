@@ -1,4 +1,61 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-15462326
+  interface-name: wwan0
+  type: vmess
+  server: node.socks5.kdns.fr
+  port: 443
+  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
+    headers:
+      Host: brake-substance-shared-dual.trycloudflare.com
+  servername: brake-substance-shared-dual.trycloudflare.com
+- name: 🇸🇬DP vless-SG-15461597
+  interface-name: phy0-sta0
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vmess-SG-15461328
+  interface-name: wwan0
+  type: vmess
+  server: singapore01.zgjok.com
+  port: 443
+  uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: singapore01.zgjok.com
+  servername: singapore01.zgjok.com
+- name: 🇸🇬DP vmess-SG-15461262
+  interface-name: wwan0
+  type: vmess
+  server: node.socks5.kdns.fr
+  port: 443
+  uuid: f683235c-54b0-4442-bf0d-812d3804946e
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
+    headers:
+      Host: ericsson-lab-managed-oem.trycloudflare.com
+  servername: ericsson-lab-managed-oem.trycloudflare.com
 - name: 🇸🇬DP vmess-SG-15457567
   interface-name: wwan0
   type: vmess
@@ -168,49 +225,6 @@ proxies:
   network: tcp
   tls: false
   sni: tesla.com
-- name: 🇸🇬DP vless-SG-15435333
-  interface-name: phy0-sta0
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  network: ws
-  tls: true
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
-- name: 🇸🇬DP trojan-SG-15434370
-  interface-name: phy0-sta0
-  type: trojan
-  server: simple-rodent.rooster465.autos
-  port: 443
-  password: AE62539071
-  udp: true
-- name: 🇸🇬DP vless-SG-15433855
-  interface-name: phy0-sta0
-  type: vless
-  server: paid.sshehi.ggff.net
-  port: 443
-  uuid: 49c86212-ae0b-430e-9abb-244e715b533f
-  udp: true
-  network: ws
-  tls: true
-  sni: aka.ms
-  ws-opts:
-    path: /
-    headers:
-      Host: paid.sshehi.ggff.net
-- name: 🇸🇬DP trojan-SG-15432160
-  interface-name: phy0-sta0
-  type: trojan
-  server: 172.236.133.188
-  port: 52
-  password: fVZMat1g9H
-  udp: true
-  sni: 172.236.133.188
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
@@ -226,8 +240,8 @@ proxies:
   interface-name: wwan0
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
