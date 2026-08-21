@@ -212,14 +212,6 @@ proxies:
   password: EQ30679154
   udp: true
   sni: direct-hawk.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444323
-  interface-name: phy0-sta0
-  type: trojan
-  server: well-goshawk.rooster465.autos
-  port: 443
-  password: EQ30679154
-  udp: true
-  sni: well-goshawk.rooster465.autos
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
