@@ -173,14 +173,6 @@ proxies:
   port: 443
   password: EQ30679154
   udp: true
-- name: 🇸🇬DP trojan-SG-15448789
-  interface-name: phy0-sta0
-  type: trojan
-  server: internal-raccoon.rooster465.autos
-  port: 443
-  password: EQ30679154
-  udp: true
-  sni: internal-raccoon.rooster465.autos
 - name: 🇸🇬DP trojan-SG-15448784
   interface-name: phy0-sta0
   type: trojan
