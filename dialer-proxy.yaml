@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-15472315
+  interface-name: wwan0
+  type: vmess
+  server: 167.150.100.81
+  port: 53267
+  uuid: 0a4e5d12-f804-4991-a3bf-e45dbfcb1201
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /gx5hemjvd8
 - name: 🇸🇬DP trojan-SG-15471289
   interface-name: phy0-sta0
   type: trojan
@@ -180,38 +193,6 @@ proxies:
   password: AE62539071
   udp: true
   sni: elegant-marten.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444489
-  interface-name: phy0-sta0
-  type: trojan
-  server: 13.212.77.228
-  port: 443
-  password: FH72359861
-  udp: true
-  sni: probable-weasel.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444488
-  interface-name: phy0-sta0
-  type: trojan
-  server: 13.250.119.54
-  port: 443
-  password: FH72359861
-  udp: true
-  sni: casual-basilisk.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444486
-  interface-name: phy0-sta0
-  type: trojan
-  server: 47.128.150.245
-  port: 443
-  password: AE62539071
-  udp: true
-  sni: stirred-buck.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444484
-  interface-name: phy0-sta0
-  type: trojan
-  server: 54.169.241.164
-  port: 443
-  password: AE62539071
-  udp: true
-  sni: rested-osprey.rooster465.autos
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
