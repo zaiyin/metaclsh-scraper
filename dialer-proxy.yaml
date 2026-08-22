@@ -1,4 +1,32 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15474928
+  interface-name: phy0-sta0
+  type: vless
+  server: 6ucb-1936he6.qvanta.top
+  port: 443
+  uuid: 6179bb85-fd73-4aa1-a10d-a7c017306c1b
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.bing.com
+- name: 🇸🇬DP vless-SG-15474878
+  interface-name: phy0-sta0
+  type: vless
+  server: yebm-1936hwy.revora.top
+  port: 443
+  uuid: be154d71-04ca-4389-8a89-d14219b25cd7
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.bing.com
+- name: 🇸🇬DP ss-SG-15474058
+  interface-name: wwan0
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Z/c2GxwLzrJ5QmM7b6OT7vd6mCRpsYdlC+pszMgZo90=
+  server: 138.2.105.188
+  port: 56927
 - name: 🇸🇬DP vmess-SG-15472315
   interface-name: wwan0
   type: vmess
@@ -161,38 +189,6 @@ proxies:
   password: EQ30679154
   udp: true
   sni: picked-hamster.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15445686
-  interface-name: phy0-sta0
-  type: trojan
-  server: moved-bass.rooster465.autos
-  port: 443
-  password: EQ30679154
-  udp: true
-  sni: moved-bass.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444495
-  interface-name: phy0-sta0
-  type: trojan
-  server: 47.131.225.150
-  port: 443
-  password: AE62539071
-  udp: true
-  sni: sacred-anemone.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444493
-  interface-name: phy0-sta0
-  type: trojan
-  server: 47.129.7.255
-  port: 443
-  password: FH72359861
-  udp: true
-  sni: stable-racer.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444492
-  interface-name: phy0-sta0
-  type: trojan
-  server: 47.131.229.80
-  port: 443
-  password: AE62539071
-  udp: true
-  sni: elegant-marten.rooster465.autos
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
