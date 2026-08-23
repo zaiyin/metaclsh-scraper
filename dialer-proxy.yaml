@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15479349
+  interface-name: phy0-sta0
+  type: vless
+  server: 163.128.99.49
+  port: 443
+  uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇸🇬DP vless-SG-15474928
   interface-name: phy0-sta0
   type: vless
@@ -166,21 +176,22 @@ proxies:
     headers:
       Host: resolution-secretary-presence-amazing.trycloudflare.com
   servername: resolution-secretary-presence-amazing.trycloudflare.com
-- name: 🇸🇬DP trojan-SG-15448790
+- name: 🇸🇬DP trojan-SG-15445686
   interface-name: phy0-sta0
   type: trojan
-  server: modest-bat.rooster465.autos
+  server: moved-bass.rooster465.autos
   port: 443
   password: EQ30679154
   udp: true
-- name: 🇸🇬DP trojan-SG-15448784
+  sni: moved-bass.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15444493
   interface-name: phy0-sta0
   type: trojan
-  server: 18.143.129.104
+  server: 47.129.7.255
   port: 443
-  password: EQ30679154
+  password: FH72359861
   udp: true
-  sni: picked-hamster.rooster465.autos
+  sni: stable-racer.rooster465.autos
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
@@ -196,8 +207,8 @@ proxies:
   interface-name: wwan0
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
