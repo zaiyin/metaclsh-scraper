@@ -1,4 +1,20 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-15481695
+  interface-name: wwan0
+  type: vmess
+  server: Aim7HqTuvNOofcsx.v.3dns.vip
+  port: 443
+  uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: Aim7HqTuvNOofcsx.v.3dns.vip
+  servername: Aim7HqTuvNOofcsx.v.3dns.vip
 - name: 🇸🇬DP vless-SG-15479349
   interface-name: phy0-sta0
   type: vless
@@ -144,54 +160,6 @@ proxies:
     headers:
       Host: ericsson-lab-managed-oem.trycloudflare.com
   servername: ericsson-lab-managed-oem.trycloudflare.com
-- name: 🇸🇬DP vmess-SG-15457567
-  interface-name: wwan0
-  type: vmess
-  server: node.socks5.kdns.fr
-  port: 443
-  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
-    headers:
-      Host: willing-relative-las-legislative.trycloudflare.com
-  servername: willing-relative-las-legislative.trycloudflare.com
-- name: 🇸🇬DP vmess-SG-15457566
-  interface-name: wwan0
-  type: vmess
-  server: node.socks5.kdns.fr
-  port: 443
-  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
-    headers:
-      Host: resolution-secretary-presence-amazing.trycloudflare.com
-  servername: resolution-secretary-presence-amazing.trycloudflare.com
-- name: 🇸🇬DP trojan-SG-15445686
-  interface-name: phy0-sta0
-  type: trojan
-  server: moved-bass.rooster465.autos
-  port: 443
-  password: EQ30679154
-  udp: true
-  sni: moved-bass.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15444493
-  interface-name: phy0-sta0
-  type: trojan
-  server: 47.129.7.255
-  port: 443
-  password: FH72359861
-  udp: true
-  sni: stable-racer.rooster465.autos
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: wwan0
   type: vmess
@@ -207,8 +175,8 @@ proxies:
   interface-name: wwan0
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
