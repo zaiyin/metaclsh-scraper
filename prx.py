@@ -63,7 +63,7 @@ def parse_vmess(uri):
 
     proxy = {
         "name": clean_name(js.get("ps", "vmess-node")),
-        "interface-name": "wwan0",
+        "interface-name": "eth1",
         "type": "vmess",
         "server": js["add"],
         "port": int(js["port"]),
@@ -183,7 +183,7 @@ def parse_ss(uri):
 
         return {
             "name": clean_name(name),
-            "interface-name": "wwan0",
+            "interface-name": "eth1",
             "type": "ss",
             "udp": True,
             "cipher": cipher,
