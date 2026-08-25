@@ -17,12 +17,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: vms.lifetime11.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
