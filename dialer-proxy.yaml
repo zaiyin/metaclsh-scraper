@@ -63,47 +63,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vless-SG-15474928
-  interface-name: phy0-sta0
-  type: vless
-  server: 6ucb-1936he6.qvanta.top
-  port: 443
-  uuid: 6179bb85-fd73-4aa1-a10d-a7c017306c1b
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.bing.com
-- name: 🇸🇬DP vless-SG-15474878
-  interface-name: phy0-sta0
-  type: vless
-  server: yebm-1936hwy.revora.top
-  port: 443
-  uuid: be154d71-04ca-4389-8a89-d14219b25cd7
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.bing.com
-- name: 🇸🇬DP ss-SG-15474058
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Z/c2GxwLzrJ5QmM7b6OT7vd6mCRpsYdlC+pszMgZo90=
-  server: 138.2.105.188
-  port: 56927
-- name: 🇸🇬DP vmess-SG-15472315
-  interface-name: eth1
-  type: vmess
-  server: 167.150.100.81
-  port: 53267
-  uuid: 0a4e5d12-f804-4991-a3bf-e45dbfcb1201
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /gx5hemjvd8
 - name: 🇸🇬DP vmess-SG-15463365
   interface-name: eth1
   type: vmess
@@ -124,6 +83,79 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP vmess-SG-15387290
+  interface-name: eth1
+  type: vmess
+  server: 140.83.57.20
+  port: 13118
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg.11160321.de5.net
+  servername: sg.11160321.de5.net
+- name: 🇸🇬DP vless-SG-15363083
+  interface-name: phy0-sta0
+  type: vless
+  server: 178.128.112.70
+  port: 443
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amazon.com
+- name: 🇸🇬DP vless-SG-15322510
+  interface-name: phy0-sta0
+  type: vless
+  server: 16.176.42.97
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  udp: true
+  network: ws
+  tls: true
+  sni: zero.csmaster.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: zero.csmaster.ggff.net
+- name: 🇮🇳DP vless-IN
+  interface-name: phy0-sta0
+  type: vless
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  udp: true
+  network: tcp
+  tls: false
+  sni: deepl.com
+- name: 🇸🇬DP vless-SG-15191862
+  interface-name: phy0-sta0
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: phy0-sta0
+  type: vless
+  server: 89.117.112.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime11.workers.dev
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
