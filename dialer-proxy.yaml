@@ -104,6 +104,26 @@ proxies:
   network: ws
   ws-opts:
     path: /gx5hemjvd8
+- name: 🇸🇬DP vmess-SG-15463365
+  interface-name: eth1
+  type: vmess
+  server: 43.228.126.187
+  port: 47630
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-15461597
+  interface-name: phy0-sta0
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  network: tcp
+  tls: false
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
