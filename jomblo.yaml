@@ -14,15 +14,3 @@ proxies:
     headers:
       Host: Aim7HqTuvNOofcsx.v.3dns.vip
   servername: Aim7HqTuvNOofcsx.v.3dns.vip
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
