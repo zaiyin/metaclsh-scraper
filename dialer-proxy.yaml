@@ -74,17 +74,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-15463365
-  interface-name: eth1
-  type: vmess
-  server: 43.228.126.187
-  port: 47630
-  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇸🇬DP vless-SG-15461597
   interface-name: phy0-sta0
   type: vless
@@ -154,6 +143,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: phy0-sta0
+  type: vless
+  server: 188.114.98.0
+  port: 80
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+  udp: true
+  network: ws
+  tls: false
+  sni: worker3.ragiki7564.workers.dev
+  ws-opts:
+    path: '%2FCkgzR7qmHg0TxS4D'
+    headers:
+      Host: worker3.ragiki7564.workers.dev
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan

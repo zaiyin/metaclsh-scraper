@@ -14,3 +14,15 @@ proxies:
     headers:
       Host: Aim7HqTuvNOofcsx.v.3dns.vip
   servername: Aim7HqTuvNOofcsx.v.3dns.vip
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: '%2FCkgzR7qmHg0TxS4D'
+    headers:
+      Host: worker3.ragiki7564.workers.dev
