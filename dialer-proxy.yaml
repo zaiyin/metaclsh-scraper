@@ -1,1 +1,190 @@
-proxies: []
+proxies:
+- name: 🇸🇬DP vmess-SG-15510543
+  interface-name: eth1
+  type: vmess
+  server: 188.114.97.3
+  port: 443
+  uuid: a04c5cd0-fef7-4d85-8901-ae3163889c54
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-new.vpnjatim.eu.cc
+  servername: sg-new.vpnjatim.eu.cc
+- name: 🇸🇬DP vless-SG-15507978
+  interface-name: phy0-sta0
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  udp: true
+  network: tcp
+  tls: false
+  sni: sg2-8sb.6121999.dpdns.org
+- name: 🇸🇬DP vmess-SG-15504266
+  interface-name: eth1
+  type: vmess
+  server: 213.35.103.177
+  port: 53386
+  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-15463365
+  interface-name: eth1
+  type: vmess
+  server: 43.228.126.187
+  port: 47630
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-15461597
+  interface-name: phy0-sta0
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vmess-SG-15387290
+  interface-name: eth1
+  type: vmess
+  server: 140.83.57.20
+  port: 13118
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg.11160321.de5.net
+  servername: sg.11160321.de5.net
+- name: 🇸🇬DP vless-SG-15363083
+  interface-name: phy0-sta0
+  type: vless
+  server: 178.128.112.70
+  port: 443
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amazon.com
+- name: 🇸🇬DP vless-SG-15322510
+  interface-name: phy0-sta0
+  type: vless
+  server: 16.176.42.97
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  udp: true
+  network: ws
+  tls: true
+  sni: zero.csmaster.ggff.net
+  ws-opts:
+    path: /
+    headers:
+      Host: zero.csmaster.ggff.net
+- name: 🇸🇬DP ss-SG-15243433
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 84.247.49.211
+  port: 1080
+- name: 🇮🇳DP vless-IN
+  interface-name: phy0-sta0
+  type: vless
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  udp: true
+  network: tcp
+  tls: false
+  sni: deepl.com
+- name: 🇸🇬DP vless-SG-15191862
+  interface-name: phy0-sta0
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: phy0-sta0
+  type: vless
+  server: 188.114.98.0
+  port: 80
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+  udp: true
+  network: ws
+  tls: false
+  sni: worker3.ragiki7564.workers.dev
+  ws-opts:
+    path: /CkgzR7qmHg0TxS4D
+    headers:
+      Host: worker3.ragiki7564.workers.dev
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: phy0-sta0
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇸🇬DP ss-SG-13653597
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  server: mn.qwer-cn.org
+  port: 10934
+- name: 🇲🇾DP trojan-MY-15491061
+  interface-name: phy0-sta0
+  type: trojan
+  server: 47.250.84.25
+  port: 443
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  udp: true
+  sni: moltbot.doctoroyy.net
+- name: 🏳DP vmess-
+  interface-name: eth1
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇲🇾DP vmess-MY-11398419
+  interface-name: eth1
+  type: vmess
+  server: 47.250.45.234
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /arki?ed=2048
