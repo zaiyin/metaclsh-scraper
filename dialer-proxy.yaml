@@ -135,6 +135,41 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🏳DP vless-
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.19.213.131
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  network: ws
+  tls: true
+  sni: wzknb.pages.dev
+  ws-opts:
+    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240fp=chrome
+    headers:
+      Host: wzknb.pages.dev
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: phy0-sta0
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
