@@ -1,4 +1,15 @@
 proxies:
+- name: 🇸🇬DP vmess-SG-15522380
+  interface-name: eth1
+  type: vmess
+  server: x-ui.zxhh.top
+  port: 53386
+  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇸🇬DP vmess-SG-15515916
   interface-name: eth1
   type: vmess
@@ -93,20 +104,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇸🇬DP vless-SG-15322510
-  interface-name: phy0-sta0
-  type: vless
-  server: 16.176.42.97
-  port: 443
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  udp: true
-  network: ws
-  tls: true
-  sni: zero.csmaster.ggff.net
-  ws-opts:
-    path: /
-    headers:
-      Host: zero.csmaster.ggff.net
 - name: 🇸🇬DP ss-SG-15243433
   interface-name: eth1
   type: ss
@@ -135,20 +132,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 104.19.213.131
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  server: mtn.v2plus.ovh
+  port: 80
+  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
   udp: true
   network: ws
-  tls: true
-  sni: wzknb.pages.dev
+  tls: false
+  sni: worker3.wateci1156.workers.dev
   ws-opts:
-    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240fp=chrome
+    path: /yEehdR6POSWwzRXP
     headers:
-      Host: wzknb.pages.dev
+      Host: worker3.wateci1156.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
