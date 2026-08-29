@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15527078
+  interface-name: phy0-sta0
+  type: vless
+  server: 122.248.209.131
+  port: 25436
+  uuid: d64d6845-5da0-42b7-b81e-8263ca49a9d8
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.sony.com
 - name: 🇸🇬DP vmess-SG-15522380
   interface-name: eth1
   type: vmess
@@ -135,17 +145,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: mtn.v2plus.ovh
+  server: 188.114.98.0
   port: 80
-  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
   udp: true
   network: ws
   tls: false
-  sni: worker3.wateci1156.workers.dev
   ws-opts:
-    path: /yEehdR6POSWwzRXP
+    path: /CkgzR7qmHg0TxS4D
     headers:
-      Host: worker3.wateci1156.workers.dev
+      Host: worker3.ragiki7564.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -156,17 +165,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
