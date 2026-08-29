@@ -1,4 +1,44 @@
 proxies:
+- name: 🇸🇬DP vless-SG-15532473
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.169.169.217
+  port: 19149
+  uuid: 2a4a8c73-681c-4c1a-b0c7-f3117f572c59
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.sony.com
+- name: 🇸🇬DP vless-SG-15532159
+  interface-name: phy0-sta0
+  type: vless
+  server: 13.229.44.152
+  port: 34033
+  uuid: b5138354-066a-4e9f-93e3-5bc700eaf89f
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amd.com
+- name: 🇸🇬DP vless-SG-15532142
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.169.200.246
+  port: 41688
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
+- name: 🇸🇬DP vless-SG-15532141
+  interface-name: phy0-sta0
+  type: vless
+  server: 13.214.194.139
+  port: 25193
+  uuid: 65166c4d-a46c-40f9-83cb-ee599f5279cb
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
@@ -108,38 +148,6 @@ proxies:
     headers:
       Host: sg-new.vpnjatim.eu.cc
   servername: sg-new.vpnjatim.eu.cc
-- name: 🇸🇬DP vless-SG-15507978
-  interface-name: phy0-sta0
-  type: vless
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  udp: true
-  network: tcp
-  tls: false
-  sni: sg2-8sb.6121999.dpdns.org
-- name: 🇸🇬DP vmess-SG-15504266
-  interface-name: eth1
-  type: vmess
-  server: 213.35.103.177
-  port: 53386
-  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-15463365
-  interface-name: eth1
-  type: vmess
-  server: 43.228.126.187
-  port: 47630
-  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
