@@ -9,6 +9,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15542478
+  interface-name: phy0-sta0
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  network: ws
+  tls: true
+  sni: shalana.xyz
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
 - name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
@@ -122,7 +136,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: phy0-sta0
   type: vless
   server: 54.169.200.246
@@ -211,17 +225,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇸🇬DP vless-SG-15527078
-  interface-name: phy0-sta0
-  type: vless
-  server: 122.248.209.131
-  port: 25436
-  uuid: d64d6845-5da0-42b7-b81e-8263ca49a9d8
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.sony.com
-- name: 🏳DP trojan-
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
