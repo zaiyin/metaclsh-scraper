@@ -9,6 +9,16 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15540953
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.254.51.144
+  port: 52457
+  uuid: 81853004-816d-40c1-973f-2be269ba8051
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15535598
   interface-name: phy0-sta0
   type: vless
@@ -112,7 +122,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🇸🇬DP vless-SG-15532142
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 54.169.200.246
@@ -211,18 +221,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🇸🇬DP vmess-SG-15522380
-  interface-name: eth1
-  type: vmess
-  server: x-ui.zxhh.top
-  port: 53386
-  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
@@ -241,19 +240,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vmess-MY-11398419
-  interface-name: eth1
-  type: vmess
-  server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki?ed=2048
 - name: 🇲🇾DP vless-MY-8009497
   interface-name: phy0-sta0
   type: vless
