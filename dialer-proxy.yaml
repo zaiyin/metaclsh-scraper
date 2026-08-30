@@ -1,4 +1,97 @@
 proxies:
+- name: 🇮🇩DP vless-ID-15533892
+  interface-name: phy0-sta0
+  type: vless
+  server: 31.56.189.27
+  port: 8765
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  udp: true
+  network: tcp
+  tls: false
+  sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15535598
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  udp: true
+  network: ws
+  tls: true
+  sni: sgdo1.cassanova.biz.id
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sgdo1.cassanova.biz.id
+- name: 🇸🇬DP ss-SG-15534967
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: tzWa1GeUw2EeZpMafadA2SpXowEYBURWjIZn3mrrzEo=
+  server: 168.107.77.111
+  port: 56927
+- name: 🇸🇬DP vmess-SG-15534337
+  interface-name: eth1
+  type: vmess
+  server: 13.250.114.194
+  port: 8443
+  uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-15533664
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.251.9.130
+  port: 24146
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
+- name: 🇸🇬DP vless-SG-15533633
+  interface-name: phy0-sta0
+  type: vless
+  server: 3.1.248.148
+  port: 54489
+  uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.tesla.com
+- name: 🇸🇬DP vless-SG-15533629
+  interface-name: phy0-sta0
+  type: vless
+  server: 56.10.83.247
+  port: 26146
+  uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
+- name: 🇸🇬DP vless-SG-15533625
+  interface-name: phy0-sta0
+  type: vless
+  server: 52.76.84.249
+  port: 12804
+  uuid: d7baca0b-1255-4c1c-9fed-f615a059c9d5
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
+- name: 🇸🇬DP vless-SG-15532917
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.169.160.148
+  port: 41402
+  uuid: 7c36417c-be20-49c5-910e-23f759de1bc9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15532473
   interface-name: phy0-sta0
   type: vless
@@ -39,6 +132,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
+- name: 🇸🇬DP ss-SG-15531006
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: m5LHmfSALidcG/rys3lkmyWVRPeMymkZVm3LbSM4p1g=
+  server: 161.118.215.233
+  port: 56927
 - name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
@@ -121,33 +222,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-15515916
-  interface-name: eth1
-  type: vmess
-  server: x-ui.zxhh.top
-  port: 53386
-  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-15510543
-  interface-name: eth1
-  type: vmess
-  server: 188.114.97.3
-  port: 443
-  uuid: a04c5cd0-fef7-4d85-8901-ae3163889c54
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg-new.vpnjatim.eu.cc
-  servername: sg-new.vpnjatim.eu.cc
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -180,3 +254,17 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
+- name: 🇲🇾DP vless-MY-8009497
+  interface-name: phy0-sta0
+  type: vless
+  server: 149.118.158.90
+  port: 8443
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  udp: true
+  network: ws
+  tls: true
+  sni: eded-52n.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: eded-52n.pages.dev

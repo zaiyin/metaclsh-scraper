@@ -1,16 +1,13 @@
 proxies:
-- name: 🇸🇬 vmess-SG-15510543
-  type: vmess
+- name: 🇲🇾 vless-MY-8009497
+  type: vless
   server: bug.xcp
-  port: 443
-  uuid: a04c5cd0-fef7-4d85-8901-ae3163889c54
-  alterId: 0
-  cipher: auto
-  tls: true
+  port: 8443
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
   network: ws
+  tls: true
   udp: true
   ws-opts:
-    path: /vmess
+    path: /
     headers:
-      Host: sg-new.vpnjatim.eu.cc
-  servername: sg-new.vpnjatim.eu.cc
+      Host: eded-52n.pages.dev
