@@ -9,10 +9,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15550806
+  interface-name: phy0-sta0
+  type: vless
+  server: 139.59.124.172
+  port: 443
+  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
+  udp: true
+  network: tcp
+  tls: true
+  sni: 8.sahanwickramasinghe.me
 - name: 🇸🇬DP vless-SG-15546200
   interface-name: phy0-sta0
   type: vless
-  server: 91.193.58.249
+  server: 91.193.58.250
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -194,26 +204,6 @@ proxies:
   server: 52.76.82.32
   port: 17611
   uuid: ffa3ea5e-d64f-4dab-8d82-f1e7aee3b1c6
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.nvidia.com
-- name: 🇸🇬DP vless-SG-15528624
-  interface-name: phy0-sta0
-  type: vless
-  server: 13.213.249.57
-  port: 52786
-  uuid: dd28ba19-c082-4472-96d8-a5c03d9cbacb
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.nvidia.com
-- name: 🇸🇬DP vless-SG-15528613
-  interface-name: phy0-sta0
-  type: vless
-  server: 13.212.45.128
-  port: 12322
-  uuid: a2d84cff-5a0f-4559-b793-355d363a4738
   udp: true
   network: tcp
   tls: false
