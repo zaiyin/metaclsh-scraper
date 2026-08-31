@@ -9,6 +9,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15546200
+  interface-name: phy0-sta0
+  type: vless
+  server: 91.193.58.249
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  sni: free-server.techsonic.dev
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: 🇸🇬DP vless-SG-15542478
   interface-name: phy0-sta0
   type: vless
@@ -204,27 +218,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nvidia.com
-- name: 🇸🇬DP vmess-SG-15528517
-  interface-name: eth1
-  type: vmess
-  server: x-ui.zxhh.top
-  port: 53386
-  uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vless-SG-15527838
-  interface-name: phy0-sta0
-  type: vless
-  server: 52.77.240.16
-  port: 15562
-  uuid: 302debe4-0cc7-48d1-9433-3242dbb6730a
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.tesla.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -244,6 +237,19 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇲🇾DP vmess-MY-11398419
+  interface-name: eth1
+  type: vmess
+  server: 47.250.45.234
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /arki?ed=2048
 - name: 🇲🇾DP vless-MY-8009497
   interface-name: phy0-sta0
   type: vless
