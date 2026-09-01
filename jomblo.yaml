@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 🇲🇾 vless-MY-8009497
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: eded-52n.pages.dev
