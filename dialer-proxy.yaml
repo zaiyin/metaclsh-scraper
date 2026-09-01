@@ -1,4 +1,17 @@
 proxies:
+- name: 🇮🇩DP vmess-ID-15559950
+  interface-name: eth1
+  type: vmess
+  server: 130.94.93.63
+  port: 14812
+  uuid: 777d0ead-970a-4144-b8aa-e3aaf3a621f6
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /777d0ead
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
@@ -239,8 +252,8 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 8613
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  port: 43063
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   alterId: 0
   cipher: auto
   tls: false
