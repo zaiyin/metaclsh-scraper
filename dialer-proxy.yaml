@@ -105,7 +105,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-15534337
   interface-name: eth1
   type: vmess
-  server: awlix4.pcjxq.digital
+  server: 13.250.114.194
   port: 8443
   uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
   alterId: 0
@@ -119,16 +119,6 @@ proxies:
   server: 56.10.83.247
   port: 26146
   uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532917
-  interface-name: phy0-sta0
-  type: vless
-  server: 54.169.160.148
-  port: 41402
-  uuid: 7c36417c-be20-49c5-910e-23f759de1bc9
   udp: true
   network: tcp
   tls: false
@@ -173,7 +163,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 46.137.202.178
@@ -282,6 +272,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
+- name: 🇸🇬DP ss-SG-15243433
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: XF0klw7870vXn3uQIxe19Q
+  server: 84.247.49.211
+  port: 1080
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -290,6 +288,19 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
   sni: moltbot.doctoroyy.net
+- name: 🇲🇾DP vmess-MY-15335348
+  interface-name: eth1
+  type: vmess
+  server: 166.88.35.128
+  port: 27533
+  uuid: ac3e705e-3713-40b0-c0fe-0342c328eed3
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ac3e705e
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
