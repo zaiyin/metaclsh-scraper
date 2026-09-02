@@ -102,18 +102,10 @@ proxies:
     path: /vless
     headers:
       Host: sgdo1.cassanova.biz.id
-- name: 🇸🇬DP ss-SG-15534967
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: tzWa1GeUw2EeZpMafadA2SpXowEYBURWjIZn3mrrzEo=
-  server: 168.107.77.111
-  port: 56927
 - name: 🇸🇬DP vmess-SG-15534337
   interface-name: eth1
   type: vmess
-  server: 13.250.114.194
+  server: awlix4.pcjxq.digital
   port: 8443
   uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
   alterId: 0
@@ -121,42 +113,12 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-15533664
-  interface-name: phy0-sta0
-  type: vless
-  server: 54.251.9.130
-  port: 24146
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15533633
-  interface-name: phy0-sta0
-  type: vless
-  server: 3.1.248.148
-  port: 54489
-  uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.tesla.com
 - name: 🇸🇬DP vless-SG-15533629
   interface-name: phy0-sta0
   type: vless
   server: 56.10.83.247
   port: 26146
   uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15533625
-  interface-name: phy0-sta0
-  type: vless
-  server: 52.76.84.249
-  port: 12804
-  uuid: d7baca0b-1255-4c1c-9fed-f615a059c9d5
   udp: true
   network: tcp
   tls: false
@@ -211,14 +173,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP ss-SG-15531006
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: m5LHmfSALidcG/rys3lkmyWVRPeMymkZVm3LbSM4p1g=
-  server: 161.118.215.233
-  port: 56927
 - name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
@@ -269,6 +223,65 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
+- name: 🇸🇬DP vless-SG-15507978
+  interface-name: phy0-sta0
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  udp: true
+  network: tcp
+  tls: false
+  sni: sg2-8sb.6121999.dpdns.org
+- name: 🇸🇬DP vless-SG-15461597
+  interface-name: phy0-sta0
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  network: tcp
+  tls: false
+- name: 🇸🇬DP vless-SG-15435333
+  interface-name: phy0-sta0
+  type: vless
+  server: 45.131.6.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  udp: true
+  network: ws
+  tls: true
+  sni: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+- name: 🇸🇬DP vmess-SG-15387290
+  interface-name: eth1
+  type: vmess
+  server: 140.83.57.20
+  port: 13118
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg.11160321.de5.net
+  servername: sg.11160321.de5.net
+- name: 🇸🇬DP vless-SG-15363083
+  interface-name: phy0-sta0
+  type: vless
+  server: 178.128.112.70
+  port: 443
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amazon.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -301,17 +314,3 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
-- name: 🇲🇾DP vless-MY-8009497
-  interface-name: phy0-sta0
-  type: vless
-  server: 149.118.158.90
-  port: 8443
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  udp: true
-  network: ws
-  tls: true
-  sni: eded-52n.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: eded-52n.pages.dev
