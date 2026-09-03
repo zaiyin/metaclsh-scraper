@@ -259,17 +259,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.42.85
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 188.114.97.6
+  port: 443
+  uuid: 0432902e-6604-40cd-bbd0-57ab4e5d909f
   udp: true
   network: ws
-  tls: false
-  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: true
+  sni: bpb-4dc4958b.hxjkcghchv.workers.dev
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: bpb-4dc4958b.hxjkcghchv.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -301,7 +301,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ac3e705e
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
