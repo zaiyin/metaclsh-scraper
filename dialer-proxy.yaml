@@ -30,6 +30,16 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15580698
+  interface-name: phy0-sta0
+  type: vless
+  server: 54.254.241.82
+  port: 53836
+  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15564268
   interface-name: phy0-sta0
   type: vless
@@ -78,7 +88,7 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🇸🇬DP vless-SG-15540953
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 54.254.51.144
@@ -143,7 +153,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532141
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 13.214.194.139
@@ -270,16 +280,6 @@ proxies:
     path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
       Host: bpb-4dc4958b.hxjkcghchv.workers.dev
-- name: 🇸🇬DP vless-SG-15056567
-  interface-name: phy0-sta0
-  type: vless
-  server: 3.0.111.82
-  port: 12972
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.apple.com
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
