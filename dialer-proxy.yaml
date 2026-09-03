@@ -88,7 +88,7 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
   server: 54.254.51.144
@@ -123,16 +123,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-15533629
-  interface-name: phy0-sta0
-  type: vless
-  server: 56.10.83.247
-  port: 26146
-  uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15532159
   interface-name: phy0-sta0
   type: vless
@@ -269,17 +259,27 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0432902e-6604-40cd-bbd0-57ab4e5d909f
+  server: cf.9999669.xyz
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: bpb-4dc4958b.hxjkcghchv.workers.dev
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /fp=chrome
     headers:
-      Host: bpb-4dc4958b.hxjkcghchv.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: phy0-sta0
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
