@@ -280,6 +280,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
+- name: 🇲🇾DP vless-MY-15579649
+  interface-name: phy0-sta0
+  type: vless
+  server: 56.69.159.191
+  port: 53271
+  uuid: e8358eb5-7210-4cf8-982f-68af141b7694
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.tesla.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
