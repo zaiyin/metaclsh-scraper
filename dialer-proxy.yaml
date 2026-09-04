@@ -20,7 +20,7 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🇮🇩DP vless-ID-15533892
+- name: 🇩🇪DP vless-DE
   interface-name: phy0-sta0
   type: vless
   server: 31.56.189.27
@@ -30,6 +30,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15584972
+  interface-name: phy0-sta0
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  network: ws
+  tls: true
+  sni: shalana.xyz
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
 - name: 🇸🇬DP vless-SG-15580698
   interface-name: phy0-sta0
   type: vless
@@ -60,20 +74,6 @@ proxies:
   network: tcp
   tls: true
   sni: 8.sahanwickramasinghe.me
-- name: 🇸🇬DP vless-SG-15546200
-  interface-name: phy0-sta0
-  type: vless
-  server: 91.193.58.136
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  tls: true
-  sni: free-server.techsonic.dev
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
 - name: 🇸🇬DP vless-SG-15542478
   interface-name: phy0-sta0
   type: vless
@@ -212,15 +212,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🇸🇬DP ss-SG-15243433
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 84.247.49.211
-  port: 1080
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -243,16 +235,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 188.114.97.6
+  server: mtn.v2plus.ovh
   port: 80
-  uuid: 33ebe52d-cd35-4d0f-a3e9-14adb7ff1ff4
+  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
   udp: true
   network: ws
   tls: false
+  sni: worker3.wateci1156.workers.dev
   ws-opts:
-    path: /id-tksi
+    path: /yEehdR6POSWwzRXP
     headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+      Host: worker3.wateci1156.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -263,18 +256,10 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP ss-SG-11818509
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -282,7 +267,17 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
+- name: 🇸🇬DP vmess-SG-7297225
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
@@ -293,7 +288,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25

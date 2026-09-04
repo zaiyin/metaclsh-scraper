@@ -3,11 +3,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 80
-  uuid: 33ebe52d-cd35-4d0f-a3e9-14adb7ff1ff4
+  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /id-tksi
+    path: /yEehdR6POSWwzRXP
     headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+      Host: worker3.wateci1156.workers.dev
