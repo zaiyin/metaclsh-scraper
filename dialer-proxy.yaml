@@ -202,22 +202,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vmess-SG-15387290
-  interface-name: eth1
-  type: vmess
-  server: 140.83.57.20
-  port: 13118
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg.11160321.de5.net
-  servername: sg.11160321.de5.net
 - name: 🇸🇬DP vless-SG-15363083
   interface-name: phy0-sta0
   type: vless
@@ -259,17 +243,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: cf.9999669.xyz
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 188.114.97.6
+  port: 80
+  uuid: 33ebe52d-cd35-4d0f-a3e9-14adb7ff1ff4
   udp: true
   network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: false
   ws-opts:
-    path: /fp=chrome
+    path: /id-tksi
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: www.genflix.co.id.r3xxe.eu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -280,6 +263,26 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
+- name: 🇸🇬DP ss-SG-11818509
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  server: 167.150.100.115
+  port: 27755
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
