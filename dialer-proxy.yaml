@@ -123,7 +123,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-15532159
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 13.229.44.152
@@ -163,7 +163,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528613
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 13.212.45.128
@@ -212,7 +212,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amazon.com
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -246,7 +246,7 @@ proxies:
     path: /yEehdR6POSWwzRXP
     headers:
       Host: worker3.wateci1156.workers.dev
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
@@ -259,7 +259,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -267,7 +267,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -278,7 +278,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vless-MY-15579649
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 56.69.159.191
