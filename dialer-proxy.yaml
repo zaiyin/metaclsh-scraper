@@ -123,7 +123,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532159
   interface-name: phy0-sta0
   type: vless
   server: 13.229.44.152
@@ -153,7 +153,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 46.137.202.178
@@ -235,18 +235,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: mtn.v2plus.ovh
-  port: 80
-  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
+  server: 172.64.158.146
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   network: ws
   tls: false
-  sni: worker3.wateci1156.workers.dev
+  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   ws-opts:
-    path: /yEehdR6POSWwzRXP
+    path: /?ed=2560security=tls
     headers:
-      Host: worker3.wateci1156.workers.dev
-- name: 🏳DP vless-
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
@@ -267,7 +267,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -288,7 +288,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP trojan-
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
@@ -309,7 +309,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ac3e705e
-- name: 🇲🇾DP vmess-MY-14164165
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
@@ -324,8 +324,8 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
