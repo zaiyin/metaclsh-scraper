@@ -1,13 +1,25 @@
 proxies:
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 8080
-  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
+    path: /
     headers:
-      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
