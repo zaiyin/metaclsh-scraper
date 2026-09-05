@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 1246e51a-97cd-4d5c-9842-76dd3420bbe2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /id-tksi
-    headers:
-      Host: investor.fb.com.r3xxe.eu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
