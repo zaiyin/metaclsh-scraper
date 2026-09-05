@@ -1,17 +1,4 @@
 proxies:
-- name: 🇮🇩DP vmess-ID-15559950
-  interface-name: eth1
-  type: vmess
-  server: 130.94.93.63
-  port: 14812
-  uuid: 777d0ead-970a-4144-b8aa-e3aaf3a621f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /777d0ead
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
@@ -64,16 +51,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🇸🇬DP vless-SG-15550806
-  interface-name: phy0-sta0
-  type: vless
-  server: 139.59.124.172
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
-  udp: true
-  network: tcp
-  tls: true
-  sni: 8.sahanwickramasinghe.me
 - name: 🇸🇬DP vless-SG-15542478
   interface-name: phy0-sta0
   type: vless
@@ -153,7 +130,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
   server: 46.137.202.178
@@ -173,16 +150,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.nvidia.com
-- name: 🇸🇬DP vless-SG-15527838
-  interface-name: phy0-sta0
-  type: vless
-  server: 52.77.240.16
-  port: 15562
-  uuid: 302debe4-0cc7-48d1-9433-3242dbb6730a
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.tesla.com
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: phy0-sta0
   type: vless
@@ -235,17 +202,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 172.64.158.146
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 188.114.97.6
+  port: 443
+  uuid: 1246e51a-97cd-4d5c-9842-76dd3420bbe2
   udp: true
   network: ws
-  tls: false
-  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: true
+  sni: investor.fb.com.r3xxe.eu.cc
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /id-tksi
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: investor.fb.com.r3xxe.eu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -259,7 +226,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -278,6 +245,32 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP vless-SG-9406
+  interface-name: phy0-sta0
+  type: vless
+  server: 162.159.48.32
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: phy0-sta0
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
+    headers:
+      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
 - name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
