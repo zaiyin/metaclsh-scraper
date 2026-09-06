@@ -1,11 +1,1 @@
-proxies:
-- name: 🇸🇬 trojan-SG-15179748
-  type: trojan
-  server: bug.xcp
-  port: 443
-  password: Telegram_healer_config
-  udp: true
-  ws-opts:
-    path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
-    headers:
-      Host: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
+proxies: []
