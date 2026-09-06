@@ -3,11 +3,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: c148c68d-aba0-44b8-8f93-ded816246e2c
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /us-gllc
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: zaintest.vuclip.com.r3xxe.eu.cc
