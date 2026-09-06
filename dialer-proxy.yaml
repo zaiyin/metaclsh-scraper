@@ -91,20 +91,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🇸🇬DP vless-SG-15542478
-  interface-name: phy0-sta0
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  network: ws
-  tls: true
-  sni: shalana.xyz
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
 - name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
@@ -202,7 +188,7 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 84.247.49.211
   port: 1080
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: phy0-sta0
   type: vless
   server: 5.253.30.99
@@ -225,17 +211,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: phy0-sta0
   type: vless
-  server: 162.159.43.187
-  port: 2086
+  server: 104.18.39.218
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   network: ws
   tls: false
+  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   ws-opts:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
   server: 3.0.111.82
