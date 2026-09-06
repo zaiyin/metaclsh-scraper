@@ -75,20 +75,16 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15535598
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  server: 54.251.9.130
+  port: 24146
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
   udp: true
-  network: ws
-  tls: true
-  sni: sgdo1.cassanova.biz.id
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15532159
   interface-name: phy0-sta0
   type: vless
@@ -196,20 +192,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15179748
+- name: 🇸🇬DP trojan-SG-15179748
   interface-name: phy0-sta0
-  type: vless
-  server: 188.114.97.6
+  type: trojan
+  server: 104.21.83.220
   port: 443
-  uuid: c148c68d-aba0-44b8-8f93-ded816246e2c
+  password: Telegram_healer_config
   udp: true
-  network: ws
-  tls: true
-  sni: zaintest.vuclip.com.r3xxe.eu.cc
-  ws-opts:
-    path: /us-gllc
-    headers:
-      Host: zaintest.vuclip.com.r3xxe.eu.cc
+  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: phy0-sta0
   type: vless
@@ -220,10 +210,10 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -231,6 +221,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
@@ -272,4 +263,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234

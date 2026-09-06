@@ -1,13 +1,11 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
+- name: 🇸🇬 trojan-SG-15179748
+  type: trojan
   server: bug.xcp
   port: 443
-  uuid: c148c68d-aba0-44b8-8f93-ded816246e2c
-  network: ws
-  tls: true
+  password: Telegram_healer_config
   udp: true
   ws-opts:
-    path: /us-gllc
+    path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
     headers:
-      Host: zaintest.vuclip.com.r3xxe.eu.cc
+      Host: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
