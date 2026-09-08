@@ -25,6 +25,16 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15631811
+  interface-name: phy0-sta0
+  type: vless
+  server: 13.212.211.73
+  port: 20221
+  uuid: 9f752e03-411f-4df4-841f-a23c4c43d183
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15619660
   interface-name: phy0-sta0
   type: vless
@@ -59,17 +69,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-15607582
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.71.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  server: 8.sahanwickramasinghe.me
+  port: 443
+  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
   udp: true
-  network: ws
+  network: tcp
   tls: true
-  sni: 8.sahanwickramasinghe.me
-  ws-opts:
-    path: /
-    headers:
-      Host: 8.sahanwickramasinghe.me
+  sni: aka.ms
 - name: 🇸🇬DP vless-SG-15605009
   interface-name: phy0-sta0
   type: vless
@@ -150,7 +156,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532159
   interface-name: phy0-sta0
   type: vless
   server: 13.229.44.152
@@ -210,7 +216,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15461597
   interface-name: phy0-sta0
   type: vless
   server: 134.122.154.210
