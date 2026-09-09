@@ -67,7 +67,7 @@ proxies:
   udp: true
   network: tcp
   tls: true
-  sni: aka.ms
+  sni: www.tiktok.com
 - name: 🇸🇬DP vless-SG-15605009
   interface-name: phy0-sta0
   type: vless
@@ -239,7 +239,4 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
