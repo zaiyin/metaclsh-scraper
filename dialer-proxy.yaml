@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
   server: 104.21.70.21
@@ -7,14 +7,6 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🏳DP ss-
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
-  server: 103.160.63.199
-  port: 31348
 - name: 🇩🇪DP vless-DE
   interface-name: phy0-sta0
   type: vless
@@ -25,7 +17,7 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15631811
   interface-name: phy0-sta0
   type: vless
   server: 13.212.211.73
@@ -66,7 +58,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15607582
   interface-name: phy0-sta0
   type: vless
   server: 8.sahanwickramasinghe.me
@@ -75,7 +67,7 @@ proxies:
   udp: true
   network: tcp
   tls: true
-  sni: www.tiktok.com
+  sni: aka.ms
 - name: 🇸🇬DP vless-SG-15605009
   interface-name: phy0-sta0
   type: vless
@@ -114,7 +106,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
   server: 54.254.51.144
@@ -144,7 +136,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532159
   interface-name: phy0-sta0
   type: vless
   server: 13.229.44.152
@@ -164,7 +156,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
   server: 46.137.202.178
@@ -204,7 +196,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15461597
   interface-name: phy0-sta0
   type: vless
   server: 134.122.154.210
@@ -213,7 +205,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
   server: 56.69.159.191
@@ -246,12 +238,15 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
-  port: 43063
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
   tls: false
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
