@@ -215,7 +215,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP trojan-
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
@@ -246,7 +246,4 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
