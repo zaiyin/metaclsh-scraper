@@ -27,7 +27,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15619660
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: 47.129.185.35
@@ -67,7 +67,7 @@ proxies:
   udp: true
   network: tcp
   tls: true
-  sni: aka.ms
+  sni: zoom.us
 - name: 🇸🇬DP vless-SG-15605009
   interface-name: phy0-sta0
   type: vless
@@ -186,7 +186,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇸🇬DP vless-SG-15507978
+- name: 🏳DP vless-
   interface-name: phy0-sta0
   type: vless
   server: sg2-8sb.6121999.dpdns.org
@@ -205,6 +205,16 @@ proxies:
   udp: true
   network: tcp
   tls: false
+- name: 🇸🇬DP vless-SG-15363083
+  interface-name: phy0-sta0
+  type: vless
+  server: 178.128.112.70
+  port: 443
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amazon.com
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
