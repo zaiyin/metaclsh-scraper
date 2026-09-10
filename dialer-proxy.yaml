@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
   server: 104.21.70.21
@@ -61,7 +61,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15607582
   interface-name: phy0-sta0
   type: vless
-  server: 104.17.71.206
+  server: 104.17.73.206
   port: 8443
   uuid: 542fd687-5160-4f80-9223-56678567dd29
   udp: true
@@ -86,20 +86,6 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🏳DP vless-
-  interface-name: phy0-sta0
-  type: vless
-  server: 149.118.55.234
-  port: 443
-  uuid: 58f7687b-5209-4dcd-a11e-6e4eb2191378
-  udp: true
-  network: ws
-  tls: true
-  sni: www.zoom.com
-  ws-opts:
-    path: /xlordgrim/sg
-    headers:
-      Host: edge.xlordgrim.com
 - name: 🇸🇬DP vless-SG-15580698
   interface-name: phy0-sta0
   type: vless
@@ -190,7 +176,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15507978
   interface-name: phy0-sta0
   type: vless
   server: sg2-8sb.6121999.dpdns.org
@@ -227,6 +213,16 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 84.247.49.211
   port: 1080
+- name: 🇮🇳DP vless-IN
+  interface-name: phy0-sta0
+  type: vless
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  udp: true
+  network: tcp
+  tls: false
+  sni: deepl.com
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
