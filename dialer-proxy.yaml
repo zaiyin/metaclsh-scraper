@@ -70,16 +70,20 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15607582
   interface-name: phy0-sta0
   type: vless
-  server: 8.sahanwickramasinghe.me
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
+  server: 104.17.71.206
+  port: 8443
+  uuid: 542fd687-5160-4f80-9223-56678567dd29
   udp: true
-  network: tcp
+  network: ws
   tls: true
-  sni: aka.ms
+  sni: 8.sahanwickramasinghe.me
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.sahanwickramasinghe.me
 - name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
@@ -120,7 +124,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: phy0-sta0
   type: vless
   server: 54.169.200.246
@@ -130,7 +134,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: phy0-sta0
   type: vless
   server: 46.137.202.178
@@ -231,14 +235,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🏳DP ss-
-  interface-name: eth1
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: phy0-sta0
   type: vless
