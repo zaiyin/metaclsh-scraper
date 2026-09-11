@@ -78,30 +78,6 @@ proxies:
     path: /
     headers:
       Host: 8.sahanwickramasinghe.me
-- name: 🇸🇬DP vless-SG-15605009
-  interface-name: phy0-sta0
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  network: ws
-  tls: true
-  sni: shalana.xyz
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬DP vless-SG-15580698
-  interface-name: phy0-sta0
-  type: vless
-  server: 54.254.241.82
-  port: 53836
-  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15540953
   interface-name: phy0-sta0
   type: vless
@@ -201,16 +177,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15363083
-  interface-name: phy0-sta0
-  type: vless
-  server: 178.128.112.70
-  port: 443
-  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.amazon.com
 - name: 🇸🇬DP ss-SG-15243433
   interface-name: eth1
   type: ss
@@ -239,6 +205,38 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: phy0-sta0
+  type: vless
+  server: 104.19.214.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: phy0-sta0
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇸🇬DP ss-SG-11818509
+  interface-name: eth1
+  type: ss
+  udp: true
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  server: 167.150.100.115
+  port: 27755
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: phy0-sta0
   type: vless
