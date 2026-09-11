@@ -99,7 +99,7 @@ def parse_vless(uri):
 
     proxy = {
         "name": clean_name(u.fragment or "vless-node"),
-        "interface-name": "phy0-sta0",
+        "interface-name": "eth1",
         "type": "vless",
         "server": u.hostname,
         "port": int(u.port),
@@ -183,7 +183,7 @@ def parse_ss(uri):
 
         return {
             "name": clean_name(name),
-            "interface-name": "eth1",
+            "interface-name": "phy0-sta0",
             "type": "ss",
             "udp": True,
             "cipher": cipher,
