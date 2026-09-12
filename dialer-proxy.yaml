@@ -7,14 +7,6 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🇮🇩DP ss-ID-15535497
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
-  server: 103.160.63.199
-  port: 31348
 - name: 🇩🇪DP vless-DE
   interface-name: eth1
   type: vless
@@ -25,6 +17,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15672891
+  interface-name: eth1
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  udp: true
+  network: ws
+  tls: true
+  sni: shalana.xyz
+  ws-opts:
+    path: /shalana
+    headers:
+      Host: shalana.xyz
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -91,6 +97,16 @@ proxies:
     path: /
     headers:
       Host: 8.sahanwickramasinghe.me
+- name: 🇸🇬DP vless-SG-15564268
+  interface-name: eth1
+  type: vless
+  server: 54.251.224.5
+  port: 26017
+  uuid: d318cdac-0033-4b6e-98bf-35116e79c93f
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amd.com
 - name: 🇸🇬DP vless-SG-15540953
   interface-name: eth1
   type: vless
@@ -101,7 +117,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -121,7 +137,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532159
   interface-name: eth1
   type: vless
   server: 13.229.44.152
@@ -131,7 +147,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -180,14 +196,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP ss-SG-15243433
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 84.247.49.211
-  port: 1080
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
@@ -198,7 +206,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🇸🇬DP vless-SG-15191862
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 91.192.81.214
@@ -211,7 +219,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.25.248.101
+  server: 172.64.145.166
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -222,7 +230,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -232,15 +240,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP ss-SG-11818509
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -262,20 +262,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
-  interface-name: eth1
-  type: vless
-  server: 172.64.229.170
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  tls: false
-  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless
@@ -328,4 +314,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
