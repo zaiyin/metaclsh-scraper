@@ -107,17 +107,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🇸🇬DP vless-SG-15540953
-  interface-name: eth1
-  type: vless
-  server: 54.254.51.144
-  port: 52457
-  uuid: 81853004-816d-40c1-973f-2be269ba8051
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -206,7 +196,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15191862
   interface-name: eth1
   type: vless
   server: 91.192.81.214
@@ -219,8 +209,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.145.166
-  port: 2087
+  server: 172.64.52.173
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -262,6 +252,20 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 172.64.52.175
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless
