@@ -25,16 +25,15 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
-- name: 🇸🇬DP vless-SG-15662719
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 91.193.58.250
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  server: support.zoom.us
+  port: 80
+  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
   udp: true
   network: ws
-  tls: true
-  sni: free-server.techsonic.dev
+  tls: false
   ws-opts:
     path: /free-server.techsonic.dev
     headers:
@@ -122,7 +121,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532159
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 13.229.44.152
@@ -132,7 +131,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.amd.com
-- name: 🇸🇬DP vless-SG-15532142
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -209,14 +208,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP trojan-SG-15179748
-  interface-name: phy0-sta0
-  type: trojan
-  server: 188.114.97.3
-  port: 443
-  password: Telegram_healer_config
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: eth1
+  type: vless
+  server: 104.25.248.101
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
-  sni: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -235,7 +240,7 @@ proxies:
   password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
   server: 167.150.100.115
   port: 27755
-- name: 🇸🇬DP vmess-SG-7314090
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -260,16 +265,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 198.71.189.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.229.170
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   network: ws
   tls: false
+  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: vms.lifetime04.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless
@@ -322,7 +328,4 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki
-    headers:
-      Host: 47.250.45.234
-  servername: 47.250.45.234
+    path: /arki?ed=2048
