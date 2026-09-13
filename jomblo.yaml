@@ -14,15 +14,15 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
+  port: 2087
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
+    path: /proxyip=154.3.33.43
     headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
+      Host: mianfei-73q.pages.dev

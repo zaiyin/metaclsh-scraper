@@ -58,7 +58,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15672891
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
+  server: 104.17.70.206
   port: 2096
   uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
   udp: true
@@ -155,16 +155,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15533629
-  interface-name: eth1
-  type: vless
-  server: 56.10.83.247
-  port: 26146
-  uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15532159
   interface-name: eth1
   type: vless
@@ -195,16 +185,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15527838
-  interface-name: eth1
-  type: vless
-  server: 52.77.240.16
-  port: 15562
-  uuid: 302debe4-0cc7-48d1-9433-3242dbb6730a
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.tesla.com
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
@@ -244,20 +224,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15179748
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
+  server: 104.17.148.65
+  port: 2087
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   network: ws
   tls: true
-  sni: akbarian34.j9z65ce2uyks.workers.dev
+  sni: mianfei-73q.pages.dev
   ws-opts:
-    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
+    path: /proxyip=154.3.33.43
     headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
+      Host: mianfei-73q.pages.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -287,6 +267,31 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP vmess-SG-7297225
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-9406
+  interface-name: eth1
+  type: vless
+  server: 104.19.52.183
+  port: 2087
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  network: ws
+  tls: true
+  sni: mianfei-73q.pages.dev
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless
@@ -298,7 +303,7 @@ proxies:
   tls: false
   ws-opts:
     path: /db55c40bbc75
-- name: 🏳DP vless-
+- name: 🇲🇾DP vless-MY-15579649
   interface-name: eth1
   type: vless
   server: 56.69.159.191
@@ -327,7 +332,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vmess-MY-11398419
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
@@ -339,4 +344,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
