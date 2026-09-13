@@ -1,13 +1,28 @@
 proxies:
+- name: 🇸🇬 vmess-SG-15679254
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 4da05f36-7918-488e-b07e-808e4992cee0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: d3cdy6viklzpq1.cloudfront.net
+  servername: d3cdy6viklzpq1.cloudfront.net
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: b19419fa-8009-455b-b059-765e2856883a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: akbarian34.j9z65ce2uyks.workers.dev
