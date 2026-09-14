@@ -14,15 +14,39 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2053
+  port: 443
+  uuid: d713a25e-d96c-4755-94f4-9a0e0cd1ad68
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed
+    headers:
+      Host: bpb-panel-4e2c.sakwra939.workers.dev
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
