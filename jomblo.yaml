@@ -2,11 +2,11 @@ proxies:
 - name: 🇸🇬 vmess-SG-15679254
   type: vmess
   server: bug.xcp
-  port: 443
+  port: 80
   uuid: 4da05f36-7918-488e-b07e-808e4992cee0
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
   udp: true
   ws-opts:
@@ -14,7 +14,19 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
@@ -23,30 +35,30 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d713a25e-d96c-4755-94f4-9a0e0cd1ad68
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed
-    headers:
-      Host: bpb-panel-4e2c.sakwra939.workers.dev
+      Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2087
+  port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
