@@ -29,48 +29,24 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    path: /?ed
     headers:
-      Host: fornewiran.ade-1000.workers.dev
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2096
-  uuid: e6b59d15-364c-4025-899a-84efa291d651
+  port: 8080
+  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
     headers:
-      Host: REd-suRf-2007.MatriSkA.wOrkeRs.DeV
+      Host: netlivpn2950.bbxff.workers.dev
