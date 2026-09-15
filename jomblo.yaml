@@ -1,24 +1,12 @@
 proxies:
-- name: 🇸🇬 vless-SG-15694189
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /static/media/video-chunk.f4v
-    headers:
-      Host: singapore.36109178.xyz
 - name: 🇸🇬 vmess-SG-15679254
   type: vmess
   server: bug.xcp
-  port: 80
+  port: 443
   uuid: 4da05f36-7918-488e-b07e-808e4992cee0
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
   udp: true
   ws-opts:
@@ -26,18 +14,30 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
