@@ -17,7 +17,17 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15704556
+  interface-name: eth1
+  type: vless
+  server: 54.255.121.205
+  port: 43840
+  uuid: f053b140-9673-4ac5-bc8b-587bfd2c8fd8
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.sony.com
+- name: 🇸🇬DP vless-SG-15694189
   interface-name: eth1
   type: vless
   server: 91.228.154.112
@@ -35,11 +45,11 @@ proxies:
   interface-name: eth1
   type: vmess
   server: d3cdy6viklzpq1.cloudfront.net
-  port: 443
+  port: 80
   uuid: 4da05f36-7918-488e-b07e-808e4992cee0
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   udp: true
   network: ws
   ws-opts:
@@ -78,7 +88,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15662719
   interface-name: eth1
   type: vless
-  server: 91.193.58.131
+  server: 91.193.58.15
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -159,7 +169,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🇸🇬DP vless-SG-15191862
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 91.192.81.214
@@ -193,14 +203,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🏳DP ss-
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
@@ -223,24 +225,25 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 172.64.42.85
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.33.59
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.64.52.60
-  port: 2096
+  server: 104.19.215.97
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -280,21 +283,8 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   interface-name: eth1
   type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 104.18.40.152
-  port: 2083
+  server: 104.25.248.101
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
@@ -344,7 +334,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-11398419
   interface-name: eth1
   type: vmess
   server: 47.250.45.234
@@ -356,4 +346,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /arki?ed=2048
+    path: /arki
+    headers:
+      Host: 47.250.45.234
+  servername: 47.250.45.234
