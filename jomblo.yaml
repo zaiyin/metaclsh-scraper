@@ -14,11 +14,11 @@ proxies:
 - name: 🇸🇬 vmess-SG-15679254
   type: vmess
   server: bug.xcp
-  port: 443
+  port: 80
   uuid: 4da05f36-7918-488e-b07e-808e4992cee0
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
   udp: true
   ws-opts:
@@ -29,36 +29,48 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: fornewiran.ade-1000.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 2096
+  uuid: e6b59d15-364c-4025-899a-84efa291d651
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: REd-suRf-2007.MatriSkA.wOrkeRs.DeV
