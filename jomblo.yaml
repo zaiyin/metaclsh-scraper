@@ -26,10 +26,10 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2083
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
@@ -37,8 +37,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-8862
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 443
@@ -48,5 +48,17 @@ proxies:
   udp: true
   ws-opts:
     path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc

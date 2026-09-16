@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP trojan-
+- name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
   server: 104.21.70.21
@@ -7,6 +7,14 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
+- name: 🇮🇩DP ss-ID-15535497
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+  server: 103.160.63.199
+  port: 31348
 - name: 🇩🇪DP vless-DE
   interface-name: eth1
   type: vless
@@ -71,12 +79,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-15678133
   interface-name: eth1
   type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   network: ws
-  tls: true
+  tls: false
   sni: u.srilankangrill.online
   ws-opts:
     path: /
@@ -141,7 +149,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -190,10 +198,10 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.67.118.45
+  server: 172.64.145.93
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -225,7 +233,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -233,7 +241,8 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+  servername: Telegram-i10VPN
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -247,46 +256,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 104.18.40.152
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: 162.159.0.53
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  tls: false
-  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: 104.18.46.46
+  server: 172.64.42.85
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   network: ws
   tls: false
-  sni: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   ws-opts:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬DP vless-SG-8862
+- name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
   server: 172.64.52.60
@@ -300,6 +280,20 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: 104.16.150.7
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  network: ws
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless
@@ -311,7 +305,7 @@ proxies:
   tls: false
   ws-opts:
     path: /db55c40bbc75
-- name: 🏳DP vless-
+- name: 🇲🇾DP vless-MY-15579649
   interface-name: eth1
   type: vless
   server: 56.69.159.191
