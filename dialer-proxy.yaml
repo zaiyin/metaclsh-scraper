@@ -7,6 +7,14 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
+- name: 🇮🇩DP ss-ID-15535497
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+  server: 103.160.63.199
+  port: 31348
 - name: 🇩🇪DP vless-DE
   interface-name: eth1
   type: vless
@@ -30,7 +38,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15694189
   interface-name: eth1
   type: vless
-  server: 91.228.154.112
+  server: 217.60.7.121
   port: 2053
   uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
@@ -60,9 +68,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-15678133
   interface-name: eth1
   type: vless
-  server: 104.16.10.233
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   network: ws
   tls: true
@@ -110,6 +118,14 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP ss-SG-15599469
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
+  server: 139.180.220.175
+  port: 8388
 - name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
@@ -120,7 +136,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -169,7 +185,7 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15191862
   interface-name: eth1
   type: vless
   server: 91.192.81.214
@@ -179,20 +195,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.16.10.199
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: cfvvv-ev1.pages.dev
+  sni: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -228,72 +244,70 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 104.21.33.59
-  port: 443
+  server: 172.64.52.60
+  port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
   sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.70.21
+  port: 8080
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
   udp: true
   network: ws
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: false
+  sni: testmikonim.hydrymhmdamyn7.workers.dev
   ws-opts:
-    path: /
+    path: /OAZko425kNFF0PpQ
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 172.64.52.173
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.63.237
+  port: 2096
+  uuid: 8d82944e-17b9-473f-a456-dec9a6e21471
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: peekconfig.peekconf1.workers.dev
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: peekconfig.peekconf1.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
   server: 188.114.97.6
-  port: 8080
-  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn2950.bbxff.workers.dev
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: eth1
-  type: vless
-  server: 104.25.248.101
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 443
+  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: bazyepc.aminrazavi1384.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
+    headers:
+      Host: bazyepc.aminrazavi1384.workers.dev
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: nameless-moon-7c4d.shafmrhjlos23.workers.dev
+  port: 443
+  uuid: 9e65fe63-b771-c63d-5272-fdd700000000
+  udp: true
+  network: ws
+  tls: true
   ws-opts:
     path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇲🇾DP vless-MY-15662343
   interface-name: eth1
   type: vless

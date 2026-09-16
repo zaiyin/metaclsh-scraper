@@ -26,63 +26,63 @@ proxies:
     headers:
       Host: d3cdy6viklzpq1.cloudfront.net
   servername: d3cdy6viklzpq1.cloudfront.net
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed=2560
+    path: /fp=chrome
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
   port: 8080
-  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    path: /OAZko425kNFF0PpQ
     headers:
-      Host: netlivpn2950.bbxff.workers.dev
-- name: 🇸🇬 vless-SG-8430
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  port: 2096
+  uuid: 8d82944e-17b9-473f-a456-dec9a6e21471
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: peekconfig.peekconf1.workers.dev
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
+    headers:
+      Host: bazyepc.aminrazavi1384.workers.dev
