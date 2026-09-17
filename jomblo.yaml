@@ -29,28 +29,16 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000000
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /lunetnetwork
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9203
+      Host: relay.lunetcloud.ir
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 2087
