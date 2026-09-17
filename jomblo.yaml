@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-15694189
-  type: vless
-  server: bug.xcp
-  port: 2053
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /static/media/video-chunk.f4v
-    headers:
-      Host: singapore.36109178.xyz
 - name: 🇸🇬 vmess-SG-15679254
   type: vmess
   server: bug.xcp
@@ -35,18 +23,6 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
