@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩DP trojan-ID-15558528
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 104.21.70.21
@@ -17,6 +17,20 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15728275
+  interface-name: eth1
+  type: vless
+  server: 104.16.10.233
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  network: ws
+  tls: true
+  sni: u.srilankangrill.online
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🇸🇬DP ss-SG-15722692
   interface-name: phy0-sta0
   type: ss
@@ -233,19 +247,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: Telegram-Leviko_v2ray
-- name: 🇸🇬DP vmess-SG-7297225
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
