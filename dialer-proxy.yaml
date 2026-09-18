@@ -217,17 +217,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.16.10.185
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: cfvvv-ev1.pages.dev
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: cfvvv-ev1.pages.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -241,7 +241,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -249,7 +249,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-i10VPN
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
