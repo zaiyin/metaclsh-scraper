@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15739321
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /ws-cdn
+    headers:
+      Host: sg.hejmx.com
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
