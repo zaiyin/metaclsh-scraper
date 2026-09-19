@@ -15,11 +15,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000000
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /lunetnetwork
+    path: /
     headers:
-      Host: relay.lunetcloud.ir
+      Host: cfvvv-ev1.pages.dev
