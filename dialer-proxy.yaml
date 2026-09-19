@@ -17,6 +17,16 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15737253
+  interface-name: eth1
+  type: vless
+  server: 207.148.118.108
+  port: 443
+  uuid: c840f4a7-85dd-4fda-ad81-e6e1cc7bb3dd
+  udp: true
+  network: grpc
+  tls: false
+  sni: www.canva.com
 - name: 🇸🇬DP vless-SG-15735284
   interface-name: eth1
   type: vless
@@ -41,9 +51,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-15728275
   interface-name: eth1
   type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: 104.16.10.191
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   network: ws
   tls: true
@@ -81,22 +91,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.sony.com
-- name: 🇸🇬DP vmess-SG-15679254
-  interface-name: eth1
-  type: vmess
-  server: d3cdy6viklzpq1.cloudfront.net
-  port: 443
-  uuid: 4da05f36-7918-488e-b07e-808e4992cee0
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: d3cdy6viklzpq1.cloudfront.net
-  servername: d3cdy6viklzpq1.cloudfront.net
 - name: 🇸🇬DP vless-SG-15678133
   interface-name: eth1
   type: vless
@@ -233,17 +227,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.157.52
+  server: 104.17.147.22
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000000
   udp: true
   network: ws
   tls: true
-  sni: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  sni: relay.lunetcloud.ir
   ws-opts:
-    path: /?ed
+    path: /lunetnetwork
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+      Host: relay.lunetcloud.ir
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -254,14 +248,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP ss-SG-11818509
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
 - name: 🇲🇾DP vless-MY-15579649
   interface-name: eth1
   type: vless
