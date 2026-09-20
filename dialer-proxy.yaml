@@ -17,6 +17,16 @@ proxies:
   network: tcp
   tls: false
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15740597
+  interface-name: eth1
+  type: vless
+  server: 206.206.76.75
+  port: 443
+  uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-15739321
   interface-name: eth1
   type: vless
@@ -65,9 +75,9 @@ proxies:
 - name: 🇸🇬DP vless-SG-15728275
   interface-name: eth1
   type: vless
-  server: 104.16.10.191
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   network: ws
   tls: true
@@ -76,7 +86,7 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-15722692
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -125,7 +135,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15662719
   interface-name: eth1
   type: vless
-  server: 91.193.58.131
+  server: 91.193.58.15
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -209,14 +219,6 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
-- name: 🇸🇬DP ss-SG-15243433
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XF0klw7870vXn3uQIxe19Q
-  server: 84.247.49.211
-  port: 1080
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
@@ -230,45 +232,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.16.10.121
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  server: 208.103.161.249
+  port: 80
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
   udp: true
   network: ws
-  tls: true
-  sni: cfvvv-ev1.pages.dev
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: cfvvv-ev1.pages.dev
-- name: 🇸🇬DP vless-SG-15056567
-  interface-name: eth1
-  type: vless
-  server: 3.0.111.82
-  port: 12972
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.apple.com
-- name: 🇸🇬DP ss-SG-11818509
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  server: 167.150.100.115
-  port: 27755
-- name: 🇲🇾DP vless-MY-15579649
-  interface-name: eth1
-  type: vless
-  server: 56.69.159.191
-  port: 53271
-  uuid: e8358eb5-7210-4cf8-982f-68af141b7694
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.tesla.com
+      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan

@@ -14,12 +14,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  port: 80
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
