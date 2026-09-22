@@ -7,7 +7,7 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🇮🇩DP ss-ID-15535497
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -55,7 +55,7 @@ proxies:
   password: 2t7ioVN2zeH8TORMF3lxl8mKAb+1Db7YlFKCQBS424k=
   server: 129.150.59.192
   port: 56927
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15749552
   interface-name: eth1
   type: vless
   server: 217.217.254.126
@@ -75,20 +75,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15739321
-  interface-name: eth1
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
-  udp: true
-  network: ws
-  tls: true
-  sni: sg.hejmx.com
-  ws-opts:
-    path: /ws-cdn
-    headers:
-      Host: sg.hejmx.com
 - name: 🇸🇬DP vless-SG-15735284
   interface-name: eth1
   type: vless
@@ -173,7 +159,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -183,7 +169,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -266,7 +252,7 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
   sni: moltbot.doctoroyy.net
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
