@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15765207
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /78bc8
+    headers:
+      Host: cdn-sg.skyvora.app
 - name: 🇸🇬 vless-SG-15739321
   type: vless
   server: bug.xcp
@@ -23,15 +35,15 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-15298981
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 80
+  uuid: 6aa028bc-08a9-41d1-a397-d60ce65df081
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /?ed
+    path: /shalana
     headers:
-      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
+      Host: shalana.xyz
