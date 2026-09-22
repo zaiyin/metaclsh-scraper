@@ -98,14 +98,6 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.singapure.mygold.stream
-- name: 🇸🇬DP ss-SG-15733421
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: jzbveBTs+YuJotZVNhD1uM6abJDkpkxoV/ZPZTYTaSs=
-  server: 168.107.65.209
-  port: 56927
 - name: 🇸🇬DP vless-SG-15728275
   interface-name: eth1
   type: vless
@@ -177,7 +169,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -232,7 +224,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.218
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -242,17 +234,27 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 195.85.23.45
+  server: chatgpt.com
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   network: ws
   tls: true
-  sni: nb.lovecf.ggff.net
+  sni: powered-by-surena.user68f797c2f3e1b.workers.dev
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: eth1
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
