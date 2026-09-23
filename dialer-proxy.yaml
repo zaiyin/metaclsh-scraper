@@ -27,7 +27,7 @@ proxies:
   network: tcp
   tls: false
   sni: 5.223.74.174
-- name: 🇸🇬DP ss-SG-15775714
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -96,7 +96,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15740597
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -249,17 +249,27 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.18.1.1
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   udp: true
   network: ws
   tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  sni: vlsovip.1d.mom
   ws-opts:
-    path: /
+    path: /socks5=888:888@hkip.1d.mom:1080
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: vlsovip.1d.mom
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: eth1
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
