@@ -27,7 +27,7 @@ proxies:
   network: tcp
   tls: false
   sni: 5.223.74.174
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-15775714
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -78,14 +78,6 @@ proxies:
   password: skynet
   udp: true
   sni: cloud.lakshan.us
-- name: 🇸🇬DP ss-SG-15750248
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2t7ioVN2zeH8TORMF3lxl8mKAb+1Db7YlFKCQBS424k=
-  server: 129.150.59.192
-  port: 56927
 - name: 🇸🇬DP vless-SG-15749552
   interface-name: eth1
   type: vless
@@ -96,7 +88,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15740597
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -165,6 +157,20 @@ proxies:
     path: /shalana
     headers:
       Host: shalana.xyz
+- name: 🇸🇬DP vless-SG-15662719
+  interface-name: eth1
+  type: vless
+  server: 91.193.58.15
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  sni: free-server.techsonic.dev
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: 🇸🇬DP vmess-SG-15612648
   interface-name: eth1
   type: vmess
@@ -239,9 +245,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: hydra.yokkastars.com
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -249,17 +255,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  server: 104.16.150.246
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   network: ws
   tls: true
-  sni: vlsovip.1d.mom
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
+    path: /?ed=2560
     headers:
-      Host: vlsovip.1d.mom
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
