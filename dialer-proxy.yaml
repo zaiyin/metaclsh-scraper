@@ -45,7 +45,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.com
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-15774070
   interface-name: eth1
   type: vmess
   server: 45.32.120.173
@@ -70,14 +70,6 @@ proxies:
     path: /78bc8
     headers:
       Host: cdn-sg.skyvora.app
-- name: 🇸🇬DP trojan-SG-15761713
-  interface-name: phy0-sta0
-  type: trojan
-  server: cloud.lakshan.us
-  port: 119
-  password: skynet
-  udp: true
-  sni: cloud.lakshan.us
 - name: 🇸🇬DP vless-SG-15749552
   interface-name: eth1
   type: vless
@@ -133,18 +125,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vmess-SG-15612648
-  interface-name: eth1
-  type: vmess
-  server: select-sg.ddnskunlun.com
-  port: 9039
-  uuid: 4fa65799-694e-316b-b2d3-30c793777cbf
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -174,7 +155,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15461597
   interface-name: eth1
   type: vless
   server: 134.122.154.210
@@ -191,10 +172,10 @@ proxies:
   password: XF0klw7870vXn3uQIxe19Q
   server: 84.247.49.211
   port: 1080
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.218
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -232,6 +213,28 @@ proxies:
   password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
   server: 167.150.100.115
   port: 27755
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-7297225
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
