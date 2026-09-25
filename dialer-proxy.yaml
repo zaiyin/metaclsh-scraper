@@ -17,6 +17,20 @@ proxies:
   network: grpc
   tls: true
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15792453
+  interface-name: eth1
+  type: vless
+  server: 89.116.250.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  udp: true
+  network: ws
+  tls: true
+  sni: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chrome
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-15775810
   interface-name: eth1
   type: vless
@@ -175,9 +189,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.218
+  server: 5.253.30.99
   port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
   network: tcp
   tls: false
@@ -185,17 +199,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 89.117.112.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.159.45
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: powered-by-surena.configfarsi695fce27aa549.workers.dev
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: vms.lifetime11.workers.dev
-- name: 🏳DP vless-
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -217,17 +232,6 @@ proxies:
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.202
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0

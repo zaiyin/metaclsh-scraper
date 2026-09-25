@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15792453
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chrome
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15765207
   type: vless
   server: bug.xcp
@@ -14,12 +26,12 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: vms.lifetime11.workers.dev
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
