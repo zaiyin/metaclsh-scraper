@@ -31,7 +31,7 @@ proxies:
     path: /dula?Telegram-WangCai2fp=chrome
     headers:
       Host: speed.dulacloud.store
-- name: 🇸🇬DP vless-SG-15775810
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 5.223.74.174
@@ -59,7 +59,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.yahoo.com
-- name: 🇸🇬DP vmess-SG-15774070
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 45.32.120.173
@@ -125,7 +125,7 @@ proxies:
   password: XV4bvaJIWoxl3IYEC1e6W7
   server: 194.233.74.160
   port: 2342
-- name: 🇸🇬DP vless-SG-15662719
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 91.193.58.108
@@ -246,7 +246,6 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
