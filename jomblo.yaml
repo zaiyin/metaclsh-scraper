@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15807563
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /vless-argo
+    headers:
+      Host: aaa.abcai.online
 - name: 🇸🇬 vless-SG-15765207
   type: vless
   server: bug.xcp
