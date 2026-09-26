@@ -15,11 +15,11 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  uuid: b19419fa-8009-455b-b059-765e2856883a
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
     headers:
-      Host: sie704.pages.dev
+      Host: akbarian34.j9z65ce2uyks.workers.dev
