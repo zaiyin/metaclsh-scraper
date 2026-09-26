@@ -17,6 +17,16 @@ proxies:
   network: grpc
   tls: true
   sni: srv-21bac9.vless.monster
+- name: 🇸🇬DP vless-SG-15806336
+  interface-name: eth1
+  type: vless
+  server: 129.150.51.127
+  port: 49289
+  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
+  udp: true
+  network: tcp
+  tls: true
+  sni: www.microsoft.com
 - name: 🇸🇬DP vless-SG-15792453
   interface-name: eth1
   type: vless
@@ -107,14 +117,6 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.singapure.mygold.stream
-- name: 🇸🇬DP ss-SG-15722692
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: XV4bvaJIWoxl3IYEC1e6W7
-  server: 194.233.74.160
-  port: 2342
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -189,9 +191,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.218
+  server: 5.253.30.99
   port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
   network: tcp
   tls: false
