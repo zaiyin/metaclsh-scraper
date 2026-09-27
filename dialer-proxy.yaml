@@ -2,21 +2,19 @@ proxies:
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
-  server: 104.21.70.21
+  server: 104.18.32.87
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 31.56.189.27
-  port: 2087
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+- name: 🇸🇬DP ss-SG-15817011
+  interface-name: phy0-sta0
+  type: ss
   udp: true
-  network: grpc
-  tls: true
-  sni: srv-21bac9.vless.monster
+  cipher: chacha20-ietf-poly1305
+  password: 9epp3o9ng8ej59uv
+  server: 45.128.12.20
+  port: 14249
 - name: 🇸🇬DP vless-SG-15810709
   interface-name: eth1
   type: vless
@@ -75,14 +73,6 @@ proxies:
   network: tcp
   tls: false
   sni: 5.223.74.174
-- name: 🇸🇬DP ss-SG-15775714
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-aes-256-gcm
-  password: 2PIuTAxZjzJxni4kxy/GQ36VWTbRrYzl1fjm0ufTR94=
-  server: 167.150.100.93
-  port: 29824
 - name: 🇸🇬DP vmess-SG-15774070
   interface-name: eth1
   type: vmess
@@ -94,20 +84,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-15765207
-  interface-name: eth1
-  type: vless
-  server: 104.21.8.201
-  port: 2096
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-  udp: true
-  network: ws
-  tls: true
-  sni: cdn-sg.skyvora.app
-  ws-opts:
-    path: /78bc8
-    headers:
-      Host: cdn-sg.skyvora.app
 - name: 🇸🇬DP vless-SG-15749552
   interface-name: eth1
   type: vless
@@ -215,9 +191,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: hydra.yokkastars.com
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -225,17 +201,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  server: 172.64.42.85
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   network: ws
-  tls: true
-  sni: powered-by-surena.user68f797c2f3e1b.workers.dev
+  tls: false
   ws-opts:
-    path: /?ed
+    path: /
     headers:
-      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -246,6 +221,29 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: Telegram-i10VPN
+- name: 🇸🇬DP vmess-SG-7297225
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
