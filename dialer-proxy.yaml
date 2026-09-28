@@ -2,7 +2,7 @@ proxies:
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
-  server: 104.21.70.21
+  server: 104.18.32.87
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
@@ -49,20 +49,6 @@ proxies:
   network: tcp
   tls: true
   sni: www.microsoft.com
-- name: 🇸🇬DP vless-SG-15792453
-  interface-name: eth1
-  type: vless
-  server: 89.116.250.7
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  network: ws
-  tls: true
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula?Telegram-WangCai2fp=chrome
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-15775810
   interface-name: eth1
   type: vless
@@ -191,27 +177,27 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
-  port: 2443
-  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  server: 5.253.28.218
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
-  network: grpc
+  network: tcp
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.26.10.213
+  server: 172.64.159.45
   port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   network: ws
   tls: true
-  sni: edgetunnel-4uw.pages.dev
+  sni: powered-by-surena.configfarsi695fce27aa549.workers.dev
   ws-opts:
-    path: /
+    path: /?ed
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -244,6 +230,34 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP vless-SG-9406
+  interface-name: eth1
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  network: ws
+  tls: false
+  sni: damp-dawn-3a96.alvlirm123.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: damp-dawn-3a96.alvlirm123.workers.dev
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: eth1
+  type: vless
+  server: 172.67.65.53
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  udp: true
+  network: ws
+  tls: true
+  sni: shanxp.dpdns.org
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shanxp.dpdns.org
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
