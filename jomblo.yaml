@@ -1,4 +1,19 @@
 proxies:
+- name: 🇸🇬 vmess-SG-15823488
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: f0b7bbd66aad458aaec0e9acaab768b6
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
 - name: 🇸🇬 vless-SG-15807563
   type: vless
   server: bug.xcp
@@ -23,27 +38,15 @@ proxies:
     path: /?ed
     headers:
       Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
   port: 8080
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
     headers:
-      Host: damp-dawn-3a96.alvlirm123.workers.dev
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shanxp.dpdns.org
+      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
