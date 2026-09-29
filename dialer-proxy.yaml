@@ -7,14 +7,26 @@ proxies:
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🇮🇩DP ss-ID-15535497
-  interface-name: phy0-sta0
-  type: ss
+- name: 🇸🇬DP vless-SG-15832682
+  interface-name: eth1
+  type: vless
+  server: 18.139.227.162
+  port: 28243
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
   udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
-  server: 103.160.63.199
-  port: 31348
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-15831082
+  interface-name: eth1
+  type: vless
+  server: onhit.shalana.xyz
+  port: 443
+  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  udp: true
+  network: tcp
+  tls: true
+  sni: onhit.shalana.xyz
 - name: 🇸🇬DP vmess-SG-15823488
   interface-name: eth1
   type: vmess
@@ -130,7 +142,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15662719
   interface-name: eth1
   type: vless
-  server: 91.193.58.45
+  server: 91.193.58.108
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -141,22 +153,12 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
   port: 24146
   uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532142
-  interface-name: eth1
-  type: vless
-  server: 54.169.200.246
-  port: 41688
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
   udp: true
   network: tcp
   tls: false
@@ -201,7 +203,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.218
+  server: hydra.yokkastars.com
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -211,7 +213,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.159.45
+  server: 172.64.153.213
   port: 443
   uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
@@ -254,33 +256,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
-  interface-name: eth1
-  type: vless
-  server: 172.64.229.2
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: 104.26.11.189
-  port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  udp: true
-  network: ws
-  tls: true
-  sni: shephe.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
 - name: 🇲🇾DP vless-MY-15829030
   interface-name: eth1
   type: vless
@@ -397,6 +372,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
