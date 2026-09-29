@@ -203,11 +203,11 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  server: 5.253.28.240
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
@@ -237,7 +237,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -245,6 +245,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -256,6 +257,19 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇲🇾DP vless-MY-15834144
+  interface-name: eth1
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
 - name: 🇲🇾DP vless-MY-15829030
   interface-name: eth1
   type: vless
@@ -346,7 +360,6 @@ proxies:
   udp: true
   network: ws
   tls: false
-  sni: platform113.halalkhor.info
   ws-opts:
     path: /platform113
     headers:
