@@ -206,11 +206,11 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  server: 5.253.28.240
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
@@ -240,7 +240,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -248,6 +248,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -387,6 +388,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
