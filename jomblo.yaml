@@ -11,30 +11,15 @@ proxies:
     path: /dula?Telegram-WangCai2fp=chrome
     headers:
       Host: speed.dulacloud.store
-- name: 🇸🇬 vmess-SG-15823488
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: f0b7bbd66aad458aaec0e9acaab768b6
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?ed
+    path: /fp=chrome
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+      Host: shanxp.dpdns.org

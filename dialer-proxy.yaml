@@ -2,12 +2,12 @@ proxies:
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
-  server: 104.18.32.87
+  server: 104.21.70.21
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
   sni: id1.nathaya.web.id
-- name: 🏳DP ss-
+- name: 🇮🇩DP ss-ID-15535497
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -15,6 +15,17 @@ proxies:
   password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
   server: 103.160.63.199
   port: 31348
+- name: 🇸🇬DP vless-SG-15845389
+  interface-name: eth1
+  type: vless
+  server: 5.223.41.31
+  port: 80
+  uuid: 70513150-d637-4328-a0dc-1e7732f9f0a8
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - name: 🇸🇬DP vless-SG-15843053
   interface-name: eth1
   type: vless
@@ -80,22 +91,6 @@ proxies:
   network: tcp
   tls: true
   sni: onhit.shalana.xyz
-- name: 🇸🇬DP vmess-SG-15823488
-  interface-name: eth1
-  type: vmess
-  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  port: 443
-  uuid: f0b7bbd66aad458aaec0e9acaab768b6
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
 - name: 🇸🇬DP ss-SG-15817011
   interface-name: phy0-sta0
   type: ss
@@ -104,16 +99,6 @@ proxies:
   password: 9epp3o9ng8ej59uv
   server: 45.128.12.20
   port: 14249
-- name: 🇸🇬DP vless-SG-15806336
-  interface-name: eth1
-  type: vless
-  server: 129.150.51.127
-  port: 34249
-  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
-  udp: true
-  network: tcp
-  tls: true
-  sni: www.microsoft.com
 - name: 🇸🇬DP vless-SG-15775810
   interface-name: eth1
   type: vless
@@ -160,7 +145,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15662719
   interface-name: eth1
   type: vless
-  server: 91.193.58.108
+  server: 91.193.58.255
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
@@ -231,17 +216,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.150.34
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  server: 172.67.65.53
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
   udp: true
   network: ws
   tls: true
-  sni: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  sni: shanxp.dpdns.org
   ws-opts:
-    path: /?ed
+    path: /fp=chrome
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+      Host: shanxp.dpdns.org
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -252,18 +237,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
-  interface-name: eth1
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇲🇾DP vless-MY-15842215
   interface-name: eth1
   type: vless
