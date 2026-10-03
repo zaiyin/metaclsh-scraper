@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- name: 🇸🇬 vmess-SG-15869162
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 2nj8qyoHuZwgCP8J.v.3dns.vip
+  servername: 2nj8qyoHuZwgCP8J.v.3dns.vip
+- name: 🇸🇬 vless-SG-15867082
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chrome
+    headers:
+      Host: speed.dulacloud.store
+- name: 🇸🇬 vless-SG-15842557
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chrome
+    headers:
+      Host: speed.dulacloud.store
