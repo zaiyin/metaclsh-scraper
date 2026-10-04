@@ -20,21 +20,9 @@ proxies:
   port: 8443
   uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /dula?Telegram-WangCai2fp=chrome
-    headers:
-      Host: speed.dulacloud.store
-- name: 🇸🇬 vless-SG-15842557
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /dula?Telegram-WangCai2fp=chrome
+    path: /dula?Telegram-WangCai2fp=chromesecurity=tls
     headers:
       Host: speed.dulacloud.store
