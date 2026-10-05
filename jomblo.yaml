@@ -26,15 +26,15 @@ proxies:
     headers:
       Host: 2nj8qyoHuZwgCP8J.v.3dns.vip
   servername: 2nj8qyoHuZwgCP8J.v.3dns.vip
-- name: 🇸🇬 vless-SG-15179748
+- name: 🇸🇬 vless-SG-15852663
   type: vless
   server: bug.xcp
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  port: 80
+  uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /shalana
     headers:
-      Host: shanxp.dpdns.org
+      Host: onhit.shalana.shop
