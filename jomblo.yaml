@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-15886328
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    headers:
+      Host: wzs.echo.net.eu.org
 - name: 🇸🇬 vmess-SG-15869162
   type: vmess
   server: bug.xcp
@@ -14,3 +26,15 @@ proxies:
     headers:
       Host: 2nj8qyoHuZwgCP8J.v.3dns.vip
   servername: 2nj8qyoHuZwgCP8J.v.3dns.vip
+- name: 🇸🇬 vless-SG-15179748
+  type: vless
+  server: bug.xcp
+  port: 2087
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shanxp.dpdns.org
