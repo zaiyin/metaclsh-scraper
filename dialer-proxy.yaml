@@ -208,7 +208,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 129.150.51.127
-  port: 49289
+  port: 34249
   uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
   udp: true
   network: tcp
@@ -280,11 +280,11 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  server: 5.253.28.240
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🇲🇾DP vless-MY-15842215
@@ -390,7 +390,7 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
   sni: moltbot.doctoroyy.net
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
