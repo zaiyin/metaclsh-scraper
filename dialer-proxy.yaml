@@ -9,30 +9,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.lamer.com.sg
-- name: 🇮🇩DP vmess-ID-15869317
-  interface-name: eth1
-  type: vmess
-  server: 3dTmMsfpAlaqHI7b.v.3dns.vip
-  port: 443
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 3dTmMsfpAlaqHI7b.v.3dns.vip
-  servername: 3dTmMsfpAlaqHI7b.v.3dns.vip
-- name: 🇮🇩DP trojan-ID-15558528
+- name: 🇸🇬DP trojan-SG-15898508
   interface-name: phy0-sta0
   type: trojan
-  server: 104.21.70.21
+  server: inviting-ferret.rooster465.autos
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  password: UX82473651
   udp: true
-  sni: id1.nathaya.web.id
+  sni: inviting-ferret.rooster465.autos
 - name: 🇸🇬DP ss-SG-15890069
   interface-name: phy0-sta0
   type: ss
@@ -80,16 +64,6 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15871995
-  interface-name: eth1
-  type: vless
-  server: 35.185.179.62
-  port: 443
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇸🇬DP trojan-SG-15870720
   interface-name: phy0-sta0
   type: trojan
@@ -114,22 +88,6 @@ proxies:
   password: UX82473651
   udp: true
   sni: glowing-marmoset.rooster465.autos
-- name: 🇸🇬DP vmess-SG-15869162
-  interface-name: eth1
-  type: vmess
-  server: 2nj8qyoHuZwgCP8J.v.3dns.vip
-  port: 443
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 2nj8qyoHuZwgCP8J.v.3dns.vip
-  servername: 2nj8qyoHuZwgCP8J.v.3dns.vip
 - name: 🇸🇬DP vless-SG-15867082
   interface-name: eth1
   type: vless
@@ -237,22 +195,20 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.singapure.mygold.stream
+- name: 🇸🇬DP ss-SG-15599469
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
+  server: 139.180.220.175
+  port: 8388
 - name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
   port: 24146
   uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532142
-  interface-name: eth1
-  type: vless
-  server: 54.169.200.246
-  port: 41688
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
   udp: true
   network: tcp
   tls: false
@@ -287,6 +243,29 @@ proxies:
   network: grpc
   tls: false
   sni: deepl.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: eth1
+  type: vless
+  server: 154.197.64.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime36.workers.dev
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: eth1
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇲🇾DP vless-MY-15842215
   interface-name: eth1
   type: vless
