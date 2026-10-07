@@ -166,7 +166,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 129.150.51.127
-  port: 34249
+  port: 49289
   uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
   udp: true
   network: tcp
@@ -246,16 +246,16 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 154.197.64.30
+  server: 88.216.67.50
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: vms.lifetime05.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless

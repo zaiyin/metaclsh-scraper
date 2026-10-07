@@ -32,6 +32,6 @@ proxies:
   tls: false
   udp: true
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: vms.lifetime05.workers.dev
