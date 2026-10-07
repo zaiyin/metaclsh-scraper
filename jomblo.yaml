@@ -11,15 +11,3 @@ proxies:
     path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
     headers:
       Host: wzs.echo.net.eu.org
-- name: 🇸🇬 vless-SG-15852663
-  type: vless
-  server: bug.xcp
-  port: 80
-  uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: onhit.shalana.shop
