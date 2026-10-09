@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 🇲🇾 vless-MY-5067522
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
