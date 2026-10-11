@@ -115,7 +115,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: ace-liger.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15926690
   interface-name: phy0-sta0
   type: trojan
   server: musical-mouse.rooster465.autos
@@ -153,14 +153,6 @@ proxies:
     path: /xprolk-primeline
     headers:
       Host: primelinelk.me
-- name: 🇸🇬DP ss-SG-15919539
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  server: 54.169.240.70
-  port: 8443
 - name: 🇸🇬DP vless-SG-15915277
   interface-name: eth1
   type: vless
@@ -220,6 +212,14 @@ proxies:
   password: UX82473651
   udp: true
   sni: real-cardinal.rooster465.autos
+- name: 🇸🇬DP trojan-SG-15869369
+  interface-name: phy0-sta0
+  type: trojan
+  server: 18.143.92.167
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: glowing-marmoset.rooster465.autos
 - name: 🇲🇾DP vless-MY-15919315
   interface-name: eth1
   type: vless
@@ -233,19 +233,6 @@ proxies:
     path: /platform101
     headers:
       Host: platform101.halalkhor.info
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 45.195.69.230
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
 - name: 🇲🇾DP vmess-MY-15912327
   interface-name: eth1
   type: vmess
@@ -284,20 +271,6 @@ proxies:
     path: /platform101
     headers:
       Host: platform101.halalkhor.info
-- name: 🇲🇾DP vless-MY-15829028
-  interface-name: eth1
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  network: ws
-  tls: false
-  sni: platform103.halalkhor.info
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
