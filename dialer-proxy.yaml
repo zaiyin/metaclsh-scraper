@@ -142,7 +142,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15923829
   interface-name: eth1
   type: vless
-  server: support.zoom.us
+  server: 170.114.46.6
   port: 8443
   uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
   udp: true
