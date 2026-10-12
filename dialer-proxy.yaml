@@ -22,7 +22,7 @@ proxies:
 - name: 🇮🇩DP trojan-ID-15558528
   interface-name: phy0-sta0
   type: trojan
-  server: 104.18.32.87
+  server: 104.21.70.21
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
@@ -131,14 +131,6 @@ proxies:
   password: UX82473651
   udp: true
   sni: present-ram.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15924301
-  interface-name: phy0-sta0
-  type: trojan
-  server: real-werewolf.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: real-werewolf.rooster465.autos
 - name: 🇸🇬DP vless-SG-15923829
   interface-name: eth1
   type: vless
@@ -153,16 +145,6 @@ proxies:
     path: /xprolk-primeline
     headers:
       Host: primelinelk.me
-- name: 🇸🇬DP vless-SG-15915277
-  interface-name: eth1
-  type: vless
-  server: 79.108.225.112
-  port: 8443
-  uuid: c3369c07-f0d2-4a2c-97ab-0d3d47803912
-  udp: true
-  network: tcp
-  tls: false
-  sni: github.com
 - name: 🇸🇬DP trojan-SG-15907555
   interface-name: phy0-sta0
   type: trojan
@@ -220,19 +202,28 @@ proxies:
   password: UX82473651
   udp: true
   sni: glowing-marmoset.rooster465.autos
-- name: 🇲🇾DP vless-MY-15919315
+- name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: 139.162.27.96
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: free-server.techsonic.dev
   ws-opts:
-    path: /platform101
+    path: /free-server.techsonic.dev
     headers:
-      Host: platform101.halalkhor.info
+      Host: free-server.techsonic.dev
+- name: 🏳DP ss-
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 9epp3o9ng8ej59uv
+  server: 45.128.12.20
+  port: 14249
 - name: 🇲🇾DP vmess-MY-15912327
   interface-name: eth1
   type: vmess
@@ -244,33 +235,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇲🇾DP vless-MY-15842215
-  interface-name: eth1
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  network: ws
-  tls: false
-  sni: platform102.golnamakcert.top
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇲🇾DP vless-MY-15829030
-  interface-name: eth1
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
