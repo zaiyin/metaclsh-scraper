@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
   cipher: aes-128-gcm
-  password: 49b07b98-6b76-4c70-b046-39be88e75abf
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
   server: ruot.ayucloudservices.nl
   port: 40022
 - name: 🇸🇬DP vless-SG-15961213
@@ -85,7 +85,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: joint-ewe.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15929346
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: moral-basilisk.rooster465.autos
@@ -230,17 +230,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇲🇾DP vmess-MY-15912327
-  interface-name: eth1
-  type: vmess
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16317
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -248,7 +237,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-- name: 🇲🇾DP vmess-MY-14164165
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
