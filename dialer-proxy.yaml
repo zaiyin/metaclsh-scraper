@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩DP vless-ID-15912412
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 103.172.197.2
@@ -149,7 +149,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: ace-liger.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15926690
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: musical-mouse.rooster465.autos
@@ -165,7 +165,7 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
   sni: 139.180.146.200
-- name: 🇸🇬DP trojan-SG-15898508
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: inviting-ferret.rooster465.autos
@@ -198,7 +198,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: real-cardinal.rooster465.autos
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -230,16 +230,6 @@ proxies:
   network: tcp
   tls: true
   sni: www.microsoft.com
-- name: 🇸🇬DP vless-SG-15749552
-  interface-name: eth1
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -247,6 +237,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
