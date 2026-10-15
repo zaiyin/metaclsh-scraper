@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- name: 🇸🇬 vless-SG-15979095
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: free.nadun.store
+- name: 🇲🇾 vless-MY-5067522
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
