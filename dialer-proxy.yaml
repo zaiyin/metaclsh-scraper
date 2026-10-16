@@ -82,12 +82,12 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15940688
   interface-name: phy0-sta0
   type: trojan
-  server: 47.131.250.125
+  server: simple-molly.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   sni: simple-molly.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15929346
   interface-name: phy0-sta0
   type: trojan
   server: moral-basilisk.rooster465.autos
@@ -119,7 +119,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: musical-mouse.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15907555
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
@@ -127,7 +127,7 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
   sni: 139.180.146.200
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15898508
   interface-name: phy0-sta0
   type: trojan
   server: inviting-ferret.rooster465.autos
@@ -135,7 +135,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: inviting-ferret.rooster465.autos
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15874395
   interface-name: eth1
   type: vless
   server: 47.237.74.17
@@ -144,7 +144,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -184,7 +184,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -204,7 +204,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -224,7 +224,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
   server: 5.253.28.240
@@ -234,7 +234,37 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP trojan-
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: eth1
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇲🇾DP vmess-MY-15992827
+  interface-name: eth1
+  type: vmess
+  server: 104.21.23.80
+  port: 443
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /KualaLumpur1
+    headers:
+      Host: my.lovehk.xyz
+  servername: my.lovehk.xyz
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
