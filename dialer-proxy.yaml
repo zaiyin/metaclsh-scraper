@@ -19,7 +19,17 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-16005100
+- name: 🇸🇬DP vless-SG-16006216
+  interface-name: eth1
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -49,10 +59,10 @@ proxies:
   network: tcp
   tls: false
   sni: www.lamer.com.sg
-- name: 🇸🇬DP vless-SG-15979095
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
   udp: true
@@ -63,16 +73,6 @@ proxies:
     path: /
     headers:
       Host: free.nadun.store
-- name: 🇸🇬DP vless-SG-15961213
-  interface-name: eth1
-  type: vless
-  server: nl3.h1cloud.net
-  port: 25458
-  uuid: 83383473-0d62-4089-ac4d-d7ecb413504a
-  udp: true
-  network: tcp
-  tls: false
-  sni: nl4.nztvpn.com
 - name: 🇸🇬DP trojan-SG-15940688
   interface-name: phy0-sta0
   type: trojan
@@ -84,15 +84,15 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15929346
   interface-name: phy0-sta0
   type: trojan
-  server: 54.151.181.75
+  server: moral-basilisk.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   sni: moral-basilisk.rooster465.autos
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15929345
   interface-name: phy0-sta0
   type: trojan
-  server: brave-tomcat.rooster465.autos
+  server: 3.1.252.137
   port: 443
   password: UX82473651
   udp: true
@@ -108,7 +108,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15926690
   interface-name: phy0-sta0
   type: trojan
-  server: 18.141.136.8
+  server: musical-mouse.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
@@ -138,7 +138,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -152,7 +152,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -205,18 +205,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: cf.877774.xyz
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -238,7 +238,7 @@ proxies:
   udp: true
   network: tcp
   servername: Telegram-Leviko_v2ray
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -249,6 +249,20 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP vless-SG-9406
+  interface-name: eth1
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
 - name: 🇲🇾DP vmess-MY-15992827
   interface-name: eth1
   type: vmess
@@ -265,7 +279,7 @@ proxies:
     headers:
       Host: my.lovehk.xyz
   servername: my.lovehk.xyz
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
