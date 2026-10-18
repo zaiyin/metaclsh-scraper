@@ -52,7 +52,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15979095
   interface-name: eth1
   type: vless
-  server: 45.118.133.249
+  server: 188.114.98.0
   port: 443
   uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
   udp: true
@@ -92,7 +92,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-15929345
   interface-name: phy0-sta0
   type: trojan
-  server: 3.1.252.137
+  server: brave-tomcat.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
@@ -129,7 +129,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: inviting-ferret.rooster465.autos
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15874395
   interface-name: eth1
   type: vless
   server: 47.237.74.17
@@ -195,9 +195,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: hydra.yokkastars.com
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -205,17 +205,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: cf.090227.xyz
+  server: cf.877774.xyz
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: true
-  sni: lucasjow.us.ci
+  tls: false
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /fp=chromesecurity=tls
     headers:
-      Host: lucasjow.us.ci
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
