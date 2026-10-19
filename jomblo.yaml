@@ -8,7 +8,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
