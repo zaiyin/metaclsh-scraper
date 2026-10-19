@@ -2,42 +2,27 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  port: 8080
+  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    path: /
     headers:
-      Host: lucasjow.us.ci
+      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
+    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🇲🇾 vmess-MY-15992827
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /KualaLumpur1
-    headers:
-      Host: my.lovehk.xyz
-  servername: my.lovehk.xyz
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
