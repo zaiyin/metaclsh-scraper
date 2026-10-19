@@ -2,15 +2,15 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 8080
-  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip
     headers:
-      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
+      Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
