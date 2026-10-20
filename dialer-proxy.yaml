@@ -183,20 +183,20 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.240
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
+  server: cf.090227.xyz
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -204,7 +204,7 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
@@ -220,7 +220,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -228,7 +228,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -240,7 +239,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -252,23 +250,22 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: true
-  sni: lucasjow.us.ci
+  tls: false
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /fp
     headers:
-      Host: lucasjow.us.ci
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-15992827
   interface-name: eth1
   type: vmess
