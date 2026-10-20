@@ -39,16 +39,6 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
-- name: 🇸🇬DP vless-SG-15996379
-  interface-name: eth1
-  type: vless
-  server: 164.37.224.232
-  port: 25452
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.ns.nl
 - name: 🇸🇬DP vless-SG-15988814
   interface-name: eth1
   type: vless
@@ -186,7 +176,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
+  server: hydra.yokkastars.com
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -196,16 +186,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 185.207.196.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: lucasjow.us.ci
   ws-opts:
-    path: /?ed=2560
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
-      Host: vms.lifetime11.workers.dev
+      Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -216,7 +207,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -227,6 +218,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.207
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -238,6 +230,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -263,7 +256,21 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
 - name: 🇲🇾DP vmess-MY-15992827
