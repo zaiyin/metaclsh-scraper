@@ -29,7 +29,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.ns.nl
-- name: 🇸🇬DP vless-SG-16006216
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 45.132.75.213
@@ -59,20 +59,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.lamer.com.sg
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
-  udp: true
-  network: ws
-  tls: true
-  sni: free.nadun.store
-  ws-opts:
-    path: /
-    headers:
-      Host: free.nadun.store
 - name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
@@ -104,7 +90,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -114,7 +100,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532142
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -124,7 +110,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -144,12 +130,12 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: hydra.yokkastars.com
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -157,17 +143,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
+  server: www.5199dy.com
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
   tls: true
-  sni: lucasjow.us.ci
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN
+    path: /
     headers:
-      Host: lucasjow.us.ci
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -181,7 +167,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -189,6 +175,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -200,11 +187,10 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
+  server: 162.159.250.29
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -212,38 +198,10 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  tls: true
-  sni: lucasjow.us.ci
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
   server: 172.67.155.65
@@ -257,21 +215,7 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: eth1
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
   server: 172.67.155.65
@@ -282,9 +226,51 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8105
+  interface-name: eth1
+  type: vless
+  server: 43.174.193.1
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-8023
   interface-name: eth1
   type: vless
@@ -299,6 +285,20 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇲🇾DP vmess-MY-15992827
   interface-name: eth1
   type: vmess
