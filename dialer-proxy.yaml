@@ -73,53 +73,14 @@ proxies:
     path: /
     headers:
       Host: free.nadun.store
-- name: 🇸🇬DP trojan-SG-15940688
-  interface-name: phy0-sta0
-  type: trojan
-  server: simple-molly.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: simple-molly.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15929346
-  interface-name: phy0-sta0
-  type: trojan
-  server: moral-basilisk.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: moral-basilisk.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15929345
-  interface-name: phy0-sta0
-  type: trojan
-  server: 3.1.252.137
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: brave-tomcat.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15926690
-  interface-name: phy0-sta0
-  type: trojan
-  server: musical-mouse.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: musical-mouse.rooster465.autos
-- name: 🇸🇬DP trojan-SG-15907555
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🏳DP trojan-
-  interface-name: phy0-sta0
-  type: trojan
-  server: inviting-ferret.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: inviting-ferret.rooster465.autos
+  sni: 139.180.146.200
 - name: 🇸🇬DP vless-SG-15874395
   interface-name: eth1
   type: vless
@@ -143,7 +104,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -153,7 +114,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -196,17 +157,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.67.130.187
-  port: 2083
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
-  sni: fans.liverpool.qzz.io
+  sni: lucasjow.us.ci
   ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN
     headers:
-      Host: fans.liverpool.qzz.io
+      Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -239,6 +200,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -256,7 +218,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: cf.877774.xyz
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: b2n.ir
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -264,7 +240,63 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8023
+  interface-name: eth1
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
 - name: 🇲🇾DP vmess-MY-15992827
@@ -290,6 +322,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess

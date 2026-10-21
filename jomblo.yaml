@@ -2,15 +2,15 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN
     headers:
-      Host: fans.liverpool.qzz.io
+      Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -23,7 +23,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
   port: 443
@@ -32,9 +32,60 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     headers:
       Host: lucasjow.us.ci
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬 vless-SG-8023
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇲🇾 vmess-MY-15992827
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /KualaLumpur1
+    headers:
+      Host: my.lovehk.xyz
+  servername: my.lovehk.xyz
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
