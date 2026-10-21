@@ -19,7 +19,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16020233
   interface-name: eth1
   type: vless
   server: nl2.h1cloud.net
@@ -39,7 +39,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16005100
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -163,7 +163,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -186,9 +186,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
+  server: 5.253.30.99
   port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
   network: tcp
   tls: false
@@ -196,17 +196,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 172.67.130.187
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   udp: true
   network: ws
   tls: true
-  sni: lucasjow.us.ci
+  sni: fans.liverpool.qzz.io
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: lucasjow.us.ci
+      Host: fans.liverpool.qzz.io
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -250,22 +250,23 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: cf.877774.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: lucasjow.us.ci
   ws-opts:
-    path: /fp
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: lucasjow.us.ci
 - name: 🇲🇾DP vmess-MY-15992827
   interface-name: eth1
   type: vmess
