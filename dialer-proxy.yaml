@@ -19,6 +19,20 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🇸🇬DP vless-SG-16030123
+  interface-name: eth1
+  type: vless
+  server: 108.165.216.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  udp: true
+  network: ws
+  tls: false
+  sni: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chromesecurity=tls
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬DP vless-SG-16020233
   interface-name: eth1
   type: vless
@@ -59,7 +73,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.lamer.com.sg
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15907555
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
@@ -110,7 +124,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15528654
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -130,7 +144,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
   server: hydra.yokkastars.com
@@ -143,17 +157,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: www.5199dy.com
+  server: b2n.ir
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
-  sni: ccc.010304.xyz
+  sni: lucasjow.us.ci
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     headers:
-      Host: ccc.010304.xyz
+      Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -187,49 +201,8 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
-  interface-name: eth1
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  tls: true
-  sni: lucasjow.us.ci
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  tls: true
-  sni: lucasjow.us.ci
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  tls: true
-  sni: lucasjow.us.ci
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
   server: 188.114.97.6
@@ -240,27 +213,69 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-8430
+- name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.67.155.65
-  port: 2053
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: 188.114.97.6
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-8105
   interface-name: eth1
   type: vless
-  server: 43.174.193.1
+  server: 172.66.0.162
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -274,31 +289,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-8023
   interface-name: eth1
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
-  tls: true
+  tls: false
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /?Telegram---mehrosaboranfp=chromesecurity=tls
     headers:
       Host: lucasjow.us.ci
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇲🇾DP vmess-MY-15992827
   interface-name: eth1
   type: vmess
@@ -315,6 +316,18 @@ proxies:
     headers:
       Host: my.lovehk.xyz
   servername: my.lovehk.xyz
+- name: 🇲🇾DP vmess-MY-15912327
+  interface-name: eth1
+  type: vmess
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16317
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+  servername: zfd-boardv2.kunlun01dns.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan

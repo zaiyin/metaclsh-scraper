@@ -1,16 +1,28 @@
 proxies:
+- name: 🇸🇬 vless-SG-16030123
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chromesecurity=tls
+    headers:
+      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     headers:
-      Host: ccc.010304.xyz
+      Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -20,31 +32,19 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-8862
@@ -56,19 +56,19 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2053
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-8105
@@ -86,13 +86,13 @@ proxies:
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 8443
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /?Telegram---mehrosaboranfp=chromesecurity=tls
     headers:
       Host: lucasjow.us.ci
 - name: 🇲🇾 vmess-MY-15992827
