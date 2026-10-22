@@ -9,20 +9,17 @@ proxies:
   network: tcp
   tls: false
   sni: aws.amazon.com
-- name: 🇸🇬DP vless-SG-16030123
+- name: 🏳DP vmess-
   interface-name: eth1
-  type: vless
-  server: 108.165.216.7
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  network: ws
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   tls: false
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula?Telegram-WangCai2fp=chromesecurity=tls
-    headers:
-      Host: speed.dulacloud.store
+  udp: true
+  network: raw
 - name: 🇸🇬DP vless-SG-16020233
   interface-name: eth1
   type: vless
@@ -124,7 +121,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15507978
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: sg2-8sb.6121999.dpdns.org
@@ -137,9 +134,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: 5.253.28.240
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -155,7 +152,7 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
@@ -171,7 +168,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -179,7 +176,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
+  servername: 149.88.23.207
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -191,7 +188,8 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
+  servername: 149.88.23.202
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 172.67.155.65
@@ -202,7 +200,7 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    path: /cart/docs/www/proxyip?ed#Telegram---mehrosaboran
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-9271
@@ -249,43 +247,43 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   interface-name: eth1
   type: vless
-  server: 162.159.153.4
+  server: 104.21.91.244
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  network: ws
-  tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇸🇬DP vless-SG-8105
-  interface-name: eth1
-  type: vless
-  server: 104.26.4.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-8023
-  interface-name: eth1
-  type: vless
-  server: 172.67.155.65
-  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇬DP vless-SG-8105
+  interface-name: eth1
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: false
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /fpsecurity=tls
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬DP vless-SG-8023
+  interface-name: eth1
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  tls: true
+  sni: lucasjow.us.ci
+  ws-opts:
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
 - name: 🇲🇾DP vmess-MY-15912327
