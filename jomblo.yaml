@@ -14,27 +14,39 @@ proxies:
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
     headers:
       Host: lucasjow.us.ci
+- name: 🇸🇬 vless-SG-9271
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 70756c73-0000-4000-8000-650000000000
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /pulsefp=chrome
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
@@ -44,33 +56,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /
     headers:
-      Host: lucasjow.us.ci
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -80,36 +80,21 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬 vless-SG-8023
   type: vless
   server: bug.xcp
-  port: 443
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /?Telegram---mehrosaboranfp=chromesecurity=tls
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
     headers:
       Host: lucasjow.us.ci
-- name: 🇲🇾 vmess-MY-15992827
-  type: vmess
-  server: bug.xcp
-  port: 443
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  udp: true
-  ws-opts:
-    path: /KualaLumpur1
-    headers:
-      Host: my.lovehk.xyz
-  servername: my.lovehk.xyz
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
