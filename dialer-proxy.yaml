@@ -103,7 +103,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -123,7 +123,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 46.137.202.178
@@ -133,7 +133,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15507978
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: sg2-8sb.6121999.dpdns.org
@@ -146,7 +146,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
+  server: hydra.yokkastars.com
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -188,8 +188,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -214,20 +213,20 @@ proxies:
     path: /?Telegram---mehrosaboran
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: true
-  sni: lucasjow.us.ci
+  tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /fp
     headers:
-      Host: lucasjow.us.ci
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
@@ -268,6 +267,16 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
+- name: 🇲🇾DP vless-MY-16039978
+  interface-name: eth1
+  type: vless
+  server: 111.90.143.184
+  port: 61111
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+  udp: true
+  network: grpc
+  tls: false
+  sni: github.com
 - name: 🇲🇾DP vless-MY-15992827
   interface-name: eth1
   type: vless
@@ -300,7 +309,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
