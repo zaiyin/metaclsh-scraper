@@ -1,26 +1,14 @@
 proxies:
-- name: 🇸🇬 vless-SG-16030123
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /dula?Telegram-WangCai2fp=chrome
-    headers:
-      Host: speed.dulacloud.store
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9406
@@ -44,22 +32,10 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 8443
@@ -71,6 +47,18 @@ proxies:
     path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
     headers:
       Host: lucasjow.us.ci
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
 - name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
@@ -80,7 +68,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇲🇾 vless-MY-5067522

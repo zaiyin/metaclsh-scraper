@@ -10,17 +10,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-16030123
   interface-name: eth1
   type: vless
-  server: 66.225.252.7
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: edge.bookmai.com
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   udp: true
-  network: ws
-  tls: true
-  sni: speed.dulacloud.store
-  ws-opts:
-    path: /dula?Telegram-WangCai2fp=chrome
-    headers:
-      Host: speed.dulacloud.store
+  network: tcp
+  tls: false
+  sni: mother-earth.fyi
 - name: 🇸🇬DP vless-SG-16020233
   interface-name: eth1
   type: vless
@@ -92,6 +88,14 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
+- name: 🇸🇬DP ss-SG-15599469
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
+  server: 139.180.220.175
+  port: 8388
 - name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
@@ -135,9 +139,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.30.99
   port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
   network: tcp
   tls: false
@@ -145,15 +149,15 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
-  port: 443
+  server: 172.67.155.65
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-15056567
@@ -169,7 +173,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -177,6 +181,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -188,7 +193,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -214,21 +218,21 @@ proxies:
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
-  port: 443
+  server: 172.67.155.65
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-8862
@@ -247,21 +251,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8430
   interface-name: eth1
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 172.66.47.10
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   network: ws
   tls: true
   sni: lucasjow.us.ci
   ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
 - name: 🇸🇬DP vless-SG-8105
   interface-name: eth1
   type: vless
-  server: 216.173.67.59
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -269,7 +273,7 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇲🇾DP vmess-MY-15912327
