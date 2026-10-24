@@ -15,26 +15,26 @@ proxies:
   type: vless
   server: bug.xcp
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: d342d11e-d224-4463-b982-532309285094
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /fp=chrome
     headers:
-      Host: lucasjow.us.ci
+      Host: ccc.010304.xyz
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: courses.mftplus.qzz.io
 - name: 🇲🇾 vless-MY-16041484
   type: vless
   server: bug.xcp

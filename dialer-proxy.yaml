@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬DP vless-SG-16042269
+  interface-name: eth1
+  type: vless
+  server: 5.34.177.164
+  port: 443
+  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
+  udp: true
+  network: tcp
+  tls: false
+  sni: gateway.icloud.com
 - name: 🇸🇬DP trojan-SG-16039749
   interface-name: phy0-sta0
   type: trojan
@@ -156,9 +166,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.30.99
   port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
   network: tcp
   tls: false
@@ -181,7 +191,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -209,29 +219,31 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 188.114.97.6
+  server: 216.173.67.59
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
   tls: true
-  sni: lucasjow.us.ci
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /fp=chrome
     headers:
-      Host: lucasjow.us.ci
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.19.164.25
+  server: 172.67.71.187
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /sg-melbi
     headers:
@@ -239,29 +251,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 103.133.1.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 188.114.97.6
+  port: 443
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: courses.mftplus.qzz.io
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: vms.lifetime36.workers.dev
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: eth1
-  type: vless
-  server: 104.21.227.134
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro
+      Host: courses.mftplus.qzz.io
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
