@@ -1,4 +1,14 @@
 proxies:
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 134.185.81.5
+  port: 47881
+  uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.tesla.com
 - name: 🇸🇬DP vless-SG-16042269
   interface-name: eth1
   type: vless
@@ -72,7 +82,7 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
   sni: 139.180.146.200
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15874395
   interface-name: eth1
   type: vless
   server: 47.237.74.17
@@ -81,7 +91,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -181,7 +191,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -226,7 +236,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.67.71.187
+  server: 172.64.150.43
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
@@ -251,20 +261,6 @@ proxies:
     path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
       Host: courses.mftplus.qzz.io
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: eth1
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
