@@ -34,16 +34,6 @@ proxies:
   network: tcp
   tls: false
   sni: mother-earth.fyi
-- name: 🇸🇬DP vless-SG-16020233
-  interface-name: eth1
-  type: vless
-  server: nl2.h1cloud.net
-  port: 25452
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.ns.nl
 - name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
@@ -82,7 +72,7 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
   sni: 139.180.146.200
-- name: 🇸🇬DP vless-SG-15874395
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 47.237.74.17
@@ -166,9 +156,9 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
+  server: hydra.yokkastars.com
   port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
   network: tcp
   tls: false
@@ -187,11 +177,11 @@ proxies:
     path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 12972
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -219,7 +209,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -262,6 +251,20 @@ proxies:
     path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
       Host: courses.mftplus.qzz.io
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
