@@ -187,7 +187,7 @@ proxies:
     path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
     headers:
       Host: lucasjow.us.ci
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -233,20 +233,20 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 172.64.150.43
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 216.173.67.59
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
@@ -298,18 +298,6 @@ proxies:
     path: /my1023
     headers:
       Host: forwarded.frnhk.xyz
-- name: 🇲🇾DP vmess-MY-15912327
-  interface-name: eth1
-  type: vmess
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16317
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: zfd-boardv2.kunlun01dns.com
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
