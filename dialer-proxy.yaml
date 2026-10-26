@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬DP vless-SG-16051096
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 43.156.89.197
@@ -55,7 +55,7 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15988814
   interface-name: eth1
   type: vless
   server: funagfrdfs.alixxplay.com
@@ -124,7 +124,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15532142
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -178,7 +178,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -191,7 +191,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -199,7 +199,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -226,14 +226,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.16.162.89
-  port: 8080
+  server: 104.17.162.11
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9203
