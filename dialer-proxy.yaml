@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇬DP vless-SG-16051096
+  interface-name: eth1
+  type: vless
+  server: 43.156.89.197
+  port: 61000
+  uuid: f5b93de5-b756-4f87-bb1c-7e5b622688fa
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.amd.com
 - name: 🇸🇬DP vless-SG-16050167
   interface-name: eth1
   type: vless
@@ -8,7 +18,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -35,16 +45,6 @@ proxies:
   port: 443
   password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   udp: true
-- name: 🇸🇬DP vless-SG-16006216
-  interface-name: eth1
-  type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-16005100
   interface-name: eth1
   type: vless
@@ -55,7 +55,7 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
-- name: 🇸🇬DP vless-SG-15988814
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: funagfrdfs.alixxplay.com
@@ -124,7 +124,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532142
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.169.200.246
@@ -147,7 +147,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
-  server: 146.235.16.130
+  server: sg2-8sb.6121999.dpdns.org
   port: 19825
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   udp: true
@@ -157,27 +157,28 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  server: 5.253.28.240
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 63.141.128.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: ccc.010304.xyz
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime42.workers.dev
-- name: 🇸🇬DP vless-SG-15056567
+      Host: ccc.010304.xyz
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -190,7 +191,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -198,7 +199,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -212,6 +213,32 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
+  server: 159.242.242.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime58.workers.dev
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: eth1
+  type: vless
+  server: 104.16.162.89
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
   server: 216.173.67.59
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
@@ -220,36 +247,9 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  udp: true
-  network: ws
-  tls: true
-  sni: courses.mftplus.qzz.io
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
@@ -288,19 +288,6 @@ proxies:
   network: grpc
   tls: false
   sni: github.com
-- name: 🇲🇾DP vless-MY-15992827
-  interface-name: eth1
-  type: vless
-  server: forwarded.frnhk.xyz
-  port: 46003
-  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /my1023
-    headers:
-      Host: forwarded.frnhk.xyz
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
