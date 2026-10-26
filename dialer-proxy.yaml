@@ -1,4 +1,13 @@
 proxies:
+- name: 🇸🇬DP vless-SG-16050167
+  interface-name: eth1
+  type: vless
+  server: 43.134.176.236
+  port: 13954
+  uuid: 6ce8ff5b-4975-46d2-80ee-7eb48200cade
+  udp: true
+  network: tcp
+  tls: false
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -19,23 +28,13 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16039749
   interface-name: phy0-sta0
   type: trojan
   server: 43.156.36.253
   port: 443
   password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   udp: true
-- name: 🇸🇬DP vless-SG-16030123
-  interface-name: eth1
-  type: vless
-  server: edge.bookmai.com
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  udp: true
-  network: tcp
-  tls: false
-  sni: mother-earth.fyi
 - name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
@@ -145,7 +144,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
   server: 146.235.16.130
@@ -182,7 +181,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 12972
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -191,7 +190,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -210,7 +209,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
@@ -255,21 +253,21 @@ proxies:
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
-  server: cf.090227.xyz
+  server: 172.67.152.148
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
   udp: true
   network: ws
   tls: true
-  sni: ccc.010304.xyz
+  sni: cf-socks.caoyuwu.eu.org
   ws-opts:
     path: /fp=chrome
     headers:
-      Host: ccc.010304.xyz
+      Host: cf-socks.caoyuwu.eu.org
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 188.114.98.0
+  server: vpn.cintaku.qzz.io
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
