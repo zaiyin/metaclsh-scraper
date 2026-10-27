@@ -23,18 +23,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime18.workers.dev
-- name: 🇲🇾 vless-MY-16041484
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp

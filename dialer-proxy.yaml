@@ -29,7 +29,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-16045720
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -39,7 +39,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16042269
   interface-name: eth1
   type: vless
   server: 5.34.177.164
@@ -93,7 +93,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -125,7 +125,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -165,14 +165,14 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
-  port: 2443
-  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
-  network: grpc
+  network: tcp
   tls: false
   sni: deepl.com
 - name: 🏳DP vless-
@@ -193,13 +193,13 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -210,7 +210,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -237,15 +237,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.18.0.181
-  port: 2082
+  server: 104.18.35.86
+  port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp
+    path: /?------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------&
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9203
@@ -292,7 +291,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-- name: 🏳DP vmess-
+- name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
   server: 47.250.135.244
