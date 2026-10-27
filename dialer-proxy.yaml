@@ -1,4 +1,15 @@
 proxies:
+- name: 🇸🇬DP vless-SG-16060891
+  interface-name: eth1
+  type: vless
+  server: v2.drsachi.com
+  port: 443
+  uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
 - name: 🇸🇬DP vless-SG-16051096
   interface-name: eth1
   type: vless
@@ -28,7 +39,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇸🇬DP vless-SG-16042269
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 5.34.177.164
@@ -82,7 +93,7 @@ proxies:
   udp: true
   network: tcp
   tls: false
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -96,7 +107,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15740597
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -114,7 +125,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -147,14 +158,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
-  server: 146.235.16.130
+  server: sg2-8sb.6121999.dpdns.org
   port: 19825
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   udp: true
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 5.253.28.240
@@ -167,16 +178,17 @@ proxies:
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 88.216.69.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.18.0.181
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: 'hhlfy.twiladaphne.ndjp.net '
   ws-opts:
-    path: /
+    path: /fp
     headers:
-      Host: vms.lifetime06.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -187,7 +199,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.207
@@ -198,7 +210,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -225,14 +237,15 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.64.150.43
-  port: 8080
+  server: 104.18.0.181
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-9203
@@ -248,19 +261,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime18.workers.dev
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: eth1
-  type: vless
-  server: chat.openai.com
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime29.workers.dev
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
