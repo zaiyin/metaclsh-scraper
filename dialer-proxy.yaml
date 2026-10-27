@@ -1,5 +1,5 @@
 proxies:
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16051096
   interface-name: eth1
   type: vless
   server: 43.156.89.197
@@ -147,7 +147,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
-  server: sg2-8sb.6121999.dpdns.org
+  server: 146.235.16.130
   port: 19825
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   udp: true
@@ -167,22 +167,21 @@ proxies:
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 88.216.69.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: ccc.010304.xyz
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: ccc.010304.xyz
+      Host: vms.lifetime06.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -191,7 +190,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -226,44 +225,42 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.17.162.11
-  port: 2082
+  server: 172.64.150.43
+  port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: 185.225.195.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: 216.173.67.59
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
+      Host: vms.lifetime18.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
-  server: 172.67.152.148
-  port: 443
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
+  server: chat.openai.com
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: cf-socks.caoyuwu.eu.org
+  tls: false
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: cf-socks.caoyuwu.eu.org
+      Host: vms.lifetime29.workers.dev
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
