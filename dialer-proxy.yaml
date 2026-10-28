@@ -86,14 +86,13 @@ proxies:
   network: tcp
   tls: false
   sni: www.lamer.com.sg
-- name: 🇸🇬DP trojan-SG-15907555
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-  sni: 139.180.146.200
 - name: 🇸🇬DP vless-SG-15874395
   interface-name: eth1
   type: vless
@@ -199,7 +198,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.64.152.241
+  server: 104.18.40.100
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -207,14 +206,14 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -223,7 +222,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -242,19 +241,21 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 104.17.44.17
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 43.174.193.1
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
   tls: false
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /sg-melbi
+    path: /fp=chromesecurity=tls
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
@@ -269,16 +270,6 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
-- name: 🇲🇾DP vless-MY-16039978
-  interface-name: eth1
-  type: vless
-  server: 111.90.143.184
-  port: 61111
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  network: grpc
-  tls: false
-  sni: github.com
 - name: 🇲🇾DP vmess-MY-15912327
   interface-name: eth1
   type: vmess

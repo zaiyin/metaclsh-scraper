@@ -8,9 +8,33 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    path: /
     headers:
       Host: ccc.010304.xyz
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /fp=chromesecurity=tls
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇲🇾 vless-MY-16041484
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
