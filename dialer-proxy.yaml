@@ -56,6 +56,16 @@ proxies:
   port: 443
   password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   udp: true
+- name: 🇸🇬DP vless-SG-16006216
+  interface-name: eth1
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-16005100
   interface-name: eth1
   type: vless
@@ -175,20 +185,20 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.18.0.181
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 45.131.210.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
   tls: false
-  sni: 'hhlfy.twiladaphne.ndjp.net '
+  sni: vms.lifetime05.workers.dev
   ws-opts:
-    path: /fp
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: vms.lifetime05.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -222,46 +232,33 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 159.242.242.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: ip.sb
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   udp: true
   network: ws
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime58.workers.dev
-- name: 🇸🇬DP vless-SG-9271
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 104.18.0.181
-  port: 8080
+  server: 172.64.150.28
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬DP vless-SG-9203
-  interface-name: eth1
-  type: vless
-  server: 185.225.195.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime18.workers.dev
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
