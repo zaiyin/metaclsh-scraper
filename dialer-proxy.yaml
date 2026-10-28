@@ -127,6 +127,17 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🇸🇬DP vmess-SG-15612648
+  interface-name: eth1
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9039
+  uuid: 4fa65799-694e-316b-b2d3-30c793777cbf
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇸🇬DP ss-SG-15599469
   interface-name: phy0-sta0
   type: ss
@@ -188,17 +199,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 45.131.210.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: false
-  sni: vms.lifetime05.workers.dev
+  tls: true
+  sni: ccc.010304.xyz
   ws-opts:
-    path: /
+    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
-      Host: vms.lifetime05.workers.dev
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -220,7 +231,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -235,34 +245,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: ip.sb
+  server: 104.17.44.17
   port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 172.64.150.28
-  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp
+    path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 8.35.211.242
+  server: 188.114.98.0
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
@@ -283,6 +279,17 @@ proxies:
   network: grpc
   tls: false
   sni: github.com
+- name: 🇲🇾DP vmess-MY-15912327
+  interface-name: eth1
+  type: vmess
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16317
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
