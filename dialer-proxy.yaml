@@ -1,8 +1,18 @@
 proxies:
+- name: 🇸🇬DP vless-SG-16089499
+  interface-name: eth1
+  type: vless
+  server: sg1.zestapp778.com
+  port: 56984
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  network: tcp
+  tls: true
+  sni: sg1.zestapp778.com
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: sg003.zestapp778.com
+  server: 45.77.40.28
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -20,16 +30,6 @@ proxies:
   tls: false
   ws-opts:
     path: /
-- name: 🇸🇬DP vless-SG-16051096
-  interface-name: eth1
-  type: vless
-  server: 43.156.89.197
-  port: 61000
-  uuid: f5b93de5-b756-4f87-bb1c-7e5b622688fa
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.amd.com
 - name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
@@ -50,13 +50,6 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🇸🇬DP trojan-SG-16039749
-  interface-name: phy0-sta0
-  type: trojan
-  server: 43.156.36.253
-  port: 443
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  udp: true
 - name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
@@ -94,15 +87,7 @@ proxies:
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🇸🇬DP vless-SG-15874395
-  interface-name: eth1
-  type: vless
-  server: 47.237.74.17
-  port: 16263
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-  udp: true
-  network: tcp
-  tls: false
+  sni: 139.180.146.200
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
@@ -199,17 +184,18 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 80.93.202.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: chatgpt.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: ccc.010304.xyz
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime02.workers.dev
-- name: 🇸🇬DP vless-SG-15056567
+      Host: ccc.010304.xyz
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -254,6 +240,33 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: eth1
+  type: vless
+  server: 172.64.229.133
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: 173.245.49.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime36.workers.dev
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
@@ -286,7 +299,6 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
