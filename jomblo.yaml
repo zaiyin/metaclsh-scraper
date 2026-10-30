@@ -1,16 +1,40 @@
 proxies:
-- name: 🇸🇬 vless-SG-9406
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: false
   udp: true
   ws-opts:
-    path: /fp=chromesecurity=tls
+    path: /
     headers:
-      Host: ccc.010304.xyz
+      Host: vms.lifetime02.workers.dev
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🇲🇾 vless-MY-16041484
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
