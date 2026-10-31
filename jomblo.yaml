@@ -23,18 +23,6 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
-    headers:
-      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -44,7 +32,19 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇲🇾 vless-MY-16041484

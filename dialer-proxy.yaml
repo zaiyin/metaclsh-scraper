@@ -19,17 +19,6 @@ proxies:
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🇸🇬DP vless-SG-16060891
-  interface-name: eth1
-  type: vless
-  server: v2.drsachi.com
-  port: 443
-  uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
-  udp: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
 - name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
@@ -92,7 +81,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15740597
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -121,7 +110,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -198,7 +187,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -239,7 +228,6 @@ proxies:
   udp: true
   network: ws
   tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /fp
     headers:
@@ -247,21 +235,20 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 190.93.245.187
-  port: 8443
-  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
+  server: 104.18.0.181
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
-  tls: true
-  sni: WQa3MIOjjR8fYOzhiui--sU3-uCG1Gdx.pAgEs.dEv
+  tls: false
   ws-opts:
-    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+    path: /
     headers:
-      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
-  server: 43.174.193.1
+  server: 104.26.4.2
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -269,13 +256,27 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp=chrome
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: 104.18.49.85
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 8.35.211.242
+  server: 172.67.166.188
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
@@ -286,17 +287,6 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
-- name: 🇲🇾DP vmess-MY-15912327
-  interface-name: eth1
-  type: vmess
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16317
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
