@@ -8,7 +8,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬 vless-SG-9406
@@ -36,18 +36,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
   port: 443

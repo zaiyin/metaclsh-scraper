@@ -9,6 +9,14 @@ proxies:
   network: tcp
   tls: true
   sni: in001.zestapp778.com
+- name: 🇸🇬DP trojan-SG-16102636
+  interface-name: phy0-sta0
+  type: trojan
+  server: 149.28.130.108
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: searchcreativejobsandshowcaseyourartistictalents.com
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
@@ -153,7 +161,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
-  server: 146.235.16.130
+  server: sg2-8sb.6121999.dpdns.org
   port: 19825
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   udp: true
@@ -163,7 +171,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
+  server: hydra.yokkastars.com
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -173,7 +181,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.20.17.210
+  server: cf.090227.xyz
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -181,7 +189,7 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-15056567
@@ -261,20 +269,6 @@ proxies:
   interface-name: eth1
   type: vless
   server: 104.26.4.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: eth1
-  type: vless
-  server: 104.18.49.85
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
