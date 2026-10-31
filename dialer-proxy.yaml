@@ -1,4 +1,14 @@
 proxies:
+- name: 🇮🇩DP vless-ID-16101738
+  interface-name: eth1
+  type: vless
+  server: 130.94.95.198
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  network: tcp
+  tls: true
+  sni: in001.zestapp778.com
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
@@ -12,7 +22,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: sg003.zestapp778.com
+  server: 45.77.40.28
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -49,7 +59,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-16005100
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -110,7 +120,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -143,7 +153,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15507978
   interface-name: eth1
   type: vless
-  server: sg2-8sb.6121999.dpdns.org
+  server: 146.235.16.130
   port: 19825
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   udp: true
@@ -153,7 +163,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.240
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -163,7 +173,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: chatgpt.com
+  server: 104.20.17.210
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -178,7 +188,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -187,7 +197,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -222,12 +232,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.64.150.28
+  server: 104.18.0.181
   port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: 'hhlfy.twiladaphne.ndjp.net '
   ws-opts:
     path: /fp
     headers:
@@ -235,16 +246,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 104.18.0.181
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 172.66.0.162
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: ccc.010304.xyz
   ws-opts:
     path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
