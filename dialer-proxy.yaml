@@ -92,12 +92,12 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15740597
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 206.206.76.75
   port: 443
-  uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
+  uuid: 32cf52f4-b8d2-4ed5-a37c-0d0a8e743309
   udp: true
   network: tcp
   tls: false
@@ -113,7 +113,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-15599469
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -164,7 +164,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
+  server: hydra.yokkastars.com
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -189,7 +189,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -198,7 +198,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -233,12 +233,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.25.3.123
-  port: 8080
+  server: 172.64.150.28
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /fp
     headers:
@@ -246,16 +247,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 173.245.49.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 190.93.245.187
+  port: 8443
+  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: WQa3MIOjjR8fYOzhiui--sU3-uCG1Gdx.pAgEs.dEv
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
@@ -302,6 +304,7 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+  sni: moltbot.doctoroyy.net
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess

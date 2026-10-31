@@ -26,15 +26,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8443
+  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
