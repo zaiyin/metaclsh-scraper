@@ -33,7 +33,7 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
   servername: az-1.linkaa.xyz
-- name: 🇸🇬DP vmess-SG-16106477
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: wjofhsqteueywxeq.v.3dns.vip
@@ -46,6 +46,9 @@ proxies:
   network: ws
   ws-opts:
     path: /ws-vmess
+    headers:
+      Host: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
 - name: 🇸🇬DP vmess-SG-16105706
   interface-name: eth1
   type: vmess
@@ -83,7 +86,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: 45.76.155.179
+  server: 45.77.243.143
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -141,7 +144,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15740597
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -151,7 +154,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -191,20 +194,20 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: hydra.yokkastars.com
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.66.1.36
+  server: 104.18.45.38
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -212,14 +215,14 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -228,7 +231,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -236,7 +239,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -265,13 +267,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 188.114.98.0
+  server: 172.64.150.43
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /sg-melbi
     headers:
@@ -292,10 +293,10 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
   servername: az-1.linkaa.xyz
-- name: 🇲🇾DP vless-MY-16041484
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: vpn.cintaku.qzz.io
+  server: 104.17.11.191
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true

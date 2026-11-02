@@ -8,7 +8,7 @@ proxies:
   tls: true
   udp: true
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬 vless-SG-9406
