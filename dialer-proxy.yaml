@@ -36,7 +36,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
-  server: nomino.11hi8itbaf.workers.dev
+  server: wjofhsqteueywxeq.v.3dns.vip
   port: 443
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   alterId: 0
@@ -45,10 +45,7 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /wjofHsQtEuEywxEq.v.3dns.vip/ws-vmess
-    headers:
-      Host: nomino.11hi8itbaf.workers.dev
-  servername: nomino.11hi8itbaf.workers.dev
+    path: /ws-vmess
 - name: 🇸🇬DP vmess-SG-16105706
   interface-name: eth1
   type: vmess
@@ -86,14 +83,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: 45.77.243.143
+  server: sg003.zestapp778.com
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🇸🇬DP vless-SG-16045720
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -103,7 +100,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇸🇬DP vless-SG-16006216
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 45.132.75.213
@@ -130,7 +127,7 @@ proxies:
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -154,7 +151,15 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP ss-
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: qpSevKaUXYQKvSjp
+  server: 139.180.220.175
+  port: 8388
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -194,20 +199,20 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
-  port: 2443
-  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  server: 5.253.28.240
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
-  network: grpc
+  network: tcp
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.18.40.100
+  server: 172.66.154.57
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -218,11 +223,11 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-15056567
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 12972
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -253,7 +258,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 104.16.122.227
+  server: 104.25.95.31
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -261,13 +266,13 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-9271
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 172.64.150.43
+  server: 104.18.35.86
   port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
