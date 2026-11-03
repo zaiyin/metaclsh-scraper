@@ -9,6 +9,20 @@ proxies:
   network: tcp
   tls: true
   sni: in001.zestapp778.com
+- name: 🇸🇬DP vless-SG-16137890
+  interface-name: eth1
+  type: vless
+  server: hw6.divarkhaghazi.com
+  port: 465
+  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
+  udp: true
+  network: ws
+  tls: true
+  sni: hw6.divarkhaghazi.com.
+  ws-opts:
+    path: /
+    headers:
+      Host: hw6.divarkhaghazi.com.
 - name: 🇸🇬DP trojan-SG-16113067
   interface-name: phy0-sta0
   type: trojan
@@ -83,14 +97,14 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: sg003.zestapp778.com
+  server: 45.77.243.143
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -100,7 +114,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
   server: 45.132.75.213
@@ -127,7 +141,7 @@ proxies:
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -159,7 +173,7 @@ proxies:
   password: qpSevKaUXYQKvSjp
   server: 139.180.220.175
   port: 8388
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -189,17 +203,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15507978
-  interface-name: eth1
-  type: vless
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  udp: true
-  network: tcp
-  tls: false
-  sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
   server: 5.253.28.240
@@ -212,7 +216,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 172.66.154.57
+  server: 104.18.60.55
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -220,14 +224,14 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp=chrome
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 12972
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -236,7 +240,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -244,6 +248,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -255,10 +260,10 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-9406
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 104.25.95.31
+  server: 104.24.46.107
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -266,21 +271,20 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
   server: 104.18.35.86
-  port: 8080
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /sg-melbi
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-16108075
@@ -302,7 +306,7 @@ proxies:
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 104.17.11.191
+  server: 188.114.98.0
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
