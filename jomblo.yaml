@@ -1,17 +1,20 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
+- name: 🇸🇬 vmess-SG-16106477
+  type: vmess
   server: bug.xcp
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  alterId: 0
+  cipher: auto
   tls: true
+  network: ws
   udp: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /wjofHsQtEuEywxEq.v.3dns.vip/ws-vmess
     headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬 vless-SG-9406
+      Host: nomino.11hi8itbaf.workers.dev
+  servername: nomino.11hi8itbaf.workers.dev
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
   port: 443
@@ -23,6 +26,30 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇸🇬 vless-SG-9406
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇲🇾 vless-MY-16041484
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp

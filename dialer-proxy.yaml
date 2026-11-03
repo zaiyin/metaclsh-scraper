@@ -33,10 +33,10 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
   servername: az-1.linkaa.xyz
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
-  server: wjofhsqteueywxeq.v.3dns.vip
+  server: nomino.11hi8itbaf.workers.dev
   port: 443
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   alterId: 0
@@ -45,10 +45,10 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /wjofHsQtEuEywxEq.v.3dns.vip/ws-vmess
     headers:
-      Host: wjofhsqteueywxeq.v.3dns.vip
-  servername: wjofhsqteueywxeq.v.3dns.vip
+      Host: nomino.11hi8itbaf.workers.dev
+  servername: nomino.11hi8itbaf.workers.dev
 - name: 🇸🇬DP vmess-SG-16105706
   interface-name: eth1
   type: vmess
@@ -93,7 +93,7 @@ proxies:
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -144,7 +144,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15740597
   interface-name: eth1
   type: vless
   server: 206.206.76.75
@@ -154,7 +154,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
   server: 54.251.9.130
@@ -194,7 +194,7 @@ proxies:
   network: tcp
   tls: false
   sni: sg2-8sb.6121999.dpdns.org
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
   server: hydra.yokkastars.com
@@ -207,7 +207,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.18.45.38
+  server: 104.18.40.100
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -215,10 +215,10 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
@@ -253,7 +253,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 188.164.248.216
+  server: 104.16.122.227
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -261,7 +261,7 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   ws-opts:
-    path: /fp=chrome
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇬DP vless-SG-9271
@@ -273,6 +273,7 @@ proxies:
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
     path: /sg-melbi
     headers:
@@ -293,7 +294,7 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
   servername: az-1.linkaa.xyz
-- name: 🏳DP vless-
+- name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
   server: 104.17.11.191
@@ -315,6 +316,14 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
   sni: moltbot.doctoroyy.net
+- name: 🇲🇾DP ss-MY-15251386
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: chacha20-ietf-poly1305
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  server: xunlinknode.csdjhajkshdjkas.com
+  port: 40006
 - name: 🇲🇾DP vmess-MY-14164165
   interface-name: eth1
   type: vmess
