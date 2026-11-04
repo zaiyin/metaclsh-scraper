@@ -23,14 +23,6 @@ proxies:
     path: /
     headers:
       Host: hw6.divarkhaghazi.com.
-- name: 🇸🇬DP trojan-SG-16113067
-  interface-name: phy0-sta0
-  type: trojan
-  server: ench-snet-app.w-ctrip.cn
-  port: 15589
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  udp: true
-  sni: cm.g.doubleclick.net
 - name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
@@ -44,22 +36,9 @@ proxies:
   network: ws
   ws-opts:
     path: /ws-vmess
-- name: 🇸🇬DP vmess-SG-16105706
-  interface-name: eth1
-  type: vmess
-  server: mdk.mdmekjll.best
-  port: 80
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: /game/resources
     headers:
-      Host: mdk.mdmekjll.best
-  servername: mdk.mdmekjll.best
+      Host: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
@@ -125,7 +104,7 @@ proxies:
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -182,7 +161,7 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.240
   port: 40443
   uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
   udp: true
@@ -203,20 +182,20 @@ proxies:
     path: /eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=
     headers:
       Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -224,7 +203,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -235,7 +214,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: 149.88.23.202
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -278,6 +256,34 @@ proxies:
     path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
     headers:
       Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: 172.67.231.28
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /fp=chromefp=unsafe
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
