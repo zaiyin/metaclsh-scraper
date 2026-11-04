@@ -1,16 +1,31 @@
 proxies:
+- name: 🇸🇬 vmess-SG-16106477
+  type: vmess
+  server: bug.xcp
+  port: 443
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  udp: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
 - name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  port: 2096
+  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=
     headers:
-      Host: ccc.010304.xyz
+      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
 - name: 🇲🇾 vless-MY-16041484
   type: vless
   server: bug.xcp

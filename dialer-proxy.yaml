@@ -50,7 +50,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
-  server: wjofhsqteueywxeq.v.3dns.vip
+  server: wjofHsQtEuEywxEq.v.3dns.vip
   port: 443
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   alterId: 0
@@ -60,6 +60,9 @@ proxies:
   network: ws
   ws-opts:
     path: /ws-vmess
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
 - name: 🇸🇬DP vmess-SG-16105706
   interface-name: eth1
   type: vmess
@@ -165,14 +168,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP ss-
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: qpSevKaUXYQKvSjp
-  server: 139.180.220.175
-  port: 8388
 - name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
@@ -216,22 +211,22 @@ proxies:
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 104.18.60.55
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 190.93.244.166
+  port: 2096
+  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
   udp: true
   network: ws
   tls: true
-  sni: ccc.010304.xyz
+  sni: wQa3mioJJR8fYoZhIui--su3-UCG1GDx.pages.DEv
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=
     headers:
-      Host: ccc.010304.xyz
+      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -240,7 +235,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -248,7 +243,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
@@ -277,14 +271,15 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 104.18.35.86
-  port: 2082
+  server: 188.114.99.0
+  port: 8080
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   network: ws
   tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
   ws-opts:
-    path: /fp
+    path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇲🇾DP vmess-MY-16108075
@@ -306,7 +301,7 @@ proxies:
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 188.114.98.0
+  server: 8.35.211.242
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
