@@ -26,7 +26,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
-  server: wjofhsqteueywxeq.v.3dns.vip
+  server: wjofHsQtEuEywxEq.v.3dns.vip
   port: 443
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   alterId: 0
@@ -37,8 +37,8 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: wjofhsqteueywxeq.v.3dns.vip
-  servername: wjofhsqteueywxeq.v.3dns.vip
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
@@ -77,7 +77,17 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16042269
+  interface-name: eth1
+  type: vless
+  server: 5.34.177.164
+  port: 443
+  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
+  udp: true
+  network: tcp
+  tls: false
+  sni: gateway.icloud.com
+- name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
   server: 45.132.75.213
@@ -158,14 +168,14 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇮🇳DP vless-IN
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  server: hydra.yokkastars.com
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
-  network: tcp
+  network: grpc
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
@@ -195,7 +205,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -203,7 +213,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -268,20 +278,6 @@ proxies:
   sni: ccc.010304.xyz
   ws-opts:
     path: /fp=chromefp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: eth1
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
 - name: 🇲🇾DP vless-MY-16041484
