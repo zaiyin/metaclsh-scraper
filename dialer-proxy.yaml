@@ -67,7 +67,7 @@ proxies:
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -148,16 +148,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15532142
-  interface-name: eth1
-  type: vless
-  server: 54.169.200.246
-  port: 41688
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇸🇬DP vless-SG-15528654
   interface-name: eth1
   type: vless
@@ -168,10 +158,10 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🏳DP vless-
+- name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: hydra.yokkastars.com
+  server: 5.253.28.240
   port: 2443
   uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
   udp: true
@@ -205,7 +195,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -213,7 +203,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP vmess-
+- name: 🇸🇬DP vmess-SG-7297225
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
@@ -280,10 +270,24 @@ proxies:
     path: /fp=chromefp=unsafe
     headers:
       Host: ccc.010304.xyz
-- name: 🇲🇾DP vless-MY-16041484
+- name: 🇸🇬DP vless-SG-8430
   interface-name: eth1
   type: vless
-  server: 8.35.211.242
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  tls: true
+  sni: ccc.010304.xyz
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 104.21.91.49
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
