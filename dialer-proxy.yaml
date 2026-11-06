@@ -9,6 +9,16 @@ proxies:
   network: tcp
   tls: true
   sni: in001.zestapp778.com
+- name: 🇸🇬DP vless-SG-16155404
+  interface-name: eth1
+  type: vless
+  server: sg003.zestapp778.com
+  port: 443
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  network: tcp
+  tls: true
+  sni: sg003.zestapp778.com
 - name: 🇸🇬DP vless-SG-16137890
   interface-name: eth1
   type: vless
@@ -60,7 +70,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: 45.77.243.143
+  server: 45.76.155.179
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -107,7 +117,7 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
-- name: 🇸🇬DP trojan-SG-15907555
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
@@ -138,12 +148,22 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-15533664
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 54.251.9.130
   port: 24146
   uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.intel.com
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 54.169.200.246
+  port: 41688
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
   udp: true
   network: tcp
   tls: false
@@ -161,27 +181,26 @@ proxies:
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
-  server: 5.253.28.240
-  port: 2443
-  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   udp: true
-  network: grpc
+  network: tcp
   tls: false
   sni: deepl.com
 - name: 🇸🇬DP vless-SG-15179748
   interface-name: eth1
   type: vless
-  server: 190.93.244.166
-  port: 2096
-  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
+  server: 89.117.112.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: wQa3mioJJR8fYoZhIui--su3-UCG1GDx.pages.DEv
+  tls: false
   ws-opts:
-    path: /eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=
+    path: /
     headers:
-      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
+      Host: vms.lifetime11.workers.dev
 - name: 🇸🇬DP vless-SG-15056567
   interface-name: eth1
   type: vless
@@ -231,63 +250,35 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 172.64.150.43
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.18.41.190
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
   udp: true
   network: ws
-  tls: false
-  sni: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  sni: ex3r.qzz.io
   ws-opts:
-    path: /
+    path: /sg-orcl
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ex3r.qzz.io
 - name: 🇸🇬DP vless-SG-9203
   interface-name: eth1
   type: vless
-  server: 190.93.245.187
-  port: 8443
-  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
-  udp: true
-  network: ws
-  tls: true
-  sni: WQa3MIOjjR8fYOzhiui--sU3-uCG1Gdx.pAgEs.dEv
-  ws-opts:
-    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
-    headers:
-      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: eth1
-  type: vless
-  server: 172.67.231.28
+  server: 104.234.239.139
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 70756c73-0000-4000-8000-650000000000
   udp: true
   network: ws
   tls: true
-  sni: ccc.010304.xyz
+  sni: parsa-panel-u48we.wotic15356.workers.dev
   ws-opts:
-    path: /fp=chromefp=unsafe
+    path: /pulse
     headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇬DP vless-SG-8430
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  tls: true
-  sni: ccc.010304.xyz
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 104.21.91.49
+  server: 172.67.166.188
   port: 443
   uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   udp: true
@@ -298,7 +289,7 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
