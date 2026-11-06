@@ -11,42 +11,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime11.workers.dev
-- name: 🇸🇬 vless-SG-9271
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🇸🇬 vless-SG-9203
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 70756c73-0000-4000-8000-650000000000
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /pulse
-    headers:
-      Host: parsa-panel-u48we.wotic15356.workers.dev
-- name: 🇲🇾 vless-MY-16041484
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾 vless-MY-5067522
   type: vless
   server: bug.xcp
