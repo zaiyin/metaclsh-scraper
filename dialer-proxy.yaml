@@ -9,6 +9,14 @@ proxies:
   network: tcp
   tls: true
   sni: in001.zestapp778.com
+- name: 🇸🇬DP trojan-SG-16172928
+  interface-name: phy0-sta0
+  type: trojan
+  server: 15.235.184.127
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: exploredigitaljobplatformandfindonlinework.com
 - name: 🇸🇬DP vless-SG-16168448
   interface-name: eth1
   type: vless
@@ -29,6 +37,22 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
+- name: 🇸🇬DP ss-SG-16159641
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.107.74
+  port: 19999
+- name: 🇸🇬DP ss-SG-16158716
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.107.47
+  port: 19999
 - name: 🇸🇬DP vless-SG-16155404
   interface-name: eth1
   type: vless
@@ -39,20 +63,6 @@ proxies:
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🇸🇬DP vless-SG-16137890
-  interface-name: eth1
-  type: vless
-  server: hw6.divarkhaghazi.com
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  network: ws
-  tls: true
-  sni: hw6.divarkhaghazi.com.
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
 - name: 🇸🇬DP vmess-SG-16106477
   interface-name: eth1
   type: vmess
@@ -80,7 +90,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
-  server: 140.235.11.243
+  server: sg1.zestapp778.com
   port: 56984
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -147,13 +157,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  server: 139.162.27.96
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
+  network: ws
+  tls: true
+  sni: free-server.techsonic.dev
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: 🇸🇬DP vless-SG-15740597
   interface-name: eth1
   type: vless
