@@ -9,46 +9,26 @@ proxies:
   network: tcp
   tls: true
   sni: in001.zestapp778.com
-- name: 🇸🇬DP ss-SG-16160240
-  interface-name: phy0-sta0
-  type: ss
+- name: 🇸🇬DP vless-SG-16168448
+  interface-name: eth1
+  type: vless
+  server: 134.255.211.36
+  port: 443
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
   udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 51.79.228.131
-  port: 19999
-- name: 🇸🇬DP ss-SG-16160175
-  interface-name: phy0-sta0
-  type: ss
+  network: tcp
+  tls: false
+  sni: sg-sin.probe.geomyip.com
+- name: 🇸🇬DP vless-SG-16168267
+  interface-name: eth1
+  type: vless
+  server: 43.163.112.174
+  port: 443
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
   udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.182.183
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159974
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159819
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.106.74
-  port: 19999
-- name: 🇸🇬DP ss-SG-16158716
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.107.47
-  port: 19999
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-16155404
   interface-name: eth1
   type: vless
@@ -127,7 +107,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16042269
   interface-name: eth1
   type: vless
   server: 5.34.177.164
@@ -167,17 +147,13 @@ proxies:
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
-  server: 139.162.27.96
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
   udp: true
-  network: ws
-  tls: true
-  sni: free-server.techsonic.dev
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
+  network: tcp
+  tls: false
+  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-15740597
   interface-name: eth1
   type: vless
@@ -218,30 +194,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇮🇳DP vless-IN
-  interface-name: eth1
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  udp: true
-  network: tcp
-  tls: false
-  sni: deepl.com
-- name: 🇸🇬DP vless-SG-15179748
-  interface-name: eth1
-  type: vless
-  server: 104.18.0.1
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  udp: true
-  network: ws
-  tls: true
-  sni: all.speedtest03.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: all.speedtest03.ccwu.cc
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless

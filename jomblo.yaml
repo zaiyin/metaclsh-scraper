@@ -1,16 +1,4 @@
 proxies:
-- name: 🇸🇬 vless-SG-15179748
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: all.speedtest03.ccwu.cc
 - name: 🇲🇾 vless-MY-16041484
   type: vless
   server: bug.xcp
