@@ -77,6 +77,22 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
+- name: 🇸🇬DP ss-SG-16159974
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 15.235.164.133
+  port: 19999
+- name: 🏳DP ss-
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.106.74
+  port: 19999
 - name: 🇸🇬DP ss-SG-16159641
   interface-name: phy0-sta0
   type: ss
@@ -85,16 +101,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🇸🇬DP vless-SG-16155404
-  interface-name: eth1
-  type: vless
-  server: sg003.zestapp778.com
-  port: 443
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  network: tcp
-  tls: true
-  sni: sg003.zestapp778.com
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
@@ -106,7 +112,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
-  server: 140.235.11.243
+  server: sg1.zestapp778.com
   port: 56984
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -143,7 +149,7 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🇸🇬DP vless-SG-16006216
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 45.132.75.213
@@ -214,16 +220,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇸🇬DP vless-SG-15528654
-  interface-name: eth1
-  type: vless
-  server: 46.137.202.178
-  port: 12512
-  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.intel.com
 - name: 🇮🇳DP vless-IN
   interface-name: eth1
   type: vless
@@ -234,6 +230,30 @@ proxies:
   network: tcp
   tls: false
   sni: deepl.com
+- name: 🇸🇬DP vless-SG-15179748
+  interface-name: eth1
+  type: vless
+  server: 8.35.211.73
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  network: ws
+  tls: true
+  sni: d39333476.pages.dev
+  ws-opts:
+    path: /resource
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: eth1
+  type: vless
+  server: 3.0.111.82
+  port: 17623
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
 - name: 🇲🇾DP vless-MY-16041484
   interface-name: eth1
   type: vless

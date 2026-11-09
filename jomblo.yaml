@@ -11,15 +11,15 @@ proxies:
     path: /shanhai/sg01
     headers:
       Host: sg01.cdn00.top
-- name: 🇲🇾 vless-MY-16041484
+- name: 🇸🇬 vless-SG-15179748
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /vlessws
+    path: /resource
     headers:
-      Host: vpn.cintaku.qzz.io
+      Host: d39333476.pages.dev
