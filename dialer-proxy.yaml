@@ -10,16 +10,6 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇮🇩DP vless-ID-16101738
-  interface-name: eth1
-  type: vless
-  server: 130.94.95.198
-  port: 57353
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  network: tcp
-  tls: true
-  sni: in001.zestapp778.com
 - name: 🇸🇬DP vless-SG-16187756
   interface-name: eth1
   type: vless
@@ -61,46 +51,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP ss-SG-16160240
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 51.79.228.131
-  port: 19999
-- name: 🇸🇬DP ss-SG-16160175
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.182.183
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159974
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
-  port: 19999
-- name: 🏳DP ss-
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.106.74
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159641
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.107.74
-  port: 19999
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
@@ -112,7 +62,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
-  server: sg1.zestapp778.com
+  server: 140.235.11.243
   port: 56984
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -248,7 +198,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
