@@ -10,6 +10,38 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇮🇩DP vless-ID-16101738
+  interface-name: eth1
+  type: vless
+  server: 130.94.95.198
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  network: tcp
+  tls: true
+  sni: in001.zestapp778.com
+- name: 🇸🇬DP vmess-SG-16205492
+  interface-name: eth1
+  type: vmess
+  server: 195.133.135.238
+  port: 10086
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-16203218
+  interface-name: eth1
+  type: vmess
+  server: 116.88.224.217
+  port: 8080
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -78,22 +110,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🇸🇬DP ss-SG-16159974
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159819
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.106.74
-  port: 19999
 - name: 🇸🇬DP ss-SG-16159641
   interface-name: phy0-sta0
   type: ss
@@ -121,13 +137,12 @@ proxies:
 - name: 🇸🇬DP vless-SG-16089499
   interface-name: eth1
   type: vless
-  server: sg1.zestapp778.com
+  server: 140.235.11.243
   port: 56984
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   network: tcp
   tls: true
-  sni: sg1.zestapp778.com
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
@@ -168,7 +183,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🇸🇬DP vless-SG-16005100
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -185,7 +200,7 @@ proxies:
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-- name: 🇸🇬DP vless-SG-15856687
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 139.162.27.96
@@ -229,44 +244,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.intel.com
-- name: 🇮🇳DP vless-IN
-  interface-name: eth1
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  udp: true
-  network: tcp
-  tls: false
-  sni: deepl.com
-- name: 🇸🇬DP vless-SG-15179748
-  interface-name: eth1
-  type: vless
-  server: 8.35.211.73
-  port: 2087
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
-  udp: true
-  network: ws
-  tls: true
-  sni: d39333476.pages.dev
-  ws-opts:
-    path: /resource
-    headers:
-      Host: d39333476.pages.dev
-- name: 🇲🇾DP vless-MY-16041484
-  interface-name: eth1
-  type: vless
-  server: 104.17.11.191
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  udp: true
-  network: ws
-  tls: true
-  sni: vpn.cintaku.qzz.io
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
 - name: 🇲🇾DP vmess-MY-15912327
   interface-name: eth1
   type: vmess
