@@ -84,38 +84,6 @@ proxies:
   network: tcp
   tls: false
   sni: sg-sin.probe.geomyip.com
-- name: 🇸🇬DP ss-SG-16160240
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 51.79.228.131
-  port: 19999
-- name: 🇸🇬DP ss-SG-16160175
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.182.183
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159974
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
-  port: 19999
-- name: 🏳DP ss-
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.106.74
-  port: 19999
 - name: 🇸🇬DP ss-SG-16159641
   interface-name: phy0-sta0
   type: ss
@@ -124,7 +92,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
   server: 149.28.130.108
@@ -145,7 +113,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16082893
   interface-name: eth1
   type: vless
-  server: sg003.zestapp778.com
+  server: 45.76.155.179
   port: 443
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -162,16 +130,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🇸🇬DP vless-SG-16042269
-  interface-name: eth1
-  type: vless
-  server: 5.34.177.164
-  port: 443
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-  udp: true
-  network: tcp
-  tls: false
-  sni: gateway.icloud.com
 - name: 🇸🇬DP vless-SG-16006216
   interface-name: eth1
   type: vless
@@ -192,14 +150,13 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-15907555
   interface-name: phy0-sta0
   type: trojan
   server: 139.180.146.200
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
-  sni: 139.180.146.200
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
@@ -214,16 +171,6 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬DP vless-SG-15740597
-  interface-name: eth1
-  type: vless
-  server: 206.206.76.75
-  port: 443
-  uuid: 32cf52f4-b8d2-4ed5-a37c-0d0a8e743309
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-15533664
   interface-name: eth1
   type: vless
@@ -258,6 +205,27 @@ proxies:
     path: /sg-amz
     headers:
       Host: partner.catchplay.com.r3xxe.eu.cc
+- name: 🇸🇬DP vless-SG-15056567
+  interface-name: eth1
+  type: vless
+  server: 3.0.111.82
+  port: 17623
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.apple.com
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
 - name: 🇲🇾DP vmess-MY-15912327
   interface-name: eth1
   type: vmess
@@ -269,7 +237,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP trojan-
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
