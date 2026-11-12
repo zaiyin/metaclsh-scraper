@@ -1,13 +1,1 @@
-proxies:
-- name: 🇸🇬 vless-SG-16187756
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /shanhai/sg01
-    headers:
-      Host: sg01.cdn00.top
+proxies: []
