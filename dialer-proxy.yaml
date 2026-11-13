@@ -39,7 +39,7 @@ proxies:
 - name: 🇸🇬DP vless-SG-16219840
   interface-name: eth1
   type: vless
-  server: yx.l110.us.ci
+  server: 143.42.66.91
   port: 443
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
@@ -82,7 +82,7 @@ proxies:
   network: tcp
   tls: true
   sni: www.bing.com
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16172928
   interface-name: phy0-sta0
   type: trojan
   server: 15.235.184.127
@@ -100,6 +100,22 @@ proxies:
   network: tcp
   tls: false
   sni: sg-sin.probe.geomyip.com
+- name: 🇸🇬DP ss-SG-16160240
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 51.79.228.131
+  port: 19999
+- name: 🇸🇬DP ss-SG-16159974
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 15.235.164.133
+  port: 19999
 - name: 🇸🇬DP ss-SG-16159819
   interface-name: phy0-sta0
   type: ss
@@ -108,15 +124,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
   port: 19999
-- name: 🇸🇬DP ss-SG-16159641
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.107.74
-  port: 19999
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
   type: trojan
   server: 149.28.130.108
@@ -154,7 +162,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16042269
   interface-name: eth1
   type: vless
   server: 5.34.177.164
@@ -233,24 +241,12 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 17623
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
-  interface-name: eth1
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-  servername: Telegram-Leviko_v2ray
 - name: 🇲🇾DP vless-MY-16216751
   interface-name: eth1
   type: vless
