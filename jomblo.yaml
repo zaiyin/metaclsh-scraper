@@ -2,12 +2,12 @@ proxies:
 - name: 🇸🇬 vless-SG-16219840
   type: vless
   server: bug.xcp
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   network: ws
-  tls: false
+  tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime28.workers.dev
+      Host: fs.qicai99.com

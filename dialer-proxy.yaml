@@ -1,4 +1,20 @@
 proxies:
+- name: 🇮🇩DP vmess-ID-16223638
+  interface-name: eth1
+  type: vmess
+  server: 13.249.231.85
+  port: 443
+  uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
+  alterId: 0
+  cipher: auto
+  tls: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+  servername: d7pu5mzr9c4b0.cloudfront.net
 - name: 🇮🇩DP vmess-ID-16189659
   interface-name: eth1
   type: vmess
@@ -23,16 +39,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-16219840
   interface-name: eth1
   type: vless
-  server: 216.24.57.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: yx.l110.us.ci
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   network: ws
-  tls: false
+  tls: true
+  sni: fs.qicai99.com
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime28.workers.dev
+      Host: fs.qicai99.com
 - name: 🇸🇬DP vmess-SG-16205492
   interface-name: eth1
   type: vmess
@@ -65,7 +82,7 @@ proxies:
   network: tcp
   tls: true
   sni: www.bing.com
-- name: 🇸🇬DP trojan-SG-16172928
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 15.235.184.127
@@ -83,22 +100,6 @@ proxies:
   network: tcp
   tls: false
   sni: sg-sin.probe.geomyip.com
-- name: 🇸🇬DP ss-SG-16160175
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.182.183
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159974
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
-  port: 19999
 - name: 🇸🇬DP ss-SG-16159819
   interface-name: phy0-sta0
   type: ss
@@ -107,7 +108,15 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
   port: 19999
-- name: 🇸🇬DP trojan-SG-16102636
+- name: 🇸🇬DP ss-SG-16159641
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.107.74
+  port: 19999
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 149.28.130.108
@@ -135,7 +144,7 @@ proxies:
   network: tcp
   tls: true
   sni: sg003.zestapp778.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
   server: 134.185.81.5
@@ -165,7 +174,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.cloudflare.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16005100
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -224,7 +233,7 @@ proxies:
   interface-name: eth1
   type: vless
   server: 3.0.111.82
-  port: 10574
+  port: 17623
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   udp: true
   network: tcp
@@ -241,6 +250,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
+  servername: Telegram-Leviko_v2ray
 - name: 🇲🇾DP vless-MY-16216751
   interface-name: eth1
   type: vless
