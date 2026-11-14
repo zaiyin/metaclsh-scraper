@@ -35,3 +35,27 @@ proxies:
     path: /fp=chrome
     headers:
       Host: fs.qicai99.com
+- name: 🇸🇬 vless-SG-8862
+  type: vless
+  server: bug.xcp
+  port: 8443
+  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+    headers:
+      Host: liusuyan.cc.cd
+- name: 🇸🇬 vless-SG-8430
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG

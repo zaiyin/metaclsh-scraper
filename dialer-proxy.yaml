@@ -79,6 +79,22 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: exploredigitaljobplatformandfindonlinework.com
+- name: 🇸🇬DP ss-SG-16160240
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 51.79.228.131
+  port: 19999
+- name: 🇸🇬DP ss-SG-16160175
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 15.235.182.183
+  port: 19999
 - name: 🇸🇬DP ss-SG-16159974
   interface-name: phy0-sta0
   type: ss
@@ -94,6 +110,14 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
+  port: 19999
+- name: 🇸🇬DP ss-SG-16159641
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.107.74
   port: 19999
 - name: 🇸🇬DP ss-SG-16158716
   interface-name: phy0-sta0
@@ -111,16 +135,6 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: searchcreativejobsandshowcaseyourartistictalents.com
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 140.235.11.243
-  port: 56984
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  network: tcp
-  tls: true
-  sni: sg1.zestapp778.com
 - name: 🇸🇬DP vless-SG-16045720
   interface-name: eth1
   type: vless
@@ -141,16 +155,6 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🇸🇬DP vless-SG-16006216
-  interface-name: eth1
-  type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  udp: true
-  network: tcp
-  tls: false
-  sni: www.cloudflare.com
 - name: 🇸🇬DP vless-SG-16005100
   interface-name: eth1
   type: vless
@@ -212,7 +216,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -259,6 +263,34 @@ proxies:
     path: /fp=chrome
     headers:
       Host: fs.qicai99.com
+- name: 🇸🇬DP vless-SG-8862
+  interface-name: eth1
+  type: vless
+  server: cf.090227.xyz
+  port: 8443
+  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
+  udp: true
+  network: ws
+  tls: true
+  sni: liusuyan.cc.cd
+  ws-opts:
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+    headers:
+      Host: liusuyan.cc.cd
+- name: 🇸🇬DP vless-SG-8430
+  interface-name: eth1
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  network: ws
+  tls: true
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇲🇾DP vless-MY-16216751
   interface-name: eth1
   type: vless
@@ -269,7 +301,7 @@ proxies:
   network: tcp
   tls: false
   sni: api.adidas.com
-- name: 🏳DP trojan-
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
