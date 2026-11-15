@@ -50,7 +50,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vless-SG-16198472
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 207.148.124.12
@@ -76,7 +76,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🇸🇬DP ss-SG-16160175
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -84,13 +84,13 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🇸🇬DP ss-SG-16159974
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 15.235.164.133
+  server: 149.88.107.74
   port: 19999
 - name: 🏳DP ss-
   interface-name: phy0-sta0
@@ -98,7 +98,7 @@ proxies:
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.106.74
+  server: 149.88.107.47
   port: 19999
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
@@ -189,7 +189,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -197,7 +197,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP vmess-SG-7297225
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: 149.88.23.202
