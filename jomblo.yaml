@@ -2,15 +2,15 @@ proxies:
 - name: 🇸🇬 vless-SG-16219840
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: fs.qicai99.com
+      Host: vms.lifetime28.workers.dev
 - name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
@@ -26,15 +26,15 @@ proxies:
 - name: 🇸🇬 vless-SG-9271
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: fs.qicai99.com
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬 vless-SG-8862
   type: vless
   server: bug.xcp
@@ -47,15 +47,15 @@ proxies:
     path: /proxyip=ProxyIP.SG.CMLiussss.Net
     headers:
       Host: liusuyan.cc.cd
-- name: 🇸🇬 vless-SG-8430
+- name: 🇸🇬 vless-SG-8105
   type: vless
   server: bug.xcp
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   network: ws
   tls: true
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: fs.qicai99.com

@@ -26,30 +26,19 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇮🇩DP vless-ID-16101738
-  interface-name: eth1
-  type: vless
-  server: 130.94.95.198
-  port: 57353
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  network: tcp
-  tls: true
-  sni: in001.zestapp778.com
 - name: 🇸🇬DP vless-SG-16219840
   interface-name: eth1
   type: vless
-  server: 143.42.66.91
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  server: 216.24.57.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   network: ws
-  tls: true
-  sni: fs.qicai99.com
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: fs.qicai99.com
+      Host: vms.lifetime28.workers.dev
 - name: 🇸🇬DP vmess-SG-16205492
   interface-name: eth1
   type: vmess
@@ -103,29 +92,13 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
   port: 19999
-- name: 🇸🇬DP ss-SG-16159819
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
-  port: 19999
-- name: 🇸🇬DP ss-SG-16159641
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.107.74
-  port: 19999
-- name: 🇸🇬DP ss-SG-16158716
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  server: 149.88.107.47
   port: 19999
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
@@ -216,7 +189,7 @@ proxies:
 - name: 🇸🇬DP vmess-SG-7314090
   interface-name: eth1
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -252,17 +225,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
-  server: 143.42.66.91
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
   udp: true
   network: ws
-  tls: true
-  sni: fs.qicai99.com
+  tls: false
+  sni: www.gov.se
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: fs.qicai99.com
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
@@ -277,20 +250,20 @@ proxies:
     path: /proxyip=ProxyIP.SG.CMLiussss.Net
     headers:
       Host: liusuyan.cc.cd
-- name: 🇸🇬DP vless-SG-8430
+- name: 🇸🇬DP vless-SG-8105
   interface-name: eth1
   type: vless
-  server: 162.159.152.4
+  server: 172.67.74.177
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   network: ws
   tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  sni: fs.qicai99.com
   ws-opts:
     path: /
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: fs.qicai99.com
 - name: 🇲🇾DP vless-MY-16216751
   interface-name: eth1
   type: vless
