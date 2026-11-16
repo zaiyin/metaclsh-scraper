@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬 vless-SG-16235591
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 12d32e9b-d41f-4677-aa51-83e21d2837f2
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /announcement?ed=2048fp=random
+    headers:
+      Host: ap-south.862400.xyz
 - name: 🇸🇬 vless-SG-16219840
   type: vless
   server: bug.xcp
@@ -59,15 +71,3 @@ proxies:
     path: /
     headers:
       Host: proxy-34l.pages.dev
-- name: 🇸🇬 vless-SG-8105
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com

@@ -1,20 +1,4 @@
 proxies:
-- name: 🇮🇩DP vmess-ID-16223638
-  interface-name: eth1
-  type: vmess
-  server: 13.249.231.85
-  port: 443
-  uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
-  alterId: 0
-  cipher: auto
-  tls: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-  servername: d7pu5mzr9c4b0.cloudfront.net
 - name: 🇮🇩DP vmess-ID-16189659
   interface-name: eth1
   type: vmess
@@ -26,6 +10,20 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🇸🇬DP vless-SG-16235591
+  interface-name: eth1
+  type: vless
+  server: freev2.cloudflare.182682.xyz
+  port: 443
+  uuid: 12d32e9b-d41f-4677-aa51-83e21d2837f2
+  udp: true
+  network: ws
+  tls: true
+  sni: ap-south.862400.xyz
+  ws-opts:
+    path: /announcement?ed=2048fp=random
+    headers:
+      Host: ap-south.862400.xyz
 - name: 🇸🇬DP vless-SG-16219840
   interface-name: eth1
   type: vless
@@ -58,7 +56,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: exploredigitaljobplatformandfindonlinework.com
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160240
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -66,7 +64,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🇸🇬DP ss-SG-16160175
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -74,13 +72,29 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16159974
   interface-name: phy0-sta0
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
+  port: 19999
+- name: 🇸🇬DP ss-SG-16159819
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.106.74
+  port: 19999
+- name: 🇸🇬DP ss-SG-16159641
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 149.88.107.74
   port: 19999
 - name: 🇸🇬DP trojan-SG-16102636
   interface-name: phy0-sta0
@@ -110,7 +124,7 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🇸🇬DP vless-SG-16005100
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 147.93.173.45
@@ -154,7 +168,7 @@ proxies:
   network: tcp
   tls: false
   sni: www.apple.com
-- name: 🇸🇬DP vmess-SG-7314090
+- name: 🏳DP vmess-
   interface-name: eth1
   type: vmess
   server: ww11.levikogjgfdd.ir
@@ -232,20 +246,6 @@ proxies:
     path: /
     headers:
       Host: proxy-34l.pages.dev
-- name: 🇸🇬DP vless-SG-8105
-  interface-name: eth1
-  type: vless
-  server: 172.67.74.177
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  network: ws
-  tls: true
-  sni: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
