@@ -71,3 +71,27 @@ proxies:
     path: /
     headers:
       Host: proxy-34l.pages.dev
+- name: 🇸🇬 vless-SG-7966
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /sg-amz
+    headers:
+      Host: partner.catchplay.com.r3xxe.eu.cc
+- name: 🇲🇾 vless-MY-16236088
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d801d4d9-111a-46e8-91fc-e2fb39ef2d22
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: 382218.xyz
