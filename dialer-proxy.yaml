@@ -38,7 +38,7 @@ proxies:
     path: /
     headers:
       Host: vless2-8vx.pages.dev
-- name: 🇸🇬DP vless-SG-16198472
+- name: 🏳DP vless-
   interface-name: eth1
   type: vless
   server: 207.148.124.12
@@ -80,7 +80,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
   port: 19999
-- name: 🇸🇬DP ss-SG-16159819
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -96,7 +96,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🇸🇬DP ss-SG-16158716
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -182,20 +182,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🇸🇬DP vless-SG-9271
-  interface-name: eth1
-  type: vless
-  server: www.gov.se
-  port: 8080
-  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
-  udp: true
-  network: ws
-  tls: false
-  sni: www.gov.se
-  ws-opts:
-    path: /
-    headers:
-      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬DP vless-SG-8862
   interface-name: eth1
   type: vless
@@ -280,6 +266,19 @@ proxies:
     path: /sync
     headers:
       Host: smart-edge-424.arti98399-1905.workers.dev
+- name: 🇸🇬DP vless-SG-7429
+  interface-name: eth1
+  type: vless
+  server: 104.18.109.147
+  port: 2052
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /Telegram-XV2ry2?ed=2048
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
 - name: 🇲🇾DP vless-MY-16236088
   interface-name: eth1
   type: vless
