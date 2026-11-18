@@ -62,15 +62,15 @@ proxies:
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
-  port: 2083
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: proxy-34l.pages.dev
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬 vless-SG-7966
   type: vless
   server: bug.xcp
@@ -83,6 +83,18 @@ proxies:
     path: /sg-amz
     headers:
       Host: partner.catchplay.com.r3xxe.eu.cc
+- name: 🇸🇬 vless-SG-7801
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: ec24cde1-6bd9-4b69-baf7-270e8aabd6dd
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560fp=unsafe
+    headers:
+      Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
 - name: 🇲🇾 vless-MY-16236088
   type: vless
   server: bug.xcp
