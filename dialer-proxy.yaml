@@ -80,7 +80,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16159819
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -96,7 +96,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16158716
   interface-name: phy0-sta0
   type: ss
   udp: true
