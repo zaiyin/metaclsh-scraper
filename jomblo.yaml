@@ -11,42 +11,18 @@ proxies:
     path: /announcement?ed=2048fp=random
     headers:
       Host: ap-south.862400.xyz
-- name: 🇸🇬 vless-SG-16219840
+- name: 🇸🇬 vless-SG-9406
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   network: ws
-  tls: true
+  tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: vless2-8vx.pages.dev
-- name: 🇸🇬 vless-SG-9406
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: ec24cde1-6bd9-4b69-baf7-270e8aabd6dd
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🇸🇬 vless-SG-8862
-  type: vless
-  server: bug.xcp
-  port: 8443
-  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    headers:
-      Host: liusuyan.cc.cd
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬 vless-SG-8430
   type: vless
   server: bug.xcp
@@ -59,18 +35,6 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬 vless-SG-7966
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /sg-amz
-    headers:
-      Host: partner.catchplay.com.r3xxe.eu.cc
 - name: 🇸🇬 vless-SG-7801
   type: vless
   server: bug.xcp
@@ -83,6 +47,42 @@ proxies:
     path: /?ed=2560fp=unsafe
     headers:
       Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
+- name: 🇸🇬 vless-SG-3708
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: party-5cn.pages.dev
+- name: 🇸🇬 vless-SG-2543
+  type: vless
+  server: bug.xcp
+  port: 2096
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: rainfall0705.cc.cd
+- name: 🇸🇬 vless-SG-1915
+  type: vless
+  server: bug.xcp
+  port: 80
+  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /id-amz
+    headers:
+      Host: e33xr.qzz.io
 - name: 🇲🇾 vless-MY-16236088
   type: vless
   server: bug.xcp

@@ -24,20 +24,6 @@ proxies:
     path: /announcement?ed=2048fp=random
     headers:
       Host: ap-south.862400.xyz
-- name: 🇸🇬DP vless-SG-16219840
-  interface-name: eth1
-  type: vless
-  server: 27.50.48.6
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  udp: true
-  network: ws
-  tls: true
-  sni: vless2-8vx.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: vless2-8vx.pages.dev
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -72,7 +58,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🇸🇬DP ss-SG-16159974
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -171,31 +157,17 @@ proxies:
 - name: 🇸🇬DP vless-SG-9406
   interface-name: eth1
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: ec24cde1-6bd9-4b69-baf7-270e8aabd6dd
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   udp: true
   network: ws
-  tls: true
-  sni: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
+  tls: false
+  sni: ip.sb
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🇸🇬DP vless-SG-8862
-  interface-name: eth1
-  type: vless
-  server: cf.090227.xyz
-  port: 8443
-  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
-  udp: true
-  network: ws
-  tls: true
-  sni: liusuyan.cc.cd
-  ws-opts:
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-    headers:
-      Host: liusuyan.cc.cd
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬DP vless-SG-8430
   interface-name: eth1
   type: vless
@@ -210,34 +182,6 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 104.26.13.31
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  udp: true
-  network: ws
-  tls: false
-  sni: ip.sb
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬DP vless-SG-7966
-  interface-name: eth1
-  type: vless
-  server: 141.193.213.10
-  port: 443
-  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
-  udp: true
-  network: ws
-  tls: true
-  sni: partner.catchplay.com.r3xxe.eu.cc
-  ws-opts:
-    path: /sg-amz
-    headers:
-      Host: partner.catchplay.com.r3xxe.eu.cc
 - name: 🇸🇬DP vless-SG-7801
   interface-name: eth1
   type: vless
@@ -252,33 +196,89 @@ proxies:
     path: /?ed=2560fp=unsafe
     headers:
       Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-4130
   interface-name: eth1
   type: vless
-  server: 172.67.131.125
+  server: 104.18.35.86
   port: 2083
-  uuid: f418674e-f518-4318-8ff9-e10000000046
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   udp: true
   network: ws
   tls: true
-  sni: smart-edge-424.arti98399-1905.workers.dev
+  sni: vlsovip.1d.mom
   ws-opts:
-    path: /sync
+    path: /
     headers:
-      Host: smart-edge-424.arti98399-1905.workers.dev
-- name: 🇸🇬DP vless-SG-7429
+      Host: vlsovip.1d.mom
+- name: 🇸🇬DP vless-SG-3708
   interface-name: eth1
   type: vless
-  server: 104.18.109.147
-  port: 2052
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  server: 188.114.98.0
+  port: 443
+  uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
+  udp: true
+  network: ws
+  tls: true
+  sni: party-5cn.pages.dev
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: party-5cn.pages.dev
+- name: 🇸🇬DP vless-SG-2543
+  interface-name: eth1
+  type: vless
+  server: 104.25.0.1
+  port: 2096
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  udp: true
+  network: ws
+  tls: true
+  sni: rainfall0705.cc.cd
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: rainfall0705.cc.cd
+- name: 🇸🇬DP vless-SG-2062
+  interface-name: eth1
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  network: ws
+  tls: true
+  sni: vp19.1145678.xyz
+  ws-opts:
+    path: /images/classify/dh
+    headers:
+      Host: vp19.1145678.xyz
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: yd.2.hhhhh.eu.org
+  port: 443
+  uuid: f0d6aa7c-0b34-4b68-9af8-1ea5e0b39bdc
+  udp: true
+  network: ws
+  tls: true
+  sni: ssj-wkg.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: ssj-wkg.pages.dev
+- name: 🇸🇬DP vless-SG-1915
+  interface-name: eth1
+  type: vless
+  server: 172.66.170.172
+  port: 80
+  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
   udp: true
   network: ws
   tls: false
   ws-opts:
-    path: /Telegram-XV2ry2?ed=2048
+    path: /id-amz
     headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+      Host: e33xr.qzz.io
 - name: 🇲🇾DP vless-MY-16236088
   interface-name: eth1
   type: vless
