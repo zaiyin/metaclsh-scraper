@@ -35,18 +35,18 @@ proxies:
     path: /?ed=2560fp=unsafe
     headers:
       Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🇸🇬 vless-SG-3708
+- name: 🇸🇬 vless-SG-2543
   type: vless
   server: bug.xcp
-  port: 443
-  uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
+  port: 2096
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
   network: ws
   tls: true
   udp: true
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    path: /fp=chrome
     headers:
-      Host: party-5cn.pages.dev
+      Host: rainfall0705.cc.cd
 - name: 🇲🇾 vless-MY-16236088
   type: vless
   server: bug.xcp
