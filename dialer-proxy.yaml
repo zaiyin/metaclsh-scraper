@@ -10,7 +10,7 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16239229
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -114,7 +114,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🇸🇬DP ss-SG-16160175
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -228,20 +228,6 @@ proxies:
   password: BoiX102924
   server: 8.222.161.161
   port: 9875
-- name: 🇸🇬DP vless-SG-9406
-  interface-name: eth1
-  type: vless
-  server: 104.26.13.31
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  udp: true
-  network: ws
-  tls: false
-  sni: ip.sb
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
