@@ -10,6 +10,14 @@ proxies:
   tls: false
   udp: true
   network: tcp
+- name: 🏳DP ss-
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: c11JMfCMQ3Y4aGlhMX5LrMpM13uvw+UVbjGfHP+eKkY=
+  server: 168.138.177.98
+  port: 56927
 - name: 🇸🇬DP ss-SG-16238997
   interface-name: phy0-sta0
   type: ss
@@ -58,6 +66,14 @@ proxies:
   password: to7FeiLLqmwqAG+Tn64PJ6Rexv6hExiiR6zlNfCSAaY=
   server: 161.118.242.81
   port: 56927
+- name: 🇸🇬DP ss-SG-16238339
+  interface-name: phy0-sta0
+  type: ss
+  udp: true
+  cipher: 2022-blake3-chacha20-poly1305
+  password: GMhXRpy/pfPMVrZeCAxOxI5MpuH3llOtZKoeNLUT0n8=
+  server: 158.178.230.120
+  port: 56927
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -98,7 +114,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160175
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -106,7 +122,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🇸🇬DP ss-SG-16159974
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -114,7 +130,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16159819
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -122,7 +138,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16159641
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -138,6 +154,16 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.47
   port: 19999
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 134.185.81.5
+  port: 47881
+  uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.tesla.com
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -216,21 +242,7 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬DP vless-SG-8430
-  interface-name: eth1
-  type: vless
-  server: 104.26.13.31
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  udp: true
-  network: ws
-  tls: false
-  sni: ip.sb
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
