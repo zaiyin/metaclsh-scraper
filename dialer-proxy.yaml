@@ -1,15 +1,24 @@
 proxies:
-- name: 🇮🇩DP vmess-ID-16189659
-  interface-name: eth1
-  type: vmess
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16298
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇮🇩DP trojan-ID-16240854
+  interface-name: phy0-sta0
+  type: trojan
+  server: i1tr.mateflora.com
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
-  network: tcp
+  sni: i1tr.mateflora.com
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 168.107.79.37
+  port: 443
+  uuid: c5e7a9b1-3d5f-4a6c-8b0d-2f4a6c8e0b2d
+  udp: true
+  network: ws
+  tls: true
+  sni: www.microsoft.com
+  ws-opts:
+    path: /7b9977b2af9da85fa86adc065c362efe
 - name: 🇸🇬DP trojan-SG-16240625
   interface-name: phy0-sta0
   type: trojan
@@ -18,7 +27,7 @@ proxies:
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
   sni: bgsg1.hikigo.com
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16239229
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -34,22 +43,6 @@ proxies:
   password: eV9qjQ6C+W+VrxIOfGutlA/g8a+Z+HUrIR80G0mtMCQ=
   server: 129.221.217.100
   port: 56927
-- name: 🇸🇬DP ss-SG-16238350
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: FQwWid/yN8BbtdyXcViI+ijKYMtWgeMg+o/OCChCbVc=
-  server: 129.221.181.20
-  port: 56927
-- name: 🇸🇬DP ss-SG-16238348
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: C34+ziWxv8UL1K4m74bSIqKgUWN3R5XkSDf+3vOj9RE=
-  server: 129.221.253.23
-  port: 56927
 - name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
@@ -57,14 +50,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: TlIl4pvlkROaoDMfiB/8bjOx4cXMnCc7rXLWwqPJDTc=
   server: 129.221.200.94
-  port: 56927
-- name: 🇸🇬DP ss-SG-16238341
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: RWtTKETUy87lj9TFubxPxfkWDx/JhYaQQwDjZv2Tgg0=
-  server: 161.118.221.20
   port: 56927
 - name: 🇸🇬DP ss-SG-16238340
   interface-name: phy0-sta0
@@ -82,7 +67,7 @@ proxies:
   password: GMhXRpy/pfPMVrZeCAxOxI5MpuH3llOtZKoeNLUT0n8=
   server: 158.178.230.120
   port: 56927
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16198472
   interface-name: eth1
   type: vless
   server: 207.148.124.12
@@ -140,7 +125,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16158716
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -182,28 +167,6 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🏳DP vmess-
-  interface-name: eth1
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
-- name: 🏳DP vmess-
-  interface-name: eth1
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
 - name: ??DP ss-SG-2288433
   interface-name: phy0-sta0
   type: ss
@@ -226,6 +189,62 @@ proxies:
     path: /
     headers:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-3262
+  interface-name: eth1
+  type: vless
+  server: 104.26.14.111
+  port: 443
+  uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
+  udp: true
+  network: ws
+  tls: true
+  sni: cj1-e06.pages.dev
+  ws-opts:
+    path: /fp=random
+    headers:
+      Host: cj1-e06.pages.dev
+- name: 🇸🇬DP vless-SG-3251
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-2864
+  interface-name: eth1
+  type: vless
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  udp: true
+  network: ws
+  tls: false
+  sni: ip.sb
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -233,14 +252,3 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
-- name: 🇲🇾DP vmess-MY-14164165
-  interface-name: eth1
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-  network: tcp
