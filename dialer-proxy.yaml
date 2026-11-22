@@ -10,7 +10,15 @@ proxies:
   tls: false
   udp: true
   network: tcp
-- name: 🇸🇬DP ss-SG-16239229
+- name: 🇸🇬DP trojan-SG-16240625
+  interface-name: phy0-sta0
+  type: trojan
+  server: bgsg1.hikigo.com
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  sni: bgsg1.hikigo.com
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -77,20 +85,6 @@ proxies:
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
-  udp: true
-  network: ws
-  tls: true
-  sni: ap-south.862400.xyz
-  ws-opts:
-    path: /announcement?ed=2048fp=chrome
-    headers:
-      Host: ap-south.862400.xyz
-- name: 🇸🇬DP vless-SG-16198472
-  interface-name: eth1
-  type: vless
   server: 207.148.124.12
   port: 8443
   uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
@@ -98,7 +92,7 @@ proxies:
   network: tcp
   tls: true
   sni: www.bing.com
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16172928
   interface-name: phy0-sta0
   type: trojan
   server: 15.235.184.127
@@ -146,7 +140,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🇸🇬DP ss-SG-16158716
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
