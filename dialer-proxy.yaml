@@ -98,7 +98,7 @@ proxies:
   network: tcp
   tls: true
   sni: www.bing.com
-- name: 🇸🇬DP trojan-SG-16172928
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 15.235.184.127
@@ -114,7 +114,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160175
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -122,7 +122,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.182.183
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16159974
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -174,16 +174,6 @@ proxies:
   network: tcp
   tls: false
   sni: gateway.icloud.com
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 147.93.173.45
-  port: 10444
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-  udp: true
-  network: tcp
-  tls: false
-  sni: video.yandex.ru
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
@@ -228,7 +218,21 @@ proxies:
   password: BoiX102924
   server: 8.222.161.161
   port: 9875
-- name: 🏳DP trojan-
+- name: 🇸🇬DP vless-SG-9271
+  interface-name: eth1
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  udp: true
+  network: ws
+  tls: false
+  sni: www.gov.se
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+- name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
