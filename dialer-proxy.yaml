@@ -22,7 +22,7 @@ proxies:
 - name: 🇸🇬DP trojan-SG-16240625
   interface-name: phy0-sta0
   type: trojan
-  server: bgsg1.hikigo.com
+  server: 77.93.89.2
   port: 443
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
@@ -85,7 +85,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: exploredigitaljobplatformandfindonlinework.com
-- name: 🇸🇬DP ss-SG-16160240
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -93,7 +93,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🇸🇬DP ss-SG-16160175
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -117,7 +117,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.106.74
   port: 19999
-- name: 🇸🇬DP ss-SG-16159641
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -189,6 +189,20 @@ proxies:
     path: /
     headers:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+- name: 🇸🇬DP vless-SG-7966
+  interface-name: eth1
+  type: vless
+  server: 104.18.35.86
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  udp: true
+  network: ws
+  tls: true
+  sni: vlsovip.1d.mom
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: vlsovip.1d.mom
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -203,6 +217,20 @@ proxies:
     path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
     headers:
       Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-3510
+  interface-name: eth1
+  type: vless
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  udp: true
+  network: ws
+  tls: false
+  sni: ip.sb
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬DP vless-SG-3262
   interface-name: eth1
   type: vless
@@ -217,34 +245,6 @@ proxies:
     path: /fp=random
     headers:
       Host: cj1-e06.pages.dev
-- name: 🇸🇬DP vless-SG-3251
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇸🇬DP vless-SG-2864
-  interface-name: eth1
-  type: vless
-  server: 104.26.13.31
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  udp: true
-  network: ws
-  tls: false
-  sni: ip.sb
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
