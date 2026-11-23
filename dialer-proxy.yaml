@@ -35,30 +35,6 @@ proxies:
   password: c11JMfCMQ3Y4aGlhMX5LrMpM13uvw+UVbjGfHP+eKkY=
   server: 168.138.177.98
   port: 56927
-- name: 🇸🇬DP ss-SG-16238997
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: eV9qjQ6C+W+VrxIOfGutlA/g8a+Z+HUrIR80G0mtMCQ=
-  server: 129.221.217.100
-  port: 56927
-- name: 🏳DP ss-
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: TlIl4pvlkROaoDMfiB/8bjOx4cXMnCc7rXLWwqPJDTc=
-  server: 129.221.200.94
-  port: 56927
-- name: 🇸🇬DP ss-SG-16238340
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: 2022-blake3-chacha20-poly1305
-  password: to7FeiLLqmwqAG+Tn64PJ6Rexv6hExiiR6zlNfCSAaY=
-  server: 161.118.242.81
-  port: 56927
 - name: 🇸🇬DP ss-SG-16238339
   interface-name: phy0-sta0
   type: ss
@@ -93,7 +69,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160175
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -109,7 +85,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 15.235.164.133
   port: 19999
-- name: 🇸🇬DP ss-SG-16159819
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -125,7 +101,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🇸🇬DP ss-SG-16158716
+- name: 🏳DP ss-
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -143,16 +119,6 @@ proxies:
   network: tcp
   tls: false
   sni: www.tesla.com
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 5.34.177.164
-  port: 443
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-  udp: true
-  network: tcp
-  tls: false
-  sni: gateway.icloud.com
 - name: 🇸🇬DP vless-SG-15856687
   interface-name: eth1
   type: vless
@@ -167,14 +133,6 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: ??DP ss-SG-2288433
-  interface-name: phy0-sta0
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: BoiX102924
-  server: 8.222.161.161
-  port: 9875
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
@@ -203,20 +161,6 @@ proxies:
     path: /fp=unsafe
     headers:
       Host: vlsovip.1d.mom
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-3510
   interface-name: eth1
   type: vless
@@ -245,7 +189,89 @@ proxies:
     path: /fp=random
     headers:
       Host: cj1-e06.pages.dev
-- name: 🇲🇾DP trojan-MY-15491061
+- name: 🇸🇬DP vless-SG-2864
+  interface-name: eth1
+  type: vless
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  udp: true
+  network: ws
+  tls: false
+  sni: ip.sb
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🇸🇬DP vless-SG-2742
+  interface-name: eth1
+  type: vless
+  server: 104.18.109.147
+  port: 2052
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /Telegram-XV2ry2?ed=2048
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-1912
+  interface-name: eth1
+  type: vless
+  server: kozel.cc.cd
+  port: 443
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  udp: true
+  network: ws
+  tls: true
+  sni: kozel.cc.cd
+  ws-opts:
+    path: /118.151.222.66=17317
+    headers:
+      Host: kozel.cc.cd
+- name: 🇸🇬DP vless-SG-1746
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-1556
+  interface-name: eth1
+  type: vless
+  server: 104.18.109.147
+  port: 2052
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  udp: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /Telegram-XV2ry2?ed=2048
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: 47.250.84.25
