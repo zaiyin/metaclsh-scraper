@@ -23,30 +23,6 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬 vless-SG-3262
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /fp=random
-    headers:
-      Host: cj1-e06.pages.dev
-- name: 🇸🇬 vless-SG-2864
-  type: vless
-  server: bug.xcp
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬 vless-SG-1912
   type: vless
   server: bug.xcp
