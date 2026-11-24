@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩DP trojan-ID-16240854
+- name: 🏳DP trojan-
   interface-name: phy0-sta0
   type: trojan
   server: i1tr.mateflora.com
@@ -45,7 +45,7 @@ proxies:
   network: tcp
   tls: true
   sni: www.bing.com
-- name: 🏳DP trojan-
+- name: 🇸🇬DP trojan-SG-16172928
   interface-name: phy0-sta0
   type: trojan
   server: 15.235.184.127
@@ -61,7 +61,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160175
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -93,7 +93,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.74
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16158716
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -101,20 +101,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.47
   port: 19999
-- name: 🇸🇬DP vless-SG-15856687
-  interface-name: eth1
-  type: vless
-  server: 139.162.27.96
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  tls: true
-  sni: free-server.techsonic.dev
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
 - name: 🇸🇬DP vless-SG-9271
   interface-name: eth1
   type: vless
@@ -184,20 +170,6 @@ proxies:
     path: /Telegram-XV2ry2?ed=2048
     headers:
       Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-1912
   interface-name: eth1
   type: vless
