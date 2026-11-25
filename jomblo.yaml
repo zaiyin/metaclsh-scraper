@@ -1,17 +1,29 @@
 proxies:
-- name: 🇸🇬 vless-SG-9271
+- name: 🇸🇬 vless-SG-7724
+  type: vless
+  server: bug.xcp
+  port: 443
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /118.151.222.66=17317fp=chrome
+    headers:
+      Host: kozel.cc.cd
+- name: 🇸🇬 vless-SG-3510
   type: vless
   server: bug.xcp
   port: 8080
-  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   network: ws
   tls: false
   udp: true
   ws-opts:
     path: /
     headers:
-      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
-- name: 🇸🇬 vless-SG-3510
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🇸🇬 vless-SG-2864
   type: vless
   server: bug.xcp
   port: 8080
