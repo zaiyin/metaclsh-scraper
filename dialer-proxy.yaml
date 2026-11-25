@@ -7,18 +7,42 @@ proxies:
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
   sni: i1tr.mateflora.com
-- name: 🏳DP vless-
+- name: 🇸🇬DP vless-SG-16243226
   interface-name: eth1
   type: vless
-  server: 168.107.79.37
+  server: free.server.darknetlk.com
   port: 443
-  uuid: c5e7a9b1-3d5f-4a6c-8b0d-2f4a6c8e0b2d
+  uuid: 076799f8-d922-4bf1-805d-e758e6eb925f
+  udp: true
+  network: tcp
+  tls: true
+  sni: aka.ms
+- name: 🇸🇬DP vless-SG-16243126
+  interface-name: eth1
+  type: vless
+  server: 172.64.146.181
+  port: 443
+  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
   udp: true
   network: ws
   tls: true
-  sni: www.microsoft.com
+  sni: sg2-cdn.rip.lgbt
   ws-opts:
-    path: /7b9977b2af9da85fa86adc065c362efe
+    path: /yn-3ba202c6491c
+    headers:
+      Host: sg2-cdn.rip.lgbt
+- name: 🇸🇬DP vless-SG-16242951
+  interface-name: eth1
+  type: vless
+  server: 213.183.45.23
+  port: 8444
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  network: ws
+  tls: true
+  sni: media.plumstatic.com
+  ws-opts:
+    path: /ws
 - name: 🇸🇬DP trojan-SG-16240625
   interface-name: phy0-sta0
   type: trojan
@@ -61,7 +85,7 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 51.79.228.131
   port: 19999
-- name: 🏳DP ss-
+- name: 🇸🇬DP ss-SG-16160175
   interface-name: phy0-sta0
   type: ss
   udp: true
@@ -142,6 +166,20 @@ proxies:
     path: /Telegram-XV2ry2?ed=2048
     headers:
       Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+- name: 🏳DP vless-
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-3510
   interface-name: eth1
   type: vless
@@ -212,20 +250,6 @@ proxies:
     path: /118.151.222.66=17317
     headers:
       Host: kozel.cc.cd
-- name: 🇸🇬DP vless-SG-1746
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-1531
   interface-name: eth1
   type: vless
