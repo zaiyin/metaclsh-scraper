@@ -23,18 +23,6 @@ proxies:
     path: /118.151.222.66=17317fp=chrome
     headers:
       Host: kozel.cc.cd
-- name: 🇸🇬 vless-SG-3510
-  type: vless
-  server: bug.xcp
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  network: ws
-  tls: false
-  udp: true
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
 - name: 🇸🇬 vless-SG-2864
   type: vless
   server: bug.xcp
@@ -47,15 +35,3 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬 vless-SG-1912
-  type: vless
-  server: bug.xcp
-  port: 443
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
-  network: ws
-  tls: true
-  udp: true
-  ws-opts:
-    path: /118.151.222.66=17317
-    headers:
-      Host: kozel.cc.cd
