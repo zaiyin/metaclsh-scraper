@@ -75,14 +75,20 @@ proxies:
   sni: media.plumstatic.com
   ws-opts:
     path: /ws
-- name: 🇸🇬DP trojan-SG-16240625
-  interface-name: phy0-sta0
-  type: trojan
-  server: 77.93.89.2
-  port: 443
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 🇸🇬DP vless-SG-16219840
+  interface-name: eth1
+  type: vless
+  server: 104.16.244.34
+  port: 2053
+  uuid: 97514cec-cf70-42b1-9743-3f89122adc8e
   udp: true
-  sni: bgsg1.hikigo.com
+  network: ws
+  tls: true
+  sni: cffq.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cffq.pages.dev
 - name: 🇸🇬DP vless-SG-16198472
   interface-name: eth1
   type: vless
@@ -229,6 +235,20 @@ proxies:
     headers:
       Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-3429
+  interface-name: eth1
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  network: ws
+  tls: true
+  sni: freeceshi6.frii.site
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-3329
   interface-name: eth1
   type: vless
   server: 172.64.154.113

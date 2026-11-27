@@ -11,6 +11,18 @@ proxies:
     path: /yn-3ba202c6491c
     headers:
       Host: sg2-cdn.rip.lgbt
+- name: 🇸🇬 vless-SG-16219840
+  type: vless
+  server: bug.xcp
+  port: 2053
+  uuid: 97514cec-cf70-42b1-9743-3f89122adc8e
+  network: ws
+  tls: true
+  udp: true
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cffq.pages.dev
 - name: 🇸🇬 vless-SG-9203
   type: vless
   server: bug.xcp
