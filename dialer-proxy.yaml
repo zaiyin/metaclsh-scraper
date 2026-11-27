@@ -151,6 +151,42 @@ proxies:
   network: tcp
   tls: false
   sni: video.yandex.ru
+- name: 🇸🇬DP vmess-SG-7314090
+  interface-name: eth1
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vmess-SG-7297225
+  interface-name: eth1
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp
+- name: 🇸🇬DP vless-SG-9203
+  interface-name: eth1
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  udp: true
+  network: ws
+  tls: false
+  sni: www.gov.se
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬DP vless-SG-7724
   interface-name: eth1
   type: vless
@@ -192,20 +228,34 @@ proxies:
     path: /proxyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: freeceshi6.frii.site
-- name: 🇸🇬DP vless-SG-3251
+- name: 🇸🇬DP vless-SG-3429
   interface-name: eth1
   type: vless
-  server: 104.18.35.86
-  port: 2083
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
   udp: true
   network: ws
   tls: true
-  sni: vlsovip.1d.mom
+  sni: freeceshi6.frii.site
   ws-opts:
-    path: /fp=unsafefp=chrome
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
     headers:
-      Host: vlsovip.1d.mom
+      Host: freeceshi6.frii.site
+- name: 🇸🇬DP vless-SG-3251
+  interface-name: eth1
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  udp: true
+  network: ws
+  tls: false
+  sni: www.gov.se
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬DP vless-SG-2864
   interface-name: eth1
   type: vless
@@ -220,62 +270,6 @@ proxies:
     path: /
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: 🇸🇬DP vless-SG-2776
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇸🇬DP vless-SG-2775
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇸🇬DP vless-SG-2194
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
-    headers:
-      Host: freeceshi6.frii.site
-- name: 🇸🇬DP vless-SG-2137
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: freeceshi6.frii.site
 - name: 🇲🇾DP trojan-MY-15491061
   interface-name: phy0-sta0
   type: trojan
@@ -283,3 +277,14 @@ proxies:
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
   udp: true
+- name: 🇲🇾DP vmess-MY-14164165
+  interface-name: eth1
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+  network: tcp

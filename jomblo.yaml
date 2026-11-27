@@ -11,6 +11,18 @@ proxies:
     path: /yn-3ba202c6491c
     headers:
       Host: sg2-cdn.rip.lgbt
+- name: 🇸🇬 vless-SG-9203
+  type: vless
+  server: bug.xcp
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬 vless-SG-7724
   type: vless
   server: bug.xcp
@@ -23,6 +35,18 @@ proxies:
     path: /118.151.222.66=17317fp=chrome
     headers:
       Host: kozel.cc.cd
+- name: 🇸🇬 vless-SG-3251
+  type: vless
+  server: bug.xcp
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  network: ws
+  tls: false
+  udp: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
 - name: 🇸🇬 vless-SG-2864
   type: vless
   server: bug.xcp
