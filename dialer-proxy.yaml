@@ -41,20 +41,6 @@ proxies:
   network: tcp
   tls: true
   sni: aka.ms
-- name: 🇸🇬DP vless-SG-16243126
-  interface-name: eth1
-  type: vless
-  server: 172.64.146.181
-  port: 443
-  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
-  udp: true
-  network: ws
-  tls: true
-  sni: sg2-cdn.rip.lgbt
-  ws-opts:
-    path: /yn-3ba202c6491c
-    headers:
-      Host: sg2-cdn.rip.lgbt
 - name: 🏳DP vless-
   interface-name: eth1
   type: vless
@@ -129,6 +115,16 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   server: 149.88.107.47
   port: 19999
+- name: 🇸🇬DP vless-SG-16045720
+  interface-name: eth1
+  type: vless
+  server: 134.185.81.5
+  port: 47881
+  uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
+  udp: true
+  network: tcp
+  tls: false
+  sni: www.tesla.com
 - name: 🇸🇬DP vless-SG-16042269
   interface-name: eth1
   type: vless
@@ -252,20 +248,6 @@ proxies:
     path: /
     headers:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
-- name: 🏳DP vless-
-  interface-name: eth1
-  type: vless
-  server: 172.64.154.113
-  port: 8443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-  udp: true
-  network: ws
-  tls: true
-  sni: freeceshi6.frii.site
-  ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: freeceshi6.frii.site
 - name: 🇸🇬DP vless-SG-3429
   interface-name: eth1
   type: vless
